@@ -1,0 +1,11 @@
+{
+  "accentColor": "",
+  "theme": "moonstone",
+  "textFontFamily": "Karla,Product Sans,CMU Serif",
+  "monospaceFontFamily": "JetBrains Mono",
+  "interfaceFontFamily": "Euclid Circular A,Gabriela",
+  "baseFontSize": 18,
+  "cssTheme": "Minimal",
+  "baseFontSizeAction": false,
+  "nativeMenus": false
+}

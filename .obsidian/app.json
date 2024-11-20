@@ -1,0 +1,15 @@
+{
+  "spellcheck": true,
+  "tabSize": 2,
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "useTab": true,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 70
+  },
+  "readableLineLength": false
+}
