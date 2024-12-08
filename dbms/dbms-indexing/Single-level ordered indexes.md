@@ -2,9 +2,9 @@
 
 - Defined on a field or on a combination of fields of a file.
 - Includes entries in the form of   $<\text{Field value}, \text{Pointer}>$. Denoted by $<K(i), P(i)>$ . $P(i)$ can be:
-	- The physical address of a block (or page) in the file.
-	- The record address made up of a block address and a record offset.
-	- A logical address of the block or of the record.
+	- The physical address of a block (or page) in the file. $\equiv$ block pointer
+	- The record address made up of a block address and a record offset. $\equiv$ record pointer.
+	- A logical address of the block or of the record. $\equiv$ virtual memory.
 - The index file is always ordered $\implies$ Time complexity for equality and comparison operator on indexing field is binary search $O(log(n))$ $\implies$ <mark style="background: #e4e62d;">Average block accesses</mark> to access data records: $log_2{b_i}+1$ in which $b_i$ is the number of block of the index file.
 # Primary index
 - Specified on the <mark style="background: #e4e62d;">ordering key field</mark> of an <mark style="background: #ADCCFFA6;">ordered</mark> file of records.
@@ -68,7 +68,7 @@
 ### Pointer list $P(i)$
 - There is one index entry for <mark style="background: #e4e62d;">each distinct value</mark> of the indexed field.
 	- The index key $K(i)$ is the same as that clustering field.
-	- Each entry keeps <mark style="background: #e4e62d;">a list of pointers</mark> $<P(i,1), P(i,2), P(i,3),...,P(i,n)>$ . Each of pointer points to the block or the record containing that indexed field. $\implies$ index entry must be variable-length.
+	- Each entry keeps <mark style="background: #e4e62d;">a list of pointers</mark> $<P(i,1), P(i,2), P(i,3),...,P(i,n)>$ . Each pointer in the pointer list points to the block or the record containing that indexed field. $\implies$ index entry must be variable-length.
 - ![](Pasted%20image%2020241006174351.png)
 ### Indirection index level
 - There is one index entry for <mark style="background: #e4e62d;">each distinct value</mark> of the indexed field:

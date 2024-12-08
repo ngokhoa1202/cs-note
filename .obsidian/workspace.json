@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0d2ff9785cd57057",
+        "id": "29c8e88cf390a4c2",
         "type": "tabs",
         "children": [
           {
-            "id": "d322c175c2a11088",
+            "id": "996279f775f69455",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software-engineering/software-architecture/domain-driven-design/Domain driven design components.md",
+                "file": "dbms/transaction/Concurrency control problems.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Domain driven design components"
-            }
-          },
-          {
-            "id": "4cf961feff20777f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "software-engineering/software-architecture/design-pattern/creational-pattern/Factory Method pattern.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Factory Method pattern"
+              "title": "Concurrency control problems"
             }
           }
         ]
@@ -68,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "modularity",
+                "query": "--ammend",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5
+    "width": 323.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -187,56 +172,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8d7ea544fef7ec3",
+  "active": "996279f775f69455",
   "lastOpenFiles": [
-    "assets/Pasted image 20241117171537.png",
-    "software-engineering/software-architecture/design-pattern/creational-pattern/Factory Method pattern.md",
-    "software-engineering/software-architecture/domain-driven-design/Domain driven design components.md",
-    "assets/Pasted image 20241117171146.png",
-    "assets/Pasted image 20241117170917.png",
-    "assets/Pasted image 20241117165423.png",
-    "software-engineering/software-architecture/domain-driven-design/Layered architecture.md",
-    "software-engineering/software-architecture/design-pattern/behavioral-pattern/Command pattern.md",
-    "software-engineering/software-architecture/design-pattern/Design patterns.md",
-    "software-engineering/software-architecture/design-pattern/creational-pattern/Singleton pattern.md",
-    "software-engineering/software-architecture/domain-driven-design/Domain driven design.md",
-    "software-engineering/software-architecture/principles/SOLID.md",
-    "assets/Pasted image 20241117160436.png",
-    "assets/Pasted image 20241117152624.png",
-    "assets/Pasted image 20241117144933.png",
-    "software-engineering/software-architecture/design-pattern/structural-pattern/Flyweight pattern.md",
-    "assets/Pasted image 20241117142851.png",
-    "assets/Pasted image 20241117142052.png",
-    "assets/Pasted image 20241117124645.png",
-    "assets/Pasted image 20241117124436.png",
-    "programming/principles/Programming paradigms.md",
+    "assets/Pasted image 20241208125731.png",
+    "assets/Pasted image 20241208125218.png",
+    "dbms/transaction/ACID properties of Transaction.md",
+    "dbms/transaction/Transaction processing.md",
+    "dbms/transaction/Concurrency control problems.md",
+    "dbms/query/Algorithm for SELECT and JOIN query.md",
+    "dbms/dbms-architecture/DBMS architecture.md",
+    "operating-system/process/Process.md",
+    "operating-system/process/thread/Thread.md",
+    "operating-system/process/Deadlock.md",
+    "operating-system/process/ipc/Shared memory.md",
+    "operating-system/process/ipc/Remote procedure call.md",
+    "operating-system/process/ipc/Inter Process Communication.md",
+    "programming/javascript/reactjs/nextjs/Type Element is missing the properties.md",
+    "cryptography/rsa/Diffie-Hellman key exchange..md",
+    "programming/javascript/reactjs/nextjs",
+    "cryptography/digital-signature/Elgamal digital signature scheme.md",
+    "cryptography/digital-signature/Digital signature.md",
+    "programming/javascript/reactjs/architecture/Component lifecycle.md",
+    "network/network-layer/Network layer overview.md",
+    "network/network-layer/data-plane/subnet/FLSM.md",
+    "dbms/dbms-indexing/Single-level ordered indexes.md",
+    "network/network-layer/data-plane/subnet/Data plane overview.md",
+    "network/network-layer/data-plane/subnet/NAT.md",
+    "dbms/relational-algebra/Relational algebra examples.md",
+    "dbms/query/External sorting.md",
+    "dbms/query/Algorithm for SELECT query.md",
+    "dbms/dbms-indexing/Static multi-level index.md",
+    "assets/Pasted image 20241130140229.png",
+    "assets/Pasted image 20241130132223.png",
+    "assets/Pasted image 20241130132158.png",
+    "assets/Pasted image 20241130132145.png",
+    "assets/Pasted image 20241130132115.png",
+    "assets/Pasted image 20241130132100.png",
+    "assets/Pasted image 20241130132051.png",
+    "assets/Pasted image 20241130132037.png",
+    "assets/Pasted image 20241130132016.png",
+    "assets/TypeScript Interfaces.pdf",
+    "assets/TypeScript Types.pdf",
+    "cloud-computing",
     "software-engineering/software-architecture/domain-driven-design",
     "software-engineering/software-architecture/principles",
-    "software-engineering/software-architecture/microservice/gRPC.md",
-    "programming/java/quarkus/gRPC for Quarkus.md",
-    "programming/java/hibernate/Persistence lifecycle.md",
-    "algorithm/Recurrence relation.md",
-    "algorithm/Algorithm complexity.md",
-    "algorithm/graph/Bellman-Ford algorithm.md",
-    "algorithm/sorting/Quicksort.md",
-    "algorithm/sorting/Merge sort.md",
-    "algorithm/sorting/Selection sort.md",
-    "algorithm/sorting/Insertion sort.md",
-    "algorithm/graph/Dijkstra algorithm.md",
-    "dbms/dbms-indexing/Dynamic multi-level indexes using B tree or B+ tree.md",
-    "dbms/dbms-indexing/Indexing structures.md",
-    "dbms/dbms-indexing/Single-level ordered indexes.md",
-    "dbms/dbms-indexing/Static multi-level index.md",
     "Untitled.canvas",
     "Excalidraw",
     "project-management/version-control/git/git-rebasing",
     "Untitled 1.canvas",
     "project-management/version-control/git/git-branching",
     "assets/b+ tree-1.pdf",
-    "assets/b+ tree.pdf",
-    "assets/b tree.pdf",
-    "project-management/version-control/git/git-basics",
-    "programming/java/quarkus",
     "network/Untitled.canvas",
     "Untitled 2.canvas",
     "Untitled 4.canvas",

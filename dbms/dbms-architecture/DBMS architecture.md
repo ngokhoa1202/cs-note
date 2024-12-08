@@ -1,4 +1,4 @@
-#dbms #software-engineering #software-architecture #query #optimization #os #file-system #secondary-storage 
+#dbms #software-engineering #software-architecture #query #optimization #os #file-system #secondary-storage #abstract-syntax-tree #compilation 
 
 # Query processing
 - ![600x700](Pasted%20image%2020240907204757.png)

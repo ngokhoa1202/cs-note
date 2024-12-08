@@ -17,9 +17,9 @@
 - Each CPU core can run ==only one process (a thread) at a time==.
 - Each process is considered ==a node in queue== (Linux: linked-list queue). 
 - There are two queues: ready queue and waiting queue. CPU scheduler will ==dispatch== a process in ready queue to CPU ==for execution==.
-## Context switch
+## Context switching
 - The current process $P_0$ is saved into $PCB_0$ 
-- CPU core switches to aother process $P_1$.
+- CPU core switches to another process $P_1$.
 - Before restoring process $P_0$, process $P_1$ is saved into $PCB_1$.
 - CPU core reloads state from $PCB_0$ and reexecutes process $P_0$.
 - ![](Pasted%20image%2020240525162759.png)

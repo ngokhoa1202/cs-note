@@ -1,8 +1,8 @@
 #dbms-design #dbms #erd-diagram 
 
-- Stands for ==Entity-Realationship Diagram==.
+- Stands for ==Entity-Relationship Diagram==.
 - Easily understood by normal user.
-- Doest not involve any technical implementations.
+- Does not involve any technical implementations.
 # Basic notation
 - ![](Pasted%20image%2020240614104537.png)
 ## Note
@@ -13,7 +13,7 @@
 ### Cardinality ratio
 - 1-1.
 - M-N.
-- 1-N
+- 1-N.
 ### Participation constraint
 - Optional participation = Partial participation means that each entity may <mark style="background: #e4e62d;">either join or not join</mark>.
 - Mandatory participation = Total pariticipation means that every entity must join.
@@ -21,7 +21,7 @@
 ## Weak entity
 - Does not have its own key. $\implies$ does have ==partial key==.
 - Must be ==accompanied with its owner== to identify itself.
-- Keep a <mark style="background: #e4e62d;">mandatory participation</mark> contraint with its owner.
+- Keep a <mark style="background: #e4e62d;">mandatory participation</mark> constraint with its owner.
 - ![](Pasted%20image%2020240614105644.png)
 ## Naming convention
 - Noun for entity.
