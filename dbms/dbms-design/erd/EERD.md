@@ -1,4 +1,4 @@
-#dbms #dbms-design #erd-diagram #oop 
+#dbms #dbms-design #erd-diagram #oop #ddd 
 
 - Stands for Enhanced Entity-Relationshop Digram (Enhanced [ERD](ERD.md))
 # Generalization & Specialization

@@ -1,6 +1,5 @@
 #git #github #version-control #project-management #cli #file-system #software-engineering #ide 
 #site-realibility-engineering #project-management #software-architecture 
-
 # Viewing branches
 ## Viewing current branch
 - Run `git branch`
@@ -50,7 +49,11 @@ git push --set-upstream origin master # Push that changed branch to remote serve
 
 ```
 
-
+- Or checkout to a specific branch and use `git branch -m` command.
+```bash
+git checkout <old-branch-name>
+git branch -m <new-branch-name>
+```
 ---
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434

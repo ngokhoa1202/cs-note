@@ -29,8 +29,8 @@
 - Conjunctive selection is also known as AND condition.
 ## Conjunctive selection using an individual index
 - If an attribute involved in any <mark style="background: #e4e62d;">single simple condition</mark> in the conjunctive condition has an access path that permits the use of one of the methods S2 to S6:
-	- use that condition to retrieve the records. 
-	- then check whether each retrieved record satisfies the remaining simple conditions in the conjunctive condition.
+	- use that condition to <mark style="background: #e4e62d;">retrieve the records</mark>. 
+	- then <mark style="background: #e4e62d;">check</mark> whether each retrieved record<mark style="background: #e4e62d;"> satisfies the remaining simple conditions</mark> in the conjunctive condition.
 ## Conjunctive selection using a composite index
 - If two or more attributes are involved in <mark style="background: #e4e62d;">equality conditions</mark> in the conjunctive condition and a composite index (or hash structure) exists on the combined field, the index can be used to access the target record.
 ## Conjunctive selection by intersection of record pointers
