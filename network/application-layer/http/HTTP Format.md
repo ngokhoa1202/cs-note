@@ -24,3 +24,7 @@
 - Status line:
 	- Status code: `200`, `400`,...
 	- Status text: `Forbidden`, `OK`,...
+
+---
+# References
+1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

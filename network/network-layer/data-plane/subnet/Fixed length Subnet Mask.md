@@ -1,6 +1,6 @@
 #subnet #computer-network #network-layer 
 
-- Stands for ==Fixed Length Subnet Mask==.
+- Acronym for FLSM.
 - 
 # Method
 - Given network id (or IP address) $\Rightarrow$ identifies ==subnet class== $\Rightarrow$ Define $p$ is the ==prefix length== of IP address. ([Subnet class](Subnet%20class.md)).
@@ -16,3 +16,5 @@
 
 # References
 1. [Subnet class](Subnet%20class.md) for subnet class.
+2. *HCMUT Computer network Lab slide - Bùi Xuân Giang.*
+3. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

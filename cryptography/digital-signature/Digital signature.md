@@ -8,3 +8,7 @@
 
 # RSA
 [RSA](RSA.md)
+
+---
+# References
+1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).

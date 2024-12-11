@@ -19,4 +19,4 @@
 # Reference
 1. https://cabulous.medium.com/http-3-quic-and-how-it-works-c5ffdb6735b4 for http 3.
 2. https://gcore.com/learning/what-is-http-3/ for comparison.
-	
+3. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

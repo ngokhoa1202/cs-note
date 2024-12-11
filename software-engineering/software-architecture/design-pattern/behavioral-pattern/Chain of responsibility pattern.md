@@ -170,3 +170,8 @@ public class Main {
 - Ensure [Open-closed principle.](SOLID.md#Open-closed%20principle.) because we can add new Concrete Handler without modifying Client code.
 # Disadvantages
 - Some request may end up not being handled because there is ==no specific receiver== ($\equiv$ loose coupling).
+
+---
+# References
+1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Chain of responsibility pattern.

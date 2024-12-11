@@ -14,7 +14,7 @@
 # Concurrency-related problems
 - These problems explain why concurrency control mechanism is needed among DBMSs.
 ## The Lost Update problem
-- This occurs when two transactions that <mark style="background: #e4e62d;">access the same database items</mark> have their operations interleaved in a way that makes the value of some database item incorrect.
+- This occurs when two transactions that <mark style="background: #e4e62d;">access the same database items</mark> have their operations interleaved in a way that makes the value of some database <mark style="background: #e4e62d;">item incorrect</mark>.
 	- read operations and write operations interleave without locking mechanisms.
 - ![](Pasted%20image%2020241208125218.png)
 ## The temporary update (dirty read) problem
@@ -27,7 +27,7 @@
 ## The unrepeatable read problem
 - This occurs when transaction $T$ reads the same item twice and the <mark style="background: #e4e62d;">item is changed</mark> by another transaction $T'$ between the two reads.
 ## The phantom read problem
--  This occurs when a transaction re-executes a <mark style="background: #e4e62d;">query</mark> returning a **set of rows** that satisfy a certain condition and finds that the set has <mark style="background: #e4e62d;">additional or fewer rows</mark> than it had during an earlier execution of the <mark style="background: #e4e62d;">same query</mark> $\equiv$ a phantom. This happens because another transaction **i<mark style="background: #e4e62d;">nserted or deleted** rows that affect the query’s result</mark> between the transaction’s two executions.
+-  This occurs when a transaction re-executes a <mark style="background: #e4e62d;">query</mark> returning a **set of rows** that satisfy a certain condition and finds that the set has <mark style="background: #e4e62d;">additional or fewer rows</mark> than it had during an earlier execution of the <mark style="background: #e4e62d;">same query</mark> $\equiv$ a phantom. This happens because another transaction **<mark style="background: #e4e62d;">inserted or deleted rows that affect the query’s result</mark> between the transaction’s two executions.
 
 --- 
 # References

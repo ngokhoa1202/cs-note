@@ -26,3 +26,7 @@
 - Central directory to ==store public key==.
 - Any user granted permission can access directory to gain public key and generate his own private key.
 - Does not support replay attacks.
+
+---
+# References
+1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).

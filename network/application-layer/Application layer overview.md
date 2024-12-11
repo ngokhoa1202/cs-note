@@ -9,3 +9,7 @@
 
 ![](Pasted%20image%2020240512092036.png)
 ==Real-time apps== may employ UDP, ignores reliable data transfer service from TCP.
+
+---
+# References
+1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

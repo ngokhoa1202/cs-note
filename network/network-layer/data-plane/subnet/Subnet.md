@@ -26,7 +26,7 @@
 
 # Establish Subnet masks
 ## FLSM
-[FLSM](FLSM.md)
+[Fixed length Subnet Mask](Fixed%20length%20Subnet%20Mask.md)
 
 ## VLSM
 

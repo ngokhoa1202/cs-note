@@ -1,4 +1,4 @@
-#cloud  #software-engineering #software-architecture 
+#cloud  #software-engineering #software-architecture #secondary-storage 
 
 # Private cloud
 - Also known as on-premise.

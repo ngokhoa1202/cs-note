@@ -32,3 +32,7 @@ $$v = [(g^{u_1}y^{u_2}) \space mod \space p] \space mod \space q$$  Check if $r'
 # Advantage 
 - More lightweight than RSA.
 - Less computational overhead.
+
+---
+# References
+1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).

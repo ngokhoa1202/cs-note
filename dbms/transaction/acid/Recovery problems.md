@@ -36,6 +36,7 @@
 > Cascading rollback is the case such that the rolling-back of transaction $T_1$ makes transaction $T_2$ rollback and so on.
 
 - <mark style="background: #e4e62d;">Strict</mark> protocols for recovery require simpler WRITE entries that <mark style="background: #e4e62d;">do not include new_value</mark>.
+- [Recoverability](Recoverability.md)
 ### Example
 - ![](Pasted%20image%2020241208150326.png)
 - ![](Pasted%20image%2020241208150422.png)
@@ -55,4 +56,5 @@
 2. *HCMUT Advanced DBMS Slide - Lê Thị Bảo Thu.*
 3. *HCMUT Advanced DBMS Slide - Võ Thị Ngọc Châu*.
 4. [Transaction processing](Transaction%20processing.md) 
+5. [Recoverability](Recoverability.md)
 

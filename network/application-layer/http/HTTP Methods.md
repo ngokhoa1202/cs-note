@@ -77,4 +77,5 @@
 4. https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/DELETE for HTTP Delete.
 5. https://developer.mozilla.org/en-US/docs/Glossary/Idempotent for Idempotent method.
 6. https://developer.mozilla.org/en-US/docs/Web/HTTP/Methods/OPTIONS for HTTP Options.
-7. 
+7. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.
+

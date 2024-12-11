@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "29c8e88cf390a4c2",
+        "id": "66cbd28559977df5",
         "type": "tabs",
         "children": [
           {
-            "id": "996279f775f69455",
+            "id": "bfd3a5e433d35245",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbms/transaction/schedule/Recoverability.md",
+                "file": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Recoverability"
+              "title": "Two-phase locking protocol"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#loggin",
+                "query": "Operating system",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 263.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -119,10 +119,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dbms/dbms-indexing/Static multi-level index.md"
+                "file": "dbms/transaction/schedule/Serializability.md"
               },
               "icon": "lucide-list",
-              "title": "Outline of Static multi-level index"
+              "title": "Outline of Serializability"
             }
           },
           {
@@ -131,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "project-management/version-control/git/git-rebasing/Rebasing.md",
+                "file": "dbms/transaction/acid/concurrency-control/Concurrency control techniques.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Rebasing"
+              "title": "Backlinks for Concurrency control techniques"
             }
           },
           {
@@ -169,57 +169,58 @@
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "996279f775f69455",
+  "active": "bfd3a5e433d35245",
   "lastOpenFiles": [
-    "dbms/transaction/acid/Transaction processing.md",
+    "dbms/transaction/acid/concurrency-control/Locking operations.md",
+    "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md",
+    "dbms/transaction/acid/concurrency-control/Concurrency control problems.md",
     "dbms/transaction/schedule/Recoverability.md",
-    "dbms/transaction/acid/Concurrency control problems.md",
-    "assets/Pasted image 20241209092301.png",
-    "assets/Pasted image 20241209093840.png",
-    "assets/Pasted image 20241209093540.png",
-    "assets/Pasted image 20241209092529.png",
-    "assets/Pasted image 20241209092058.png",
+    "assets/Pasted image 20241211105853.png",
+    "assets/Pasted image 20241211105835.png",
+    "dbms/transaction/schedule/Serializability.md",
+    "dbms/dbms-architecture/File organization.md",
+    "assets/Pasted image 20241211100321.png",
+    "assets/Pasted image 20241211100132.png",
+    "dbms/transaction/acid/Transaction processing.md",
+    "dbms/postgresql/Installation.md",
+    "assets/Pasted image 20241210173009.png",
+    "dbms/transaction/acid/Recovery problems.md",
+    "dbms/transaction/acid/concurrency-control",
+    "assets/Pasted image 20241210173027.png",
+    "assets/Pasted image 20241210173018.png",
+    "assets/Pasted image 20241210172959.png",
+    "algebra/abstract-algebra/Integer ring.md",
+    "number-theory/Euler's Phi function.md",
+    "number-theory/Extended Euclidean algorithm.md",
+    "number-theory/Fermat's little theorem.md",
+    "number-theory/Primitive root - Discrete Logarithm.md",
+    "cloud-computing/cloud-provider/paas/Redhat Openshift.md",
+    "cloud-computing/Platform as a Service.md",
+    "cloud-computing/cloud-provider/iaas/Amazon Web Services.md",
+    "cybersecurity/cloud-security/Cloud computing.md",
+    "cloud-computing/Cloud Foundry.md",
+    "cloud-computing/cloud-provider/paas",
+    "cloud-computing/cloud-provider/iaas",
+    "cloud-computing/Cloud deployment model.md",
+    "cloud-computing/Infrastructure as a Service.md",
+    "cloud-computing/cloud-provider/iaas/Google Cloud Platform.md",
+    "cloud-computing/cloud-provider/OpenStack.md",
+    "cloud-computing/cloud-provider/iaas/Digital Ocean.md",
+    "cloud-computing/cloud-provider/iaas/Azure.md",
+    "cloud-computing/cloud-provider",
+    "algorithm/Pasted image 20241209142236.png",
+    "algorithm/Pasted image 20241209142213.png",
     "dbms/transaction/schedule",
     "dbms/transaction/acid",
-    "dbms/transaction/acid/Recovery problems.md",
-    "dbms/transaction/ACID properties of Transaction.md",
-    "project-management/version-control/git/git-branching/Branch management.md",
-    "assets/Pasted image 20241208150503.png",
-    "assets/Pasted image 20241208150451.png",
-    "assets/Pasted image 20241208150422.png",
-    "assets/Pasted image 20241208150326.png",
-    "dbms/dbms-architecture/Disk storage.md",
-    "assets/Pasted image 20241208133944.png",
-    "operating-system/process/ipc/Remote procedure call.md",
-    "operating-system/process/ipc/Message passing.md",
-    "operating-system/process/thread/Thread.md",
-    "operating-system/process/Deadlock.md",
-    "dbms/query/Algorithm for SELECT and JOIN query.md",
-    "dbms/query/External sorting.md",
-    "dbms/relational-algebra/Relational Algebra.md",
-    "dbms/relational-algebra/Relational algebra examples.md",
-    "dbms/dbms-architecture/File organization.md",
-    "dbms/dbms-architecture/Record structure.md",
-    "dbms/dbms-architecture/DBMS architecture.md",
-    "dbms/dbms-indexing/Single-level ordered indexes.md",
-    "dbms/dbms-indexing/Indexing structures.md",
-    "dbms/dbms-indexing/Dynamic multi-level indexes using B tree or B+ tree.md",
-    "dbms/dbms-design/erd/EERD.md",
-    "dbms/dbms-architecture/Three-tier architecture.md",
-    "dbms/query/Algorithm for SELECT query.md",
-    "operating-system/process/Process.md",
     "programming/javascript/reactjs/nextjs",
     "assets/TypeScript Interfaces.pdf",
     "assets/TypeScript Types.pdf",
     "cloud-computing",
-    "software-engineering/software-architecture/domain-driven-design",
-    "software-engineering/software-architecture/principles",
     "Untitled.canvas",
-    "Excalidraw",
-    "project-management/version-control/git/git-rebasing",
     "Untitled 1.canvas",
     "network/Untitled.canvas",
     "Untitled 2.canvas",

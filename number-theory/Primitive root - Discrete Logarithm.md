@@ -13,5 +13,5 @@
 
 - Given $n>1, gcd(a,n)=1$, $k$ is smallest integer so that $a^k \equiv 1 (mod \space n) \iff ord_n(a)=k$ . $k$ is order of $a$ modulo $n$ => ==chu kỳ lặp lại của phép modulo== $n$ cho số $a$ bất kỳ.
 
-- Primitive root <=> chu kỳ lặp lại của phép modulo là ==$\phi(n)$==. If n is prime, then $n-1$ .
+- Primitive root <=> chu kỳ lặp lại của phép modulo là ==$\phi(n)$==. If n is prime, then  $ord_n(a)=n-1$ .
 - 

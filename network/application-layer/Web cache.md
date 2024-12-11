@@ -12,3 +12,7 @@
 - ==Does not send request== if browser has already ==cached objects==.
 - Header `If-Modified-Since: `=> check header.
 - If not modified and browser caches objects, server responses `HTTP 304 Not Modified` and forwards to proxy server.
+
+---
+# References
+1. Computer Networking A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

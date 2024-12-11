@@ -1,5 +1,6 @@
 #cloud #cybersecurity #web #client-server #computer-network 
 
+
 # Concepts
 ![](Pasted%20image%2020240513082725.png)
 ## Characteristics
@@ -9,16 +10,22 @@
 - On-demand self-service => availability.
 - ==Resource pooling== => availability + reliability + resilience + (security)?
 ## Service models
-- ==SaaS== => application.
+## Software as a Service - SaaS
+- SaaS means a whole application.
+- Examples:
 	- Google Workspace.
 	- Salesforce.
 	- Microsoft Office 365.
-- ==PaaS== => middleware + application.
+## Platform as a Service - PaaS
+- ==PaaS== means middleware and application which is on a deeper layer.
+- Examples:
 	- Microsoft Azure App Service.
 	- Google App Engine.
 	- Heroku.
 	- AWS Elastic Beanstalk.
-- ==IaaS== => physical storage (virtualized machine) + network + middleware + application (almost everything).
+## Infrastructure as a Service - IaaS 
+- ==IaaS== means physical storage ( or virtualized machine), network interfaces, middleware and application (almost everything).
+- Examples:
 	- Amazon Web Service EC2.
 	- Microsoft Azure Virtual Machines.
 	- Google Compute Engine.
@@ -41,3 +48,7 @@
 - All records in cloud server must be encrypted before stored.
 - The server itself does not own encryption key, the client with permission stores a copy of encryption key.
 - Encryption means that some specific queries must be changed (e.g: encrypted data do not maintain ordering of number).
+
+---
+# References
+1. 
