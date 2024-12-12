@@ -40,9 +40,10 @@
 - [Recovery problems](Recovery%20problems.md)
 ---
 # References
-1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
+1. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):*
 	1. Chapter 20 - Section 1.
 2. *HCMUT Advanced DBMS Slide - Le Thi Bao Thu.*
 3. HCMUT Advanced DBMS Slide - Vo Thi Ngoc Chau.
 4. [Concurrency control problems](Concurrency%20control%20problems.md)
-5. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.
+5. [Recovery problems](Recovery%20problems.md)
+6. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.

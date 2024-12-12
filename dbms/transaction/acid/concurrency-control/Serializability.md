@@ -30,9 +30,9 @@
 - In such a case, we can<mark style="background: #e4e62d;"> reorder</mark> the non-conflicting operations in S <mark style="background: #e4e62d;">until we form the equivalent serial</mark> schedule $S'$
 
 ## Serializability testing
-- Use a precedence graph (aka serialization graph)
-- A schedule $S$ is <mark style="background: #e4e62d;">serializable</mark> if and only if its precedence graph has <mark style="background: #e4e62d;">no cycles</mark>.
-### Representation
+### Precedence graph
+- Also known as serialization graph.
+#### Representation
 - Given a directed graph $G=(N,E)$:
 	- $N$ is the set of transactions (nodes).
 	- $E$ is the set of <mark style="background: #e4e62d;">precedence</mark> relationships between transactions:
@@ -46,7 +46,9 @@
 >[!Note]
 >An edge $e$ is not drawn only when read_item(X) follows read_item(X)
 >
-
+#### Implication
+- A schedule $S$ is <mark style="background: #e4e62d;">serializable</mark> if and only if its precedence graph has <mark style="background: #e4e62d;">no cycles</mark>.
+- The precedence also represents the <mark style="background: #e4e62d;">topological order</mark> of transaction. The equivalent serial schedule must obey this order.
 ## Examples
 - ![](Pasted%20image%2020241210172959.png)
 - ![](Pasted%20image%2020241210173009.png)

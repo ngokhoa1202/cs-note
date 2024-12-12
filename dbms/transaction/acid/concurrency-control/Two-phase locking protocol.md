@@ -1,7 +1,10 @@
 #transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid #process-synchronization 
 
 - From [Serializability](Serializability.md), a serializable schedule is a correct schedule.
+- [Multi-mode locks](Locking%20operations.md#Multi-mode%20locks) is employed for two-phase locking protocol.
+- Two-phase locking protocols make schedules <mark style="background: #e4e62d;">serializable</mark>, but <mark style="background: #e4e62d;">not deadlock-free</mark>.
 # Two-phase locking protocol
+- Also known as 2PL.
 - A transaction follows the two-phase locking protocol if all locking operations <mark style="background: #e4e62d;">precede the first unlock</mark> operation in the transaction.
 - Such a transaction has two phases:
 	- <mark style="background: #e4e62d;">Expanding phase</mark>: Acquiring new locks without any release.
@@ -16,18 +19,17 @@
 - [Two-phase locking protocol](#Two-phase%20locking%20protocol)
 ## Conservative 2PL
 - Also known as static 2PL.
-- A transaction locks all the items it accesses before the transaction begin execution, by <mark style="background: #e4e62d;">predeclaring</mark> its read-set and write-set. If any of the predeclared items needed cannot be locked, the transaction <mark style="background: #e4e62d;">waits</mark> until all items are available.
+- A transaction <mark style="background: #e4e62d;">locks</mark> all the items it accesses <mark style="background: #e4e62d;">before the transaction begin</mark> execution, by <mark style="background: #e4e62d;">predeclaring</mark> its read-set and write-set. If any of the predeclared items needed cannot be locked, the transaction <mark style="background: #e4e62d;">waits</mark> until all items are available.
 - This is a deadlock-free protocol.
 >[!Note]
 >Read set is the set of items that the transaction would read.
 >Write set is the set of items that the transaction would write.
->Static 2PL means predeclaration.
+>Static 2PL means read-set and write-set predeclaration.
 
 ## Strict 2PL
 - Most well-known among DBMSs.
 - A transaction T does <mark style="background: #e4e62d;">not release</mark> any of its <mark style="background: #e4e62d;">exclusive (write) locks until after it commits</mark> or aborts. 
-- Hence, no other transaction can read or write an item that is written by T unless T has committed, leading to a
-[Strict schedule](Recoverability.md#Strict%20schedule) for recoverability. 
+- Hence, no other transaction can read or write an item that is written by T unless T has committed, leading to a [Strict schedule](Recoverability.md#Strict%20schedule) for recoverability. 
 - This is not deadlock-free.
 ## Rigorous 2PL
 - Rigorous 2PL is an extension of [Strict 2PL](#Strict%202PL)
@@ -35,7 +37,6 @@
 - Hence, no other transaction can read or write an item that is written by T unless T has committed, leading to a
 [Strict schedule](Recoverability.md#Strict%20schedule) for recoverability.
 - This is not deadlock-free.
-
 
 ---
 # References
@@ -48,3 +49,6 @@
 5. *HCMUT Advanced DBMS Slide - Lê Thị Bảo Thu.*
 6. HCMUT Advanced DBMS Slide - Võ Thị Ngọc Châu.
 7. [Serializability](Serializability.md)
+8. [Locking operations](Locking%20operations.md)
+9. [Deadlock](dbms/transaction/acid/concurrency-control/Deadlock.md) for DBMS transaction deadlock.
+10. [Deadlock](operating-system/process/Deadlock.md) for OS processes' deadlock.

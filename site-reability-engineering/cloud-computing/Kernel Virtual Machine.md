@@ -1,8 +1,9 @@
 #kvm #cloud #site-realibility-engineering #virtualization 
 
+- A hypervisor is necessary to run a virtual machine.
 # Kernel virtual machine
-- KVM (for Kernel-based Virtual Machine) is a full virtualization solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). 
-- KVM is a loadable virtualization module of the Linux kernel and it converts the kernel into a hypervisor capable of managing guest Virtual Machines. 
+- KVM (for Kernel-based Virtual Machine) is a full <mark style="background: #e4e62d;">virtualization</mark> solution for Linux on x86 hardware containing virtualization extensions (Intel VT or AMD-V). 
+- KVM is a <mark style="background: #e4e62d;">loadable virtualization module</mark> of the Linux kernel and it converts the kernel into a hypervisor capable of managing guest Virtual Machines. 
 - Specific hardware virtualization extensions supported by most modern processors, such as Intel VT and AMD-V, have to be available and enabled for processors to support KVM. Although originally designed for the x86 hardware, it has also been ported to FreeBSD, S/390, PowerPC, IA-64, and ARM as well.
 - ![](Pasted%20image%2020241128150754.png)
 # KVM's features

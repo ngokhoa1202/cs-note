@@ -13,6 +13,7 @@
 - Only retrieve a single record.
 - If the selection condition involves an equality comparison on a key attribute with a primary index (or a hash key), use the primary index (or the hash key) to retrieve the record.
 ## Using primary index to retrieve multiple records
+- Retrieve multiple records.
 - If the <mark style="background: #e4e62d;">comparison conditio</mark>n is $>, <, \leq, \geq$ on a key field with a primary index, use the index to find the record satisfying the corresponding equality condition, then retrieve all subsequent records in the (ordered) file.
 ## Using a clustering index to retrieve multiple records
 -  If the selection condition involves an <mark style="background: #e4e62d;">equality comparison on a nonkey attribute</mark> with a clustering index.
@@ -22,8 +23,10 @@
 	- retrieve multiple records if the indexing field is not a key.
 	- retrieve multiple records on the comparison condition $>,<,\leq,\geq$ (range queries).
 ## Using a bitmap index
+- Retrieve multiple records.
 - If the selection condition involves <mark style="background: #e4e62d;">a set of limited values</mark> for an attribute, the corresponding bitmaps for each value can be <mark style="background: #e4e62d;">OR-ed</mark> to give the set of record identifiers that qualify.
 ## Using a functional index
+- Retrieve multiple records.
 - If there is a functional index defined, this index can be used to retrieve all the records that qualify.
 # Search methods for Conjunctive selection
 - Conjunctive selection is also known as AND condition.

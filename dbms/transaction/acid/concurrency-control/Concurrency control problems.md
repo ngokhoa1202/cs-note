@@ -29,6 +29,7 @@
 ## The phantom read problem
 -  This occurs when a transaction re-executes a <mark style="background: #e4e62d;">query</mark> returning a **set of rows** that satisfy a certain condition and finds that the set has <mark style="background: #e4e62d;">additional or fewer rows</mark> than it had during an earlier execution of the <mark style="background: #e4e62d;">same query</mark> $\equiv$ a phantom. This happens because another transaction **<mark style="background: #e4e62d;">inserted or deleted rows that affect the query’s result</mark> between the transaction’s two executions.
 
+
 --- 
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
@@ -38,3 +39,7 @@
 4. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.
 5. https://medium.com/@salimian/phantom-reads-the-hidden-problem-in-your-db-and-how-to-prevent-it-by-selecting-the-best-isolation-7ec74f966156 for phantom read concepts.
+6. [Two-phase locking protocol](Two-phase%20locking%20protocol.md)
+7. [Locking operations](Locking%20operations.md)
+8. [Deadlock](dbms/transaction/acid/concurrency-control/Deadlock.md)
+9. 

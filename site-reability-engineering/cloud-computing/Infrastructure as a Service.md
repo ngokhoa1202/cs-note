@@ -2,6 +2,9 @@
 
 # Concepts
 - _Infrastructure as a Service_ (IaaS) is a cloud service model that provides <mark style="background: #e4e62d;">on-demand physical and virtual computing resources</mark>, storage, network, firewall, and load <mark style="background: #e4e62d;">balancers</mark>. 
+	- bare-metal servers.
+	- virtual machines.
+	- computing resources...
 - To provide virtual computing resources, IaaS uses <mark style="background: #e4e62d;">hypervisors</mark>, such as Xen, KVM, VMware ESXi, Hyper-V, or Nitro.
 - IaaS enables developers to provision and destroy isolated test environments as needed, when needed, quickly, and safely.
 # Examples
@@ -19,3 +22,5 @@
 ---
 # References
 1. https://en.wikipedia.org/wiki/Hypervisor
+2. https://en.wikipedia.org/wiki/Bare-metal_server\
+3. 

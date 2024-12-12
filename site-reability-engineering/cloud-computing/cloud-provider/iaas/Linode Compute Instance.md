@@ -11,8 +11,6 @@ Linode combines a diverse set of offerings with the user friendliness of an easy
 - High Memory Plans are optimized for memory intensive use cases such as in-memory databases and caching, and big data processing.
 - GPU Plans, based on NVIDIA RTX 6000 hardware, are suited for complex parallel processing needs, AI, ML, big data analysis, and graphics/video processing.
 # Benefits
-Key benefits of using Linode Compute Instances are:
-
 - It is an easy-to-use IaaS solution.
 	- It is flexible and scalable.
 	- It provides a rich variety of Linux distributions as guest OSes.
