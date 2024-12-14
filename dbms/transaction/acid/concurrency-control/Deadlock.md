@@ -1,5 +1,6 @@
 #transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process
 #software-architecture #software-architecture #computer-architecture  #acid #process-synchronization #deadlock
+#graph-theory 
 
 # Deadlock
 - Deadlocks forms when two or more transactions wait for one another.

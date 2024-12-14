@@ -115,3 +115,34 @@ Key features of Kubernetes are:
 - It eliminates infrastructure lock-in by providing core capabilities for containers without imposing restrictions.
 - It supports application deployments and updates at scale. 
 - It supports cluster topology aware routing of traffic to service endpoints.
+# Kubernetes Hosted Solutions and Platforms
+Kubernetes, the most popular container orchestrator, can be deployed anywhere, both on-premises or in the public cloud. If we are deploying it on-premises, then our Kubernetes administrators would have to perform all the Kubernetes management tasks to upgrade the cluster or backup resources. For public cloud deployments, we have different options. For instance, we can self-manage our own cluster in the public cloud or opt for hosted (managed) Kubernetes services where all the management tasks would be performed by the cloud services providers. There are several hosted solutions available for Kubernetes, including:
+
+- [Amazon Elastic Kubernetes Service (Amazon EKS)](https://aws.amazon.com/eks/)  
+    Offers a managed Kubernetes service on AWS. 
+- [Azure Kubernetes Service (AKS)](https://azure.microsoft.com/en-us/services/kubernetes-service/)  
+    Offers managed Kubernetes clusters on Microsoft Azure. 
+- [Google Kubernetes Engine (GKE)](https://cloud.google.com/kubernetes-engine/)  
+    Offers managed Kubernetes clusters on Google Cloud Platform. 
+- [IBM Cloud Kubernetes Service](https://www.ibm.com/cloud/kubernetes-service)   
+    Fully managed Kubernetes service at scale, providing continuous availability and high availability, multi-zone, and multi-region clusters. 
+- [NetApp Project Astra](https://cloud.netapp.com/astra) (fusion between NetApp and Stackpoint.io)   
+    Provides Kubernetes infrastructure automation and management for multiple public clouds optimized for stateful application data lifecycle management. 
+- [Oracle Container Engine for Kubernetes (OKE)](https://www.oracle.com/cloud-native/container-engine-kubernetes/)  
+    Enterprise-grade Kubernetes service offering highly available clusters optimized to run on Oracle Cloud Infrastructure. 
+- [Red Hat OpenShift](https://cloud.redhat.com/learn/what-is-openshift)   
+    Offers managed Kubernetes clusters powered by Red Hat on various cloud infrastructures such as AWS, GCP, Microsoft Azure, and IBM Cloud. 
+- [Vultr Kubernetes Engine (VKE)](https://www.vultr.com/kubernetes/)  
+    A managed Kubernetes service integrated with Vultr cloud load balancers and storage services.
+- [VMware Tanzu Kubernetes Grid (TKG)](https://tanzu.vmware.com/kubernetes-grid)  
+    An enterprise-grade multi-cloud Kubernetes service that runs both on-premises in vSphere and in the public cloud. 
+
+In addition to hosted solutions, the managed Kubernetes Platform solutions have also grown in popularity. With this approach, vendors of Kubernetes services provide a managed Kubernetes environment flexible enough to be deployed on any public cloud, multi-cloud, or on-premises/private cloud, eliminating the vendor lock-in which has been troubling many users of the hosted Kubernetes solutions. Several Kubernetes platforms are listed below:
+
+- [Managed Kubernetes](https://ubuntu.com/kubernetes/managed) by Canonical, a Kubernetes as a Service offering with built-in monitoring, analytics, security and compliance, optimized for multi-cloud deployment.
+- [D2iQ Enterprise Kubernetes Platform](https://d2iq.com/kubernetes-platform) (DKP) is a managed Kubernetes service that incorporates features of [DC/OS](https://dcos.io/). 
+- [Kubermatic Kubernetes Platform](https://www.kubermatic.com/products/kubermatic/) automates Kubernetes cluster management on-premises and in the public cloud.
+- [Mirantis Kubernetes Engine](https://www.mirantis.com/software/mirantis-kubernetes-engine/), an Enterprise Kubernetes Platform, formerly Docker Enterprise, manages containerized workloads on any infrastructure.
+- [Platform9 Managed Kubernetes](https://platform9.com/managed-kubernetes/) (PMK) is a managed SaaS that simplifies Kubernetes management on-premises and in the public cloud.
+- [Rackspace Managed Platform for Kubernetes](https://www.rackspace.com/cloud/kubernetes) (MPK) - Powered by Platform9 Managed Kubernetes (PMK) solution, is a Kubernetes as a Service offering built-in monitoring, alerting, security management, infrastructure as code (IaC) to provision the entire stack. It is a flexible, cross-cloud portable solution.
+- [Rancher Kubernetes Engine](https://www.rancher.com/products/rke) (RKE) is a Kubernetes distribution that runs in containers on any platform.

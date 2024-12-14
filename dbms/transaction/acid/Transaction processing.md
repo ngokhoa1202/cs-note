@@ -4,7 +4,7 @@
 - A  transaction is a <mark style="background: #e4e62d;">logical</mark> , <mark style="background: #e4e62d;">atomic</mark> unit of work in DBMS that should either be completed in its entirety or not done at all
 	- read-only transactions vs read-write transactions.
 	- transaction boundaries: `begin` ... `end`
-- <mark style="background: #e4e62d;">Granularity</mark> of a data item is the size of that data item within a transaction such as a field, a record, a table, or a disk block. $\rightarrow$ <mark style="background: #e4e62d;">tầm vực, độ mịn</mark> của dữ liệu.
+- <mark style="background: #e4e62d;">Granularity</mark> of a data item is the <mark style="background: #e4e62d;">size</mark> of that data item within a transaction such as a field, a record, a table, or a disk block. $\rightarrow$ <mark style="background: #e4e62d;">tầm vực, độ mịn, kích thước</mark> của dữ liệu.
 ## Transaction states
 - ![](Pasted%20image%2020241208133944.png)
 ## Transaction basic operations
@@ -34,10 +34,24 @@
 - A transaction should appear <mark style="background: #e4e62d;">as though</mark> it is being executed <mark style="background: #e4e62d;">in isolation</mark> from other transaction. That is, the execution of a transaction <mark style="background: #e4e62d;">should not be interfered</mark> with by any other transaction executing concurrently.
 ## Durability
 - Once a transaction changes the database and the changes are committed, these changes <mark style="background: #e4e62d;">must never be lost</mark> because of subsequent failure.
-# Concurrency control problems
+# Transaction schedule
+## Serializability
+- [Serializability](Serializability.md)
+## Recoverability
+- [Recoverability](Recoverability.md)
+# Concurrency control
+## Concurrency control problems
 - [Concurrency control problems](Concurrency%20control%20problems.md)
-# Recovery problems
-- [Recovery problems](Recovery%20problems.md)
+## Concurrency control techniques
+### Two-phase locking protocol
+- [Two-phase locking protocol](Two-phase%20locking%20protocol.md)
+### Timestamp-based concurrency control
+- [Timestamp-ordering based concurrency control](Timestamp-ordering%20based%20concurrency%20control.md)
+### Multiversion concurrency control techniques
+- [Multiversion concurrency control techniques](Multiversion%20concurrency%20control%20techniques.md)
+### Optimistic concurrency control techniques
+- [Optimistic Concurrency control techniques](Optimistic%20Concurrency%20control%20techniques.md)
+
 ---
 # References
 1. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):*
@@ -47,3 +61,9 @@
 4. [Concurrency control problems](Concurrency%20control%20problems.md)
 5. [Recovery problems](Recovery%20problems.md)
 6. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.
+7. [Serializability](Serializability.md)
+8. [Recoverability](Recoverability.md)
+9. [Multiversion concurrency control techniques](Multiversion%20concurrency%20control%20techniques.md)
+10. [Optimistic Concurrency control techniques](Optimistic%20Concurrency%20control%20techniques.md)
+11. [Timestamp-ordering based concurrency control](Timestamp-ordering%20based%20concurrency%20control.md)
+12. 

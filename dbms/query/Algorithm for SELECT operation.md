@@ -1,6 +1,8 @@
-#dbms #relational-algebra #relational-model #relational-mapping #rdbms #query #algorithm
+#dbms #relational-algebra #relational-model #relational-mapping #rdbms #query #algorithm 
 #secondary-storage 
 
+- Refers to [Relational Algebra](Relational%20Algebra.md).
+- Refers to [Indexing structures](Indexing%20structures.md).
 # Search method for Simple Selection
 ## Linear search
 - Also known as brute-force approach.

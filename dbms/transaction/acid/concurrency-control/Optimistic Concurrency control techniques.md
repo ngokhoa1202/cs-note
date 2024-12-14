@@ -14,7 +14,7 @@
 	- $T_j$ completes its write phase before $T_i$ starts its read phase.
 	- $T_i$ starts its write phase after $T_j$ completes its write phase, and the read_set of $T_i$ has no items in common with the write_set of $T_j$. 
 	- $T_j$ completes its read phase before $T_i$ completes its read phase, and both the read_set and write_set of $T_i$ have no items in common with the write_set of $T_j$, 
-- If none of the three conditions hold, $T_i$ may interfere $T_j$ and therefore, $T_i$ is aborted.
+- If none of the three conditions hold, $T_i$ is likely to interfere $T_j$ and therefore, $T_i$ is aborted.
 ## Write phase
 - On a successful validation transactions’ updates are applied to the database; otherwise, transactions are restarted.
 

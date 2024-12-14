@@ -43,6 +43,9 @@
 - ![](Pasted%20image%2020241208150503.png)
 
 ## Recovery using log records
+- ![](Pasted%20image%2020241214104410.png)
+- ![](Pasted%20image%2020241214104429.png)
+- 
 ### Undo
 - Trace <mark style="background: #e4e62d;">backwards</mark> through the log and resetting all items changed by a <mark style="background: #e4e62d;">write operation </mark>of $T$ to their old_values.
 ### Redo
