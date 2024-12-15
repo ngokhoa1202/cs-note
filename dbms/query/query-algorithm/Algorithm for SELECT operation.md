@@ -8,7 +8,7 @@
 - Also known as brute-force approach.
 - Retrieve <mark style="background: #e4e62d;">every record</mark> in the file, and test whether its attribute values satisfy the selection condition.
 - Applicable for all cases.
-## Binary search on key
+## Binary search on unique attribute
 - Only retrieve a <mark style="background: #e4e62d;">single record</mark>.
 - If the selection condition involves an <mark style="background: #e4e62d;">equality comparison on a key attribute</mark> on which the file is ordered, binary search (which is more efficient than linear search) can be used.
 ## Using primary index or hash key
@@ -21,7 +21,7 @@
 -  If the selection condition involves an <mark style="background: #e4e62d;">equality comparison on a nonkey attribute</mark> with a clustering index.
 ## Using a secondary (B+ tree) index on an equality condition
 - This search method can be used to:
-	- retrieve a single record if the indexing field is a key (has unique values).
+	- retrieve a single record if the indexing field is a key (has unique values). (1)
 	- retrieve multiple records if the indexing field is not a key.
 	- retrieve multiple records on the comparison condition $>,<,\leq,\geq$ (range queries).
 ## Using a bitmap index
