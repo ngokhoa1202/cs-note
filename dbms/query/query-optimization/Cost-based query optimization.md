@@ -5,12 +5,12 @@
 # Symbol
 - $x$: the number of index levels.
 - $CSi$: Cost for method Si in block accesses
-- $rX$: Number of records (tuples) in a relation $X$.
-- $bX$: Number of blocks occupied by relation X (also referred to as $b$).
-- $bfrX$: Blocking factor (i.e., number of records per block) in relation X
-- $slA$: Selectivity of an attribute A for a given condition
-- $sA$: Selection cardinality of the attribute being selected (= $slA \times r) \times A$: Number of levels of the index for attribute $A$
-- $bI1A$: Number of first-level blocks of the index on attribute A
+- $r_X$: Number of records (tuples) in a relation $X$.
+- $b_X$: Number of blocks occupied by relation X (also referred to as $b$).
+- ${bfr}_X$: Blocking factor (i.e., number of records per block) in relation X
+- ${sl}_A$: Selectivity of an attribute A for a given condition
+- $s_A$: Selection cardinality of the attribute being selected (= $slA \times r) \times A$: Number of levels of the index for attribute $A$
+- $b_{I1A}$: Number of first-level blocks of the index on attribute A
 - $NDV (A, X)$: Number of distinct values of attribute A in relation X
 # Cost function
 - The unit of cost function is <mark style="background: #e4e62d;">one block access</mark>.
@@ -65,9 +65,9 @@
 - Refers to [Primary index](Single-level%20ordered%20indexes.md#Primary%20index)
 - Cost is $$C=b_R + (|R| \times (x_B + 1)) + \left (\frac{\text{js} \times |R| \times |S|}{bfr_{RS}} \right )$$
 #### Hash key
-- If hash key exists for one of the two join attributes, cost is $$C=b_R + (|R| \times h) + \left (\frac{\text{js} \times |R| \times |S|}{bfr_{RS}} \right )$$ where $h \geq 1$ is the average number of block accesses to retrieve a record, given its hash key value.
+- If hash key exists for one of the two join attributes, cost is $$C=b_R + (|R| \times h) + \left (\frac{\text{js} \times |R| \times |S|}{bfr_{RS}} \right )$$ where $h \geq 1$ is the average number of block accesses to retrieve a record, <mark style="background: #e4e62d;">given its hash key value</mark>.
 ### Sort-merge join
-- Cost is $$C=C_S + b_R + b_S$$ where $C_S$ is the cost for sorting the two files.
+- Cost is $$C=C_S + b_R + b_S + \left (\frac{\text{js} \times |R| \times |S|}{bfr_{RS}} \right )$$ where $C_S$ is the cost for sorting the two files.
 
 ---
 # References

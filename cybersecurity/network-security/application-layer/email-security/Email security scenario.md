@@ -31,9 +31,9 @@
 - Alice side signs
 	- Alice generates message digest $H(m)$
 	- Alice ==encrypts message digest using her private key== $E(K^-_A, H(m))$ 
-	- Concat with message $m$ generating ==digital signature== and sends to Internet.
+	- Concatenate with message $m$ generating ==digital signature== $E(K^-_A, H(m)) || m$ and sends to Internet.
 - Bob side verifies:
-	- Split.
+	- Split the digital signature into message $m$ and message digest $E(K^-_A, H(m))$
 	- Bob generates message digest $H(m)$ using message $m$
 	- Bob decrypts $E(K^-_A, H(m))$ using Alice's public key $K^+_A$, producing $H(m)$ 
 	- Bob verifies by comparing two message digests.
@@ -67,10 +67,9 @@
 
 ---
 # References
-1. HCMUT's computer network inforgraphics
-2. HCMUT's cryptography and network security infographics.
+1. HCMUT computer network slides - Nguyễn Phương Duy
+2. HCMUT cryptography and network security slides - Nguyễn Thành Đạt.
 3. Cryptography and Network Security_ Principles and Practice - William Stallings -  Global Edition-Pearson (2022).
-4. Computer Networking_ A Top-Down Approach, Global Edition, 8th Edition.
-5. <mark style="background: #ADCCFFA6;">Khoa Ngo study and summarize</mark> .
-6. [HMAC](HMAC.md) for Hash-based MAC.
-7. [MAC Concept](MAC%20Concept.md) for Message Authentication Code.
+4. Computer Networking A Top-Down Approach, Global Edition, 8th Edition.
+5. [HMAC](HMAC.md) for Hash-based MAC.
+6. [MAC Concept](MAC%20Concept.md) for Message Authentication Code.

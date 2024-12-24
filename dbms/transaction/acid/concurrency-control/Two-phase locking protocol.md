@@ -5,7 +5,7 @@
 - Two-phase locking protocols make schedules <mark style="background: #e4e62d;">serializable</mark>, but <mark style="background: #e4e62d;">not deadlock-free</mark>.
 # Two-phase locking protocol
 - Also known as 2PL.
-- A transaction follows the two-phase locking protocol if all locking operations <mark style="background: #e4e62d;">precede the first unlock</mark> operation in the transaction.
+- <mark style="background: #e4e62d;">A transaction</mark> follows the two-phase locking protocol if all locking operations <mark style="background: #e4e62d;">precede the first unlock</mark> operation in the transaction.
 - Such a transaction has two phases:
 	- <mark style="background: #e4e62d;">Expanding phase</mark>: Acquiring new locks without any release.
 	- <mark style="background: #e4e62d;">Shrinking phase</mark>: Releasing existing locks without any acquisition.

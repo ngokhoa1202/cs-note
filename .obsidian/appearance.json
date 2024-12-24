@@ -1,8 +1,8 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "textFontFamily": "Aptos Serif,Karla,Aptos",
-  "monospaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "Lora,Aptos Serif,Aptos",
+  "monospaceFontFamily": "FiraCode Nerd Font,JetBrains Mono",
   "interfaceFontFamily": "Euclid Circular A,Gabriela",
   "baseFontSize": 18,
   "cssTheme": "Minimal",

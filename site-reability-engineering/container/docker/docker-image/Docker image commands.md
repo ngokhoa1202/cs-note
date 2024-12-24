@@ -47,10 +47,6 @@ docker image prune [OPTIONS]
 > Unused images are images which are not used by any containers.
 
 
-
-
-
-
 ---
 # References
 1. https://docs.docker.com/reference/cli/docker/image/tag/ for `docker image tag`.

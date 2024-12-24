@@ -12,7 +12,7 @@
 - The task of heuristic optimization of query trees is to <mark style="background: #e4e62d;">find a final efficient query tree </mark>to execute.
 ## Query tree transformation
 ## Tutorial
--  Draw initial (canonical) query tree for SQL query Q.
+- Set up initial (canonical) query tree for SQL query Q.
 - Moving SELECT operations down the query tree.
 - Apply more restrictive SELECT operation first. move relations with least cardinality to the leftmost of the query tree.
 - Replacing Cartesian Product and Select with Join operation.

@@ -29,7 +29,7 @@
 		- `Request IP address` : in DHCP offer message.
 		- `Hostname`;...
 4. *Server acknowledges*
-	- Server ==unicasts DHCP ACK message== to acknowledge client that IP allocation is succesful.
+	- Server ==unicasts DHCP ACK message== to acknowledge client that IP allocation is successful.
 - ![](Pasted%20image%2020240522151346.png)
 - 
 

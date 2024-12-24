@@ -1,10 +1,11 @@
 #digital-signature #asymmetric-cipher  #cryptography #cybersecurity #hash #algorithm 
 
 - Known as ==Digital Signature Algorithm==.
+- Refers to [Digital signature](Digital%20signature.md) for overview.
 # Algorithm
 ## Generate public-key elements
 - prime $p: 2^{L-1} < p < 2^L$ where $512 \leq L \leq 1024 \land 64|L$ 
-- prime $q: q|(p-1) \land 2^{N-1} < q < 2^N$ where $N$ is bit length of hash function out (e.g: SHA-1 -> $N=160$) 
+- prime $q: q|(p-1) \land 2^{N-1} < q < 2^N$ where $N$ is bit length of hash function out (e.g: SHA-1 $\rightarrow$ $N=160$) 
 - $g=h^{\frac{p-1}{q}}$ where $1<h<p-1: h^{{\frac{p-1}{q}}} mod \space p > 1$ 
 ## Generate private key
 $0 < x < q$ 
@@ -27,7 +28,7 @@ w=(s')^{-1} mod \space q
 $$
 $$u_1=H(M') \times w \space mod \space q$$
 $$u_2=(r') \times w mod \space q$$
-$$v = [(g^{u_1}y^{u_2}) \space mod \space p] \space mod \space q$$  Check if $r'=v$ . If $=$, verified.
+$$v = [(g^{u_1}y^{u_2}) \space mod \space p] \space mod \space q$$  Check if $r'=v$ . If true, then the signature is verified.
 
 # Advantage 
 - More lightweight than RSA.
@@ -36,3 +37,5 @@ $$v = [(g^{u_1}y^{u_2}) \space mod \space p] \space mod \space q$$  Check if $r'
 ---
 # References
 1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).
+2. [Digital signature](Digital%20signature.md)
+3. 

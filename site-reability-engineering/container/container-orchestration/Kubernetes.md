@@ -24,9 +24,11 @@ The namespace allows us to logically partition the cluster into virtual sub-clu
 The key API resources of the Kubernetes architecture are: 
 
 **Pod**   
-The pod is a logical workload management unit, enabling the co-location of a group of containers with shared dependencies such as storage _Volumes_. However, a pod is often managing a single container and its dependencies such as _Secrets_ or _ConfigMaps_. The pod is the smallest deployment unit in Kubernetes. A pod can be created independently, but it is lacking the self-healing, scaling, and seamless update capabilities which Kubernetes is known for. In order to overcome the pod's shortcomings, controller programs, or operators, such as the ReplicaSet, Deployment, DaemonSet, or the StatefulSet are recommended to be used to manage pods, even if only a single application pod replica is desired. 
+The pod is a logical workload management unit, enabling the co-location of a group of containers with shared dependencies such as storage _Volumes_. However, a pod is often managing a single container and its dependencies such as _Secrets_ or _ConfigMaps_. The pod is the smallest deployment unit in Kubernetes. A pod can be created independently, but it is lacking the self-healing, scaling, and seamless update capabilities which Kubernetes is known for.  In order to overcome the pod's shortcomings, controller programs, or operators, such as the ReplicaSet, Deployment, DaemonSet, or the StatefulSet are recommended to be used to manage pods, even if only a single application pod replica is desired. 
 
-**apiVersion: v1
+
+```yml
+apiVersion: v1
 kind: Pod
 metadata:
   name: nginx-pod  
@@ -37,11 +39,14 @@ spec:
   - name: nginx
     image: nginx:1.17.9
     ports:
-    - containerPort: 80**
+    - containerPort: 80
+```
 
-**ReplicaSet** The ReplicaSet is a mid-level controller, or operator, that manages the lifecycle of pods. It rolls out a desired amount of pod replicas, uses state reconciliation to ensure that the desired number of application pod replicas is running at all times, and to self-heal the application if a pod replica is unexpectedly lost due to a crash or lack of computing resources. 
+ReplicaSet
+The ReplicaSet is a mid-level controller, or operator, that manages the lifecycle of pods. It rolls out a desired amount of pod replicas, uses state reconciliation to ensure that the desired number of application pod replicas is running at all times, and to self-heal the application if a pod replica is unexpectedly lost due to a crash or lack of computing resources. 
 
-**Deployment** The Deployment is a top-level controller that allows us to provide declarative updates for pods and ReplicaSets. We can define Deployments to create new resources, or replace existing ones with new ones. The Deployment controller, or operator, represents the default stateless application rollout mechanism. Typical Deployment use cases and a sample Deployment are provided below: 
+Deployment
+The Deployment is a top-level controller that allows us to provide declarative updates for pods and ReplicaSets. We can define Deployments to create new resources, or replace existing ones with new ones. The Deployment controller, or operator, represents the default stateless application rollout mechanism. Typical Deployment use cases and a sample Deployment are provided below: 
 
 1. Create a Deployment to roll out a desired amount of pods with a ReplicaSet.
 2. Check the status of a Deployment to see if the rollout succeeded or not.
@@ -49,7 +54,8 @@ spec:
 4. Roll back to an earlier Deployment revision if the current Deployment isn’t stable.
 5. Scale, pause, and resume a Deployment. 
 
-**apiVersion: apps/v1
+```yaml
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx-deployment  
@@ -57,10 +63,10 @@ metadata:
     app: nginx-deployment
 spec:
   replicas: 3  
-**  **selector:
+selector:
     matchLabels:
-      app: nginx-deployment**
-  **template:
+      app: nginx-deployment
+  template:
     metadata:
       labels:
         app: nginx-deployment
@@ -69,14 +75,18 @@ spec:
       - name: nginx
         image: nginx:1.17.9
         ports:
-        - containerPort: 80**
+        - containerPort: 80
+```
 
-****DaemonSet**** The DaemonSet is a controller, or operator, that manages the lifecycle of node agent pods. It rolls out a desired amount of pod replicas while ensuring that each cluster node will run exactly one application pod replica. It also uses state reconciliation to ensure that the desired number of application pod replicas is running at all times, and to self-heal the application if a pod replica is unexpectedly lost due to a crash or lack of computing resources.
+
+DaemonSet
+The DaemonSet is a controller, or operator, that manages the lifecycle of node agent pods. It rolls out a desired amount of pod replicas while ensuring that each cluster node will run exactly one application pod replica. It also uses state reconciliation to ensure that the desired number of application pod replicas is running at all times, and to self-heal the application if a pod replica is unexpectedly lost due to a crash or lack of computing resources.
 
 **Service**   
 The Service is a traffic routing unit implemented by the kube-proxy providing a load-balancing access interface to a logical grouping of pods, typically managed by the same operator. The Service enables applications with DNS name registration, name resolution to a private/cluster internal static IP. It can reference a single pod or a set of pods managed by ReplicaSets, Deployments, DaemonSets, or StatefulSets. 
 
-**apiVersion: v1  
+```yaml
+apiVersion: v1  
 kind: Service  
 metadata:  
   name: frontend  
@@ -90,7 +100,9 @@ spec:
     targetPort: 80  
   selector:  
     app: nginx-deployment  
-    tier: frontend**
+    tier: frontend
+```
+
 
 **Label**  
 The Label is an arbitrary key-value pair that is attached to resources. In the examples above, we defined labels with keys such as **run**, **app**, and **tier**. Labels are typically used to tag resources of a particular application, such as the Pods of a Deployment, to logically group them for management purposes - for updates, scaling, or traffic routing. 
