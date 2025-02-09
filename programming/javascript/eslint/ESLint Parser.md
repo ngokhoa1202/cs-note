@@ -1,4 +1,8 @@
 
+- Run the command to automatically perform syntax fixing.
+```bash
+npx eslint --fix . 
+```
 
 
 ---

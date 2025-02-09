@@ -30,5 +30,6 @@
   "minimal-style@@h6-font": "Karla",
   "minimal-style@@sidebar-tabs-style": "sidebar-tabs-default",
   "minimal-style@@file-header-font-size": "0.9em",
-  "minimal-style@@h2-weight": 500
+  "minimal-style@@h2-weight": 500,
+  "minimal-style@@code-size": "0.8em"
 }
