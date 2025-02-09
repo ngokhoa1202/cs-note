@@ -13,8 +13,8 @@
 ## Rules
 - Employs steal flushing for undo and no-force flushing for redo.
 ## Implications
-- Undo operations of active transactions in active table at the time of system crash.
-- Redo operations of transactions having committed  in commit table at the time of system crash.
+- Undo operations of active transactions in active table at the time of system crash since the checkpoint
+- Redo operations of transactions having committed in commit table at the time of system crash since the checkpoint.
 ## Examples
 - ![](Pasted%20image%2020241214163858.png)
 

@@ -25,7 +25,7 @@
 - If one transaction is calculating an <mark style="background: #e4e62d;">aggregate summary function</mark> on a number of records while<mark style="background: #e4e62d;"> other transactions are updating</mark> some of these records, the aggregate function may <mark style="background: #e4e62d;">calculate some values before they are updated</mark> and<mark style="background: #e4e62d;"> others after they are updated</mark>.
 - ![](Pasted%20image%2020241208131512.png)
 ## The unrepeatable read problem
-- This occurs when transaction $T$ reads the same item twice and the <mark style="background: #e4e62d;">item is changed</mark> by another transaction $T'$ between the two reads.
+- This occurs when transaction $T$ reads the same item <mark style="background: #e4e62d;">twice</mark> and the <mark style="background: #e4e62d;">item is changed</mark> by another transaction $T'$ between the two reads.
 ## The phantom read problem
 -  This occurs when a transaction re-executes a <mark style="background: #e4e62d;">query</mark> returning a **set of rows** that satisfy a certain condition and finds that the set has <mark style="background: #e4e62d;">additional or fewer rows</mark> than it had during an earlier execution of the <mark style="background: #e4e62d;">same query</mark> $\equiv$ a phantom. This happens because another transaction **<mark style="background: #e4e62d;">inserted or deleted rows that affect the query’s result</mark> between the transaction’s two executions.
 

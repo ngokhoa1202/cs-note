@@ -13,13 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbms/dbms-architecture/File organization.md",
+                "file": "dbms/dbms-model/relational-model/EER-to-Relational Mapping.md",
                 "mode": "source",
-                "backlinks": false,
-                "source": false
+                "source": false,
+                "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "File organization"
+              "title": "EER-to-Relational Mapping"
+            }
+          },
+          {
+            "id": "55c1abe0fdc30c88",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dbms/dbms-design/erd/EERD.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "EERD"
             }
           }
         ]
@@ -41,7 +56,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -53,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#software-architecture",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +106,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 256.5
+    "width": 318.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -175,52 +191,52 @@
   },
   "active": "853f99357de574b9",
   "lastOpenFiles": [
-    "dbms/dbms-architecture/Record structure.md",
-    "dbms/dbms-architecture/Three-tier architecture.md",
-    "dbms/query/query-algorithm/Algorithm for aggregate operations and Outer Join.md",
-    "dbms/query/query-algorithm/Algorithm for JOIN operations.md",
-    "dbms/query/query-algorithm/Algorithm for PROJECT and SET operations.md",
-    "dbms/query/query-algorithm/Algorithm for SELECT operation.md",
-    "dbms/transaction/acid/Transaction processing.md",
-    "dbms/transaction/acid/transaction-schedule/Serializability.md",
-    "dbms/transaction/acid/transaction-schedule/Recoverability.md",
-    "dbms/transaction/acid/recovery/Shadow paging.md",
-    "dbms/transaction/acid/recovery/Recovery problems.md",
-    "dbms/transaction/acid/recovery/Recovery concepts.md",
-    "dbms/transaction/acid/recovery/Immediate update based Recovery.md",
-    "dbms/transaction/acid/recovery/Deferred Update based Recovery.md",
-    "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md",
-    "dbms/transaction/acid/concurrency-control/Timestamp-ordering based concurrency control.md",
-    "dbms/transaction/acid/concurrency-control/Optimistic Concurrency control techniques.md",
-    "dbms/transaction/acid/concurrency-control/Multiversion concurrency control techniques.md",
-    "dbms/transaction/acid/concurrency-control/Multiple granularity level locking.md",
-    "dbms/transaction/acid/concurrency-control/Locking operations.md",
-    "dbms/transaction/acid/concurrency-control/Deadlock.md",
-    "dbms/transaction/acid/concurrency-control/Concurrency control problems.md",
-    "dbms/relational-algebra/Relational Algebra.md",
-    "dbms/query/External sorting.md",
-    "dbms/query/query-optimization/Heuristics query optimization.md",
-    "dbms/query/query-optimization/Cost-based query optimization.md",
+    "dbms/dbms-design/erd/EERD.md",
+    "dbms/dbms-model/relational-model/EER-to-Relational Mapping.md",
+    "dbms/dbms-model/relational-model/Relational data model.md",
+    "dbms/dbms-design/erd/ERD.md",
+    "programming/javascript/reactjs/architecture/Component lifecycle.md",
+    "programming/javascript/nodejs/debugging/Debugging.md",
+    "programming/javascript/nodejs/installation/Install NodeJs.md",
+    "programming/javascript/nodejs/debugging",
+    "programming/javascript/typescript/Type.md",
+    "programming/javascript/typescript/Interface.md",
+    "programming/javascript/typescript/Control flow.md",
+    "software-engineering/software-architecture/domain-driven-design/Layered architecture.md",
+    "software-engineering/software-architecture/domain-driven-design/Domain driven design components.md",
+    "software-engineering/software-architecture/domain-driven-design/Domain driven design.md",
+    "programming/java/jakarta-ee/jpa/JPA Mappings.md",
+    "programming/java/jakarta-ee/Entity manager.md",
+    "dbms/postgresql/LIKE operator.md",
+    "dbms/postgresql/PostgreSQL installation.md",
+    "dbms/postgresql/Installation.md",
+    "dbms/postgresql/Sequence.md",
+    "dbms/postgresql/DDL.md",
+    "computer-network/application-layer/http/HTTP Methods.md",
+    "programming/java/jakarta-ee/Jakarta CDI.md",
+    "site-reability-engineering/ci-cd/Concourse.md",
+    "programming/java/quarkus/gRPC for Quarkus.md",
+    "operating-system/ubuntu/Alternative configuration.md",
+    "operating-system/ubuntu/curl commands.md",
+    "site-reability-engineering/config-management",
+    "assets/Pasted image 20241219094327.png",
+    "site-reability-engineering/ci-cd",
+    "site-reability-engineering/software-defined-storage",
+    "assets/Pasted image 20241219101941.png",
+    "assets/Pasted image 20241219101920.png",
+    "assets/Pasted image 20241219094330.png",
+    "Pasted image 20241218140554.png",
+    "assets/Pasted image 20241218140459.png",
+    "site-reability-engineering/cloud-computing/storage",
+    "assets/Pasted image 20241218095528.png",
+    "assets/Pasted image 20241218095507.png",
+    "assets/Pasted image 20241218094626.png",
+    "assets/Pasted image 20241218094256.png",
+    "site-reability-engineering/container/networking",
+    "site-reability-engineering/uni-kernel",
     "assets/b tree.pdf",
-    "assets/Pasted image 20241215160552.png",
-    "assets/Pasted image 20241215160543.png",
-    "assets/Pasted image 20241215160537.png",
-    "assets/Pasted image 20241215160529.png",
-    "assets/Pasted image 20241215160517.png",
-    "assets/Pasted image 20241215135548.png",
-    "assets/Pasted image 20241215135328.png",
     "dbms/query/query-optimization",
     "dbms/query/query-algorithm",
-    "assets/Pasted image 20241215132500.png",
-    "assets/Pasted image 20241214184637.png",
-    "assets/Pasted image 20241214184433.png",
-    "dbms/transaction/acid/transaction-schedule",
-    "programming/javascript/eslint",
-    "site-reability-engineering/container/container-orchestration",
-    "site-reability-engineering/container/os",
-    "dbms/transaction/acid/recovery",
-    "site-reability-engineering/container/podman",
-    "dbms/transaction/acid/concurrency-control",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "network/Untitled.canvas",

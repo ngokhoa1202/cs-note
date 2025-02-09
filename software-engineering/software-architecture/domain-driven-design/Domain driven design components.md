@@ -46,8 +46,6 @@
 - ![](Pasted%20image%2020241117152624.png)
 - Each domain object has its own lifecycle.
 - Domain Driven Design provides three patterns - components for managing the lifecycle:
-	- Aggregates defines clear boundaries and ownership of domain objects, thereby simplifying their relationships.
-	- 
 ## Aggregates
 ### Concepts
 - Simple association mechanism is not sufficient to maintain strict business rules.

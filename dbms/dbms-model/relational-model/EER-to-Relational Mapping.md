@@ -8,7 +8,7 @@
 ### Usage
 - Map the superclass entity $E_P$ into a table having primary key $K$ 
 - Map each of its subclass into a table having primary key $K$ which is inherited from the superclass.
-## Only subclass table
+## Only subclass tables
 ### Application
 - Applicable for <mark style="background: #e4e62d;">disjointedness</mark> constraints to avoid redundant records.
 ### Usage

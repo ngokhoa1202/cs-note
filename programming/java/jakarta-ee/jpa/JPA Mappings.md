@@ -69,26 +69,26 @@ $\implies$ Many stores to many products.
 #### The owner side
 - Specify the cardinality using `@ManyToMany`
 - Specify the mapping using the `@JoinTable` annotation:
-	- Specify the foreign key column of the owner itself using `joinColumns` attribute.
-	- Specify the foreign key column of the other side entity using `inverseJoinColumns` attribute.
+	- Specify the foreign key column of the owner itself and its reference column using `joinColumns` attribute.
+	- Specify the foreign key column of the other side entity and its reference column using `inverseJoinColumns` attribute.
 ```java
 @Entity
-
 public class Store {
 
     @ManyToMany
     @JoinTable(
 	    name = “store_product”,`
 		joinColumns = {
-			@JoinColumn(name = “fk_store”) 
+			@JoinColumn(name = “fk_store”, referencedColumnName="store_id") 
 		},
 		inverseJoinColumns = {
-			@JoinColumn(name = “fk_product”) 
+			@JoinColumn(name = “fk_product”, referencedColumnName="id") 
 		}
 	)
     private Set<Product> products = new HashSet<Product>();
 }
 ```
+- The `name` and `referencedColumnName` are the names of column on database side, not on the application side Hibernate.
 
 #### The reference side
 - Specify the cardinality using `@ManyToMany` annotation.
