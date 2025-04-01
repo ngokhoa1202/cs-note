@@ -1,9 +1,9 @@
 #design-pattern #oop #software-engineering  #software-architecture  #structural-pattern #computer-network 
 
 # Purpose
-- Provides a ==surrogate - placeholdere==  for a particular class to control its access.
+- Provides a ==surrogate - placeholder==  for a particular class to control its access.
 # Application
-- Hide the implementaton from the client.
+- Hide the implementation from the client.
 - Perform some specific tasks before calling a remote service:
 	- Logging.
 	- Caching.

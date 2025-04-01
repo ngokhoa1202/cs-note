@@ -21,7 +21,7 @@
 # Example
 - ![](Pasted%20image%2020240614164547.png)
 # Real example
-- Laravel PHP.
+- Laravel PHP (`$app` object).
 - 
 # Design
 - Facade should ==minimize the complexity== of subsystem.

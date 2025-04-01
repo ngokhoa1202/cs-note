@@ -37,7 +37,7 @@
 - `abstract class Environment` is the Subject:
 	- Composes a set of `Sensor` objects which are Observers registering to obeserve the Subject.
 	- The method `attach` and `detach` to add or remove a new observer. The implementation of `attach` method is left to its child for the reason that categorizing the correct Observers.
-	- Essentially, implements the `notifyObservers` to update the state of its Oberver whenever there is a change. 
+	- Essentially, implements the `notifyObservers` to <mark class="hltr-yellow">update the state of its Oberver whenever there is a change</mark>. 
 
 ```java
 package org.observer;  
@@ -68,7 +68,7 @@ public abstract class Environment {
 
 - `class Temperature` and `class Light` are the Concrete Subjects:
 	- Each class has its own particular state.
-	- Whenever it updates its state, it calls the `notifyObservers` method to notify all of its Observer stored in the parent `Environment` class.
+	- Whenever it updates its state, it calls the `notifyObservers` method and <mark class="hltr-yellow">pass the context</mark> to notify all of its Observer stored in the parent `Environment` class.
 ```java
 package org.observer;  
   
@@ -219,9 +219,11 @@ public class Main {
 - Establish a relation between objects at run time $\implies$ Observer.
 # Disadvantage
 - <mark style="background: #e4e62d;">Unexpected updates</mark> may occur in case the Subject takes control of the notifications.
-
+- The order of notification to observers are not specified.
+- 
 ---
 # References
 1. https://refactoring.guru/design-patterns/observer for observer pattern.
-2. Gang of Four book - Chapter 5: Observer.
+2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Observer pattern.
 3. 

@@ -46,7 +46,7 @@ git branch --move <old-branchname> <new-branchname> # on local only
 
 git push --set-upstream origin master # Push that changed branch to remote server
 
-
+git branch -m <old-name> <new-name>
 ```
 
 - Or checkout to a specific branch and use `git branch -m` command.

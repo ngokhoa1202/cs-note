@@ -41,7 +41,7 @@ setForm({
 # Change key to update state
 - Change the `key` prop in component to update its state as well.
 # Sharing state between components
-[Lifting state up](Lifting%20state%20up.md)
+- [Lifting state up](Lifting%20state%20up.md)
 # References
 1. https://react.dev/learn/preserving-and-resetting-state for state management.
 2. https://react.dev/reference/react/useState#adding-state-to-a-component for callback.

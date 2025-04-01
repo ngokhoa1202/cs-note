@@ -1,8 +1,9 @@
 #java8 #java #interface 
 
-- Known as defender method or virtual function method.
+- Known as defender method or <mark class="hltr-yellow">virtual function method</mark>.
 # Default method
 - An interface has ==its own implementation== of `default` method.
+- Default methods are implicitly public.
 - `interface Car`
 ```Java
 public interface Car {  
@@ -51,3 +52,7 @@ public class Main {
 }
 ```
 
+- Default methods incrementally provide additional functionality to a given type without breaking down the implementing classes.
+---
+# References
+1. https://www.baeldung.com/java-static-default-methods for default methods in Java.

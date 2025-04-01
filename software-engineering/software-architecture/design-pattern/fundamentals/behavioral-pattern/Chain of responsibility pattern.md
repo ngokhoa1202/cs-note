@@ -10,7 +10,7 @@
 ## Handler
 - Defines a common interface to handle request from client.
 - Defines a common interface for Concrete Handler in the chain of requests.
-- Can ifself implement the successor link ($\equiv$ the next handler in the chain).
+- Can itself implement the successor link ($\equiv$ the next handler in the chain).
 ## Concrete Handler
 - Handle a particular request that it is responsible for. ($\equiv$ ==concrete service==).
 - Must be able to access ($\equiv$ the next Handler in the chain) and ==forward the request to its successor==. (this feature may be inherited from the parent Handler).
@@ -163,12 +163,10 @@ public class Main {
 
 # Real example
 - `Middleware` in Laravel PHP.
-
-# Advantages
+- `next` callback in ExpressJs middleware. 
+# Consequences
 - Loose coupling between Client and Handler. $\implies$ the order, the types of Concrete Handlers can change during run time.
-- Ensure [Single responsibility principle](SOLID.md#Single%20responsibility%20principle) because each Handler has its way to handle request.
-- Ensure [Open-closed principle.](SOLID.md#Open-closed%20principle.) because we can add new Concrete Handler without modifying Client code.
-# Disadvantages
+- Flexibly assigning responsibilities to specific Handler to process a request.
 - Some request may end up not being handled because there is ==no specific receiver== ($\equiv$ loose coupling).
 
 ---

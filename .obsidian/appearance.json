@@ -1,11 +1,12 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "textFontFamily": "Lora,Aptos Serif,Aptos",
-  "monospaceFontFamily": "JetBrains Mono",
+  "textFontFamily": "Gelasio,Noto Serif,Lora,IBM Plex Sans",
+  "monospaceFontFamily": "FiraCode Nerd Font Mono,Consolas",
   "interfaceFontFamily": "Lexend",
   "baseFontSize": 18,
   "cssTheme": "Minimal",
-  "baseFontSizeAction": false,
-  "nativeMenus": false
+  "baseFontSizeAction": true,
+  "nativeMenus": false,
+  "showRibbon": true
 }

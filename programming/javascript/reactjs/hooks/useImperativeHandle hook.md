@@ -1,7 +1,7 @@
 #reactjs  #javascript  #hook #jsx #functional-programming #high-order-function 
 
 # Characteristics
-- Customizes the exposure of `ref.current` object API when fordwarding the  children`ref` to its parent.
+- Customizes the exposure of `ref.current` object API when <mark style="background: #c19939;">forwarding the childre</mark>n`ref` to its <mark style="background: #c19939;">parent</mark>.
 ## Return type
 - `undefined`
 # Usage

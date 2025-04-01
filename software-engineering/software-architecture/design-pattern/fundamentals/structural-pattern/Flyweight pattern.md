@@ -4,17 +4,17 @@
 - Share a large number of small objects to reduce memory usage.
 - Represents ==many-to-one mappings==.
 # Application
-
+- Memory optimization is vital.
 # Components
 ## Intrinsic vs extrinsic state
-- ==Intrinsic== state is stored in Flyweight and is ==independent== of flyweight's context.       $\implies$ ==sharable==
+- ==Intrinsic== state is stored in Flyweight and is ==independent== of flyweight's context. $\implies$ ==sharable==
 - ==Extrinsic== state is passed as argument to Flyweight and ==dependent== on the context (client) $\implies$ ==not sharable==.
 ## How Flyweight objects are shared
 - ![700](Pasted%20image%2020240619090430.png)
 ## Structure
 - ![700](Pasted%20image%2020240619084045.png)
 - ![](Pasted%20image%2020240713203155.png)
-- In my opinion, ==Flyweight inheritance here is a bad idea==. The UnsharedConcreteFlyweight should compose a ConcreteFlyweight instead and we should briefly eleminate thhe Flyweight.
+- In my opinion, ==Flyweight inheritance here is a bad idea==. The Unshared Concrete Flyweight should compose a Concrete Flyweight instead and we should briefly eliminate the Flyweight.
 ### Flyweight
 - Declares ==interfaces that receive extrinsic state==.
 - Enables sharing state, but does not enforce.
@@ -201,10 +201,11 @@ public class Main {
 # Real example
 - ==Enumerate type== follows Flyweight design pattern.
 - `java.lang.Integer#valueOf(int)` $\implies$ Java wrapper class.
+- Immutable object caching.
 # Advantages
 - ==Reduces memory usage== when there are a huge number of small objects.
 # Disadvantages
-- ==More executation time== for computing extrinsic state.
+- ==More execution time== for computing extrinsic state.
 - Complicated.
 
 # References

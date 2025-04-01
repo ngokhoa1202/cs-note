@@ -1,57 +1,60 @@
 #oop #solid #software-architecture #software-engineering #design-pattern 
 
-# Creational pattern
+# Fundamentals
+## Creational pattern
 - Resolves ==object creation==.
-## Builder
+### Builder
 [Builder pattern](Builder%20pattern.md)
 
-## Simple Factory
+### Simple Factory
 [Simple factory pattern](Simple%20factory%20pattern.md)
 
-## Factory Method
+### Factory Method
 [Factory Method pattern](Factory%20Method%20pattern.md)
 
-## Prototype
+### Prototype
 [Prototype pattern](Prototype%20pattern.md)
 
-## Singleton
+### Singleton
 [Singleton pattern](Singleton%20pattern.md)
 
-## Abstract Factory
+### Abstract Factory
 [Abstract Factory pattern](Abstract%20Factory%20pattern.md)
 
-# Structural pattern
+## Structural pattern
 - Resolves class and object composition to ==form larger structures==.
-## Adapter
+### Adapter
 [Adapter pattern](Adapter%20pattern.md)
 
-## Bridge
+### Bridge
 [Bridge pattern](Bridge%20pattern.md)
 
-## Composite
+### Composite
 [Composite pattern](Composite%20pattern.md)
 
-## Decorator
+### Decorator
 [Decorator pattern](Decorator%20pattern.md)
 
-## Facade
+### Facade
 [Facade pattern](Facade%20pattern.md)
 
-# Flyweight
+### Flyweight
 [Flyweight pattern](Flyweight%20pattern.md)
-# Proxy
+### Proxy
 [Proxy pattern](Proxy%20pattern.md)
 
-# Behavioral pattern
+## Behavioral pattern
 - Deals with ==algorithm== and ==assign responsibilities to objects==.
-## Chain of responsibility
-[Chain of responsibility pattern](Chain%20of%20responsibility%20pattern.md)
-## Command
-[Command pattern](Command%20pattern.md)
-## Observer
-[Observer pattern](Observer%20pattern.md)
-## Strategy
-[Strategy pattern](Strategy%20pattern.md)
+### Chain of responsibility
+- [Chain of responsibility pattern](Chain%20of%20responsibility%20pattern.md)
+### Command
+- [Command pattern](Command%20pattern.md)
+### Observer
+- [Observer pattern](Observer%20pattern.md)
+### Strategy
+- [Strategy pattern](Strategy%20pattern.md)
+### Mediator
+- [Mediator pattern](Mediator%20pattern.md)
 
 ---
 # References

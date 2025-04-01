@@ -22,6 +22,23 @@ console.log(sum.apply(null, [4, ...numbers]));
 
 ```
 
+>[!Important]
+>Spread operator performs a shallow copy on every attribute of the source object without the source's encapsulation. While without spread operator, these attributes are encapsulated by a new object with the same name in the target object.
+
+```javascript title='Spread operator vs normal copy'
+const obj = {
+    id: '23',
+    name: 'khoango'
+  };
+
+  const changes = {
+    name: 'khoango-change'
+  };
+
+  const finalObj1 = {obj, changes};
+  const finalObj2 = {obj, ...changes};
+  console.log(finalObj1, finalObj2);
+```
 # Use cases
 ## Function invocation
 ```javascript

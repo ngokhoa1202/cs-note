@@ -133,6 +133,55 @@ o3 instanceof C; // true since C.prototype is now in o3's prototype chain
 ```
 
 - Typescript raises a compilation error if `instanceof` operator works with an interface because interfaces do not have prototype in Typescript.
+# Square bracket
+- Used to access object's properties which have names that contain spacing, special characters.
+```Javascript title='Access object by square bracket'
+let user = {};
+
+// set
+user["likes birds"] = true;
+
+// get
+alert(user["likes birds"]); // true
+
+// delete
+delete user["likes birds"];
+
+// key is defined at runtime execution
+let key = "likes birds";
+
+// same as user["likes birds"] = true;
+user[key] = true;
+```
+- Used in object literal to define a property whose name is defined at run-time which is known as computed property.
+```Javascript title='Computed property'
+let fruit = prompt("Which fruit to buy?", "apple");
+
+let bag = {
+  [fruit]: 5, // the name of the property is taken from the variable fruit
+};
+
+alert( bag.apple ); // 5 if fruit="apple"
+```
+
+# Object references & copy
+- Primitive types are immutable and stored in stack memory. While object is stored in heap memory and the pointer which refers to the object is stored in stack memory.
+- `Object.assign(target, source)` or spread operator (`...`) can be employed to make a shallow copy from a source object to a target object. The property with the same key is overwritten.
+```Javascript title='Object's shallow copy in Javascript'
+let user = {
+  name: "John",
+  age: 30
+};
+
+let clone = Object.assign({}, user);
+
+alert(clone.name); // John
+alert(clone.age); // 30
+```
+- `structuredClone`, ... are used to perform deep copy on object.
+```Javascript title='structuredClone in Javascript'
+
+```
 ---
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in for `in` operator in Javascript.
@@ -140,3 +189,5 @@ o3 instanceof C; // true since C.prototype is now in o3's prototype chain
 3. [Property](Property.md)  for properties in Javascript.
 4. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof for `typeof` operator.
 5. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof for `instanceof` operator.
+6. https://javascript.info/object-copy for Object references and copy.
+7. https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript for deep copy in Javascript.

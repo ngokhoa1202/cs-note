@@ -1,4 +1,4 @@
-#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #oop #solid #agile #project-management #ddd 
+el#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #oop #solid #agile #project-management #ddd 
 
 # Purpose
 - DDD plays as an <mark style="background: #e4e62d;">ubiquitous language</mark> - shared knowledge between development teams and business experts.
@@ -24,7 +24,6 @@
 - Facilitate complex business systems.
 # Disadvantages
 - High initial investment $\implies$ only appropriate for complex systems.
-- 
 ---
 # References
 1. [Programming paradigms](Programming%20paradigms.md) for programming paradigms.

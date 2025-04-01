@@ -11,11 +11,12 @@
 - ==Abstraction== is the key.
 
 # Liskov substitution principle
-- Subtypes must be ==substitutable== to base types $\equiv$ their behaviour should not its parent behaviour.
+- Subtypes must be ==substitutable== to base types $\equiv$ their behavior should not its parent behavior.
 - Degenerate method in child class if it is unnecessary.
+- Employs creational pattern (such as factory method, ....) to resolves `is-a` conflicted behavior. 
 # Interface segregation principle
 - Clients should not be forced to depend on ==interfaces that they do not use==.
-- Avoid Interface Pollution $\equiv$ Interface methods ==do not make sense for class==:
+- Keep interface concise and simple $\equiv$ Interface methods ==do not make sense for class==:
 	- ==Avoid empty method== which overrides interface methods.
 	- Methods throwing `UnsupportedOperationException`
 # Dependency inversion principle

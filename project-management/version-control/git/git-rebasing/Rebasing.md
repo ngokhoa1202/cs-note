@@ -2,7 +2,7 @@
 #site-realibility-engineering #project-management #software-architecture 
 
 # Basic rebasing
-- Git rebasing means all the changes committed on one branch is taken and <mark style="background: #e4e62d;">rewritten on a different branch</mark>.
+- Git rebasing means all the changes committed on one branch is taken and <mark style="background: #e4e62d;">rewritten on a different branch</mark>. 
 - Rebasing works by as follow:
 	- Find the common ancestor of the two branches.
 	- <mark style="background: #e4e62d;">Rewrite</mark> the differences introduced by the <mark style="background: #e4e62d;">commits</mark> of the current branch (`experiment`) into new commits of the branch rebased onto  `master`
@@ -27,7 +27,7 @@ git merge <topic-branch>
 
 ```
 - Before rebasing ![](Pasted%20image%2020241102153226.png)
-- After rebasing, fast-forward merging may be required to merge the current branch (`dev`) with the branch rebased onto (`main`)![](Pasted%20image%2020241102153255.png)
+- After rebasing, fast-forward merging may be required to merge the current branch (`dev`) with the branch rebased onto (`main`) ![](Pasted%20image%2020241102153255.png)
 - Fast-forward merge `dev` with `master`
 - ![](Pasted%20image%2020241102153912.png)
 # Example
@@ -116,7 +116,6 @@ git rebase <remote-branch>
 		- `C4` has the same patch id as `C4'` , thereby implying that it has been rewritten.
 	- Apply those commits on top of `teamone/master` branch ($\approx$ take and rewrite them).
 - ![](Pasted%20image%2020241107143506.png)
-- 
 ---
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
@@ -124,10 +123,10 @@ git rebase <remote-branch>
 		1. More interesting rebases.
 		2. The Perils of Rebasing.
 		3. Rebase when you rebase.
-1. https://git-scm.com/docs/git-branch for `git branch`
-2. [Recording changes to repository](Recording%20changes%20to%20repository.md) for `git commit`.
-3. https://git-scm.com/docs/git-log for `git log`
-4. https://git-scm.com/docs/git-rebase for `git rebase`
-5. [Fast-forward merging](Git%20branching%20and%20merging.md#Fast-forward%20merging)
-6. [Three-way merging](Git%20branching%20and%20merging.md#Three-way%20merging)
-7. [Git branching and merging](Git%20branching%20and%20merging.md)
+2. https://git-scm.com/docs/git-branch for `git branch`
+3. [Recording changes to repository](Recording%20changes%20to%20repository.md) for `git commit`.
+4. https://git-scm.com/docs/git-log for `git log`
+5. https://git-scm.com/docs/git-rebase for `git rebase`
+6. [Fast-forward merging](Git%20branching%20and%20merging.md#Fast-forward%20merging)
+7. [Three-way merging](Git%20branching%20and%20merging.md#Three-way%20merging)
+8. [Git branching and merging](Git%20branching%20and%20merging.md)

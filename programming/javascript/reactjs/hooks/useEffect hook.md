@@ -4,7 +4,7 @@
 - `useEffect` is only run ==after the rendering phase== $\equiv$ after all of the components are renderred $\implies$ if `useEffect` callback change a state, React will trigger a re-render. [Component lifecycle](Component%20lifecycle.md)
 - ==Avoid infinite loop== by specifying dependencies $\equiv$ React triggers a re-render only when that dependency has been changed $\implies$ only use with asynchronous events.
 - ==Fetch data== from web API.
-- Synchronize with DOM API $\implies$ manipulate DOM in case of blocking.mechanism.
+- Synchronize with DOM API $\implies$ manipulate DOM in case of blocking mechanism.
 
 >[!Note]
 >Dependencies can be ==properties==, states, or ==functions== or ==context values== that `useEffect` will trigger a re-render if these values change.
