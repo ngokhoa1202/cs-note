@@ -3,7 +3,7 @@
 # Docker image
 - An image is a standardized ==filesystem== that includes all of the files, ==binaries==, libraries, and ==configurations== to run a container:
 - Docker image commands are actually ==mapped into the host's command line interface==.
-- If an image is loaded into RAM and executed, it become a process or multiple [Process](Process.md)
+- If an image is loaded into RAM and executed, it become a process or multiple [Process](operating-system/process/Process.md)
 # Characteristics
 - Immutable.
 - Image is composed of ==separate layers==, which is uniquely identified by SHA Hash

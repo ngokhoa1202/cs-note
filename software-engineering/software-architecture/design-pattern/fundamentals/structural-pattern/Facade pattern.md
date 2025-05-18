@@ -22,7 +22,7 @@
 - ![](Pasted%20image%2020240614164547.png)
 # Real example
 - Laravel PHP (`$app` object).
-- 
+- NodeJs application (`app = new Express()`) instance.
 # Design
 - Facade should ==minimize the complexity== of subsystem.
 - Facade is not a replacement for regular usage of subsystem classes.

@@ -107,7 +107,7 @@ public class Client {
 ```
 
 # Characteristics
-- Reflects `Product` hierachy: one concrete `Creator` class per concrete `Product`.
+- Reflects `Product` hierarchy: one concrete `Creator` class per concrete `Product`.
 - Allows a class to delegate its responsibility to a `concrete` class because only ==subclasses create actual instance==.
 
 # Design

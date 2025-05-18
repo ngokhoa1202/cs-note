@@ -43,7 +43,7 @@ package org.tutorial.middleware;
   
 public abstract class Middleware implements IMiddleware {  
   
-  private IMiddleware nextMiddleware;  
+  private IMiddleware nextMiddleware; 
   
   @Override  
   public void setNextMiddleware(IMiddleware middleware) {  

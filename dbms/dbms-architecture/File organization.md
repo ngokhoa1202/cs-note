@@ -1,4 +1,4 @@
-#dbms #secondary-storage #sql #nosql  #dbms-architecture #operating-system #data-structure #hash  #algorithm #algorithm-analysis #file-system 
+#dbms #secondary-storage #sql #nosql  #dbms-architecture  #data-structure #hash  #algorithm #algorithm-analysis #file-system #os 
 
 - The minimum unit to transfer data between main memory and secondary memory is a <mark style="background: #e4e62d;">block</mark>.
 # Heap files

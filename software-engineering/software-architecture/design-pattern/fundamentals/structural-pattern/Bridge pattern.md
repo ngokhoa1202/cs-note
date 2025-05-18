@@ -39,7 +39,7 @@ public class Remote {
       this.device.togglePower();  
       System.out.println("Turn on " + this.device.toString());  
       return;  
-    }  
+    }
     System.out.println(this.device.toString() + " is already on");  
   }  
   public void turnOff() {  

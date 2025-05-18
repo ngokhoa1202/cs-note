@@ -62,4 +62,3 @@ git branch -m <new-branch-name>
 2. https://git-scm.com/docs/git-branch for `git branch`
 2. [Recording changes to repository](Recording%20changes%20to%20repository.md) for `git commit`.
 3. https://git-scm.com/docs/git-log for `git log`
-4. 

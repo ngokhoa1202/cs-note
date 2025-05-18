@@ -1,4 +1,4 @@
-#ubuntu #operating-system #configuration  #installation  #os  #cli  #debian 
+#ubuntu #os  #configuration  #installation  #os  #cli  #debian 
 
 # Path variable location
 - Append the `$PATH` environment variable with the `bin` path of the program that we want to make us of its command on the terminal.

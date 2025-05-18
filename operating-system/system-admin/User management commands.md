@@ -1,4 +1,4 @@
-#cli #ubuntu #system-admin #os #operating-system 
+#cli #ubuntu #system-admin #os 
 
 # useradd
 - Create a new user.

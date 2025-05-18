@@ -145,7 +145,6 @@ public interface ExceptionHandler {
 	- Parse Json message to a Json node.
 	- Map gRPC status to its equivalent HTTP status.
 	- Instantiate a predefined generic exception from that Json node and HTTP Status.
-- 
 ### application.properties
 - By default, Quarkus will use another port for gRPC request. You have to configure it if you want your RPC requests to stay on top of HTTP.
 ```bash

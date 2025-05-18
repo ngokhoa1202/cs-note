@@ -1,4 +1,4 @@
-#dbms #relational-algebra #relational-model #relational-mapping #rdbms #query #algorithm #secondary-storage #sorting  
+b#dbms #relational-algebra #relational-model #relational-mapping #rdbms #query #algorithm #secondary-storage #sorting  
 
 # Heuristic optimization process
 - The parser of a high-level query generates an <mark style="background: #e4e62d;">initial internal representation</mark>.
