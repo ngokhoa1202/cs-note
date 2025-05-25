@@ -38,5 +38,6 @@
   "minimal-style@@h1-color@@light": "#CC393D",
   "minimal-style@@h2-color@@light": "#000080",
   "minimal-style@@h3-color@@light": "#333399",
-  "minimal-style@@bold-modifier": 200
+  "minimal-style@@bold-modifier": 200,
+  "minimal-style@@file-header-font-weight": 500
 }

@@ -2,9 +2,9 @@
 #software-architecture #software-architecture #computer-architecture  #acid #concurrency-control #graph-theory 
 
 # Serial transaction
-- A schedule $S$ is <mark style="background: #e4e62d;">serial</mark> if for every transaction $T$ participating in the schedule, <mark style="background: #e4e62d;">all the operations of T are executed consecutively</mark> in the schedule.
+- A schedule $S$ is <mark style="background: #e4e62d;">serial</mark> if for every transaction $T$ participating in the schedule, <mark class="hltr-yellow">all</mark> the <mark class="hltr-yellow">operations</mark> of T <mark class="hltr-yellow">are executed consecutively</mark> in the schedule.
 - Interleaving transactions' operations is not allowed in a serial schedule.
-- A serial schedule is always a correct schedule.
+- A serial schedule is always a <mark class="hltr-yellow">correct</mark> schedule.
 - Serial schedules ![](Pasted%20image%2020241209142213.png)
 - Non-serial schedules: ![](Pasted%20image%2020241209142236.png)
 # Serializable transaction
@@ -26,7 +26,7 @@
 ## Conflict equivalence
 -  Two schedules are said to be <mark style="background: #e4e62d;">conflict equivalent</mark> if the <mark style="background: #e4e62d;">order of any two conflicting operations is the same</mark> in both schedules.
 ## Conflict serializability
-- A schedule $S$ is said to be <mark style="background: #e4e62d;">(conflict)[^1] serializable</mark> if it is <mark style="background: #e4e62d;">(conflict)[^2] equivalent</mark> to some serial schedule $S'$.
+- A schedule $S$ is said to be conflict[^1] serializable if it is conflict[^2] equivalent to some <mark class="hltr-yellow">serial</mark> schedule $S'$.
 - In such a case, we can<mark style="background: #e4e62d;"> reorder</mark> the non-conflicting operations in S <mark style="background: #e4e62d;">until we form the equivalent serial</mark> schedule $S'$
 
 ## Serializability testing
@@ -63,7 +63,7 @@
 3. HCMUT Advanced DBMS Slide - Võ Thị Ngọc Châu.
 4. [Concurrency control problems](Concurrency%20control%20problems.md)
 5. [Transaction processing](Transaction%20processing.md)
-7. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.
+6. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.
 
 [^1]: For simplicity, "conflict serializable" can be simply understood as serializable.
 [^2]: For simplicity, "conflict equivalent" can be simply understood as equivalent.

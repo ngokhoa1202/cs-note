@@ -88,7 +88,7 @@ std::string makeString() {
     return std::move(s);    // Bad: disables RVO, forces move
 }
 ```
-- Never return automatic objects by rvalue reference. Moving is exclusively performed by the move constructor, not by `std::move`, and not by merely binding an rvalue to an rvalue reference.
+- Never return automatic objects, which are non-static local variables, by rvalue reference. Moving is exclusively performed by the move constructor, not by `std::move`, and not by merely binding an rvalue to an rvalue reference.
 	- `std::move` only performs casting from lvalue to rvalue.
 	- Returning `T&&` binds a reference to a local temporary that’s about to be destroyed.
 ```cpp title='Never return automatic objects by rvalue reference'

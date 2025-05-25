@@ -3,7 +3,7 @@
 # Transaction
 - A  transaction is a <mark style="background: #e4e62d;">logical</mark> , <mark style="background: #e4e62d;">atomic</mark> unit of work in DBMS that should either be completed in its entirety or not done at all
 	- read-only transactions vs read-write transactions.
-	- transaction boundaries: `begin` ... `end`
+	- transaction demarcation: `begin` ... `end`
 - <mark style="background: #e4e62d;">Granularity</mark> of a data item is the <mark style="background: #e4e62d;">size</mark> of that data item within a transaction such as a field, a record, a table, or a disk block. $\rightarrow$ <mark style="background: #e4e62d;">tầm vực, độ mịn, kích thước</mark> của dữ liệu.
 ## Transaction states
 - ![](Pasted%20image%2020241208133944.png)

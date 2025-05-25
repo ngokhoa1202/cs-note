@@ -18,7 +18,7 @@
 	- read operations and write operations interleave without locking mechanisms.
 - ![](Pasted%20image%2020241208125218.png)
 ## The temporary update (dirty read) problem
-- This occurs when one transaction updates a database item and then the transaction <mark style="background: #e4e62d;">fails</mark> for some reason. The updated item is <mark style="background: #e4e62d;">accessed by another transaction before it is changed back</mark> to its original value.
+- This occurs when one transaction <mark class="hltr-yellow">updates</mark> a database item and then the transaction <mark style="background: #e4e62d;">fails</mark> for some reason. The updated item is <mark style="background: #e4e62d;">accessed by another transaction before it is changed back</mark> to its original value.
 	- Transaction fails without roll-back mechanism.
 - ![](Pasted%20image%2020241208125731.png)
 ## The incorrect summary problem

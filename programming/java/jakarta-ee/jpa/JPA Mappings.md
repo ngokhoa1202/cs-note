@@ -10,8 +10,8 @@
 	- Bi-directional relationship $\equiv$ <mark style="background: #e4e62d;">both</mark> entities in a relationship must hold a reference to the other entity. $\implies$ <mark style="background: #e4e62d;">update two of the entities</mark> if the relationship changes.
 # One-to-one mapping
 ## Scenario
-
-
+- One person either has one personal tax identification or not.
+- One personal tax identification belongs to only one person.
 ## Usage
 
 # Many-to-one mapping
@@ -65,7 +65,7 @@ $\implies$ Many stores to many products.
 ### Uni-directional mapping
 
 ### Bi-directional mapping
-- Because the role of both sides is equivalent in many-to-many relationship, we can select an arbitary side to define the association and the other side just has to reference it.
+- Because the role of both sides is equivalent in many-to-many relationship, we can select an arbitrary side to define the association and the other side just has to reference it.
 #### The owner side
 - Specify the cardinality using `@ManyToMany`
 - Specify the mapping using the `@JoinTable` annotation:
@@ -98,7 +98,7 @@ public class Store {
 
 public class Product{
 
-    @ManyToMany (mappedBy=”products”)
+    @ManyToMany(mappedBy=”products”)
     private Set<Store> stores = new HashSet<Store>();
 
 }

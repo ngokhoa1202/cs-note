@@ -11,8 +11,8 @@
 - Also known as <mark style="background: #e4e62d;">mutex locks</mark> (mutual exclusions: loại trừ nhau $\equiv$ có A thì không có B, có B thì không có A).
 - Has two states 0 (unlocked) or 1 (locked).
 - If the value of lock on item X is 1, item X cannot be accessed by the operation that requests item X; otherwise, item X is accessible.
->[!Note]
->Binary locks are the most restrictive type of locking mechanism because it allows at most one transaction to hold a lock on a data item at a time. Other transactions have to wait until that transaction release the lock to be able to access the data item.
+>[!important]
+>Binary locks are the <mark class="hltr-yellow">most restrictive</mark> type of locking mechanism because it allows at most one transaction to hold a lock on a data item at a time. Other transactions have to wait until that transaction release the lock to be able to access the data item.
 - ![](Pasted%20image%2020241211100132.png)
 ### Rules
 - A transaction T must issue the operation lock_item(X) before any read_item(X) or write_item(X) operations in T. $\implies$ <mark style="background: #ADCCFFA6;">issue lock before accessing</mark>. 
@@ -27,7 +27,7 @@
 - Also known as Write locks.
 - <mark style="background: #e4e62d;">Only one</mark> transaction is allowed to hold an exclusive lock on a data item to write it at a time. Other transactions have to <mark style="background: #e4e62d;">wait until that transaction releases the lock</mark> to access the data item.
 >[!Note]
->As a result, multi-mode locks are less stringent than binary locks.
+>As a result, multi-mode locks are <mark class="hltr-yellow">less stringent</mark> than binary locks.
 
 - ![](Pasted%20image%2020241211100321.png)
 ### Certify locks

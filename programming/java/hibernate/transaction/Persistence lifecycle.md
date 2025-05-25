@@ -12,7 +12,7 @@
 - The entity instance now has ==its representation in the database==:
 	- It has been stored in the database within the current transaction.
 	- It will be definitely stored in the database right after the transaction finishes.
-	- Or the entity instance has been retrieved from the database using query
+	- Or the entity instance has been retrieved from the database using query.
 - The entity instance in the Persistent is always managed by a Persistence Context.
 - To check whether the object is in persistent state, call `EntityManger.contains(o)`.
 ## Removed state
@@ -25,7 +25,7 @@
 
 # Entity manager
 - The API provided by Hibernate to manage entity instance.
-- [Entity manager](programming/java/hibernate/Entity%20manager.md) 
+- [Entity manager](programming/java/hibernate/transaction/Entity%20manager.md) 
 
 ---
 # References

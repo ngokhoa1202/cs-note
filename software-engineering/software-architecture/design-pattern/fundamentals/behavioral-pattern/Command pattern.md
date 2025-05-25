@@ -82,7 +82,7 @@ public class Television {
   }  
 }
 ```
-command
+
 - `abstract class Command` is a Command interface. It has one abstract method `execute` and let all of its children implement this method. It also composes a `Television` object to allow other Concrete Command call methods from this object.
 ```java
 public abstract class Command {  

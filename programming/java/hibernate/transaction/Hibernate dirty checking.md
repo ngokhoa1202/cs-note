@@ -2,7 +2,7 @@
 
 
 # Dirty checking mechanism
-```java
+```java title='Dirty checking during a transaction'
 Session session = sessionFactory.openSession();
 session.beginTransaction();
 
@@ -24,7 +24,12 @@ session.close();
 - When the session is flushed, Hibernate ==checks== the current entity instance state ==against its original state==. Hibernate knows that the entity instance is ==in "dirty" state== and ==automatically generate== the SQL`UPDATE` statement to synchronize it.
 
 # Disable dirty caching
-- To disable dirty caching, set read-only mode for the currrent transation.
+- To disable dirty caching, set read-only mode for the current transaction.
 # Disadvantage
 - Incur performance overhead.
 - Higher memory usage.
+# References
+1. Java Persistence with Hibernate - Christian Bauer, Gavin King, Gary Gregory - 2th edition - Manning Publisher.
+	1. Part 3: Transactional data processing.
+		1. Chapter 10. Managing data.
+2. 

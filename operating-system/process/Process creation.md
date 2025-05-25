@@ -86,7 +86,7 @@ int main(int argc, char* argv[])
 }
 
 ```
-- The behavior is inconsistent because the parent process may end before its child terminate without `wait()`
+- The behavior is inconsistent because the parent process may end before its child terminate without `wait()`. $\implies$ orphan process.
 ```cpp title='Unexpected behaviors occurs when parent process does not wait for its child'
 #include <stdio.h>
 #include <stdlib.h>

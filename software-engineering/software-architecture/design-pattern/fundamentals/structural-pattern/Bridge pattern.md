@@ -2,7 +2,7 @@
 
 - Bridge means that Abstraction methods are implemented using ==primitive methods declared in Implementator interface==.
 # Purpose
-- ==Divide a class into two inheritance hierachies: abstraction and implementation== so that both of them can be independently developed.
+- ==Divide a class into two inheritance hierarchies: abstraction and implementation== so that both of them can be independently developed.
 # Application
 - Divide a monolithic class that has ==variants of platform-specific functionalities==. (e.g: database server, OS, domain,...).
 - Switch among many implementations (= Concrete Implementors) at run time.
@@ -178,10 +178,11 @@ public class Radio implements Device {
 - Ensure [Dependency inversion principle](SOLID.md#Dependency%20inversion%20principle) because client only depends on Abstraction.
 - Modularity.
 # Disadvantages
-- ==Complicated== because we have to introduct new Abstraction class and Implementor interfaces.
+- ==Complicated== because a new Abstraction class and an Implementor interface need introducing.
 - Need to design in advance:
 	- It's difficult to add bridge to legacy architecture.
 # References
 1. https://refactoring.guru/design-patterns/bridge for Bridge pattern.
-
+2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Chain of responsibility pattern.
 

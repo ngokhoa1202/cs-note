@@ -4,7 +4,7 @@
 - An `EntityManager` instance interacts with a ==persistence context==. 
 - The `EntityManager` API is used to ==query over entities==.
 - According to Jakarta EE documentation, provides only interface, leave vendors implement:
-	- [Hibernate entity manager](programming/java/hibernate/Entity%20manager.md) 
+	- [Hibernate entity manager](programming/java/hibernate/transaction/Entity%20manager.md) 
 # Persistence context
 - [Persistence context](Persistence%20context.md)
 

@@ -4,8 +4,8 @@
 - Define a skeleton for a complex algorithm, deferring some of its steps to sub classes.
 - Allows sub classes to redefine certain steps of an algorithm without breaking the algorithm's structure.
 # Application
-- Implement the invariant parts of a complex algorithm and leave the behavior to subclasses.
-- Generalize the common behavior among subclasses to template method in super class and leave the difference of implementations to subclasses.
+- Implement the invariant parts of a complex algorithm and leave the behavior to sub classes.
+- Generalize the common behavior among sub classes to template method in super class and leave the difference of implementations to sub classes.
 - Control subclass extensions - a template method that calls hooks $\implies$ Dependency inversion principle.
 
 # Components
