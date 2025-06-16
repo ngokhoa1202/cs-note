@@ -28,7 +28,7 @@ anotherCompany.bestProduct = 'Google Chrome';
 ```
 # Interface's new keyword
 - _When a class implements an interface_, _only the instance side of the class is checked_. Since _the constructor sits in the static side_, it is not included in this check.
-```ts
+```ts title='interface constructor signature'
 interface ContractConstructor {  
   new (version: number, releaseDate: Date): Contract;  
 }  
@@ -91,7 +91,7 @@ fakeContract.sign();
 	- `private`: add `_` (underscore) prefix.
 	- `protected` : do nothing or add `_` prefix.
 # Optional properties
-- Refers to [Optional properties](Type.md#Optional%20properties).
+- Refers to [Optional properties](programming/javascript/typescript/Type.md#Optional%20properties).
 # Functional interface
 - Functional interface only has one method signature as a high-order function.
 - Function interface can be employed as a function type.
@@ -105,18 +105,17 @@ interface Logger {
 const consoleLogger: Logger = (message: string) => {
     console.log(`[${consoleLogger.level}] ${message}`);
 };
-consoleLogger.level = "INFO";
+consoleLogger.level = "INFO"
 
 consoleLogger("System started"); // Output: [INFO] System started
 
 ```
 # Typescript's interface cheatsheet
-- Everything in Javascript is an object and Typescript's interface is used to <mark style="background: #e4e62d;">match their runtime behaviour</mark>.
-- ![TypeScript Interfaces](TypeScript%20Interfaces.pdf)
+- Everything in Javascript is an object and Typescript's interface is used to <mark style="background: #e4e62d;">match their runtime behavior</mark>.
 ---
 # References
 1. https://www.typescriptlang.org/cheatsheets/
 2. *https://www.typescriptlang.org/docs/handbook/2/objects.html*
 3. [Class](programming/javascript/typescript/Class.md) for Javascript classes.
 4. [Class](programming/javascript/typescript/Class.md) for Typescript classes.
-5. [Type](Type.md) for Typescript type.
+5. [Type](programming/javascript/typescript/Type.md) for Typescript type.

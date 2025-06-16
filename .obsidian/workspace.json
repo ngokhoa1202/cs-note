@@ -4,37 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b67dc18f1598a4f1",
+        "id": "b498eb7f8cd367b9",
         "type": "tabs",
         "children": [
           {
-            "id": "0d2a118542581c5a",
+            "id": "75822497aa9994b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbms/transaction/acid/transaction-schedule/Recoverability.md",
+                "file": "programming/javascript/reactjs/state-management/redux/Classic Redux.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Recoverability"
-            }
-          },
-          {
-            "id": "72cb62a8dcc4d7a8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "dbms/transaction/acid/Transaction processing.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Transaction processing"
+              "title": "Classic Redux"
             }
           }
         ]
@@ -106,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 313.5
+    "width": 343.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -137,13 +122,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "dbms/transaction/acid/transaction-schedule/Recoverability.md",
+                "file": "programming/java/hibernate/transaction/Hibernate dirty checking.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Recoverability"
+              "title": "Outline of Hibernate dirty checking"
             }
           },
           {
@@ -171,20 +156,21 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge pattern.md",
+                "file": "dbms/dbms-architecture/File organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Bridge pattern"
+              "title": "Outgoing links from File organization"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 667.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -194,54 +180,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0d2a118542581c5a",
+  "active": "d8d7ea544fef7ec3",
   "lastOpenFiles": [
-    "assets/Pasted image 20241209092301.png",
-    "dbms/transaction/acid/transaction-schedule/Recoverability.md",
-    "dbms/transaction/acid/Transaction processing.md",
-    "dbms/transaction/acid/transaction-schedule/Serializability.md",
-    "programming/javascript/typescript/Function.md",
-    "programming/javascript/typescript/Class.md",
-    "programming/javascript/reactjs/router/React router v6.md",
-    "programming/javascript/reactjs/class/Class-based Components.md",
-    "programming/javascript/reactjs/architecture/Component lifecycle.md",
-    "dbms/transaction/acid/concurrency-control/Timestamp-ordering based concurrency control.md",
-    "dbms/transaction/acid/concurrency-control/Locking operations.md",
-    "operating-system/process/process-synchronization/Critical section problem.md",
-    "dbms/transaction/acid/concurrency-control/Deadlock.md",
-    "dbms/transaction/acid/concurrency-control/Concurrency control problems.md",
-    "dbms/dbms-architecture/Record structure.md",
-    "dbms/dbms-architecture/Disk storage.md",
-    "programming/java/gradle/Gradle tasks.md",
-    "programming/java/hibernate/transaction/Entity manager.md",
-    "programming/java/hibernate/transaction/Hibernate dirty checking.md",
-    "Pasted image 20250524152550.png",
-    "programming/java/hibernate/transaction/Persistence lifecycle.md",
-    "programming/java/installation/Install Java.md",
-    "programming/java/hibernate/transaction/Persistence context.md",
-    "programming/java/hibernate/Introduction to Hibernate.md",
-    "programming/java/hibernate/query/Named Query.md",
-    "programming/java/hibernate/query/JPQL.md",
-    "programming/java/hibernate/query",
-    "programming/java/hibernate/exception",
-    "programming/java/hibernate/installation",
-    "programming/java/hibernate/transaction",
-    "programming/java/hibernate/installation/Set up Hibernate.md",
-    "assets/Pasted image 20250523165504.png",
-    "assets/Pasted image 20250523165428.png",
-    "assets/Pasted image 20250523165247.png",
-    "assets/Pasted image 20250523165237.png",
-    "assets/Pasted image 20250523160953.png",
-    "assets/Pasted image 20250523160935.png",
-    "operating-system/process/batching",
-    "programming/java/spring/batch",
-    "assets/Pasted image 20250523112019.png",
-    "assets/Pasted image 20250523111831.png",
-    "assets/Pasted image 20250523110145.png",
-    "programming/c/fundamentals",
-    "programming/c",
-    "programming/cpp/fundamentals",
-    "programming/cpp",
+    "programming/javascript/reactjs/state-management/redux/Redux.md",
+    "programming/javascript/reactjs/state-management/redux/Classic Redux.md",
+    "programming/javascript/reactjs/styling/Style ReactJs App.md",
+    "programming/javascript/reactjs/state-management/React context.md",
+    "programming/javascript/reactjs/state-management/Lifting state up.md",
+    "programming/javascript/reactjs/nextjs/Type Element is missing the properties.md",
+    "programming/javascript/reactjs/nextjs/ESLint NextJs.md",
+    "programming/javascript/reactjs/icon/IonIcon in React.md",
+    "plans/01-06-2025.md",
+    "programming/go/fundamentals/composite-type/Struct.md",
+    "programming/go/fundamentals/composite-type/Slice.md",
+    "The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015..pdf",
+    "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md",
+    "programming/go/fundamentals/Type conversion.md",
+    "programming/go/fundamentals/Data type.md",
+    "operating-system/process/ipc/Shared memory.md",
+    "operating-system/process/ipc/Inter Process Communication.md",
+    "operating-system/file-system/Filesystem commands.md",
+    "operating-system/cryptography/Generate secret key openSSL.md",
+    "number-theory/Euler's Phi function.md",
+    "programming/css/vannila-css/tricks/Halo around image.md",
+    "programming/css/vannila-css/tricks/Insert special text or special image to element.md",
+    "operating-system/file-system/File properties.md",
+    "number-theory/Extended Euclidean algorithm.md",
+    "number-theory/Fermat's little theorem.md",
+    "number-theory/Diophantine equation.md",
+    "programming/go/fundamentals/Pointer.md",
+    "Tags",
+    "assets/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif",
+    "assets/Pasted image 20250614115209.png",
+    "assets/Pasted image 20250614113309.png",
+    "programming/javascript/reactjs/state-management/redux",
+    "programming/javascript/reactjs/state-management",
+    "assets/Pasted image 20250614080509.png",
+    "assets/Pasted image 20250614080427.png",
+    "programming/go/concurrency-control",
+    "programming/go/fundamentals/Untitled",
+    "assets/Pasted image 20250608185919.png",
+    "programming/go/fundamentals/composite-type",
+    "assets/Pasted image 20250608120112.png",
+    "assets/Pasted image 20250608120104.png",
+    "assets/Pasted image 20250608120018.png",
+    "assets/Pasted image 20250608100757.png",
+    "programming/go/fundamentals",
+    "programming/go",
+    "plans",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "network/Untitled.canvas",

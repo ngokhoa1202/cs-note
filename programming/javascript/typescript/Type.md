@@ -278,8 +278,6 @@ if (x) {
 let a = x != null ? f(x) : ""; // Type of a is string
 let b = x && f(x); // Type of b is string | 0 | null | undefined
 ```
-# Typescript's type cheatsheet
-- ![TypeScript Types](TypeScript%20Types.pdf)
 ---
 # References
 1. https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html for Typescript official documentation about strict null checking mode.

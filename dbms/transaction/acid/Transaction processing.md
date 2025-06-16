@@ -48,9 +48,9 @@
 ### Timestamp-based concurrency control
 - [Timestamp-ordering based concurrency control](Timestamp-ordering%20based%20concurrency%20control.md)
 ### Multiversion concurrency control techniques
-- [Multiversion concurrency control techniques](Multiversion%20concurrency%20control%20techniques.md)
+- [Multiversion concurrency control](Multiversion%20concurrency%20control.md)
 ### Optimistic concurrency control techniques
-- [Optimistic Concurrency control techniques](Optimistic%20Concurrency%20control%20techniques.md)
+- [Optimistic Concurrency control](Optimistic%20Concurrency%20control.md)
 
 ---
 # References
@@ -63,7 +63,7 @@
 6. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.
 7. [Serializability](Serializability.md)
 8. [Recoverability](Recoverability.md)
-9. [Multiversion concurrency control techniques](Multiversion%20concurrency%20control%20techniques.md)
-10. [Optimistic Concurrency control techniques](Optimistic%20Concurrency%20control%20techniques.md)
+9. [Multiversion concurrency control](Multiversion%20concurrency%20control.md)
+10. [Optimistic Concurrency control](Optimistic%20Concurrency%20control.md)
 11. [Timestamp-ordering based concurrency control](Timestamp-ordering%20based%20concurrency%20control.md)
 12. 

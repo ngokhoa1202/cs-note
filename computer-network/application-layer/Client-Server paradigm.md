@@ -4,7 +4,7 @@
 - always online.
 - Employs one port to listen and response to client's request.
 # Client
-- Employe one port to make request to server.
+- Employs one port to make request to server.
 - Maybe online or offline.
 - IP address may be dynamic or static.
 - Does not communicate directly with each other.

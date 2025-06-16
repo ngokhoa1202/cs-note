@@ -31,7 +31,7 @@
 
 - ![](Pasted%20image%2020241211100321.png)
 ### Certify locks
-- Only applied for [Multiversion concurrency control techniques](Multiversion%20concurrency%20control%20techniques.md)
+- Only applied for [Multiversion concurrency control](Multiversion%20concurrency%20control.md)
 - In MVVC, a transaction $T$ holding a write_lock on item $X$ allows another transaction $T'$ to acquire read_lock on item $X$ $\implies$ write_lock in MVVC is partially exclusive.
 - However, certify lock is completely exclusive. Only one transaction holds a certify lock on a item at a time and it does not allow other transactions acquire locks on that item. 
 ### Rules

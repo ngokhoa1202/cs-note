@@ -38,3 +38,4 @@ class A {
 - `B` still exists even if `A` is destroyed  (e.g: Car has many independent components: engine, driver, wire).
 
 
+

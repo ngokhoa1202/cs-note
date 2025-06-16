@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "theme": "moonstone",
-  "textFontFamily": "Gelasio,Georgia,Lora,Noto Serif,IBM Plex Sans",
+  "textFontFamily": "Lora,Georgia,Inter 18pt",
   "monospaceFontFamily": "FiraCode Nerd Font Propo,Consolas",
   "interfaceFontFamily": "Lexend",
   "baseFontSize": 16,

@@ -102,7 +102,6 @@ fetch('/article/promise-chaining/user.json')
 - `Promise.any` fulfills when **any** of the promises fulfills; rejects when **all** of the promises reject.
 ## Promise.race
 - `Promise.race()` settles when **any** of the promises settles.
-
 # Async - await
 - `async` allows a function to be asynchronously executed and always return a promise.
 ```Javascript title='async await in Javascript'

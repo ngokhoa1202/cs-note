@@ -75,7 +75,7 @@
 # TCP congestion control
 ## Scenario
 - original sending rate $\lambda_{in}$ 
-- sending rate with ==restransmission== $\lambda '_{in} < \lambda_{in}$
+- sending rate with ==re-transmission== $\lambda '_{in} < \lambda_{in}$
 - ==Finite buffer==
 - ![](Pasted%20image%2020240517160321.png)
 - $\lambda_{out} \to 0$ when $\lambda_{in} '$ is large.

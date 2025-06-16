@@ -157,7 +157,7 @@ console.log(rect.getAreaFunction()());
 
 ## Indexed access checking
 - Property `noUncheckedIndexedAccess`.
-- [Index signature](Type.md#Index%20signature) allows an object to have unknown keys at compile time but known values at run time.
+- [Index signature](programming/javascript/typescript/Type.md#Index%20signature) allows an object to have unknown keys at compile time but known values at run time.
 - If the property `noUncheckedIndexedAccess` is set, any undeclared field in the type is consider `undefined`.
 ```typescript
 type Environment = {
@@ -188,4 +188,4 @@ const family = fedora["family"];
 2. https://www.google.com/search?q=tsc+cli for Typescript command line.
 3. *https://www.typescriptlang.org/docs/handbook/tsconfig-json.html#overview* for file `tsconfig.json`.
 4. *https://www.typescriptlang.org/tsconfig/#strict for typescript configuration.*
-5. [Type](Type.md) for Typescript Type.
+5. [Type](programming/javascript/typescript/Type.md) for Typescript Type.

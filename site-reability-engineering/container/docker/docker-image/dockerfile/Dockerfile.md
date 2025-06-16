@@ -2,7 +2,7 @@
 
 - Dockerfile is a special file for building Docker image.
 - More programmatic than [Docker container commands](Docker%20container%20commands.md)
-- From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application.
+- From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
 # Syntax
 ```Dockerfile
 FROM <base-image>

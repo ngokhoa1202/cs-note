@@ -17,18 +17,23 @@
 - This occurs when two transactions that <mark style="background: #e4e62d;">access the same database items</mark> have their operations interleaved in a way that makes the value of some database <mark style="background: #e4e62d;">item incorrect</mark>.
 	- read operations and write operations interleave without locking mechanisms.
 - ![](Pasted%20image%2020241208125218.png)
+- ![](Pasted%20image%2020250525160231.png)
 ## The temporary update (dirty read) problem
 - This occurs when one transaction <mark class="hltr-yellow">updates</mark> a database item and then the transaction <mark style="background: #e4e62d;">fails</mark> for some reason. The updated item is <mark style="background: #e4e62d;">accessed by another transaction before it is changed back</mark> to its original value.
 	- Transaction fails without roll-back mechanism.
 - ![](Pasted%20image%2020241208125731.png)
+- ![](Pasted%20image%2020250525160256.png)
 ## The incorrect summary problem
 - If one transaction is calculating an <mark style="background: #e4e62d;">aggregate summary function</mark> on a number of records while<mark style="background: #e4e62d;"> other transactions are updating</mark> some of these records, the aggregate function may <mark style="background: #e4e62d;">calculate some values before they are updated</mark> and<mark style="background: #e4e62d;"> others after they are updated</mark>.
 - ![](Pasted%20image%2020241208131512.png)
+### The phantom read problem
+- Phantom read is a specific case of incorrect summary problem.
+-  This occurs when a transaction re-executes a <mark style="background: #e4e62d;">query</mark> returning a **set of rows** that satisfy a certain condition and finds that the set has <mark style="background: #e4e62d;">additional or fewer rows</mark> than it had during an earlier execution of the <mark style="background: #e4e62d;">same query</mark> $\equiv$ a phantom. This happens because another transaction **<mark style="background: #e4e62d;">inserted or deleted rows that affect the query’s result</mark> between the transaction’s two executions.
+- ![](Pasted%20image%2020250525160742.png)
 ## The unrepeatable read problem
 - This occurs when transaction $T$ reads the same item <mark style="background: #e4e62d;">twice</mark> and the <mark style="background: #e4e62d;">item is changed</mark> by another transaction $T'$ between the two reads.
-## The phantom read problem
--  This occurs when a transaction re-executes a <mark style="background: #e4e62d;">query</mark> returning a **set of rows** that satisfy a certain condition and finds that the set has <mark style="background: #e4e62d;">additional or fewer rows</mark> than it had during an earlier execution of the <mark style="background: #e4e62d;">same query</mark> $\equiv$ a phantom. This happens because another transaction **<mark style="background: #e4e62d;">inserted or deleted rows that affect the query’s result</mark> between the transaction’s two executions.
-
+- ![](Pasted%20image%2020250525160309.png)
+- The last commit wins and overwrites changes made by the first writer.
 
 --- 
 # References
@@ -42,4 +47,7 @@
 6. [Two-phase locking protocol](Two-phase%20locking%20protocol.md)
 7. [Locking operations](Locking%20operations.md)
 8. [Deadlock](dbms/transaction/acid/concurrency-control/Deadlock.md)
-9. 
+9. Java Persistence with Hibernate - Christian Bauer, Gavin King, Gary Gregory - 2th edition - Manning Publisher
+	1. Chapter 11. Transactions and concurrency.
+		1. Section 11.2 Controlling concurrent access.
+
