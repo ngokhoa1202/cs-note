@@ -8,4 +8,4 @@
 
 # Attack
 - Frequency analysis.
-- Too small key set $\Rightarrow$ Bruto-force attack.
+- Too small key set $\Rightarrow$ Bruto-force attack. 

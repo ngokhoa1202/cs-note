@@ -49,7 +49,7 @@ const addTodo = text => {
 
 ## Reducers
 - A reducer is a function whose type is `(state, action) => newState`, which accepts the current state and an action object, and determines the new state based on the action.
-- A reducer must not modify the existing state but return a completely state instead for <mark class="hltr-yellow">immutability</mark> purpose.
+- A reducer must not modify the existing state but return a completely new state object instead for <mark class="hltr-yellow">immutability</mark> purpose.
 ```Javascript title='Reducer must not modify the state object'
 const initialState = { value: 0 }
 

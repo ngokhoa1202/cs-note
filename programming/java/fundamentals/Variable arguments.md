@@ -1,7 +1,7 @@
 #java #operator 
 
 - Equivalent to [Rest parameter](Rest%20parameter.md) in Javascript.
-
+- 
 # Variable arguments
 - Variable arguments allow a variadic function to accept indefinite arguments without knowing its number at compile time.
 ```Java title='Varargs example'
@@ -20,3 +20,4 @@ public String formatWithVarArgs(String... values) {
 1. https://www.baeldung.com/java-varargs for Variable arguments in Java.
 2. [Rest parameter](Rest%20parameter.md) for Rest parameter in Javascript.
 3. https://en.wikipedia.org/wiki/Variadic_function for Variadic function.
+4. [Variadic function](Variadic%20function.md) for general variadic function.

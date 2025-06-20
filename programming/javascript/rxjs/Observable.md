@@ -33,16 +33,16 @@ console.log('after');
 - The execution <mark style="background: #e4e62d;">generates multiple values</mark> over time, either synchronously or asynchronously.
 - There are 3 types of notifications generated:
 	- Next notification $\implies$ continue generating or transit to Complete.
-	- Error notifitication $\implies$ abnormally stop generating.
+	- Error notification $\implies$ abnormally stop generating.
 	- Complete notification $\implies$ normally stop generating.
-## Subcribe Observable
+## Subscribe Observable
 - Each `Observable` object can make an Observer subscribe to it by calling `subscribe` method and passing the Observer callback. Each Observer has its own logic and similarly to `update` method in Observer pattern.
 - Whenever the `subscribe` method is called, it means that the `Observable` will be <mark style="background: #e4e62d;">immediately executed</mark>.
 ## Unsubcribe Observable
 - Manually stops the execution of Observable.
 - Used to prevent infinite generation of Observable.
 - Define and return `unsubscribe` method which returns a callback. That <mark style="background: #e4e62d;">callback will be invoked</mark> in the future whenever we want to dispose the subscription.
-```javascript
+```javascript title='Unsubcribe an observable'
 import { Observable } from "rxjs";
 
 const observable = new Observable((subscriber) => {

@@ -117,7 +117,7 @@ func Println(a ...interface{}) (n int, err error)
 	- Pass a slice value as the only argument. The slice must be assignable to values of type `[]T`, and the slice must be followed by three dots `...`. The passed slice is called as a variadic argument.
 	- Pass zero or more arguments which are assignable to values of type `T`. These arguments will be copied (or converted) as the elements of a new allocated slice value of type `[]T`, then the new allocated slice will be passed to the variadic parameter.
 # Function value
-- Function type is one of the type in Go.  Function value is a value of a function type. Function value is first-class value in Go.
+- Function type is one of the type in Go.  Function value is a value of a function type. Function value is<mark class="hltr-yellow"> first-class value</mark> in Go.
 ```Go title='Function type and function value in Go'
 package main
 
@@ -147,7 +147,7 @@ func main() {
 ```
 
 >[!Note]
->Function type is similar to a class. Function value is like an instance of that class.
+>Function value is a first-class function. Function type is the type of that first-class function.
 
 - Anonymous function is also supported.
 ```Go title='Anonymous function'

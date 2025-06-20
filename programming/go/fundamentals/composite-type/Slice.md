@@ -3,7 +3,7 @@
 # Slice
 - Slices represent <mark class="hltr-yellow">variable-length sequences</mark> whose elements all have the <mark class="hltr-yellow">same type</mark>. A slice type is written `[]T`, where the elements have type `T`; it looks like an array type without a size.
 - A slice is an <mark class="hltr-yellow">indirect reference</mark> that gives access to a sub sequence of the elements of its underlying array, which is actually a shallow copy of that array.
-- A slice has three components: a pointer, a length and a capacity.
+- A slice has three properties: a pointer, a length and a capacity.
 ```Go title='Slice structure in Go'
 months := [...]string{1: "January", /* ... */, 12: "December"}
 
@@ -67,3 +67,4 @@ func main() {
 3. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 	1. Chapter 4. Composite Types.
 		1. Section 4.2 Slice
+4. [Parameter-passing mechanism in Go](Parameter-passing%20mechanism%20in%20Go.md) for parameter-passing mechanism in Go.
