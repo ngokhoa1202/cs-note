@@ -8,7 +8,7 @@
 # yield keyword
 - `yield` provides a value to the external loop employing the generator and pauses execution of the generator function.
 # Example
-```PHP
+```PHP title='Generator example in PHP'
 <?php  
 namespace App\Controller;  
 

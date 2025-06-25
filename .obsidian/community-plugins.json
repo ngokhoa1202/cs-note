@@ -1,8 +1,8 @@
 [
   "code-styler",
-  "obsidian-style-settings",
   "obsidian-minimal-settings",
   "highlightr-plugin",
   "obsidian-icon-folder",
-  "tag-wrangler"
+  "tag-wrangler",
+  "obsidian-style-settings"
 ]

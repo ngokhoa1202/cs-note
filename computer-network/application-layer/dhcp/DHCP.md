@@ -4,7 +4,7 @@
 - Stands for ==Dynamic Host Configuration Protocol==.
 - ==Automatically allocates IP address== for host within a network.
 - Runs on ==application layer==.
-# Characteristcs
+# Characteristics
  - ==Client-server== protocol, requires:
 	- a DHCP server.
 	- DHCP relay agents (router).

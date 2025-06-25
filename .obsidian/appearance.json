@@ -1,13 +1,7 @@
 {
-  "accentColor": "",
   "theme": "moonstone",
-  "textFontFamily": "Lora,Georgia,Inter 18pt",
-  "monospaceFontFamily": "FiraCode Nerd Font Propo,Consolas",
+  "textFontFamily": "IBM Plex Sans,Fira Sans",
+  "monospaceFontFamily": "FiraCode Nerd Font",
   "interfaceFontFamily": "Lexend",
-  "baseFontSize": 16,
-  "cssTheme": "Minimal",
-  "baseFontSizeAction": false,
-  "nativeMenus": false,
-  "showRibbon": true,
-  "enabledCssSnippets": []
+  "cssTheme": "Minimal"
 }

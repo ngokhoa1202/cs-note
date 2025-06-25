@@ -200,8 +200,8 @@ func main() {
 	fmt.Println(g1()) // 789
 	fmt.Println(g2()) // 789
 }
-
 ```
+
 ---
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
@@ -210,3 +210,4 @@ func main() {
 		2. Section 6.2. Methods with a Pointer Receiver.
 2. *https://go101.org/article/method.html for Method in Go.*
 3. [Parameter-passing mechanisms](Parameter-passing%20mechanisms.md)
+4. [[programming/go/fundamentals/Interface|Interface]]

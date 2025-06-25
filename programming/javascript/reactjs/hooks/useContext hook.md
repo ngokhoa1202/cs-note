@@ -5,7 +5,7 @@
 - Avoid props drilling $\equiv$ directly passing props into the virtual DOM tree. 
 ## Return type
 - Returns a context value $\equiv$ environment value taken from the closest Context Provider for the calling components.
-- If there is no Context Provider found, return the default value passed in the `createContext` function
+- If there is no Context Provider found, return the default value passed in the `createContext` function.
 # Usage
 ## Basic
 - Define the context by calling the `createContext` function and pass an default value to that function.

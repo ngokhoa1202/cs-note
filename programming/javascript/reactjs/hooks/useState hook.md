@@ -1,10 +1,32 @@
 #reactjs  #javascript  #functional-programming  #hook  #dom #reactive-programming
 
 # Characteristics
-- Remembers ==state== of component in DOM tree.
-- Interactively updated by event callback $\implies$ create a new object and assigns the reference to that new object $\equiv$ ==immutable state== as well as ==trigger a re-render.==
-- State is preserved ==as long as its position and value on DOM tree is unchanged==.
+- `useState` adds a state variable to a component, which retains data between renders and triggers React to re-render when the data is changed.
+- Whenever a state is interactively updated by event callback, the setter callback creates a new object and assigns the reference to that new object as well as ==trigger a re-render.==
+- State is preserved as long as its position and value on DOM tree is <mark class="hltr-yellow">unchanged</mark>.
+- State updates are <mark class="hltr-yellow">batched</mark>, which means it is not until all code in the event handlers finish their execution that React processes state updates.
+	- Each user interaction is considered a separate event.
+	- React only batches state updates when it's safe, typically within a single event handler.
 - In `StrictMode`,  state is rendered twice.
+```Jsx title='State updates are batched'
+import { useState } from 'react';
+
+export default function Counter() {
+  const [number, setNumber] = useState(0);
+
+  return (
+    <>
+      <h1>{number}</h1>
+      <button onClick={() => {
+        setNumber(n => n + 1);
+        setNumber(n => n + 1);
+        setNumber(n => n + 1);
+      }}>+3</button>
+    </>
+  )
+}
+
+```
 ## Return type
 - Returns an array with two elements:
 	- `initialState`

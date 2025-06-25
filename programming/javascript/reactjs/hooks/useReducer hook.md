@@ -86,7 +86,6 @@ export default function App() {
           Satisfying
         </button>
         <p>{job?.name ?? 'I do not know'}</p>
-
     </>
   );
 }

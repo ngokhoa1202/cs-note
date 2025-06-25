@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "b498eb7f8cd367b9",
+        "id": "1ae315569affa707",
         "type": "tabs",
         "children": [
           {
-            "id": "75822497aa9994b7",
+            "id": "9d07f465d2a05ca0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/javascript/reactjs/state-management/redux/Redux toolkit.md",
+                "file": "programming/javascript/reactjs/hooks/Built-in hooks.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Redux toolkit"
+              "title": "Built-in hooks"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#windows",
+                "query": "two way binding",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -91,7 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 385.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -180,34 +180,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "75822497aa9994b7",
+  "active": "9d07f465d2a05ca0",
   "lastOpenFiles": [
-    "programming/javascript/reactjs/state-management/redux/Redux.md",
-    "programming/javascript/reactjs/state-management/redux/Redux toolkit.md",
-    "dbms/relational-algebra/Relational Algebra.md",
-    "dbms/relational-algebra/Relational algebra examples.md",
-    "programming/go/fundamentals/Method.md",
-    "programming/go/fundamentals/composite-type/Struct.md",
-    "computer-network/application-layer/Web.md",
+    "programming/javascript/reactjs/hooks/useContext hook.md",
+    "programming/javascript/reactjs/hooks/useLayoutEffect hook.md",
+    "programming/javascript/reactjs/hooks/useImperativeHandle hook.md",
+    "programming/javascript/reactjs/hooks/useCallback hook.md",
+    "programming/javascript/reactjs/hooks/Built-in hooks.md",
+    "programming/java/spring/dependency-injection/Component.md",
+    "programming/java/spring/dependency-injection/Bean lifecycle.md",
+    "programming/javascript/reactjs/hooks/useReducer hook.md",
+    "programming/javascript/reactjs/hooks/useRef hook.md",
+    "programming/javascript/reactjs/hooks/useMemo hook.md",
+    "programming/javascript/reactjs/hooks/useInsertionEffect hook.md",
+    "programming/javascript/reactjs/hooks/useDeferredValue hook.md",
+    "programming/javascript/reactjs/hooks/useEffect hook.md",
     "programming/go/fundamentals/composite-type/Slice.md",
     "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md",
-    "programming/go/fundamentals/Function.md",
-    "programming/go/fundamentals/composite-type/Map.md",
-    "programming/javascript/rxjs/Observable.md",
-    "operating-system/system-admin/User management commands.md",
-    "operating-system/system-admin/User account management.md",
-    "cryptography/classical-cipher/Shift cipher.md",
-    "cryptography/classical-cipher/Affine cipher.md",
-    "programming/javascript/nodejs/installation/Install NodeJs.md",
-    "programming/javascript/reactjs/state-management/redux/Classic Redux.md",
-    "programming/javascript/reactjs/architecture/Component lifecycle.md",
-    "programming/javascript/reactjs/hooks/useReducer hook.md",
-    "programming/javascript/reactjs/hooks/useContext hook.md",
-    "programming/javascript/reactjs/hooks/Two-way binding.md",
-    "programming/javascript/reactjs/state-management/Lifting state up.md",
+    "computer-network/link-layer/lan/Switch.md",
+    "computer-network/application-layer/Web.md",
+    "computer-network/application-layer/dhcp/DHCP.md",
+    "computer-network/application-layer/email/POP3.md",
+    "computer-network/application-layer/http/HTTP.md",
+    "computer-network/application-layer/http/HTTP Methods.md",
+    "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md",
+    "programming/javascript/reactjs/hooks/useTransition hook.md",
     "programming/javascript/reactjs/hooks/useState hook.md",
-    "programming/javascript/reactjs/hooks/useRef hook.md",
-    "programming/javascript/reactjs/hooks/useImperativeHandle hook.md",
+    "programming/javascript/reactjs/featured-api/lazy.md",
+    "programming/javascript/reactjs/components/Strict mode.md",
+    "programming/javascript/reactjs/featured-api",
+    "assets/Pasted image 20250624065537.png",
+    "assets/Pasted image 20250624065305.png",
+    "operating-system/linux/rhel/centos-stream",
+    "operating-system/linux/rhel",
     "assets/RxJsLogo.png",
     "The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015..pdf",
     "Tags",
@@ -223,11 +228,6 @@
     "assets/Pasted image 20250608185919.png",
     "programming/go/fundamentals/composite-type",
     "assets/Pasted image 20250608120112.png",
-    "assets/Pasted image 20250608120104.png",
-    "assets/Pasted image 20250608120018.png",
-    "programming/go/fundamentals",
-    "programming/go",
-    "plans",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "network/Untitled.canvas",

@@ -12,7 +12,7 @@
 - $$f(n)=\Omega(g(n))$$means that  $cg(n)$ is ==lower bound== on $f(n)$ $\iff$ $f(n) \geq cg(n)$ if $n$ is large enough.
 - Best-case complexity.
 # Big Theta notation $\Theta$ 
-- $$f(n)=\Theta(g(n))$$ means that $c_1g(n)$ is l==ower bound== on $f(n)$ and $c_2g(n)$ is ==upper bound== on $f(n)$ $\iff f(n) \geq c_1g(n) \land f(n) \leq c_2g(n)$ if $n$ is large enough. $g(n)$ is ==tight bound== on $f(n)$
+- $$f(n)=\Theta(g(n))$$ means that $c_1g(n)$ is lower bound on $f(n)$ and $c_2g(n)$ is ==upper bound== on $f(n)$ $\iff f(n) \geq c_1g(n) \land f(n) \leq c_2g(n)$ if $n$ is large enough. $g(n)$ is ==tight bound== on $f(n)$
 - Equivalent complexity.
 
 ![800x400](Pasted%20image%2020240520102810.png)

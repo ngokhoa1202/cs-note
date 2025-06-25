@@ -1,7 +1,7 @@
 {
   "spellcheck": true,
   "tabSize": 2,
-  "useMarkdownLinks": true,
+  "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
   "useTab": true,
   "pdfExportSettings": {
