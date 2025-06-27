@@ -1,7 +1,6 @@
 #cybersecurity #protocol #email #computer-network #application-layer #web #web-security 
 
 - Stands for ==Secure Multipurpose Internet Mail Extension==.
-- [MIME](MIME.md)
 - Support ==canonical form==.
 - Provide:
 	- Authentication.
@@ -55,3 +54,7 @@
 - **Security labels**: grant permisson for access control.
 - **Secure mail list**: employs MLA <-> Mail List Agent.
 - **Signing Certificate**: bind sender's certificate to signature.
+
+---
+# Reference
+1. [MIME](MIME.md)

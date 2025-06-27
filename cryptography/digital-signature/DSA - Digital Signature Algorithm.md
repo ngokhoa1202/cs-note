@@ -5,7 +5,7 @@
 # Algorithm
 ## Generate public-key elements
 - prime $p: 2^{L-1} < p < 2^L$ where $512 \leq L \leq 1024 \land 64|L$ 
-- prime $q: q|(p-1) \land 2^{N-1} < q < 2^N$ where $N$ is bit length of hash function out (e.g: SHA-1 $\rightarrow$ $N=160$) 
+- prime $q: q|(p-1) \land 2^{N-1} < q < 2^N$ where $N$ is bit length of hash function out (e.g:  SHA-1 $\rightarrow$ $N=160$) 
 - $g=h^{\frac{p-1}{q}}$ where $1<h<p-1: h^{{\frac{p-1}{q}}} mod \space p > 1$ 
 ## Generate private key
 $0 < x < q$ 

@@ -1,23 +1,33 @@
 #cli #rsa #cryptography #asymmetric-cipher #os #linux #ubuntu #fedora #computer-network #transport-layer #openssl
 
 - Refers to [RSA](RSA.md)
-# Generate key pair using RSA
-```bash title='openssl for RSA'
-openssl genrsa -out private-key.pem <length> # generate secret key
-
-openssl rsa -in private-key.pem -out public-key.pem -outform PEM -pubout # generate public key
-```
-- Length can be either 1024, 2048, 3072 or 4096.
 
 # Generate key pair
 ## Generate private key
 ```bash title='openssl for generating private key'
 openssl genpkey -algorithm <algorithm> -out <private-key.pem>
 ```
+### RSA algorithm
+```bash title='openssl for RSA'
+openssl genrsa -out private-key.pem <length> # generate secret key
+
+openssl rsa -in private-key.pem -out public-key.pem -outform PEM -pubout # generate public key
+```
+- Length can be either 1024, 2048, 3072 or 4096.
+### ECDSA algorithm
+```openssl for ECDSA
+openssl ecparam -genkey -name <curve-name> -out private-key.pem
+```
+- `ecparam` specified the following parameters for the algorithm.
+- `-name <curve-name>` specifies the curve name. There are some options:
+	- `prime256v1`: NIST P-256 curve (recommended for general use)
+    - `secp384r1`: NIST P-384 curve (higher security)
+    - `secp521r1`: NIST P-521 curve (highest security)
+    - `secp256k1`: The curve used by Bitcoin and many cryptocurrencies
 
 ## Generate public key from private key
 ```bash title='openssl for generating public key from private key'
-openssl pkey -in <private-key.pem> -out <public-key.pem>
+openssl pkey -in <private-key.pem> -pubout -out <public-key.pem>
 ```
 
 # List all algorithms

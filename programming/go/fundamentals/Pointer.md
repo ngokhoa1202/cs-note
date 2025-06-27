@@ -44,4 +44,5 @@ func newInt() *int {
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 2. [Pointer](programming/cpp/fundamentals/Pointer.md) for Pointer in C/C++.
+3. [[Alias, dangling references and garbage]]
 

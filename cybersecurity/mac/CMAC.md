@@ -1,4 +1,5 @@
 #symmetric-cryptography #cryptography  #algorithm  #mac #cybersecurity #computer-network 
+
 - Cipher-Based Message Authentication Code (CMAC).
 - Block-cipher based MAC.
 - Can use DES, AES, 3ES but must obey length.

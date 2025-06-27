@@ -12,5 +12,6 @@
     "downscalePercent": 60
   },
   "readableLineLength": false,
-  "showLineNumber": false
+  "showLineNumber": true,
+  "trashOption": "local"
 }

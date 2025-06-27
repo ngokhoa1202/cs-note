@@ -4,24 +4,28 @@
 - Secure mail access protocol:
 	- [POP3](POP3.md)
 	- [IMAP](IMAP.md)
-- Depends on the scnario, all security protocols have to adhere to CIA triad.
+- Depends on the scenario, all security protocols have to adhere to CIA triad.
 - Apply to ==session-based security== protocols.
 # Ensure confidentiality
 
 - ![](Pasted%20image%2020240514162317.png)
 ## Context
-- Alice and Bob share a session key (secret key $K_s$) 
-- Bob must have public key $K^+_B$ , private key $K^-_B$ 
-- Message $m$ 
+- Alice and Bob share a session key (secret key $K_s$). 
+- Bob must have public key $K^+_B$ , private key $K^-_B$ .
+- Message $m$ .
+- The general encryption function is $E(K, m)$
 ## Description
 - Alice side:
 	- Alice ==encrypts message using session key== $K_s$ , producing $E_1(K_s, m)$ 
 	- Alice ==encrypts session key using Bob's public key== $K^+_B$, producing $E_2(K^+_B, K_s)$ .
-	- Concats and sends to Internet.
+	- The session key and the Bob's public key is concatenated into $E_1 || E_2$ and sends to Internet.
 - Bob side:
-	- Split.
+	- The message concatenating the two keys are splitted.
 	- Bob decrypts ciphertext $E_2(K^+_B, K_s)$ using his private key $K^-_B)$ , producing $K_s$
 	- Bob uses this secret key $K_s$ , decrypts ciphertext $E_1(K^+_B, K_s)$, receives message $m$.
+> [!Important]
+>The implication of this mechanism is that only the client who owns his private key is able to decrypt the ciphertext sent from the server. The process of encryption, however, does not ensure the integrity of the message because there is no message digest comparison on the client side.
+
 # Ensure integrity and authenticity
 ![](Pasted%20image%2020240514163449.png)
 ## Context
@@ -31,12 +35,20 @@
 - Alice side signs
 	- Alice generates message digest $H(m)$
 	- Alice ==encrypts message digest using her private key== $E(K^-_A, H(m))$ 
-	- Concatenate with message $m$ generating ==digital signature== $E(K^-_A, H(m)) || m$ and sends to Internet.
+	- The message $m$ and its encrypted digest is concatenated into a new==digital signature== $E(K^-_A, H(m)) || m$ and sends to Internet.
 - Bob side verifies:
-	- Split the digital signature into message $m$ and message digest $E(K^-_A, H(m))$
-	- Bob generates message digest $H(m)$ using message $m$
-	- Bob decrypts $E(K^-_A, H(m))$ using Alice's public key $K^+_A$, producing $H(m)$ 
-	- Bob verifies by comparing two message digests.
+	- The digital signature is split into message $m$ and message digest $E(K^-_A, H(m))$
+	- Bob generates message digest $H_1(m)$ using message $m$
+	- Bob decrypts $E(K^-_A, H(m))$ using Alice's public key $K^+_A$, producing $H_2(m)$ 
+	- Bob verifies the integrity of the message $m$ by comparing two message digests $H1$ and $H_2$.
+>[!Important]
+>This mechanism provides no confidentiality of the message sent on the Internet but only its integrity and authenticity because only the server who owns his private key is able to encrypt the hash digest while its public keys are distributed among the clients to decrypts the encrypted hash digest.
+>
+>However, due to the lack of encryption by session key, who has the public key is able to read the message and thus the confidentiality is compromised.
+
+
+
+
 # Ensure confidentiality, integrity and authenticity
 
 - ![](Pasted%20image%2020240515135326.png)
@@ -50,21 +62,22 @@
 		- Alice signs:
 			- Alice generates message digest $H(m)$ .
 			- Alice encrypts $H(m)$ using her private key $K^-_A$, producing $E_1(K^-_A, H(m))$ 
-			- Concat with message $m$, producing $E_1(K^-_A, H(m)) \space || \space m$ 
+			- Alice concatenates message digest $H(m)$ with message $m$, producing $E_1(K^-_A, H(m)) \space || \space m$ 
 		- Alice encrypts $E_1 \| m$ using session key $K_S$, producing $E_2(K_S,E_1(K^-_A,H(m)) \space || \space m)$   
-	- Concats and sends $E_1(K^+_B, K_S) \space|| \space E_2(K_S,E_1(K^-_A,H(m)) \space || \space m)$ to Internet.
+	- Alice concatenates $E_1$ and $E_2$ and sends the result $E_1(K^+_B, K_S) \space|| \space E_2(K_S,E_1(K^-_A,H(m)) \space || \space m)$ to Internet.
 - Bob's side:
-	- Splits.
+	- The message received on from the Internet is split into $E_1$ and $E_2$.
 	- Bob decrypts $E_1(K^+_B, K_S)$ using his private key $K^-_B$ , receving session key $K_S$.
 	- Bob decrypts and verifies:
 		- Bob decrypts:
-			- Bob decrypts $E_2(K_S,E_1(K^-_A,H(m)) \space || \space m)$ using session key $K_S$, receiving $E_1(K^-_A, H(m) \space || \space m)$ .
+			- Bob decrypts $E_2(K_S,E_1(K^-_A,H(m)) \space || \space m)$ using session key $K_S$, thereby receiving $E_1(K^-_A, H(m) \space || \space m)$ .
 			- Bob decrypts $E_1(K^-_A, H(m) \space || \space m)$ using Alice's public key, receiving $H(m) \space || \space m$
-		- Splits.
+		- The message digest $H(m)$ and the message $m$ is split.
 		- Bob verifies:
-			- Bob generates message digest $H(m)$ from $m$.
-			- Compares to $H(m)$.
-
+			- Bob generates message digest $H'(m)$ from the message$m$.
+			- Bob verifies the integrity of message $m$ by comparing $H(m)$ and $H'(m)$
+>[!Important]
+>The mechanism ensures the confidentiality as well as the integrity and authenticity of the message. The encrypted message digest is private between the server and the client thanks to the encryption using shared session key.
 ---
 # References
 1. HCMUT computer network slides - Nguyễn Phương Duy

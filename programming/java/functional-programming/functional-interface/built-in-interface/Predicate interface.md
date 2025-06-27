@@ -7,7 +7,7 @@
 - `default Predicate<T> negate()`: return a composed `Predicate` after negating the return value of calling `Predicate`.
 - `default Predicate<T> or(Predicate<? super T> other)`: passes another `Predicate` `other` as ==parameter of lambda function== and ==returns a composed `Predicate` after performing `or` logical operation== with the return value of calling `Predicate`.
 ```Java
-import java.util.LinkedList;  
+import java.util.Linked List;  
 import java.util.List;  
 import java.util.function.BiPredicate;  
 import java.util.function.Predicate;  

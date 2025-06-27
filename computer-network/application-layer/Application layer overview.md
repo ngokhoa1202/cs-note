@@ -4,6 +4,14 @@
 - ==Host-to-host== connection via ==sockets== (transport layer).
 - Packets are called ==messages==.
 # Requirements for transport layer
+- ![](Pasted%20image%2020240512091822.png)
+- ==Real-time apps== may be ==loss-tolerant==, but other like file or Web documents is more sensitive.
+#computer-network #application-layer 
+
+# Concepts
+- ==Host-to-host== connection via ==sockets== (transport layer).
+- Packets are called ==messages==.
+# Requirements for transport layer
 ![](Pasted%20image%2020240512091822.png)
 ==Real-time apps== may be ==loss-tolerant==, but other like file or Web documents is more sensitive.
 

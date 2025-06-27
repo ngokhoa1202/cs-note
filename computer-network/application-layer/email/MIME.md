@@ -1,6 +1,6 @@
 #application-layer #email #computer-network #protocol 
 
-- Stands for ==Multiplepurpose Internet Mail Extension==.
+- Stands for ==Multiple Purpose Internet Mail Extension==.
 - Support many content formats and encodings.
 
 # Header

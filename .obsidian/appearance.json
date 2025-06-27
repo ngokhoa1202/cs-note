@@ -1,7 +1,8 @@
 {
   "theme": "moonstone",
-  "textFontFamily": "IBM Plex Sans,Fira Sans",
+  "textFontFamily": "Fira Sans,IBM Plex Sans",
   "monospaceFontFamily": "FiraCode Nerd Font",
   "interfaceFontFamily": "Lexend",
-  "cssTheme": "Minimal"
+  "cssTheme": "Minimal",
+  "showRibbon": false
 }
