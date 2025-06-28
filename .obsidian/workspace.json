@@ -4,37 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "7ba51f6a18aaee14",
+        "id": "479afb7bb0af74ff",
         "type": "tabs",
         "children": [
           {
-            "id": "4d888150e02ed323",
+            "id": "29599804a8ed20f3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cryptography/hash-function/Cryptographic hash function.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Cryptographic hash function"
-            }
-          },
-          {
-            "id": "4962763b579dad52",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cybersecurity/mac/MAC Concept.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "MAC Concept"
+              "title": "New tab"
             }
           }
         ]
@@ -137,13 +117,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "computer-network/application-layer/Application layer overview.md",
+                "file": "cryptography/hash-function/Cryptographic hash function.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Application layer overview"
+              "title": "Outline of Cryptographic hash function"
             }
           },
           {
@@ -180,7 +160,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -195,33 +175,39 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d888150e02ed323",
+  "active": "d8d7ea544fef7ec3",
   "lastOpenFiles": [
-    "Pasted image 20250627152756.png",
-    "cryptography/asymetric-cipher/Public-key cryptosystem.md",
-    "cybersecurity/mac/MAC Concept.md",
     "cryptography/hash-function/Cryptographic hash function.md",
+    "assets/b+ tree-1.pdf",
+    "assets/b+ tree.pdf",
+    "assets/laravel-lifecycle.drawio.png",
+    "assets/Pasted image 20240511141058.png",
+    "cryptography/digital-signature/Digital signature.md",
+    "assets/Pasted image 20250628081015.png",
+    "cryptography/asymetric-cipher/Public-key cryptosystem.md",
+    "cryptography/asymetric-cipher/rsa/RSA.md",
+    "computer-network/application-layer/Web.md",
+    "computer-network/application-layer/Web cache.md",
+    "computer-network/application-layer/Application layer overview.md",
+    "computer-network/application-layer/Client-Server paradigm.md",
+    "computer-network/application-layer/dhcp/DHCP.md",
+    "computer-network/application-layer/web-socket",
+    "assets/Pasted image 20250627164750.png",
+    "cryptography/digital-signature/DSA - Digital Signature Algorithm.md",
+    "assets/Pasted image 20250627161637.png",
+    "assets/Pasted image 20250627160657.png",
+    "assets/Pasted image 20250627155232.png",
+    "assets/Pasted image 20250627152756.png",
+    "cybersecurity/mac/MAC Concept.md",
     "assets/Pasted image 20250627152439.png",
     "assets/Pasted image 20250627144651.png",
     "cybersecurity/mac/HMAC.md",
-    "cryptography/asymetric-cipher/rsa/RSA.md",
-    "cryptography/digital-signature/DSA - Digital Signature Algorithm.md",
     "cryptography/hash-function",
-    "cryptography/digital-signature/Digital signature.md",
     "cryptography/digital-signature/Elgamal digital signature scheme.md",
     "cybersecurity/mac/DAA.md",
     "cybersecurity/mac/CMAC.md",
     "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md",
     "cybersecurity/web-security/Json Web Token.md",
-    "computer-network/application-layer/Application layer overview.md",
-    "assets/Pasted image 20240512092036.png",
-    "assets/gRPC.drawio 1.png",
-    "assets/gRPC.drawio.png",
-    "assets/Pasted image 20250627120242.png",
-    "assets/Pasted image 20250627115352.png",
-    "assets/Pasted image 20250627115238.png",
-    "assets/Pasted image 20250627115211.png",
-    "assets/Pasted image 20250627110325.png",
     "cryptography/symmetric-cipher/des/DES.md",
     "cybersecurity/cloud-security/Cloud computing.md",
     "cryptography/symmetric-cipher/des/3DES.md",
@@ -232,18 +218,11 @@
     "cryptography/des/DES decryption.md",
     "cryptography/des/DES encryption.md",
     "cybersecurity/network-security/application-layer/email-security/S-MIME.md",
-    "cryptography/des/Analytical attack.md",
-    "cryptography/random/random-generator/Linear Congruential Generator - LCG.md",
-    "cryptography/random/PRNG.md",
-    "cryptography/classical-cipher/Affine cipher.md",
     "operating-system/linux/cryptography/Untitled",
     "Untitled.canvas",
     "fundamentals",
     "programming/javascript/reactjs/featured-api",
     "operating-system/linux/rhel/centos-stream",
-    "operating-system/linux/rhel",
-    "The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015..pdf",
-    "Tags",
     "Untitled 1.canvas",
     "network/Untitled.canvas",
     "Untitled 2.canvas",

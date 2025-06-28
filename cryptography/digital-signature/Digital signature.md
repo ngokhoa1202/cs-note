@@ -1,5 +1,7 @@
 #cybersecurity #cryptography  #hash #digital-signature #rsa #dsa 
 
+# Definition
+- 
 - Ensure data ==integrity== and ==non-repudiation==.
 - Two approaches: RSA and DSA
 - ![](Pasted%20image%2020240512135727.png)

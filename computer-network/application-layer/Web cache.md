@@ -10,7 +10,7 @@
 
 # Conditional GET
 - ==Does not send request== if browser has already ==cached objects==.
-- Header `If-Modified-Since: `=> check header.
+- Header `If-Modified-Since: ` $\implies$ check header.
 - If not modified and browser caches objects, server responses `HTTP 304 Not Modified` and forwards to proxy server.
 
 ---

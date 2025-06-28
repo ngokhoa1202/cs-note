@@ -13,3 +13,5 @@
 ---
 # References
 1. Computer Networking A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.
+2. https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model for Web standard model.
+3. 

@@ -1,5 +1,4 @@
-#dhcp #subnet #data-plane #computer-network #protocol  
-#application-layer  #client-server #network-layer 
+#dhcp #subnet #data-plane #computer-network #protocol  #application-layer  #client-server #network-layer 
 
 - Stands for ==Dynamic Host Configuration Protocol==.
 - ==Automatically allocates IP address== for host within a network.
