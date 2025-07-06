@@ -10,7 +10,7 @@
 - A transaction can read values of committed data items.
 - However, updates are applied only to local copies (versions) of the data items kept in the transaction workspace in the database cache.
 ## Validation phase
-- Serializability is checked before transactions permanently write their updates to the database.
+- Serializability is checked right before transactions permanently write their updates to the database.
 - This phase for $T_i$ checks that, for each transaction $T_j$ that is either committed or is in its validation phase, <mark style="background: #ADCCFFA6;">one of </mark>the following conditions holds (check from top to bottom):
 	- $T_j$ completes its write phase before $T_i$ starts its read phase.
 	- $T_i$ starts its write phase after $T_j$ completes its write phase, and the read_set of $T_i$ has no items in common with the write_set of $T_j$.

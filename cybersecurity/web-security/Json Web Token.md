@@ -20,7 +20,7 @@ $$(Header).(Payload).(Signature)$$
 	"typ": "JWT"
 }
 ```
-- `HS256` stands for HMAC with SHA-256 (Refers to [HMAC](HMAC.md)).
+- `HS256` stands for HMAC with SHA-256 (Refers to [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md)).
 ### Mandatory header
 - `alg`: The main algorithm for signing and encrypting/decrypting JWT.
 ### Optional header
@@ -59,7 +59,7 @@ $$(Header).(Payload).(Signature)$$
 
 ## JWT Signatures
 - Ensure data integrity  and authenticity.
-- Employs [HMAC](HMAC.md) , [MAC Concept](MAC%20Concept.md)
+- Employs [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) , [Message Authentication Code](Message%20Authentication%20Code.md)
 - SHA-256 above is a rule of thumb.
 ### Recommended Hash algorithm
 - `HS256`: ==HMAC using SHA-256==.
@@ -74,7 +74,7 @@ $$(Header).(Payload).(Signature)$$
 	2. Chapter 4 for JWT Signatures
 4. https://www.iana.org/assignments/jwt/jwt.xhtml for IANA JWT Registry
 5. [RSA](RSA.md) for RSA Algorithm
-6. [MAC Concept](MAC%20Concept.md) for encryption and digital signature scenario.
+6. [Message Authentication Code](Message%20Authentication%20Code.md) for encryption and digital signature scenario.
 7. [Generate secret key openSSL](Generate%20secret%20key%20openSSL.md) for generating RSA key pair by command line.
 
 

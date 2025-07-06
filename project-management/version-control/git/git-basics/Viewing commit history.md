@@ -1,5 +1,4 @@
-#git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control 
-#cli #project-management 
+#git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control #cli #project-management 
 
 - Use `git log` command.
 - By default, `git log` lists all the commits made in the repository in reverse chronological order.

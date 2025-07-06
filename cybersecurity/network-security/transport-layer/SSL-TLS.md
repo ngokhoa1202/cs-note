@@ -34,7 +34,7 @@
 	- $Comp(B_1,B_2,...,B_N) \leq B_i.length + 1024$ bytes.
 	- TLSv2 => no compression.
 3. Generate **HMAC** and concat:
-	- [HMAC](HMAC.md)
+	- [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md)
 	- $$HMAC(MAC_{secret}, seqnum || Comp.type || Comp.version || Comp.length || Comp.fragment)$$
 	- $HMAC || Comp$
 4. **Encryption**

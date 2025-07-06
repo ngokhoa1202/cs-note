@@ -1,4 +1,4 @@
-#reactive-programming #software-architecture #software-engineering #reactjs #javascript #jsx #functional-programming #high-order-function 
+#software-architecture #software-engineering #reactjs #javascript #jsx #functional-programming #high-order-function #event-driven-programming
 
 # State structure
 - The root Redux state value is almost always a plain JSON object, with other data nested inside of it.

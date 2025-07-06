@@ -1,4 +1,4 @@
-#angular #reactive-programming  #oop #javascript #software-architecture #software-engineering #dependency-injection #design-pattern 
+#angular #event-driven-programming   #oop #javascript #software-architecture #software-engineering #dependency-injection #design-pattern 
 - Also called event callback.
 # Event binding
 - Specify the event attribute in the `component.html` file with the method invocation. For example:

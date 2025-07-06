@@ -72,5 +72,6 @@
   "minimal-style@@tx3@@light": "#A0AEC0",
   "minimal-style@@bold-color@@light": "#1A202C",
   "minimal-style@@italic-color@@light": "#3D4A5C",
-  "minimal-style@@text-formatting@@light": "#A0AEC0"
+  "minimal-style@@text-formatting@@light": "#A0AEC0",
+  "minimal-style@@h4-weight": 400
 }

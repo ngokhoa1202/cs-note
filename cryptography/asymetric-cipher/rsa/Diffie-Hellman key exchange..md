@@ -20,7 +20,6 @@
 	- On Bob's side, like Alice, he does not know, he still prepares $X_B$ for calculating $Y_B$ and sends it to Alice. He also calculate $K_1=Y_{D_1}^{X_B}$ 
 	- Darth once intercepts Bob's message and knows $Y_B$. He calculates secret key $K_1=Y_B^{X_{D_1}} (mod \space q)$  . Now Darth and Bob shares $K_1$.
 
-	
 # Application
 - Key exchange protocol [IKE](IKE.md).
 - Central directory to ==store public key==.

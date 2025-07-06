@@ -69,6 +69,6 @@ openssl x509 -req -in <cert.csr> -signkey <private_key.pem> -out <certificate.pe
 # References
 1. https://www.openssl.org/
 2. [RSA](RSA.md)
-3. [HMAC](HMAC.md)
+3. [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md)
 4. [SSL-TLS](SSL-TLS.md)
 5. [Transport layer overview](Transport%20layer%20overview.md)

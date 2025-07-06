@@ -1,4 +1,4 @@
-#expressjs #javascript #nodejs #typescript #web-server #web #router #http #application-layer #computer-network #software-engineering #software-architecture #reactive-programming #design-pattern #behavioral-pattern #structural-pattern #reactive-programming 
+#expressjs #javascript #nodejs #typescript #web-server #web #router #http #application-layer #computer-network #software-engineering #software-architecture  #design-pattern #behavioral-pattern #structural-pattern #event-driven-programming 
 
 # Routing methods
 - [HTTP Methods](HTTP%20Methods.md) are supported by Express Js framework.

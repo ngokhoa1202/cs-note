@@ -17,7 +17,7 @@
 - A container itself ==encapsulates== the binary image of the application and additional libraries to deploy them ==as a single software== $\implies$ higher abstraction.
 - ![](Pasted%20image%2020240727202345.png)
 - Three main innovations:
-	- Easy app ==packaging== $\implies$ container image using [HMAC](HMAC.md).
+	- Easy app ==packaging== $\implies$ container image using [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md).
 	- Easy app ==running== $\implies$ container isolation.
 	- Easy app ==distribution== $\implies$ container image registry.
 - Works for a single server.

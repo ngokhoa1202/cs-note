@@ -1,4 +1,4 @@
-#ppl #oop #functional-programming #structured-programming #ddd #software-engineering #software-architecture #dependency-injection #dependency-manager 
+#ppl #oop #functional-programming #structured-programming #domain-driven-design #software-engineering #software-architecture #dependency-injection #dependency-manager #reactive-programming 
 
 # Structured programming
 - Modules can be ==recursively composed into provable units==.

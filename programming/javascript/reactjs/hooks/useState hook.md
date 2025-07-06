@@ -1,4 +1,4 @@
-#reactjs  #javascript  #functional-programming  #hook  #dom #reactive-programming
+#reactjs  #javascript  #functional-programming  #hook  #dom #event-driven-programming 
 
 # Characteristics
 - `useState` adds a state variable to a component, which retains data between renders and triggers React to re-render when the data is changed.

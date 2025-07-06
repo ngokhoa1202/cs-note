@@ -1,4 +1,4 @@
-#hook #reactjs  #javascript  #jsx #functional-programming  #high-order-function  #reactive-programming  #ajax #software-architecture 
+#hook #reactjs  #javascript  #jsx #functional-programming  #high-order-function  #event-driven-programming  #ajax #software-architecture 
 
 
 ---

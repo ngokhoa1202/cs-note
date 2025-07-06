@@ -1,4 +1,4 @@
-#reactjs  #javascript  #hook #functional-programming #high-order-function #dom #reactive-programming 
+#reactjs  #javascript  #hook #functional-programming #high-order-function #dom #event-driven-programming 
 #structured-programming #typescript 
 
 # Common syntax

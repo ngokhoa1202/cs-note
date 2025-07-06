@@ -76,6 +76,6 @@ git merge <child-commit>
 		- Basic branching and merging.
 2. [Recording changes to repository](Recording%20changes%20to%20repository.md) for `git commit`.
 3. https://git-scm.com/docs/git-log for git.
-4. [HMAC](HMAC.md) for Hash-based Message Authentication Code.
+4. [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) for Hash-based Message Authentication Code.
 5. [Viewing commit history](Viewing%20commit%20history.md) for `git log` for git branching.
 6. [Branch management](Branch%20management.md)

@@ -1,4 +1,4 @@
-#oop #reactive-programming #angular #javascript #html #typescript #software-engineering #software-architecture #html
+#oop  #angular #javascript #html #typescript #software-engineering #software-architecture #html #event-driven-programming 
 
 # Concept
 - Content projection is equivalent to the oop <mark style="background: #e4e62d;">inheritance</mark>:

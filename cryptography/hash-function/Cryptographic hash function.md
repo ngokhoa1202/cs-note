@@ -7,6 +7,7 @@
 	- two data objects that map to the same hash result (the collision-free property) $\equiv$ Given hash function $H$, we cannot find two message $m_1$ and $m_2$ such that $m_1 \neq m_2$ and $H(m_1) = H(m_2)$
 # Application
 ## Message authentication
+- Message authentication protects two parties who exchange messages **from any third party**.
 - Before sending the message $m$ to Bob, Alice first computes the message digest $H(m)$ of message $m$, then concatenates them into $H(m) || m$. When receiving the concatenated message, Bob splits them, recalculates the message digest $H(m)$ from the input $m$, then compares it with the hash value received from the Internet to verify the authenticity of the message. ![[Pasted image 20250627144651.png]]
 - However, the hash value must be encrypted to insulate it from being replaced by a man-in-the-middle attack. Without any encryption, Darth is able to intercepts the message $m$ sent from Alice, then replace both message and message digest by his prepared message and finally sends it to Bob. The authenticity and confidentiality of the message are both violated in this case.
 - ![[Pasted image 20250627152439.png]]
@@ -58,6 +59,7 @@
 - ![[Pasted image 20250627161637.png]]
 - Both the confidentiality and the authenticity of the message is ensured.
 ## Digital signatures
+- Digital signature protects the two parties **against each other**.
 - Cryptographic hash function is employed with [[Public-key cryptosystem#Encryption with private key - decryption with public key]] to generate and verify digital signatures.
 ### Encrypt only the message digest
 - The sender employs his private key to encrypt the digest of the message so that it it verifiable that the message received on the recipient came only the from the sender.
@@ -77,9 +79,12 @@
 	- A generates the message digest $H(m)$, then encrypts it with his private key $K^-_A$, producing $C$.
 	- The encrypted digest and the message is concatenated into $m \space || \space E(K^-_A, H(m))$, then encrypted with a secret key $K$, which produces $E'(K, m \space || \space E(K^-_A, H(m)))$, and finally sent over the Internet.
 - B receives the encrypted message:
-	- B decrypted the encrypted message with the secret key $K$, returning back to $m \space || \space E(K^-_A, H(m))$
+	- B decrypted the encrypted message with the secret key $K$, returning back to $m \space || \space E(K^-_A, H(m))$, then splits it into the message $m$ and the encrypted of the digest $E(K^-_A, H(m))$.
+	- B decrypts the encrypted digest with A's public key $K^+_A$, resulting the hash message $H(m)$
+	- B re-calculates the digest of message $m$
+	- B compares the original with the newly calculated hash message to verify the authenticity.
 - ![[Pasted image 20250628081015.png]]
-- ![](https://cs-note.netlify.app/assets/Pasted image 20250628081015.png)
+- The authenticity and confidentiality of the message is ensured.
 ---
 # References
 1.  Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition Pearson (2022).

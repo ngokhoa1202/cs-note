@@ -1,4 +1,4 @@
-#sequelize
+#sequelize #orm 
 # Error Hierarchy in Sequelize
 
 1. `Error` (Native JavaScript error)

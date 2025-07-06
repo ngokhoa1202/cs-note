@@ -1,7 +1,29 @@
-#reactive-programming #software-engineering #software-architecture #javascript #vanilla-javascript #typescript #computer-network #application-layer #design-pattern #os #concurrency-control 
+#software-engineering #software-architecture #javascript #vanilla-javascript #typescript #computer-network #application-layer #design-pattern #os #concurrency-control #event-driven-programming 
 
 # Definition
 - A **Promise** in JavaScript is an object representing the <mark class="hltr-yellow">eventual completion or failure of an asynchronous operation</mark>. by  associating event handlers with an asynchronous action's eventual success value or failure error.
+- Promise is <mark class="hltr-yellow">eagerly executed</mark> by its executor function behind the scenes. Whenever a promise is instantiated, its executor function synchronously executes at that moment. However, it is not until the promise is settled that its value or reason can be used.
+```Javascript title='Promises are eagerly executed by Javascript'
+console.log('Start');
+
+const promise = new Promise((resolve, reject) => {
+  console.log('Executor running');
+  setTimeout(() => {
+    resolve('Complete');
+  }, 1000);
+});
+
+console.log('Promise created');
+```
+- If a promise should be lazily executed, it must be wrapped as a callback.
+```Javascript title='Promise is wrapped to be lazily executed'
+// Lazy - starts only when called
+const lazyOperation = () => new Promise((resolve) => {
+    // This runs when lazyOperation() is invoked
+    performExpensiveOperation();
+    resolve();
+});
+```
 # Lifecycle
 - ![](Pasted%20image%2020250221064245.png)
 - A `Promise` is in one of these states:
@@ -59,7 +81,7 @@ new Promise((resolve, reject) => {
   .then(result => show result, err => show error)
 ```
 
->[!Important]
+>[!Important] finally method
 > - `finally()` does not accept any argument
 > - `finally` handler passes through the result or error to the next handler
 
@@ -92,12 +114,99 @@ fetch('/article/promise-chaining/user.json')
   .catch(error => alert(error.message));
 ```
 
-- A new error can be thrown by the rejection handler and the control flow keeps jump into the closest rejection handler.
+- A new error can be thrown by the rejection handler and the control flow keeps jumping into the closest rejection handler.
 # Promise concurrency
+- Promise concurrency allows multiple independent promises to be concurrently executed without being wastefully blocked and always return a single Promise.
+```Javascript title='Independent promises are wastefully blocked'
+async function getPageData() {
+  const user = await fetchUser();
+  const product = await fetchProduct();
+  const order = await fetchOrder();
+  const analytics = await fetchAnalytics()
+}
+```
+
 ## Promise.all
- - `Promise.all()` fulfills when **all** of the promises fulfill; rejects when **any** of the promises rejects.
+ - `Promise.all()` fulfills when **all** of the promises fulfill with an array of *fulfillment values*; and rejects when **any** of the promises rejects with only the *first reject reason*.
+```Javascript title='Promise.all() may cause unhandled rejections'
+async function getPageData() {
+  try {
+    const [user, product] = await Promise.all([
+      fetchUser(), fetchProduct()
+    ])
+  } catch (err) {
+    // when there is an error thrown from one of the rejected promises
+    // Only the first error is handled
+    // If there is another promise which is later rejected, its reason is ignored
+  }
+}
+```
+
+```Javascript title='Each promise has his error handler in the Promise.all() to prevent unhandled rejections'
+function onReject(err) {
+  handle(err)
+  return err
+}
+
+async function getPageData() {
+  
+  const [user, product] = await Promise.all([
+    fetchUser().catch(onReject), // ⬅️
+    fetchProduct().catch(onReject) // ⬅️
+  ])
+
+  if (user instanceof Error) {
+    handle(user) // ✅
+  }
+  if (product instanceof Error) {
+    handle(product) // ✅
+  }
+}
+```
+
 ## Promise.allSettled
- - `Promise.allSettled()` fulfills when **all** promises settle.
+ - `Promise.allSettled()` fulfills when **all** promises settle, with an array of objects that describe the outcome of each promise. Each object is made up of `status` and `value` in case of fulfillment or `reason` in case of rejection properties.
+```Javascript title='Promise.allSettled() usage'
+async function getPageData() {
+  const results = await Promise.allSettled([
+    fetchUser(), fetchProduct()
+  ])
+
+  // Nicer on the eyes
+  const [user, product] = handleResults(results)
+}
+```
+- The error handler of `Promise.allSetted` is implemented based on the status of the settled Promise.
+```Javascript title='Generic error handler for Promise.allSettled'
+// Generic function to throw if any errors occured, or return the responses
+// if no errors happened
+function handleResults(results) {
+  const errors = results
+    .filter(result => result.status === 'rejected')
+    .map(result => result.reason)
+
+  if (errors.length) {
+    // Aggregate all errors into one
+    throw new AggregateError(errors)
+  }
+
+  return results.map(result => result.value)
+}
+
+async function getPageData() {
+  const results = await Promise.allSettled([
+    fetchUser(), fetchProduct()
+  ])
+
+  try {
+    const [user, product] = handleResults(results)
+  } catch (err) {
+    for (const error of err.errors) {
+      handle(error)
+    }
+  }
+}
+```
 ## Promise.any
 - `Promise.any` fulfills when **any** of the promises fulfills; rejects when **all** of the promises reject.
 ## Promise.race

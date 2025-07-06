@@ -1,4 +1,4 @@
-#reactjs  #javascript  #hook #functional-programming #high-order-function #dom #reactive-programming 
+#reactjs  #javascript  #hook #functional-programming #high-order-function #dom #event-driven-programming 
 
 >[!Note]
 >A **reducer** is a function that receives the current `state` and an `action` object, decides how to update the state if necessary, and returns the new state: `(state, action) => newState`.

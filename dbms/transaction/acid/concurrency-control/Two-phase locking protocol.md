@@ -34,8 +34,7 @@
 ## Rigorous 2PL
 - Rigorous 2PL is an extension of [Strict 2PL](#Strict%202PL)
 -  A transaction T does <mark style="background: #e4e62d;">not release</mark> any of its <mark style="background: #e4e62d;">locks (shared or exclusive) until after it commits</mark> or aborts. 
-- Hence, no other transaction can read or write an item that is written by T unless T has committed, leading to a
-[Strict schedule](Recoverability.md#Strict%20schedule) for recoverability.
+- Hence, no other transaction can read or write an item that is written by T unless T has committed, leading to a [Strict schedule](Recoverability.md#Strict%20schedule) for recoverability.
 - This is not deadlock-free.
 
 ---

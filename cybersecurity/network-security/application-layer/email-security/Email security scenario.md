@@ -84,5 +84,5 @@
 2. HCMUT cryptography and network security slides - Nguyễn Thành Đạt.
 3. Cryptography and Network Security_ Principles and Practice - William Stallings -  Global Edition-Pearson (2022).
 4. Computer Networking A Top-Down Approach, Global Edition, 8th Edition.
-5. [HMAC](HMAC.md) for Hash-based MAC.
-6. [MAC Concept](MAC%20Concept.md) for Message Authentication Code.
+5. [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) for Hash-based MAC.
+6. [Message Authentication Code](Message%20Authentication%20Code.md) for Message Authentication Code.
