@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "4ac2661423617939",
+        "id": "1a3f7c67ce4e385c",
         "type": "tabs",
         "children": [
           {
-            "id": "4bd89cf9f26a66d2",
+            "id": "d4f46d88616f6dd0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CLAUDE.md",
+                "file": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Visitor pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "CLAUDE"
+              "title": "Visitor pattern"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ddd",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 324.5
+    "width": 339.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -106,7 +106,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false,
+                "useHierarchy": true,
                 "showSearch": true,
                 "searchQuery": ""
               },
@@ -166,7 +166,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 264.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -177,54 +177,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4bd89cf9f26a66d2",
+  "active": "d8d7ea544fef7ec3",
   "lastOpenFiles": [
-    "CLAUDE.md",
-    "software-engineering/software-architecture/design/design-pattern/Design patterns.md",
-    "software-engineering/software-architecture/design/design-pattern/modern/Callback pattern.md",
-    "software-engineering/software-architecture/design/design-pattern/modern/Asynchronous method invocation.md",
+    "assets/Pasted image 20250719110605.png",
+    "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Template method pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Visitor pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Memento pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Strategy pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Observer pattern.md",
+    "assets/Pasted image 20250718082836.png",
+    "project-management/version-control/git/git-basics/Initialize project.md",
+    "assets/Pasted image 20250718074752.png",
+    "assets/Pasted image 20250718073655.png",
     "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md",
-    "assets/TypeScript Types.pdf",
-    "programming/php/laravel/router/HTTP Put, Patch, Delete in Laravel PHP.md",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md",
-    "programming/java/quarkus/gRPC for Quarkus.md",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/gRPC.md",
+    "programming/java/fundamentals/generics/Generics.md",
+    "programming/java/fundamentals/java-core/interface/Anonymous class.md",
+    "programming/principles/object-oritented-programming/Co-variance, Contra-variance and In-variance.md",
+    "programming/cpp/fundamentals/Essential operation.md",
+    "programming/cpp/fundamentals/Assignment operation.md",
+    "programming/principles/data-types/Type system.md",
+    "programming/principles/data-types/Hindley-Milner type checking.md",
+    "computer-network/network-layer/control-plane/OSPF.md",
+    "computer-network/network-layer/Network layer overview.md",
+    "computer-network/network-layer/control-plane/SNMP.md",
+    "computer-network/network-layer/Software-Defined Networking.md",
+    "calculus/Harmonic series.md",
+    "computer-network/network-layer/control-plane/ICMP.md",
+    "computer-network/application-layer/dhcp/DHCP.md",
+    "computer-network/transport-layer/tcp/TCP.md",
+    "calculus/Stirling's approximation.md",
+    "calculus/L'Hopital rule.md",
+    "cryptography/symmetric-cipher/des/3DES.md",
+    "programming/java/fundamentals/generics",
+    "programming/java/fundamentals/java-core",
+    "programming/principles/data-types",
+    "programming/principles/object-oritented-programming",
+    "discrete-math/relation",
+    "discrete-math",
+    "programming/java/functional-programming/stream/collector/Untitled",
+    "programming/java/fundamentals/functional-programming/stream/collector",
+    "programming/java/fundamentals/java-core/function",
+    "programming/java/fundamentals/interface 1",
+    "assets/Pasted image 20250711081135.png",
+    "assets/Pasted image 20250711081020.png",
+    "assets/Pasted image 20250707202854.png",
     "assets/Pasted image 20250706160630.png",
     "assets/Pasted image 20250706160418.png",
     "assets/Pasted image 20250706160337.png",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md",
     "assets/Pasted image 20250706153428.png",
-    "assets/Pasted image 20250706153356.png",
-    "assets/Pasted image 20250706153107.png",
-    "assets/Pasted image 20250706151542.png",
-    "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md",
-    "assets/Pasted image 20250706150006.png",
-    "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md",
-    "software-engineering/software-architecture/design/domain-driven-design/Domain driven design components.md",
-    "assets/Pasted image 20250706121333.png",
-    "software-engineering/software-architecture/design/domain-driven-design/Layered architecture.md",
-    "software-engineering/software-architecture/design",
-    "assets/Pasted image 20250706113748.png",
-    "operating-system/process/Process creation.md",
-    "dbms/dbms-design/erd/EERD.md",
-    "programming/principles/Programming paradigms.md",
-    "operating-system/process/inter-process-communication/Message passing.md",
-    "operating-system/process/inter-process-communication/Inter Process Communication.md",
-    "operating-system/process/inter-process-communication/Remote procedure call.md",
-    "operating-system/process/inter-process-communication/Shared memory.md",
-    "operating-system/process/Deadlock.md",
-    "operating-system/process/process-synchronization/Process sychronization.md",
-    "operating-system/process/inter-process-communication/Pipe.md",
-    "operating-system/process/process-synchronization/Peterson's solution.md",
-    "operating-system/process/process-synchronization/Mutex lock.md",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture",
-    "software-engineering/software-architecture/architecture/layered-architecture",
-    "software-engineering/software-architecture/architecture",
-    "projects/leave-management",
-    "projects",
-    "assets/b+ tree-1.pdf",
-    "assets/b+ tree.pdf",
-    "computer-network/application-layer/web-socket",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "network/Untitled.canvas",

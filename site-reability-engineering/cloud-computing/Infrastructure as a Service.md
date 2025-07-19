@@ -1,4 +1,4 @@
-#cloud #iaas #software-engineering #os #linux #windows #virtualization 
+#cloud #iaas #software-engineering #operating-system #linux #windows #virtualization 
 
 # Concepts
 - _Infrastructure as a Service_ (IaaS) is a cloud service model that provides <mark style="background: #e4e62d;">on-demand physical and virtual computing resources</mark>, storage, network, firewall, and load <mark style="background: #e4e62d;">balancers</mark>. 

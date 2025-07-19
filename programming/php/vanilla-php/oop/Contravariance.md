@@ -1,4 +1,4 @@
-#php #oop #solid #software-engineering 
+#php #object-oriented-programming #solid #software-engineering 
 
 - Only works with PHP $\geq$ 7.4.
 - ==Widening== parameter type.

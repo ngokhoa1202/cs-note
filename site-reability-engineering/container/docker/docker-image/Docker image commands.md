@@ -1,4 +1,4 @@
-#binary-image  #docker  #cli #process #os #installation #configuration #container 
+#binary-image  #docker  #cli #process #operating-system #installation #configuration #container 
 
 # Docker image history
 ## Purpose

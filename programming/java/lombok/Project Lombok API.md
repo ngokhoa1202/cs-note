@@ -1,4 +1,4 @@
-#java #spring #lombok #java-core #oop #configuration #installation #annotation #design-pattern #software-engineering 
+#java #spring #lombok #java-core #object-oriented-programming #configuration #installation #annotation #design-pattern #software-engineering 
 
 # Purpose
 - ==Reduces boilerplate code== for Java core (getter, setter, constructor, builder pattern).

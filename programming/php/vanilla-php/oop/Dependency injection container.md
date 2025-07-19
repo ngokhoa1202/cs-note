@@ -1,4 +1,4 @@
-#php #software-engineering  #oop #psr-11 #composer 
+#php #software-engineering  #object-oriented-programming #psr-11 #composer 
 
 - A class has information about other class to resolve depencies between classes.
 - Specified in PSR-11.

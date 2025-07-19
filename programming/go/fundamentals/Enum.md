@@ -1,6 +1,6 @@
 #data-type #go 
 
-- Go does not fully support enum type as Java or C++, but employs type declaration followed by multiple constant initialization.
+- Go does not fully support enum type as Java or C++, but employs type declaration followed by multiple constant initialization. 
 # Ordinary enum
 ```Go title='Enum'
 package main

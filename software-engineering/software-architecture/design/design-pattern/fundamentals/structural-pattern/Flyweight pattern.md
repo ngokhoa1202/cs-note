@@ -1,4 +1,4 @@
-#oop #software-engineering  #design-pattern  #software-architecture  #structural-pattern 
+#object-oriented-programming #software-engineering  #design-pattern  #software-architecture  #structural-pattern 
 
 # Purpose
 - Share a large number of small objects to reduce memory usage.

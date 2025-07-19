@@ -1,4 +1,4 @@
-#dbms #indexing #query #rdbms #sql #data-structure #b-tree #algorithm-analysis #file-system #os #algorithm 
+#dbms #indexing #query #rdbms #sql #data-structure #b-tree #algorithm-analysis #file-system #operating-system #algorithm 
 
 # Search tree
 - A search tree of order $p$ is a tree such that each node contains <mark style="background: #e4e62d;">at most</mark> $p-1$ search values and $p$ pointers in the order $$<P_1,K_1,P_2,K_2,...,P_{q-1},K_{q-1}, P_q>$$ where $q \leq p$ and the value of $K_i$ is <mark style="background: #e4e62d;">ordered</mark>.

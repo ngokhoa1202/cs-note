@@ -1,4 +1,4 @@
-#reactjs #javascript #functional-programming #oop #software-architecture 
+#reactjs #javascript #functional-programming #object-oriented-programming #software-architecture 
 
 # Lifecycle
 ## Simplified lifecycle

@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #logging #acid 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #logging #acid 
 
 - Based on [Shadow update](Recovery%20concepts.md#Shadow%20update) $\implies$ AFIM does not overwrite its BFIM but is stored at another location on disk.
 # Shadow paging

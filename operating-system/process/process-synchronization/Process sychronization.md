@@ -1,4 +1,4 @@
-#os #ipc #process-synchronization #parallel-programming #critical-section #process #thread 
+#operating-system #ipc #process-synchronization #parallel-programming #critical-section #process #thread 
 
 # Critical section problem
 - [Critical section problem](Critical%20section%20problem.md)

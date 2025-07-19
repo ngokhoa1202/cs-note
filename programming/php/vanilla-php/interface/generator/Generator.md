@@ -1,4 +1,4 @@
-#php #interface 
+#php #api 
 
 # Characteristics
 - Implements `Iterator` interface.

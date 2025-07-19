@@ -1,4 +1,4 @@
-#docker #binary-image  #container #os #process #cli  #software-architecture 
+#docker #binary-image  #container #operating-system #process #cli  #software-architecture 
 
 # Docker image
 - An image is a standardized ==filesystem== that includes all of the files, ==binaries==, libraries, and ==configurations== to run a container:

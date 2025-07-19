@@ -1,4 +1,4 @@
-#dockerfile #cli #ci-cd #container #binary-image #os #file-system #binary-image 
+#dockerfile #cli #ci-cd #container #binary-image #operating-system #file-system #binary-image 
 
 # Docker buildx build
 ## Purpose

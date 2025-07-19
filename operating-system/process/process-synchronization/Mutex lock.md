@@ -1,4 +1,4 @@
-#os #process #process-synchronization #mutex #parallel-programming #critical-section #thread 
+#operating-system #process #process-synchronization #mutex #parallel-programming #critical-section #thread 
 
 # Concept
 - Stands for <mark style="background: #e4e62d;">mutual exclusion</mark>.

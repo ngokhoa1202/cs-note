@@ -1,4 +1,4 @@
-#inversion-of-control #spring  #spring-boot #software-engineering  #software-architecture  #dependency-injection  #java #oop  #annotation #autowiring 
+#inversion-of-control #spring  #spring-boot #software-engineering  #software-architecture  #dependency-injection  #java #object-oriented-programming  #annotation #autowiring 
 
 # Inversion of control
 - In tradditional programming, we ==ourselves implement the program flow== and reuse modules in libraries to perform some tasks in our application $\implies$ we call library functions.

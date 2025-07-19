@@ -1,4 +1,4 @@
-#process-synchronization #ipc #parallel-programming #thread #process #os #critical-section 
+#process-synchronization #ipc #parallel-programming #thread #process #operating-system #critical-section 
 
 - Classic <mark style="background: #e4e62d;">software-based</mark> solution to critical section problem.
 - Not guaranteed to work on modern architectures $\equiv$ the processor is able to <mark style="background: #e4e62d;">reorder instructions</mark> and multi-threaded processors

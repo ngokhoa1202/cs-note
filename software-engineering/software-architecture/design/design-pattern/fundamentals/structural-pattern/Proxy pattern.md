@@ -1,4 +1,4 @@
-#design-pattern #oop #software-engineering  #software-architecture  #structural-pattern #computer-network 
+#design-pattern #object-oriented-programming #software-engineering  #software-architecture  #structural-pattern #computer-network 
 
 # Purpose
 - Provides a ==surrogate - placeholder==  for a particular class to control its access.

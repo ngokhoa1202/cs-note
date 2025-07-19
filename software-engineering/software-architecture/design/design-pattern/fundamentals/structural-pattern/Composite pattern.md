@@ -1,4 +1,4 @@
-#oop #design-pattern #software-engineering #structural-pattern  #software-architecture 
+#object-oriented-programming #design-pattern #software-engineering #structural-pattern  #software-architecture 
 
 - Called as Composite because it composes a collection of Component.
 # Purpose

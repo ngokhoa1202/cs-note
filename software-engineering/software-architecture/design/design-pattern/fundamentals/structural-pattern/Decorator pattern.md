@@ -1,4 +1,4 @@
-#oop #design-pattern #software-engineering #software-architecture #structural-pattern #java 
+#object-oriented-programming #design-pattern #software-engineering #software-architecture #structural-pattern #java 
 
 - Known as Wrapper because Decorator ==wraps an object of its interface== as well as implements its interface.
 # Purpose

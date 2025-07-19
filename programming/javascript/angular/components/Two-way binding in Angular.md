@@ -1,4 +1,4 @@
-#angular #html #angular17 #angular18 #typescript #javascript #oop #software-engineering #software-architecture #design-pattern #structural-pattern #dependency-injection 
+#angular #html #angular17 #angular18 #typescript #javascript #object-oriented-programming #software-engineering #software-architecture #design-pattern #structural-pattern #dependency-injection 
 
 # Concepts
 - Two-way binding means two-way communication between what user do and what user see (input - output).

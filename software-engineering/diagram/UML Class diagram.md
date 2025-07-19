@@ -1,4 +1,4 @@
-#oop #uml #class-diagram #software-engineering 
+#object-oriented-programming #uml #class-diagram #software-engineering 
 
 # UML Class diagram
 ```mermaid

@@ -1,4 +1,4 @@
-#kvm #cloud #site-realibility-engineering #virtualization #os #aws #container #iaas #saas #paas 
+#kvm #cloud #site-realibility-engineering #virtualization #operating-system #aws #container #iaas #saas #paas 
 
 [DigitalOcean](https://www.digitalocean.com) is a leading cloud services provider, aiming its cloud platform at both individual users and enterprises. DigitalOcean helps you create a simple cloud quickly, as it promises IaaS virtual instances set up within seconds. DigitalOcean cloud services enable application deployments and scaling on a cloud infrastructure available worldwide, leveraging network and storage flexibility together with security and monitoring tools.
 

@@ -1,4 +1,4 @@
-#os #ubuntu #installation  #cli 
+#operating-system #ubuntu #installation  #cli 
 
 # Apt repository
 ## Search a package

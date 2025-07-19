@@ -1,4 +1,4 @@
-#design-pattern  #software-engineering  #software-architecture #behavioral-pattern #solid #oop 
+#design-pattern  #software-engineering  #software-architecture #behavioral-pattern #solid #object-oriented-programming 
 
 # Purpose
 - ==Avoids tightly coupling== the Client to the Concrete Handler. ==Chain each request and let a specific Concrete Handler handles== it along the chain.

@@ -1,4 +1,4 @@
-#indexing  #dbms #query #secondary-storage #file-system #sql #nosql #algorithm #sorting #algorithm-analysis #os #file-system #data-structure #sorting 
+#indexing  #dbms #query #secondary-storage #file-system #sql #nosql #algorithm #sorting #algorithm-analysis #operating-system #file-system #data-structure #sorting 
 
 - Defined on a field or on a combination of fields of a file.
 - Includes entries in the form of   $<\text{Field value}, \text{Pointer}>$. Denoted by $<K(i), P(i)>$ . $P(i)$ can be:

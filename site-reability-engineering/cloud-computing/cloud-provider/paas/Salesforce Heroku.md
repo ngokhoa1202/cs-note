@@ -1,4 +1,4 @@
-#cloud #iaas #software-engineering #os #linux #windows #virtualization 
+#cloud #iaas #software-engineering #operating-system #linux #windows #virtualization 
 
 [Heroku](http://www.heroku.com) is a fully-managed container-based cloud platform with integrated data services and a strong ecosystem. Heroku is used to deploy and run enterprise level modern applications, and it is a [Salesforce](https://www.salesforce.com) company.
 

@@ -1,4 +1,4 @@
-#cloud #iaas #software-engineering #os #linux #windows #virtualization 
+#cloud #iaas #software-engineering #operating-system #linux #windows #virtualization 
 
 # Introduction
 [Red Hat OpenShift](https://www.redhat.com/en/technologies/cloud-computing/openshift) is an open source PaaS solution provided by Red Hat. It is built on top of the container technology orchestrated by [Kubernetes](https://kubernetes.io/). OpenShift can be deployed in the cloud as a managed service or as a self-managed deployment on a public or private cloud optimized to run containers and Kubernetes.

@@ -1,4 +1,4 @@
-#c #os #unix #linux #windows #process-synchronization #process 
+#c #operating-system #unix #linux #windows #process-synchronization #process 
 
 > Pipes are the oldest method of IPC on the UNIX system, having appeared in Third Edition UNIX in the early 1970s.
 

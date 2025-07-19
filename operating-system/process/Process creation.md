@@ -1,4 +1,4 @@
-#c #cpp #os #gnu #linux #process 
+#c #cpp #operating-system #gnu #linux #process 
 
 # Overview
 - The `fork()` system call allows one process, the parent, to <mark class="hltr-yellow">create a new proces</mark>s, the child. This is done by making the new child process an (almost) exact <mark class="hltr-yellow">duplicate of the paren</mark>t: the child obtains copies of the parent’s stack, data, heap,and text segments.

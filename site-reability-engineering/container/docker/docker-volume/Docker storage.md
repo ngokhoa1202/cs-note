@@ -1,4 +1,4 @@
-#docker #container #file-system #volume #process #os #secondary-storage 
+#docker #container #file-system #volume #process #operating-system #secondary-storage 
 
 # Docker storage
  - By default, all files created inside a container are stored in a <mark style="background: #e4e62d;">writable container layer</mark>. This mechanism has 3 implications:

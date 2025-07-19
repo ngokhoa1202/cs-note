@@ -1,4 +1,4 @@
-#angular #angular17 #angular18 #annotation #javascript #typescript #design-pattern #oop #functional-programming 
+#angular #angular17 #angular18 #annotation #javascript #typescript #design-pattern #object-oriented-programming #functional-programming 
 #structural-pattern #software-engineering #software-architecture #html 
 
 # Input

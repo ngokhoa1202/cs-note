@@ -1,4 +1,4 @@
-#php #interface 
+#php #api 
 
 # Purpose
 - Retrieve information about a specific parameter of a method.

@@ -1,4 +1,4 @@
-#dbms #dbms-design #erd-diagram #oop #domain-driven-design 
+#dbms #dbms-design #erd-diagram #object-oriented-programming #domain-driven-design 
 
 - Stands for Enhanced Entity-Relationship Digram (Enhanced [ERD](ERD.md))
 # Generalization & Specialization

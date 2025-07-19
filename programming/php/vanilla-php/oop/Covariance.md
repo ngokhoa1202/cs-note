@@ -1,4 +1,4 @@
-#php #oop #software-engineering #solid
+#php #object-oriented-programming #software-engineering #solid
 
 - Only works with PHP $\geq$ 7.4.
 - ==Narrowing return type==.

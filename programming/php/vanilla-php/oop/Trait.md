@@ -1,4 +1,4 @@
-#php #oop #vanilla-php 
+#php #object-oriented-programming #vanilla-php 
 
 # Trait
 - PHP only support single class inheritance, but trait help ==implement multiple inheritance==.

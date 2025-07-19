@@ -1,4 +1,4 @@
-#cloud #iaas #software-engineering #os #linux #windows #virtualization
+#cloud #iaas #software-engineering #operating-system #linux #windows #virtualization
 
 - Framework to build a cloud computing platform.
 

@@ -1,4 +1,4 @@
-#angular #angular17 #angular18 #reactive-programming #javascript #typescript  #software-engineering #software-architecture #oop #functional-programming #high-order-function #design-pattern #structural-pattern #html #css #scss 
+#angular #angular17 #angular18 #reactive-programming #javascript #typescript  #software-engineering #software-architecture #object-oriented-programming #functional-programming #high-order-function #design-pattern #structural-pattern #html #css #scss 
 
 # Angular commands
 - [Angular commands](Angular%20commands.md)

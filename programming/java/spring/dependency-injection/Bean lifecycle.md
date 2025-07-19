@@ -1,4 +1,4 @@
-#bean #spring #spring-boot #java #software-architecture  #design-pattern  #oop 
+#bean #spring #spring-boot #java #software-architecture  #design-pattern  #object-oriented-programming 
 
 # Bean lifecycle
 - ![800](Pasted%20image%2020240716205458.png)

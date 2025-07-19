@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid #process-synchronization 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid #process-synchronization 
 
 - From [Serializability](Serializability.md), a serializable schedule is a correct schedule.
 - [Multi-mode locks](Locking%20operations.md#Multi-mode%20locks) is employed for two-phase locking protocol.

@@ -1,4 +1,4 @@
-#design-pattern #software-engineering  #software-architecture #oop #behavioral-pattern  #solid #functional-programming #high-order-function #dbms #transaction #java 
+#design-pattern #software-engineering  #software-architecture #object-oriented-programming #behavioral-pattern  #solid #functional-programming #high-order-function #dbms #transaction #java 
 
 # Purpose
 - Defines an object which <mark class="hltr-yellow">encapsulates</mark> and <mark class="hltr-yellow">thus reduce the complexity </mark>of how a collection of related objects interact.

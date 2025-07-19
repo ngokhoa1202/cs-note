@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid 
 
 - Refers to [Locking operations](Locking%20operations.md)
 # Granularity level considerations

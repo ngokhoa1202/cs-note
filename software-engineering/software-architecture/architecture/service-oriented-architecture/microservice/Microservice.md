@@ -1,7 +1,7 @@
 #service-oriented-architecture #microservice #software-testing #software-engineering #software-architecture #solid #ci-cd #logging #event-driven-programming 
 #concurrency-control #transaction #computer-network #application-layer #cybersecurity #transaction #container 
 # Topology
-- Every service is implemented within a bounded context according to domain-driven design to highly prioritize the high coupling.
+- Every service is implemented in alignment with a <mark class="hltr-yellow">bounded context</mark> to highly prioritize the high coupling.
 - Each microservice has its own API layer to interact with clients and comprises its business logic and dedicated database infrastructure, thereby promoting service autonomy.
 - ![[Pasted image 20250706150006.png]]
 - Microservices form a <mark class="hltr-yellow">distributed</mark> system.
@@ -39,11 +39,17 @@
 - Orchestration uses a <mark class="hltr-yellow">central coordinator</mark> that explicitly tells each service what and when to do. The mediator controls the workflow and makes decisions about the sequence of operations.
 - ![[Pasted image 20250706160630.png]]
 # Transaction
+- Distributed transactions violates the core decoupling principle of the microservices architecture because multiple components must maintain <mark class="hltr-yellow">synchronized state</mark>.
+- Service boundaries should *align with* transactional boundaries. Operations requiring ACID properties should reside within the same service, while operations that can tolerate eventual consistency should communicate through asynchronous mechanisms.
+- Services that are too granular lead to distributed transaction requirements, while services that are too coarse-grained sacrifice the benefits of microservices architecture.
 
+# Metrics
+- ![[Pasted image 20250707202854.png]]
 
 # References
 1. Fundamentals of Software Architecture: An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020)
 	1. Chapter 17. Microservices Architecture.
 2. [[Domain driven design]]
 3. [[Service-oriented architecture]]
-4. 
+4. https://martinfowler.com/articles/microservices.html
+5. 

@@ -1,4 +1,4 @@
-#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #oop #solid #agile #project-management #domain-driven-design
+#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #object-oriented-programming #solid #agile #project-management #domain-driven-design
 
 # Purpose
 - DDD plays as an <mark style="background: #e4e62d;">ubiquitous language</mark> - shared knowledge between development teams and business experts.

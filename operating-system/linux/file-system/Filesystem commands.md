@@ -1,4 +1,4 @@
-#cli #ubuntu #os #file-system
+#cli #ubuntu #operating-system #file-system
 
 # Filesystem manual documentation
 ```bash

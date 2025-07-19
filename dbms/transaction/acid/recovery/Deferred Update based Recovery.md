@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #logging #acid 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #logging #acid 
 
 - Also known as <mark style="background: #e4e62d;">No-Undo</mark> & <mark style="background: #e4e62d;">Redo</mark> recovery.
 	- [No-steal flushing](Recovery%20concepts.md#No-steal%20flushing) for BFIM.

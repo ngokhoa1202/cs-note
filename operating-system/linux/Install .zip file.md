@@ -1,4 +1,4 @@
-#os #ubuntu #installation #cli #debian 
+#operating-system #ubuntu #installation #cli #debian 
 
 # Install .zip file
 - Use the `unzip` command:

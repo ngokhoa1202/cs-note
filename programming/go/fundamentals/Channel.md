@@ -1,4 +1,4 @@
-#data-type #go #concurrency-control #parallel-programming #web-server #os #mutex 
+#data-type #go #concurrency-control #parallel-programming #web-server #operating-system #mutex 
 
 
 ---

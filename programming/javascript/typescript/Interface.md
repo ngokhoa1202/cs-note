@@ -1,4 +1,4 @@
-#typescript #javascript #oop #solid 
+#typescript #javascript #object-oriented-programming #solid 
 
 - A typescript's interface has a compile-time behavior.
 - Typescript interfaces are not compiled into Javascript interfaces.

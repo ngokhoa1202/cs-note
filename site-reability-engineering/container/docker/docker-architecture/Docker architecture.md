@@ -1,4 +1,4 @@
-#ci-cd #cli #docker #software-architecture #client-server #application-layer #web-server  #dbms #binary-image  #os #process #memory #virtual-memory #site-realibility-engineering 
+#ci-cd #cli #docker #software-architecture #client-server #application-layer #web-server  #dbms #binary-image  #operating-system #process #memory #virtual-memory #site-realibility-engineering 
 
 # Architecture
 - ![](Pasted%20image%2020240727204701.png)

@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid 
 
 # Multi-user environment
 - Transaction processing are employed to serve multi-user system, especially to resolve <mark style="background: #e4e62d;">concurrency-related problems</mark> and <mark style="background: #e4e62d;">recovery-related problems</mark>.

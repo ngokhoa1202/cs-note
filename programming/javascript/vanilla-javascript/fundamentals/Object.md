@@ -1,4 +1,4 @@
-#javascript #typescript #vanilla-javascript #operator #oop #functional-programming #high-order-function 
+#javascript #typescript #vanilla-javascript #operator #object-oriented-programming #functional-programming #high-order-function 
 
 # Properties in Object
 - [Property](Property.md)

@@ -1,4 +1,4 @@
-#oop #functional-programming #angular #javascript #typescript #reactive-programming #software-architecture #software-engineering #solid #ajax  #angular17 #angular18 #api #dependency-injection 
+#object-oriented-programming #functional-programming #angular #javascript #typescript #reactive-programming #software-architecture #software-engineering #solid #ajax  #angular17 #angular18 #api #dependency-injection 
 
 # Asynchronous programming
 ## Zone.js

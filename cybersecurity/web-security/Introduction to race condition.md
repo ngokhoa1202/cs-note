@@ -1,4 +1,4 @@
-#cybersecurity  #web-security #race-condtition #parallel-programming  #os #transaction #application-layer #dbms  #hibernate  
+#cybersecurity  #web-security #race-condtition #parallel-programming  #operating-system #transaction #application-layer #dbms  #hibernate  
 # Scenario
 - Servers handle ==multiple requests== on a regular basis.
 - ==High traffic== $\implies$ multiple independent threads $\implies$ uncontrolled side effects $\implies$ many ==concurrent== side effects on a ==same== server's asset (an amount of money, a valuable item,...).

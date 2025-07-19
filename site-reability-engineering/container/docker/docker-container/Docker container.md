@@ -1,4 +1,4 @@
-#ci-cd #software-engineering #os #ubuntu  #cli  #kurbenetes  #process #thread #docker #software-architecture 
+#ci-cd #software-engineering #operating-system #ubuntu  #cli  #kurbenetes  #process #thread #docker #software-architecture 
 
 # Purpose
 - Platform independence, 

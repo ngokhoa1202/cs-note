@@ -1,4 +1,4 @@
-#os #fedora #ubuntu #windows #postgresql #dbms 
+#operating-system #fedora #ubuntu #windows #postgresql #dbms 
 
 # Installation
 ## Fedora OS

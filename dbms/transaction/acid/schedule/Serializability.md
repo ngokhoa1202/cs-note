@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process 
 #software-architecture #software-architecture #computer-architecture  #acid #concurrency-control #graph-theory 
 
 # Serial transaction

@@ -1,4 +1,4 @@
-#javascript #typescript #vanilla-javascript #operator #oop #functional-programming #high-order-function 
+#javascript #typescript #vanilla-javascript #operator #object-oriented-programming #functional-programming #high-order-function 
 
 # in keyword
 - `in` keyword checks whether a property exists in a Javascript object.

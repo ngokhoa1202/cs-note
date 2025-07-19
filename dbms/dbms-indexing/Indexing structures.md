@@ -1,4 +1,4 @@
-#dbms #indexing #query #rdbms #sql #data-structure #b-tree #algorithm-analysis #file-system #os 
+#dbms #indexing #query #rdbms #sql #data-structure #b-tree #algorithm-analysis #file-system #operating-system 
 
 # Purpose
 - Plays as additional auxiliary access paths to access records *without affecting physical structure* of files.

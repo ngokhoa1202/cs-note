@@ -1,4 +1,4 @@
-#transaction #os #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #thread #acid 
+#transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #thread #acid 
 
 # Transaction
 - A  transaction is a <mark style="background: #e4e62d;">logical</mark> , <mark style="background: #e4e62d;">atomic</mark> unit of work in DBMS that should either be completed in its entirety or not done at all

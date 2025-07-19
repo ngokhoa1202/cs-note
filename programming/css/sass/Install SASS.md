@@ -12,4 +12,4 @@
 - Automatically compiled to CSS file if SASS file is changed.
 - Add watch flag `-w`: `ompile:sass: node-sass <sass-src> <dest-css> -w`
 # Compile sass file
-- Run `npm run compile:sass`
+- Run `npm run compile:sass

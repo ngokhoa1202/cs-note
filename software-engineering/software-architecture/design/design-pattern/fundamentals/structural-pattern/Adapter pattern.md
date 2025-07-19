@@ -1,4 +1,4 @@
-#oop #structural-pattern #solid #software-engineering #diamond-problem #java #python #software-architecture 
+#object-oriented-programming #structural-pattern #solid #software-engineering #diamond-problem #java #python #software-architecture 
 
 - Known as ==Wrapper== because Adapter wraps an Adaptee object.
 # Purpose

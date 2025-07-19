@@ -1,4 +1,4 @@
-#os #process #parallel-programming #thread 
+#operating-system #process #parallel-programming #thread 
 
 # Deadlock
 - ==Every== process in a set of processes is ==waiting for an event== which can be ==only triggered by another process== in the set. $\implies$ that set of processes will wait until all of them are dead.

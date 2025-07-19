@@ -1,4 +1,4 @@
-#php #vanilla-php #oop 
+#php #vanilla-php #object-oriented-programming 
 
 # Definition
 - Enum with backed scalar types: `int` and `string`

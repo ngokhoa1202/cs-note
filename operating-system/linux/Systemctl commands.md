@@ -1,4 +1,4 @@
-#ubuntu #cli #os #process #configuration  #debian 
+#ubuntu #cli #operating-system #process #configuration  #debian 
 
 # General syntax
 ```bash

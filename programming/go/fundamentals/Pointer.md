@@ -1,4 +1,4 @@
-#memory #operator #os #garbage-collector 
+#memory #operator #operating-system #garbage-collector 
 
 # Pointer
 - Pointer in Go holds the address of some memory space.

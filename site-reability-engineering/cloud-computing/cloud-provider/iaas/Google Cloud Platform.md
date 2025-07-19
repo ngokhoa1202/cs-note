@@ -1,4 +1,4 @@
-#kvm #cloud #site-realibility-engineering #virtualization #os #google 
+#kvm #cloud #site-realibility-engineering #virtualization #operating-system #google 
 
 [Google Cloud Platform](https://cloud.google.com/) (GCP) is one of the leading cloud services providers. Its infrastructure is the foundation for all other cloud services, whether Platform, Software, Containers, Serverless, Artificial Intelligence, Machine Learning, to name a few. Part of Google's Infrastructure as a Service (IaaS) model is the Compute Engine service. [Google Compute Engine](https://cloud.google.com/compute) (GCE) service allows individual users and enterprises alike to build a reliable, flexible, and secure cloud infrastructure for their applications and workloads on Google's platform. GCP offers an easy-to-use [Console](https://console.cloud.google.com/), which is a web interface for cloud resources management.
 

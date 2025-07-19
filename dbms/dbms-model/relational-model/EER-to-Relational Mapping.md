@@ -1,4 +1,4 @@
-#oop #dbms #erd-diagram #sql #software-engineering #software-architecture #relational-model #relational-mapping 
+#object-oriented-programming #dbms #erd-diagram #sql #software-engineering #software-architecture #relational-model #relational-mapping 
 
 # Mapping generalization & specialization - single inheritance
 - There are <mark style="background: #e4e62d;">four approaches</mark>.

@@ -1,7 +1,7 @@
-#javascript #java #design-pattern #behavioral-pattern #software-engineering #software-architecture #oop #solid #typescript #behavioral-pattern #spring #jakarta-ee 
+#javascript #java #design-pattern #behavioral-pattern #software-engineering #software-architecture #object-oriented-programming #solid #typescript #behavioral-pattern #spring #jakarta-ee 
 
 # Purpose
-- Define a skeleton for a complex algorithm, deferring some of its steps to sub classes.
+- Defines a skeleton for a complex algorithm, deferring some of its steps to sub classes.
 - Allows sub classes to redefine certain steps of an algorithm without breaking the algorithm's structure.
 # Application
 - Implement the invariant parts of a complex algorithm and leave the behavior to sub classes.

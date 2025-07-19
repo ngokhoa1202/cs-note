@@ -1,4 +1,4 @@
-#thread #process #os #concurrency-control #process-synchronization 
+#thread #process #operating-system #concurrency-control #process-synchronization 
 
 
 ---

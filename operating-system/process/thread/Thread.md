@@ -1,4 +1,4 @@
-#process #os #thread #parallel-programming
+#process #operating-system #thread #parallel-programming
 
 # Concepts
 - Each CPU core can run ==only one  thread at a time==.

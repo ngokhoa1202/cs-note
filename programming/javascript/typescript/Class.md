@@ -1,4 +1,4 @@
-#oop #javascript #vanilla-javascript #typescript #ecmascript 
+#object-oriented-programming #javascript #vanilla-javascript #typescript #ecmascript 
 
 - Inherits and extends feature of Javascript [Class](programming/javascript/vanilla-javascript/fundamentals/Class.md).
 - Typescript classes end up being compiled into equivalent <mark style="background: #e4e62d;">Javascript classes</mark>.

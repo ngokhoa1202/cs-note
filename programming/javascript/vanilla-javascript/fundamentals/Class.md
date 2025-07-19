@@ -1,4 +1,4 @@
-#oop #javascript #vanilla-javascript #typescript #ecmascript #structured-programming #software-architecture 
+#object-oriented-programming #javascript #vanilla-javascript #typescript #ecmascript #structured-programming #software-architecture 
 
 - JavaScript is a <mark style="background: #e4e62d;">prototype-based</mark> language — an object's behaviors are specified by <mark style="background: #e4e62d;">its own properties</mark> and <mark style="background: #e4e62d;">its prototype's properties</mark>.
 # Class definition

@@ -1,4 +1,4 @@
-#dbms #dbms-architecture #secondary-storage #os  #virtual-memory 
+#dbms #dbms-architecture #secondary-storage #operating-system  #virtual-memory 
 
 # Length-based record
 - File is a sequence of <mark style="background: #e4e62d;">record</mark>.

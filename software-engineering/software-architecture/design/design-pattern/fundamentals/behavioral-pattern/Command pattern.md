@@ -1,4 +1,4 @@
-#design-pattern #software-engineering  #software-architecture #oop #behavioral-pattern  #solid #functional-programming #high-order-function #dbms #transaction #java 
+#design-pattern #software-engineering  #software-architecture #object-oriented-programming #behavioral-pattern  #solid #functional-programming #high-order-function #dbms #transaction #java 
 
 # Purpose
 - Encapsulate a request as an object, thereby letting client ==parameterize requests==, queue or logs.

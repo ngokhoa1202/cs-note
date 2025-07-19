@@ -1,4 +1,4 @@
-#structural-pattern  #design-pattern  #oop #software-engineering #software-architecture 
+#structural-pattern  #design-pattern  #object-oriented-programming #software-engineering #software-architecture 
 
 - Bridge means that Abstraction methods are implemented using ==primitive methods declared in Implementator interface==.
 # Purpose

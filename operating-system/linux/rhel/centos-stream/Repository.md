@@ -1,4 +1,4 @@
-#cli #os #centos #file-system #regular-expression  #fedora 
+#cli #operating-system #centos #file-system #regular-expression  #fedora 
 
 # List enabled repositories
 ```bash title='List all enabled repositories'

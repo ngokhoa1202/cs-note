@@ -1,4 +1,4 @@
-#os #process #linux #ubuntu #gnu 
+#operating-system #process #linux #ubuntu #gnu 
 
 # Concepts
 - Identified by process id.

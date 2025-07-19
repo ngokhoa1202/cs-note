@@ -1,4 +1,4 @@
-#dockerfile #docker #ci-cd #os #scripting #bash #shell #file-system #os #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
+#dockerfile #docker #ci-cd #operating-system #scripting #bash #shell #file-system #operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
 
 - Dockerfile is a special file for building Docker image.
 - More programmatic than [Docker container commands](Docker%20container%20commands.md)

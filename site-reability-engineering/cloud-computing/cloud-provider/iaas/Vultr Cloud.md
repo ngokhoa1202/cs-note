@@ -1,4 +1,4 @@
-#cloud #iaas #software-engineering #os #linux #windows #virtualization
+#cloud #iaas #software-engineering #operating-system #linux #windows #virtualization
 [Vultr](https://www.vultr.com/) is a younger cloud services provider that aims to simplify the way cloud is consumed by developers and businesses. Through its worldwide network of datacenters, Vultr enables its users to provision public cloud, cloud storage, single-tenant bare metal systems, and highly reliable high performance cloud compute environments.
 
 Vultr supports a wide range of [business solutions](https://www.vultr.com/solutions/), from simple Web Hosting, Machine Learning (ML), and AI to Blockchain, and High Performance Computing (HPC). It integrates shared virtual CPUs, AMD CPUs, Intel CPUs, and GPUs with regular SSD and NVMe SSD into its infrastructure offering a wide array of Cloud Compute Virtual Machines.

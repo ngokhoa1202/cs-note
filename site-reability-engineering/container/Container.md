@@ -1,5 +1,5 @@
 #ci-cd #cli #docker #software-architecture #client-server #application-layer #web-server  #dbms 
-#binary-image  #os #process #memory #virtual-memory #site-realibility-engineering #process-synchronization 
+#binary-image  #operating-system #process #memory #virtual-memory #site-realibility-engineering #process-synchronization 
 
 # Container 
 - Operating-System-level virtualization allows us to run <mark style="background: #e4e62d;">multiple isolated user-space instances in paralle</mark>l, which is also known as <mark style="background: #e4e62d;">container</mark>.

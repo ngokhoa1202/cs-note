@@ -1,4 +1,4 @@
-#cloud #iaas #software-engineering #os #linux #windows #virtualization 
+#cloud #iaas #software-engineering #operating-system #linux #windows #virtualization 
 
 # Introduction
 - Platform as a Service (PaaS) is a cloud service model representing a class of cloud computing services that allow users to develop, run, and manage applications while<mark style="background: #e4e62d;"> concealing the tasks involved in the management of the underlying infrastructure</mark>. 

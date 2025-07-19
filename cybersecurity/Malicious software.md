@@ -1,4 +1,4 @@
-#cybersecurity #os #computer-network 
+#cybersecurity #operating-system #computer-network 
 
 # Type
 - Virus: make computer infected, replicate.

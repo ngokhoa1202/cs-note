@@ -1,4 +1,4 @@
-#cli #ubuntu #linux #os #file-system #software-architecture #data-structure 
+#cli #ubuntu #linux #operating-system #file-system #software-architecture #data-structure 
 
 # Directory/File properties
 - ![](Pasted%20image%2020240817153022.png)

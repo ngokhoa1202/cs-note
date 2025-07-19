@@ -1,4 +1,4 @@
-#oop #go #data-type #c #cpp 
+#object-oriented-programming #go #data-type #c #cpp 
 
 # Method declaration
 - In Go, a method declaration is similar to a function declaration, but it has an <mark class="hltr-yellow">extra parameter</mark> declaration part. The extra parameter part can contain one and only one parameter of the <mark class="hltr-yellow">receiver</mark> type $T$ (value receiver) or type ${}^*T$ of the method.

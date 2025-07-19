@@ -1,4 +1,4 @@
-#os #cli #ubuntu #linux #software-architecture #file-system 
+#operating-system #cli #ubuntu #linux #software-architecture #file-system 
 
 # Filesystem architecture
 - The parent directory is `/`

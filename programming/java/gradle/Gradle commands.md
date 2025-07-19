@@ -1,4 +1,4 @@
-#cli #os #gradle #dependency-manager #ci-cd  #java #quarkus #spring #srping-boot #jakarta-ee  #scripting 
+#cli #operating-system #gradle #dependency-manager #ci-cd  #java #quarkus #spring #srping-boot #jakarta-ee  #scripting 
 
 # Syntax
 ```bash

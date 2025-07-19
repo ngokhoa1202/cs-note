@@ -1,4 +1,4 @@
-#oop #go #data-type #c #cpp
+#object-oriented-programming #go #data-type #c #cpp
 
 - Go does not support full features of Object-oriented programming such as class and access modifier.
 # Struct

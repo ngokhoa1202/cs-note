@@ -1,4 +1,4 @@
-#behavioral-pattern #design-pattern #software-engineering #software-architecture #functional-programming #oop #high-order-function #java #solid 
+#behavioral-pattern #design-pattern #software-engineering #software-architecture #functional-programming #object-oriented-programming #high-order-function #java #solid 
 
 - Also known as Policy.
 # Purpose

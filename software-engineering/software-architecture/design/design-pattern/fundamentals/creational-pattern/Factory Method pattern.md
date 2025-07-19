@@ -1,4 +1,4 @@
-#design-pattern #oop #creational-pattern #software-engineering #solid  #software-architecture 
+#design-pattern #object-oriented-programming #creational-pattern #software-engineering #solid  #software-architecture 
 
 # Purpose
 - Define an ==interface for creating object== and let ==subclasses determine which class should be instantiated==.

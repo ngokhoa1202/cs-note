@@ -1,4 +1,4 @@
-#cli #computer-network  #application-layer  #http #https #os #ubuntu 
+#cli #computer-network  #application-layer  #http #https #operating-system #ubuntu 
 # Purpose
 - Exploit `curl` to make HTTP Requests by command line.
 

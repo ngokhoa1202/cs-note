@@ -1,4 +1,4 @@
-#os #ipc #process
+#operating-system #ipc #process
 # Concepts
 - Requires a ==shared memory space==.
 - ==Exchanges== information by reading and writing to that shared memory.

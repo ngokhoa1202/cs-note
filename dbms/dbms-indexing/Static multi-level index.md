@@ -1,5 +1,5 @@
 #indexing  #dbms #query #secondary-storage #file-system #sql #nosql #algorithm #sorting 
-#algorithm-analysis #os #file-system #data-structure #sorting 
+#algorithm-analysis #operating-system #file-system #data-structure #sorting 
 
 # Multi-level index
 - The rationale behind indexing structures is that the blocking factor of index files ${bfr}_{i}$ is significantly smaller than that of master files.

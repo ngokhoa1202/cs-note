@@ -1,4 +1,4 @@
-#ci-cd #cli #docker #software-architecture #client-server #application-layer #web-server  #dbms #binary-image  #os #process #memory #virtual-memory #site-realibility-engineering 
+#ci-cd #cli #docker #software-architecture #client-server #application-layer #web-server  #dbms #binary-image  #operating-system #process #memory #virtual-memory #site-realibility-engineering 
 
 # Podman
 - [Podman](https://podman.io/), or Pod Manager, is an open source, daemonless tool designed to simplify the searching, running, building, sharing and deploying of applications using Open Containers Initiative (OCI) containers and container images. 

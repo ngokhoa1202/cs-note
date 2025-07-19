@@ -1,8 +1,8 @@
-#javascript #java #design-pattern #behavioral-pattern #software-engineering #software-architecture #oop #solid #typescript #behavioral-pattern 
+#javascript #java #design-pattern #behavioral-pattern #software-engineering #software-architecture #object-oriented-programming #solid #typescript #behavioral-pattern 
 
 - Also known as <mark style="background: #e4e62d;">Publish-Subcribe</mark> or Dependents.
 # Purpose
-- Define a one-to-many dependency between objects so that whenever one object has <mark style="background: #e4e62d;">changed its state,</mark> all of <mark style="background: #e4e62d;">its dependents </mark>are notified and <mark style="background: #e4e62d;">automatically updated</mark>.
+- Defines a one-to-many dependency between objects so that whenever one object has <mark style="background: #e4e62d;">changed its state,</mark> all of <mark style="background: #e4e62d;">its dependents </mark>are notified and <mark style="background: #e4e62d;">automatically updated</mark>.
 
 # Application
 - When one object's change leads to the <mark style="background: #e4e62d;">change of all of its dependent objects</mark> and the dependents are unknown at run time.
@@ -35,7 +35,7 @@
 ## Each Concrete Observer aggregates its Concrete Subject
 - ![600x400](Pasted%20image%2020240831193258.png)
 - `abstract class Environment` is the Subject:
-	- Composes a set of `Sensor` objects which are Observers registering to obeserve the Subject.
+	- Composes a set of `Sensor` objects which are Observers registering to observe the Subject.
 	- The method `attach` and `detach` to add or remove a new observer. The implementation of `attach` method is left to its child for the reason that categorizing the correct Observers.
 	- Essentially, implements the `notifyObservers` to <mark class="hltr-yellow">update the state of its Oberver whenever there is a change</mark>. 
 
@@ -93,7 +93,8 @@ public final class Light extends Environment {
   public void attach(Sensor sensor) {  
     if (sensor instanceof LightSensor) {  
       super.sensors.add(sensor);  
-      return;    }  
+      return;    
+    }  
     System.out.println("Light sensor can be used only for measure brightness");  
   }  
 }
@@ -208,22 +209,21 @@ public class Main {
 ```
 # Design
 - <mark style="background: #e4e62d;">Either the Subject or the Client</mark> is able to trigger the update method:
-	- If the Subject assumes this responsibility, it has to unintentionally notify all of its Observers whenever there is a change of its state $\implies$ more consecutive updates $\implies$ overhead.
-	- If the Client assumes this reponsibility instead, there is less overhead because the Client can manually notify the Observers only when it is necessary. $\implies$ more manual tasks.
+	- If the Subject assumes this responsibility, it has to <mark class="hltr-yellow">unintentionally</mark> notify all of its Observers whenever there is a change of its state $\implies$ more consecutive updates $\implies$ overhead.
+	- If the Client assumes this responsibility instead, there is less overhead because the Client can manually notify the Observers only when it is necessary but it requires more manual programming.
 - Each of the Subject class should be <mark style="background: #e4e62d;">self-consistent</mark>. (tự lưu state của nó).
 # Real example
 - RxJs library in Typescript.
 - Mutiny library in Java.
 # Advantages
 - Ensure [Open-closed principle.](SOLID.md#Open-closed%20principle.) because we can add new Observer without changing client code.
-- Establish a relation between objects at run time $\implies$ Observer.
+- Establish a relation between objects at run time, which is a publisher-subscriber relationship.
 # Disadvantage
 - <mark style="background: #e4e62d;">Unexpected updates</mark> may occur in case the Subject takes control of the notifications.
 - The order of notification to observers are not specified.
-- 
 ---
 # References
 1. https://refactoring.guru/design-patterns/observer for observer pattern.
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Observer pattern.
-3. 
+3. [[RxJs]] 

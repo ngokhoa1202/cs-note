@@ -1,4 +1,4 @@
-#os #binary-image #process #docker #ci-cd #debian #alpine-linux #ubuntu #installation  #windows 
+#operating-system #binary-image #process #docker #ci-cd #debian #alpine-linux #ubuntu #installation  #windows 
 
 # General
 ![](Pasted%20image%2020240805134005.png)

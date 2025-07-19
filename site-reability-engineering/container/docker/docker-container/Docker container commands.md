@@ -1,4 +1,4 @@
-#cli #docker #ci-cd #os #container #computer-network #application-layer #transport-layer #ubuntu #secondary-storage 
+#cli #docker #ci-cd #operating-system #container #computer-network #application-layer #transport-layer #ubuntu #secondary-storage 
 #network-layer  #file-system #volume 
 
 # General syntax

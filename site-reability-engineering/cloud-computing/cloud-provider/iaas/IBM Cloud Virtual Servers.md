@@ -1,4 +1,4 @@
-#kvm #cloud #site-realibility-engineering #virtualization #os #ibm 
+#kvm #cloud #site-realibility-engineering #virtualization #operating-system #ibm 
 
 [IBM Cloud](https://www.ibm.com/cloud) is one of the leading cloud services providers for enterprises and academic institutions. It includes the typical service models, the Infrastructure as a Service (IaaS), Software as a Service (SaaS), and Platform as a Service (PaaS) offered through public, private, and hybrid cloud delivery models. Part of the IBM Cloud IaaS model is the [IBM Cloud Virtual Servers](https://www.ibm.com/cloud/virtual-servers) service, also known as Virtual Machines, one of the many services providing cloud Compute services. IBM Cloud Virtual Servers provide interoperability between virtual and bare-metal servers by being deployed on the same VLANs as the physical servers. When you create an IBM Cloud Virtual Server, you can choose between multi-tenancy or single-tenancy environments, and also high-performance local disks or enterprise SAN storage.
 

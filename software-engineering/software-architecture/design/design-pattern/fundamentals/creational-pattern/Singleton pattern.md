@@ -1,4 +1,4 @@
-#design-pattern #oop #solid #software-engineering #creational-pattern #os #parallel-programming  #software-architecture 
+#design-pattern #object-oriented-programming #solid #software-engineering #creational-pattern #operating-system #parallel-programming  #software-architecture 
 
 # Purpose
 - Ensure a class has ==one single instance== and provide a ==global access== to it.

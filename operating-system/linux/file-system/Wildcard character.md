@@ -1,4 +1,4 @@
-#cli #os #ubuntu #file-system #regular-expression  #scripting  #scripting 
+#cli #operating-system #ubuntu #file-system #regular-expression  #scripting  #scripting 
 
 - Employed by [Filesystem commands](Filesystem%20commands.md)
 # Star wildcard ($\star$)

@@ -1,5 +1,5 @@
 #software-engineering  #software-architecture #dependency-manager #ci-cd #gradle #java #jakarta-ee #spring  
-#spring-boot #quarkus #os #ubuntu #windows #configuration #installation #scripting 
+#spring-boot #quarkus #operating-system #ubuntu #windows #configuration #installation #scripting 
 
 # Purpose
 - Define the dependencies during the project build.
