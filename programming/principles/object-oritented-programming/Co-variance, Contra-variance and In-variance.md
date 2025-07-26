@@ -5,11 +5,11 @@
 - A function $f : D → D$ is 
 	- co-variant in case $f$ respects the pre-order, that is $x \preceq y \implies f(x) \preceq f(y)$.  
 	- contra-variant in case the pre-order is reversed, that is $x \preceq y \implies f(x) \succeq f(y)$.
-	- in-variant if neither the two above conditions hold, that is $x \preceq y$
+	- in-variant if neither the two above conditions hold, that is $x \preceq y \centernot\implies f(x) \preceq f(y) \space \lor f(x) \succeq f(y)$
 # Co-variances
 - Co-variances means that if $A$ is subtype of $B$, then $\text{Container}(A)$ is a <mark class="hltr-blue">subtype</mark> of $\text{Container}(B)$. In other words, $A$ and $B$ varies in the <mark class="hltr-blue">same</mark> direction.
 	- $A \preceq B \implies C(A) \preceq C(B)$ where $C$ is a general container function.
-- Co-variances is applied in the producer pattern that instantiates an object such as specifying the return type.
+- Co-variances is applied in the <mark class="hltr-yellow">producer</mark> pattern that instantiates an object such as specifying the return type.
 ```Java title='Co-variances example in Java'
 class Animal {
     Animal reproduce() { ... }
@@ -23,7 +23,7 @@ class Dog extends Animal {
 # Contra-variances
 - Co-variances means that if $A$ is a subtype of $B$, then $\text{Container}(A)$ is a <mark class="hltr-blue">supertype</mark> of $\text{Container}(B)$. In other words, $A$ and $B$ varies in the <mark class="hltr-blue">opposite</mark> direction.
 	-  $A \preceq B \implies C(A) \succeq C(B)$ where $C$ is a general container function.
-- Contra-variances is applied in the consumer pattern that consuming an object such as passing parameters.
+- Contra-variances is applied in the <mark class="hltr-yellow">consumer</mark> pattern that consuming an object such as passing parameters.
 ```Java title='Contra-variances example Java'
 // Semantically correct but not overriding in Java because the overriding method must be exact the overriden method
 class Animal {

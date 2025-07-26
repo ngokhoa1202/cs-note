@@ -84,7 +84,7 @@ public class Pair<K, V> {
 ```
 
 # Bounded type parameter
-- Java types are in-variances. which means that that `class A` extends `class B` does not imply `Container<A>` is a subtype of `Container<B>`.
+- Java types are in-variances. which means that that `class A` extends `class B` does not imply `Container<A>` is a subtype of `Container<B>`
 - Bounded type parameter restricts  the type boundary to the type parameters.
 ```Java title='Bounded type parameter example in Java'
 // T must be Number or its subtype

@@ -116,7 +116,7 @@ fetch('/article/promise-chaining/user.json')
 
 - A new error can be thrown by the rejection handler and the control flow keeps jumping into the closest rejection handler.
 # Promise concurrency
-- Promise concurrency allows multiple independent promises to be concurrently executed without being wastefully blocked and always return a single Promise.
+- Promise concurrency allows multiple independent promises to be <mark class="hltr-yellow">concurrently executed</mark> without being wastefully blocked and always return a single Promise.
 ```Javascript title='Independent promises are wastefully blocked'
 async function getPageData() {
   const user = await fetchUser();
@@ -165,7 +165,7 @@ async function getPageData() {
 ```
 
 ## Promise.allSettled
- - `Promise.allSettled()` fulfills when **all** promises settle, with an array of objects that describe the outcome of each promise. Each object is made up of `status` and `value` in case of fulfillment or `reason` in case of rejection properties.
+ - `Promise.allSettled()` fulfills when **all** promises settle, with an array of objects that describe the outcome of each promise. Each settled object is made up of `status` and `value` in case of fulfillment or `reason` in case of rejection properties.
 ```Javascript title='Promise.allSettled() usage'
 async function getPageData() {
   const results = await Promise.allSettled([
@@ -208,9 +208,47 @@ async function getPageData() {
 }
 ```
 ## Promise.any
-- `Promise.any` fulfills when **any** of the promises fulfills; rejects when **all** of the promises reject.
+- `Promise.any` fulfills when **any** of the promises **fulfills**; rejects when **all** of the promises reject. As a consequence, it waits for *the first fulfilled promise* if necessary.
+- This returned promise fulfills when any of the input's promises fulfills, with this first fulfillment value. It rejects when all of the input's promises reject (including when an empty iterable is passed), with an `AggregateError` containing an array of rejection reasons.
+```Javascript title='Promise.any' usage
+const getCachedData = async (key) => {
+    const cacheStrategies = [
+        getFromMemoryCache(key),
+        getFromRedisCache(key),
+        getFromDatabase(key)
+    ];
+    
+    try {
+        const data = await Promise.any(cacheStrategies);
+        return data;
+    } catch (aggregateError) {
+        throw new Error(`Data not found in any cache layer for key: ${key}`);
+    }
+};
+
+const getFromMemoryCache = (key) => {
+    return new Promise((resolve, reject) => {
+        const cached = memoryCache.get(key);
+        if (cached) {
+            resolve(cached);
+        } else {
+            reject(new Error('Not found in memory cache'));
+        }
+    });
+};
+```
+- `Promise.any()` differs significantly from `Promise.race()` by continuing execution until the first successful resolution rather than settling on the first completion regardless of success or failure.
 ## Promise.race
-- `Promise.race()` settles when **any** of the promises settles.
+- `Promise.race()` settles when **any** of the promises **settles**. It settles immediately after any of the promises settles regardless of fulfillment or rejection. In other words, the fastest promise wins in `Promise.race`.
+```Javascript title='Promise.race example'
+Promise.race([
+    longRunningTask(),
+    userCancellation(),
+    systemShutdown()
+]).then(() => {
+    cleanup(); // Cleanup on ANY completion
+});
+```
 # Async - await
 - `async` allows a function to be asynchronously executed and always return a promise.
 ```Javascript title='async await in Javascript'
@@ -250,3 +288,5 @@ f();
 1. https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md
 2. https://javascript.info/promise-basics
 3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+4. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race for `Promise.race()`.
+5. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any for `Promise.any()`.

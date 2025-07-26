@@ -2,7 +2,7 @@
 
 # Properties in Object
 - [Property](Property.md)
-# <span style="font-family:'JetBrains Mono';">typeof</span> operator
+# `typeof` operator
 - `typeof` operator checks whether the object is of one of the predefined types.
 
 |Type|Result|
@@ -81,7 +81,7 @@ typeof null === "object";
 ```
 
 - Type of undeclared and uninitialized object is `undefined`.
-# <span style="font-family:'JetBrains Mono';">instanceof</span> operator
+# `instanceof` operator
 - The **`instanceof`** operator checks whether the `prototype` property of a constructor appears anywhere in the prototype chain of an object or not.
 ```javascript title='instanceof in Javascript'
 function Car(make, model, year) {

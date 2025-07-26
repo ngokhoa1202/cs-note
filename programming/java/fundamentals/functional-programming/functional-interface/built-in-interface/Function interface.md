@@ -1,5 +1,6 @@
-#api  #functional-programming  #java #high-order-function 
+#api  #functional-programming  #java #high-order-function #object-oriented-programming #data-type 
 
+- `Function` is the most general form of function type in Java.
 # Function
 - `R apply(T t)`: passes the variable `t` as the first ==parameter of high-order function== and return the value of that high-order function.
 - `default <V> Function<V, R> compose(Function<? super V, ? extends T> before)`: passes the invoking `Function`  as a ==high-order function==. The type of `before` 's return value must be the ==child class or interface of the input parameter== of calling `Function`.
@@ -67,7 +68,13 @@ public class Main {
 }
 ```
 
-# Usage
+# Simplified symbol
+- Since Java is an fully object-oriented programming language, it prioritizes the strictness of class hierarchy over the readability.
+- The `Function` API can be simplified as:
+	- `f.apply(args)` is equivalent to `f(args)`.
+	- `f.andThen(g).apply(x)` is equivalent to `g(f(x))`.
+	- `f.compose(g).apply(x)` is equivalent to `f(g(x))`.
+# Partially applied function
 ```Java title='Partially applied function in Java'
 import java.util.function.Function;
 
@@ -76,13 +83,30 @@ public class FunctionalUtil {
     return (Function<T, U> f1) -> (Function<U, V> f2) -> (Function<V, X> f3) -> f1.andThen(f2).andThen(f3);
   }
 }
-
+```
+- For the type analysis, domain generalization is performed
+$$f_1: T \mapsto U, \space f_2: U \mapsto V, \space f_3: V \mapsto X$$
+$$f: (T, U, V) \mapsto X \space \text{as normal function}$$
+$$g: T \mapsto (U \mapsto (V \mapsto X)) \space \text{as partially applied function}$$
+$$\text{For each map symbol, replace it with Function: }$$
+$$g: \text{Function}(T, \space\text{Function}(U, \space\text{Function}(V, X)))$$
+- For the runtime calculation, value specialization is performed. A layer of function is removed whenever the argument as high-order function is executed.
+$$f_1 \text{ is executed, remove a layer of function}$$
+$$f_1(t)=u, \space g(f_1)=\text{Function}(U, \space\text{Function}(V, X))$$
+$$f_2 \text{ is executed, remove a layer of function} $$$$f_2(u)=v, \space g(f_1)(f_2)=\space\text{Function}(V, X)$$
+$$f_3 \text{ is executed, remove a layer of function} $$
+$$f_3(v)=x, \space g(f_1)(f_2)(f_3)=x$$
+- The arguments of a curried function can be applied in a reverse order by defining a new function.
+```Java title='Reverse the order of arguments in a curried function in Java'
+public static <T, U, V> Function<U, Function<T, V>> reverseArgs(Function<T, Function<U, V>> f) {
+	return u -> t -> f.apply(t).apply(u);
+}
 ```
 # Variant
 ## BiFunction
 - Similar to `Function`, but takes ==two arguments== and produces one output.
 # References
 1. https://www.geeksforgeeks.org/java-bifunction-interface-methods-apply-and-andthen/ for BiFunction.
-2. [[Currying]] for Partially applied function in Java.
+2. [[Currying function]] for Partially applied function in Java.
 3. Functional Programming in Java: How functional techniques improve your Java programs - Pierre-Yves Saumont - Manning Publications 2017.
 	1. Chapter 2. Using Functions in Java.

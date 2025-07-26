@@ -6,7 +6,7 @@
 
 # Application
 - Object-oriented replacement for callbacks $\equiv$ a Command is simply a high-order function.
-	- ==Specify, queue and execute requests at different times== $\implies$ specification, queueing, execution are independent.
+	- ==Specify, queue and execute requests at different times== $\implies$ specification, queuing, execution are independent.
 - Implement transaction by storing ==reversible commands== to reverse the effect of some specific commands.
 - Implement logging changes, schedule.
 # Components
@@ -205,4 +205,5 @@ public class Main {
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides:
 	- Command pattern
-2. https://refactoring.guru/design-patterns/command for 
+2. https://refactoring.guru/design-patterns/command for Command pattern.
+3. 

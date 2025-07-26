@@ -6,6 +6,12 @@
     "emojiStyle": "native",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "LiArrowRightLeft",
+      "TiStack",
+      "LiHistory",
+      "LiBraces",
+      "TiArrowFork",
+      "LiSendToBack",
       "TiBoxModel2",
       "LiFootprints",
       "FarClone",
@@ -19,13 +25,7 @@
       "TiAB2",
       "LiListOrdered",
       "TiMathXy",
-      "TiApi",
-      "FabJava",
-      "TiStack3",
-      "TiTransform",
-      "TiDots",
-      "FasMask",
-      "FarHandPointRight"
+      "TiApi"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -331,7 +331,6 @@
   "programming/principles/memory": "LiMemoryStick",
   "programming/principles/memory/Alias, dangling references and garbage.md": "LiMemoryStick",
   "programming/javascript/vanilla-javascript/fundamentals/Rest parameter.md": "TiDots",
-  "programming/principles/function/Currying.md": "TiTransform",
   "programming/java/fundamentals": "TiStack3",
   "programming/principles/function": "TiFunction",
   "discrete-math": "TiMathXy",
@@ -368,5 +367,13 @@
   "software-engineering/api-tool": "TiApi",
   "project-management/version-control/git/git-basics/Initialize project.md": "FarClone",
   "software-engineering/software-architecture/design/design-pattern/fundamentals": "TiStack3",
-  "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Visitor pattern.md": "LiFootprints"
+  "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Visitor pattern.md": "LiFootprints",
+  "programming/principles/object-oritented-programming/Multi-dispatch problem.md": "LiSendToBack",
+  "programming/principles/object-oritented-programming": "LiNetwork",
+  "programming/javascript/lodash/concurrency-control": "TiArrowFork",
+  "programming/javascript/lodash/object-operators": "LiBraces",
+  "programming/principles/function/Currying function.md": "TiTransform",
+  "dbms/transaction/acid/recovery": "LiHistory",
+  "software-engineering/software-architecture/design/caching": "TiStack",
+  "software-engineering/software-architecture/design/caching/Caching strategy.md": "LiArrowRightLeft"
 }

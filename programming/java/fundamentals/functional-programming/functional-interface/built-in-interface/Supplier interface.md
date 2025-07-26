@@ -1,5 +1,7 @@
-#java #functional-programming   #high-order-function #api 
+#java #functional-programming   #high-order-function #api  
+
 - Requires ==no parameter== and return any type ==except `void`==.
+- 
 # Supplier
 - `T get()`: return the value of the high-order function.
 ```Java
@@ -34,5 +36,8 @@ public class Main {
   }  
 }
 ```
+
+---
+# References
 
 

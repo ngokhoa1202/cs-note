@@ -33,6 +33,7 @@ memento.settings.put("evil", hack); // Manipulate internals
 - Takes the responsibility for the <mark class="hltr-yellow">Memento's safekeeping</mark>.
 - Never accesses the internal content of the Memento.
 # Example
+## Text editor history
 - ![[Pasted image 20250718082836.png]]
 - `record TextEditorMemento` is a Memento, which stores a state of a `TextEditor` .
 ```Java title='record TextEditorMemento is a memento'
@@ -558,21 +559,29 @@ class Main {
 - Any historical state can be randomly accessed.
 - Memory consumption is not critical.
 - Restoring state is simpler than replaying operations.
-#### Examples
-- Game save states (complex interdependent state).
-- Configuration snapshots (small, infrequent changes).
-- Checkpoint systems (where you need guaranteed restore points).
+#### Usecases
+- Game save states which are independent of each other.
+- Configuration snapshots with small and frequent changes.
+- Checkpoint systems when the restoration point must be guaranteed.
 ### Incremental memento
+#### Application
 - Operations follow a predictable sequence (like undo/redo).
 - Memory efficiency is critical.
 - Inverse operations are simple.
 - There is a large number of small objects with frequent changes.
+#### Usecases
+- IDE redo/undo operations.
+- Version control systems such as Git.
+- Collaborative editing such as Google Docs.
+- Database transaction logging systems.
 ## Embedded caretaker
 - If the business logic of the Caretaker is not complicated, it may be directly embedded into the Originator class.
 # Consequences
 - Memento *preserving encapsulation boundaries*. Only the originator should manage the content of Memento but that information is stored nevertheless outside the originator. The pattern shields other objects from potentially complicate the Originator internals. $\implies$ ensure [[SOLID#Single responsibility principle]]
 - The Originator is relieved of the storage management burden.
 - Storing a large number of Memento objects is expensive. Additionally, heavy memento instances incur high memory consumption, not to mention the cost of copy operations.
+# Real examples
+- `java.io.Serializable`.
 ---
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.

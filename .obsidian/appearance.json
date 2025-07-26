@@ -1,8 +1,9 @@
 {
   "theme": "moonstone",
-  "textFontFamily": "Asap,SF Pro Display",
-  "monospaceFontFamily": "FiraCode Nerd Font",
+  "textFontFamily": "Source Serif 4,Blanco",
+  "monospaceFontFamily": "FiraCode Nerd Font,SF Mono",
   "interfaceFontFamily": "Sora,Lexend",
   "cssTheme": "Minimal",
-  "showRibbon": true
+  "showRibbon": true,
+  "baseFontSize": 17
 }

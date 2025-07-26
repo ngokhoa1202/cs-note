@@ -1,0 +1,156 @@
+{
+  "recentFiles": [
+    {
+      "basename": "Caching strategy",
+      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
+    },
+    {
+      "basename": "useCallback hook",
+      "path": "programming/javascript/reactjs/hooks/useCallback hook.md"
+    },
+    {
+      "basename": "useImperativeHandle hook",
+      "path": "programming/javascript/reactjs/hooks/useImperativeHandle hook.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
+    },
+    {
+      "basename": "Relational algebra examples",
+      "path": "dbms/relational-algebra/Relational algebra examples.md"
+    },
+    {
+      "basename": "Relational Algebra",
+      "path": "dbms/relational-algebra/Relational Algebra.md"
+    },
+    {
+      "basename": "Deferred Update based Recovery",
+      "path": "dbms/transaction/acid/recovery/Deferred Update based Recovery.md"
+    },
+    {
+      "basename": "External sorting",
+      "path": "dbms/query/External sorting.md"
+    },
+    {
+      "basename": "Pure function",
+      "path": "programming/principles/function/Pure function.md"
+    },
+    {
+      "basename": "Supplier interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Supplier interface.md"
+    },
+    {
+      "basename": "Predicate interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Predicate interface.md"
+    },
+    {
+      "basename": "Function interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Function interface.md"
+    },
+    {
+      "basename": "Consumer interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md"
+    },
+    {
+      "basename": "Co-variance, Contra-variance and In-variance",
+      "path": "programming/principles/object-oritented-programming/Co-variance, Contra-variance and In-variance.md"
+    },
+    {
+      "basename": "Primitive root - Discrete Logarithm",
+      "path": "number-theory/Primitive root - Discrete Logarithm.md"
+    },
+    {
+      "basename": "Fermat's little theorem",
+      "path": "number-theory/Fermat's little theorem.md"
+    },
+    {
+      "basename": "Extended Euclidean algorithm",
+      "path": "number-theory/Extended Euclidean algorithm.md"
+    },
+    {
+      "basename": "Diophantine equation",
+      "path": "number-theory/Diophantine equation.md"
+    },
+    {
+      "basename": "Euler's theorem",
+      "path": "number-theory/Euler's theorem.md"
+    },
+    {
+      "basename": "Euler's Phi function",
+      "path": "number-theory/Euler's Phi function.md"
+    },
+    {
+      "basename": "Functional interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/Functional interface.md"
+    },
+    {
+      "basename": "Collectors",
+      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collectors.md"
+    },
+    {
+      "basename": "Method reference",
+      "path": "programming/java/fundamentals/functional-programming/high-order-function/Method reference.md"
+    },
+    {
+      "basename": "Lambda expression",
+      "path": "programming/java/fundamentals/functional-programming/high-order-function/Lambda expression.md"
+    },
+    {
+      "basename": "Multi-dispatch problem",
+      "path": "programming/principles/object-oritented-programming/Multi-dispatch problem.md"
+    },
+    {
+      "basename": "Polymorphism",
+      "path": "programming/principles/object-oritented-programming/Polymorphism.md"
+    },
+    {
+      "basename": "Spring Batch",
+      "path": "programming/java/spring/batch/Spring Batch.md"
+    },
+    {
+      "basename": "Currying function",
+      "path": "programming/principles/function/Currying function.md"
+    },
+    {
+      "basename": "Generics",
+      "path": "programming/java/fundamentals/generics/Generics.md"
+    },
+    {
+      "basename": "User management commands",
+      "path": "operating-system/system-admin/User management commands.md"
+    },
+    {
+      "basename": "RxJs",
+      "path": "programming/javascript/rxjs/RxJs.md"
+    },
+    {
+      "basename": "Operators",
+      "path": "programming/javascript/rxjs/Operators.md"
+    },
+    {
+      "basename": "Observable",
+      "path": "programming/javascript/rxjs/Observable.md"
+    },
+    {
+      "basename": "Debounce",
+      "path": "programming/javascript/lodash/concurrency-control/Debounce.md"
+    },
+    {
+      "basename": "Throttle",
+      "path": "programming/javascript/lodash/concurrency-control/Throttle.md"
+    },
+    {
+      "basename": "isEqual",
+      "path": "programming/javascript/lodash/object-operators/isEqual.md"
+    },
+    {
+      "basename": "Object",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Object.md"
+    }
+  ],
+  "omittedPaths": [],
+  "omittedTags": [],
+  "updateOn": "file-open",
+  "omitBookmarks": false
+}

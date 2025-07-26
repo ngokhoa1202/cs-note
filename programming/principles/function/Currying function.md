@@ -2,10 +2,10 @@
 
 # Definition
 - Currying is the technique of translating a a function that takes multiple arguments into a sequence of families of functions, <mark class="hltr-yellow">each taking a single argument</mark>:
-	- Give a function $f: (X \times Y) \to Z$.
+	- Given a function $f: (X \times Y) \to Z$.
 	- Currying function $f$ constructs a new function $g$ so that $g: X \to (Y \to Z)$.
 	- The implication is $f(x,y)=g(x)(y)$.
-- A curried function is a function that takes multiple arguments one at a time, returning a new function for each argument until all arguments have been provided.
+- A curried function is a function that takes multiple arguments once at a time, returning a new function for each argument until all arguments have been provided.
 - A curried function is also known as <mark class="hltr-yellow">partially applied function</mark> and the invocation of it is also known as *partial application*.
 ```Javascript title='Example for curried function'
 // Regular function
@@ -106,7 +106,48 @@ public class ValidationCurrying {
     }
 }
 ```
+
+```Java title='Currying function in Java examples'
+public class FunctionalUtil {
+
+  // public static Function<Integer, Integer> compose(Function<Integer, Integer> f1, Function<Integer, Integer> f2) {
+  //   return f1.compose(f2);
+  // }
+
+  // (Integer, Integer) -> Integer: f(a, b) = a + b
+  // (Integer) -> (Integer -> Integer): g(a) = (b) -> a + b
+  public static Function<Integer, Function<Integer, Integer>> add() {
+    return a -> b -> a + b;
+  }
+
+  // public static <T, U, V, X> Function<T, X> transform(Function<T, U> f1, Function<U, V> f2, Function<V, X> f3) {
+  //   return f1.andThen(f2).andThen(f3);
+  // }
+
+  // public static Function<Integer, Integer> compose(Function<Integer, Integer> f1, Function<Integer, Integer> f2, Function<Integer, Integer> f3) {
+  //   // f1(f2(f3(n)))
+  //   return (n) -> f1.compose(f2).compose(f3).apply(n);
+  // }
+
+  // public static <T, U, V, X> Function<Function<T, U>, Function<Function<U, V>, Function<Function<V, X>, Function<T, X>>>> curriedlyTransform() {
+  //   // f3(f2(f1)))
+  //   return (Function<T, U> f1) -> (Function<U, V> f2) -> (Function<V, X> f3) -> f1.andThen(f2).andThen(f3);
+  // }
+
+  // public static <T, U, V> Function<V, U> compose(Function<T, U> f, Function<V, T> g) {
+  //   return f.compose(g);
+  // }
+
+  public static <T, U, V> Function<U, V> partiallyApplyFirstArgument(T arg, Function<T, Function<U, V>> f) {
+    // f: T -> (U -> V)
+    // g: (T, U) -> V
+    // f ~ g
+    return f.apply(arg);
+  }
+}
+```
 ---
 # References
 1. Functional Programming in Java: How functional techniques improve your Java programs - Pierre-Yves Saumont - Manning Publications 2017.
 	1. Chapter 2. Using Functions in Java.
+2. [[Function interface#Partially applied function]] for currying function in Java. 
