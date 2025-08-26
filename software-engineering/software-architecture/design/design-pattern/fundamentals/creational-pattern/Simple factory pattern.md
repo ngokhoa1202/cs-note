@@ -82,3 +82,7 @@ public class Client {
 - `java.test.NumberFormat` has `getInstance` method, which is a Simple Factory pattern.
 # Disadvantages
 - ==Increasingly convoluted== construction due to complex condition $\implies$ use factory method.
+---
+# References
+1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Factory method pattern.

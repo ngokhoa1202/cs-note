@@ -3,11 +3,10 @@
 - A callback, also known as a "call-after" function, is _any executable code that is passed as an argument to other code_; that other code is expected to call back (execute) the argument at a given time.
 - A callback is a high-order function.
 # Purpose
-- Maintain the correct order of execution of asynchronous operations.
+- Maintains the correct order of execution of asynchronous operations.
 
 # Application
-
-- Handling non-blocking operations, such as reading files, making HTTP requests, or querying a database.
+- Handling <mark class="hltr-yellow">non-blocking</mark> operations, such as reading files, making HTTP requests, or querying a database.
 - Event handling in user interfaces, for example, responding to user actions like clicks or key presses.
 - Decoupling modules or components that need to interact without having a direct dependency on each other.
 
@@ -20,7 +19,8 @@
 - The scope in which the callback function is executed, which can affect its behavior and access to variables.
 ## Error handler
 - Another callback function used to handle if there is any error.
-
+# Flowchart
+- ![[Pasted image 20250729202711.png]]
 # Example
 - ![](Pasted%20image%2020250227075559.png)
 - `interface Callback` is the common interface for callback function.
@@ -92,7 +92,6 @@ public final class App {
 ---
 
 # References
-
 1. [Promise](Promise.md) for Promise API.
 2. https://java-design-patterns.com/patterns/callback/#programmatic-example-of-callback-pattern-in-java for callback pattern.
 3. [[Promise]] for Promise in Javascript.

@@ -121,5 +121,6 @@ public class Client {
 - Many subclassess $\implies$ more complicated to test.
 - Require class hierachy $\implies$ hard to refactor.
 # References
-1. Gang of Four books.
+1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Factory method pattern.
 2. https://refactoring.guru/design-patterns/factory-method 

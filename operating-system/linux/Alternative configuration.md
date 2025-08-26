@@ -2,13 +2,13 @@
 
 - The example is the same as configuration for Java alternatives.
 # List alternatives
-```bash title='List alternatives command'
+```Sh title='List alternatives command'
 sudo update-alternatives --list python
 ```
 
 # Install alternatives
 - Alternatives are locally chosen to be installed for alternative configuration options.
-```bash title='Locally install alternatives'
+```Sh title='Locally install alternatives'
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python2.7 1
 
 sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
@@ -16,7 +16,7 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
 
 # Select alternatives
 - Alternatives are selected based on priority
-```bash title='Update alternatives for language version'
+```Sh title='Update alternatives for language version'
 sudo update-alternatives --config python
 ```
 

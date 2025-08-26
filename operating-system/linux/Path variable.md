@@ -3,7 +3,7 @@
 # Path variable location
 - Append the `$PATH` environment variable with the `bin` path of the program that we want to make us of its command on the terminal.
 - Normally use the `~/.bashrc` file to configure the path.
-```bash
+```Sh
 sudo nvim ~/.bashrc
 ```
 - After having changed the `bashrc` file and exitted, apply the changes by

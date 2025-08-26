@@ -1,10 +1,9 @@
 #ci-cd #software-engineering #operating-system #ubuntu  #cli  #kurbenetes  #process #thread #docker #software-architecture 
-
+#site-realibility-engineering #computer-network #file-system 
 # Purpose
 - Platform independence, 
 - Isolation, 
 - Adaptive to changing.
-
 # OCI
 - Stands for Open Container Initiative.
 - Contains 3 specifications:

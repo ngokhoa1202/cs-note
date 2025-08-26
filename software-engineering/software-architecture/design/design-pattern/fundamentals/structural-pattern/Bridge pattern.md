@@ -184,5 +184,5 @@ public class Radio implements Device {
 # References
 1. https://refactoring.guru/design-patterns/bridge for Bridge pattern.
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
-	1. Chain of responsibility pattern.
+	1. Bridge pattern.
 

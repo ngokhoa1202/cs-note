@@ -1,0 +1,31 @@
+/* ONLY syntax highlighting - no background changes */
+.theme-light {
+  /* Better colors for code syntax - no background changes */
+  .token.keyword,
+  .hljs-keyword {
+    color: #0969da !important;
+    font-weight: 600 !important;
+  }
+  
+  .token.string,
+  .hljs-string {
+    color: #0a3069 !important;
+  }
+  
+  .token.comment,
+  .hljs-comment {
+    color: #6e7781 !important;
+    font-style: italic !important;
+  }
+  
+  .token.number,
+  .hljs-number {
+    color: #0550ae !important;
+  }
+  
+  .token.function,
+  .hljs-function {
+    color: #8250df !important;
+    font-weight: 600 !important;
+  }
+}

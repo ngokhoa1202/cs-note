@@ -296,5 +296,6 @@ public class Client {
 - Partially initialized object $\implies$ handles missing properties (set by default, throw Exception).
 
 # References
-1. Gang of Four Design pattern
+1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Builder pattern.
 2. https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/learn/ 

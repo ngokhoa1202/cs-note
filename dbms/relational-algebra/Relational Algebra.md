@@ -152,13 +152,13 @@
 ### Left outer join operation
 - Denoted by $\ltimes$    
 - $R \ltimes S$ means that:
-	- Performs Cartesian product on $R$ and $S$: $R \times S$.
+	- Performs Catersian product on $R$ and $S$: $R \times S$.
 	- Keep every attribute on the left operand $R$.
 	- If there is no matching attribute in the right operand $S$, then the tuple is <mark style="background: #e4e62d;">padded with NULL value</mark>.
 ### Right outer join operation
 -  Denoted by $\ltimes$    
 - $R \rtimes S$ means that:
-	- Performs Cartesian product on $R$ and $S$: $R \times S$.
+	- Performs Catersian product on $R$ and $S$: $R \times S$.
 	- Keep every attribute on the right operand $S$.
 	- If there is no matching attribute in the left operand $R$, then the tuple is padded with NULL value.
 ### Example

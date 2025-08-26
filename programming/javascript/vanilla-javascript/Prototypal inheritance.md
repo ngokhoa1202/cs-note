@@ -1,4 +1,4 @@
-#prototye #object-oriented-programming #javascript #vanilla-javascript 
+#prototye #oop 
 
 # Definition
 - **Prototype-based programming** is a style of object-oriented programming in which behavior reuse (known as inheritance is performed via a process of *reusing existing object that serve as prototype.*

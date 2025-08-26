@@ -9,7 +9,7 @@
 # Characteristics
 ## Closure
 - Above.
-## Associtivity
+## Associativity
 - $(a+b)+c=(a+c)+b$
 - $(ab)c=a(bc)$.
 ## Neutral element

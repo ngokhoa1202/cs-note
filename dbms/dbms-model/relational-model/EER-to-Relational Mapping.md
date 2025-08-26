@@ -6,7 +6,7 @@
 ### Application
 - Applicable for all kinds of specialization (totality, partiality, disjoint, overlap).
 ### Usage
-- Map the superclass entity $E_P$ into a table having primary key $K$ 
+- Map the superclass entity $E_P$ into a table having primary key $K$.
 - Map each of its subclass into a table having primary key $K$ which is inherited from the superclass.
 ## Only subclass tables
 ### Application
@@ -59,12 +59,12 @@
 # Mapping of Strong entities
 - Map the strong entity $E$ into a table.
 - Map each single-valued attribute of entity into each column of table:
-	- Decompose compite attributes.
+	- Decompose composite attributes.
 - Map the primary key of entity into the primary key of table.
 # Mapping of Weak entities
 - Map the weak entity $W$ into a table.
 - Map each single-valued attribute of entity into each column of table:
-	- Decompose compite attributes.
+	- Decompose composite attributes.
 - Combine the primary key of the weak entity's owner $PK_{E}$ with its partial key $PK_W$ to create the primary key of the table $(PK_E, PK_W)$.
 # Mapping the binary 1:1 relationship
 - Depends on the functionality, there are three approaches
@@ -86,7 +86,7 @@
 ### Application
 - Feasible for all cases.
 - Applicable when:
-	- Both of the two entities are optional
+	- Both of the two entities are optional.
 	- One entity is mandatory and one entity is optional; however, there are too many NULL values.
 ### Usage
 - Map the relationship by creating a new lookup table.
@@ -95,7 +95,7 @@
 	- One foreign key is primary key.
 		- It must be $K_1$ in case entity $E_1$ is mandatory in the relationship.
 		- Otherwise, prefer the entity with less NULL values.
-	- One foregin key is unique key.
+	- One foreign key is unique key.
 - There are 3 tables now:
 	- Table 1: $({\bf K_1},...)$,  represents $E_1$
 	- Table 2: (${\bf K_2}$, ..., $)  represents $E_2$ .
@@ -109,10 +109,10 @@
 	- Both of the entities are mandatory.
 ### Usage
 - Assume $E_1$ is <mark style="background: #ADCCFFA6;">on the 1-side</mark> and $E_2$ is on the N-side.
-- If $E_1$ is <mark style="background: #ADCCFFA6;">mandatory</mark> in the relationship, include the primary key of $E_2$ as a foreign key of $E_1$.
+- If $E_1$ is <mark style="background: #ADCCFFA6;">mandatory</mark> in the relationship, include the primary key of $E_1$ as a foreign key of $E_2$.
 - There are 2 tables now:
-	- Table 1: $({\bf K_1}, \underline{K_2},...)$ represents $E_1$ and the relationship.
-	- Table 2: $({\bf K_2},...)$ represents $E_2$.
+	- Table 1: $({\bf K_1},...)$ represents $E_1$ and the relationship.
+	- Table 2: $({\bf K_2},\space {\underline K_1}...)$ represents $E_2$.
 ## Look up table
 ### Application
 - Feasible in all cases.
@@ -154,4 +154,5 @@
 --- 
 # References
 1. HCMUT Database slides - Truong Quynh Chi.
-2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015): Chapter 9.
+2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015): 
+	1. Chapter 9.

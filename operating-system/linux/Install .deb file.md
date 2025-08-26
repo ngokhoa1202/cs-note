@@ -7,7 +7,7 @@ sudo dpkg -i <file>.deb
 ```
 where `-i` stands for install.
 - Or use `apt install`
-```bash
+```Sh
 sudo apt install ./<file>.deb
 ```
 # Fix missing package

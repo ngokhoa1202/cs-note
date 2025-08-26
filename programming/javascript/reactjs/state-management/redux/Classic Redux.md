@@ -4,7 +4,7 @@
 - The root Redux state value is almost always a plain JSON object, with other data nested inside of it.
 # Action design
 - Action is actually a JSON object with a `type` property and usually a `payload` property.
-```Javascript title='action object in reality'
+```Jsx title='action object in reality'
 export default {
     parent: 'FwUser',
     reducers: {

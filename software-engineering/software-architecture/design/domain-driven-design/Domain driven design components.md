@@ -86,7 +86,7 @@
 	1. A Model Expressed in Software.
 	2. The Lifecycle of a Domain Object.
 2. https://stackoverflow.com/questions/21967841/aggregation-vs-composition-vs-association-vs-direct-association for aggregation, composition and association concepts in OOP.
-3. [ERD](ERD.md) for ERD Mapping and Association in OOP.
+3. [Entity Relation Diagram](Entity%20Relation%20Diagram.md) for ERD Mapping and Association in OOP.
 4. https://medium.com/@pratik.941/understanding-the-cloneable-interface-shallow-copy-and-deep-copy-in-java-73c45066ecb1 for Shallow copy and Deep copy concepts.
 5. [Layered architecture](software-engineering/software-architecture/design/domain-driven-design/Layered%20architecture.md) for layered architecture in DDD.
 6. https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture for CORBA,.

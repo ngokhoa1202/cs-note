@@ -1,0 +1,139 @@
+/* Final UI Enhancement Touches */
+.theme-light {
+  /* Enhanced workspace styling */
+  .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
+  .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle {
+    background-color: rgba(49, 130, 206, 0.2);
+    transition: background-color 0.2s ease;
+  }
+  
+  .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle:hover,
+  .workspace-split.mod-horizontal > * > .workspace-leaf-resize-handle:hover {
+    background-color: rgba(49, 130, 206, 0.4);
+  }
+  
+  /* Beautiful graph view colors */
+  .graph-view.color-fill {
+    color: #3182ce;
+  }
+  
+  .graph-view.color-fill-tag {
+    color: #10b981;
+  }
+  
+  .graph-view.color-fill-attachment {
+    color: #f59e0b;
+  }
+  
+  .graph-view.color-fill-unresolved {
+    color: #ef4444;
+  }
+  
+  /* Enhanced command palette */
+  .suggestion-container {
+    border-radius: 8px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    border: 1px solid rgba(49, 130, 206, 0.1);
+  }
+  
+  .suggestion-item.is-selected {
+    background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%);
+    color: #1e40af;
+  }
+  
+  /* Beautiful links */
+  .cm-link,
+  .internal-link {
+    color: #3182ce;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    position: relative;
+  }
+  
+  .cm-link:hover,
+  .internal-link:hover {
+    color: #1e40af;
+    text-shadow: 0 0 8px rgba(49, 130, 206, 0.3);
+  }
+  
+  .external-link {
+    color: #059669;
+    text-decoration: none;
+    transition: all 0.2s ease;
+  }
+  
+  .external-link:hover {
+    color: #047857;
+    text-shadow: 0 0 8px rgba(5, 150, 105, 0.3);
+  }
+  
+  /* Enhanced markdown source mode */
+  .cm-editor {
+    font-family: var(--font-text);
+    line-height: 1.6;
+  }
+  
+  .cm-editor .cm-line {
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  
+  .cm-active .cm-line {
+    background-color: rgba(49, 130, 206, 0.05);
+    border-radius: 3px;
+  }
+  
+  /* Beautiful footnotes */
+  .footnote-ref {
+    color: #3182ce;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .footnote-ref:hover {
+    color: #1e40af;
+  }
+  
+  /* Enhanced sidebar */
+  .side-dock-ribbon {
+    border: none;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+  }
+  
+  .side-dock-ribbon-tab {
+    transition: all 0.2s ease;
+  }
+  
+  .side-dock-ribbon-tab:hover {
+    background: rgba(49, 130, 206, 0.1);
+  }
+  
+  .side-dock-ribbon-tab.is-active {
+    background: rgba(49, 130, 206, 0.2);
+  }
+  
+  /* Enhanced tooltips */
+  .tooltip {
+    background: rgba(0, 0, 0, 0.9);
+    color: white;
+    border-radius: 6px;
+    font-size: 0.8em;
+    padding: 4px 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Beautiful progress bars */
+  progress {
+    border-radius: 8px;
+    overflow: hidden;
+    height: 8px;
+  }
+  
+  progress::-webkit-progress-bar {
+    background-color: rgba(49, 130, 206, 0.2);
+  }
+  
+  progress::-webkit-progress-value {
+    background: linear-gradient(135deg, #3182ce 0%, #1e40af 100%);
+  }
+}

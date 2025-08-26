@@ -1,4 +1,4 @@
-#javascript #vanilla-javascript #typescript #functional-programming #high-order-function #reactive-programming 
+#javascript #vanilla-javascript #typescript #functional-programming #high-order-function #reactive-programming #data-type 
 
 # Traditional function
 - Define a function with `function` keyword.
@@ -21,7 +21,6 @@ hoisted();
 function hoisted() {
   // do something
 }
-
 ```
 - Traditional function is <mark style="background: #e4e62d;">able to bind</mark> to `this` pointer, `arguments` or `super` pointer
 ## Callback function
@@ -45,7 +44,6 @@ console.log(foo); // 1
 (function foo() {
   foo = 1; // TypeError: Assignment to constant variable.
 })();
-
 ```
 
 # Arrow function

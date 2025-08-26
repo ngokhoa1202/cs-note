@@ -43,4 +43,6 @@
 - Complicated.
 - Overhead.
 # References
-1. https://refactoring.guru/design-patterns/proxy 
+1. https://refactoring.guru/design-patterns/proxy
+2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Proxy pattern.

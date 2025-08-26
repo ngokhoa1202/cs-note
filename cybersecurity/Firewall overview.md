@@ -4,7 +4,7 @@
 - Service control: Web, mail service.
 - Direction control: where traffic goes.
 - User control: authentication.
-- Behavior control: eleminate spam mails, restrict external access.
+- Behavior control: eliminate spam mails, restrict external access.
 - Main roles:
 	- Protect internal network from unauthorized external access.
 	- Divide network.

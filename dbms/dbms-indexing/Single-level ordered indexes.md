@@ -48,8 +48,6 @@
 	- It is prohibitive to move old records forwards or backwards to leave space for new records.
 > [!Important]
 > A file is able to maintain at most one physically ordering field, so it can have at most either one primary index or one clustering index, but not both.
-
-
 # Secondary index
 - Specified on <mark style="background: #e4e62d;">any non-ordering field</mark> of a file of records:
 	- The indexed field can be either candidate key or duplicate field.

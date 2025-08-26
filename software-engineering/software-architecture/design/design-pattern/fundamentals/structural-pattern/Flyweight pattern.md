@@ -210,4 +210,5 @@ public class Main {
 
 # References
 1. https://refactoring.guru/design-patterns/flyweight/java/example
-
+2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Flyweight pattern.

@@ -1,4 +1,4 @@
-#reactjs  #javascript  #hook #dom  #jsx 
+#reactjs  #javascript  #dom  #jsx #api 
 
 # Common syntax
 ```Jsx title='lazy API syntax'
@@ -13,6 +13,7 @@ const SomeComponent = lazy(load)
 - `lazy` returns a lazily loaded React component.
 # Usage
 - `lazy` is employed to defer the loading of component.
+## Lazily loading components
 ```Jsx title='eager loading'
 import MarkdownPreview from './MarkdownPreview.js';
 ```

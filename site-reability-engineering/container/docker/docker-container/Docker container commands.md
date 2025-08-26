@@ -26,7 +26,7 @@ sudo docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ### Publish port - Expose port
 - `-p` or `--publish` publish the container ==port== to the host:
 	- If the IP address is not specified, broadcast address `0.0.0.0` will be employed.
-	- Bind the host port (left port) to the container port (right port).
+	- Bind the left host port to the right container port.
 ```bash
 docker run -p 127.0.0.1:80:8080/tcp nginx:alpine
 ```
@@ -43,12 +43,12 @@ $\implies$ `-it` flag to connect and work with the container's shell, if the typ
 $\implies$ The container's shell works the same as the ubuntu shell.
 ### Connect to a network
 - `--network` : Connect the container to a docker virtual network.
-### Automatically remove after exitting
-- `--rm`: clean up the container after exitting.
+### Automatically remove after exiting
+- `--rm`: clean up the container after exiting.
 ### Bind mount a volume
 - `-v` or `--volume`: Bind a docker volume to a host's directory. Docker will automagically create a new directory for only Docker files inside that  host's directory.
-	- We can bind to a named volume or name that volume at first.
-```bash
+	- The `-v` follows the pattern `-v [VOLUME_NAME_OR_HOST_PATH]:[CONTAINER_PATH]:[OPTIONS]`
+```Shell title='Docker '
 docker container run -a=stdout -a=stderr -i -v mysql-db:/var/lib/mysql -p 127.0.0.1:3306:3306/tcp -e \
   MYSQL_ALLOW_EMPTY_PASSWORD=yes --rm mysql:lts
 ```
@@ -82,7 +82,7 @@ docker container logs [OPTIONS] CONTAINER
 ```
 ---
 # Docker container top
-## Behaviour
+## Behavior
 - Display the ==running process== of a specific container.
 ## Syntax
 ```bash

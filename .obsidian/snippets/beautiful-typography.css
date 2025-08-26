@@ -1,0 +1,117 @@
+/* Beautiful Typography Enhancements */
+.theme-light {
+  /* Enhanced heading styling with subtle gradients */
+  .markdown-preview-view h1,
+  .cm-header-1 {
+    background: linear-gradient(135deg, #1a202c 0%, #2d3748 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    position: relative;
+  }
+  
+  .markdown-preview-view h1::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 3px;
+    background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+    border-radius: 2px;
+  }
+  
+  .markdown-preview-view h2,
+  .cm-header-2 {
+    color: #2c5282 !important;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    position: relative;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .markdown-preview-view h2::before {
+    content: '';
+    position: absolute;
+    left: -16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 24px;
+    background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+    border-radius: 2px;
+  }
+  
+  .markdown-preview-view h3,
+  .cm-header-3 {
+    color: #285e61 !important;
+    font-weight: 500;
+    position: relative;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  /* Enhanced blockquotes */
+  .markdown-preview-view blockquote {
+    border-left: 4px solid #3182ce;
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    padding: 1rem 1.5rem;
+    margin: 1.5rem 0;
+    border-radius: 0 8px 8px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    position: relative;
+  }
+  
+  .markdown-preview-view blockquote::before {
+    content: '"';
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 3rem;
+    color: #3182ce;
+    opacity: 0.3;
+    font-family: serif;
+  }
+  
+  /* Enhanced emphasis styling */
+  .markdown-preview-view strong,
+  .cm-strong {
+    color: #1a202c !important;
+    font-weight: 700;
+    background: linear-gradient(135deg, transparent 0%, rgba(49, 130, 206, 0.1) 100%);
+    padding: 0 2px;
+    border-radius: 2px;
+  }
+  
+  .markdown-preview-view em,
+  .cm-em {
+    color: #3d4a5c !important;
+    font-style: italic;
+    position: relative;
+  }
+  
+  /* Enhanced list styling */
+  .markdown-preview-view ul > li::marker {
+    color: #3182ce;
+    font-weight: bold;
+  }
+  
+  .markdown-preview-view ol > li::marker {
+    color: #3182ce;
+    font-weight: bold;
+  }
+  
+  /* Beautiful horizontal rules */
+  .markdown-preview-view hr {
+    border: none;
+    height: 2px;
+    background: linear-gradient(135deg, transparent 0%, #3182ce 50%, transparent 100%);
+    margin: 2rem 0;
+    border-radius: 1px;
+  }
+}

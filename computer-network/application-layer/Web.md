@@ -22,7 +22,7 @@
 2. https://developer.mozilla.org/en-US/docs/Learn_web_development/Getting_started/Web_standards/The_web_standards_model for Web standard model.
 3. [[HTTP]]
 4. [[HTTPS]]
-5. [[DNS]]
+5. [[Domain name system]]
 6. [[UDP]]
 7. [[TCP]]
 8. [[IPv4]]

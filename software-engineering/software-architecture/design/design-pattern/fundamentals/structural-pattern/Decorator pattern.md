@@ -133,4 +133,8 @@ public class Main {
 - Dynamically add behaviours to an object ==at run time==.
 # Disadvantages
 - Employs ==recursive composition== $\implies$ unnatural and many little objects.
+---
+# References
+1. 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Decorator pattern.
 

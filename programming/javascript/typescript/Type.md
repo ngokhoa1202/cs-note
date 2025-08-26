@@ -1,7 +1,7 @@
 #typescript #data-type #javascript #object-oriented-programming #functional-programming #high-order-function #associative-array #structured-programming 
 
 - A type with `type` keyword in Javascript has <mark style="background: #e4e62d;">runtime behaviour</mark>.
-
+- However, it 
 # Primitive type
 - `string`
 - `number`

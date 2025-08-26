@@ -1,10 +1,10 @@
 [
-  "code-styler",
   "obsidian-minimal-settings",
   "highlightr-plugin",
   "obsidian-icon-folder",
   "tag-wrangler",
   "obsidian-style-settings",
   "obsidian-outliner",
-  "recent-files-obsidian"
+  "recent-files-obsidian",
+  "code-styler"
 ]

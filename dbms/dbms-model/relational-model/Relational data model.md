@@ -6,7 +6,7 @@
 - ==Relation== $\tau(R)$ is a set of all possible tuples $\subseteq$ $A_1 \times A_2 \times ... \times A_n$
 # Relational model constraints
 ## Constraints
-- Implicit constraints $\equiv$ logical contraints ([ERD](ERD.md)).
+- Implicit constraints $\equiv$ logical contraints ([Entity Relation Diagram](Entity%20Relation%20Diagram.md)).
 - Explicit constraints $\equiv$ expressed in SQL.
 - Semantic contraints $\equiv$ business rules.
 ### Domain constraint

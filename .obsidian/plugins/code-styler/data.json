@@ -605,17 +605,17 @@
       "header": {
         "title": {
           "textFont": "",
-          "textBold": false,
-          "textItalic": true
+          "textBold": true,
+          "textItalic": false
         },
         "languageTag": {
-          "display": "none",
+          "display": "always",
           "textFont": "",
           "textBold": true,
           "textItalic": false
         },
         "languageIcon": {
-          "display": "none",
+          "display": "always",
           "displayColour": true
         },
         "externalReference": {
@@ -623,8 +623,8 @@
           "displayVersion": true,
           "displayTimestamp": true
         },
-        "fontSize": 14,
-        "foldPlaceholder": ""
+        "fontSize": 13,
+        "foldPlaceholder": "..."
       },
       "highlights": {
         "activeCodeblockLine": false,
@@ -633,12 +633,12 @@
       "inline": {
         "syntaxHighlight": true,
         "style": true,
-        "fontWeight": 4,
-        "curvature": 6,
-        "paddingVertical": 5,
-        "paddingHorizontal": 5,
-        "marginHorizontal": 0,
-        "titleFontWeight": 8
+        "fontWeight": 5,
+        "curvature": 4,
+        "paddingVertical": 4,
+        "paddingHorizontal": 6,
+        "marginHorizontal": 2,
+        "titleFontWeight": 7
       },
       "advanced": {
         "gradientHighlights": false,

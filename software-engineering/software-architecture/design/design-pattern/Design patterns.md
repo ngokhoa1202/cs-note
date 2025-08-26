@@ -55,14 +55,39 @@
 - [Strategy pattern](Strategy%20pattern.md)
 ### Mediator
 - [Mediator pattern](Mediator%20pattern.md)
-
+### Visitor
+- [[Visitor pattern]]
+### Template method
+- [[Template method pattern]]
 # Modern pattern
 ## Callback pattern
 
 ---
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
-2. 
+2. [[Chain of responsibility pattern]]
+3. [[Command pattern]]
+4. [[Mediator pattern]]
+5. [[Memento pattern]]
+6. [[Observer pattern]]
+7. [[Strategy pattern]]
+8. [[Template method pattern]]
+9. [[Visitor pattern]]
+10. [[Abstract Factory pattern]]
+11. [[Builder pattern]]
+12. [[Factory Method pattern]]
+13. [[Prototype pattern]]
+14. [[Simple factory pattern]]
+15. [[Singleton pattern]]
+16. [[Adapter pattern]]
+17. [[Bridge pattern]]
+18. [[Composite pattern]]
+19. [[Decorator pattern]]
+20. [[Facade pattern]]
+21. [[Flyweight pattern]]
+22. [[Proxy pattern]]
+23. [[Callback pattern]]
+24. 
 
 
 

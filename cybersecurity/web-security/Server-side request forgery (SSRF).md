@@ -40,7 +40,7 @@
 # Prevention - circumvention
 ## Employs DNS Service
 - Replace `localhost` or `127.0.0.1` by a domain name, which ends up being mapped into an registered IP.
-- [DNS](DNS.md)
+- [Domain name system](Domain%20name%20system.md)
 ## Upgrade to HTTPS
 - Always upgrade to HTTPS and register certificate with a CA (Cloudfare, DigiCert, Google, ...).
 - [HTTPS](HTTPS.md)
@@ -65,4 +65,4 @@
 1. https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html for SSRF Overview.
 2. https://cheatsheetseries.owasp.org/cheatsheets/Server_Side_Request_Forgery_Prevention_Cheat_Sheet.html for Java validating traffic API.
 3. [Firewall overview](Firewall%20overview.md) for Firewall overview.
-4. [DNS](DNS.md) for DNS service.
+4. [Domain name system](Domain%20name%20system.md) for DNS service.

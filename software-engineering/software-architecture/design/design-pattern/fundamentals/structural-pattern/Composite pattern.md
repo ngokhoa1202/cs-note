@@ -215,5 +215,7 @@ public class TaskList implements Task {
 - Hides complicated tree structure.
 # Disadvantages
 - Client must perform runtime check know if the operation is available on a node.
-- 
-\
+---
+# References
+1. 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Composite pattern.

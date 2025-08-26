@@ -32,7 +32,7 @@ const p: Point = new Point(3.5, 4.6);
 console.log(p);
 ```
 
-# <span style="font-family: 'JetBrains Mono';">this</span> pointer
+# `this` pointer
 - `this` pointer in Typescript extends from [<span style="font-family: 'JetBrains Mono';">this</span> pointer](programming/javascript/vanilla-javascript/fundamentals/Class.md#<span%20style="font-family%20'JetBrains%20Mono';">this</span>%20pointer) in Javascript.
 - `this` pointer can be explicitly declared in the signature of the method.
 ```typescript title='this pointer in method declaration'

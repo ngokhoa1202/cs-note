@@ -190,4 +190,5 @@ public class Database {
 # References
 1. https://refactoring.guru/design-patterns/singleton/java/example#example-2 for thread-safe singleton.
 2. https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom for `static class Holder`
-3. 
+3. 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Singleton pattern.

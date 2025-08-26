@@ -5,17 +5,17 @@
 # `typeof` operator
 - `typeof` operator checks whether the object is of one of the predefined types.
 
-|Type|Result|
-|---|---|
-|[Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)|`"undefined"`|
-|[Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)|`"object"` ([reason](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null))|
-|[Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)|`"boolean"`|
-|[Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)|`"number"`|
-|[BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)|`"bigint"`|
-|[String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)|`"string"`|
-|[Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)|`"symbol"`|
-|[Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) (implements [[Call]] in ECMA-262 terms; [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) are functions as well)|`"function"`|
-|Any other object|`"object"`|
+| Type                                                                                                                                                                                                                                                               | Result                                                                                                                |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------------- |
+| [Undefined](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined)                                                                                                                                                            | `"undefined"`                                                                                                         |
+| [Null](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/null)                                                                                                                                                                           | `"object"` ([reason](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof#typeof_null)) |
+| [Boolean](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean)                                                                                                                                                                | `"boolean"`                                                                                                           |
+| [Number](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number)                                                                                                                                                                  | `"number"`                                                                                                            |
+| [BigInt](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/BigInt)                                                                                                                                                                  | `"bigint"`                                                                                                            |
+| [String](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String)                                                                                                                                                                  | `"string"`                                                                                                            |
+| [Symbol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol)                                                                                                                                                                  | `"symbol"`                                                                                                            |
+| [Function](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function) (implements [[Call]] in ECMA-262 terms; [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/class) are functions as well) | `"function"`                                                                                                          |
+| Any other object                                                                                                                                                                                                                                                   | `"object"`                                                                                                            |
 ```javascript title='typeof operator examples'
 // Numbers
 typeof 37 === "number";
@@ -191,3 +191,4 @@ alert(clone.age); // 30
 5. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/instanceof for `instanceof` operator.
 6. https://javascript.info/object-copy for Object references and copy.
 7. https://stackoverflow.com/questions/122102/what-is-the-most-efficient-way-to-deep-clone-an-object-in-javascript for deep copy in Javascript.
+8. https://javascript.info/types for data type in Javascript.

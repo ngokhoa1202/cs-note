@@ -1,7 +1,7 @@
 #linux #ubuntu #cli 
 
 # Change password
-```bash
+```Sh
 passwd <user-id>
 ```
 

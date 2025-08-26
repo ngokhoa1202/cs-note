@@ -1,7 +1,7 @@
 #transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #software-architecture #computer-architecture  #acid 
 
 # Multi-user environment
-- Transaction processing are employed to serve multi-user system, especially to resolve <mark style="background: #e4e62d;">concurrency-related problems</mark> and <mark style="background: #e4e62d;">recovery-related problems</mark>.
+- Transaction processing is employed to serve multi-user system, especially to resolve <mark style="background: #e4e62d;">concurrency-related problems</mark> and <mark style="background: #e4e62d;">recovery-related problems</mark>.
 - There are two types of concurrency execution:
 	- <mark style="background: #ADCCFFA6;">Interleaved processing</mark>: concurrent execution of processes is interleaved in a single CPU.
 		- One person has to do multiple tasks at the same time. However, at a specific time, he is able to do only one task and he switches among tasks if possible.

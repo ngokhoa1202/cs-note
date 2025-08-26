@@ -18,6 +18,7 @@ console.log(sum(1, 2, 3, 4));
 // Expected output: 10
 
 ```
+- Rest parameter is a form of [[Variadic function]].
 ---
 # References
 1. https://en.wikipedia.org/wiki/Variadic_function for variadic function concepts.

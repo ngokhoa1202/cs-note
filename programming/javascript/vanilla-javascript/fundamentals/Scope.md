@@ -8,7 +8,7 @@
 - Also generally known as block scope. 
 - Block scope is defined by a block declaration.
 - Block scope only applies for variable with `let` or `const` declaration, but not with `var` declaration because of <mark style="background: #e4e62d;">variable hoisting</mark> mechanism.
-```javascript
+```javascript title=''
 type Environment = {
 	OS: string;
 	distro: string;

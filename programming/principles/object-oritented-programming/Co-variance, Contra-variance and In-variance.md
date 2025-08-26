@@ -3,9 +3,9 @@
 # Co-variant and Contra-variant functions
 - Let $D$ be a set on which a pre-order, written as $\preceq$ . 
 - A function $f : D → D$ is 
-	- co-variant in case $f$ respects the pre-order, that is $x \preceq y \implies f(x) \preceq f(y)$.  
-	- contra-variant in case the pre-order is reversed, that is $x \preceq y \implies f(x) \succeq f(y)$.
-	- in-variant if neither the two above conditions hold, that is $x \preceq y \centernot\implies f(x) \preceq f(y) \space \lor f(x) \succeq f(y)$
+	- *co-variant* in case $f$ respects the pre-order, that is $x \preceq y \implies f(x) \preceq f(y)$.  
+	- *contra-variant* in case the pre-order is reversed, that is $x \preceq y \implies f(x) \succeq f(y)$.
+	- *in-variant* if neither the two above conditions hold, that is $x \preceq y \centernot\implies f(x) \preceq f(y) \space \lor f(x) \succeq f(y)$
 # Co-variances
 - Co-variances means that if $A$ is subtype of $B$, then $\text{Container}(A)$ is a <mark class="hltr-blue">subtype</mark> of $\text{Container}(B)$. In other words, $A$ and $B$ varies in the <mark class="hltr-blue">same</mark> direction.
 	- $A \preceq B \implies C(A) \preceq C(B)$ where $C$ is a general container function.
@@ -34,7 +34,7 @@ class Dog extends Animal {
     void feed(Animal food) { ... }  // Would be contravariant
 }
 ```
-- $$\text{Dog} \preceq \text{Animal} \implies \text{Dog} \to () \succeq \text{Animal} \to ()$$
+- $$\text{Dog} \preceq \text{Animal} \implies (\text{Dog}) \to () \succeq (\text{Animal}) \to ()$$
 # In-variances
 - In-variances means that even if $A$ is a subtype of $B$,  $\text{Container}(A)$ and $\text{Container}(B)$ have <mark class="hltr-yellow">no subtype relationship</mark>.
 	-   $A \preceq B \centernot\implies C(A) \succeq C(B)$ or $C(A) \preceq C(B)$ where $C$ is a general container function.

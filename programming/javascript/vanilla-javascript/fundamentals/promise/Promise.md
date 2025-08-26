@@ -2,7 +2,7 @@
 
 # Definition
 - A **Promise** in JavaScript is an object representing the <mark class="hltr-yellow">eventual completion or failure of an asynchronous operation</mark>. by  associating event handlers with an asynchronous action's eventual success value or failure error.
-- Promise is <mark class="hltr-yellow">eagerly executed</mark> by its executor function behind the scenes. Whenever a promise is instantiated, its executor function synchronously executes at that moment. However, it is not until the promise is settled that its value or reason can be used.
+- Promise is <mark class="hltr-yellow">eagerly executed</mark> by its executor function behind the scenes. Whenever a promise is instantiated, its executor function immediately executes at that moment. However, it is not until the promise is settled at an that its value or reason can be used.
 ```Javascript title='Promises are eagerly executed by Javascript'
 console.log('Start');
 
@@ -264,9 +264,9 @@ async function f() {
 
 f().then(alert); // 1
 ```
-- `await` is only allowed in `async` function. The Javascript runtime environment such as NodeJs, or Chromium,... forks a new thread to handle that long action event so that allows the main thread to be not blocked.
-	- Service worker.
-	- `libuv` library.
+- `await` is only allowed in `async` function. The JavaScript runtime employs a <mark class="hltr-yellow">single-threaded event loop</mark> architecture rather than thread creation. When encountering asynchronous operations, the runtime <mark class="hltr-yellow">delegates these tasks to underlying system APIs</mark> while the <mark class="hltr-yellow">main JavaScript thread continues executing subsequent code</mark>, which is known as *cooperative concurrency*. The runtime manages completion notifications through *callback queues and the event loop*. 
+	- The complete runtime environment requires sophisticated *multi-threaded coordination* at the system level to deliver the asynchronous capabilities that modern applications require. For instance, Linux employs `epoll`, `macOS` and `BSD` employ `kqueue`, Windows employs I/O Completion Ports.
+- 
 ```Javascript title='async await in Javascript'
 async function f() {
 
@@ -284,9 +284,11 @@ f();
 
 ---
 # References
-
 1. https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md
 2. https://javascript.info/promise-basics
 3. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
 4. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/race for `Promise.race()`.
 5. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise/any for `Promise.any()`.
+6. https://en.wikipedia.org/wiki/Epoll
+7. https://en.wikipedia.org/wiki/Kqueue
+

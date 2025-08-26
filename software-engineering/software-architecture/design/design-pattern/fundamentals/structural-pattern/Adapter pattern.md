@@ -156,3 +156,7 @@ class StockAnalysisService(StockService, StockStorage):
 	- Allows subclass to override its behaviour.
 	- Force subclasses to implement its unrelated interfaces.
 - Complicated because we have to define new interfaces and Adapter class.
+---
+# References
+1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Adapter pattern.

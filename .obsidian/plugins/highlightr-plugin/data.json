@@ -2,15 +2,15 @@
   "highlighterStyle": "realistic",
   "highlighterMethods": "css-classes",
   "highlighters": {
-    "Pink": "#FFB8EBA6",
-    "Red": "#FF5582A6",
-    "Orange": "#FFB86CA6",
-    "Green": "#BBFABBA6",
-    "Cyan": "#ABF7F7A6",
-    "Blue": "#ADCCFFA6",
-    "Purple": "#D2B3FFA6",
-    "Grey": "#CACFD9A6",
-    "Yellow": "#e4e62d"
+    "Pink": "#FFCCD5B8",
+    "Red": "#FF9FAAB8",
+    "Orange": "#FFD4A8B8",
+    "Green": "#C6F7C6B8",
+    "Cyan": "#B8F5F5B8",
+    "Blue": "#BDD7FFB8",
+    "Purple": "#E0C4FFB8",
+    "Grey": "#D5DAE2B8",
+    "Yellow": "#FFF3A8B8"
   },
   "highlighterOrder": [
     "Yellow",

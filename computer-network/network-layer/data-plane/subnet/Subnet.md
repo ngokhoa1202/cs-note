@@ -32,6 +32,6 @@
 
 
 # DHCP
-[DHCP](DHCP.md)
+[Dynamic Host Configuration Protocol](Dynamic%20Host%20Configuration%20Protocol.md)
 
 

@@ -1,4 +1,5 @@
 {
+  "interfaceMode": "light",
   "spellcheck": true,
   "tabSize": 2,
   "useMarkdownLinks": false,
@@ -9,9 +10,10 @@
     "pageSize": "A4",
     "landscape": false,
     "margin": "0",
-    "downscalePercent": 60
+    "downscalePercent": 80
   },
   "readableLineLength": false,
   "showLineNumber": true,
-  "trashOption": "system"
+  "trashOption": "system",
+  "showInlineTitle": true
 }

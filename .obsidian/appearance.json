@@ -1,9 +1,15 @@
 {
   "theme": "moonstone",
-  "textFontFamily": "Source Serif 4,Blanco",
-  "monospaceFontFamily": "FiraCode Nerd Font,SF Mono",
-  "interfaceFontFamily": "Sora,Lexend",
+  "accentColor": "",
+  "baseFontSize": 16,
+  "textFontFamily": "Inter,Bricolage Grotesque 36pt",
+  "monospaceFontFamily": "Fira Code",
+  "interfaceFontFamily": "Sora",
   "cssTheme": "Minimal",
   "showRibbon": true,
-  "baseFontSize": 17
+  "enabledCssSnippets": [
+    "beautiful-callouts",
+    "beautiful-typography",
+    "syntax-only"
+  ]
 }
