@@ -1,8 +1,164 @@
 {
   "recentFiles": [
     {
-      "basename": "Function",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Function.md"
+      "basename": "ECMAScript Module",
+      "path": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md"
+    },
+    {
+      "basename": "CommonJS",
+      "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
+    },
+    {
+      "basename": "Global object",
+      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md"
+    },
+    {
+      "basename": "AJAX",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/AJAX.md"
+    },
+    {
+      "basename": "Type conversion",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Type conversion.md"
+    },
+    {
+      "basename": "Type conversion",
+      "path": "programming/go/fundamentals/Type conversion.md"
+    },
+    {
+      "basename": "Fermat_s little theorem",
+      "path": "number-theory/Fermat_s little theorem.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
+    },
+    {
+      "basename": "Destructuring assignment",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Destructuring assignment.md"
+    },
+    {
+      "basename": "Data type",
+      "path": "programming/go/fundamentals/Data type.md"
+    },
+    {
+      "basename": "Struct",
+      "path": "programming/go/fundamentals/composite-type/Struct.md"
+    },
+    {
+      "basename": "Slice",
+      "path": "programming/go/fundamentals/composite-type/Slice.md"
+    },
+    {
+      "basename": "Variable",
+      "path": "programming/go/fundamentals/Variable.md"
+    },
+    {
+      "basename": "Parameter-passing mechanism in Go",
+      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
+    },
+    {
+      "basename": "Map",
+      "path": "programming/go/fundamentals/composite-type/Map.md"
+    },
+    {
+      "basename": "Array",
+      "path": "programming/go/fundamentals/composite-type/Array.md"
+    },
+    {
+      "basename": "Goroutine",
+      "path": "programming/go/concurrency-control/Goroutine.md"
+    },
+    {
+      "basename": "Throttle",
+      "path": "programming/javascript/lodash/concurrency-control/Throttle.md"
+    },
+    {
+      "basename": "Docker configuration",
+      "path": "site-reability-engineering/container/docker/docker-container/Docker configuration.md"
+    },
+    {
+      "basename": "Docker buildx commands",
+      "path": "site-reability-engineering/container/docker/docker-image/dockerfile/Docker buildx commands.md"
+    },
+    {
+      "basename": "Docker container commands",
+      "path": "site-reability-engineering/container/docker/docker-container/Docker container commands.md"
+    },
+    {
+      "basename": "Native prototype",
+      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Native prototype.md"
+    },
+    {
+      "basename": "Difference",
+      "path": "programming/javascript/lodash/set-operators/Difference.md"
+    },
+    {
+      "basename": "sortBy",
+      "path": "programming/javascript/lodash/sorting/sortBy.md"
+    },
+    {
+      "basename": "Debounce",
+      "path": "programming/javascript/lodash/concurrency-control/Debounce.md"
+    },
+    {
+      "basename": "Memoize",
+      "path": "programming/javascript/lodash/caching/Memoize.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "programming/javascript/browser/Cookie.md"
+    },
+    {
+      "basename": "Asynchronous programming in Angular",
+      "path": "programming/javascript/angular/Asynchronous programming in Angular.md"
+    },
+    {
+      "basename": "Angular commands",
+      "path": "programming/javascript/angular/Angular commands.md"
+    },
+    {
+      "basename": "Angular",
+      "path": "programming/javascript/angular/Angular.md"
+    },
+    {
+      "basename": "Property binding",
+      "path": "programming/javascript/angular/template/Property binding.md"
+    },
+    {
+      "basename": "Immutability",
+      "path": "programming/cpp/fundamentals/Immutability.md"
+    },
+    {
+      "basename": "Essential operation",
+      "path": "programming/cpp/fundamentals/Essential operation.md"
+    },
+    {
+      "basename": "Assignment operation",
+      "path": "programming/cpp/fundamentals/Assignment operation.md"
+    },
+    {
+      "basename": "Pipes in Angular template",
+      "path": "programming/javascript/angular/template/Pipes in Angular template.md"
+    },
+    {
+      "basename": "Event binding",
+      "path": "programming/javascript/angular/template/Event binding.md"
+    },
+    {
+      "basename": "Class and Style binding",
+      "path": "programming/javascript/angular/template/Class and Style binding.md"
+    },
+    {
+      "basename": "Two-way binding in Angular",
+      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
+    },
+    {
+      "basename": "Sharing states between components",
+      "path": "programming/javascript/angular/components/Sharing states between components.md"
+    },
+    {
+      "basename": "Prototypal inheritance",
+      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Prototypal inheritance.md"
     },
     {
       "basename": "Scope",
@@ -17,188 +173,32 @@
       "path": "programming/javascript/vanilla-javascript/fundamentals/Property.md"
     },
     {
-      "basename": "Polyfills and transpilers",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
-    },
-    {
       "basename": "Object",
       "path": "programming/javascript/vanilla-javascript/fundamentals/Object.md"
     },
     {
-      "basename": "Destructuring assignment",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Destructuring assignment.md"
+      "basename": "Spread operator",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Spread operator.md"
+    },
+    {
+      "basename": "Optional chaining operator",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Optional chaining operator.md"
+    },
+    {
+      "basename": "Null coalescing operator",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Null coalescing operator.md"
     },
     {
       "basename": "Class",
       "path": "programming/javascript/vanilla-javascript/fundamentals/Class.md"
     },
     {
-      "basename": "Cookie",
-      "path": "programming/javascript/vanilla-javascript/browser/Cookie.md"
+      "basename": "Sequelize error hierarchy",
+      "path": "programming/javascript/nodejs/express-js/Sequelize error hierarchy.md"
     },
     {
-      "basename": "Dynamic Host Configuration Protocol",
-      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
-    },
-    {
-      "basename": "DHCP",
-      "path": "computer-network/application-layer/dhcp/DHCP.md"
-    },
-    {
-      "basename": "Functional interface",
-      "path": "programming/java/functional-programming/functional-interface/Functional interface.md"
-    },
-    {
-      "basename": "HMAC",
-      "path": "cybersecurity/mac/HMAC.md"
-    },
-    {
-      "basename": "MAC Concept",
-      "path": "cybersecurity/mac/MAC Concept.md"
-    },
-    {
-      "basename": "CMAC",
-      "path": "cybersecurity/mac/CMAC.md"
-    },
-    {
-      "basename": "Web security overview",
-      "path": "cybersecurity/network-security/Web security overview.md"
-    },
-    {
-      "basename": "IKE",
-      "path": "cybersecurity/network-security/network-layer/IKE.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "computer-network/application-layer/http/Cookie.md"
-    },
-    {
-      "basename": "Deriving state from redux store",
-      "path": "programming/javascript/reactjs/state-management/redux/Deriving state from redux store.md"
-    },
-    {
-      "basename": "Classic Redux",
-      "path": "programming/javascript/reactjs/state-management/redux/Classic Redux.md"
-    },
-    {
-      "basename": "Video Streaming - DASH",
-      "path": "computer-network/application-layer/steaming/Video Streaming - DASH.md"
-    },
-    {
-      "basename": "Untitled",
-      "path": "cryptography/Untitled.base"
-    },
-    {
-      "basename": "DAA",
-      "path": "cybersecurity/mac/DAA.md"
-    },
-    {
-      "basename": "IDS overview",
-      "path": "cybersecurity/IDS overview.md"
-    },
-    {
-      "basename": "Interruption vs. Interception vs. Modification vs. Fabrication",
-      "path": "cybersecurity/q-a/Interruption vs. Interception vs. Modification vs. Fabrication.md"
-    },
-    {
-      "basename": "Firewall overview",
-      "path": "cybersecurity/Firewall overview.md"
-    },
-    {
-      "basename": "Malicious software",
-      "path": "cybersecurity/Malicious software.md"
-    },
-    {
-      "basename": "Generate secret key openSSL",
-      "path": "operating-system/cryptography/Generate secret key openSSL.md"
-    },
-    {
-      "basename": "Diophantine equation",
-      "path": "number-theory/Diophantine equation.md"
-    },
-    {
-      "basename": "SSH key generation",
-      "path": "operating-system/linux/cryptography/SSH key generation.md"
-    },
-    {
-      "basename": "Generate secret key openSSL",
-      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
-    },
-    {
-      "basename": "Alternative configuration",
-      "path": "operating-system/linux/Alternative configuration.md"
-    },
-    {
-      "basename": "Change password command",
-      "path": "operating-system/linux/password/Change password command.md"
-    },
-    {
-      "basename": "Install .deb file",
-      "path": "operating-system/linux/Install .deb file.md"
-    },
-    {
-      "basename": "Path variable",
-      "path": "operating-system/linux/Path variable.md"
-    },
-    {
-      "basename": "Install Wildfly - JBoss",
-      "path": "operating-system/linux/Install Wildfly - JBoss.md"
-    },
-    {
-      "basename": "curl commands",
-      "path": "operating-system/linux/curl commands.md"
-    },
-    {
-      "basename": "Manage Process",
-      "path": "operating-system/linux/Manage Process.md"
-    },
-    {
-      "basename": "Install .zip file",
-      "path": "operating-system/linux/Install .zip file.md"
-    },
-    {
-      "basename": "Value category",
-      "path": "programming/cpp/fundamentals/Value category.md"
-    },
-    {
-      "basename": "Pointer",
-      "path": "programming/cpp/fundamentals/Pointer.md"
-    },
-    {
-      "basename": "DES",
-      "path": "cryptography/symmetric-cipher/des/DES.md"
-    },
-    {
-      "basename": "DES",
-      "path": "cryptography/des/DES.md"
-    },
-    {
-      "basename": "Exhaustive key search",
-      "path": "cryptography/des/Exhaustive key search.md"
-    },
-    {
-      "basename": "Elgamal digital signature scheme",
-      "path": "cryptography/digital-signature/Elgamal digital signature scheme.md"
-    },
-    {
-      "basename": "Digital signature",
-      "path": "cryptography/digital-signature/Digital signature.md"
-    },
-    {
-      "basename": "Redux",
-      "path": "programming/javascript/reactjs/state-management/redux/Redux.md"
-    },
-    {
-      "basename": "useTransition hook",
-      "path": "programming/javascript/reactjs/hooks/useTransition hook.md"
-    },
-    {
-      "basename": "lazy",
-      "path": "programming/javascript/reactjs/featured-api/lazy.md"
-    },
-    {
-      "basename": "Fragment",
-      "path": "programming/javascript/reactjs/components/Fragment.md"
+      "basename": "Sequelize error hierachy",
+      "path": "programming/javascript/nodejs/express-js/Sequelize error hierachy.md"
     }
   ],
   "omittedPaths": [],

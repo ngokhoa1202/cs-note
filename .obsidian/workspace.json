@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/javascript/vanilla-javascript/fundamentals/Function.md",
+                "file": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Function"
+              "title": "ECMAScript Module"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "openssl",
+                "query": "Promise",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 467.5
+    "width": 352.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "programming/javascript/reactjs/state-management/redux/Deriving state from redux store.md",
+                "file": "programming/javascript/vanilla-javascript/Prototypal inheritance.md",
                 "collapseAll": true,
                 "extraContext": true,
                 "sortOrder": "alphabetical",
@@ -155,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deriving state from redux store"
+              "title": "Backlinks for Prototypal inheritance"
             }
           },
           {
@@ -172,8 +172,7 @@
               "title": "Outgoing links from Application layer overview"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,43 +181,46 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "workspaces:Manage workspace layouts": false,
       "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "graph:Open graph view": false
     }
   },
   "active": "48ecb893f3bb1eee",
   "lastOpenFiles": [
-    "programming/javascript/vanilla-javascript/fundamentals/Scope.md",
-    "programming/javascript/vanilla-javascript/fundamentals/Rest parameter.md",
-    "programming/javascript/vanilla-javascript/fundamentals/Property.md",
-    "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md",
-    "programming/javascript/vanilla-javascript/fundamentals/Object.md",
+    "programming/javascript/vanilla-javascript/module/CommonJS.md",
+    "programming/javascript/vanilla-javascript/module/ECMAScript Module.md",
+    "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md",
+    "programming/javascript/vanilla-javascript/module",
+    "programming/javascript/vanilla-javascript/fundamentals/AJAX.md",
+    "programming/javascript/vanilla-javascript/fundamentals/operator/Type conversion.md",
+    "programming/go/fundamentals/Type conversion.md",
+    "number-theory/Fermat_s little theorem.md",
+    "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md",
     "programming/javascript/vanilla-javascript/fundamentals/Destructuring assignment.md",
-    "programming/javascript/vanilla-javascript/fundamentals/Class.md",
-    "programming/javascript/vanilla-javascript/browser/Cookie.md",
-    "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md",
-    "computer-network/application-layer/dhcp/DHCP.md",
-    "programming/java/functional-programming/functional-interface/Functional interface.md",
-    "cybersecurity/mac/HMAC.md",
-    "cybersecurity/mac/MAC Concept.md",
-    "cybersecurity/mac/CMAC.md",
-    "cybersecurity/network-security/Web security overview.md",
-    "cybersecurity/network-security/network-layer/IKE.md",
-    "computer-network/application-layer/http/Cookie.md",
-    "programming/javascript/reactjs/state-management/redux/Deriving state from redux store.md",
-    "programming/javascript/reactjs/state-management/redux/Classic Redux.md",
-    "computer-network/application-layer/steaming/Video Streaming - DASH.md",
+    "logseq/bak/programming/javascript/vanilla-javascript/fundamentals/operator/Optional chaining operator/Optional chaining operator.md",
+    "logseq/bak/programming/javascript/vanilla-javascript/fundamentals/Function/Function.md",
+    "logseq/bak/programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md",
+    "programming/go/fundamentals/Data type.md",
+    "programming/go/fundamentals/composite-type/Struct.md",
+    "programming/go/fundamentals/composite-type/Slice.md",
+    "programming/go/fundamentals/Variable.md",
+    "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md",
+    "programming/go/fundamentals/composite-type/Map.md",
+    "programming/go/fundamentals/composite-type/Array.md",
+    "programming/go/concurrency-control/Goroutine.md",
+    "programming/javascript/lodash/concurrency-control/Throttle.md",
+    "site-reability-engineering/container/docker/docker-container/Docker configuration.md",
+    "site-reability-engineering/container/docker/docker-image/dockerfile/Docker buildx commands.md",
+    "site-reability-engineering/container/docker/docker-container/Docker container commands.md",
+    "programming/javascript/vanilla-javascript/object-oriented-programming/Native prototype.md",
+    "programming/javascript/lodash/set-operators/Difference.md",
     "cryptography/Untitled.base",
-    "cybersecurity/mac/DAA.md",
-    "cybersecurity/IDS overview.md",
-    "cybersecurity/q-a/Interruption vs. Interception vs. Modification vs. Fabrication.md",
-    "cybersecurity/Firewall overview.md",
-    "cybersecurity/Malicious software.md",
-    "operating-system/cryptography/Generate secret key openSSL.md",
-    "Pasted image 20250405103342.png",
+    "assets/Pasted image 20250405103342 1.png",
     "logseq/custom.css",
     "pages",
     "logseq/config.edn",
@@ -227,7 +229,6 @@
     "Untitled.base",
     "Untitled 1.base",
     "computer-network (2)/link-layer/mac/taking-turns",
-    "computer-network (2)/link-layer/mac/random-access",
     "assets/Pasted image 20250802122826.png",
     "assets/Pasted image 20250802095146.png",
     "assets/Pasted image 20250802094816.png",

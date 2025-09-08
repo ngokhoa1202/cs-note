@@ -43,7 +43,7 @@ complex64 complex128
 ## Struct
 - [[Struct]]
 ## Function
-- [[Function]]
+- [[programming/go/fundamentals/Function]]
 - [[Method]]
 ## Interface
 - [[Interface]]
@@ -337,7 +337,7 @@ type Ages AgeSlice
 4. [[Array]]
 5. [[Struct]]
 6. [[Slice]]
-7. [[Function]]
+7. [[programming/go/fundamentals/Function]]
 8. [[Method]]
 9. [[programming/go/fundamentals/Pointer|Pointer]]
 10. https://go101.org/article/type-system-overview.html

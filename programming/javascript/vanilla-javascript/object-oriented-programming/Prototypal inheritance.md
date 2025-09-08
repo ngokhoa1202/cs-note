@@ -2,6 +2,7 @@
 
 # Definition
 - **Prototype-based programming** is a style of object-oriented programming in which behavior reuse (known as inheritance is performed via a process of *reusing existing object that serve as prototype.*
+- JavaScript is a prototypal object-oriented programming language. 
 # Prototype object
 - ![](Pasted%20image%2020250225211538.png)
 - Each object in JavaScript has a hidden property `[[Prototype]]` , which is either `null` or refers to another object.
@@ -118,6 +119,7 @@ const obj = new Constructor();
 ```
 
 # Prototype chain
+- Static method `{Javascript} Object.setPrototypeOf(childPrototype, parentialPrototype)` is employed to manually establish a chain of prototype.
 ```Javascript title='Object.setPrototype to extend prototype in Javascript'
 function Base() {}
 function Derived() {}
@@ -154,4 +156,5 @@ console.log(doSomethingFromArrowFunction.prototype);
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain
 3. [[Native prototype]]
 4. [[Object]]
-5. 
+5. [[Property]]
+6. [[programming/javascript/vanilla-javascript/fundamentals/Function|Function]] for traditional function and arrow function in Javascript.

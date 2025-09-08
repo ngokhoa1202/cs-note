@@ -3,7 +3,7 @@
 # Traditional function
 - Define a function with `function` keyword.
 - The function type is `Function` in Typescript according to ECMAScript 2015. 
-- Function in Javascript is a first-class object.
+- Function in JavaScript is a first-class object.
 - Function expressions are not hoisted while function declaration is allowed to be hoisted.
 ```javascript
 console.log(notHoisted); // undefined
@@ -89,7 +89,6 @@ param => {
   return a + b + chuck;
 };
 ```
-
 
 ---
 # References

@@ -2,7 +2,7 @@
 
 # Behavior
 - `{javascript} _.debounce()` creates a debounced function that delays invoking `func` until after `wait` milliseconds have elapsed since the last time the debounced function was invoked. The debounced function comes with a `cancel` method to cancel delayed `func` invocations and a `flush` method to immediately invoke them. 
-- The parameter `options`  indicates whether `func` should be invoked on the leading and/or trailing edge of the `wait` timeout. The `func` is invoked with the last arguments provided to the debounced function. Subsequent calls to the debounced function return the result of the last `func` invocation.
+- The parameter `options`  indicates whether `func` should be invoked on the leading and/or trailing edge of the `wait` timeout. The `func` is invoked with the last arguments provided to the debounced function. Subsequent calls to the debounced function return the result of the last `func` invocation. 
 - The `debounce` function creates a scheduler around the original function that:
 	- **Waits** for a specified delay after each call
 	- **Resets the timer** if called again during the wait period

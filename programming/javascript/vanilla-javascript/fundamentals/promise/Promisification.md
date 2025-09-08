@@ -128,5 +128,5 @@ class CacheService {
 # References
 1. https://javascript.info/promisify
 2. https://javascript.info/async-await
-3. [[Promise]]
+3. [[programming/javascript/vanilla-javascript/fundamentals/promise/Promise]]
 4. 

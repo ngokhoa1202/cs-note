@@ -1,5 +1,5 @@
 
-```bash title='Docker configuration'
+```Shell title='Docker configuration'
 # Create comprehensive Docker configuration
 sudo tee /etc/docker/daemon.json << 'EOF'
 {

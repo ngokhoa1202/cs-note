@@ -1,7 +1,7 @@
 #java #spring #entity-manager #jpa #jakarta-ee #dbms #orm #exception #restful #web-service #web 
 
 # Spring JPA exception hierarchy
-- ![](Pasted%20image%2020250405103342.png)
+- ![](Pasted%20image%2020250405103342%201.png)
 
 ---
 # References

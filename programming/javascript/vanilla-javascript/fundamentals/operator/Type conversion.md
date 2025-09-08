@@ -25,8 +25,8 @@
 | null             | 0                 | "null"            | false              |     |
 | undefined        | NaN               | "undefined"       | false              |     |
 # Truthy - falsy values
-- All values are considered truthy except`false`, `0`, `-0`, `0n`, `""`, `null`, `undefined`, `NaN` and `document.all`
+- All values are considered truthy except`false`, `0`, `-0`, `0n`, `""`, `null`, `undefined`, `NaN` and `document.all`.
 ---
 # References
-1. https://www.w3schools.com/jsref/jsref_type_conversion.asp for Type conversion cheatsheet
+1. https://www.w3schools.com/jsref/jsref_type_conversion.asp for Type conversion cheatsheet.
 2. https://developer.mozilla.org/en-US/docs/Glossary/Truthy for truthy and falsy value.

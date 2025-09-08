@@ -70,7 +70,7 @@ let promise = new Promise((resolve, reject) => {
 // .catch(f) is the same as promise.then(null, f)
 promise.catch(alert); // shows "Error: Whoops!" after 1 second
 ```
-- `finally()` always run when its previous promise settled whether that promise was resolved or rejected and is mainly used for cleanup function such as stop loading indicators and closing network connections.
+- `finally()` always runs when its previous promise settled whether that promise was resolved or rejected and is mainly used for cleanup function such as stop loading indicators and closing network connections.
 ```Javascript title='finally() example'
 new Promise((resolve, reject) => {
   /* do something that takes time, and then call resolve or maybe reject */
@@ -92,7 +92,6 @@ new Promise((resolve, reject) => {
   .finally(() => alert("Promise ready")) // triggers first
   .then(result => alert(result)); // <-- .then shows "value"
 ```
-
 # Error handler
 - Whenever a promise rejects, the control flow immediately goes to the closest rejection handler.
 ```Javascript title='Error handler in Promise'
@@ -126,7 +125,7 @@ async function getPageData() {
 }
 ```
 
-## Promise.all
+## `Promise.all`
  - `Promise.all()` fulfills when **all** of the promises fulfill with an array of *fulfillment values*; and rejects when **any** of the promises rejects with only the *first reject reason*.
 ```Javascript title='Promise.all() may cause unhandled rejections'
 async function getPageData() {
@@ -164,7 +163,7 @@ async function getPageData() {
 }
 ```
 
-## Promise.allSettled
+## `Promise.allSettled`
  - `Promise.allSettled()` fulfills when **all** promises settle, with an array of objects that describe the outcome of each promise. Each settled object is made up of `status` and `value` in case of fulfillment or `reason` in case of rejection properties.
 ```Javascript title='Promise.allSettled() usage'
 async function getPageData() {
@@ -207,8 +206,8 @@ async function getPageData() {
   }
 }
 ```
-## Promise.any
-- `Promise.any` fulfills when **any** of the promises **fulfills**; rejects when **all** of the promises reject. As a consequence, it waits for *the first fulfilled promise* if necessary.
+## `Promise.any`
+- `Promise.any` fulfills when any of the promises **fulfills**; rejects when **all** of the promises reject. As a consequence, it waits for *the first fulfilled promise* if necessary.
 - This returned promise fulfills when any of the input's promises fulfills, with this first fulfillment value. It rejects when all of the input's promises reject (including when an empty iterable is passed), with an `AggregateError` containing an array of rejection reasons.
 ```Javascript title='Promise.any' usage
 const getCachedData = async (key) => {
@@ -238,7 +237,7 @@ const getFromMemoryCache = (key) => {
 };
 ```
 - `Promise.any()` differs significantly from `Promise.race()` by continuing execution until the first successful resolution rather than settling on the first completion regardless of success or failure.
-## Promise.race
+## `Promise.race`
 - `Promise.race()` settles when **any** of the promises **settles**. It settles immediately after any of the promises settles regardless of fulfillment or rejection. In other words, the fastest promise wins in `Promise.race`.
 ```Javascript title='Promise.race example'
 Promise.race([
@@ -278,7 +277,6 @@ async function f() {
 
   alert(result); // "done!"
 }
-
 f();
 ```
 

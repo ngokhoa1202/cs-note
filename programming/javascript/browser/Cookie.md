@@ -16,7 +16,6 @@
 # Reading cookie
 - The value of `document.cookie` consists of `name=value` pairs, delimited by `;`. Each one is a separate cookie.
 ```Javascript title='Reading cookie'
-// At javascript.info, we use Google Analytics for statistics,
 // so there should be some cookies
 alert( document.cookie ); // cookie1=value1; cookie2=value2;...
 ```

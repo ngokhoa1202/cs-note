@@ -92,7 +92,7 @@ public final class App {
 ---
 
 # References
-1. [Promise](Promise.md) for Promise API.
+1. [Promise](programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md) for Promise API.
 2. https://java-design-patterns.com/patterns/callback/#programmatic-example-of-callback-pattern-in-java for callback pattern.
-3. [[Promise]] for Promise in Javascript.
+3. [[programming/javascript/vanilla-javascript/fundamentals/promise/Promise]] for Promise in Javascript.
 4. [[Stream API]] for Stream in Java

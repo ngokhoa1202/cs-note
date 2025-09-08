@@ -1,15 +1,13 @@
 {
   "theme": "moonstone",
   "accentColor": "",
-  "baseFontSize": 16,
-  "textFontFamily": "Inter,Bricolage Grotesque 36pt",
+  "baseFontSize": 18,
+  "textFontFamily": "Schibsted Grotesk",
   "monospaceFontFamily": "Fira Code",
   "interfaceFontFamily": "Sora",
   "cssTheme": "Minimal",
   "showRibbon": true,
   "enabledCssSnippets": [
-    "beautiful-callouts",
-    "beautiful-typography",
-    "syntax-only"
+    "beautiful-callouts"
   ]
 }

@@ -7,7 +7,7 @@
 - However, Angular has to ==traverse all of the component tree== to detect which component needs updating after the state has been changed.
 ## signal
 - More fine-grained because we ==explicitly declare which element on DOM is observed for change==.
-- Wraps the changeable object in a `Signal` using `signal` function.
+- Wraps the changeable object in a `{Typescript} Signal` using `signal` function.
 ```typescript
 import { Component, computed, Signal, signal, WritableSignal } from "@angular/core";
 
@@ -69,5 +69,6 @@ export class HeaderComponent {
 
 # RxJs
 - [RxJs](RxJs.md)
-
-
+---
+# References
+1. 

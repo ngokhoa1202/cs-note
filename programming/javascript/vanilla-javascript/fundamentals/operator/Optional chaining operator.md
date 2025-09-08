@@ -22,7 +22,6 @@ console.log(adventurer.someNonExistentMethod?.());
 - Used to attempt to invoke a method which may not exist.
 ```Javascript title='Optional chaining operator for method invocation'
 const result = someInterface.customMethod?.();
-
 ```
 ---
 # References
