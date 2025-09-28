@@ -1,4 +1,200 @@
 {
-  "workspaces": {},
-  "active": ""
+  "workspaces": {
+    "layout": {
+      "main": {
+        "id": "e8d5305b5141b62e",
+        "type": "split",
+        "children": [
+          {
+            "id": "eeed2040005399b4",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "48ecb893f3bb1eee",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md",
+                    "mode": "source",
+                    "source": false,
+                    "backlinks": false
+                  },
+                  "icon": "lucide-file",
+                  "title": "ECMAScript Module"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "cd9f8a9ad409cd25",
+        "type": "split",
+        "children": [
+          {
+            "id": "e0f523e226094c82",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "d8d7ea544fef7ec3",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "autoReveal": true
+                  },
+                  "icon": "lucide-folder-closed",
+                  "title": "Files"
+                }
+              },
+              {
+                "id": "185c7cd429ad68bb",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "Promise",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical"
+                  },
+                  "icon": "lucide-search",
+                  "title": "Search"
+                }
+              },
+              {
+                "id": "b7fbf59fb6383741",
+                "type": "leaf",
+                "state": {
+                  "type": "empty",
+                  "state": {},
+                  "icon": "lucide-file",
+                  "title": "New tab"
+                }
+              },
+              {
+                "id": "0f8ee44c9dbfc7f9",
+                "type": "leaf",
+                "state": {
+                  "type": "bookmarks",
+                  "state": {},
+                  "icon": "lucide-bookmark",
+                  "title": "Bookmarks"
+                }
+              },
+              {
+                "id": "3b98209b08301b70",
+                "type": "leaf",
+                "state": {
+                  "type": "recent-files",
+                  "state": {},
+                  "icon": "clock",
+                  "title": "Recent Files"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 352.5
+      },
+      "right": {
+        "id": "e3120c9e695554bd",
+        "type": "split",
+        "children": [
+          {
+            "id": "d1d0e3c64b0ebdf0",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "3222a49b7c410ec1",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "frequency",
+                    "useHierarchy": true,
+                    "showSearch": true,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-tags",
+                  "title": "Tags"
+                }
+              },
+              {
+                "id": "419fcb70db53c936",
+                "type": "leaf",
+                "state": {
+                  "type": "outline",
+                  "state": {
+                    "file": "programming/javascript/angular/Angular.md",
+                    "followCursor": false,
+                    "showSearch": false,
+                    "searchQuery": ""
+                  },
+                  "icon": "lucide-list",
+                  "title": "Outline of Angular"
+                }
+              },
+              {
+                "id": "42eabef6579881a8",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "programming/javascript/vanilla-javascript/Prototypal inheritance.md",
+                    "collapseAll": true,
+                    "extraContext": true,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-coming-in",
+                  "title": "Backlinks for Prototypal inheritance"
+                }
+              },
+              {
+                "id": "bca1b760c2e17038",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "computer-network/application-layer/Application layer overview.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  },
+                  "icon": "links-going-out",
+                  "title": "Outgoing links from Application layer overview"
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 200,
+        "collapsed": true
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "workspaces:Manage workspace layouts": false,
+          "bases:Create new base": false,
+          "switcher:Open quick switcher": false,
+          "canvas:Create new canvas": false,
+          "daily-notes:Open today's daily note": false,
+          "command-palette:Open command palette": false,
+          "graph:Open graph view": false
+        }
+      },
+      "active": "48ecb893f3bb1eee",
+      "mtime": "2025-09-10T09:59:37+07:00"
+    }
+  },
+  "active": "layout"
 }

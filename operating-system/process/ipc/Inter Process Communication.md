@@ -1,4 +1,4 @@
-#os #process #container 
+#operating-system #process #container 
 
 - Also known as IPC.
 # Message passing

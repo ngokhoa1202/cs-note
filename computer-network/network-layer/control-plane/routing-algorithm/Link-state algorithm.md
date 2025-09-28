@@ -7,7 +7,7 @@
 ## Requirement
 - Graph $G=(V,E)$ where $V$: set of routers and $E$: set of links.
 ## Solution
-[Dijkstra algorithm](Dijkstra%20algorithm.md)
+- [Dijkstra algorithm](Dijkstra%20algorithm.md)
 
 # Time complexity
 ## Normal implementation

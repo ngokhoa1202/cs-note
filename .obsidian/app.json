@@ -12,7 +12,7 @@
     "margin": "0",
     "downscalePercent": 80
   },
-  "readableLineLength": false,
+  "readableLineLength": true,
   "showLineNumber": true,
   "trashOption": "system",
   "showInlineTitle": true

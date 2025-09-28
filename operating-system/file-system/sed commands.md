@@ -1,4 +1,4 @@
-#cli #linux #ubuntu #os #file-system 
+#cli #linux #ubuntu #operating-system #file-system 
 
 - Stands for stream editor.
 - Used to transform and filter texts.

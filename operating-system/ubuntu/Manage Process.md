@@ -1,4 +1,4 @@
-#process #os #ubuntu  #cli #debian 
+#process #operating-system #ubuntu  #cli #debian 
 
 # Manage process on Ubuntu
 - Refers to https://www.atlantic.net/vps-hosting/find-top-10-running-processes-by-memory-and-cpu-usage/

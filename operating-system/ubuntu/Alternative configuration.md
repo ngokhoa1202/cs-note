@@ -1,4 +1,4 @@
-#ubuntu #os #java #python #fedora  
+#ubuntu #operating-system #java #python #fedora  
 
 - The example is the same as configuration for Java alternatives.
 # List alternatives

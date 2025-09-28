@@ -1,4 +1,4 @@
-#software-engineering #software-architecture #javascript #nodejs #vanilla-javascript 
+=#software-engineering #software-architecture #javascript #nodejs #vanilla-javascript 
 
 # CommonJS module
 - CommonJS modules are the <mark class="hltr-yellow">original</mark> way to package JavaScript source code for Node.js.
@@ -25,12 +25,11 @@ console.log(`The area of mySquare is ${mySquare.area()}`);
 ```
 
 # File format
-- Node.js treats the following file formats as CommonJS modules:
-	- Files with a `.cjs` extension.
-	- Files with a `.js` extension when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"commonjs"`.
-	- Files with a `.js` extension or without an extension, when the nearest parent `package.json` file doesn't contain a top-level field [`"type"` or there is no `package.json` in any parent folder.
-	- Files with an extension that is not `.mjs`, `.cjs`, `.json`, `.node`, or `.js`
-		- when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"module"`, those files will be recognized as CommonJS modules only if they are being included via `require()`
+- Files with a `.cjs` extension.
+- Files with a `.js` extension when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"commonjs"`.
+- Files with a `.js` extension or without an extension, when the nearest parent `package.json` file doesn't contain a top-level field [`"type"` or there is no `package.json` in any parent folder.
+- Files with an extension that is not `.mjs`, `.cjs`, `.json`, `.node`, or `.js`
+	- when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"module"`, those files will be recognized as CommonJS modules only if they are being included via `require()`
 - If the exact filename is not found, then Node.js will attempt to load the required filename with the added extensions: `.js`, `.json`, and finally `.node`. When loading a file that has a different extension (e.g. `.cjs`), its full name must be passed to `require()`, including its file extension (e.g. `require('./file.cjs')`).
 # Module wrapper
 - Before a module's code is executed, Node.js will wrap it with a function wrapper.
@@ -39,7 +38,7 @@ console.log(`The area of mySquare is ${mySquare.area()}`);
 // Module code actually lives in here
 });
 ```
-- Module wrapper keeps top-level variables (defined with `var`, `const`, or `let`) scoped to the module rather than the global object.
+- Module wrapper keeps top-level variables (defined with `var`, `const`, or `let`) *scoped to the module* rather than the global object.
 ---
 # References
 1. https://nodejs.org/docs/latest-v22.x/api/modules.html for CommonJS in Node.js version 22.

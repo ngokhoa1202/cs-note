@@ -19,6 +19,7 @@
 - Many user threads are mapped to many kernel threads.
 - Not common.
 - ![](Pasted%20image%2020240525165900.png)
+# Preemptive vs non-preemptive threads
 
 ---
 # References

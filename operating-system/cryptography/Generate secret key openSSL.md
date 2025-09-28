@@ -1,4 +1,4 @@
-#cli #rsa #cryptography #asymmetric-cipher #os #linux #ubuntu #fedora #computer-network #transport-layer #openssl
+#cli #rsa #cryptography #asymmetric-cipher #operating-system #linux #ubuntu #fedora #computer-network #transport-layer #openssl
 
 - Refers to [RSA](RSA.md)
 # Generate key pair using RSA
@@ -11,12 +11,12 @@ openssl rsa -in private-key.pem -out public-key.pem -outform PEM -pubout # gener
 
 # Generate key pair
 ## Generate private key
-```bash title='openssl for generating private key'
+```Shell title='openssl for generating private key'
 openssl genpkey -algorithm <algorithm> -out <private-key.pem>
 ```
 
 ## Generate public key from private key
-```bash title='openssl for generating public key from private key'
+```Shell title='openssl for generating public key from private key'
 openssl pkey -in <private-key.pem> -out <public-key.pem>
 ```
 

@@ -5,7 +5,7 @@
 # Module scope
 - Module scope refers to the importation and exportation of a variable or a function in Javascript.
 # Function scope
-- Also generally known as block scope. 
+- Also generally known as block scope.
 - Block scope is defined by a block declaration.
 - Block scope only applies for variable with `{javascript} let` or `{javascript} const` declaration, but not with `var` declaration because of <mark style="background: #e4e62d;">variable hoisting</mark> mechanism.
 ```javascript title=''

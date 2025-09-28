@@ -1,13 +1,13 @@
 {
   "theme": "moonstone",
   "accentColor": "",
-  "baseFontSize": 18,
-  "textFontFamily": "Schibsted Grotesk",
+  "baseFontSize": 16,
+  "textFontFamily": "Open Sans,Lora",
   "monospaceFontFamily": "Fira Code",
   "interfaceFontFamily": "Sora",
   "cssTheme": "Minimal",
   "showRibbon": true,
   "enabledCssSnippets": [
-    "beautiful-callouts"
+    "line-width"
   ]
 }

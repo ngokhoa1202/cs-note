@@ -11,7 +11,7 @@ ng component generate <component>
 ng c g <component>
 ```
 
-- Angular will automatically genenerate the four files: 
+- Angular will automatically generate the four files: 
 	- `.component.ts` for the main logic.
 	- `.spec.ts` for unit testing.
 	- `.html` for the HTML template.

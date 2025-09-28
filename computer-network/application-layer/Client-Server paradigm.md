@@ -12,7 +12,7 @@
 - Server must sequentially transmit $N$ file copies, each copy has size $F$ uploading rate $u_s$ 
 - Time server uploads $$T_s=N \times \frac{F}{u_s}$$
 - Client downloads with downloading rate $d_{min}$  $$T_c=\frac{F}{d_{min}}$$
-- Time to distribute file $F$ ==growths linearly==: $$T\geq max\{T_c, T_s\} = \frac{NF}{u_s}$$ when $N \to \infty$ 
+- Time to distribute file $F$ ==grows linearly==: $$T\geq max\{T_c, T_s\} = \frac{NF}{u_s}$$ when $N \to \infty$ 
 - Compares to [File distribution time](Peer-to-Peer%20paradigm.md#File%20distribution%20time)
 ---
 # References

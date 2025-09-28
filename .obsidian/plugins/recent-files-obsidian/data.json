@@ -9,108 +9,120 @@
       "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
     },
     {
-      "basename": "Global object",
-      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md"
+      "basename": "Script tag",
+      "path": "programming/javascript/vanilla-javascript/module/Script tag.md"
     },
     {
-      "basename": "AJAX",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/AJAX.md"
+      "basename": "Scope",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Scope.md"
     },
     {
-      "basename": "Type conversion",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Type conversion.md"
+      "basename": "Strict mode",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Strict mode.md"
     },
     {
-      "basename": "Type conversion",
-      "path": "programming/go/fundamentals/Type conversion.md"
+      "basename": "Strict mode",
+      "path": "programming/javascript/reactjs/components/Strict mode.md"
     },
     {
-      "basename": "Fermat_s little theorem",
-      "path": "number-theory/Fermat_s little theorem.md"
+      "basename": "Javascript execution model",
+      "path": "programming/javascript/vanilla-javascript/architecture/Javascript execution model.md"
+    },
+    {
+      "basename": "Concurrency control",
+      "path": "programming/javascript/nodejs/Concurrency control.md"
+    },
+    {
+      "basename": "Express Js",
+      "path": "programming/javascript/nodejs/express-js/Express Js.md"
+    },
+    {
+      "basename": "Event loop",
+      "path": "programming/javascript/nodejs/architecture/Event loop.md"
+    },
+    {
+      "basename": "Debugging",
+      "path": "programming/javascript/nodejs/debugging/Debugging.md"
+    },
+    {
+      "basename": "Browser Job queue",
+      "path": "programming/javascript/vanilla-javascript/architecture/Browser Job queue.md"
+    },
+    {
+      "basename": "Rust tutorial",
+      "path": "programming/rust/Rust tutorial.md"
+    },
+    {
+      "basename": "Classic Redux",
+      "path": "programming/javascript/reactjs/state-management/redux/Classic Redux.md"
+    },
+    {
+      "basename": "Install NodeJs",
+      "path": "programming/javascript/nodejs/installation/Install NodeJs.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "programming/javascript/reactjs/state-management/redux/Redux.md"
+    },
+    {
+      "basename": "Deriving state from redux store",
+      "path": "programming/javascript/reactjs/state-management/redux/Deriving state from redux store.md"
+    },
+    {
+      "basename": "Lifting state up",
+      "path": "programming/javascript/reactjs/state-management/Lifting state up.md"
+    },
+    {
+      "basename": "Null coalescing operator",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Null coalescing operator.md"
+    },
+    {
+      "basename": "Layered architecture",
+      "path": "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base.base"
+    },
+    {
+      "basename": "Thread",
+      "path": "operating-system/process/thread/Thread.md"
+    },
+    {
+      "basename": "Process",
+      "path": "operating-system/process/Process.md"
+    },
+    {
+      "basename": "Deadlock",
+      "path": "operating-system/process/Deadlock.md"
+    },
+    {
+      "basename": "Polyfills and transpilers",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
     },
     {
       "basename": "Promise",
       "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
     },
     {
-      "basename": "Destructuring assignment",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Destructuring assignment.md"
+      "basename": "Client-Server paradigm",
+      "path": "computer-network/application-layer/Client-Server paradigm.md"
     },
     {
-      "basename": "Data type",
-      "path": "programming/go/fundamentals/Data type.md"
+      "basename": "Link-state algorithm",
+      "path": "computer-network/network-layer/control-plane/routing-algorithm/Link-state algorithm.md"
     },
     {
-      "basename": "Struct",
-      "path": "programming/go/fundamentals/composite-type/Struct.md"
+      "basename": "Distance-vector algorithm",
+      "path": "computer-network/network-layer/control-plane/routing-algorithm/Distance-vector algorithm.md"
     },
     {
-      "basename": "Slice",
-      "path": "programming/go/fundamentals/composite-type/Slice.md"
+      "basename": "Web cache",
+      "path": "computer-network/application-layer/Web cache.md"
     },
     {
-      "basename": "Variable",
-      "path": "programming/go/fundamentals/Variable.md"
-    },
-    {
-      "basename": "Parameter-passing mechanism in Go",
-      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
-    },
-    {
-      "basename": "Map",
-      "path": "programming/go/fundamentals/composite-type/Map.md"
-    },
-    {
-      "basename": "Array",
-      "path": "programming/go/fundamentals/composite-type/Array.md"
-    },
-    {
-      "basename": "Goroutine",
-      "path": "programming/go/concurrency-control/Goroutine.md"
-    },
-    {
-      "basename": "Throttle",
-      "path": "programming/javascript/lodash/concurrency-control/Throttle.md"
-    },
-    {
-      "basename": "Docker configuration",
-      "path": "site-reability-engineering/container/docker/docker-container/Docker configuration.md"
-    },
-    {
-      "basename": "Docker buildx commands",
-      "path": "site-reability-engineering/container/docker/docker-image/dockerfile/Docker buildx commands.md"
-    },
-    {
-      "basename": "Docker container commands",
-      "path": "site-reability-engineering/container/docker/docker-container/Docker container commands.md"
-    },
-    {
-      "basename": "Native prototype",
-      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Native prototype.md"
-    },
-    {
-      "basename": "Difference",
-      "path": "programming/javascript/lodash/set-operators/Difference.md"
-    },
-    {
-      "basename": "sortBy",
-      "path": "programming/javascript/lodash/sorting/sortBy.md"
-    },
-    {
-      "basename": "Debounce",
-      "path": "programming/javascript/lodash/concurrency-control/Debounce.md"
-    },
-    {
-      "basename": "Memoize",
-      "path": "programming/javascript/lodash/caching/Memoize.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "programming/javascript/browser/Cookie.md"
-    },
-    {
-      "basename": "Asynchronous programming in Angular",
-      "path": "programming/javascript/angular/Asynchronous programming in Angular.md"
+      "basename": "Web",
+      "path": "computer-network/application-layer/Web.md"
     },
     {
       "basename": "Angular commands",
@@ -125,80 +137,68 @@
       "path": "programming/javascript/angular/template/Property binding.md"
     },
     {
-      "basename": "Immutability",
-      "path": "programming/cpp/fundamentals/Immutability.md"
-    },
-    {
-      "basename": "Essential operation",
-      "path": "programming/cpp/fundamentals/Essential operation.md"
-    },
-    {
-      "basename": "Assignment operation",
-      "path": "programming/cpp/fundamentals/Assignment operation.md"
-    },
-    {
-      "basename": "Pipes in Angular template",
-      "path": "programming/javascript/angular/template/Pipes in Angular template.md"
-    },
-    {
-      "basename": "Event binding",
-      "path": "programming/javascript/angular/template/Event binding.md"
-    },
-    {
-      "basename": "Class and Style binding",
-      "path": "programming/javascript/angular/template/Class and Style binding.md"
+      "basename": "Content projection in Angular",
+      "path": "programming/javascript/angular/template/Content projection in Angular.md"
     },
     {
       "basename": "Two-way binding in Angular",
       "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
     },
     {
+      "basename": "OSPF",
+      "path": "computer-network/network-layer/control-plane/OSPF.md"
+    },
+    {
+      "basename": "Hot potato routing",
+      "path": "computer-network/network-layer/control-plane/Hot potato routing.md"
+    },
+    {
+      "basename": "BGP",
+      "path": "computer-network/network-layer/control-plane/BGP.md"
+    },
+    {
+      "basename": "Application layer overview",
+      "path": "computer-network/application-layer/Application layer overview.md"
+    },
+    {
+      "basename": "Push protocol vs Pull protocol",
+      "path": "computer-network/q-a/Push protocol vs Pull protocol.md"
+    },
+    {
+      "basename": "Observable",
+      "path": "programming/javascript/rxjs/Observable.md"
+    },
+    {
+      "basename": "Memoize",
+      "path": "programming/javascript/lodash/caching/Memoize.md"
+    },
+    {
+      "basename": "ESLint Parser",
+      "path": "programming/javascript/eslint/ESLint Parser.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "programming/javascript/browser/Cookie.md"
+    },
+    {
+      "basename": "Event binding",
+      "path": "programming/javascript/angular/template/Event binding.md"
+    },
+    {
       "basename": "Sharing states between components",
       "path": "programming/javascript/angular/components/Sharing states between components.md"
     },
     {
-      "basename": "Prototypal inheritance",
-      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Prototypal inheritance.md"
+      "basename": "Go Back N",
+      "path": "computer-network/transport-layer/tcp/rdt/Go Back N.md"
     },
     {
-      "basename": "Scope",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Scope.md"
+      "basename": "Transport layer overview",
+      "path": "computer-network/transport-layer/Transport layer overview.md"
     },
     {
-      "basename": "Rest parameter",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Rest parameter.md"
-    },
-    {
-      "basename": "Property",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Property.md"
-    },
-    {
-      "basename": "Object",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Object.md"
-    },
-    {
-      "basename": "Spread operator",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Spread operator.md"
-    },
-    {
-      "basename": "Optional chaining operator",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Optional chaining operator.md"
-    },
-    {
-      "basename": "Null coalescing operator",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Null coalescing operator.md"
-    },
-    {
-      "basename": "Class",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Class.md"
-    },
-    {
-      "basename": "Sequelize error hierarchy",
-      "path": "programming/javascript/nodejs/express-js/Sequelize error hierarchy.md"
-    },
-    {
-      "basename": "Sequelize error hierachy",
-      "path": "programming/javascript/nodejs/express-js/Sequelize error hierachy.md"
+      "basename": "UDP",
+      "path": "computer-network/transport-layer/udp/UDP.md"
     }
   ],
   "omittedPaths": [],

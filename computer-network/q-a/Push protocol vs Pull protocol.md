@@ -3,10 +3,10 @@
 
 # Push protocol:  
 - In a push protocol, the server or sender initiates the communication and pushes data to the client or receiver without the client requesting it.  
-- The server actively sends data to the client ==whenever new data is availabl==e or whenever an event occurs.  
+- The server actively sends data to the client whenever new data is available or whenever an event occurs.  
 - Push protocols are commonly used in real-time communication systems, such as instant messaging, notifications, and live streaming services.  
 - Examples: WebSockets, MQTT (Message Queuing Telemetry Transport), and Apple Push Notification Service (APNs).
-- $\Longrightarrow$ ==the server sending data to the client proactively== without client's request.
+- $\Longrightarrow$ ==the server sending data to the client proactively== without client's request. 
 
 # Pull protocol
 - In a pull protocol, the client or receiver initiates the communication by requesting data from the server or sender.  

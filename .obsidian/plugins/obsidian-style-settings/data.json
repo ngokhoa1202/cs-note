@@ -120,5 +120,6 @@
         "--interactive-accent-hover": "#1d4ed8"
       }
     }
-  }
+  },
+  "minimal-advanced@@hide-settings-desc": false
 }

@@ -2,7 +2,7 @@
 
 # Transpiler
 - Transpiler is a source-to-source translation engine which translates one source code to another source code for browser <mark style="background: #e4e62d;">compatibility</mark>.
-```Javascript title='Null coalescing translation for browser before EcmaScript 2020'
+```Javascript title='Null coalescing translation for browser before ECMAScript 2020'
 // before running the transpiler
 height = height ?? 100;
 

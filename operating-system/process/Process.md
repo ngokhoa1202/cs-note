@@ -1,4 +1,4 @@
-#operating-system #process #linux #ubuntu #gnu 
+#operating-system #process #linux #ubuntu #gnu #fedora #windows #macos
 
 # Concepts
 - Identified by process id.
@@ -6,10 +6,10 @@
 # Memory layout (Binary image)
 - ![600x600](Pasted%20image%2020240525160759.png)
 - Four basic sections:
-	- <mark style="background: #e4e62d;">Text section</mark>: executable code $\Rightarrow$ fixed.
+	- <mark style="background: #e4e62d;">Text section</mark>: executable code $\Rightarrow$ The section is fixed during the execution of the process.
 	- <mark style="background: #e4e62d;">Data section</mark>: global variable $\Rightarrow$ fixed.
-	- <mark style="background: #e4e62d;">Heap section</mark>: dynamically allocated memory $\Rightarrow$ change.
-	- <mark style="background: #e4e62d;">Stack section</mark>: temporary storage when calling function (parameters, return address) $\Rightarrow$ change.
+	- <mark style="background: #e4e62d;">Heap section</mark>: dynamically allocated memory $\Rightarrow$ The section dynamically changes during the execution of the process.
+	- <mark style="background: #e4e62d;">Stack section</mark>: temporary storage when calling function (parameters, return address) $\Rightarrow$ changeable.
 # Process States
 - Depends on programming language, but in general has 5 states:
 - ![](Pasted%20image%2020240525161359.png)

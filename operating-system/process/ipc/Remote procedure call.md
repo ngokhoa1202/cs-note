@@ -1,4 +1,4 @@
-#rpc #os #process #process-synchronization #client-server #computer-network #application-layer #transport-layer #streaming 
+#rpc #operating-system #process #process-synchronization #client-server #computer-network #application-layer #transport-layer #streaming 
 
 - Adheres to client-server model.
 - The data exchanged is called <mark style="background: #e4e62d;">messages</mark>.
