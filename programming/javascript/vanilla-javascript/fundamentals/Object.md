@@ -30,7 +30,7 @@ typeof Number("shoe") === "number"; // including values that cannot be type coer
 typeof 42n === "bigint";
 
 // Strings
-typeof "" === "string";
+typeof "" === "string"; 
 typeof "bla" === "string";
 typeof `template literal` === "string";
 typeof "1" === "string"; // note that a number within a string is still typeof string

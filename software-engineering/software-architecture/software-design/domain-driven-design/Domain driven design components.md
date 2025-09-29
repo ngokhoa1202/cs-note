@@ -32,7 +32,7 @@
 - A value object can reference to an entity.
 - When only the <mark style="background: #e4e62d;">attributes</mark> but not the identity of a model <mark style="background: #e4e62d;">is concerned</mark>, opt for a value object instead of an entity.
 - ![](Pasted%20image%2020241117142851.png)
-- A value object is an <mark style="background: #e4e62d;">immutable, shared</mark> object among classes via shallow copy mechanism. [Flyweight pattern](Flyweight%20pattern.md)
+- A value object is an <mark style="background: #e4e62d;">immutable, shared</mark> object among classes via shallow copy mechanism. [Flyweight pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Flyweight%20pattern.md)
 # Services
 - A Service is an operation offered <mark style="background: #e4e62d;">as an interface</mark> that stands alone in the model, without encapsulating state as entities and value objects do.
 - A Service tends to be named for <mark style="background: #e4e62d;">an activity</mark>, a “<mark style="background: #e4e62d;">verb</mark>” rather than a “noun”.  
@@ -68,7 +68,7 @@
 ## Factories
 ### Concepts
 - Factories pattern assume the responsibility of object construction or object reconstitution.
-- Factories is necessary when the construction of objects is complicated or it should be loosely coupling with the client. (e.g: [Factory Method pattern](Factory%20Method%20pattern.md), [Abstract Factory pattern](Abstract%20Factory%20pattern.md))
+- Factories is necessary when the construction of objects is complicated or it should be loosely coupling with the client. (e.g: [Factory Method pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory%20Method%20pattern.md), [Abstract Factory pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract%20Factory%20pattern.md))
 - ![](Pasted%20image%2020241117165423.png)
 ### Rules
 - Each creation method is <mark style="background: #ADCCFFA6;">atomic</mark> and <mark style="background: #ADCCFFA6;">enforces all invariants</mark> of the created object or aggregate. An exception or some other mechanisms should be raised when there is no proper return.
@@ -88,7 +88,7 @@
 2. https://stackoverflow.com/questions/21967841/aggregation-vs-composition-vs-association-vs-direct-association for aggregation, composition and association concepts in OOP.
 3. [Entity Relation Diagram](Entity%20Relation%20Diagram.md) for ERD Mapping and Association in OOP.
 4. https://medium.com/@pratik.941/understanding-the-cloneable-interface-shallow-copy-and-deep-copy-in-java-73c45066ecb1 for Shallow copy and Deep copy concepts.
-5. [Layered architecture](software-engineering/software-architecture/design/domain-driven-design/Layered%20architecture.md) for layered architecture in DDD.
+5. [Layered architecture](software-engineering/software-architecture/software-design/domain-driven-design/Layered%20architecture.md) for layered architecture in DDD.
 6. https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture for CORBA,.
-7. [Design patterns](Design%20patterns.md) for the classic 23 design patterns.
+7. [Design patterns](software-engineering/software-architecture/design-pattern/Design%20patterns.md) for the classic 23 design patterns.
 8. 

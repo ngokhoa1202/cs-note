@@ -27,6 +27,6 @@
 - $\implies$ Should provide dependency from ==external== environment.
 ---
 # References
-1. [Design patterns](Design%20patterns.md) for design pattern categories - real examples of SOLID principles.
-2. [Domain driven design](Domain%20driven%20design.md) for Domain Driven Design - application of SOLID for enterprise application.
-3. [Layered architecture](software-engineering/software-architecture/design/domain-driven-design/Layered%20architecture.md) for Layered architecture - application of SOLID in software architecture.
+1. [Design patterns](software-engineering/software-architecture/design-pattern/Design%20patterns.md) for design pattern categories - real examples of SOLID principles.
+2. [Domain driven design](software-engineering/software-architecture/domain-driven-design/Domain%20driven%20design.md) for Domain Driven Design - application of SOLID for enterprise application.
+3. [Layered architecture](software-engineering/software-architecture/software-design/domain-driven-design/Layered%20architecture.md) for Layered architecture - application of SOLID in software architecture.

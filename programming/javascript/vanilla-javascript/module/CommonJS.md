@@ -1,4 +1,4 @@
-=#software-engineering #software-architecture #javascript #nodejs #vanilla-javascript 
+#software-engineering #software-architecture #javascript #nodejs #vanilla-javascript 
 
 # CommonJS module
 - CommonJS modules are the <mark class="hltr-yellow">original</mark> way to package JavaScript source code for Node.js.
@@ -39,6 +39,8 @@ console.log(`The area of mySquare is ${mySquare.area()}`);
 });
 ```
 - Module wrapper keeps top-level variables (defined with `var`, `const`, or `let`) *scoped to the module* rather than the global object.
+# Behavior
+- `CommonJS` modules are fully synchronous.
 ---
 # References
 1. https://nodejs.org/docs/latest-v22.x/api/modules.html for CommonJS in Node.js version 22.

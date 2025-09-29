@@ -16,7 +16,7 @@
 - Three scenarios:
 	- ![](Pasted%20image%2020240511141058.png)
 	- (a): Without encryption: $M$,$C_M$ are concatenated and sent to Internet.
-	- (b): Encrypt MAC by $K_1$ , then concatentate with $M$ => encrypt by $K_2$ => Decrypt the whole block with $K_2$ first. Only $A$ can generate this plaintext. 
+	- (b): Encrypt MAC by $K_1$ , then concatenate with $M$ => encrypt by $K_2$ => Decrypt the whole block with $K_2$ first. Only $A$ can generate this plaintext. 
 	- (c): Encrypt $M$ by $K_2$ first, then encrypt MAC with $K_1$ and concat. Decrypt $E$ by $K_2$ before calculating MAC again to check.
 - Know as ==tag== $T=MAC(K,M)$
 - HMAC [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) 

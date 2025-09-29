@@ -1,5 +1,4 @@
-#software-architecture #software-engineering #reactjs #javascript #jsx #functional-programming #high-order-function #event-driven-programming 
-#best-practice 
+#software-architecture #software-engineering #reactjs #javascript #jsx #functional-programming #high-order-function #event-driven-programming #best-practice 
 # Selector function
 - A selector function is a function that accepts the Redux store state (or part of the state) as an argument, and returns data that is based on that state.
 ```Javascript title='Selector function example'

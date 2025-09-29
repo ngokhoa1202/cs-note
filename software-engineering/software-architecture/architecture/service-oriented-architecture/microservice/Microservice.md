@@ -49,7 +49,7 @@
 # References
 1. Fundamentals of Software Architecture: An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020)
 	1. Chapter 17. Microservices Architecture.
-2. [[Domain driven design]]
+2. [[software-engineering/software-architecture/domain-driven-design/Domain driven design]]
 3. [[Service-oriented architecture]]
 4. https://martinfowler.com/articles/microservices.html
 5. 

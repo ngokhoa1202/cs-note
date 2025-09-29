@@ -108,10 +108,10 @@ public class MacButton implements Button {
 ```
 
 # Design
-- If object creation is complicated, we can implement [Prototype pattern](Prototype%20pattern.md) or [Singleton](Singleton.md) for an instance of a concrete product.
+- If object creation is complicated, we can implement [Prototype pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype%20pattern.md) or [Singleton](Singleton.md) for an instance of a concrete product.
 - Categorize concrete products into families to create abstract product factory.
 # Characteristics
-- Employ [Factory Method pattern](Factory%20Method%20pattern.md)
+- Employ [Factory Method pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory%20Method%20pattern.md)
 - One Abstract Factory for one family of concrete products.
 # Advantages
 - Ensure [Single responsibility principle](SOLID.md#Single%20responsibility%20principle) $\implies$ provide product isolation because we can ==extract a Product creation in its corresponding Factory== $\implies$ maintainable.

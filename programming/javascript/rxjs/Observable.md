@@ -6,7 +6,7 @@
 - Observables are the generalization of function with zero arguments.
 # Behavior
 ## Initialize Observable
-- Define a common callback that will be executed by all of its subscribers (similarly to how a Subject notifies all of its Observers [Observer pattern](Observer%20pattern.md)).
+- Define a common callback that will be executed by all of its subscribers (similarly to how a Subject notifies all of its Observers [Observer pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer%20pattern.md)).
 ```javascript
 import { Observable } from 'rxjs';
 
@@ -74,7 +74,7 @@ setTimeout(() => {
 # References
 1. [Push protocol vs Pull protocol](Push%20protocol%20vs%20Pull%20protocol.md) .
 2. [Generator](Generator.md) for generator concepts.
-3. [Observer pattern](Observer%20pattern.md) for observer pattern.
+3. [Observer pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer%20pattern.md) for observer pattern.
 4. https://rxjs.dev/guide/observable
 5. [RxJs](RxJs.md)
 6. 

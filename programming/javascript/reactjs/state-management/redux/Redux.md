@@ -113,5 +113,5 @@ console.log(currentValue)
 # References
 1. https://redux.js.org/tutorials/essentials/part-1-overview-concepts
 2. [useReducer hook](useReducer%20hook.md) for reducer concepts.
-3. [Singleton pattern](Singleton%20pattern.md) for Singleton pattern.
-4. [Observer pattern](Observer%20pattern.md) for Observer pattern.
+3. [Singleton pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton%20pattern.md) for Singleton pattern.
+4. [Observer pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer%20pattern.md) for Observer pattern.

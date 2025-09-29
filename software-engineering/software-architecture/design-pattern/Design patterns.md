@@ -4,57 +4,57 @@
 ## Creational pattern
 - Resolves ==object creation==.
 ### Builder
-[Builder pattern](Builder%20pattern.md)
+[Builder pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Builder%20pattern.md)
 
 ### Simple Factory
-[Simple factory pattern](Simple%20factory%20pattern.md)
+[Simple factory pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple%20factory%20pattern.md)
 
 ### Factory Method
-[Factory Method pattern](Factory%20Method%20pattern.md)
+[Factory Method pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory%20Method%20pattern.md)
 
 ### Prototype
-[Prototype pattern](Prototype%20pattern.md)
+[Prototype pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype%20pattern.md)
 
 ### Singleton
-[Singleton pattern](Singleton%20pattern.md)
+[Singleton pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton%20pattern.md)
 
 ### Abstract Factory
-[Abstract Factory pattern](Abstract%20Factory%20pattern.md)
+[Abstract Factory pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract%20Factory%20pattern.md)
 
 ## Structural pattern
 - Resolves class and object composition to ==form larger structures==.
 ### Adapter
-[Adapter pattern](Adapter%20pattern.md)
+[Adapter pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter%20pattern.md)
 
 ### Bridge
-[Bridge pattern](Bridge%20pattern.md)
+[Bridge pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge%20pattern.md)
 
 ### Composite
-[Composite pattern](Composite%20pattern.md)
+[Composite pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Composite%20pattern.md)
 
 ### Decorator
-[Decorator pattern](Decorator%20pattern.md)
+[Decorator pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator%20pattern.md)
 
 ### Facade
-[Facade pattern](Facade%20pattern.md)
+[Facade pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade%20pattern.md)
 
 ### Flyweight
-[Flyweight pattern](Flyweight%20pattern.md)
+[Flyweight pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Flyweight%20pattern.md)
 ### Proxy
-[Proxy pattern](Proxy%20pattern.md)
+[Proxy pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Proxy%20pattern.md)
 
 ## Behavioral pattern
 - Deals with ==algorithm== and ==assign responsibilities to objects==.
 ### Chain of responsibility
-- [Chain of responsibility pattern](Chain%20of%20responsibility%20pattern.md)
+- [Chain of responsibility pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain%20of%20responsibility%20pattern.md)
 ### Command
-- [Command pattern](Command%20pattern.md)
+- [Command pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Command%20pattern.md)
 ### Observer
-- [Observer pattern](Observer%20pattern.md)
+- [Observer pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer%20pattern.md)
 ### Strategy
-- [Strategy pattern](Strategy%20pattern.md)
+- [Strategy pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Strategy%20pattern.md)
 ### Mediator
-- [Mediator pattern](Mediator%20pattern.md)
+- [Mediator pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator%20pattern.md)
 
 ---
 # References

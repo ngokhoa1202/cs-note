@@ -168,7 +168,7 @@ public class Radio implements Device {
 # Design
 - Determine and define ==common operations== in Abstraction.
 - Implementor method do not have to match exact Abstraction methods.
-- May employ [Abstract Factory pattern](Abstract%20Factory%20pattern.md) to create Concrete Implementor object.
+- May employ [Abstract Factory pattern](software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract%20Factory%20pattern.md) to create Concrete Implementor object.
 # Real example
 - JDBC API, more specifically `java.mysql.Driver` makes up of a Bridge pattern.
 - `Collection.newSetFromMap()`

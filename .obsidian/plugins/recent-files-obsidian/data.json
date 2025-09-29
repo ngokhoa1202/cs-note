@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "ECMAScript Module",
-      "path": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md"
+      "basename": "Flyweight pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md"
     },
     {
-      "basename": "CommonJS",
-      "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
+      "basename": "Proxy pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Proxy pattern.md"
     },
     {
-      "basename": "Script tag",
-      "path": "programming/javascript/vanilla-javascript/module/Script tag.md"
+      "basename": "Composite pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Composite pattern.md"
     },
     {
-      "basename": "Scope",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Scope.md"
+      "basename": "Design patterns",
+      "path": "software-engineering/software-architecture/design-pattern/Design patterns.md"
     },
     {
-      "basename": "Strict mode",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Strict mode.md"
+      "basename": "Facade pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
     },
     {
-      "basename": "Strict mode",
-      "path": "programming/javascript/reactjs/components/Strict mode.md"
+      "basename": "Decorator pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md"
     },
     {
-      "basename": "Javascript execution model",
-      "path": "programming/javascript/vanilla-javascript/architecture/Javascript execution model.md"
+      "basename": "Bridge pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge pattern.md"
     },
     {
-      "basename": "Concurrency control",
-      "path": "programming/javascript/nodejs/Concurrency control.md"
+      "basename": "Adapter pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md"
     },
     {
-      "basename": "Express Js",
-      "path": "programming/javascript/nodejs/express-js/Express Js.md"
+      "basename": "Singleton pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md"
     },
     {
-      "basename": "Event loop",
-      "path": "programming/javascript/nodejs/architecture/Event loop.md"
+      "basename": "Simple factory pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md"
     },
     {
-      "basename": "Debugging",
-      "path": "programming/javascript/nodejs/debugging/Debugging.md"
+      "basename": "Prototype pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md"
+    },
+    {
+      "basename": "Factory Method pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md"
+    },
+    {
+      "basename": "Observer pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer pattern.md"
+    },
+    {
+      "basename": "Template method pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Template method pattern.md"
+    },
+    {
+      "basename": "Strategy pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Strategy pattern.md"
+    },
+    {
+      "basename": "Mediator pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
+    },
+    {
+      "basename": "Chain of responsibility pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md"
     },
     {
       "basename": "Browser Job queue",
       "path": "programming/javascript/vanilla-javascript/architecture/Browser Job queue.md"
     },
     {
-      "basename": "Rust tutorial",
-      "path": "programming/rust/Rust tutorial.md"
+      "basename": "Promise",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
     },
     {
-      "basename": "Classic Redux",
-      "path": "programming/javascript/reactjs/state-management/redux/Classic Redux.md"
+      "basename": "Object",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Object.md"
     },
     {
-      "basename": "Install NodeJs",
-      "path": "programming/javascript/nodejs/installation/Install NodeJs.md"
+      "basename": "Event loop",
+      "path": "programming/javascript/nodejs/architecture/Event loop.md"
     },
     {
-      "basename": "Redux",
-      "path": "programming/javascript/reactjs/state-management/redux/Redux.md"
+      "basename": "CommonJs",
+      "path": "programming/javascript/nodejs/module/CommonJs.md"
+    },
+    {
+      "basename": "Message Authentication Code",
+      "path": "cryptography/hash-function/mac/Message Authentication Code.md"
+    },
+    {
+      "basename": "Javascript execution model",
+      "path": "programming/javascript/vanilla-javascript/architecture/Javascript execution model.md"
+    },
+    {
+      "basename": "Promisification",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promisification.md"
+    },
+    {
+      "basename": "Firewall overview",
+      "path": "cybersecurity/Firewall overview.md"
+    },
+    {
+      "basename": "Wireless network security",
+      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
+    },
+    {
+      "basename": "DES decryption",
+      "path": "cryptography/des/DES decryption.md"
+    },
+    {
+      "basename": "Analytical attack",
+      "path": "cryptography/des/Analytical attack.md"
+    },
+    {
+      "basename": "CMAC",
+      "path": "cryptography/hash-function/mac/CMAC.md"
+    },
+    {
+      "basename": "Cryptographic hash function",
+      "path": "cryptography/hash-function/Cryptographic hash function.md"
+    },
+    {
+      "basename": "Hash-based Message Authentication Code",
+      "path": "cryptography/hash-function/mac/Hash-based Message Authentication Code.md"
+    },
+    {
+      "basename": "Elgamal digital signature scheme",
+      "path": "cryptography/hash-function/digital-signature/Elgamal digital signature scheme.md"
+    },
+    {
+      "basename": "DSA - Digital Signature Algorithm",
+      "path": "cryptography/hash-function/digital-signature/DSA - Digital Signature Algorithm.md"
+    },
+    {
+      "basename": "Digital signature",
+      "path": "cryptography/hash-function/digital-signature/Digital signature.md"
+    },
+    {
+      "basename": "HMAC",
+      "path": "cybersecurity/mac/HMAC.md"
+    },
+    {
+      "basename": "CMAC",
+      "path": "cybersecurity/mac/CMAC.md"
+    },
+    {
+      "basename": "RSA",
+      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
+    },
+    {
+      "basename": "Diffie-Hellman key exchange.",
+      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
+    },
+    {
+      "basename": "Global object",
+      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md"
+    },
+    {
+      "basename": "ESLint NextJs",
+      "path": "programming/javascript/reactjs/nextjs/ESLint NextJs.md"
     },
     {
       "basename": "Deriving state from redux store",
       "path": "programming/javascript/reactjs/state-management/redux/Deriving state from redux store.md"
     },
     {
-      "basename": "Lifting state up",
-      "path": "programming/javascript/reactjs/state-management/Lifting state up.md"
+      "basename": "Classic Redux",
+      "path": "programming/javascript/reactjs/state-management/redux/Classic Redux.md"
     },
     {
-      "basename": "Null coalescing operator",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/operator/Null coalescing operator.md"
+      "basename": "Cloud Foundry volume",
+      "path": "site-reability-engineering/software-defined-storage/Cloud Foundry volume.md"
     },
     {
-      "basename": "Layered architecture",
-      "path": "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
-      "basename": "Base",
-      "path": "Base.base"
+      "basename": "Import image",
+      "path": "programming/javascript/reactjs/Import image.md"
     },
     {
-      "basename": "Thread",
-      "path": "operating-system/process/thread/Thread.md"
-    },
-    {
-      "basename": "Process",
-      "path": "operating-system/process/Process.md"
-    },
-    {
-      "basename": "Deadlock",
-      "path": "operating-system/process/Deadlock.md"
-    },
-    {
-      "basename": "Polyfills and transpilers",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
-    },
-    {
-      "basename": "Client-Server paradigm",
-      "path": "computer-network/application-layer/Client-Server paradigm.md"
-    },
-    {
-      "basename": "Link-state algorithm",
-      "path": "computer-network/network-layer/control-plane/routing-algorithm/Link-state algorithm.md"
-    },
-    {
-      "basename": "Distance-vector algorithm",
-      "path": "computer-network/network-layer/control-plane/routing-algorithm/Distance-vector algorithm.md"
-    },
-    {
-      "basename": "Web cache",
-      "path": "computer-network/application-layer/Web cache.md"
-    },
-    {
-      "basename": "Web",
-      "path": "computer-network/application-layer/Web.md"
-    },
-    {
-      "basename": "Angular commands",
-      "path": "programming/javascript/angular/Angular commands.md"
-    },
-    {
-      "basename": "Angular",
-      "path": "programming/javascript/angular/Angular.md"
-    },
-    {
-      "basename": "Property binding",
-      "path": "programming/javascript/angular/template/Property binding.md"
-    },
-    {
-      "basename": "Content projection in Angular",
-      "path": "programming/javascript/angular/template/Content projection in Angular.md"
-    },
-    {
-      "basename": "Two-way binding in Angular",
-      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
-    },
-    {
-      "basename": "OSPF",
-      "path": "computer-network/network-layer/control-plane/OSPF.md"
-    },
-    {
-      "basename": "Hot potato routing",
-      "path": "computer-network/network-layer/control-plane/Hot potato routing.md"
-    },
-    {
-      "basename": "BGP",
-      "path": "computer-network/network-layer/control-plane/BGP.md"
-    },
-    {
-      "basename": "Application layer overview",
-      "path": "computer-network/application-layer/Application layer overview.md"
-    },
-    {
-      "basename": "Push protocol vs Pull protocol",
-      "path": "computer-network/q-a/Push protocol vs Pull protocol.md"
+      "basename": "Two-way binding",
+      "path": "programming/javascript/reactjs/state-management/Two-way binding.md"
     },
     {
       "basename": "Observable",
       "path": "programming/javascript/rxjs/Observable.md"
     },
     {
-      "basename": "Memoize",
-      "path": "programming/javascript/lodash/caching/Memoize.md"
-    },
-    {
-      "basename": "ESLint Parser",
-      "path": "programming/javascript/eslint/ESLint Parser.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "programming/javascript/browser/Cookie.md"
-    },
-    {
-      "basename": "Event binding",
-      "path": "programming/javascript/angular/template/Event binding.md"
-    },
-    {
-      "basename": "Sharing states between components",
-      "path": "programming/javascript/angular/components/Sharing states between components.md"
-    },
-    {
-      "basename": "Go Back N",
-      "path": "computer-network/transport-layer/tcp/rdt/Go Back N.md"
-    },
-    {
-      "basename": "Transport layer overview",
-      "path": "computer-network/transport-layer/Transport layer overview.md"
-    },
-    {
-      "basename": "UDP",
-      "path": "computer-network/transport-layer/udp/UDP.md"
+      "basename": "RxJs",
+      "path": "programming/javascript/rxjs/RxJs.md"
     }
   ],
   "omittedPaths": [],
