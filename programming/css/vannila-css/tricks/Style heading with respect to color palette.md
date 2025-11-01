@@ -1,7 +1,6 @@
 #css #vanilla-css #css-tricks 
 
 - Used with [Blend image and color](Blend%20background%20color%20and%20background%20image.md#Blend%20image%20and%20color)
-
 # Method
 - Sepcify in HTML file
 ```html

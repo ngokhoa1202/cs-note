@@ -26,7 +26,6 @@
 - ![](Pasted%20image%2020240727203026.png)
 
 
----
 # References
 1. https://opencontainers.org/about/overview/ for OCI Concepts.
 2. https://www.bretfisher.com/kubernetes-vs-docker/ for docker and k8s original ideas.

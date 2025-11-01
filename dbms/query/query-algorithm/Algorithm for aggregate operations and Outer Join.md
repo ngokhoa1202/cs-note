@@ -14,7 +14,6 @@
 - Modified [Sort-merge join](Algorithm%20for%20JOIN%20operations.md#Sort-merge%20join)
 
 
----
 # References
 1. [Relational Algebra](Relational%20Algebra.md)
 2. [External sorting](External%20sorting.md)

@@ -69,7 +69,6 @@ git merge <child-commit>
 - Now if you want merge `master` branch with  `iss53` branch, then Git will perform 3-way merging. The three snapshots are `C2` , `C4` and `C5`  ![](Pasted%20image%2020241026162725.png)
 - Merge commits can incur merge conflicts  ![](Pasted%20image%2020241026163647.png)
 
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	- Git Branching.

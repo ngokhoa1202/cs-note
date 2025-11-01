@@ -51,7 +51,6 @@ main()
 - At line 4: $j = y = i + j$
 - At line 5: $i = i + 1$
 - At line 7: $j+y=i+j+i+j=(i+1)+j+(i+1)=2(i+1)+2j=2 \times (0+1) + 2 \times 2 = 6$
----
 # References
 1. Programming languages, principles and practice - Louden K.C., Lambert K.A. - Course Technology, 3th Edition 2011.
 	1. Chapter 10. Control II—Procedures and Environments

@@ -109,7 +109,7 @@ ArrayList::ArrayList(ArrayList&& list) : numbers{list.numbers}, size{list.size} 
 // std::move converts a value to rvalue
 const ArrayList list4{std::move(ArrayList{4})}; // move constructor
 ```
-- According to the C++17 standard (§12.8), copy elision is guaranteed when:
+- According to the C++17 standard, copy elision is guaranteed when:
 	- A temporary object is used to initialize a variable of the same type
 	- And the temporary is not otherwise used.
 ### Move assignment
@@ -197,7 +197,6 @@ public:
 ```
 
 
----
 # References
 1. A Tour of C++ - Bjarne Stroustrup - Addison Wesley Professional (2022).
 	1. Chapter 6. Essential Operations.

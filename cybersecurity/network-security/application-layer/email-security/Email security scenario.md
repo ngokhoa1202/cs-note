@@ -45,10 +45,6 @@
 >This mechanism provides no confidentiality of the message sent on the Internet but only its integrity and authenticity because only the server who owns his private key is able to encrypt the hash digest while its public keys are distributed among the clients to decrypts the encrypted hash digest.
 >
 >However, due to the lack of encryption by session key, who has the public key is able to read the message and thus the confidentiality is compromised.
-
-
-
-
 # Ensure confidentiality, integrity and authenticity
 
 - ![](Pasted%20image%2020240515135326.png)
@@ -78,7 +74,9 @@
 			- Bob verifies the integrity of message $m$ by comparing $H(m)$ and $H'(m)$
 >[!Important]
 >The mechanism ensures the confidentiality as well as the integrity and authenticity of the message. The encrypted message digest is private between the server and the client thanks to the encryption using shared session key.
----
+
+
+***
 # References
 1. HCMUT computer network slides - Nguyễn Phương Duy
 2. HCMUT cryptography and network security slides - Nguyễn Thành Đạt.

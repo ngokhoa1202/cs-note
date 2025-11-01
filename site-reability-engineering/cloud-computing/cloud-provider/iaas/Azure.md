@@ -26,7 +26,6 @@ Azure cloud services are enabled by the Azure Hypervisor, a customized version o
 	- Resource Manager templates for VM deployment.
 	- Seamless hybrid connections.
 	- Automated backups.
----
 # References
 1. https://azure.microsoft.com/ for azure repository.
 2. 

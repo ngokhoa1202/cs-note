@@ -28,7 +28,6 @@ console.log('Valid:', validEmails);
 console.log('Invalid:', invalidEmails);
 // Invalid: ['invalid-email', 'not.an.email', '@missing.com']
 ```
----
 # References
 1. https://lodash.com/docs/4.17.15#partition
 2. 

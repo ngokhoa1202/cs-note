@@ -148,7 +148,6 @@ git push <local-name-of-repo> --delete <tagname> # Verbose form
 
 # Checking out tags
 
----
 # References
 1. . Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Basics.

@@ -2,7 +2,7 @@
 
 # Method
 - Style `<button>` or `<a>` with moving up effect when being hoverred.
-```SASS
+```SCSS
 .btn {
 	&:link,
 	&:visited {

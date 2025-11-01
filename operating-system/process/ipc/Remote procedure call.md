@@ -39,7 +39,6 @@
 - Implements API gateway.
 - Establish connections between services in microservice architecture.
 
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 3: Processes.

@@ -48,7 +48,6 @@ void p(){
 ```
 - When the control flow exits the function, the variable $x$ is destroyed; as a result, its referenced memory space is now inaccessible and thus become garbage.
 - Most modern programming languages, such as Rust, Go, Java, PHP, and even Modern C++ implements its own garbage collector mechanism.
----
 # References
 1. Programming languages, principles and practice - Louden K.C., Lambert K.A. - Course Technology, 3th Edition 2011.
 	1. Chapter 7. Basic Semantics.

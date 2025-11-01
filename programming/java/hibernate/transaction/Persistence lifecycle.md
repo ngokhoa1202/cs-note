@@ -27,7 +27,6 @@
 - The API provided by Hibernate to manage entity instance.
 - [Entity manager](programming/java/hibernate/transaction/Entity%20manager.md) 
 
----
 # References
 1. Java Persistence with Hibernate - 2th edition - Chapter 10: Managing data.
 2. [Persistence context](Persistence%20context.md) for Jakarta Persistence Context.           

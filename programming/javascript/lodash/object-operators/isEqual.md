@@ -50,6 +50,5 @@ const bar = {
   b: [1, 2, 3],
 };
 ```
----
 # References
 1. https://lodash.com/docs/4.17.15#isEqual

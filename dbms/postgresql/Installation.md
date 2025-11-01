@@ -19,6 +19,5 @@ CREATE USER <username> with PASSWORD '<password>';
 ```postgresql
 ALTER USER <username> WITH SUPERUSER;
 ```
----
 # References
 1. https://docs.fedoraproject.org/en-US/quick-docs/postgresql/

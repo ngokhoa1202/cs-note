@@ -39,7 +39,6 @@ while (true) {
 - However, once $P_j$ exits its critical section, it will <mark style="background: #e4e62d;">reset</mark> `flag[j]` to `false`, allowing $P_i$ to enter its critical section. If $P_j$ resets `flag[j]` to `true`, it must also set `turn` to `i`. $P_i$  will enter the critical section.
 ## Bounded waiting
 - $P_i$  will enter the critical section at most one entry by $P_j$.
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.

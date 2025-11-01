@@ -36,7 +36,6 @@ func resliceInFunction(s []int) {
 }
 ```
 - 
----
 # References
 1. [Parameter-passing mechanisms](Parameter-passing%20mechanisms.md) for pass by value.
 2. 

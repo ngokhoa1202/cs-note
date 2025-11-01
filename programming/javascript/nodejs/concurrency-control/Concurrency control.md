@@ -73,7 +73,6 @@ Promises [worker0, worker1]
 ## Characteristics
 - Only a limited number of promises are parallel executed at a time. The degree of concurrency is limited.
 - The order of promise  resolution or rejection is not guaranteed as it depends on the system level.
----
 # References
 1. https://book.mixu.net/node/ch7.html for Concurrency control in Node.js without library.
 2. https://github.com/sindresorhus/p-limit for `pLimit` library for concurrency control in Node.js

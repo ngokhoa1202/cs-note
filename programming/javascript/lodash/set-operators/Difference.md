@@ -36,7 +36,6 @@ const renderAvailablePermissions = () => {
 };
 ```
 
----
 # References
 1. https://lodash.com/docs/4.17.15#difference
 

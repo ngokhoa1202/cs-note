@@ -17,7 +17,6 @@
 - Sort the two relations on the same attributes.
 - Keep in the merged results only those tuples that appear in relation $R$ but not in relation $S$.
 - ![](Pasted%20image%2020241215132500.png)
----
 1. [Relational Algebra](Relational%20Algebra.md)
 2. [External sorting](External%20sorting.md)
 3. *[Indexing structures](Indexing%20structures.md)*

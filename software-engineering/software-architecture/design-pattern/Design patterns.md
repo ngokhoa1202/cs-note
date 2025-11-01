@@ -56,7 +56,6 @@
 ### Mediator
 - [Mediator pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator%20pattern.md)
 
----
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 2. 

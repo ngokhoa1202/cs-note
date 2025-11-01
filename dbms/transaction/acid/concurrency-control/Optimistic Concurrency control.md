@@ -25,7 +25,6 @@
 
 ## Snapshot Isolation based concurrency control
 - ...
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 20 - Section 4.

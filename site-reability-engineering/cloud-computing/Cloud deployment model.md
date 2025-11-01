@@ -21,7 +21,6 @@
     One organization uses multiple public cloud providers to run its workload, typically to avoid vendor lock-in.
 - _Poly Cloud_  
     One organization uses multiple public cloud providers to leverage specific services from each provider.
----
 # References
 1. https://www.openstack.org/
 2. [Cloud computing](Cloud%20computing.md) in Cybersecurity.

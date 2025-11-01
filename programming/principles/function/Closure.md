@@ -16,6 +16,5 @@ outer = function() {
 var fnc = outer(); // execute outer to get inner 
 fnc();
 ```
----
 # References
 1. https://stackoverflow.com/questions/36636/what-is-a-closure

@@ -2,7 +2,6 @@
 
 - Stands for ==Multiple Purpose Internet Mail Extension==.
 - Support many content formats and encodings.
-
 # Header
 - MIME Version: 1.0
 - ==Content-Type==:

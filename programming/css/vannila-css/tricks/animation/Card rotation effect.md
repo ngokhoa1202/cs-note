@@ -8,7 +8,7 @@
 	- Smaller pixels means ==closer== distance to z-axis $\implies$ more impressive rotation effect but annoying.
 	- Bigger pixels means ==further== distance to z-aixs $\implies$ less impressive effect, more comfortable.
 3. Keep the front side element original $\equiv$ 0 deg. But add `transform: rotateY(180deg)` property to make the back side always stay behind the front side element by default.
-4. When hoverring the parent element:
+4. When hovering the parent element:
 	- rotate the front side element ==by -180deg== to make it become the back side.
 	- rotate the back side element by ===0 deg===.
 	- Add `trasition` property to watch the rotation clearly.

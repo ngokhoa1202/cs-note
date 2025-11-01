@@ -15,6 +15,5 @@ const root = createRoot(document.getElementById('root'));root.render(
 - Rerun effects one extra time to to detect missing effect cleanup:
 	- Run one extra setup and cleanup lifecycle.
 
----
 # References
 1. 

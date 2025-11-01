@@ -104,5 +104,4 @@ Key benefits of Amazon ECS are:
 - It is highly available and scalable.
 - It leverages other AWS services, such as CloudWatch Metrics.
 - We can manage it using CLI, Dashboard, or APIs.
----
 # References

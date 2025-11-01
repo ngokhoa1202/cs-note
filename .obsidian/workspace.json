@@ -4,25 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "eeed2040005399b4",
+        "id": "f8c6a330887a3051",
         "type": "tabs",
         "children": [
           {
-            "id": "618ab006516ca8f6",
+            "id": "3814b2ba925c0d1b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md",
+                "file": "computer-network/application-layer/http/Cookie.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Flyweight pattern"
+              "title": "Cookie"
+            }
+          },
+          {
+            "id": "ca118b2fef3f6f89",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Cross-Origin Resource Sharing (CORS)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -42,7 +58,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,8 +70,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Strict mode",
-                "matchingCase": true,
+                "query": "important",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -99,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 385.5
+    "width": 404.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -130,13 +146,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/javascript/angular/Angular.md",
+                "file": "programming/css/vannila-css/tricks/Style text using background color.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Angular"
+              "title": "Outline of Style text using background color"
             }
           },
           {
@@ -172,11 +188,12 @@
               "title": "Outgoing links from Application layer overview"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200,
+    "width": 217.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -187,58 +204,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "command-palette:Open command palette": false,
-      "graph:Open graph view": false
+      "graph:Open graph view": false,
+      "markdown-importer:Open format converter": false
     }
   },
-  "active": "d8d7ea544fef7ec3",
+  "active": "ca118b2fef3f6f89",
   "lastOpenFiles": [
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Proxy pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Composite pattern.md",
-    "software-engineering/software-architecture/design-pattern/Design patterns.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md",
+    "computer-network/application-layer/email/MIME.md",
+    "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md",
+    "Pasted image 20251101153906.png",
+    "programming/javascript/browser/javascript URL.md",
+    "programming/javascript/browser/Cookie.md",
+    "programming/javascript/vanilla-javascript/web",
+    "computer-network/application-layer/http/Cookie.md",
+    "computer-network/application-layer/http/HTTP.md",
+    "computer-network/application-layer/dns/Domain Name System (DNS).md",
+    "computer-network/application-layer/dns/Domain name system.md",
     "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Template method pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Strategy pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md",
     "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md",
-    "programming/javascript/vanilla-javascript/architecture/Browser Job queue.md",
-    "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md",
-    "programming/javascript/vanilla-javascript/fundamentals/Object.md",
-    "programming/javascript/nodejs/architecture/Event loop.md",
-    "programming/javascript/nodejs/module/CommonJs.md",
-    "cryptography/hash-function/mac/Message Authentication Code.md",
-    "programming/javascript/vanilla-javascript/architecture/Javascript execution model.md",
-    "assets/Pasted image 20250929115716.png",
-    "programming/javascript/vanilla-javascript/fundamentals/promise/Promisification.md",
-    "cybersecurity/Firewall overview.md",
+    "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md",
+    "cybersecurity/network-security/Network security overview.md",
+    "cybersecurity/network-security/network-layer/IKE.md",
+    "algorithm/Algorithm complexity.md",
+    "algorithm/Recurrence relation.md",
+    "algorithm/string/Naive string matching.md",
+    "algorithm/string/Longest common subsequence.md",
+    "cybersecurity/network-security/network-layer/IP Security.md",
+    "cybersecurity/cloud-security/Cloud computing.md",
+    "calculus/Stirling approximation.md",
+    "calculus/Harmonic series.md",
+    "operating-system/linux/cryptography/SSH key generation.md",
+    "algorithm/data-structure/Hash table.md",
+    "operating-system/linux/cryptography/Generate secret key openSSL.md",
+    "cryptography/hash-function/digital-signature/Elgamal digital signature scheme.md",
+    "assets/Pasted image 20251025212435.png",
+    "assets/Pasted image 20251025194137.png",
+    "assets/Pasted image 20251025193405.png",
+    "assets/Pasted image 20251023111946.png",
+    "assets/Pasted image 20251023090550.png",
+    "assets/Pasted image 20251023090535.png",
+    "assets/Pasted image 20251023084554.png",
+    "assets/Pasted image 20251023082221.png",
+    "assets/Pasted image 20251022174322.png",
+    "programming/javascript/reactjs/asset-management",
+    "programming/javascript/babel",
+    "programming/javascript/webpack",
+    "Untitled.canvas",
     "cryptography/Untitled.base",
     "programming/javascript/nodejs/module",
     "programming/javascript/nodejs/concurrency-control",
     "programming/javascript/nodejs/architecture",
     "programming/javascript/vanilla-javascript/architecture",
     "Base.base",
-    "programming/javascript/vanilla-javascript/module",
-    "assets/Pasted image 20250405103342 1.png",
-    "logseq/custom.css",
-    "pages",
-    "logseq/config.edn",
-    "assets/Pasted image 20250802122826.png",
-    "assets/Pasted image 20250802095146.png",
-    "assets/Pasted image 20250802094816.png",
-    "assets/Pasted image 20250729202711.png",
-    "assets/Pasted image 20250727080252.png",
-    "assets/Pasted image 20250726171224.png",
-    "assets/Pasted image 20250726171212.png",
-    "assets/Pasted image 20250726171150.png",
-    "Untitled.canvas",
     "Untitled 1.canvas",
     "network/Untitled.canvas",
     "Untitled 2.canvas",

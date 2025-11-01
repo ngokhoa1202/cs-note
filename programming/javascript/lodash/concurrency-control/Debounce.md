@@ -194,6 +194,5 @@ export default function AsyncSelect({ style, prefixUrl, queries = [], attributeR
 }
 ```
 
----
 # References
 1. https://lodash.com/docs/4.17.15#debounce

@@ -24,7 +24,6 @@ b#dbms #relational-algebra #relational-model #relational-mapping #rdbms #query #
 - ![](Pasted%20image%2020241215160543.png)
 - ![](Pasted%20image%2020241215160552.png)
 
----
 # References
 1. [Relational Algebra](Relational%20Algebra.md)
 2. [External sorting](External%20sorting.md)

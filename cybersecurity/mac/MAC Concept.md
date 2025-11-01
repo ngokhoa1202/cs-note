@@ -32,7 +32,6 @@ MAC =f_{MAC}(K=secret-key, M=message)
 - Number of matches in second round: $2^{k-2n}$ 
 - Number of matches in third round: $2^{k-3n}$ 
 - Until: $k-\alpha \times n < 0$ => find key => Number of rounds: $\alpha = \frac{k}{n}$   
----
 # References
 1. [Json Web Token](Json%20Web%20Token.md) for HMAC application.
 2. Cryptography and Network Security - William Stallings - MAC Section.

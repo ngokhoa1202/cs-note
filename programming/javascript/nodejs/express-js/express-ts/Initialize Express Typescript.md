@@ -39,7 +39,6 @@ npx express-generator-typescript <PROJECT_NAME>
 ```
 
 
----
 # References
 1. https://www.npmjs.com/package/express-generator-typescript for `express-generator-typescript`.
 2. https://github.com/w3cj/express-api-starter-ts for `express-api-starter-ts`.

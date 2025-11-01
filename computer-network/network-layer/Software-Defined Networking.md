@@ -13,7 +13,6 @@ In software-defined networking, we decouple the Control Plane from the Data Plan
 
 The Control Plane has well-defined APIs that receive requests from applications to configure the network. After preparing the desired state of the network, the Control Plane communicates that to the Data Plane (also known as the Forwarding Plane), using a well-defined protocol like OpenFlow.
 - We can use configuration tools like Ansible or Chef to configure SDN, adding lots of flexibility and agility on the operations side as well.
----
 # References
 1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.
 2. 

@@ -81,7 +81,6 @@
 - Transaction is <mark style="background: #e4e62d;">resumed processing</mark> after a <mark style="background: #e4e62d;">begin_checkpoint</mark> record is written to  the log without having to wait for completing force write.
 - When step 2 is completed, an end_checkpoint record is written to the log.
 - A file containing a pointer to the valid checkpoint is kept on disk to keep the checkpoint valid.
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 22 - Section 1.

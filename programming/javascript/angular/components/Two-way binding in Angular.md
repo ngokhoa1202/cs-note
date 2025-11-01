@@ -7,7 +7,7 @@
 - Declare the properties that needs two-way binding in the component:
 	- One property for input annotated with `@Input` decorator.
 	- One property for output annotated with `@Output` decorator.
-	- Strictly follow naming convention
+	- Strictly follow naming convention.
 ```typescript
 export class SizerComponent {
   @Input() size!: number | string; // <input-name>
@@ -30,7 +30,7 @@ export class SizerComponent {
 <app-sizer [(size)]="fontSizePx"></app-sizer>
 ```
 
-# Directive ngModel
+# Directive `ngModel`
 ## Without signal
 - Import the `FormsModule` into the component.
 
@@ -58,7 +58,6 @@ export class AppComponent implements OnInit {
 ## signal
 - If the property is a `Signal` , the two-way binding is identical to [Without signal](#Without%20signal) . Angular automatically reads the content of `signal`.
 
----
 # References
 1. https://angular.dev/guide/templates/two-way-binding
 

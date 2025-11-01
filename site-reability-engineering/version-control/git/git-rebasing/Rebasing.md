@@ -116,7 +116,6 @@ git rebase <remote-branch>
 		- `C4` has the same patch id as `C4'` , thereby implying that it has been rewritten.
 	- Apply those commits on top of `teamone/master` branch ($\approx$ take and rewrite them).
 - ![](Pasted%20image%2020241107143506.png)
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Branching.

@@ -26,7 +26,6 @@ Additional configurable aspects of EC2 instances, related services, and tools ma
 - Elastic IP to remap a Static IP address automatically.
 - [CloudWatch](https://aws.amazon.com/cloudwatch/) for monitoring resources and applications.
 - [Auto Scaling](https://aws.amazon.com/autoscaling/) to dynamically resize resources.
----
 # References
 1. https://aws.amazon.com/ec2/ for Amazon EC2 official documentation.
 2. [Docker container](Docker%20container.md) 

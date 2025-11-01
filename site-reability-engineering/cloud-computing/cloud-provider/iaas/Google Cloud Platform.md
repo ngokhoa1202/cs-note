@@ -41,7 +41,6 @@ Additional configurable aspects of GCE VMs, and related services:  
 - It supports custom machine types.
 - It supports Virtual Private Cloud, Load Balancers, etc.
 
----
 # References
 1. https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2023/block-v1:LinuxFoundationX+LFS151.x+2T2023+type@sequential+block@f96eae2afb994f7981c496b990fbd587/block-v1:LinuxFoundationX+LFS151.x+2T2023+type@vertical+block@1d87af49db424203ae4ea6242ccc02e2
 2. 

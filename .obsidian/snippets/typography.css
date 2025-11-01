@@ -1,0 +1,131 @@
+/* Beautiful Typography Enhancements */
+@keyframes moveInLeft {
+  /* when animation starts */
+  0% {
+    opacity: 0;
+    transform: translate(-10rem, 0);
+  }
+
+  /* when animation is happening */
+  80% {
+    opacity: 0.8;
+    transform: translate(10rem, 0);
+  }
+
+  /* when animation ends */
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+.theme-light {
+  .inline-title {
+    transition: all 1s ease-out;
+    animation: moveInLeft 4s ease-in-out 1s forwards;
+  }
+
+  .inline-title:hover {
+    text-shadow: 0.8rem 1.6rem 3.2rem rgba(0, 0, 128, 0.5);
+    font-style: italic;
+  }
+
+  /* Enhanced heading styling with subtle gradients */
+  .cm-header-1 {
+    display: inline-block;
+    margin: 0 !important;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
+    margin-bottom: 1.5rem;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cm-header-1:hover {
+    text-shadow: 0.8rem 1.2rem 2.4rem rgba(0, 0, 128, 0.3);
+    font-style: italic;
+  }
+
+  .cm-header-2 {
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    position: relative;
+    margin: 0 !important;
+    display: inline-block;
+    margin: 0 !important;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .cm-header-2:hover {
+    text-shadow: 0.8rem 1.2rem 2.4rem rgba(0, 0, 128, 0.2);
+    font-style: italic;
+  }
+
+  .cm-header-3,
+  .cm-header-4,
+  .cm-header-5,
+  .cm-header-6 {
+    transition: all 0.5s ease-in;
+    display: inline-block;
+    margin: 0 !important;
+  }
+
+  .cm-header-3:hover {
+    transform: translateY(-6px) scale(1.05);
+    text-shadow: 0.4rem 0.8rem 1.6rem rgba(0, 0, 128, 0.1);
+  }
+
+  .cm-header-4:hover {
+    transform: translateY(-4px) scale(1.05);
+    text-shadow: 0.3rem 0.6rem 1.2rem rgba(0, 0, 128, 0.08);
+  }
+
+  .cm-header-5:hover {
+    transform: translateY(-3px) scale(1.05);
+    text-shadow: 0.2rem 0.4rem 0.8rem rgba(0, 0, 128, 0.06);
+  }
+
+  .cm-header-6:hover {
+    transform: translateY(-2px);
+    text-shadow: 0.1rem 0.2rem 0.4rem rgba(0, 0, 128, 0.04);
+  }
+
+  .cm-header-1.cm-inline-code,
+  .cm-header-2.cm-inline-code,
+  .cm-header-3.cm-inline-code,
+  .cm-header-4.cm-inline-code,
+  .cm-header-5.cm-inline-code,
+  .cm-header-6.cm-inline-code {
+    font-size: smaller !important;
+  }
+}
+
+.hltr-yellow,
+.htlr-blue,
+.htlr-gray,
+.htlr-red,
+.cm-highlight {
+  font-family: "Lora" !important;
+  font-style: italic;
+}
+
+a.cm-underline {
+  font-family: "Inter" !important;
+  font-style: italic !important;
+}
+
+.view-header-breadcrumb,
+.view-header-breadcrumb-separator {
+  font-family: "Sora" !important;
+  font-size: larger !important;
+}
+
+.view-header-title {
+  font-family: "Source Serif 4" !important;
+  font-size: larger !important;
+}
+
+.cm-line {
+  line-height: 1.5 !important;
+}

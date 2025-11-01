@@ -2,7 +2,6 @@
 
 > Pipes are the oldest method of IPC on the UNIX system, having appeared in Third Edition UNIX in the early 1970s.
 
-
 # Charateristics
 - Pipe allows allow the output produced by one process to be used as the input to the other process.
 - ![](Pasted%20image%2020250523110145.png)
@@ -21,7 +20,7 @@
 - To connect two processes using a pipe, a `fork()` system call follows a `pipe()`. The child process inherits copies of its parent’s file descriptors.
 - ![](Pasted%20image%2020250523112019.png)
 - Immediately after the `fork()`, one process <mark class="hltr-yellow">closes</mark> its descriptor for the <mark class="hltr-yellow">write end </mark>of the pipe, and the other <mark class="hltr-yellow">closes</mark> its descriptor for the <mark class="hltr-yellow">read end</mark>.
-```c title='Pipe descriptor usage'
+```C title='Pipe descriptor usage'
 #include <errno.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -69,7 +68,6 @@ int main()
 - 
 
 
----
 # References
 1. The Linux programming interface A Linux and UNIX system programming handbook - Micheal Kerrisk -No Starch Press (2010).
 	1. Section 44. Pipes and Fifos.

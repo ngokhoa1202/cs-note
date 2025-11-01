@@ -19,3 +19,5 @@
 	- ==Discard==s that packet.
 	- Resends ==most recently acknowledged packets==.
 - ![](Pasted%20image%2020240517121739.png)
+# References
+1. 

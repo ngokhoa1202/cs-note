@@ -6,6 +6,5 @@
 ## `collectingAndThen`
 - Adapts a `Collector` to perform an additional finishing transformation.
 
----
 # References
 1. 

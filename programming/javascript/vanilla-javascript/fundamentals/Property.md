@@ -60,7 +60,6 @@ for (const property in object) {
 // "b: 2"
 // "c: 3"
 ```
----
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/in for `in` operator in Javascript.
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...in for `for...in` loop in Javascript.

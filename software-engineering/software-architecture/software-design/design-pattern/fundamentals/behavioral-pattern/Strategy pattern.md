@@ -30,7 +30,6 @@
 - Overcomplicated because the algorithms are rarely changed.
 - Most modern programming languages support high-order function - or callback - to replace Strategy pattern.
 
----
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Strategy pattern.

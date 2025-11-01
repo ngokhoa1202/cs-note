@@ -35,7 +35,6 @@ double square(double x) const {
   return x * x;
 }
 ```
----
 # References
 1. The C++ Programming Language - Bjarne Stroustrup -4th Edition.
 	1. Part 1. Introductory Material.

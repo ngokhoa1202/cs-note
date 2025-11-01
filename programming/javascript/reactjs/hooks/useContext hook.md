@@ -62,7 +62,6 @@ function Panel({ title, children }) {
 ## Advanced - multiple contexts
 - Refers to https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8298056#questions
 
----
 # References
 1. https://www.udemy.com/course/react-the-complete-guide-incl-redux/learn/lecture/8298056#questions for separate context providers.
 2. https://react.dev/reference/react/useContext#optimizing-re-renders-when-passing-objects-and-functions for `useContext` official documentation.

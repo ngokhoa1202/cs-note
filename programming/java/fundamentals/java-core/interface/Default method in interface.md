@@ -53,6 +53,5 @@ public class Main {
 ```
 
 - Default methods incrementally provide additional functionality to a given type without breaking down the implementing classes.
----
 # References
 1. https://www.baeldung.com/java-static-default-methods for default methods in Java.

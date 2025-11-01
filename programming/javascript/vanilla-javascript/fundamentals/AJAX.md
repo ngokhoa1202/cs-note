@@ -23,7 +23,6 @@ function loadDoc() {
 
 # Application
 - AJAX is the underlying concept/technology that both `fetch` and `axios` implement.
----
 # References
 1. https://websocket.org/guides/road-to-websockets/
 2. Ajax: A New Approach to Web Applications - Jesse James Garrett - February 18, 2005. Link: https://designftw.mit.edu/lectures/apis/ajax_adaptive_path.pdf

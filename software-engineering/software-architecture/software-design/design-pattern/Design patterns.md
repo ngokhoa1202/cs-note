@@ -62,7 +62,6 @@
 # Modern pattern
 ## Callback pattern
 
----
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 2. [[software-engineering/software-architecture/software-design/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern]]

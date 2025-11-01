@@ -37,7 +37,6 @@
 - Hence, no other transaction can read or write an item that is written by T unless T has committed, leading to a [Strict schedule](Recoverability.md#Strict%20schedule) for recoverability.
 - This is not deadlock-free.
 
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.

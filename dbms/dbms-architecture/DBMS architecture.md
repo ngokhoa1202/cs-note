@@ -48,7 +48,6 @@
 - The transaction manager assumes the responsibility to <mark style="background: #e4e62d;">intervene and cancle</mark> one transaction to let other transaction proceed.
 # Buffer manager
 - [Buffer manager](Disk%20storage.md#Buffer%20manager)
----
 # References
 1. Database Systems: The Complete Book - H. G. Molina, J. D. Ullman, J. Widom, Prentice-Hall, 2009.
 2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).

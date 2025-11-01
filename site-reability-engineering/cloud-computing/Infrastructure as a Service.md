@@ -19,7 +19,6 @@
 ## Oracle Compute Instance
 - [Oracle Cloud](Oracle%20Cloud.md)
 
----
 # References
 1. https://en.wikipedia.org/wiki/Hypervisor
 2. https://en.wikipedia.org/wiki/Bare-metal_server\

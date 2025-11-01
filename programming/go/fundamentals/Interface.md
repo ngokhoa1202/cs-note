@@ -79,7 +79,6 @@ func (MyInt) About() string {
 
 
 
----
 # Reference
 1. https://go101.org/article/interface.html for Interface in Go.
 2. https://gobyexample.com/interfaces

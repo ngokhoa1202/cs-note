@@ -48,7 +48,6 @@
 - All records in cloud server must be encrypted before stored.
 - The server itself does not own encryption key, the client with permission stores a copy of encryption key.
 - Encryption means that some specific queries must be changed (e.g: encrypted data do not maintain ordering of number).
-
----
+***
 # References
 1. 

@@ -92,7 +92,6 @@ export default function App() {
 ```
 - State updates within an event handler are <mark style="background: #c19939;">batched</mark>. React only updates the webpage **after all the event handlers have run** and have called their `set` functions.
 - Reducer consolidates state logic management by separating and centralizing states into a function. 
----
 # References
 1. https://react.dev/reference/react/useReducer for `useReducer` docs.
 2. https://react.dev/learn/extracting-state-logic-into-a-reducer for migration from `useState` to `useReducer`.

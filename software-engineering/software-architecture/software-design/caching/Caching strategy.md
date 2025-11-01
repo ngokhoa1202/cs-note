@@ -62,7 +62,6 @@
 - Write Back caching is entirely appropriate for <mark class="hltr-yellow">write-heavy</mark> scenarios where write operations need to be **fast** and **frequent**, but<mark class="hltr-blue"> immediate consistency</mark> with the database <mark class="hltr-blue"> is not critical</mark>, such as logging systems and social media feeds.
 # Summary
 - ![[Pasted image 20250727080252.png]]
----
 # References.
 1. https://blog.algomaster.io/p/top-5-caching-strategies-explained for caching topology and strategy explanation.
 2. https://hazelcast.com/blog/a-hitchhikers-guide-to-caching-patterns/ for the full activity diagram.

@@ -433,7 +433,6 @@ public class HumanResourceProviderHandler implements ExceptionHandlerProvider {
 ```
 
 
----
 # References
 1. *https://grpc.io/docs/languages/java/basics/ for gRPC official documentation.*
 2. https://grpc.io/docs/what-is-grpc/core-concepts/ for gRPC architecture.

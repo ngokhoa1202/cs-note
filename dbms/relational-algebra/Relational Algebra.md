@@ -168,7 +168,6 @@
 - List all project name and its employee collaborators' name (Some project is planned but their tasks have not been assigned to employee) $\to$ right outer join.
 	- $$\pi_{\text{pname, fname, lname, hours}}(\text{Employee} \rtimes_{\text{ssn} = \text{essn}} (\text{Project} \Join_{\text{pno} = \text{pnumber}} \text{Work\_on}))$$
 
----
 # References
 1. HCMUT Basic DBMS Slides - Truong Quynh Chi.
 2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):

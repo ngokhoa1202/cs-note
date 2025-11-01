@@ -85,7 +85,6 @@ int main(int argc, char* argv[]) {
 }
 ```
 
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 3: Process.

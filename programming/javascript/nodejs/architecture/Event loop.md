@@ -221,7 +221,6 @@ myEmitter.on('event', () => {
 });
 
 ```
----
 # References
 1. https://nodejs.org/en/learn/asynchronous-work/event-loop-timers-and-nexttick
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#stack_and_execution_contexts

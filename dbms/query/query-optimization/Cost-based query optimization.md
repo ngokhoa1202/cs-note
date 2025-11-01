@@ -69,7 +69,6 @@
 ### Sort-merge join
 - Cost is $$C=C_S + b_R + b_S + \left (\frac{\text{js} \times |R| \times |S|}{bfr_{RS}} \right )$$ where $C_S$ is the cost for sorting the two files.
 
----
 # References
 1.  [Relational Algebra](Relational%20Algebra.md)
 2. [External sorting](External%20sorting.md)

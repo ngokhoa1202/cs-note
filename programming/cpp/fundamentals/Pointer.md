@@ -324,7 +324,6 @@ Node<T>& Node<T>::operator=(Node<T>&& other) noexcept {
 }
 ```
 
----
 ## Shared pointer
 ### Characteristics
 - Share pointer represents <mark class="hltr-yellow">shared ownership</mark>.
@@ -337,7 +336,6 @@ Node<T>& Node<T>::operator=(Node<T>&& other) noexcept {
 - A destructor for a shared object does not execute at a predictable time, so the algorithms/logic for the update of any shared object are <mark class="hltr-yellow">easier to get wrong</mark> than for an object that’s not shared.
 - If a single node keeps a large data structure alive, the cascade of destructor calls triggered by its deletion can cause a significant garbage collection <mark class="hltr-yellow">overhead</mark>.
 
----
 ## Weak pointer
 - Weak pointer represents <mark class="hltr-yellow">non-owning relationship</mark>.
 - A weak pointer refers to an object managed by a shared pointer. To access the object, a weak pointer can be converted to a shared pointer using the member function `lock()`. A weak pointer allows access to an object, owned by someone else, that:
@@ -417,7 +415,7 @@ void Company::showTaxes() {
   }
 }
 ```
----
+***
 # References
 1. The C++ Programming Language - Bjarne Stroustrup - 4th Edition.
 	1. Section 7. Pointers, Arrays and References.

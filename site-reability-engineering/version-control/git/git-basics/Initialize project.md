@@ -27,7 +27,6 @@ git clone <repo-url> <repo-name>
 >https:// prefix urls use HTTPS protocol.
 >git:// or username@server:path/to/repo.git use SSH protocol.
 
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Basics.

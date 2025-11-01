@@ -67,7 +67,6 @@ class Clock extends React.Component {
 - Invoked right before the component is unmounted and destroyed.
 - Used to perform clean up function.
 
----
 # References
 1. https://legacy.reactjs.org/docs/components-and-props.html for ReactJs legacy class-based components.
 2. [useState hook](useState%20hook.md) for React `useState` hooks.

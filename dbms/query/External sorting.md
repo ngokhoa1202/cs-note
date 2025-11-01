@@ -31,7 +31,6 @@
 - ![](Pasted%20image%2020241130132158.png)
 - ![](Pasted%20image%2020241130132223.png)
 - 
----
 # References
 1. HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.
 2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):

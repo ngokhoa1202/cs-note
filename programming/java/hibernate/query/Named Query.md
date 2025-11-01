@@ -111,7 +111,6 @@ public class EmployeeRoleDAOImpl implements EmployeeRoleDAO {
 # Repository
 - Refers to https://docs.spring.io/spring-data/jpa/reference/jpa/query-methods.html
 
----
 # References
 1. https://www.baeldung.com/spring-data-jpa-query-hints for query hints guide.
 2. https://hibernate.org/orm/documentation/7.0/ for hibernate docs.

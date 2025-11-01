@@ -18,7 +18,6 @@
 - It provides para-virtualization of Ethernet cards, disk I/O controllers, and graphical interfaces for guest OSes.
 - It is highly scalable.
 - KVM employs advanced security features, utilizing SELinux. It provides MAC (Mandatory Access Control) security between Virtual Machines.
----
 # References
 1. https://linux-kvm.org/page/Main_Page
 2. https://planet.virt-tools.org/

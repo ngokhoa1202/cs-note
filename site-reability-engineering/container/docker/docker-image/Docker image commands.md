@@ -9,7 +9,6 @@
 docker image history IMAGE
 ```
 
----
 # Docker image inspect
 ## Purpose
 - Display the configuration of an image.
@@ -18,7 +17,6 @@ docker image history IMAGE
 docker image inspect IMAGE
 ```
 
----
 # Docker image tag
 ## Purpose
 - A tag is actually a ==pointer== to a specific image's commit.
@@ -28,7 +26,6 @@ docker image inspect IMAGE
 docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 ```
 
----
 # Docker image build
 - Refers to [Docker buildx commands](Docker%20buildx%20commands.md)
 # Docker image prune
@@ -47,7 +44,6 @@ docker image prune [OPTIONS]
 > Unused images are images which are not used by any containers.
 
 
----
 # References
 1. https://docs.docker.com/reference/cli/docker/image/tag/ for `docker image tag`.
 2. 

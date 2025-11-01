@@ -147,7 +147,6 @@ tasks.withType<JavaCompile> {
 }
 ```
 
----
 # References
 1. https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_plugin_and_dependency_management for task lifecycle.
 2. https://docs.gradle.org/current/userguide/tutorial_using_tasks.html for task dependecy Gradle.

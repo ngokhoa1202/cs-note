@@ -13,7 +13,6 @@
 - Requires garbage collection.
 - Atomic migration between current and shadow directories.
 
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 20 - Section 1.

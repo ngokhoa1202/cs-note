@@ -38,7 +38,6 @@ class Dog extends Animal {
 # In-variances
 - In-variances means that even if $A$ is a subtype of $B$,  $\text{Container}(A)$ and $\text{Container}(B)$ have <mark class="hltr-yellow">no subtype relationship</mark>.
 	-   $A \preceq B \centernot\implies C(A) \succeq C(B)$ or $C(A) \preceq C(B)$ where $C$ is a general container function.
----
 # References
 1. Programming Languages: Principles and Paradigms - Maurizio Gabbrielli and Simone Martini - Springer Publisher (2010).
 	1. Chapter 10. The Object-Oriented Paradigm.

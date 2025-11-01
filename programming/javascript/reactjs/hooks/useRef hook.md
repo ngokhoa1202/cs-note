@@ -165,7 +165,6 @@ class Parent extends React.Component {
 }
 ```
 
----
 
 # References
 1. https://goshacmd.com/controlled-vs-uncontrolled-inputs-react/#conclusion for controlled and uncontrolled components.

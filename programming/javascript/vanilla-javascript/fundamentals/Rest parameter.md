@@ -19,7 +19,6 @@ console.log(sum(1, 2, 3, 4));
 
 ```
 - Rest parameter is a form of [[Variadic function]].
----
 # References
 1. https://en.wikipedia.org/wiki/Variadic_function for variadic function concepts.
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax for Spread operator.

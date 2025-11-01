@@ -582,7 +582,6 @@ class Main {
 - Storing a large number of Memento objects is expensive. Additionally, heavy memento instances incur high memory consumption, not to mention the cost of copy operations.
 # Real examples
 - `java.io.Serializable`.
----
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 	1. Memento.

@@ -13,7 +13,6 @@
 - Imposes variable assignment.
 - Event sourcing.
 
----
 # References
 1. *Domain Driven Design - Eric Evans - 2003.*
 2. [Domain driven design](software-engineering/software-architecture/domain-driven-design/Domain%20driven%20design.md)

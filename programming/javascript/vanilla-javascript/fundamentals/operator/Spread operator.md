@@ -102,7 +102,6 @@ const employee = {
 const employedStudent = {...student, ...employee};
 console.log(employedStudent);
 ```
----
 # References
 1. https://en.wikipedia.org/wiki/Variadic_function for variadic function concepts.
 2. *https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax for Spread operator.*

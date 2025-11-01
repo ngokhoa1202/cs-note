@@ -85,7 +85,6 @@
 	- B compares the original with the newly calculated hash message to verify the authenticity.
 - ![[Pasted image 20250628081015.png]]
 - The authenticity and confidentiality of the message is ensured.
----
 # References
 1.  Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition Pearson (2022).
 	1. Chapter 11. Cryptographic Hash Functions.

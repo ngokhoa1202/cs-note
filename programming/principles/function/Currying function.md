@@ -146,7 +146,6 @@ public class FunctionalUtil {
   }
 }
 ```
----
 # References
 1. Functional Programming in Java: How functional techniques improve your Java programs - Pierre-Yves Saumont - Manning Publications 2017.
 	1. Chapter 2. Using Functions in Java.

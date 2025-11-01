@@ -61,7 +61,6 @@ if err != nil {
 	fmt.Printf("%s", err)
 }
 ```
----
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 2. The Go Programming Language Specification - ## Language version go1.24 (Dec 30, 2024).

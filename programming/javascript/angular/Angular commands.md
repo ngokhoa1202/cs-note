@@ -2,12 +2,12 @@
 
 # Generate a component
 - Full command:
-```bash
+```Shell
 ng component generate <component>
 ```
 
 - Short command:
-```bash
+```Shell
 ng c g <component>
 ```
 
@@ -18,7 +18,7 @@ ng c g <component>
 	- `.css` for styling.
 # Initialize an Angular project
 - Command
-```bash
+```Shell
 ng new <project>
 ```
 

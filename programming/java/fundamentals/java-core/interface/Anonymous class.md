@@ -25,7 +25,6 @@ Runnable action = new Runnable() {
     }
 };
 ```
----
 # References
 1. https://www.baeldung.com/java-anonymous-**classes**
 2. https://docs.oracle.com/javase/specs/jls/se8/html/index.html

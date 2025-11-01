@@ -50,7 +50,6 @@
 - Packagemanager: `apt`  
 - Shells: `/bin/bash` and more  
 - Size: ~25mb
----
 # References
 1. https://mohibulalam75.medium.com/exploring-lightweight-docker-base-images-alpine-slim-and-debian-releases-bookworm-bullseye-688f88067f4b for docker image summary.
 2. https://stackoverflow.com/questions/52083380/in-docker-image-names-what-is-the-difference-between-alpine-jessie-stretch-an for each type of image description.

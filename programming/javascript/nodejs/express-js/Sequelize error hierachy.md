@@ -20,6 +20,5 @@
         - `AccessDeniedError` (When access to the database is denied)
         - `TimeoutError` (Query execution timeout).
 
----
 # References
 1. https://sequelize.org/api/v6/identifiers#errors

@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Flyweight pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md"
+      "basename": "Cross-Origin Resource Sharing (CORS)",
+      "path": "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md"
     },
     {
-      "basename": "Proxy pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Proxy pattern.md"
+      "basename": "MIME",
+      "path": "computer-network/application-layer/email/MIME.md"
     },
     {
-      "basename": "Composite pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Composite pattern.md"
+      "basename": "javascript URL",
+      "path": "programming/javascript/browser/javascript URL.md"
     },
     {
-      "basename": "Design patterns",
-      "path": "software-engineering/software-architecture/design-pattern/Design patterns.md"
+      "basename": "Cookie",
+      "path": "programming/javascript/browser/Cookie.md"
     },
     {
-      "basename": "Facade pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
+      "basename": "Cookie",
+      "path": "computer-network/application-layer/http/Cookie.md"
     },
     {
-      "basename": "Decorator pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md"
+      "basename": "HTTP",
+      "path": "computer-network/application-layer/http/HTTP.md"
+    },
+    {
+      "basename": "Domain Name System (DNS)",
+      "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
     },
     {
       "basename": "Bridge pattern",
       "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge pattern.md"
     },
     {
-      "basename": "Adapter pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md"
-    },
-    {
-      "basename": "Singleton pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md"
-    },
-    {
-      "basename": "Simple factory pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md"
-    },
-    {
-      "basename": "Prototype pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md"
-    },
-    {
-      "basename": "Factory Method pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md"
-    },
-    {
-      "basename": "Observer pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer pattern.md"
-    },
-    {
-      "basename": "Template method pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Template method pattern.md"
-    },
-    {
-      "basename": "Strategy pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Strategy pattern.md"
+      "basename": "Facade pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
     },
     {
       "basename": "Mediator pattern",
       "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
     },
     {
-      "basename": "Chain of responsibility pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md"
+      "basename": "Secure Socket Layer (SSL) - Transport Layer Security (TLS)",
+      "path": "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md"
     },
     {
-      "basename": "Browser Job queue",
-      "path": "programming/javascript/vanilla-javascript/architecture/Browser Job queue.md"
+      "basename": "Network security overview",
+      "path": "cybersecurity/network-security/Network security overview.md"
     },
     {
-      "basename": "Promise",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
+      "basename": "IKE",
+      "path": "cybersecurity/network-security/network-layer/IKE.md"
     },
     {
-      "basename": "Object",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Object.md"
+      "basename": "Algorithm complexity",
+      "path": "algorithm/Algorithm complexity.md"
     },
     {
-      "basename": "Event loop",
-      "path": "programming/javascript/nodejs/architecture/Event loop.md"
+      "basename": "Recurrence relation",
+      "path": "algorithm/Recurrence relation.md"
     },
     {
-      "basename": "CommonJs",
-      "path": "programming/javascript/nodejs/module/CommonJs.md"
+      "basename": "Naive string matching",
+      "path": "algorithm/string/Naive string matching.md"
     },
     {
-      "basename": "Message Authentication Code",
-      "path": "cryptography/hash-function/mac/Message Authentication Code.md"
+      "basename": "Longest common subsequence",
+      "path": "algorithm/string/Longest common subsequence.md"
     },
     {
-      "basename": "Javascript execution model",
-      "path": "programming/javascript/vanilla-javascript/architecture/Javascript execution model.md"
+      "basename": "IP Security",
+      "path": "cybersecurity/network-security/network-layer/IP Security.md"
     },
     {
-      "basename": "Promisification",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promisification.md"
+      "basename": "Cloud computing",
+      "path": "cybersecurity/cloud-security/Cloud computing.md"
     },
     {
-      "basename": "Firewall overview",
-      "path": "cybersecurity/Firewall overview.md"
+      "basename": "Stirling approximation",
+      "path": "calculus/Stirling approximation.md"
     },
     {
-      "basename": "Wireless network security",
-      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
+      "basename": "Harmonic series",
+      "path": "calculus/Harmonic series.md"
     },
     {
-      "basename": "DES decryption",
-      "path": "cryptography/des/DES decryption.md"
+      "basename": "SSH key generation",
+      "path": "operating-system/linux/cryptography/SSH key generation.md"
     },
     {
-      "basename": "Analytical attack",
-      "path": "cryptography/des/Analytical attack.md"
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/Hash table.md"
     },
     {
-      "basename": "CMAC",
-      "path": "cryptography/hash-function/mac/CMAC.md"
-    },
-    {
-      "basename": "Cryptographic hash function",
-      "path": "cryptography/hash-function/Cryptographic hash function.md"
-    },
-    {
-      "basename": "Hash-based Message Authentication Code",
-      "path": "cryptography/hash-function/mac/Hash-based Message Authentication Code.md"
+      "basename": "Generate secret key openSSL",
+      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
     },
     {
       "basename": "Elgamal digital signature scheme",
       "path": "cryptography/hash-function/digital-signature/Elgamal digital signature scheme.md"
     },
     {
-      "basename": "DSA - Digital Signature Algorithm",
-      "path": "cryptography/hash-function/digital-signature/DSA - Digital Signature Algorithm.md"
-    },
-    {
       "basename": "Digital signature",
       "path": "cryptography/hash-function/digital-signature/Digital signature.md"
     },
     {
-      "basename": "HMAC",
-      "path": "cybersecurity/mac/HMAC.md"
+      "basename": "DSA - Digital Signature Algorithm",
+      "path": "cryptography/hash-function/digital-signature/DSA - Digital Signature Algorithm.md"
     },
     {
-      "basename": "CMAC",
-      "path": "cybersecurity/mac/CMAC.md"
-    },
-    {
-      "basename": "RSA",
-      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
-    },
-    {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
+      "basename": "3DES",
+      "path": "cryptography/symmetric-cipher/des/3DES.md"
     },
     {
       "basename": "Diffie-Hellman key exchange.",
       "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
     },
     {
-      "basename": "Global object",
-      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md"
+      "basename": "World Wide Web",
+      "path": "computer-network/application-layer/World Wide Web.md"
     },
     {
-      "basename": "ESLint NextJs",
-      "path": "programming/javascript/reactjs/nextjs/ESLint NextJs.md"
+      "basename": "Client-Server paradigm",
+      "path": "computer-network/application-layer/Client-Server paradigm.md"
     },
     {
-      "basename": "Deriving state from redux store",
-      "path": "programming/javascript/reactjs/state-management/redux/Deriving state from redux store.md"
+      "basename": "Video Streaming - DASH",
+      "path": "computer-network/application-layer/steaming/Video Streaming - DASH.md"
     },
     {
-      "basename": "Classic Redux",
-      "path": "programming/javascript/reactjs/state-management/redux/Classic Redux.md"
+      "basename": "Web cache",
+      "path": "computer-network/application-layer/Web cache.md"
     },
     {
-      "basename": "Cloud Foundry volume",
-      "path": "site-reability-engineering/software-defined-storage/Cloud Foundry volume.md"
+      "basename": "Application layer overview",
+      "path": "computer-network/application-layer/Application layer overview.md"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "RSA",
+      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
     },
     {
-      "basename": "Import image",
-      "path": "programming/javascript/reactjs/Import image.md"
+      "basename": "Control flow",
+      "path": "programming/javascript/typescript/Control flow.md"
     },
     {
-      "basename": "Two-way binding",
-      "path": "programming/javascript/reactjs/state-management/Two-way binding.md"
+      "basename": "Interface",
+      "path": "programming/javascript/typescript/Interface.md"
     },
     {
-      "basename": "Observable",
-      "path": "programming/javascript/rxjs/Observable.md"
+      "basename": "Type",
+      "path": "programming/javascript/typescript/Type.md"
     },
     {
-      "basename": "RxJs",
-      "path": "programming/javascript/rxjs/RxJs.md"
+      "basename": "Basic NPM cli",
+      "path": "programming/javascript/reactjs/npm/Basic NPM cli.md"
+    },
+    {
+      "basename": "Type Element is missing the properties",
+      "path": "programming/javascript/reactjs/nextjs/Type Element is missing the properties.md"
+    },
+    {
+      "basename": "ESLint Next.js",
+      "path": "programming/javascript/reactjs/nextjs/ESLint Next.js.md"
+    },
+    {
+      "basename": "IonIcon in React",
+      "path": "programming/javascript/reactjs/icon/IonIcon in React.md"
+    },
+    {
+      "basename": "memo",
+      "path": "programming/javascript/reactjs/featured-api/memo.md"
+    },
+    {
+      "basename": "lazy",
+      "path": "programming/javascript/reactjs/featured-api/lazy.md"
+    },
+    {
+      "basename": "Component lifecycle",
+      "path": "programming/javascript/reactjs/architecture/Component lifecycle.md"
+    },
+    {
+      "basename": "Two-way binding in Angular",
+      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
+    },
+    {
+      "basename": "Content projection in Angular",
+      "path": "programming/javascript/angular/template/Content projection in Angular.md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
+    },
+    {
+      "basename": "Web Socket",
+      "path": "computer-network/application-layer/web-socket/Web Socket.md"
+    },
+    {
+      "basename": "HTTP Version",
+      "path": "computer-network/application-layer/http/HTTP Version.md"
     }
   ],
   "omittedPaths": [],

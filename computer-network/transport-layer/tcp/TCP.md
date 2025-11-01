@@ -37,7 +37,7 @@
 - $$Interval=RTT_{estimated}+4RTT_{deviate}$$
 # TCP reliable data transfer
 - Employs [Seletive repeat](Seletive%20repeat.md)
-## TCP fast retransmit
+## TCP fast re-transmit
 - If receiver detects a packet loss, it ==sends duplicate ACK== of next expected sequence number.
 - When sender ==receives 3 duplicate ACK== of that lost packet, it ==resends== that lost packet.
 # TCP Flow control
@@ -136,4 +136,7 @@
 - Ideal TCP conforms to ==ping-pong effect== $\Rightarrow$ try to be fair among connections.
 	- ![](Pasted%20image%2020240518105111.png)
 - 
-
+# References
+1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.
+	1. Chapter 3. Transport layer.
+2. HCMUT Computer Network Slides - Nguyễn Phương Duy.

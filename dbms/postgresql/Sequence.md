@@ -8,6 +8,5 @@ INCREMENT 10
 MINVALUE 10
 OWNED BY order_details.item_id;
 ```
----
 # References
 1. 

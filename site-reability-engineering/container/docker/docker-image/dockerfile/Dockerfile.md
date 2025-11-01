@@ -96,7 +96,6 @@ CMD ["tini", "--", "node", "./bin/www"]
 
 ```
 
----
 # References
 1. [Docker image](Docker%20image.md) for Docker image concepts.
 2. https://docs.docker.com/reference/dockerfile/ for Dockerfile command references.

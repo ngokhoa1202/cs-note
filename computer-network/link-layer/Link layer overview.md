@@ -21,7 +21,7 @@
 [MAC Address](MAC%20Address.md)
 
 ## ARP
-[ARP](ARP.md)
+[Address Resolution Protocol (ARP)](Address%20Resolution%20Protocol%20(ARP).md)
 
 ## Switch
 [Switch](Switch.md)

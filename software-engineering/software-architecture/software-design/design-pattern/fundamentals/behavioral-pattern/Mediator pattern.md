@@ -208,7 +208,6 @@ public enum Action {
 - Centralizes control and interaction between objects.
 # Trade-offs
 - Mediator object can become a god object.
----
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Mediator pattern.

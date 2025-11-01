@@ -64,7 +64,6 @@
 - The schedules produced by Thomas's write rule are not guaranteed to be serializable.
 - The rejection of write operations is fewer and hence boosts transaction's performance.
 
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.

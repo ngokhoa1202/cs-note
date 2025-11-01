@@ -44,7 +44,6 @@ a[0] = 1; // a[0] is lvalue
 - Also known as <mark class="hltr-yellow">right value</mark>.
 - An rvalue is a prvalue or an xvalue.
 
----
 # References
 1. C++ 20 Draft International Standard - 2020.
 2. https://learn.microsoft.com/en-us/cpp/cpp/lvalues-and-rvalues-visual-cpp?view=msvc-170

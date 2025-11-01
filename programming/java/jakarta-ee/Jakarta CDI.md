@@ -98,7 +98,6 @@ public class InformalGreeting extends Greeting {
 ## PreDestroy and PostConstruct
 
 
----
 # References
 1. https://docs.jboss.org/weld/reference/2.4.0.Final/en-US/html/scopescontexts.html#**_the_conversation_scope for conversation scope.
 2. https://jakarta.ee/learn/docs/jakartaee-tutorial/current/cdi/cdi-basic/cdi-basic.html#_using_scopes for official documentation for Jakarta CDI.

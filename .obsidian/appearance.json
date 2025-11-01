@@ -1,13 +1,21 @@
 {
   "theme": "moonstone",
   "accentColor": "",
-  "baseFontSize": 16,
-  "textFontFamily": "Open Sans,Sofia Sans,Lora",
-  "monospaceFontFamily": "MonoLisa,Fira Code",
-  "interfaceFontFamily": "Sora",
+  "baseFontSize": 20,
+  "textFontFamily": "Fira Sans",
+  "monospaceFontFamily": "Fira Code",
+  "interfaceFontFamily": "SF Pro Text",
   "cssTheme": "Minimal",
   "showRibbon": true,
   "enabledCssSnippets": [
-    "line-width"
+    "sans-math",
+    "math",
+    "beautiful-typography",
+    "typography",
+    "code-styler",
+    "enhanced-ui",
+    "beautiful-callouts",
+    "image",
+    "tag"
   ]
 }

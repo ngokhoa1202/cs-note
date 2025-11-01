@@ -19,6 +19,5 @@
 	- $T_n$ is waiting for $T_1$.
 # Livelock
 
----
 # References
 1. https://stackoverflow.com/questions/1036364/good-example-of-livelock for livelock example.

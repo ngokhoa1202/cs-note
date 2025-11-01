@@ -3,6 +3,5 @@
 # Spring JPA exception hierarchy
 - ![](Pasted%20image%2020250405103342%201.png)
 
----
 # References
 1. https://docs.spring.io/spring-framework/docs/4.0.x/spring-framework-reference/html/dao.html

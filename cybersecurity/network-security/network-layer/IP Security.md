@@ -6,9 +6,9 @@
 	- Connectionless integrity.
 	- Data origin authentication.
 	- Rejection of replayed packets.
-	- Confidentialty => limited traffic flow confidentiality.
+	- Confidentiality => limited traffic flow confidentiality.
 # Architecture
-![](Pasted%20image%2020240515150328.png)
+- ![](Pasted%20image%2020240515150328.png)
 
 ## Security Association (SA)
 - ==one-way logical connection== for sender and receiver.
@@ -83,7 +83,7 @@
 	- Tunnel mode: authenticate ==entire IP datagram== and encrypt IP payload.
 - Authenticate ciphertext only.
 ### ESP with Authentication
-#### Transport adjency
+#### Transport adjacency
 - authentication after encryption.
 - Two bundled transport SAs:
 	- inner: ESP without authentication => encrypt IP payload
@@ -94,7 +94,7 @@
 	- inner: AH transport SA => provide authentication for original I{ header.
 	- outer: ESP tunnel SA => encrypt inner IP datagram and add new IP header for authentication.
 ## Combinations of SA
-![](Pasted%20image%2020240516075259.png)
+- ![](Pasted%20image%2020240516075259.png)
 
 ## Scenario 1:
 - ==All== end systems must support IPSec => ==nested transport modes==, tunnel modes is optional.
@@ -118,3 +118,6 @@
 - Require ==tunnel modes between host and firewall==s, can be nested.
 # Internet key exchange
 [IKE](IKE.md)
+***
+# References
+1. 

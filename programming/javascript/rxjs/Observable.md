@@ -70,7 +70,6 @@ setTimeout(() => {
 	subscription.unsubscribe();
 }, 10000);
 ```
----
 # References
 1. [Push protocol vs Pull protocol](Push%20protocol%20vs%20Pull%20protocol.md) .
 2. [Generator](Generator.md) for generator concepts.

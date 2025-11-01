@@ -42,7 +42,6 @@
 - A much faster and low-memory footprint OCI-conformant runtime written in C. crun is lighter than runc because its C source code allows its compiled size to be 50x smaller and to run about 2x faster. C is not multi-threaded, but it follows the fork/exec model, meeting the OCI runtime expectation.
 ## containerd
 - Containerd is an OCI-compliant container runtime with an emphasis on simplicity, robustness, and portability. As a high-level runtime, it runs as a daemon and manages the entire lifecycle of containers. It is available on both Linux and Windows operating systems. Docker, also run as a daemon, is a containerization platform that uses containerd as a runtime to manage runc containers.
----
 # References
 1. https://en.wikipedia.org/wiki/OS-level_virtualization
 2. [Docker container](Docker%20container.md)

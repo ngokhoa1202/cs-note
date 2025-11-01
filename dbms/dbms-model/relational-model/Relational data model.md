@@ -8,7 +8,7 @@
 ## Constraints
 - Implicit constraints $\equiv$ logical contraints ([Entity Relation Diagram](Entity%20Relation%20Diagram.md)).
 - Explicit constraints $\equiv$ expressed in SQL.
-- Semantic contraints $\equiv$ business rules.
+- Semantic constraints $\equiv$ business rules.
 ### Domain constraint
 - Described by DDL.
 ### Key constraint
@@ -31,6 +31,5 @@
 - Industry prefers informal terminology.
 - ![](Pasted%20image%2020240904202213.png)
 - relationship relation $\equiv$ lookup table.
----
 # References
 1. 

@@ -222,7 +222,6 @@ function createStore(reducer, preloadedState) {
   return { dispatch, subscribe, getState }
 }
 ```
----
 # References
 1. https://redux.js.org/tutorials/fundamentals/part-3-state-actions-reducers
 2. 

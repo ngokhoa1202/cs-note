@@ -10,7 +10,6 @@
 - [Variadic function](programming/go/fundamentals/Function.md#Variadic%20function)
 ## Javascript
 - [[Rest parameter]]
----
 # References
 1. https://en.wikipedia.org/wiki/Variadic_function for Variadic function concept.
 2. [Variadic function](programming/go/fundamentals/Function.md#Variadic%20function) for Variadic function in Go.

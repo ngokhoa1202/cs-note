@@ -110,17 +110,16 @@ const regexp = /abc/;
 Object.getPrototypeOf(regexp) === RegExp.prototype; // true
 ```
 
-```Javascript title='Constructor prototype chain'
+```JavaScript title='Constructor prototype chain'
 function Constructor() {}
 
 const obj = new Constructor();
 // obj ---> Constructor.prototype ---> Object.prototype ---> null
-
 ```
 
 # Prototype chain
 - Static method `{Javascript} Object.setPrototypeOf(childPrototype, parentialPrototype)` is employed to manually establish a chain of prototype.
-```Javascript title='Object.setPrototype to extend prototype in Javascript'
+```JavaScript title='Object.setPrototype to extend prototype in Javascript'
 function Base() {}
 function Derived() {}
 // Set the `[[Prototype]]` of `Derived.prototype`
@@ -150,7 +149,6 @@ const doSomethingFromArrowFunction = () => {};
 console.log(doSomethingFromArrowFunction.prototype);
 ```
 - ![](Pasted%20image%2020250226102944.png)
----
 # References
 1. https://javascript.info/prototype-inheritance for prototypal inheritance.
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain

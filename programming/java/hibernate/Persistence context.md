@@ -29,6 +29,5 @@ public class ExtendedPersistenceContextUserService {
     // Remaining code same as above
 }
 ```
----
 # References
 1. https://www.baeldung.com/jpa-hibernate-persistence-context for persistenc context

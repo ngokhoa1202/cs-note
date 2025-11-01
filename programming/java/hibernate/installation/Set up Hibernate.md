@@ -46,6 +46,5 @@ spring.datasource.password=12022002
 	- `create-drop`: Database tables are dropped, then create new tables. When application is shut down, drop the tables. $\implies$ all data is lost.
 	- `validate`: Validate the database tables schema.
 	- `update`: Update the database tables schema. $\implies$ alter table schema on the latest update.
----
 # References
 1. 

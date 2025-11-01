@@ -112,7 +112,6 @@ public:
     {}
 };
 ```
----
 # References
 1. [Value category](Value%20category.md)
 2. https://stackoverflow.com/questions/3106110/what-is-move-semantics

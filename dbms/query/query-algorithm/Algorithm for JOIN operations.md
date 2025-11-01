@@ -39,7 +39,6 @@ attributes</mark> A and B, respectively.
 - In case the hash buckets fits the buffer:  we only hash and check in the buffer ![](Pasted%20image%2020241214185844.png)
 - In case the hash buckets are greater than the buffer size: loads, hashes sub files into buffer and checks: ![](Pasted%20image%2020241214190135.png) ![](Pasted%20image%2020241214190147.png)
 
----
 # References
 1. [Relational Algebra](Relational%20Algebra.md)
 2. [External sorting](External%20sorting.md)

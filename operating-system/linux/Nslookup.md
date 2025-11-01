@@ -19,6 +19,5 @@ nslookup <DOMAINNAME> <DNSSERVER>
 nslookup <DOMAINNAME>
 ```
 
----
 # References
 1. https://pimylifeup.com/ubuntu-nslookup/ for nslookup on ubuntu.

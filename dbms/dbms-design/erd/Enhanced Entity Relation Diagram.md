@@ -36,6 +36,5 @@
 - Represents ==OR== operations between entity.
 - ![](Pasted%20image%2020240617181051.png)
 - Category inherits only one parent class.
----
 # References
 1. 

@@ -27,7 +27,6 @@ docker ps [OPTIONS]
 #### List all already runned container
 - `-a` or `--all`: List all containers.
 
-
 # Docker image
 ## List image
 ```bash

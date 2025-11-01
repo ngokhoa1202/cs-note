@@ -40,7 +40,6 @@
 ### Web container
 
 ### EJB Container
----
 # References
 1. https://jakarta.ee/learn/docs/jakartaee-tutorial/9.1/jakarta-ee-tutorial.pdf for Jakarta EE official documentation.
 2. 

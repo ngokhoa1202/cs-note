@@ -51,7 +51,7 @@ $$(a,b) \in R \iff b \mid a$$
 - $R$ is not symmetric: $b \mid a \centernot\implies a \mid b$. For example: $2 \mid 6$ but $6 \centernot \mid 2$
 - $R$ is anti-symmetric: $b \mid a \land a \mid b \implies a = b$.
 - $R$ is transitive: $b \mid a \land c \mid b \implies c \mid a$.
----
+***
 # References
 1. Discrete Mathematics and Its Applications - Kenneth Rosen - Mc Graw Hill Publisher - 7th edition.
 	1. Chapter 9. Relation.

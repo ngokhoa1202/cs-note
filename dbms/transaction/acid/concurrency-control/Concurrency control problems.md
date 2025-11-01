@@ -22,7 +22,6 @@
 - This occurs when one transaction <mark class="hltr-yellow">updates</mark> a database item and then the transaction <mark style="background: #e4e62d;">fails</mark> for some reason. The updated item is <mark style="background: #e4e62d;">accessed by another transaction before it is changed back</mark> to its original value.
 	- Transaction fails without roll-back mechanism.
 - ![](Pasted%20image%2020241208125731.png)
-- ![](Pasted%20image%2020250525160256.png)
 ## The incorrect summary problem
 - If one transaction is calculating an <mark style="background: #e4e62d;">aggregate summary function</mark> on a number of records while<mark style="background: #e4e62d;"> other transactions are updating</mark> some of these records, the aggregate function may <mark style="background: #e4e62d;">calculate some values before they are updated</mark> and<mark style="background: #e4e62d;"> others after they are updated</mark>.
 - ![](Pasted%20image%2020241208131512.png)

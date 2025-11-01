@@ -96,6 +96,5 @@ const UserCard = memo(({ user, permissions, onEdit }) => {
   return userUnchanged && permissionsUnchanged && onEditUnchanged;
 });
 ```
----
 # References
 1. https://react.dev/reference/react/memo

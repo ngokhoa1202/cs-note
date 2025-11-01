@@ -103,7 +103,6 @@ public class Product{
 
 }
 ```
----
 # References
 1. [EER-to-Relational Mapping](EER-to-Relational%20Mapping.md) for Sql relational mappings.
 2. Jakarta EE 10 Specification.

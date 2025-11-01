@@ -109,7 +109,6 @@ incCounter();
 console.log(counter); // 4
 ```
 
----
 # References
 1. https://javascript.info/modules-intro for Javascript Module.
 2. https://262.ecma-international.org/6.0/index.html for ECMAScript 2015.

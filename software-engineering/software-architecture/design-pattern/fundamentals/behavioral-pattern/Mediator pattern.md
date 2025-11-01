@@ -1,10 +1,11 @@
-#design-pattern #software-engineering  #software-architecture #oop #behavioral-pattern  #solid #functional-programming #high-order-function #dbms #transaction #java 
+#design-pattern #software-engineering  #software-architecture #oop 
+#behavioral-pattern  #solid #functional-programming #high-order-function #dbms #transaction #java 
 
 # Purpose
 - Defines an object which <mark class="hltr-yellow">encapsulates</mark> and <mark class="hltr-yellow">thus reduce the complexity </mark>of how a collection of related objects interact.
 - Promotes loose coupling by keeping objects from explicitly referring to each other.
 # Applicability
-- There is a collection of objects which have complicated interaction and interdependencies.
+- There is a collection of objects which have complicated interaction and inter-dependencies.
 - Object reusability is difficult because of complex interaction.
 - There is a common behavior among classes which should be customizable without much subclassing.
 # Components
@@ -208,7 +209,7 @@ public enum Action {
 - Centralizes control and interaction between objects.
 # Trade-offs
 - Mediator object can become a god object.
----
+***
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Mediator pattern.

@@ -80,7 +80,6 @@
 - ![](Pasted%20image%2020241117171537.png)
 
 
----
 # References
 1. Domain Driven Design - Eric Evans - 2003
 	1. A Model Expressed in Software.

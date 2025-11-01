@@ -15,5 +15,6 @@
   "readableLineLength": true,
   "showLineNumber": true,
   "trashOption": "system",
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "smartIndentList": true
 }

@@ -5,7 +5,6 @@
 # Redux thunk
 # Redux slice
 
----
 # References
 1. https://redux.js.org/tutorials/essentials/part-2-app-structure
 2. 

@@ -49,7 +49,6 @@
 - Generated from database schema after executing DDL commands.
 - ![](Pasted%20image%2020240912142224.png)
 
----
 # References
 1. HCMUT Database slides - Truong Quynh Chi.
 2. https://www.lucidchart.com/pages/ER-diagram-symbols-and-meaning

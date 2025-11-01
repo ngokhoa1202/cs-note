@@ -11,7 +11,6 @@
 ## Dynamic multi-level indexes
 - [Dynamic multi-level indexes using B tree or B+ tree](Dynamic%20multi-level%20indexes%20using%20B%20tree%20or%20B+%20tree.md)
 
----
 # References
 1. *HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.*
 2. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).*

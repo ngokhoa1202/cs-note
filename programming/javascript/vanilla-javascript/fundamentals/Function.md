@@ -33,7 +33,10 @@ button.addEventListener("click", function (event) {
 
 ## Immediately Invoked Function Expression
 - Acronym is IIFE.
-```javascript
+- Immediately Invoked Function Expression contains two major parts:
+	- A function expression enclosed in parentheses in order to be parsed correctly.
+	- Immediately _calling_ the function expression with arguments provided
+```Javascript title='Immediately Invoked Function Expression example'
 "use strict";
 
 function foo() {
@@ -90,7 +93,7 @@ param => {
 };
 ```
 
----
 # References
 1. https://javascript.info/arrow-functions-basics for arrow function basics.
 2. [Scope](Scope.md) for Javascript Scope.
+3. https://benalman.com/news/2010/11/immediately-invoked-function-expression/#iife for Immediate Invoked Function Expression.

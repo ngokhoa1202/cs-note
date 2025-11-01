@@ -127,7 +127,6 @@ class Point {
 }
 ```
 - Inheritance in Javascript is Prototypal inheritance.
----
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes for official classes documentation.
 2. ECMAScript ® 2020 Language Specification - 11th June, 2020.

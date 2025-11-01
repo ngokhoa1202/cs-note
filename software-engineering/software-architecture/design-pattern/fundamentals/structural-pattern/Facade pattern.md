@@ -11,8 +11,8 @@
 ## Facade
 - Knows everything about subsystems.
 - Provides interfaces for user to perform tasks on subsystems.
-- Delegates reponsibility to its subsystems.
-## Subsytem classes
+- Delegates responsibility to its subsystems.
+## Subsystem classes
 - Implement its concrete functionality.
 - Does not know about Facade $\equiv$ does not keep Facade object.
 ## Client
@@ -21,8 +21,8 @@
 # Example
 - ![](Pasted%20image%2020240614164547.png)
 # Real example
-- Laravel PHP (`$app` object).
-- 
+- Laravel PHP `$app` object.
+- Express.js `const app = express()` object.
 # Design
 - Facade should ==minimize the complexity== of subsystem.
 - Facade is not a replacement for regular usage of subsystem classes.
@@ -34,3 +34,5 @@
 - 
 # References
 1. https://refactoring.guru/design-patterns/facade/java/example for Facade real examples.
+2. https://expressjs.com/ for Express.js. 
+3. https://laravel.com/ for Laravel PHP.

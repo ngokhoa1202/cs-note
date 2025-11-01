@@ -107,7 +107,6 @@
 8. $\sigma_{\text{Salary} \times \text{Commission\_pt} + \text{Salary}} (\text{Employee})$
 	- Linear search.
 	- Use functional index on $\text{Salary} \times \text{Commission\_pt} + \text{Salary}$ if exists.
----
 # References
 1. [Relational Algebra](Relational%20Algebra.md)
 2. [External sorting](External%20sorting.md)

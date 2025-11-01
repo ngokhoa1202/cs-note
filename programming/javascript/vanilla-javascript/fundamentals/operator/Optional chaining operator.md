@@ -23,7 +23,6 @@ console.log(adventurer.someNonExistentMethod?.());
 ```Javascript title='Optional chaining operator for method invocation'
 const result = someInterface.customMethod?.();
 ```
----
 # References
 1. https://en.wikipedia.org/wiki/Safe_navigation_operator
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining for Optional chaining operator.

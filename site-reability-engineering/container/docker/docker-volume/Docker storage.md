@@ -7,7 +7,7 @@
 	 - Requires storage <mark style="background: #e4e62d;">driver</mark> to manage filesystem $\implies$ incur performance overhead.
 - Docker supports other ways to mount filesystem.
 # Docker mounting file system
-- ![800x400](Pasted%20image%2020240930161313.png)
+- ![](Pasted%20image%2020240930161313.png)
 ## Data volume
 ### Mechanism
 - Container data is permanently stored on the <mark style="background: #e4e62d;">host filesystem</mark> but <mark style="background: #e4e62d;">managed by Docker</mark> (e.g: `/var/lib/mysql/docker`), which is independent of both the host's directory structure and operating system.
@@ -81,7 +81,6 @@ docker run -d \
 - Stands for temporary file system.
 - Stored <mark style="background: #e4e62d;">only  on</mark> the host's <mark style="background: #e4e62d;">memory</mark> and never written the host's filesystem.
 
----
 # References
 1. https://docs.docker.com/engine/storage/ for Docker Storage.
 2. https://docs.docker.com/engine/storage/drivers/ for Docker storage driver.

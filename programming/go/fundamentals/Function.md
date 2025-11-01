@@ -1,5 +1,4 @@
 #functional-programming #go #data-type #high-order-function #structured-programming 
-
 # Function declaration
 ```Go title='Function declaration form in Go'
 func name(parameter-list) (result-list) {
@@ -177,10 +176,10 @@ func main() {
 	fmt.Println(isMultipleOf15(60)) // true
 }
 ```
----
 # References
 1. https://go101.org/article/function.html for Function Signature in Go.
 2. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 	1. Chapter 5. Functions.
 3. https://go101.org/article/function-declarations-and-calls.html for Function Declaration in Go.
 4. https://go101.org/article/summaries.html#compile-time-evaluation for compile-time evaluated function.
+5. 

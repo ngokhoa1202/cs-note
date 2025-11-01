@@ -83,7 +83,6 @@ git push <remote> --delete <branch> # Verbose form
 git push <remote> -d <branch> # Simple form
 ```
 
----
 # References
 - Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	- Git Branching.

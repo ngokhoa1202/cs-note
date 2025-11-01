@@ -80,7 +80,6 @@ const {
 // Two variables are bound: `a` and `d`
 ```
 
----
 # References
 1. ECMAScript ® 2020 Language Specification - 11th June, 2020.
 2. *https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment for destructuring assignment.*

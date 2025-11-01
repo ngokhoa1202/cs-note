@@ -198,7 +198,6 @@ class Director {
 
 }
 ```
----
 # References
 1. [Class](programming/javascript/vanilla-javascript/fundamentals/Class.md) for classes in Javascript.
 2. https://www.typescriptlang.org/docs/handbook/2/classes.html for Class in Typescript.

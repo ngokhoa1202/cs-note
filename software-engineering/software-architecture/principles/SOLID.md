@@ -25,7 +25,6 @@
 - $\implies$ ==Loosely coupled dependency== instead of tightly coupled dependency.
 - $\implies$ ==Interface== or ==abstract function== instead of concrete class.
 - $\implies$ Should provide dependency from ==external== environment.
----
 # References
 1. [Design patterns](software-engineering/software-architecture/design-pattern/Design%20patterns.md) for design pattern categories - real examples of SOLID principles.
 2. [Domain driven design](software-engineering/software-architecture/domain-driven-design/Domain%20driven%20design.md) for Domain Driven Design - application of SOLID for enterprise application.

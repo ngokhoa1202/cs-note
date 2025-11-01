@@ -95,7 +95,6 @@
 - Identity: Components must reference the same entity
 
 
----
 # References
 1. Fundamentals of Software Architecture An Engineering Approach - Mark Richards Neal Ford - O_Reilly Media (2020)
 	1. Chapter 2. Architectural Thinking.

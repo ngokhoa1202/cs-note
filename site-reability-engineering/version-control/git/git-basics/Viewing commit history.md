@@ -90,7 +90,6 @@ d1a43f2 - reset --hard/read-tree --reset -u: remove unmerged new paths
 51a94af - Fix "checkout --track -b newbranch" on detached HEAD 
 b0ad11e - pull: allow "git pull origin $something:$current_branch" into an unborn branch
 ```
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Basics.

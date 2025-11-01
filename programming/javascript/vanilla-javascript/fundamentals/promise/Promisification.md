@@ -124,7 +124,6 @@ class CacheService {
   }
 }
 ```
----
 # References
 1. https://javascript.info/promisify
 2. https://javascript.info/async-await

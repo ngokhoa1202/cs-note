@@ -14,6 +14,5 @@ sudo dnf config-manager --set-disabled <repo-name>
 ```bash title='Enable a repository'
 sudo dnf config-manager --set-enabled elrepo
 ```
----
 # References
 1. 

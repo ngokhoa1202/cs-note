@@ -39,7 +39,6 @@
 - Significantly delay transaction's commit because of long time to acquire certify locks. $\implies$ longer transactions.
 - Avoid cascading abortion and rollbacks because only committed version of items is allowed to be read by another transaction.
 - Not deadlock-free.
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 20 - Section 1.

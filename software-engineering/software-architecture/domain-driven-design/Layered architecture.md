@@ -23,7 +23,6 @@
 	- persistence for the domain,
 	- drawing widgets for the UI, etc. 
 - May also support the pattern of interactions between the four layers through an <mark style="background: #e4e62d;">architectural framework</mark>.
----
 # References
 1. *Domain Driven Design - Eric Evans - 2003* for the layered architecture.
 2. *https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/ for dependency in oop.*

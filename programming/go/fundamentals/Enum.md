@@ -51,7 +51,6 @@ const (
 
 ```
 
----
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 2. https://gobyexample.com/enums

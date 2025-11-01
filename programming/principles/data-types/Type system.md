@@ -14,5 +14,4 @@
 
 # Linear Type Inference
 
----
 # References

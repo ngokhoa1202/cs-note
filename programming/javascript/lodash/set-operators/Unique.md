@@ -41,6 +41,5 @@ const cheapestUniqueProducts = _.uniqBy(
 );
 console.log('Cheapest unique products:', cheapestUniqueProducts);
 ```
----
 # References
 1. https://lodash.com/docs/4.17.15#uniq

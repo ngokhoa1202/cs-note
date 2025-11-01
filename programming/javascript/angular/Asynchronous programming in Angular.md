@@ -3,7 +3,7 @@
 # Asynchronous programming
 ## Zone.js
 - The change of an element on DOM tree is automatically managed by Angular itself (actually `Zone.js`).
-- Much simpler compared to [useState hook](useState%20hook.md) of ReactJs.
+- Much simpler compared to [useState hook](useState%20hook.md) of ReactJS.
 - However, Angular has to ==traverse all of the component tree== to detect which component needs updating after the state has been changed.
 ## signal
 - More fine-grained because we ==explicitly declare which element on DOM is observed for change==.
@@ -69,6 +69,5 @@ export class HeaderComponent {
 
 # RxJs
 - [RxJs](RxJs.md)
----
 # References
 1. 

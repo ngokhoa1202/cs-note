@@ -48,10 +48,8 @@
 - If the `merge` performs on a ==transient== entity instance without identifier field, Hibernate will ==instantiate== a fresh entity instance, ==copy== the value of the transient object onto it and ==make it persistent==.
 ## Remove a detached entity instance
 - Merge the entity instance first, then remove it from the persistent context.
----
 # Auxiliary
 1. For me, for this context, the word "volatile" sounds more technical for the hardware.
----
 
 # References
 1. https://www.codejava.net/frameworks/spring-boot/spring-data-jpa-entitymanager-examples for implementation reference.

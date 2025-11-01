@@ -21,7 +21,6 @@ alert(height || 100); // 100
 alert(height ?? 100); // 0 
 
 ```
----
 # References
 1. https://javascript.info/nullish-coalescing-operator for Null coalescing operator.
 2. https://en.wikipedia.org/wiki/Short-circuit_evaluation for Short circuit evaluation mechanism.

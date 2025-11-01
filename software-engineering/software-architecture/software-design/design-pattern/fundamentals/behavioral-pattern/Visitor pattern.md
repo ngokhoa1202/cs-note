@@ -239,7 +239,6 @@ visitor.visitBinaryExpression(this)  // Calls specific visitor method
 ## Compiler's static checking
 - https://github.com/ngokhoa1202/hcmut-ppl 
 
----
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 		1. Visitor.

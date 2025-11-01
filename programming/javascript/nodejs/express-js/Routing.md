@@ -43,6 +43,5 @@ req.params: { "userId": "34", "bookId": "8989" }
 ```
 
 # Route handlers
----
 # References
 1. https://expressjs.com/en/guide/routing.html for Express Js routing methods.

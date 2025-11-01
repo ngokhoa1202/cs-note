@@ -162,7 +162,6 @@ class Dog extends Animal implements Comparable<Dog>, Serializable {
     }
 }
 ```
----
 # References
 1. https://dev.java/learn/generics/intro/
 2. [[Polymorphism]] for Polymorphism principle.

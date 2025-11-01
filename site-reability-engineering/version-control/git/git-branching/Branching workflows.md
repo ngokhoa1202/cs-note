@@ -18,7 +18,6 @@
 - ![](Pasted%20image%2020241101112522.png)
 - Merge branch `iss91v2`  with branch `dumbidea`  $\implies$ three-way merging![](Pasted%20image%2020241101113545.png)
 
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	- Git Branching.

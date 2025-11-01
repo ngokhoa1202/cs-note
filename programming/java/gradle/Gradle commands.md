@@ -31,7 +31,6 @@ gradle [--option-name...] [taskName...]
 ./gradlew <task> --build-cache
 ```
 
----
 # References
 1. https://gradle.org/ version 8.8
 2. 

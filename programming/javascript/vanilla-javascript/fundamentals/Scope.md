@@ -34,7 +34,6 @@ function train() {
   // do something
 }
 ```
----
 # References
 1. https://developer.mozilla.org/en-US/docs/Glossary/Scope for official documentation about scope.
 2. ECMAScript ® 2020 Language Specification - 11th June, 2020.

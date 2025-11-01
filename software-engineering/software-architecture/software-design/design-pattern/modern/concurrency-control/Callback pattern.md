@@ -89,7 +89,6 @@ public final class App {
 # Trade-offs
 - Callback hell or pyramid of doom.
 - 
----
 
 # References
 1. [Promise](programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md) for Promise API.

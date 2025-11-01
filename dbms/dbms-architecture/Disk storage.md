@@ -77,7 +77,6 @@ sudo fdisk -l # check for block size
 ## Double buffering
 - Use <mark style="background: #e4e62d;">two buffers</mark> to increase hit cache probability.
 
----
 # References
 1. *HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.*
 2. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).*

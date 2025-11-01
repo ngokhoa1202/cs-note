@@ -53,7 +53,6 @@
 - *There is no right or wrong answers in software architecture - <mark class="hltr-yellow">only trade-offs</mark>.* 
 - Architecture is the stuff you can Google, it depends on the <mark class="hltr-yellow">business context</mark>.
 
----
 # References
 1. Fundamentals of Software Architecture An Engineering Approach - Mark Richards Neal Ford - O_Reilly Media (2020)
 	1. Chapter 2. Architectural Thinking.

@@ -20,7 +20,6 @@ sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.4 2
 sudo update-alternatives --config python
 ```
 
----
 # References
 1. https://superuser.com/questions/1763779/how-to-configure-alternatives-for-python
 2. https://linuxconfig.org/how-to-change-from-default-to-alternative-python-version-on-debian-linux

@@ -23,7 +23,6 @@
 - Each edge $e$ is drawn when transaction $T_i$ is<mark style="background: #e4e62d;"> waiting to lock an item</mark> $X$ that is <mark style="background: #e4e62d;">being locked</mark> by a transaction $T_j$. However, when transaction $T_j$ release the lock, edge $e$ is removed.
 ## Implications
 - Deadlock exists if and only if the graph has <mark style="background: #e4e62d;">cycle</mark>.
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 8: Deadlocks.

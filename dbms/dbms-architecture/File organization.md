@@ -91,7 +91,6 @@
 ## Dynamic hashing
 ## Extendible hashing
 - 
----
 # References
 1. HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.
 2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):

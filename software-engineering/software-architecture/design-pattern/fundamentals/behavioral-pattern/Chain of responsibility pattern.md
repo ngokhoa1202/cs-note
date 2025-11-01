@@ -169,7 +169,6 @@ public class Main {
 - Flexibly assigning responsibilities to specific Handler to process a request.
 - Some request may end up not being handled because there is ==no specific receiver== ($\equiv$ loose coupling).
 
----
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Chain of responsibility pattern.

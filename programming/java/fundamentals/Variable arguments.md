@@ -15,7 +15,6 @@ public String formatWithVarArgs(String... values) {
 - The varargs parameter must be the last parameter.
 # Heap pollution
 
----
 # References
 1. https://www.baeldung.com/java-varargs for Variable arguments in Java.
 2. [Rest parameter](Rest%20parameter.md) for Rest parameter in Javascript.

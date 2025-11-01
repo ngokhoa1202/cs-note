@@ -148,7 +148,7 @@ class StockAnalysisService(StockService, StockStorage):
 - [`javax.xml.bind.annotation.adapters.XmlAdapter#marshal()`](https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/annotation/adapters/XmlAdapter.html#marshal-BoundType-)
 
 
-# Advatanges
+# Advantages
 - Ensure [Single responsibility principle](SOLID.md#Single%20responsibility%20principle) because Adapter separates interface adaptation from Adaptee or Target.
 - Ensure [Open-Closed Principle.](SOLID.md#Open-Closed%20Principle.) because we can define new Adapters without modifying client code.
 # Disadvantages
@@ -156,7 +156,6 @@ class StockAnalysisService(StockService, StockStorage):
 	- Allows subclass to override its behaviour.
 	- Force subclasses to implement its unrelated interfaces.
 - Complicated because we have to define new interfaces and Adapter class.
----
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Adapter pattern.

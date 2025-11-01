@@ -121,7 +121,6 @@ git add <dest>
 
 
 
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Basics.

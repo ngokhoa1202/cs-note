@@ -1,0 +1,9 @@
+.image-embed {
+    display: inline-block !important;
+    overflow: hidden;
+    transition: all 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.image-embed:hover {
+    transform: scale(1.2);
+}

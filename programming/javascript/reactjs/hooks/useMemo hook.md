@@ -46,6 +46,5 @@ export default function TodoList({ todos, tab, theme }) {
   );
 }
 ```
----
 # References
 1. https://react.dev/reference/react/useMemo

@@ -71,7 +71,6 @@ Key benefits of using OpenStack are:
 - It facilitates automation throughout the stages of the cloud lifecycle.
 - It is cost-effective, achieved by reducing system management overhead and avoiding vendor lock-in.
 
----
 # References
 1. https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2023/block-v1:LinuxFoundationX+LFS151.x+2T2023+type@sequential+block@9dac140f040a4639a576447185bd3237/block-v1:LinuxFoundationX+LFS151.x+2T2023+type@vertical+block@cd2a02615b7c402caa46a0da2082081c
 2. https://www.openstack.org/

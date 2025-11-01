@@ -1,4 +1,5 @@
-#angular #angular17 #angular18 #annotation #javascript #typescript #design-pattern #object-oriented-programming #functional-programming 
+#angular #angular17 #angular18 #annotation #javascript #typescript #design-pattern #object-oriented-programming 
+#functional-programming 
 #structural-pattern #software-engineering #software-architecture #html 
 
 # Input
@@ -26,7 +27,6 @@
 		- The argument binded in HTML template is still an event.
 ## Output function
 
----
 # References
 1. [Event binding](Event%20binding.md) for binding events in Angular.
 2. [Decorator pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator%20pattern.md) for decorator used in both `@Input` and `@Output` annotation.

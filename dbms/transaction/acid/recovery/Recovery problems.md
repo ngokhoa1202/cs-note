@@ -51,7 +51,6 @@
 ### Redo
 - Trace <mark style="background: #e4e62d;">forwards</mark> through the log and setting all items changed by a <mark style="background: #e4e62d;">write operation</mark> of $T$ (that did not get done permanently) to their new_values.
 
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 20 - Section 1.

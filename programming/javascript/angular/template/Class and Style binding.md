@@ -2,7 +2,6 @@
 
 
 
----
 # References
 1. https://angular.dev/guide/templates/class-binding official documentation about class binding.
 2. 

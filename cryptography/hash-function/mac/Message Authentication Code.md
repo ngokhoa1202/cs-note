@@ -12,14 +12,7 @@
 - Widespread used by [Json Web Token](Json%20Web%20Token.md)
 - Message authentication protects two parties who exchange messages *from any third party*. However, it <mark class="hltr-yellow">does not protect the two parties against each other</mark>.
 # MAC Function
-- MAC Function is  a ==many-to-one== function which accepts a variable-length message and generates a fixed-length authenticator called tag.
-- Three scenarios:
-	- ![](Pasted%20image%2020240511141058.png)
-	- (a): Without encryption: $M$,$C_M$ are concatenated and sent to Internet.
-	- (b): Encrypt MAC by $K_1$ , then concatenate with $M$ => encrypt by $K_2$ => Decrypt the whole block with $K_2$ first. Only $A$ can generate this plaintext. 
-	- (c): Encrypt $M$ by $K_2$ first, then encrypt MAC with $K_1$ and concat. Decrypt $E$ by $K_2$ before calculating MAC again to check.
-- Know as ==tag== $T=MAC(K,M)$
-- HMAC [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) 
+- MAC Function is  a ==many-to-one== function which accepts a variable-length message and generates a fixed-length authenticator called tag $T=MAC(K,M)$
 ## Requirement
 - Cannot find $M' \neq M: MAC(K,M')=MAC(K,M)$ .
 - If uniformly distributed:
@@ -80,8 +73,8 @@
 >Modern cryptographic protocols strongly favor encrypt-then-MAC for these security advantages.
 
 
----
 # References
 1. [Json Web Token](Json%20Web%20Token.md) for HMAC application.
 2. Cryptography and Network Security_ Principles and Practice - William Stallings -  Global Edition-Pearson (2022)
 	1. Chapter 12. Message Authentication Codes.
+3. [[HMAC]] 

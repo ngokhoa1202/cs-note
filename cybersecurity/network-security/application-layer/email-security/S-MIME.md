@@ -55,6 +55,5 @@
 - **Secure mail list**: employs MLA <-> Mail List Agent.
 - **Signing Certificate**: bind sender's certificate to signature.
 
----
 # Reference
 1. [MIME](MIME.md)

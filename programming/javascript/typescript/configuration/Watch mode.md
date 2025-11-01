@@ -6,12 +6,12 @@
 ```bash
 tsc script.ts --target es2020 --watch
 ```
-## Use fs.watch
+## Use `fs.watch`
 - Relies on file system events to broadcast changes.
 - Unstable if the code bases are large.
-## Use fs.watchFile
+## Use `fs.watchFile`
 - Employs polling mechanism and wastes CPU cycle.
-# Use tsconfig.json
+# Use `tsconfig.json`
 - Use `--init` flag to initiate a `tsconfig.json` file. 
 
 ```json title='tsconfig.json after running tsc --init'
@@ -126,7 +126,7 @@ tsc script.ts --target es2020 --watch
 	}
 }
 ```
----
+***
 # References
 1. https://www.typescriptlang.org/docs/handbook/compiler-options.html for TypeScript watch mode.
 2. https://www.google.com/search?q=tsc+cli for Typescript command line.

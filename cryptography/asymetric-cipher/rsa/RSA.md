@@ -21,7 +21,6 @@
 - Encryption - decryption.
 - Digital signature.
 - Key exchange.
----
 # References
 1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition Pearson (2022).
 2. [[Public-key cryptosystem]]

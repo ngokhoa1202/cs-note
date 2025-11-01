@@ -52,7 +52,6 @@
 ### Optimistic concurrency control techniques
 - [Optimistic Concurrency control](Optimistic%20Concurrency%20control.md)
 
----
 # References
 1. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):*
 	1. Chapter 20 - Section 1.

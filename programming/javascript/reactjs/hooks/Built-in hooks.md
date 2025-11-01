@@ -22,7 +22,6 @@
 - [[useCallback hook]]
 - [[useTransition hook]]
 - [[useDeferredValue hook]]
----
 # References
 1. https://react.dev/reference/react/hooks for React hooks overview.
 2. [[useState hook]]

@@ -7,8 +7,8 @@
 - Memory optimization is vital.
 # Components
 ## Intrinsic vs extrinsic state
-- ==Intrinsic== state is stored in Flyweight and is ==independent== of flyweight's context. $\implies$ ==sharable==
-- ==Extrinsic== state is passed as argument to Flyweight and ==dependent== on the context (client) $\implies$ ==not sharable==.
+- ==Intrinsic== state is stored in Flyweight and is ==independent== of flyweight's context. $\implies$ ==shareable==
+- ==Extrinsic== state is passed as argument to Flyweight and ==dependent== on the context (client) $\implies$ ==not shareable==.
 ## How Flyweight objects are shared
 - ![700](Pasted%20image%2020240619090430.png)
 ## Structure
@@ -22,15 +22,15 @@
 ### Shared Concrete Flyweight
 - Implements ==interfaces declared in Flyweight that receive extrinsic state== with respect to its behavior.
 - ==Stores intrinsic state==.
-- Must be sharable.
+- Must be shareable.
 ### Unshared Concrete Flyweight
-- May be unsharable.
+- May be unshareable.
 - May aggregate a ==collection of other Shared Concrete Flyweight objects==.
 ### Flyweight Factory
 - Optional. If exists, used to create and ==manage a pool of Flyweight objects==.
 - Implements logic to determine when to reuse existing objects and when to instantiate a new object. $\implies$ ==ensure object sharing==.
 ### Client - Context
-- Stores either a FlyweightFactory (if exists) or a Flyweight object.
+- Stores either a Flyweight Factory (if exists) or a Flyweight object.
 - Knows how to instantiate a Flyweight object by ==passing extrinsic state== to Flyweight methods.
 
 # Example

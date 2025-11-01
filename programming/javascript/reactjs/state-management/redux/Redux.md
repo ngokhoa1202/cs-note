@@ -109,7 +109,6 @@ console.log(currentValue)
 	- The store notifies all parts of the UI that are subscribed that the store has been updated.
 	- Each UI component that subscribes data from the store checks to see if their own state has been changed.
 	- Each component that sees its data has changed forces a <mark class="hltr-yellow">re-render with the new data</mark>, so it can update what's shown on the screen
----
 # References
 1. https://redux.js.org/tutorials/essentials/part-1-overview-concepts
 2. [useReducer hook](useReducer%20hook.md) for reducer concepts.

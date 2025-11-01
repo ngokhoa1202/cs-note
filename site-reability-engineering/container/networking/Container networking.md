@@ -68,7 +68,6 @@ In addition to the single-host networking, Docker also supports multi-host netwo
 
 - _Macvlan Driver_With the [Macvlan](https://docs.docker.com/network/macvlan/) driver, Docker assigns a MAC (physical) address for each container and makes it appear as a physical device on the network. As the containers appear in the same physical network as the Docker host, we can assign them an IP from the network subnet as the host. As a result, direct container-to-container communication is enabled between different hosts. Containers can also directly talk to hosts. However, we need hardware support to implement the Macvlan driver. For more information about Macvlan, please visit its [documentation available on the Docker website](https://docs.docker.com/network/macvlan/).
 - 
----
 # References
 1. https://learning.edx.org/course/course-v1:LinuxFoundationX+LFS151.x+2T2023/block-v1:LinuxFoundationX+LFS151.x+2T2023+type@sequential+block@b41cef0b7dbc4bec93da4c1a2ce253a7
 2. 

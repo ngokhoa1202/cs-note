@@ -18,7 +18,6 @@
 ### Decrypt
 - $M=C^d mod \space n = (M^e)^d mod \space n = M^{k\phi(n)+1} mod \space n = M$ 
 
----
 # References
 1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition Pearson (2022).
 

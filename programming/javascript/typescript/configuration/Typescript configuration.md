@@ -128,7 +128,7 @@
 - Property `noEmitOnErrors`
 # Type checking
 - `strict` flag enables stronger static checking behavior to ensure the program correctness.
-## Explicit <span style="font-family: 'JetBrains Mono';">this</span> pointer
+## Explicit `this` pointer
 - Property `noImplicitThis`
 - `this` pointer must be explicitly passed as an argument to a function in non-strict mode.
 - All implicit `this` argument is considered invalid at compile time.
@@ -181,7 +181,6 @@ const fedora: Environment = {
 
 const family = fedora["family"];
 ```
----
 # References
 1.  https://www.typescriptlang.org/docs/handbook/compiler-options.html for Typescript basic command lines.
 2. . https://www.typescriptlang.org/docs/handbook/compiler-options.html for TypeScript watch mode.

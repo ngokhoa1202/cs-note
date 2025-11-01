@@ -5,8 +5,8 @@
 - Add `-webkit-background-clip` property as `text`:
 	- Represents the extent to which background image or color will apply.
 - Set `color` property as `transparent`.
-- Add animation when hoverring.
-```SCSS
+- Add animation when hovering.
+```SCSS title='Style heading using background gradient'
 .heading-secondary {
 
 	font-size: 3.6rem;
@@ -25,3 +25,6 @@
 	}
 }
 ```
+***
+# Reference
+1. 

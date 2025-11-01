@@ -249,7 +249,7 @@ const selectCompletedTodoDescriptions = createSelector(
 )
 ```
 ## Passing input parameters
-- A `Reselect`-generated selector function can be called with arbitrary number of arguments as long as the selector functions are well defined.
+- A `Reselect`generated selector function can be called with arbitrary number of arguments as long as the selector functions are well defined.
 ```JSX title='Pass multiple arguments into the createSelector function'
 const selectItemsByCategory = createSelector(
   [
@@ -267,7 +267,6 @@ const electronicItems = selectItemsByCategory(state, "electronics");
 ```
 ## Selector factory
 - `createSelector` only has a default cache size of 1,  and this is *per each unique instance* of a selector.
----
 # References
 1. https://redux.js.org/usage/deriving-data-selectors
 2. https://github.com/reduxjs/reselect for `reselect` library in React Redux.

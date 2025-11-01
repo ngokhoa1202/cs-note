@@ -88,6 +88,5 @@ SCRIPT
 - Vagrant provides high-level [networking](https://www.vagrantup.com/docs/networking/) options for port forwarding, network connectivity, and network creation. These networking options represent an abstraction that enables cross-provider portability. That is, the same Vagrantfile used to provision a VirtualBox VM could be used to provision a VMware machine.
 # Multi-machine
 - A project's Vagrantfile may describe [multiple VMs](https://www.vagrantup.com/docs/multi-machine/), which are typically intended to work together or may be linked between themselves.
----
 # References
 1. 

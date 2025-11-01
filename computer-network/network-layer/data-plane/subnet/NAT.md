@@ -8,6 +8,5 @@
 - ![](Pasted%20image%2020240522152039.png)
 - Router stores a NAT translation table containing ==WAN-to-LAN address records==. (aka Internet $\to$ Intranet).
 
----
 # References
 1. 

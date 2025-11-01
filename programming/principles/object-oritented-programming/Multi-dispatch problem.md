@@ -13,6 +13,5 @@ class CollisionDetector {
     public boolean collides(Rectangle r1, Rectangle r2) { /* rectangle-rectangle logic */ }
 }
 ```
----
 # References
 1. 

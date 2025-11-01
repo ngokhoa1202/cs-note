@@ -35,7 +35,6 @@ let date = new Date(Date.now() + 86400e3).toUTCString();
 document.cookie = "user=John; expires=" + date;
 ```
 - Cookie size should not exceed 4 KB.
----
 # References
 1. https://javascript.info/cookie
 2. [[computer-network/application-layer/http/Cookie|Cookie]]

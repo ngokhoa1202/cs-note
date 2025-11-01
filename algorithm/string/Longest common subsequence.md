@@ -1,7 +1,7 @@
 #string #algorithm #algorithm-analysis 
 
 
----
+***
 # References
 1. Algorithms Analysis and Design Slides - Võ Thị Ngọc Châu.
 	1. Chapter 5: Dynamic Programming and Greedy Algorithms.

@@ -8,6 +8,5 @@ public interface Collector<T,A,R>
 - `A` : the mutable *accumulation type* of the reduction operation (often hidden as an implementation detail).
 - `R` : the *result type* of the reduction operation.
 
----
 # References
 1. https://docs.oracle.com/javase/8/docs/api/java/util/stream/Collector.html

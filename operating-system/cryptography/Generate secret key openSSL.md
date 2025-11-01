@@ -8,7 +8,6 @@ openssl genrsa -out private-key.pem <length> # generate secret key
 openssl rsa -in private-key.pem -out public-key.pem -outform PEM -pubout # generate public key
 ```
 - Length can be either 1024, 2048, 3072 or 4096.
-
 # Generate key pair
 ## Generate private key
 ```Shell title='openssl for generating private key'
@@ -21,7 +20,7 @@ openssl pkey -in <private-key.pem> -out <public-key.pem>
 ```
 
 # List all algorithms
-```bash title='openssl for listing algorithm'
+```Shell title='openssl for listing algorithm'
 openssl list --all-algorithms
 ```
 
@@ -47,18 +46,19 @@ subjectAltName = @alt_names
 DNS.1 = localhost
 ```
 - Request the certificate from the private key with the given configuration file.
-```bash title='Generate the certificate request'
+```Shell title='Generate the certificate request'
 openssl req -new -key <private_key.pem> -out cert.csr -config san.cnf
 ```
 
 - Generate the certificate from its own request with a given duration and hash algorithm to ensure data integrity.
-```bash title='Generate certificate.pem'
+```Shell title='Generate certificate.pem'
 openssl x509 -req -in <cert.csr> -signkey <private_key.pem> -out <certificate.pem> -days <duration> -extensions v3_req -extfile san.cnf
 ```
----
 # References
 1. https://www.openssl.org/
 2. [RSA](RSA.md)
 3. [HMAC](HMAC.md)
-4. [SSL-TLS](SSL-TLS.md)
+4. [Secure Socket Layer (SSL) - Transport Layer Security (TLS)](Secure%20Socket%20Layer%20(SSL)%20-%20Transport%20Layer%20Security%20(TLS).md)
 5. [Transport layer overview](Transport%20layer%20overview.md)
+6. [[Digital signature]]
+7. 

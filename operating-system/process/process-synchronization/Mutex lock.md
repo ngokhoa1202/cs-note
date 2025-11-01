@@ -4,7 +4,7 @@
 - Stands for <mark style="background: #e4e62d;">mutual exclusion</mark>.
 - Has a boolean variable `available` whose value indicates the availability of the lock:
 	- If the lock is available, the `acquire` invocation succeeds, then the lock is unavailable.
-```c
+```c title='Critical section layout'
 while (true) {
   /* acquire lock */
   
@@ -17,7 +17,7 @@ while (true) {
 ```
 
 ## acquire
-```c
+```c title='acquire section pseudo-code'
 acquire() {
   /* busy waiting */
   while (!available);
@@ -29,7 +29,7 @@ acquire() {
 ```
 
 ## release
-```c
+```c title='release section pseudo-code'
 release() {
   available = true;
 
@@ -38,11 +38,10 @@ release() {
 ```
 
 # Advantage
-- Simplest solution.
+- Mutex lock is the simplest locking mechanism to implement.
 # Disadvantage
 - Once a process is executing the critical section, other processes become busy waiting $\equiv$ attempts to acquire lock $\implies$ high lock contention and waste CPU cycle. 
 
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.

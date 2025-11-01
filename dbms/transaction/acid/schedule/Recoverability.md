@@ -74,7 +74,6 @@
 	- No transaction read item X after transaction 1 had written item X and before transaction 1 committed.
 	- No transaction read item Y after transaction 3 had written item Y and before transaction 3 committed.
 
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 20 - Section 4.

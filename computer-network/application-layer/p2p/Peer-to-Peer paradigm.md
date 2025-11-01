@@ -13,6 +13,5 @@
 - Then, ==uploading time when there are many peers: ==$$T_{peer}=\frac{NF}{u_s + \sum {u_i}}$$
 -  Distribution time grows but has upper bound $$T \geq max\{T_{server}, T_{client}, T_{peer}\}=\frac{NF}{u_s+\sum {u_i}} \to C$$ 
 	 when $N \to \infty$ . 
----
 # References
 1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

@@ -150,7 +150,6 @@ int main(int argc, char* argv[])
 }
 
 ```
----
 # Preferences
 1. https://www.youtube.com/watch?v=tcYo6hipaSA&list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY&index=2
 2. The Linux programming interface A Linux and UNIX system programming handbook - Micheal Kerrisk -No Starch Press (2010).

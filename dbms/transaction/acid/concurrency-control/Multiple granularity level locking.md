@@ -32,7 +32,6 @@
 	- Long transactions that access the entire file.
 - Less transaction blocking and less locking overhead.
 
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 20 - Section 5.

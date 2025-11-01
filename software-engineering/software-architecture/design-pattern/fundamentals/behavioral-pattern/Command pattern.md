@@ -201,7 +201,6 @@ public class Main {
 - Schedule operations (specify $\neq$ queue $\neq$ execute).
 # Disadvantages
 - Complicated because a new layer is added between invocation and implementation.
----
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides:
 	- Command pattern

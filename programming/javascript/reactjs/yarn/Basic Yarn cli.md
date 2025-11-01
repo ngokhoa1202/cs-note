@@ -27,7 +27,6 @@ yarn config set nodeLinker pnp # default by yarn - plug and play --> fastest, bu
 nodeLinker: node-modules
 yarnPath: .yarn/releases/yarn-1.22.22.cjs
 ```
----
 # References
 1. https://yarnpkg.com/ fior `yarn` cli.
 2. https://yarnpkg.com/features/linkers for `yarn nodeLinker` comparison. 

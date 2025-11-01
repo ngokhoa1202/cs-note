@@ -280,7 +280,6 @@ async function f() {
 f();
 ```
 
----
 # References
 1. https://github.com/domenic/promises-unwrapping/blob/master/docs/states-and-fates.md
 2. https://javascript.info/promise-basics

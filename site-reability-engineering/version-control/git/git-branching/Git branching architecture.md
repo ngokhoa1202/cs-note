@@ -66,7 +66,6 @@ git switch -c <branch-name> # Simple
 ```
 
 
----
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	- Git Branching.

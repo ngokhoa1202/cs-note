@@ -25,7 +25,6 @@
 - The maximum level that a multilevel indexing structure can have: $$t=\left \lceil \text{log}_{fo}(r_1) \right \rceil$$
 - 
 # Example
----
 # References
 1. *HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.*
 2. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).*

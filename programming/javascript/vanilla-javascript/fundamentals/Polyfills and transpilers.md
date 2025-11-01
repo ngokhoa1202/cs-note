@@ -22,12 +22,11 @@ if (!Math.trunc) { // if no such function
   };
 }
 ```
----
 # References
 1. https://javascript.info/polyfills.
 2. https://tc39.es/ecma262/ for ECMAScript 2025.
 3. https://babeljs.io/ for Babel transpiler.
-4. https://webpack.js.org/ for Webpack.
+4. https://webpack.js.org/ for Webpack bundler.
 5. https://developer.mozilla.org/en-US/docs/Glossary/Polyfill for Polyfill definition.
 6. https://compat-table.github.io/compat-table/es6/ for Javascript runtime compatibility table.
 7. https://caniuse.com/

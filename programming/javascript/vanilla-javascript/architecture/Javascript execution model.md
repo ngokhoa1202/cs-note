@@ -30,7 +30,6 @@
 	- Globally declared variables, the value of `globalThis`, and the global object.
 	- A cache of template literal arrays.
 - On the web, a realm is equivalent to a global object.
----
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#stack_and_execution_contexts for Javascript execution model.
 2. https://262.ecma-international.org/16.0/index.html for ECMAScript 262 Specification.

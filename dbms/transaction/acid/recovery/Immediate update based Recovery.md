@@ -18,7 +18,6 @@
 ## Examples
 - ![](Pasted%20image%2020241214163858.png)
 
----
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 22 - Section 3.

@@ -30,7 +30,6 @@ console.log(globalThis === global); // true
 global.DATABASE_URL = "mongodb://localhost:27017";
 ```
 # 
----
 # References
 1. https://developer.mozilla.org/en-US/docs/Glossary/Global_object
 2. https://javascript.info/global-object

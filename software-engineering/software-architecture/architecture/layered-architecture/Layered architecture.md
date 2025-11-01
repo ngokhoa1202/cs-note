@@ -38,7 +38,6 @@
 # Metrics
 - ![[Pasted image 20250706080827.png]]
 
----
 # References
 1. Fundamentals of Software Architecture: An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020).
 	1. Chapter 10. Layered Architecture Style.

@@ -7,7 +7,7 @@
 - Given graph $G=(V,E)$ . Starting from $src$ vertice, find all feasible shortest path from $src$.
 ## Solution
 1. Initialization:
-	- For every vertice $v \in V$:
+	- For every vertex $v \in V$:
 		- $L_v = \infty$ 
 		- $Previous[v]=undefined$ 
 	- 

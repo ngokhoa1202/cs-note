@@ -24,7 +24,6 @@
 - Facilitate complex business systems.
 # Disadvantages
 - High initial investment $\implies$ only appropriate for complex systems.
----
 # References
 1. [Programming paradigms](Programming%20paradigms.md) for programming paradigms.
 2. https://www.researchgate.net/figure/Process-flowchart-of-hospital-service_fig4_233221595 for hospital service procedure example image.

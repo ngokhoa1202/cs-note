@@ -9,42 +9,42 @@
 ## Mounting phase
 - Mounting phase is the time that JSX components are loaded into the real DOM tree.
 ### Render phase
-#### Constructor(props)
+#### `Constructor(props)`
 - Constructor is invoked and initialize the state and bind methods when the document is loaded in the first time.
-#### static getDerivedStateFromProps(props, state)
+#### `static getDerivedStateFromProps(props, state)`
 - `static getDerivedStateFromProps()` is called before render and on every update.
 - `static getDerivedStateFromProps()` is rarely needed and used for state synchronization with props.
-#### render()
+#### `render()`
 - `render()` is a pure function without any side effects returning JSX and rendering components.
 ### Commit phase
-#### componentDidMount()
+#### `componentDidMount()`
 - `componentDidMount()` is called once after initial render.
 - Side effects such as API calls, DOM manipulations and subscriptions can be safely called in this function.
 ## Updating phase
 - The updating phase are automatically executed whenever new props or state changes are detected.
 ### Render phase
-#### static getDerivedStateFromProps(props, state)
+#### `static getDerivedStateFromProps(props, state)`
 - `static getDerivedStateFromProps()` is called on every update and used on a limited basis.
-#### shouldComponentUpdate(nextProps, nextState)
+#### `shouldComponentUpdate(nextProps, nextState)`
 - `shouldComponentUpdate()`  is invoked before every render and determines whether a component should be re-rendered in response to state or props changes, thereby helping conditionally skip the re-rendering process.
-#### render()
+#### `render()`
 - `render()` function renders the components with new states or props.
 ### Pre-commit phase
 - During the pre-commit phase, the DOM can be read.
-#### getSnapshotBeforeUpdate(prevProps, prevState)
+#### `getSnapshotBeforeUpdate(prevProps, prevState)`
 - `getSnapshotBeforeUpdate()` is invoked before the DOM is updated and is used to capture the previous state of the components before getting updated.
 ### Commit phase
-#### componentDidUpdate(prevProps, prevState, snapshot)
+#### `componentDidUpdate(prevProps, prevState, snapshot)`
 - `componentDidUpdate` is invoked after the DOM has been updated.
 - Side effects such as API calls, DOM manipulations and subscriptions can be safely called in this function.
 ## Unmounting phase
 - Unmounting phase is the time JSX components are removed.
 ### Commit phase
-#### componentWillUnmount()
+#### `componentWillUnmount()`
 - `componentWillUnmount` performs clean up tasks such as cancelling timers, aborting fetches and unsubscribing from events.
 ## Error boundary
 - An error boundary is a React component that catches errors in its child component tree during render phase, lifecycle methods and constructor of child components.
-### static getDerivedStateFromError(error)
+### `static getDerivedStateFromError(error)`
 - `static getDerivedStateFromError` is made use of to update states to show the fallback UI in case an error is thrown right before render.
 - A fallback flag is returned on a regular basis.
 ```Javascript title='getDerivedStateFromError example'
@@ -53,7 +53,7 @@ static getDerivedStateFromError(error) {
 }
 ```
 
-### componentDidCatch(error, info)
+### `componentDidCatch(error, info)`
 - `componentDidCatch()` is invoked right after the component is removed during commit phase.
 - Logging is usually performed in this method.
 ```Javascript title='componentDidCatch example'
@@ -226,6 +226,7 @@ function ChatWindow({ userId, chatId }) {
 }
 
 ```
+***
 # References
 1. https://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/ for lifecycle diagram.
 2. https://legacy.reactjs.org/docs/ for lifecycle docs (oop-based).

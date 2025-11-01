@@ -2,17 +2,12 @@
 
 - A callback, also known as a "call-after" function, is _any executable code that is passed as an argument to other code_; that other code is expected to call back (execute) the argument at a given time.
 - A callback is a high-order function.
-
 # Purpose
-
 - Maintain the correct order of execution of asynchronous operations.
-
 # Application
-
 - Handling non-blocking operations, such as reading files, making HTTP requests, or querying a database.
 - Event handling in user interfaces, for example, responding to user actions like clicks or key presses.
 - Decoupling modules or components that need to interact without having a direct dependency on each other.
-
 # Components
 ## Caller
 - The function that takes the callback as an argument and invokes it at the appropriate time.
@@ -82,17 +77,40 @@ public final class App {
 }
 ```
 # Real example
-- Javascript callback & NodeJs.
-- `Promise` API in Javascript.
+- `Promise` API in JavaScript.
+- Most of asynchronous API in Node.js
 - `Stream` API from Java 8.
 # Benefits
 - Facilitates asynchronous operations and reactive programming.
 - Decouples the execution login from the task of signaling and notification.
 # Trade-offs
-- Callback hell or pyramid of doom.
-- 
----
-
+- The overuse of callback results in callback hell or pyramid of doom.
+```JavaScript title='Callback hell in JavaScript'
+fs.readdir(source, function (err, files) {
+  if (err) {
+    console.log('Error finding files: ' + err)
+  } else {
+    files.forEach(function (filename, fileIndex) {
+      console.log(filename)
+      gm(source + filename).size(function (err, values) {
+        if (err) {
+          console.log('Error identifying file size: ' + err)
+        } else {
+          console.log(filename + ' : ' + values)
+          aspect = (values.width / values.height)
+          widths.forEach(function (width, widthIndex) {
+            height = Math.round(width / aspect)
+            console.log('resizing ' + filename + 'to ' + height + 'x' + height)
+            this.resize(width, height).write(dest + 'w' + width + '_' + filename, function(err) {
+              if (err) console.log('Error writing file: ' + err)
+            })
+          }.bind(this))
+        }
+      })
+    })
+  }
+})
+```
 # References
 
 1. [Promise](programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md) for Promise API.

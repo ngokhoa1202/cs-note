@@ -61,7 +61,6 @@
 - ![[Pasted image 20250706113748.png]]
 # Metrics
 - ![[Pasted image 20250706121333.png]]
----
 # References
 1. Fundamentals of Software Architecture: An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020).
 	1. Chapter 13. Service-Based Architecture Style.

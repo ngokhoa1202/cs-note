@@ -6,15 +6,14 @@
 	- Encryption.
 	- Data integrity.
 	- Authentication.
-- Refer: [SSL-TLS](SSL-TLS.md) 
+- Refer: [Secure Socket Layer (SSL) - Transport Layer Security (TLS)](Secure%20Socket%20Layer%20(SSL)%20-%20Transport%20Layer%20Security%20(TLS).md) 
 # Open connection
 - User agent as HTTP Client or TLS Client.
-- Client first ClientHello => HTTP data seen as TLS data.
+- Client first Client Hello => HTTP data seen as TLS data.
 - Keep all HTTP behavior. 
 # Close connection
-- `Connection: Close` header in HTTP Client => two sides ==send TLS alert close_notify== .
-- If close before waiting to other to send alert => ==incomplete close==.
----
+- `Connection: Close` header in HTTP Client => two sides send TLS alert close_notify .
+- If close before waiting to other to send alert => incomplete close.
 # References
-1. [SSL-TLS](SSL-TLS.md) for the underlying transport layer protocol.
+1. [Secure Socket Layer (SSL) - Transport Layer Security (TLS)](Secure%20Socket%20Layer%20(SSL)%20-%20Transport%20Layer%20Security%20(TLS).md) for the underlying transport layer protocol.
 2. [HTTP](HTTP.md)

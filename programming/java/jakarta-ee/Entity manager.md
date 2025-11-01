@@ -9,7 +9,6 @@
 - [Persistence context](Persistence%20context.md)
 
 
----
 # References
 1. https://docs.oracle.com/javaee/7/api/javax/persistence/EntityManager.html for official documentation of entity manager and its API.
 2. 

@@ -42,7 +42,6 @@ quarkus-project/
 ```
 
 
----
 # References
 1. https://quarkus.io/guides/getting-started
 2. 

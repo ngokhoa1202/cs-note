@@ -4,7 +4,7 @@
 - There are <mark style="background: #e4e62d;">four approaches</mark>.
 ## Superclass table & subclass table
 ### Application
-- Applicable for all kinds of specialization (totality, partiality, disjoint, overlap).
+- Applicable for all kinds of specialization (totality, partiality, disjoint, overlap). 
 ### Usage
 - Map the superclass entity $E_P$ into a table having primary key $K$.
 - Map each of its subclass into a table having primary key $K$ which is inherited from the superclass.

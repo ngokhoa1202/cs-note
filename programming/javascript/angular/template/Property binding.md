@@ -12,7 +12,7 @@
 <img [src]="user.avatar" />
 ```
 - Angular accesses the underlying HTML DOM Element and assigns the value to that element.
-- For som attribute tags (like `arial-...`), use `[attr.]` prefix to bind that attribute:
+- For some attribute tags (like `arial-...`), use `[attr.]` prefix to bind that attribute:
 ```html
  <div 
    role="progressbar"

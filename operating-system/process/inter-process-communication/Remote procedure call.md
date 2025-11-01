@@ -1,4 +1,4 @@
-#rpc #operating-system #process #process-synchronization #client-server #computer-network #application-layer #transport-layer #streaming 
+#rpc #operating-system #process #process-synchronization #client-server #computer-network #application-layer #transport-layer #streaming #grpc 
 
 - Adheres to client-server model.
 - The data exchanged is called <mark style="background: #e4e62d;">messages</mark>.
@@ -39,7 +39,6 @@
 - Implements API gateway.
 - Establish connections between services in microservice architecture.
 
----
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 3: Processes.

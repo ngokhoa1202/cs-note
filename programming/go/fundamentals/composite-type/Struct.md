@@ -147,7 +147,6 @@ w.Spokes = 20
 
 # Method
 - [Method](Method.md)
----
 # References
 1. https://gobyexample.com/struct-embedding for Struct embedding.
 2. [UML Class diagram](UML%20Class%20diagram.md) for composition concept.

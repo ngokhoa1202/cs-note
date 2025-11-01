@@ -106,6 +106,5 @@ const UserProfile = ({ userId }) => {
   // Component implementation...
 };
 ```
----
 # References
 1. https://react.dev/reference/react/useCallback for `useCallback` hook.

@@ -4,7 +4,6 @@
 	- Internet ==Security Association== and ==Key Management== Protocol.
 	- Oakley ==Key Determination== Protocol
 - Based on [Diffie-Hellman key exchange.](Diffie-Hellman%20key%20exchange..md)
-
 # Key determination protocol
 - Based on [Diffie-Hellman key exchange.](Diffie-Hellman%20key%20exchange..md)
 - Advanced:

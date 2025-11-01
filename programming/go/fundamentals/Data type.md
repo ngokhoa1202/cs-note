@@ -328,7 +328,6 @@ type Ages AgeSlice
 	- `AgeSlice` $\to$ `[]Age` (stopped because `[]Age` is unnamed type).
 	- `Ages` $\to$ `[]Age`
 
----
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 	1. Chapter 3. Basic Data Types.
