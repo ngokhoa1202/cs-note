@@ -1,5 +1,5 @@
-#jwt #asymmetric-cipher  #cybersecurity #authentication #authorization #computer-network #application-layer #hmac
-#mac #json #http 
+#jwt #asymmetric-cipher  #cybersecurity #authentication #authorization #computer-network
+#application-layer #hmac #mac #json #http 
 # Scenario
 - ![](Pasted%20image%2020240820140638.png)
 - The rise of stateless architecture partially decentralizes server's load. However, this distributed system make the traditional session-based authentication infeasible because the user identity now resides on discrete servers.

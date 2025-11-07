@@ -16,5 +16,6 @@
   "showLineNumber": true,
   "trashOption": "system",
   "showInlineTitle": true,
-  "smartIndentList": true
+  "smartIndentList": true,
+  "defaultViewMode": "preview"
 }

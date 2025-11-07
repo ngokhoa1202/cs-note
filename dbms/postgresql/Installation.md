@@ -3,7 +3,6 @@
 # Installation
 ## Fedora OS
 - Follows https://docs.fedoraproject.org/en-US/quick-docs/postgresql/
-
 # Reset credential
 - Run with superuser permission to suppress password requirement and use `postgres` username 
 ```bash

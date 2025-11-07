@@ -1,4 +1,5 @@
-#web-security #cybersecurity #computer-network #web #browser #javascript #cookie 
+#web-security #cybersecurity #computer-network #web #browser #javascript #cookie
+#access-control 
 
 # Origin
 ## Definition
@@ -25,7 +26,7 @@ http://myapp.example.com
 ```
 # Same-origin policy
 ## Definition
-- Same-origin policy is a browser security mechanism that <mark class="hltr-yellow">restricts</mark> a document or script loaded by *one origin* <mark class="hltr-yellow">from accessing resources</mark> of *another origin*.
+- Same-origin policy is a *browser* security mechanism that <mark class="hltr-yellow">restricts</mark> a document or script loaded by *one origin* <mark class="hltr-yellow">from accessing resources</mark> of *another origin*.
 - It helps isolate potentially malicious documents, thereby reducing possible attack vectors. For example, it prevents a malicious website on the Internet from running JavaScript in a browser to read data from a third-party mail service in which the user is signed or a company intranet and relaying that data to the attacker.
 - ![[Pasted image 20251023111946.png]]
 ## Inherited origins
@@ -35,7 +36,7 @@ http://myapp.example.com
 - Files uploaded from the client host using `{URL} file:///` scheme is treated as opaque origins by browsers.
 - When a local file (`file:///`) is opened, there is no host specified so the browser is unable to determine whether other files are from the same origin.  To ensure the security of the website, file schemes are not the same origin.
 >[!Note]
->The opacity of file origins explains why the `index.html` file should always be loaded with a web server rather than being opened in the form of `file:///` scheme. The latter execution will result in CORS errors because all the files are treated as coming from different opaque origins, even though they are in the same folder.
+>The opacity of file origins explains why the `index.html` file should be always loaded with a web server rather than being directly opened in the form of `file:///` scheme. The latter execution will result in CORS errors because all the files are treated as coming from different opaque origins, even though they are in the same folder.
 >
 ### Example
 - Assume there are two files in the same folder `src`: `index.html` and `data.json`.
@@ -63,7 +64,7 @@ http://myapp.example.com
 - ![[Pasted image 20251101153906.png]] 
 # Cross-origin resource sharing
 ## Definition
-- Cross-Origin Resource Sharing (CORS) is a browser security mechanism which enables a document or a script to <mark class="hltr-yellow">gain controlled access to resources from another origin</mark>.
+- Cross-Origin Resource Sharing (CORS) is a *browser* security mechanism which enables a document or a script to <mark class="hltr-yellow">gain controlled access to resources from another origin</mark>.
 - ![[Pasted image 20251023111946.png]]
 - CORS mechanism allows these types of HTTP requests to bypass [[#Same-origin policy]]:
 	- `fetch()` or `XMLHttpRequest`.
@@ -108,9 +109,46 @@ fetchPromise.then((response) => {
   console.log(response.status);
 });
 ```
-- 
+- The preflighted request includes two special HTTP headers:
+	- `Access-Control-Request-Method` specifies the HTTP method that the main request will use.
+	- `Access-Control-Request-Headers` specifies which custom headers that the main request will include.
+- The server reads the preflighted request and decides to accept the request or not. If it does, it replies with the response which is in the form of:
+```HTTP title='Response to the preflighted request'
+HTTP/1.1 204 No Content
+Access-Control-Allow-Origin: https://myapp.com
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Headers: X-PINGOTHER, Content-Type
+Access-Control-Max-Age: 86400
+```
+- The `Access-Control-Max-Age` specifies that how long the preflighted request will be cached without sending another preflighted request.
+- Only after having received the approval response does the browser sends the actual request.
 - ![Diagram of a request that is preflighted](https://mdn.github.io/shared-assets/images/diagrams/http/cors/preflight-correct.svg)
+#### Redirects
+- Originally, when a preflighted request encountered an *HTTP redirect*, browsers were required to _follow_ that redirect and perform additional checks.  But the specification was later updated to _remove_ that requirement.
+- Modern browsers are supposed to skip the extra redirect check, but not all does. In that case, one of the following configurations should be made:
+	- Avoid the preflight and/or to avoid the redirect on server side.
+	- Do not add unusual headers to client requests.
+	- Manually make a simple request, then make the main request.
+- If the main request includes sensitive headers like `Authorization`, it must trigger a preflight check for security reasons.
 ### Requests with credentials
+- The credentials are not included in the CORS requests by default. The `crdentials` option must be manually set to `include` to add the credentials to the request.
+```JavaScript title='Specify credentials in CORS requests'
+const url = "https://bar.other/resources/credentialed-content/";
+
+const request = new Request(url, { credentials: "include" });
+
+const fetchPromise = fetch(request);
+fetchPromise.then((response) => console.log(response));
+```
+- 
+- ![Diagram of a GET request with Access-Control-Allow-Credentials](https://mdn.github.io/shared-assets/images/diagrams/http/cors/include-credentials.svg)
+- The response to the credentialed requests must specify the *explicit values* rather than wildcard `*` for these HTTP headers:
+	- `Access-Control-Allow-Origin` must be a explicit origin.
+	- `Access-Control-Allow-Headers` must a list of headers, for example, `Access-Control-Allow-Headers: X-PINGOTHER, Content-Type`
+	- `Access-Control-Allow-Methods` must be a list of allowed HTTP methods, for example `Access-Control-Allow-Methods: POST, GET`.
+	- `Access-Control-Expose-Headers` must be a list of headers, for example, `Access-Control-Expose-Headers: Content-Encoding, Kuma-Revision`.
+- In case the server replies a credentialed request with a response including one of these above wildcard headers, the browser will block access to the response and report a CORS error.
+- Cookies set in CORS requests and responses are subject to normal third-party cookie policies.
 ***
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS for CORS tutorial.
@@ -122,4 +160,4 @@ fetchPromise.then((response) => {
 7. https://www.w3.org/TR/2014/REC-cors-20140116/#terminology for old CORS specification.
 8. https://developer.mozilla.org/en-U for S/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin for `Access-Control-Allow-Origin` header.
 9. [[HTTP#HTTP Methods]] for HTTP Methods.
-10. 
+10. [[computer-network/application-layer/http/Cookie|Cookie]] for HTTP Cookie.

@@ -30,7 +30,7 @@
 - Must know about Invoker and Receiver.
 - ==Initiates a Concrete Command== and set the Command's ==Receiver==.
 - Uses an Invoker object to execute that Command.
-# Flow
+# Behavior
 - ![](Pasted%20image%2020240719163015.png)
 - Client initiates a Concrete Command.
 - Client requests the Invoker to store that Concrete Command as an abstract Command.

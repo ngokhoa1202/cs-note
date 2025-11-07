@@ -1,17 +1,16 @@
-#oop #structural-pattern #solid #software-engineering #diamond-problem #java #python #software-architecture 
+#oop #structural-pattern #solid #software-engineering #diamond-problem #java #python
+#software-architecture 
 
 - Known as ==Wrapper== because Adapter wraps an Adaptee object.
 # Purpose
 - Convert an incompatible interface into another ==interface which is compatible with client interface==.
-
 # Application
 - Use an existing class, but its interface is not compatible with client class.
-
 # Components
 ## Client
 - Given a a run-time Adapter object but only knows about Target interface.
 ## Target
-- Provides a ==specific interface for client's business== which is ==incompatible with Adaptee interface==.
+- Provides a ==specific interface for client's business== which is ==incompatible with Adaptee interface==
 ## Adaptee - Existing Service
 - Exposes the interface for methods or objects that needs adapting.
 ## Adapter
@@ -25,7 +24,7 @@
 - Adapter ==inherits both Target and Adaptee==.
 - Adapter can implement Target interface and call Adaptee method via inheritance.
 - ![](Pasted%20image%2020240608094057.png)
-## *Object composition - object adapter* 
+## Object composition - object adapter
 - Adapter inherits Target but ==aggregates an Adaptee object==.
 - Adapter can implement Target interface and call Adaptee method v==ia Adaptee object==.
 - ![](Pasted%20image%2020240608102427.png)
@@ -146,9 +145,7 @@ class StockAnalysisService(StockService, StockStorage):
 - `java.io.InputStreamReader(InputStream)` extends Reader and composes `StreamDecoder` object
 - [`java.io.OutputStreamWriter(OutputStream)`](https://docs.oracle.com/javase/8/docs/api/java/io/OutputStreamWriter.html#OutputStreamWriter-java.io.OutputStream-) (returns a `Writer` object)
 - [`javax.xml.bind.annotation.adapters.XmlAdapter#marshal()`](https://docs.oracle.com/javase/8/docs/api/javax/xml/bind/annotation/adapters/XmlAdapter.html#marshal-BoundType-)
-
-
-# Advatanges
+# Advantanges
 - Ensure [Single responsibility principle](SOLID.md#Single%20responsibility%20principle) because Adapter separates interface adaptation from Adaptee or Target.
 - Ensure [Open-Closed Principle.](SOLID.md#Open-Closed%20Principle.) because we can define new Adapters without modifying client code.
 # Disadvantages

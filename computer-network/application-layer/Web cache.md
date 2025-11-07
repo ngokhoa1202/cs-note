@@ -6,7 +6,7 @@
 - ![[Pasted image 20251025194137.png]]
 - The validity of cache is explicitly included in HTTP Response Header `Cache-control`(or `Expires`)  which includes `max-age` property and `Last-Modified` so the browser  can caches the payload and the metadata.
 # Conditional GET
-- For the initial request, the browser asks the web server for a specific resource and the server returns it with headers `Last- Modified` (or `Expired`) and `Cache-Control`.
+- For the initial request, the browser asks the web server for a specific resource and the server returns it with headers `Last-Modified` (or `Expired`) and `Cache-Control`.
 - ![[Pasted image 20251025193405.png]]
 - On the subsequent visits, the browser first checks whether the cache lifetime has expired or not. If it has, the browser directly returns the object from cache without making further requests; otherwise, the browser sends a conditional HTTP GET to the web server.
 - The Conditional GET includes `If-Modified-Since` so the web server can determine whether the requested object has been changed or not. If it has not, the server responds with `304 Not Modified`.

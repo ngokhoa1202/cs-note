@@ -8,37 +8,21 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3814b2ba925c0d1b",
+            "id": "0bedc4f6ec1516ef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "computer-network/application-layer/http/Cookie.md",
+                "file": "dbms/dbms-architecture/DBMS architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Cookie"
-            }
-          },
-          {
-            "id": "ca118b2fef3f6f89",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Cross-Origin Resource Sharing (CORS)"
+              "title": "DBMS architecture"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "important",
+                "query": "tag:#mac",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 404.5
+    "width": 485.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -208,36 +192,41 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "ca118b2fef3f6f89",
+  "active": "0bedc4f6ec1516ef",
   "lastOpenFiles": [
-    "computer-network/application-layer/email/MIME.md",
+    "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md",
+    "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md",
+    "dbms/postgresql/PostgreSQL installation.md",
+    "dbms/postgresql/LIKE operator.md",
+    "dbms/postgresql/Installation.md",
+    "dbms/postgresql/DDL.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Builder pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract Factory pattern.md",
+    "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md",
+    "cybersecurity/network-security/application-layer/web-security/Json Web Token.md",
     "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md",
-    "Pasted image 20251101153906.png",
-    "programming/javascript/browser/javascript URL.md",
-    "programming/javascript/browser/Cookie.md",
-    "programming/javascript/vanilla-javascript/web",
-    "computer-network/application-layer/http/Cookie.md",
-    "computer-network/application-layer/http/HTTP.md",
-    "computer-network/application-layer/dns/Domain Name System (DNS).md",
-    "computer-network/application-layer/dns/Domain name system.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md",
+    "algorithm/problems/leetcode/Problem 143. Reorder list.md",
+    "algorithm/problems/leetcode",
+    "algorithm/problems",
+    "algorithm/Untitled.canvas",
+    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md",
+    "assets/Pasted image 20251105105757.png",
+    "computer-network/application-layer/http/HTTP Version.md",
+    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Command pattern.md",
     "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md",
-    "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md",
-    "cybersecurity/network-security/Network security overview.md",
-    "cybersecurity/network-security/network-layer/IKE.md",
-    "algorithm/Algorithm complexity.md",
-    "algorithm/Recurrence relation.md",
-    "algorithm/string/Naive string matching.md",
-    "algorithm/string/Longest common subsequence.md",
-    "cybersecurity/network-security/network-layer/IP Security.md",
-    "cybersecurity/cloud-security/Cloud computing.md",
-    "calculus/Stirling approximation.md",
-    "calculus/Harmonic series.md",
-    "operating-system/linux/cryptography/SSH key generation.md",
-    "algorithm/data-structure/Hash table.md",
-    "operating-system/linux/cryptography/Generate secret key openSSL.md",
-    "cryptography/hash-function/digital-signature/Elgamal digital signature scheme.md",
+    "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md",
+    "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md",
+    "computer-network/application-layer/email/POP3.md",
+    "computer-network/application-layer/email/IMAP.md",
+    "assets/Pasted image 20251103114501.png",
+    "assets/Pasted image 20251101153906.png",
+    "programming/javascript/vanilla-javascript/web",
     "assets/Pasted image 20251025212435.png",
     "assets/Pasted image 20251025194137.png",
     "assets/Pasted image 20251025193405.png",
@@ -245,8 +234,6 @@
     "assets/Pasted image 20251023090550.png",
     "assets/Pasted image 20251023090535.png",
     "assets/Pasted image 20251023084554.png",
-    "assets/Pasted image 20251023082221.png",
-    "assets/Pasted image 20251022174322.png",
     "programming/javascript/reactjs/asset-management",
     "programming/javascript/babel",
     "programming/javascript/webpack",
@@ -255,8 +242,6 @@
     "programming/javascript/nodejs/module",
     "programming/javascript/nodejs/concurrency-control",
     "programming/javascript/nodejs/architecture",
-    "programming/javascript/vanilla-javascript/architecture",
-    "Base.base",
     "Untitled 1.canvas",
     "network/Untitled.canvas",
     "Untitled 2.canvas",

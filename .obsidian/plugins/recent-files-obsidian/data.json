@@ -1,8 +1,140 @@
 {
   "recentFiles": [
     {
+      "basename": "DBMS architecture",
+      "path": "dbms/dbms-architecture/DBMS architecture.md"
+    },
+    {
+      "basename": "Problem 226. Invert Binary tree",
+      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
+    },
+    {
+      "basename": "Problem 21. Merge two sorted lists",
+      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
+    },
+    {
+      "basename": "PostgreSQL installation",
+      "path": "dbms/postgresql/PostgreSQL installation.md"
+    },
+    {
+      "basename": "LIKE operator",
+      "path": "dbms/postgresql/LIKE operator.md"
+    },
+    {
+      "basename": "Installation",
+      "path": "dbms/postgresql/Installation.md"
+    },
+    {
+      "basename": "DDL",
+      "path": "dbms/postgresql/DDL.md"
+    },
+    {
+      "basename": "Decorator pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md"
+    },
+    {
+      "basename": "Adapter pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md"
+    },
+    {
+      "basename": "Simple factory pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md"
+    },
+    {
+      "basename": "Singleton pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md"
+    },
+    {
+      "basename": "Prototype pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md"
+    },
+    {
+      "basename": "Builder pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Builder pattern.md"
+    },
+    {
+      "basename": "Abstract Factory pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract Factory pattern.md"
+    },
+    {
+      "basename": "Server-side request forgery (SSRF)",
+      "path": "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md"
+    },
+    {
+      "basename": "Json Web Token",
+      "path": "cybersecurity/network-security/application-layer/web-security/Json Web Token.md"
+    },
+    {
       "basename": "Cross-Origin Resource Sharing (CORS)",
       "path": "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md"
+    },
+    {
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Chain of responsibility pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md"
+    },
+    {
+      "basename": "Factory Method pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md"
+    },
+    {
+      "basename": "HTTP Version",
+      "path": "computer-network/application-layer/http/HTTP Version.md"
+    },
+    {
+      "basename": "Command pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Command pattern.md"
+    },
+    {
+      "basename": "Mediator pattern",
+      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
+    },
+    {
+      "basename": "Quick UDP Internet Connection (QUIC)",
+      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
+    },
+    {
+      "basename": "Peer-to-Peer paradigm",
+      "path": "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md"
+    },
+    {
+      "basename": "POP3",
+      "path": "computer-network/application-layer/email/POP3.md"
+    },
+    {
+      "basename": "IMAP",
+      "path": "computer-network/application-layer/email/IMAP.md"
+    },
+    {
+      "basename": "HTTP",
+      "path": "computer-network/application-layer/http/HTTP.md"
+    },
+    {
+      "basename": "Introduction to access control",
+      "path": "cybersecurity/network-security/application-layer/web-security/Introduction to access control.md"
+    },
+    {
+      "basename": "Web cache",
+      "path": "computer-network/application-layer/Web cache.md"
+    },
+    {
+      "basename": "UDP",
+      "path": "computer-network/transport-layer/udp/UDP.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "computer-network/application-layer/http/Cookie.md"
+    },
+    {
+      "basename": "Client-Server paradigm",
+      "path": "computer-network/application-layer/Client-Server paradigm.md"
+    },
+    {
+      "basename": "Application layer overview",
+      "path": "computer-network/application-layer/Application layer overview.md"
     },
     {
       "basename": "MIME",
@@ -17,14 +149,6 @@
       "path": "programming/javascript/browser/Cookie.md"
     },
     {
-      "basename": "Cookie",
-      "path": "computer-network/application-layer/http/Cookie.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "computer-network/application-layer/http/HTTP.md"
-    },
-    {
       "basename": "Domain Name System (DNS)",
       "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
     },
@@ -35,10 +159,6 @@
     {
       "basename": "Facade pattern",
       "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
-    },
-    {
-      "basename": "Mediator pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
     },
     {
       "basename": "Secure Socket Layer (SSL) - Transport Layer Security (TLS)",
@@ -79,126 +199,6 @@
     {
       "basename": "Stirling approximation",
       "path": "calculus/Stirling approximation.md"
-    },
-    {
-      "basename": "Harmonic series",
-      "path": "calculus/Harmonic series.md"
-    },
-    {
-      "basename": "SSH key generation",
-      "path": "operating-system/linux/cryptography/SSH key generation.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/Hash table.md"
-    },
-    {
-      "basename": "Generate secret key openSSL",
-      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
-    },
-    {
-      "basename": "Elgamal digital signature scheme",
-      "path": "cryptography/hash-function/digital-signature/Elgamal digital signature scheme.md"
-    },
-    {
-      "basename": "Digital signature",
-      "path": "cryptography/hash-function/digital-signature/Digital signature.md"
-    },
-    {
-      "basename": "DSA - Digital Signature Algorithm",
-      "path": "cryptography/hash-function/digital-signature/DSA - Digital Signature Algorithm.md"
-    },
-    {
-      "basename": "3DES",
-      "path": "cryptography/symmetric-cipher/des/3DES.md"
-    },
-    {
-      "basename": "Diffie-Hellman key exchange.",
-      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
-    },
-    {
-      "basename": "World Wide Web",
-      "path": "computer-network/application-layer/World Wide Web.md"
-    },
-    {
-      "basename": "Client-Server paradigm",
-      "path": "computer-network/application-layer/Client-Server paradigm.md"
-    },
-    {
-      "basename": "Video Streaming - DASH",
-      "path": "computer-network/application-layer/steaming/Video Streaming - DASH.md"
-    },
-    {
-      "basename": "Web cache",
-      "path": "computer-network/application-layer/Web cache.md"
-    },
-    {
-      "basename": "Application layer overview",
-      "path": "computer-network/application-layer/Application layer overview.md"
-    },
-    {
-      "basename": "RSA",
-      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
-    },
-    {
-      "basename": "Control flow",
-      "path": "programming/javascript/typescript/Control flow.md"
-    },
-    {
-      "basename": "Interface",
-      "path": "programming/javascript/typescript/Interface.md"
-    },
-    {
-      "basename": "Type",
-      "path": "programming/javascript/typescript/Type.md"
-    },
-    {
-      "basename": "Basic NPM cli",
-      "path": "programming/javascript/reactjs/npm/Basic NPM cli.md"
-    },
-    {
-      "basename": "Type Element is missing the properties",
-      "path": "programming/javascript/reactjs/nextjs/Type Element is missing the properties.md"
-    },
-    {
-      "basename": "ESLint Next.js",
-      "path": "programming/javascript/reactjs/nextjs/ESLint Next.js.md"
-    },
-    {
-      "basename": "IonIcon in React",
-      "path": "programming/javascript/reactjs/icon/IonIcon in React.md"
-    },
-    {
-      "basename": "memo",
-      "path": "programming/javascript/reactjs/featured-api/memo.md"
-    },
-    {
-      "basename": "lazy",
-      "path": "programming/javascript/reactjs/featured-api/lazy.md"
-    },
-    {
-      "basename": "Component lifecycle",
-      "path": "programming/javascript/reactjs/architecture/Component lifecycle.md"
-    },
-    {
-      "basename": "Two-way binding in Angular",
-      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
-    },
-    {
-      "basename": "Content projection in Angular",
-      "path": "programming/javascript/angular/template/Content projection in Angular.md"
-    },
-    {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
-    },
-    {
-      "basename": "Web Socket",
-      "path": "computer-network/application-layer/web-socket/Web Socket.md"
-    },
-    {
-      "basename": "HTTP Version",
-      "path": "computer-network/application-layer/http/HTTP Version.md"
     }
   ],
   "omittedPaths": [],

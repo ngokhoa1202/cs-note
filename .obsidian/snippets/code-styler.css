@@ -1,18 +1,14 @@
 .code-styler-header-language-tag,
 .code-styler-header-text {
-    font-size: 0.8rem !important;
+  font-size: 0.8rem !important;
 }
 
 .code-styler-header-language-tag {
-    font-family: 'Lora' !important;
+  font-family: "Lora" !important;
 }
 
 .code-styler-header-text {
-    font-family: 'Inter' !important;
-    font-weight: 500;
-    font-style: italic;
-}
-
-.cm-hmd-codeblock {
-    font-family: 'MonoLisa' !important;
+  font-family: "Fira Sans" !important;
+  font-weight: 500;
+  font-style: italic;
 }

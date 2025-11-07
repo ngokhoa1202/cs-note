@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiLeetcode",
+      "RiP2pFill",
       "TiShare",
       "FasArrowUp",
       "TiShareOff",
@@ -23,9 +25,7 @@
       "TiLockUp",
       "SiLevelsdotfyi",
       "LiLock",
-      "LiImport",
-      "SiBabel",
-      "SiOpenssl"
+      "LiImport"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -483,5 +483,9 @@
   "computer-network/application-layer/dns/Domain Name System (DNS).md": "TiProtocol",
   "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md": "TiShare",
   "programming/javascript/vanilla-javascript/object-oriented-programming": "FasArrowUp",
-  "programming/javascript/browser/javascript URL.md": "TiProtocol"
+  "programming/javascript/browser/javascript URL.md": "TiProtocol",
+  "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md": "RiP2pFill",
+  "computer-network/transport-layer/udp/UDP.md": "TiProtocol",
+  "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md": "TiProtocol",
+  "algorithm/problems/leetcode": "SiLeetcode"
 }

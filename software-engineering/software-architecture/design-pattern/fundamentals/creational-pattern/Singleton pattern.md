@@ -1,7 +1,7 @@
-#design-pattern #oop #solid #software-engineering #creational-pattern #operating-system #parallel-programming  #software-architecture 
-
+#design-pattern #oop #solid #software-engineering #creational-pattern #operating-system 
+#parallel-programming  #software-architecture 
 # Purpose
-- Ensure a class has ==one single instance== and provide a ==global access== to it.
+- Ensures a class has ==one single instance== and provides a ==global access== to it.
 # Application
 - There is a ==single instance of a class==s and client can ==globally access== to it.
 - If the single instance should be extensible by subclassing, and client can use ==that extended instance== without modification.
@@ -14,7 +14,7 @@
 - Access to the Singleton instance via that global method.
 # Design
 - ==Restrict instance creation and access==:
-	- Singleton constructor must not be made public and only called when we do need to create a new instance (e.g: multithreaded programming).
+	- Singleton constructor must not be made public and only called when we do need to create a new instance (e.g: multi-threaded programming).
 	- Subclassing or inheritance is not allowed.
 	- Expose a method to access that Singleton instance.
 ## Eager singleton
@@ -91,7 +91,7 @@ public class Main {
 ```
 
 ### Thread-safe singleton
-- Implement locking to prevent race condition.
+- Implements locking to prevent race condition.
 ### Double-check locking
 - In Java, specify Singleton instance as `volatile` and employ a ==DCL cheking==
 - `class ThreadBar` and `class ThreadFoo` implements `Runnable` interface
@@ -185,8 +185,9 @@ public class Database {
 # Disadvange
 - Violates [Single responsibility principle](SOLID.md#Single%20responsibility%20principle).
 - Violates [Dependency inversion principle](SOLID.md#Dependency%20inversion%20principle) because the client needs to know about the Singleton class and instance.
-- Requires thread synchronization in multithreaded environment.
+- Requires thread synchronization in multi-threaded environment.
 - Hard to mock the Singleton instance to write unit test.
+***
 # References
 1. https://refactoring.guru/design-patterns/singleton/java/example#example-2 for thread-safe singleton.
 2. https://en.wikipedia.org/wiki/Initialization-on-demand_holder_idiom for `static class Holder`

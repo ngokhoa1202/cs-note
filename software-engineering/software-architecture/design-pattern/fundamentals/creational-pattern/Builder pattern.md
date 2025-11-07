@@ -1,13 +1,12 @@
 #oop #solid #design-pattern  #software-engineering #creational-pattern #software-architecture 
 
 # Purpose
-- Separate the construction of a complex object from its representation.
-- The same construction can create multiple representations.
+- Separates the construction of a complex object from its representation so that the same construction can create multiple representations.
 # Application
 - Parts of the complex object need to be ==created step by step and assembled when necessary==. 
-- Allow ==multiple representations== of that object.
+- Allows ==multiple representations== of that object.
 # Components
-- ![600x200](Pasted%20image%2020240602203427.png)
+- ![](Pasted%20image%2020240602203427.png)
 ## Director
 - Employs Builder to construct object.
 - Must know about the steps to instantiate `product`:
@@ -22,7 +21,6 @@
 - Implements `interface Builder`.
 ## Product
 - Final complex `Product` we want to consume.
-
 # Example
 - ![](Pasted%20image%2020240602204852.png)
 ## Requirement
@@ -286,7 +284,7 @@ public class Client {
 	- Do not match 100% Builder pattern
 		- But they allow us to build final objects in several steps, providing a part of final object in one step.
 - `java.util.Calendar.Builder` in Java 8.
-
+	- Project Lombok `@Builder` annotation.vnh 
 # Advantages
 - Ensure [Single responsibility principle](SOLID.md#Single%20responsibility%20principle)
 - Reuse construction code, method chaining for convenience.
@@ -296,5 +294,7 @@ public class Client {
 - Partially initialized object $\implies$ handles missing properties (set by default, throw Exception).
 
 # References
-1. Gang of Four Design pattern
+1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
+	1. Builder pattern.
 2. https://www.udemy.com/course/design-patterns-in-java-concepts-hands-on-projects/learn/ 
+3. https://projectlombok.org/features/Builder for Project Lombok `@Builder` annotation.

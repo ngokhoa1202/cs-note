@@ -10,8 +10,9 @@
 - One client with low bandwidth downloads file copy with downloading rate $d_{min}$ $$T_{client}=\frac{F}{d_{min}}$$ 
   
 - When many peers ==aggregate== uploading file $F$, uploading rate is: $$u_s+u_1+u_2+...+u_N$$ Also $N$ peers mean $NF$ size for average.
-- Then, ==uploading time when there are many peers: ==$$T_{peer}=\frac{NF}{u_s + \sum {u_i}}$$
+- Then, <mark class="hltr-yellow">uploading time</mark> when there are many peers: $$T_{peer}=\frac{NF}{u_s + \sum {u_i}}$$
 -  Distribution time grows but has upper bound $$T \geq max\{T_{server}, T_{client}, T_{peer}\}=\frac{NF}{u_s+\sum {u_i}} \to C$$ 
 	 when $N \to \infty$ . 
+***
 # References
 1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.

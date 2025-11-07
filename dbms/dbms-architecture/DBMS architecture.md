@@ -36,8 +36,7 @@
 - Interacts with most of DBMS components:
 	- Gets data from database into buffers to manipulate that data.
 	- Works with scheduler to avoid accessing locked data
-	- Works with log manager to to ensure appropriate loggings.
-
+	- Works with log manager to to ensure appropriate logging.
 # Transaction processing
 ## Logging - recovery manager
 - Whenever the system crashes, the recovery manager <mark style="background: #e4e62d;">examines the log</mark> of changes and <mark style="background: #e4e62d;">restore</mark> the database to a consistent state.

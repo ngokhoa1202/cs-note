@@ -20,6 +20,7 @@
 	- `Checksum`: 2 bytes.
 # UDP Fairness
 - UDP is ==not fair==.
-- Many mulmedia apps running over UDP ==grasp as much bandwidth== as they can.
+- Many multimedia apps running over UDP ==grasp as much bandwidth== as they can.
+***
 # References
 1. Computer Networking: A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross

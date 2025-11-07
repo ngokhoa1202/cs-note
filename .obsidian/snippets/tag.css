@@ -1,7 +1,8 @@
 .cm-hashtag,
-.cm-formatting-hashtag {
+.cm-formatting-hashtag,
+.tag {
   font-size: 16px !important;
-  font-family: "Satoshi Variable" !important;
+  font-family: "Lora" !important;
   display: inline-block;
   transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
 }
@@ -9,7 +10,9 @@
 .cm-hashtag:hover,
 .cm-formatting-hashtag:hover,
 .cm-formatting-hashtag:active,
-.cm-formatting-hashtag:active {
+.cm-formatting-hashtag:active,
+.tag:hover,
+.tag:active {
   font-style: italic;
   font-weight: 500;
   box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
