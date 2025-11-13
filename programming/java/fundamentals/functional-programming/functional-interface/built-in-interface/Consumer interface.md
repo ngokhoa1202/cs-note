@@ -1,10 +1,9 @@
 #java #functional-programming  #api #high-order-function 
 
-- Accept any input type but ==return `void`==.
-- Employed to make further side effects the arguments.
+- `interface Consumer`accepts any input type but return `void`.
 # Consumer interface
-- `void accept(T t)`: accepts the variable `t` as a ==parameter of lambda function== and ==executes operations== inside the high-order function.
-- `default Consumer<T> andThen(Consumer<? super T> after)`: return a composed `Consumer` after executing `Consumer` `after` operations. `after` is passed as a high-order function.
+- `void accept(T t)`: accepts the variable `t` as a parameter of lambda function and executes operations inside the high-order function.
+- `default Consumer<T> andThen(Consumer<? super T> after)`: return a composed `Consumer` after executing the operations defined by `Consumer after`.
 ```Java
 import java.util.LinkedList;  
 import java.util.List;
@@ -87,3 +86,9 @@ public class Main {
   }  
 }
 ```
+# Usage
+- `interface Consumer` is employed to perform side effects on its arguments.
+***
+# References
+1. https://docs.oracle.com/javase/8/docs/api/java/util/function/Consumer.html for `interface Consumer` official documentation.
+2. 

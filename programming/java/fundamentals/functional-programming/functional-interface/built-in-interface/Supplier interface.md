@@ -1,9 +1,8 @@
 #java #functional-programming   #high-order-function #api  
 
-- Requires ==no parameter== and return any type ==except `void`==.
-- 
-# Supplier
-- `T get()`: return the value of the high-order function.
+- `interface Suppiler`requires no parameter and returns any type except `Void`.
+# `Supplier`
+- `T get()`: executes the high-order function and returns its return value.
 ```Java
 import java.util.LinkedList;  
 import java.util.List;  
@@ -36,7 +35,7 @@ public class Main {
   }  
 }
 ```
-
+***
 # References
-
+1. 
 

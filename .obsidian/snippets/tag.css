@@ -1,10 +1,7 @@
 .cm-hashtag,
 .cm-formatting-hashtag,
 .tag {
-  font-size: 16px !important;
-  font-family: "Lora" !important;
-  display: inline-block;
-  transition: all 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  font-size: 16px;
 }
 
 .cm-hashtag:hover,

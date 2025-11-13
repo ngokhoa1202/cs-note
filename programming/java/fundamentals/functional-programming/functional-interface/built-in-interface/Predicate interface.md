@@ -1,11 +1,11 @@
 #functional-programming  #java #high-order-function #api 
 
-- Accepts any input type buit return `boolean`.
-# Predicate
+- `Predicate` accepts any input type built return `boolean`.
+# `Predicate`
 - `boolean test(T t)`: passes the variable `t` as the first parameter of lambda function and tests the predicate.
-- `default Predicate<T> and(Predicate<? super T> other)`: passes another `Predicate` `other` as a ==high-order function== and returns a composed `Predicate` after performing `and` logical operation with the return value of calling `Predicate`.
+- `default Predicate<T> and(Predicate<? super T> other)`: passes another `Predicate` `other` as a high-order function and returns a composed `Predicate` after performing `and` logical operation with the return value of calling `Predicate`.
 - `default Predicate<T> negate()`: return a composed `Predicate` after negating the return value of calling `Predicate`.
-- `default Predicate<T> or(Predicate<? super T> other)`: passes another `Predicate` `other` as ==parameter of lambda function== and ==returns a composed `Predicate` after performing `or` logical operation== with the return value of calling `Predicate`.
+- `default Predicate<T> or(Predicate<? super T> other)`: passes another `Predicate` `other` as parameter of lambda function and returns a composed `Predicate` after performing `or` logical operation with the return value of calling `Predicate`.
 ```Java
 import java.util.Linked List;  
 import java.util.List;  
@@ -69,13 +69,13 @@ public class Main {
   }  
 }
 ```
-# BiPredicate
+# `BiPredicate`
 - `boolean test(T t, U u)`: passes two variables `t` and `u` and as the parameters of lambda function and tests the predicate.
-- `default BiPredicate<T, U> and(BiPredicate<? super T, ? super U> other)`: passes another `BiOPredicate` `other` as a ==high-order function== and returns a composed `Predicate` after performing `and` logical operation with the return value of calling `Predicate`.
+- `default BiPredicate<T, U> and(BiPredicate<? super T, ? super U> other)`: passes another `BiOPredicate` `other` as a high-order function and returns a composed `Predicate` after performing `and` logical operation with the return value of calling `Predicate`.
 - `default BiPredicatePredicate<T, U> negate()`: return a composed `Predicate` after negating the return value of calling `Predicate`.
-- `default BiPredicate<T, U> or(BiPredicate<? super T, ? super U> other)`: passes another `BiPredicate` `other` as ==an high-order function== and ==returns a composed `Predicate` after performing `or` logical operation== with the return value of calling `Predicate`.
+- `default BiPredicate<T, U> or(BiPredicate<? super T, ? super U> other)`: passes another `BiPredicate` `other` as an high-order function and returns a composed `Predicate` after performing `or` logical operation with the return value of calling `Predicate`.
 
-```Java
+```Java title='listGreaterThan and listLessThan implements BiPredicate interface' hl=38,46,54-56
 import java.util.LinkedList;  
 import java.util.List;  
 import java.util.function.BiPredicate;  
@@ -135,3 +135,6 @@ public class Main {
   }  
 }
 ```
+***
+# References
+1. 

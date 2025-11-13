@@ -18,6 +18,6 @@
 
 # Email format:
 - RFC 5322.
-- [MIME](MIME.md)
+- [Multiple Purpose Internet Mail Extension (MIME)](Multiple%20Purpose%20Internet%20Mail%20Extension%20(MIME).md)
 - [S-MIME](S-MIME.md)
 - 

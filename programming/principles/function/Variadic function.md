@@ -5,7 +5,7 @@
 # Implementation
 
 ## Java
-- [[Variable arguments]]
+- [[programming/java/fundamentals/java-core/Variable arguments]]
 ## Go
 - [Variadic function](programming/go/fundamentals/Function.md#Variadic%20function)
 ## Javascript
@@ -14,4 +14,4 @@
 1. https://en.wikipedia.org/wiki/Variadic_function for Variadic function concept.
 2. [Variadic function](programming/go/fundamentals/Function.md#Variadic%20function) for Variadic function in Go.
 3. [[Rest parameter]] for Variadic function in Javascript.
-4. [[Variable arguments]] for Variadic function in Java.
+4. [[programming/java/fundamentals/java-core/Variable arguments]] for Variadic function in Java.

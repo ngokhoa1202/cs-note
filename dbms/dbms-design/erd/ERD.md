@@ -9,7 +9,7 @@
 - An entity is made up of many attributes.
 - Degree of a relationship: binary (2), ternary (3), n-ary.
 - A relationship may be ==recursive==.
-## Constrainsts
+## Constraints
 ### Cardinality ratio
 - 1-1.
 - M-N.

@@ -4,8 +4,7 @@
 - File is a sequence of <mark style="background: #e4e62d;">record</mark>.
 ## Fixed-length record
 - Every record has the same fields and field length are always <mark style="background: #e4e62d;">fixed</mark>.
-- Example:
-```c
+```c title='struct in C demostrating fixed-length record'
 struct employee {
 	char name[30]; //30 bytes
 	char ssn[9]; //9 bytes

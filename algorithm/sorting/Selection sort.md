@@ -12,4 +12,7 @@
 - Best-case, worst-case, average-case complexity are always $O(n)$ 
 # Space complexity
 - $$S(n)=O(n)$$
-- Auxillary space $O(1)$ 
+- Auxiliary space $O(1)$ 
+***
+# References
+1. 

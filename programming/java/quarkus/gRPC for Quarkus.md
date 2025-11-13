@@ -15,7 +15,7 @@ implementation("${quarkusPluginId}:quarkus-grpc")
 - The `.proto` files must be in the directory `proto` which is in the same level as `java` directory.
 - ![](Pasted%20image%2020241018150217.png)
 - Examples:
-```protobuf
+```protobuf title='gRPC message'
 syntax = "proto3";  
   
 option java_multiple_files = true;  

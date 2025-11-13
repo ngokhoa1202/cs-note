@@ -1,6 +1,6 @@
 #java #polymorphism #object-oriented-programming #java8 #java17
 
-- Generics in Java is a kind of [Parametric Polymorphism][[Polymorphism#Parametric polymorphism].
+- Generics in Java is a kind of Parametric polymorphism.
 # Generic type
 - A _generic_ type is a generic class or interface that is <mark class="hltr-yellow">parameterized over types</mark>.
 ```Java title='Java Generic type syntax'
@@ -43,7 +43,7 @@ Box box = new Box(); //
 Box<String> stringBox = new Box<>();
 Box rawBox = stringBox;               // OK
 ```
-- However, assigning a raw type to a parameterized type or invoking methods of raw type causes unchecked conversion or unchecked invocation warnings.
+- However, assigning an object of raw type to an object of parameterized type or invoking methods of raw type causes unchecked conversion or unchecked invocation warnings.
 ```Java title='Assigning a raw type to a parameterized type causes warning'
 Box rawBox = new Box();           // rawBox is a raw type of Box<T>
 Box<Integer> intBox = rawBox;     // warning: unchecked conversion
@@ -82,7 +82,6 @@ public class Pair<K, V> {
 }
 
 ```
-
 # Bounded type parameter
 - Java types are in-variances. which means that that `class A` extends `class B` does not imply `Container<A>` is a subtype of `Container<B>`
 - Bounded type parameter restricts  the type boundary to the type parameters.
@@ -121,7 +120,7 @@ public class BoundedExample1 {
 ```
 ## Multiple bounds
 - A type parameter can extend one class and implement multiple interfaces.
-```Java title='Multiple bounds for multiple inheritance of type parameter'
+```Java title='Multiple bounds for multiple inheritance of type parameter' hl=3,29
 // T must extend Animal AND implement Comparable and Serializable
 // Note: class must come first, then interfaces
 public class Zoo<T extends Animal & Comparable<T> & Serializable> {

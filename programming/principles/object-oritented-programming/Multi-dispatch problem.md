@@ -1,4 +1,4 @@
-#object-oriented-programming 
+#object-oriented-programming #design-pattern 
 
 ```Java title='Java employs single dispatch, which happens at compile time'
 class Shape { }
@@ -14,4 +14,4 @@ class CollisionDetector {
 }
 ```
 # References
-1. 
+1. [[Visitor pattern]] 

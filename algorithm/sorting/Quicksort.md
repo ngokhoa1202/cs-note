@@ -1,16 +1,15 @@
 #quicksort #sorting #algorithm 
-
 # Algorithm
 - Sort array $a$ in range $[l, r]$:
 	- if $l<r$ then:
 		- $k=partition(a,l,r)$ : pivot position.
 		- $quicksort(a,l,k-1)$
 		- $quicksort(a,k+1,r)$
-## Lamuto partition
--  Rightmost as initial pivot
+## Lomuto partition
+-  The rightmost element is chosen as the initial pivot.
 ### Idea
 - Attempt to move all elements that are less than $pivot$ to the left and all elements that are greater than $pivot$ to the right.
-- One-way traversal.
+- Two pointer are used to perform one-way traversal.
 ### Algorithm
 - $pivot=a_r$
 - $i=l-1$ 
@@ -34,9 +33,11 @@
 - $a_j < pivot$ $\implies$ move $a_j$ to the first region; otherwise, it currently stays in the right position.
 
 # Time complexity
-- 
+- $O(n\text{log}n)$
+# Space complexity
 
+***
 # References
-1. Introduction to Algorithm - MIT Press.
+1. Introduction to Algorithms - Thomas H. Cormen, Charles E. Leserson, Ronald L. Rivest, Clinfford Sten - The MIT Press - Third Edition 2009.
 2. https://en.wikipedia.org/wiki/Quicksort#:~:text=Quicksort%20was%20developed%20by%20British,data%2C%20particularly%20on%20larger%20distributions.&text=Animated%20visualization%20of%20the%20quicksort%20algorithm.
 3. 

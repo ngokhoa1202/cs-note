@@ -264,8 +264,7 @@ async function f() {
 f().then(alert); // 1
 ```
 - `await` is only allowed in `async` function. The JavaScript runtime employs a <mark class="hltr-yellow">single-threaded event loop</mark> architecture rather than thread creation. When encountering asynchronous operations, the runtime <mark class="hltr-yellow">delegates these tasks to underlying system APIs</mark> while the <mark class="hltr-yellow">main JavaScript thread continues executing subsequent code</mark>, which is known as *cooperative concurrency*. The runtime manages completion notifications through *callback queues and the event loop*. 
-	- The complete runtime environment requires sophisticated *multi-threaded coordination* at the system level to deliver the asynchronous capabilities that modern applications require. For instance, Linux employs `epoll`, `macOS` and `BSD` employ `kqueue`, Windows employs I/O Completion Ports.
-- 
+	- The complete runtime environment requires sophisticated *multi-threaded coordination* at the system level to deliver the asynchronous capabilities that modern applications require. For instance, Linux employs `epoll`, MacOS and BSD employ `kqueue`, Windows employs I/O Completion Ports.
 ```Javascript title='async await in Javascript'
 async function f() {
 

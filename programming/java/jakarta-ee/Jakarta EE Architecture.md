@@ -1,7 +1,8 @@
-#jakarta-ee  #software-architecture  #software-engineering #java #distributed-computing #cloud #dbms #web  #web-server
+#jakarta-ee  #software-architecture  #software-engineering #java #distributed-computing 
+#cloud #dbms #web  #web-server
 #dependency-injection  #java-servlet #layered-architecture #dependency-manager #bean 
 
-# Distributed multitiered application
+# Distributed multi-tiered application
 - Refers to [Three-tier Database architecture](Cloud%20computing.md#Three-tier%20Database%20architecture)
 - ![800x600](Pasted%20image%2020240809091913.png)
 - Client-tier components on ==client machine==.
@@ -29,7 +30,6 @@
 
 ## Jakarta EE communication
 - ![800x800](Pasted%20image%2020240809095407.png)
-- 
 # Jakarta EE Container
 - Enhance ==reusability== $\implies$ assemble Jakarta EE modules and deploy them to a container:
 	- Use Java Naming and Directory Interface (JNDI). $\implies$ dependency injection.
@@ -39,7 +39,8 @@
 
 ### Web container
 
-### EJB Container
+### Jakarta Enterprise Bean (EJB) Container
+***
 # References
 1. https://jakarta.ee/learn/docs/jakartaee-tutorial/9.1/jakarta-ee-tutorial.pdf for Jakarta EE official documentation.
 2. 

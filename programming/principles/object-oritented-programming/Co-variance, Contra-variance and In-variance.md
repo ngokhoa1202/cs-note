@@ -1,7 +1,7 @@
 #object-oriented-programming #discrete-math #relation #java 
 
 # Co-variant and Contra-variant functions
-- Let $D$ be a set on which a pre-order, written as $\preceq$ . 
+- Let $D$ be a set on which a pre-order operator exists, written as $\preceq$ . 
 - A function $f : D → D$ is 
 	- *co-variant* in case $f$ respects the pre-order, that is $x \preceq y \implies f(x) \preceq f(y)$.  
 	- *contra-variant* in case the pre-order is reversed, that is $x \preceq y \implies f(x) \succeq f(y)$.
@@ -38,6 +38,7 @@ class Dog extends Animal {
 # In-variances
 - In-variances means that even if $A$ is a subtype of $B$,  $\text{Container}(A)$ and $\text{Container}(B)$ have <mark class="hltr-yellow">no subtype relationship</mark>.
 	-   $A \preceq B \centernot\implies C(A) \succeq C(B)$ or $C(A) \preceq C(B)$ where $C$ is a general container function.
+***
 # References
 1. Programming Languages: Principles and Paradigms - Maurizio Gabbrielli and Simone Martini - Springer Publisher (2010).
 	1. Chapter 10. The Object-Oriented Paradigm.

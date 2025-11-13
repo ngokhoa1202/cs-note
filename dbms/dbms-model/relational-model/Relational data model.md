@@ -1,4 +1,4 @@
-#dbms #dbms-architecture  #dbms-design #rdbms #sql #mssql #mysql #postgresql #relational-model 
+#dbms #dbms-architecture  #dbms-design #rdbms #sql #microsoft-sql-server #mysql #postgresql #relational-model 
 
 # Concepts
 - ==Domain== $D(A_i)$ is a set of possible scalar values of an attribute.

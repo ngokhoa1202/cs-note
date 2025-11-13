@@ -1,5 +1,5 @@
 
-#cli #npm #dependency-manager #javascript #reactjs 
+#cli #npm #dependency-manager #javascript #react 
 
 # Install npm modules
 `npm install`

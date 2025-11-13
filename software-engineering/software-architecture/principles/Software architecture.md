@@ -1,7 +1,7 @@
 #software-engineering #software-architecture #software-testing 
 
 # Definition
-- *Architecture is the <mark class="hltr-yellow">fundamental organization</mark> of a system, embodied in its <mark class="hltr-yellow">components</mark>, their <mark class="hltr-yellow">relationships</mark> to each other and the <mark class="hltr-yellow">environment</mark>, and the principles governing its design and evolution*.
+- Architecture is the <mark class="hltr-yellow">fundamental organization</mark> of a system, embodied in its <mark class="hltr-yellow">components</mark>, their <mark class="hltr-yellow">relationships</mark> to each other and the <mark class="hltr-yellow">environment</mark>, and the principles governing its design and evolution*.
 # Software architecture vs software design
 ## Software architecture
 - **Architecture characteristics** encompass the quality attributes and non-functional requirements that shape the system, such as scalability, performance, security, and maintainability.... These characteristics <mark class="hltr-yellow">drive fundamental design decisions</mark> and establish constraints that influence the entire system.
@@ -52,7 +52,7 @@
 ## Trade-off
 - *There is no right or wrong answers in software architecture - <mark class="hltr-yellow">only trade-offs</mark>.* 
 - Architecture is the stuff you can Google, it depends on the <mark class="hltr-yellow">business context</mark>.
-
+***
 # References
 1. Fundamentals of Software Architecture An Engineering Approach - Mark Richards Neal Ford - O_Reilly Media (2020)
 	1. Chapter 2. Architectural Thinking.

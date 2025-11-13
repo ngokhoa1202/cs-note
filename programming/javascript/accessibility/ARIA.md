@@ -1,4 +1,4 @@
-#web #web-accessibility #html #css #javascript #vanilla-javascript #reactjs #angular 
+#web #web-accessibility #html #css #javascript #vanilla-javascript #react #angular 
 
 - Stands for Accessible Rich Internet Application.
 

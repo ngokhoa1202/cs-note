@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f8c6a330887a3051",
+        "id": "bc9da3c074d40cfd",
         "type": "tabs",
         "children": [
           {
-            "id": "0bedc4f6ec1516ef",
+            "id": "ab852db33e491e2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dbms/dbms-architecture/DBMS architecture.md",
+                "file": "algorithm/problems/leetcode/Problem 387. First Unique Character in a String.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "DBMS architecture"
+              "title": "Problem 387. First Unique Character in a String"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#mac",
+                "query": "tag:#mssql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 485.5
+    "width": 377.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "programming/css/vannila-css/tricks/Style text using background color.md",
+                "file": "algorithm/problems/leetcode/Problem 283. Move Zeroes.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Style text using background color"
+              "title": "Outline of Problem 283. Move Zeroes"
             }
           },
           {
@@ -172,8 +172,7 @@
               "title": "Outgoing links from Application layer overview"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -192,38 +191,46 @@
       "markdown-importer:Open format converter": false
     }
   },
-  "active": "0bedc4f6ec1516ef",
+  "active": "ab852db33e491e2e",
   "lastOpenFiles": [
+    "calculus/Harmonic series.md",
+    "algorithm/problems/leetcode/Problem 387. First Unique Character in a String.md",
+    "calculus/L Hopital rule.md",
+    "calculus/Stirling approximation.md",
+    "algorithm/problems/leetcode/Problem 383. Ransom Note.md",
+    "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md",
+    "algorithm/problems/leetcode/Problem 242. Valid anagram.md",
+    "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md",
+    "algorithm/problems/leetcode/Problem 349.  Intersection of Two Arrays.md",
+    "algorithm/sorting/Quicksort.md",
+    "algorithm/sorting/Merge sort.md",
+    "algorithm/string/Longest common subsequence.md",
+    "algorithm/string/Naive string matching.md",
+    "algorithm/sorting/Selection sort.md",
+    "algorithm/sorting/Insertion sort.md",
+    "algorithm/problems/leetcode/Problem 197. Rising temperature.md",
+    "programming/java/jakarta-ee/Jakarta Context Dependency Injection.md",
     "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md",
-    "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md",
-    "dbms/postgresql/PostgreSQL installation.md",
-    "dbms/postgresql/LIKE operator.md",
-    "dbms/postgresql/Installation.md",
-    "dbms/postgresql/DDL.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Builder pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract Factory pattern.md",
-    "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md",
-    "cybersecurity/network-security/application-layer/web-security/Json Web Token.md",
-    "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md",
-    "algorithm/problems/leetcode/Problem 143. Reorder list.md",
+    "algorithm/problems/leetcode/Problem 183. Customers who never order.md",
+    "dbms/dbms-architecture/Disk storage.md",
+    "dbms/dbms-architecture/Record structure.md",
+    "algorithm/Recurrence relation.md",
+    "algorithm/Algorithm complexity.md",
+    "algorithm/problems/leetcode/Problem 283. Move Zeroes.md",
+    "algorithm/problems/leetcode/Problem 182. Duplicate email.md",
+    "algorithm/problems/leetcode/Problem 181. Employees earning more than their managers.md",
+    "Base.base",
+    "Pasted image 20251109160258.png",
+    "software-engineering/software-architecture/design-pattern",
+    "software-engineering/software-architecture/domain-driven-design",
+    "assets/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif",
+    "copilot/copilot-custom-prompts",
+    "copilot",
+    "programming/java/fundamentals/functional-programming/stream/collector 1",
     "algorithm/problems/leetcode",
     "algorithm/problems",
     "algorithm/Untitled.canvas",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md",
     "assets/Pasted image 20251105105757.png",
-    "computer-network/application-layer/http/HTTP Version.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Command pattern.md",
-    "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md",
-    "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md",
-    "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md",
-    "computer-network/application-layer/email/POP3.md",
-    "computer-network/application-layer/email/IMAP.md",
     "assets/Pasted image 20251103114501.png",
     "assets/Pasted image 20251101153906.png",
     "programming/javascript/vanilla-javascript/web",
@@ -232,16 +239,8 @@
     "assets/Pasted image 20251025193405.png",
     "assets/Pasted image 20251023111946.png",
     "assets/Pasted image 20251023090550.png",
-    "assets/Pasted image 20251023090535.png",
-    "assets/Pasted image 20251023084554.png",
-    "programming/javascript/reactjs/asset-management",
-    "programming/javascript/babel",
-    "programming/javascript/webpack",
+    "programming/javascript/react/asset-management",
     "Untitled.canvas",
-    "cryptography/Untitled.base",
-    "programming/javascript/nodejs/module",
-    "programming/javascript/nodejs/concurrency-control",
-    "programming/javascript/nodejs/architecture",
     "Untitled 1.canvas",
     "network/Untitled.canvas",
     "Untitled 2.canvas",

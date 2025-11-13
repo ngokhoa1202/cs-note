@@ -3,26 +3,11 @@
 - `Function` is the most general form of function type in Java.
 # Function
 - `R apply(T t)`: passes the variable `t` as the first ==parameter of high-order function== and return the value of that high-order function.
-- `default <V> Function<V, R> compose(Function<? super V, ? extends T> before)`: passes the invoking `Function`  as a ==high-order function==. The type of `before` 's return value must be the ==child class or interface of the input parameter== of calling `Function`.
+- `default <V> Function<V, R> compose(Function<? super V, ? extends T> before)`: passes the invoking `Function`  as a high-order function. The type of `before` 's return value must be the child class or interface of the input parameter of calling `Function`.
 - `default <V> Function<T, V> andThen(Function<? super R, ? extends V> after)`: passes the `Function` `after` as a high-order function. The type of calling `Predicate` return value must the ==child class or interface of the input parameter== of `after`. 
 - `f.compose(g).andThen(h).apply(t)` $\iff$ $h(f(g(t)))$ 
 	- `f.andThen(g)` executes `f` first, then `g`  $\iff g(f(x))$
 	- `f.compose(g)` executes `g` first, then `f`  $\iff f(g(x))$
-- Assume $f: T_1 \to R_1$ , $g: T_2 \to R_2$ , $h: T_3 \to R_3$, $t \in T$ , the type requirement should be conformed:
-```mermaid
-classDiagram
-class T
-class T1
-class T2
-class T3
-class R1
-class R2
-class R3
-T1 <|-- R2
-T3 <|-- R1
-T2 <|-- T
-```
-
 
 ```Java
 import java.util.LinkedList;  
@@ -67,14 +52,14 @@ public class Main {
   }  
 }
 ```
-
 # Simplified symbol
-- Since Java is an fully object-oriented programming language, it prioritizes the strictness of class hierarchy over the readability.
-- The `Function` API can be simplified as:
-	- `f.apply(args)` is equivalent to `f(args)`.
-	- `f.andThen(g).apply(x)` is equivalent to `g(f(x))`.
-	- `f.compose(g).apply(x)` is equivalent to `f(g(x))`.
+- Since Java is an fully object-oriented programming language, it prioritizes the <mark class="hltr-yellow">strictness</mark> of class hierarchy over the readability.
+- The `Function` API can be mathematically perceived as:
+	- `f.apply(x)` $\equiv f(x)$.
+	- `f.andThen(g).apply(x)` $\equiv g(f(x)) = g \circ f \circ x$.
+	- `f.compose(g).apply(x)` $\equiv f(g(x)) = f \circ g \circ x$.
 # Partially applied function
+- The syntax of partially applied function in Java is verbose due to its complex type system.
 ```Java title='Partially applied function in Java'
 import java.util.function.Function;
 
@@ -103,10 +88,11 @@ public static <T, U, V> Function<U, Function<T, V>> reverseArgs(Function<T, Func
 }
 ```
 # Variant
-## BiFunction
-- Similar to `Function`, but takes ==two arguments== and produces one output.
+## `interface BiFunction`
+- Similar to `Function`, but it takes ==two arguments== and produces one output.
+***
 # References
-1. https://www.geeksforgeeks.org/java-bifunction-interface-methods-apply-and-andthen/ for BiFunction.
+1. https://www.geeksforgeeks.org/java-bifunction-interface-methods-apply-and-andthen/ for `interface BiFunction` tutorial.
 2. [[Currying function]] for Partially applied function in Java.
 3. Functional Programming in Java: How functional techniques improve your Java programs - Pierre-Yves Saumont - Manning Publications 2017.
 	1. Chapter 2. Using Functions in Java.

@@ -6,7 +6,7 @@
 # Disk architecture
 - A disk is a <mark style="background: #e4e62d;">random access addressable</mark> device.
 - The transfer process between main memory and disk takes place in <mark style="background: #e4e62d;">units of disk blocks</mark>.
-- The hardware address of a block is a combination of a cyclinder number, track number and block number.
+- The hardware address of a block is a combination of a cylinder number, track number and block number.
 - For a read command, the disk block is copied into the <mark style="background: #e4e62d;">buffer</mark>; whereas for a write command, the contents of the buffer are copied into the disk block.
 # Disk parameters
 - ![](Pasted%20image%2020241025101216.png)
@@ -15,7 +15,7 @@
 - Denoted by $B$.
 - Specific to each operating system:
 	- For Ubuntu $B = 512 \space bytes$ 
-```bash
+```Shell title='Command to find block size in Linux'
 sudo fdisk -l # check for block size
 ```
 
@@ -73,10 +73,9 @@ sudo fdisk -l # check for block size
 ## Buffer manager
 - Increases the hit cache probability.
 - In case of reading a new disk block from disk,  finds a page to replace that will cause the least harm in the sense that it <mark style="background: #ABF7F7A6;">will not be required shortly</mark> again.
-
 ## Double buffering
 - Use <mark style="background: #e4e62d;">two buffers</mark> to increase hit cache probability.
-
+***
 # References
 1. *HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.*
 2. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).*

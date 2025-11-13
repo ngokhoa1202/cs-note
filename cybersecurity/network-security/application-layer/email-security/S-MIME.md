@@ -56,4 +56,4 @@
 - **Signing Certificate**: bind sender's certificate to signature.
 
 # Reference
-1. [MIME](MIME.md)
+1. [Multiple Purpose Internet Mail Extension (MIME)](Multiple%20Purpose%20Internet%20Mail%20Extension%20(MIME).md)

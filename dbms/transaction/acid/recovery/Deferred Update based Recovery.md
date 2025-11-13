@@ -19,7 +19,7 @@
 
 - Transaction 1 and transaction 4 committed after the checkpoint so they are redone. Transaction 2 and transaction 4 did not commit so they are ignored.![](Pasted%20image%2020241214122753.png)
 
-
+***
 # References
 1. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):
 	1. Chapter 22 - Section 2.

@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "DBMS architecture",
-      "path": "dbms/dbms-architecture/DBMS architecture.md"
+      "basename": "Problem 387. First Unique Character in a String",
+      "path": "algorithm/problems/leetcode/Problem 387. First Unique Character in a String.md"
     },
     {
-      "basename": "Problem 226. Invert Binary tree",
-      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
+      "basename": "Harmonic series",
+      "path": "calculus/Harmonic series.md"
     },
     {
-      "basename": "Problem 21. Merge two sorted lists",
-      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
+      "basename": "L Hopital rule",
+      "path": "calculus/L Hopital rule.md"
     },
     {
-      "basename": "PostgreSQL installation",
-      "path": "dbms/postgresql/PostgreSQL installation.md"
+      "basename": "Stirling approximation",
+      "path": "calculus/Stirling approximation.md"
     },
     {
-      "basename": "LIKE operator",
-      "path": "dbms/postgresql/LIKE operator.md"
+      "basename": "Problem 383. Ransom Note",
+      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
     },
     {
-      "basename": "Installation",
-      "path": "dbms/postgresql/Installation.md"
+      "basename": "Problem 374. Guess Number Higher or Lower",
+      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
     },
     {
-      "basename": "DDL",
-      "path": "dbms/postgresql/DDL.md"
+      "basename": "Problem 242. Valid anagram",
+      "path": "algorithm/problems/leetcode/Problem 242. Valid anagram.md"
     },
     {
-      "basename": "Decorator pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator pattern.md"
+      "basename": "Problem 350. Intersection of Two Arrays II",
+      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
     },
     {
-      "basename": "Adapter pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Adapter pattern.md"
+      "basename": "Problem 349.  Intersection of Two Arrays",
+      "path": "algorithm/problems/leetcode/Problem 349.  Intersection of Two Arrays.md"
     },
     {
-      "basename": "Simple factory pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Simple factory pattern.md"
+      "basename": "Quicksort",
+      "path": "algorithm/sorting/Quicksort.md"
     },
     {
-      "basename": "Singleton pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Singleton pattern.md"
-    },
-    {
-      "basename": "Prototype pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Prototype pattern.md"
-    },
-    {
-      "basename": "Builder pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Builder pattern.md"
-    },
-    {
-      "basename": "Abstract Factory pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Abstract Factory pattern.md"
-    },
-    {
-      "basename": "Server-side request forgery (SSRF)",
-      "path": "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md"
-    },
-    {
-      "basename": "Json Web Token",
-      "path": "cybersecurity/network-security/application-layer/web-security/Json Web Token.md"
-    },
-    {
-      "basename": "Cross-Origin Resource Sharing (CORS)",
-      "path": "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md"
-    },
-    {
-      "basename": "Problem 143. Reorder list",
-      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
-    },
-    {
-      "basename": "Chain of responsibility pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md"
-    },
-    {
-      "basename": "Factory Method pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/creational-pattern/Factory Method pattern.md"
-    },
-    {
-      "basename": "HTTP Version",
-      "path": "computer-network/application-layer/http/HTTP Version.md"
-    },
-    {
-      "basename": "Command pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Command pattern.md"
-    },
-    {
-      "basename": "Mediator pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
-    },
-    {
-      "basename": "Quick UDP Internet Connection (QUIC)",
-      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
-    },
-    {
-      "basename": "Peer-to-Peer paradigm",
-      "path": "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md"
-    },
-    {
-      "basename": "POP3",
-      "path": "computer-network/application-layer/email/POP3.md"
-    },
-    {
-      "basename": "IMAP",
-      "path": "computer-network/application-layer/email/IMAP.md"
-    },
-    {
-      "basename": "HTTP",
-      "path": "computer-network/application-layer/http/HTTP.md"
-    },
-    {
-      "basename": "Introduction to access control",
-      "path": "cybersecurity/network-security/application-layer/web-security/Introduction to access control.md"
-    },
-    {
-      "basename": "Web cache",
-      "path": "computer-network/application-layer/Web cache.md"
-    },
-    {
-      "basename": "UDP",
-      "path": "computer-network/transport-layer/udp/UDP.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "computer-network/application-layer/http/Cookie.md"
-    },
-    {
-      "basename": "Client-Server paradigm",
-      "path": "computer-network/application-layer/Client-Server paradigm.md"
-    },
-    {
-      "basename": "Application layer overview",
-      "path": "computer-network/application-layer/Application layer overview.md"
-    },
-    {
-      "basename": "MIME",
-      "path": "computer-network/application-layer/email/MIME.md"
-    },
-    {
-      "basename": "javascript URL",
-      "path": "programming/javascript/browser/javascript URL.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "programming/javascript/browser/Cookie.md"
-    },
-    {
-      "basename": "Domain Name System (DNS)",
-      "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
-    },
-    {
-      "basename": "Bridge pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Bridge pattern.md"
-    },
-    {
-      "basename": "Facade pattern",
-      "path": "software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
-    },
-    {
-      "basename": "Secure Socket Layer (SSL) - Transport Layer Security (TLS)",
-      "path": "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md"
-    },
-    {
-      "basename": "Network security overview",
-      "path": "cybersecurity/network-security/Network security overview.md"
-    },
-    {
-      "basename": "IKE",
-      "path": "cybersecurity/network-security/network-layer/IKE.md"
-    },
-    {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/Algorithm complexity.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/Recurrence relation.md"
-    },
-    {
-      "basename": "Naive string matching",
-      "path": "algorithm/string/Naive string matching.md"
+      "basename": "Merge sort",
+      "path": "algorithm/sorting/Merge sort.md"
     },
     {
       "basename": "Longest common subsequence",
       "path": "algorithm/string/Longest common subsequence.md"
     },
     {
-      "basename": "IP Security",
-      "path": "cybersecurity/network-security/network-layer/IP Security.md"
+      "basename": "Naive string matching",
+      "path": "algorithm/string/Naive string matching.md"
     },
     {
-      "basename": "Cloud computing",
-      "path": "cybersecurity/cloud-security/Cloud computing.md"
+      "basename": "Selection sort",
+      "path": "algorithm/sorting/Selection sort.md"
     },
     {
-      "basename": "Stirling approximation",
-      "path": "calculus/Stirling approximation.md"
+      "basename": "Insertion sort",
+      "path": "algorithm/sorting/Insertion sort.md"
+    },
+    {
+      "basename": "Problem 197. Rising temperature",
+      "path": "algorithm/problems/leetcode/Problem 197. Rising temperature.md"
+    },
+    {
+      "basename": "Jakarta Context Dependency Injection",
+      "path": "programming/java/jakarta-ee/Jakarta Context Dependency Injection.md"
+    },
+    {
+      "basename": "Problem 226. Invert Binary tree",
+      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
+    },
+    {
+      "basename": "Problem 183. Customers who never order",
+      "path": "algorithm/problems/leetcode/Problem 183. Customers who never order.md"
+    },
+    {
+      "basename": "Disk storage",
+      "path": "dbms/dbms-architecture/Disk storage.md"
+    },
+    {
+      "basename": "Record structure",
+      "path": "dbms/dbms-architecture/Record structure.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/Recurrence relation.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/Algorithm complexity.md"
+    },
+    {
+      "basename": "Problem 283. Move Zeroes",
+      "path": "algorithm/problems/leetcode/Problem 283. Move Zeroes.md"
+    },
+    {
+      "basename": "Problem 182. Duplicate email",
+      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
+    },
+    {
+      "basename": "Problem 181. Employees earning more than their managers",
+      "path": "algorithm/problems/leetcode/Problem 181. Employees earning more than their managers.md"
+    },
+    {
+      "basename": "File organization",
+      "path": "dbms/dbms-architecture/File organization.md"
+    },
+    {
+      "basename": "DBMS architecture",
+      "path": "dbms/dbms-architecture/DBMS architecture.md"
+    },
+    {
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Problem 62. Unique Paths",
+      "path": "algorithm/problems/leetcode/Problem 62. Unique Paths.md"
+    },
+    {
+      "basename": "Problem 110. Balanced Binary Tree",
+      "path": "algorithm/problems/leetcode/Problem 110. Balanced Binary Tree.md"
+    },
+    {
+      "basename": "Problem 49. Group anagrams",
+      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
+    },
+    {
+      "basename": "Dynamic multi-level indexes using B tree or B+ tree",
+      "path": "dbms/dbms-indexing/Dynamic multi-level indexes using B tree or B+ tree.md"
+    },
+    {
+      "basename": "ERD",
+      "path": "dbms/dbms-design/erd/ERD.md"
+    },
+    {
+      "basename": "Deferred Update based Recovery",
+      "path": "dbms/transaction/acid/recovery/Deferred Update based Recovery.md"
+    },
+    {
+      "basename": "Multiversion concurrency control techniques",
+      "path": "dbms/transaction/acid/concurrency-control/Multiversion concurrency control techniques.md"
+    },
+    {
+      "basename": "Optimistic Concurrency control techniques",
+      "path": "dbms/transaction/acid/concurrency-control/Optimistic Concurrency control techniques.md"
+    },
+    {
+      "basename": "Timestamp-ordering based concurrency control",
+      "path": "dbms/transaction/acid/concurrency-control/Timestamp-ordering based concurrency control.md"
+    },
+    {
+      "basename": "Locking operations",
+      "path": "dbms/transaction/acid/concurrency-control/Locking operations.md"
+    },
+    {
+      "basename": "Deadlock",
+      "path": "dbms/transaction/acid/concurrency-control/Deadlock.md"
+    },
+    {
+      "basename": "Generate secret key openSSL",
+      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
+    },
+    {
+      "basename": "Examples",
+      "path": "copilot/copilot-custom-prompts/Examples.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md"
+    },
+    {
+      "basename": "Software architecture",
+      "path": "software-engineering/software-architecture/principles/Software architecture.md"
+    },
+    {
+      "basename": "SOLID",
+      "path": "software-engineering/software-architecture/principles/SOLID.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base.base"
+    },
+    {
+      "basename": "Method reference",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/Method reference.md"
+    },
+    {
+      "basename": "SRE_Roadmap",
+      "path": "SRE_Roadmap.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Pasted image 20251109160258",
+      "path": "Pasted image 20251109160258.png"
     }
   ],
   "omittedPaths": [],

@@ -1,4 +1,5 @@
-#dhcp #subnet #data-plane #computer-network #protocol  #application-layer  #client-server #network-layer 
+#dhcp #subnet #data-plane #computer-network #protocol  #application-layer 
+#client-server #network-layer 
 
 - Stands for ==Dynamic Host Configuration Protocol==.
 - ==Automatically allocates IP address== for host within a network.
@@ -10,7 +11,6 @@
 	- client hosts.
 - Employ [UDP](UDP.md), ==port 68 on client and port 67 on server==.
 # Principle
-4 steps:
 1. *Discover DHCP Server*:
 	 - Client joins network and ==broadcasts DHCP discover message==:
 		 - `IP source`: `0.0.0.0`.
@@ -30,7 +30,9 @@
 4. *Server acknowledges*
 	- Server ==unicasts DHCP ACK message== to acknowledge client that IP allocation is successful.
 - ![](Pasted%20image%2020240522151346.png)
-- 
+***
+# References
+1. 
 
 
 

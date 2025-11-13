@@ -5,7 +5,6 @@
 - Made up of <mark style="background: #e4e62d;">unordered records</mark>.
 - Records are placed in the file in the order in which they are inserted. $\to$ giữ nguyên thứ tự.
 ## File operations
-
 ### Insertion
 - Efficient ($\geq$ 1 block access).
 - Copy the last block of the file into a buffer $\to$ add a new record to the block $\to$ rewritten the block back to disk.

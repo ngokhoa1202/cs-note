@@ -9,7 +9,6 @@
 # Open-closed principle.
 - Software entities (classes, packages, methods, ...) should be ==open for extension, but closed for modification==.
 - ==Abstraction== is the key.
-
 # Liskov substitution principle
 - Subtypes must be ==substitutable== to base types $\equiv$ their behavior should not its parent behavior.
 - Degenerate method in child class if it is unnecessary.
@@ -25,7 +24,8 @@
 - $\implies$ ==Loosely coupled dependency== instead of tightly coupled dependency.
 - $\implies$ ==Interface== or ==abstract function== instead of concrete class.
 - $\implies$ Should provide dependency from ==external== environment.
+***
 # References
-1. [Design patterns](software-engineering/software-architecture/design-pattern/Design%20patterns.md) for design pattern categories - real examples of SOLID principles.
+1. [[Design patterns]] for design pattern categories - real examples of SOLID principles.
 2. [Domain driven design](software-engineering/software-architecture/domain-driven-design/Domain%20driven%20design.md) for Domain Driven Design - application of SOLID for enterprise application.
-3. [Layered architecture](software-engineering/software-architecture/software-design/domain-driven-design/Layered%20architecture.md) for Layered architecture - application of SOLID in software architecture.
+3. [Layered architecture](software-engineering/software-architecture/design/domain-driven-design/Layered%20architecture.md) for Layered architecture - application of SOLID in software architecture.
