@@ -1,8 +1,136 @@
 {
   "recentFiles": [
     {
+      "basename": "Problem 589. N-ary Tree Preorder Traversal",
+      "path": "algorithm/problems/leetcode/Problem 589. N-ary Tree Preorder Traversal.md"
+    },
+    {
+      "basename": "Problem 415. Add Strings",
+      "path": "algorithm/problems/leetcode/Problem 415. Add Strings.md"
+    },
+    {
+      "basename": "Problem 824. Goat Latin",
+      "path": "algorithm/problems/leetcode/Problem 824. Goat Latin.md"
+    },
+    {
+      "basename": "Problem 868. Binary Gap",
+      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
+    },
+    {
+      "basename": "Problem 577. Employee Bonus",
+      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
+    },
+    {
+      "basename": "Problem 896. Monotonic array",
+      "path": "algorithm/problems/leetcode/Problem 896. Monotonic array.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/Recurrence relation.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/Algorithm complexity.md"
+    },
+    {
+      "basename": "b+ tree",
+      "path": "assets/b+ tree.pdf"
+    },
+    {
+      "basename": "SRE_Roadmap",
+      "path": "SRE_Roadmap.md"
+    },
+    {
+      "basename": "Array list",
+      "path": "algorithm/data-structure/list/Array list.md"
+    },
+    {
+      "basename": "Linked list",
+      "path": "algorithm/data-structure/list/Linked list.md"
+    },
+    {
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/hashing/Hash table.md"
+    },
+    {
+      "basename": "Problem 575. Distribute candies",
+      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
+    },
+    {
+      "basename": "Leetcode",
+      "path": "templates/Leetcode.md"
+    },
+    {
+      "basename": "Problem 485. Max consecutive ones",
+      "path": "algorithm/problems/leetcode/Problem 485. Max consecutive ones.md"
+    },
+    {
+      "basename": "Base",
+      "path": "Base.base"
+    },
+    {
+      "basename": "Problem 476. Number complement",
+      "path": "algorithm/problems/leetcode/Problem 476. Number complement.md"
+    },
+    {
+      "basename": "Problem 461. Hamming distance",
+      "path": "algorithm/problems/leetcode/Problem 461. Hamming distance.md"
+    },
+    {
+      "basename": "Problem 404. Sum of Left Leaves",
+      "path": "algorithm/problems/leetcode/Problem 404. Sum of Left Leaves.md"
+    },
+    {
+      "basename": "Problem 389. Find the Difference",
+      "path": "algorithm/problems/leetcode/Problem 389. Find the Difference.md"
+    },
+    {
       "basename": "Problem 387. First Unique Character in a String",
       "path": "algorithm/problems/leetcode/Problem 387. First Unique Character in a String.md"
+    },
+    {
+      "basename": "Problem 383. Ransom Note",
+      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
+    },
+    {
+      "basename": "Anonymous class",
+      "path": "programming/java/fundamentals/java-core/interface/Anonymous class.md"
+    },
+    {
+      "basename": "Heap pollution",
+      "path": "programming/java/fundamentals/generics/Heap pollution.md"
+    },
+    {
+      "basename": "Generics",
+      "path": "programming/java/fundamentals/generics/Generics.md"
+    },
+    {
+      "basename": "Method reference",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/Method reference.md"
+    },
+    {
+      "basename": "Gradle tasks",
+      "path": "programming/java/gradle/Gradle tasks.md"
+    },
+    {
+      "basename": "Gradle project architecture",
+      "path": "programming/java/gradle/Gradle project architecture.md"
+    },
+    {
+      "basename": "Gradle commands",
+      "path": "programming/java/gradle/Gradle commands.md"
+    },
+    {
+      "basename": "Gradle build scripts",
+      "path": "programming/java/gradle/Gradle build scripts.md"
+    },
+    {
+      "basename": "Default method in interface",
+      "path": "programming/java/fundamentals/java-core/interface/Default method in interface.md"
+    },
+    {
+      "basename": "Variable arguments",
+      "path": "programming/java/fundamentals/java-core/function/Variable arguments.md"
     },
     {
       "basename": "Harmonic series",
@@ -15,10 +143,6 @@
     {
       "basename": "Stirling approximation",
       "path": "calculus/Stirling approximation.md"
-    },
-    {
-      "basename": "Problem 383. Ransom Note",
-      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
     },
     {
       "basename": "Problem 374. Guess Number Higher or Lower",
@@ -75,130 +199,6 @@
     {
       "basename": "Problem 183. Customers who never order",
       "path": "algorithm/problems/leetcode/Problem 183. Customers who never order.md"
-    },
-    {
-      "basename": "Disk storage",
-      "path": "dbms/dbms-architecture/Disk storage.md"
-    },
-    {
-      "basename": "Record structure",
-      "path": "dbms/dbms-architecture/Record structure.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/Recurrence relation.md"
-    },
-    {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/Algorithm complexity.md"
-    },
-    {
-      "basename": "Problem 283. Move Zeroes",
-      "path": "algorithm/problems/leetcode/Problem 283. Move Zeroes.md"
-    },
-    {
-      "basename": "Problem 182. Duplicate email",
-      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
-    },
-    {
-      "basename": "Problem 181. Employees earning more than their managers",
-      "path": "algorithm/problems/leetcode/Problem 181. Employees earning more than their managers.md"
-    },
-    {
-      "basename": "File organization",
-      "path": "dbms/dbms-architecture/File organization.md"
-    },
-    {
-      "basename": "DBMS architecture",
-      "path": "dbms/dbms-architecture/DBMS architecture.md"
-    },
-    {
-      "basename": "Problem 143. Reorder list",
-      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
-    },
-    {
-      "basename": "Problem 62. Unique Paths",
-      "path": "algorithm/problems/leetcode/Problem 62. Unique Paths.md"
-    },
-    {
-      "basename": "Problem 110. Balanced Binary Tree",
-      "path": "algorithm/problems/leetcode/Problem 110. Balanced Binary Tree.md"
-    },
-    {
-      "basename": "Problem 49. Group anagrams",
-      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
-    },
-    {
-      "basename": "Dynamic multi-level indexes using B tree or B+ tree",
-      "path": "dbms/dbms-indexing/Dynamic multi-level indexes using B tree or B+ tree.md"
-    },
-    {
-      "basename": "ERD",
-      "path": "dbms/dbms-design/erd/ERD.md"
-    },
-    {
-      "basename": "Deferred Update based Recovery",
-      "path": "dbms/transaction/acid/recovery/Deferred Update based Recovery.md"
-    },
-    {
-      "basename": "Multiversion concurrency control techniques",
-      "path": "dbms/transaction/acid/concurrency-control/Multiversion concurrency control techniques.md"
-    },
-    {
-      "basename": "Optimistic Concurrency control techniques",
-      "path": "dbms/transaction/acid/concurrency-control/Optimistic Concurrency control techniques.md"
-    },
-    {
-      "basename": "Timestamp-ordering based concurrency control",
-      "path": "dbms/transaction/acid/concurrency-control/Timestamp-ordering based concurrency control.md"
-    },
-    {
-      "basename": "Locking operations",
-      "path": "dbms/transaction/acid/concurrency-control/Locking operations.md"
-    },
-    {
-      "basename": "Deadlock",
-      "path": "dbms/transaction/acid/concurrency-control/Deadlock.md"
-    },
-    {
-      "basename": "Generate secret key openSSL",
-      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
-    },
-    {
-      "basename": "Examples",
-      "path": "copilot/copilot-custom-prompts/Examples.md"
-    },
-    {
-      "basename": "Microservice",
-      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md"
-    },
-    {
-      "basename": "Software architecture",
-      "path": "software-engineering/software-architecture/principles/Software architecture.md"
-    },
-    {
-      "basename": "SOLID",
-      "path": "software-engineering/software-architecture/principles/SOLID.md"
-    },
-    {
-      "basename": "Base",
-      "path": "Base.base"
-    },
-    {
-      "basename": "Method reference",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/Method reference.md"
-    },
-    {
-      "basename": "SRE_Roadmap",
-      "path": "SRE_Roadmap.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Pasted image 20251109160258",
-      "path": "Pasted image 20251109160258.png"
     }
   ],
   "omittedPaths": [],
