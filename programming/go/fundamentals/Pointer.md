@@ -1,4 +1,4 @@
-#memory #operator #operating-system #garbage-collector 
+#memory #operator #operating-system #garbage-collector #go 
 
 # Pointer
 - Pointer in Go holds the address of some memory space.
@@ -30,7 +30,6 @@ fmt.Println(*p) // prints 0
 *p = 12
 fmt.Println(*p) // prints 12
 ```
-
 # Heap escape
 - Distinctly from C/C++, Go compiler is smart enough to **escape** the variable to the heap if needed.
 ```Go title='Heap escape to avoid dangling reference in Go'

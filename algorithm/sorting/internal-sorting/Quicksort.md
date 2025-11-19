@@ -1,4 +1,5 @@
 #quicksort #sorting #algorithm 
+- Quicksort is an internal sorting algorithm.
 # Algorithm
 - Sort array $a$ in range $[l, r]$:
 	- if $l<r$ then:
@@ -35,9 +36,11 @@
 # Time complexity
 - $O(n\text{log}n)$
 # Space complexity
-
+- $O(n)$
 ***
 # References
 1. Introduction to Algorithms - Thomas H. Cormen, Charles E. Leserson, Ronald L. Rivest, Clinfford Sten - The MIT Press - Third Edition 2009.
+	1. Chapter II. Sorting and Order Statistics.
+		1. Section 7. Quicksort.
 2. https://en.wikipedia.org/wiki/Quicksort#:~:text=Quicksort%20was%20developed%20by%20British,data%2C%20particularly%20on%20larger%20distributions.&text=Animated%20visualization%20of%20the%20quicksort%20algorithm.
 3. 

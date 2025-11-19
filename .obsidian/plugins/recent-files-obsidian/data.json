@@ -1,6 +1,146 @@
 {
   "recentFiles": [
     {
+      "basename": "Problem 1716. Calculate Money in Leetcode Bank",
+      "path": "algorithm/problems/leetcode/Problem 1716. Calculate Money in Leetcode Bank.md"
+    },
+    {
+      "basename": "Problem 2154. Keep Multiplying Found Values by Two",
+      "path": "algorithm/problems/leetcode/Problem 2154. Keep Multiplying Found Values by Two.md"
+    },
+    {
+      "basename": "Convert a primitive array to Set",
+      "path": "programming/java/fundamentals/functional-programming/stream/examples/Convert a primitive array to Set.md"
+    },
+    {
+      "basename": "Problem 707. 1-bit and 2-bit Characters",
+      "path": "algorithm/problems/leetcode/Problem 707. 1-bit and 2-bit Characters.md"
+    },
+    {
+      "basename": "Problem 620. Not Boring Movies",
+      "path": "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md"
+    },
+    {
+      "basename": "Problem 596. Classes with at Least 5 Students",
+      "path": "algorithm/problems/leetcode/Problem 596. Classes with at Least 5 Students.md"
+    },
+    {
+      "basename": "Problem 21. Merge two sorted lists",
+      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
+    },
+    {
+      "basename": "Problem 1518. Water Bottles",
+      "path": "algorithm/problems/leetcode/Problem 1518. Water Bottles.md"
+    },
+    {
+      "basename": "Pointer",
+      "path": "programming/go/fundamentals/Pointer.md"
+    },
+    {
+      "basename": "Type conversion",
+      "path": "programming/go/fundamentals/Type conversion.md"
+    },
+    {
+      "basename": "Variable",
+      "path": "programming/go/fundamentals/Variable.md"
+    },
+    {
+      "basename": "Slice",
+      "path": "programming/go/fundamentals/composite-type/Slice.md"
+    },
+    {
+      "basename": "Parameter-passing mechanism in Go",
+      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
+    },
+    {
+      "basename": "Map",
+      "path": "programming/go/fundamentals/composite-type/Map.md"
+    },
+    {
+      "basename": "Array",
+      "path": "programming/go/fundamentals/composite-type/Array.md"
+    },
+    {
+      "basename": "Dijkstra algorithm",
+      "path": "algorithm/graph/Dijkstra algorithm.md"
+    },
+    {
+      "basename": "Pointer",
+      "path": "programming/c/fundamentals/Pointer.md"
+    },
+    {
+      "basename": "08-07-2025",
+      "path": "plans/08-07-2025.md"
+    },
+    {
+      "basename": "Bellman-Ford algorithm",
+      "path": "algorithm/graph/Bellman-Ford algorithm.md"
+    },
+    {
+      "basename": "Heap sort",
+      "path": "algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Problem 627. Swap Sex of Employees",
+      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
+    },
+    {
+      "basename": "Problem 182. Duplicate email",
+      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
+    },
+    {
+      "basename": "Problem 595. Big Countries",
+      "path": "algorithm/problems/leetcode/Problem 595. Big Countries.md"
+    },
+    {
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Problem 506. Relative ranks",
+      "path": "algorithm/problems/leetcode/Problem 506. Relative ranks.md"
+    },
+    {
+      "basename": "Merge sort",
+      "path": "algorithm/sorting/internal-sorting/Merge sort.md"
+    },
+    {
+      "basename": "Insertion sort",
+      "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
+    },
+    {
+      "basename": "Quicksort",
+      "path": "algorithm/sorting/internal-sorting/Quicksort.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/Recurrence relation.md"
+    },
+    {
+      "basename": "XOR operation",
+      "path": "algorithm/bit-manipulation/XOR operation.md"
+    },
+    {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/string/Longest common subsequence.md"
+    },
+    {
+      "basename": "Domain driven design",
+      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md"
+    },
+    {
+      "basename": "Problem 404. Sum of Left Leaves",
+      "path": "algorithm/problems/leetcode/Problem 404. Sum of Left Leaves.md"
+    },
+    {
+      "basename": "Problem 590. N-ary Tree Postorder Traversal",
+      "path": "algorithm/problems/leetcode/Problem 590. N-ary Tree Postorder Traversal.md"
+    },
+    {
       "basename": "Problem 589. N-ary Tree Preorder Traversal",
       "path": "algorithm/problems/leetcode/Problem 589. N-ary Tree Preorder Traversal.md"
     },
@@ -23,10 +163,6 @@
     {
       "basename": "Problem 896. Monotonic array",
       "path": "algorithm/problems/leetcode/Problem 896. Monotonic array.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/Recurrence relation.md"
     },
     {
       "basename": "Algorithm complexity",
@@ -63,142 +199,6 @@
     {
       "basename": "Problem 485. Max consecutive ones",
       "path": "algorithm/problems/leetcode/Problem 485. Max consecutive ones.md"
-    },
-    {
-      "basename": "Base",
-      "path": "Base.base"
-    },
-    {
-      "basename": "Problem 476. Number complement",
-      "path": "algorithm/problems/leetcode/Problem 476. Number complement.md"
-    },
-    {
-      "basename": "Problem 461. Hamming distance",
-      "path": "algorithm/problems/leetcode/Problem 461. Hamming distance.md"
-    },
-    {
-      "basename": "Problem 404. Sum of Left Leaves",
-      "path": "algorithm/problems/leetcode/Problem 404. Sum of Left Leaves.md"
-    },
-    {
-      "basename": "Problem 389. Find the Difference",
-      "path": "algorithm/problems/leetcode/Problem 389. Find the Difference.md"
-    },
-    {
-      "basename": "Problem 387. First Unique Character in a String",
-      "path": "algorithm/problems/leetcode/Problem 387. First Unique Character in a String.md"
-    },
-    {
-      "basename": "Problem 383. Ransom Note",
-      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
-    },
-    {
-      "basename": "Anonymous class",
-      "path": "programming/java/fundamentals/java-core/interface/Anonymous class.md"
-    },
-    {
-      "basename": "Heap pollution",
-      "path": "programming/java/fundamentals/generics/Heap pollution.md"
-    },
-    {
-      "basename": "Generics",
-      "path": "programming/java/fundamentals/generics/Generics.md"
-    },
-    {
-      "basename": "Method reference",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/Method reference.md"
-    },
-    {
-      "basename": "Gradle tasks",
-      "path": "programming/java/gradle/Gradle tasks.md"
-    },
-    {
-      "basename": "Gradle project architecture",
-      "path": "programming/java/gradle/Gradle project architecture.md"
-    },
-    {
-      "basename": "Gradle commands",
-      "path": "programming/java/gradle/Gradle commands.md"
-    },
-    {
-      "basename": "Gradle build scripts",
-      "path": "programming/java/gradle/Gradle build scripts.md"
-    },
-    {
-      "basename": "Default method in interface",
-      "path": "programming/java/fundamentals/java-core/interface/Default method in interface.md"
-    },
-    {
-      "basename": "Variable arguments",
-      "path": "programming/java/fundamentals/java-core/function/Variable arguments.md"
-    },
-    {
-      "basename": "Harmonic series",
-      "path": "calculus/Harmonic series.md"
-    },
-    {
-      "basename": "L Hopital rule",
-      "path": "calculus/L Hopital rule.md"
-    },
-    {
-      "basename": "Stirling approximation",
-      "path": "calculus/Stirling approximation.md"
-    },
-    {
-      "basename": "Problem 374. Guess Number Higher or Lower",
-      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
-    },
-    {
-      "basename": "Problem 242. Valid anagram",
-      "path": "algorithm/problems/leetcode/Problem 242. Valid anagram.md"
-    },
-    {
-      "basename": "Problem 350. Intersection of Two Arrays II",
-      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
-    },
-    {
-      "basename": "Problem 349.  Intersection of Two Arrays",
-      "path": "algorithm/problems/leetcode/Problem 349.  Intersection of Two Arrays.md"
-    },
-    {
-      "basename": "Quicksort",
-      "path": "algorithm/sorting/Quicksort.md"
-    },
-    {
-      "basename": "Merge sort",
-      "path": "algorithm/sorting/Merge sort.md"
-    },
-    {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/string/Longest common subsequence.md"
-    },
-    {
-      "basename": "Naive string matching",
-      "path": "algorithm/string/Naive string matching.md"
-    },
-    {
-      "basename": "Selection sort",
-      "path": "algorithm/sorting/Selection sort.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "algorithm/sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Problem 197. Rising temperature",
-      "path": "algorithm/problems/leetcode/Problem 197. Rising temperature.md"
-    },
-    {
-      "basename": "Jakarta Context Dependency Injection",
-      "path": "programming/java/jakarta-ee/Jakarta Context Dependency Injection.md"
-    },
-    {
-      "basename": "Problem 226. Invert Binary tree",
-      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
-    },
-    {
-      "basename": "Problem 183. Customers who never order",
-      "path": "algorithm/problems/leetcode/Problem 183. Customers who never order.md"
     }
   ],
   "omittedPaths": [],

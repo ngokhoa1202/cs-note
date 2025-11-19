@@ -1,4 +1,4 @@
-#sql #leetcode 
+#sql #leetcode #aggregate-function
 
 # Algorithm
 ## Using `{SQL} count` aggregate function

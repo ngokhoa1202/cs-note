@@ -7,7 +7,7 @@ var name type? = expression
 ```
 ## Short variable declaration
 - Unlike regular variable declarations, a short variable declaration may _redeclare_ variables or parameters provided they were originally declared earlier in the same block with the same type, and at least one of the non-blank variables is new.
-- Redeclaration does not introduce a new variable; it just assigns a new value to the original.
+- Re-declaration does not introduce a new variable; it just assigns a new value to the original.
 ```Go title='Short form of variable declaration'
 ShortVarDecl = IdentifierList ":=" ExpressionList .
 ```
@@ -61,6 +61,7 @@ if err != nil {
 	fmt.Printf("%s", err)
 }
 ```
+***
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 2. The Go Programming Language Specification - ## Language version go1.24 (Dec 30, 2024).

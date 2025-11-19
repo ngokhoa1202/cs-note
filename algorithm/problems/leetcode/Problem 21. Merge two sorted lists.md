@@ -1,4 +1,4 @@
-#algorithm #data-structure #linked-list 
+#algorithm #data-structure #linked-list #java 
 # Algorithm
 - Two iterator `itr1` and `itr2` are used to traverse the two list.
 	- The smaller element of the two values is put into the new list; as a result, one of the iterator will become `null` faster than the other does. Additionally, which iterator will become `null` first is unknown.
