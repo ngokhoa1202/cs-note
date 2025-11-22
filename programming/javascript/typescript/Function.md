@@ -1,5 +1,4 @@
 #javascript #vanilla-javascript #typescript #functional-programming #high-order-function 
-
 # Function type
 - A function type can be specified when a function is defined.
 - Either arrow function expression or `Function` interface can be used to define a function type.

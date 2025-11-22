@@ -1,5 +1,4 @@
 #sql #leetcode #aggregate-function
-
 # Algorithm
 ## Using `{SQL} count` aggregate function
 
@@ -23,3 +22,4 @@ having count(email) > 1;
 ***
 # References
 1. https://leetcode.com/problems/duplicate-emails/description/
+2. 

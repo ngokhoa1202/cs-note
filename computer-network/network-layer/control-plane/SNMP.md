@@ -1,7 +1,7 @@
 #application-layer  #computer-network #control-plane 
 
 - Stands for ==Simple Network Management Protocol==.
-- Employs [UDP](UDP.md)
+- Employs [User Datagram Protocol (UDP)](User%20Datagram%20Protocol%20(UDP).md)
 # Components
 - Managed hosts.
 - Agent on managed hosts.

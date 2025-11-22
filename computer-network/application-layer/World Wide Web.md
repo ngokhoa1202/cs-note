@@ -32,7 +32,7 @@
 4. The browser makes a TCP connection to `128.208.3.88` on port 80 (or 443 in case of HTTPS).
 5. It sends over an HTTP request asking for the page `/index.html`.
 6. The `www.cs.washington.edu` server sends the page as an HTTP response, for example, by sending the file `/index.html`.
-7. If the page includes URLs that are needed for display, the browser fetches the other URLs using the same process. In this case, the URLs include multiple embedded images also fetched from `www.cs.washington.edu`, an embedded video from youtube.com, and a script from `google-analytics.com`.
+7. If the page includes URLs that are needed for display, the browser fetches the other URLs using the same process. In this case, the URLs include multiple embedded images also fetched from `www.cs.washington.edu`, an embedded video from `youtube.com`, and a script from `google-analytics.com`.
 8. The browser displays the page `/index.html`.
 9. The TCP connections are released if there are no other requests to the same servers for a short period.
 - ![[Pasted image 20251022103330.png]]
@@ -52,7 +52,7 @@
 3. [[HTTP]]
 4. [[HTTPS]]
 5. [[Domain name system]]
-6. [[UDP]]
+6. [[User Datagram Protocol (UDP)]]
 7. [[TCP]]
 8. [[IPv4]]
 9. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview

@@ -1,9 +1,9 @@
 #rxjs #reactive-programming #ajax #design-pattern #software-engineering #software-architecture #javascript #typescript #generator #behavioral-pattern #functional-programming #high-order-function 
 # Concepts
-- Observables are lazy <mark style="background: #e4e62d;">Push generators</mark> of multiple values:
+- `Observables` are lazy <mark style="background: #e4e62d;">Push generators</mark> of multiple values:
 	- Promises are Push <mark style="background: #ABF7F7A6;">generators</mark> of a single value.
 	- <mark style="background: #e4e62d;">lazily executed</mark> $\equiv$ does <mark style="background: #ABF7F7A6;">not run callback until an Observer subscribe</mark>s to it.
-- Observables are the generalization of function with zero arguments.
+- `Observables` are the generalization of function with zero arguments.
 # Behavior
 ## Initialize Observable
 - Define a common callback that will be executed by all of its subscribers (similarly to how a Subject notifies all of its Observers [Observer pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer%20pattern.md)).
@@ -70,6 +70,7 @@ setTimeout(() => {
 	subscription.unsubscribe();
 }, 10000);
 ```
+***
 # References
 1. [Push protocol vs Pull protocol](Push%20protocol%20vs%20Pull%20protocol.md) .
 2. [Generator](Generator.md) for generator concepts.

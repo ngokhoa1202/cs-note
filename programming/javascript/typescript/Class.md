@@ -1,7 +1,7 @@
 #object-oriented-programming #javascript #vanilla-javascript #typescript #ecmascript 
 
-- Inherits and extends feature of Javascript [Class](programming/javascript/vanilla-javascript/fundamentals/Class.md).
-- Typescript classes end up being compiled into equivalent <mark style="background: #e4e62d;">Javascript classes</mark>.
+- Inherits and extends feature of JavaScript [Class](programming/javascript/vanilla-javascript/fundamentals/Class.md).
+- Typescript classes end up being compiled into equivalent JavaScript classes.
 # Readonly properties
 - Readonly attributes do not need initializing when being declared; however, after being initialized, their value is unchanged.
 ```typescript title='readonly attributes in Typescript'
@@ -32,8 +32,8 @@ const p: Point = new Point(3.5, 4.6);
 console.log(p);
 ```
 
-# `this` pointer
-- `this` pointer in Typescript extends from [<span style="font-family: 'JetBrains Mono';">this</span> pointer](programming/javascript/vanilla-javascript/fundamentals/Class.md#<span%20style="font-family%20'JetBrains%20Mono';">this</span>%20pointer) in Javascript.
+# `{TypeScript}this` pointer
+- `this` pointer in Typescript extends from [<span style="font-family: 'JetBrains Mono';">this</span> pointer](programming/javascript/vanilla-javascript/fundamentals/Class.md#<span%20style="font-family%20'JetBrains%20Mono';">this</span>%20pointer) in JavaScript.
 - `this` pointer can be explicitly declared in the signature of the method.
 ```typescript title='this pointer in method declaration'
   
@@ -114,11 +114,9 @@ const copiedPoint = {
 // because copiedPoint is not the original method
 
 console.log(copiedPoint.distance());
-
 ```
-
 # Access modifier
-```typescript title='access modifier'
+```typescript title='Access modifier'
 class Foo {
 
 	public bar: number = 1;
@@ -198,7 +196,8 @@ class Director {
 
 }
 ```
+***
 # References
-1. [Class](programming/javascript/vanilla-javascript/fundamentals/Class.md) for classes in Javascript.
+1. [Class](programming/javascript/vanilla-javascript/fundamentals/Class.md) for classes in JavaScript.
 2. https://www.typescriptlang.org/docs/handbook/2/classes.html for Class in Typescript.
 3. https://www.php.net/manual/en/language.oop5.decon.php#language.oop5.decon.constructor.promotion for PHP constructor property promotion.

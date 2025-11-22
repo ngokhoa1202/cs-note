@@ -9,7 +9,7 @@
 	- a DHCP server.
 	- DHCP relay agents (router).
 	- client hosts.
-- Employ [UDP](UDP.md), ==port 68 on client and port 67 on server==.
+- Employ [User Datagram Protocol (UDP)](User%20Datagram%20Protocol%20(UDP).md), ==port 68 on client and port 67 on server==.
 # Principle
 4 steps:
 1. *Discover DHCP Server*:

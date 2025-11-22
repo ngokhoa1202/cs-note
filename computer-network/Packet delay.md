@@ -14,4 +14,7 @@ $$Traffic=\frac{L \times a}{R}=\frac{Length-of-packet \times arrial-rate}{servic
 - $Traffic \approx 0$ => small delay.
 - $Traffic \to^{a \to \inf} 1$ => large delay.
 - $Traffic > 1$ => infinite delay.
-![](Pasted%20image%2020240512085729.png)
+- ![](Pasted%20image%2020240512085729.png)
+***
+# References
+1. 

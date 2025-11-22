@@ -1,6 +1,5 @@
 #udp #protocol #transport-layer #computer-network 
 
-- Stands for ==User Datagram Protocol==.
 - Simple, ==Connectionless== protocol.
 - "Best-effort" protocol:
 	- no congestion control.
@@ -8,10 +7,8 @@
 	- no connection state.
 - Commonly used in ==lightweight==, ==multimedia apps==, 
 - ![](Pasted%20image%2020240515081121.png)
-- 
-- 
 # UDP Segment format
-![](Pasted%20image%2020240514204620.png)
+- ![](Pasted%20image%2020240514204620.png)
 - Total size: $2^{16}-1$ in theory, but limited by ==maximum transmission unit==.
 - UDP Header: ==8 bytes== contains:
 	- `Source port`: 2 bytes

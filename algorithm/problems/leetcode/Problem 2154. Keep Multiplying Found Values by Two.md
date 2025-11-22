@@ -24,4 +24,5 @@ class Solution {
 ***
 # References
 1. https://leetcode.com/problems/keep-multiplying-found-values-by-two/description/
-2. 
+2. [[Convert a primitive array to Set]]
+3. 

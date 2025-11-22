@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Problem 1716. Calculate Money in Leetcode Bank",
-      "path": "algorithm/problems/leetcode/Problem 1716. Calculate Money in Leetcode Bank.md"
+      "basename": "Problem 50. Pow(x, n)",
+      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
+    },
+    {
+      "basename": "Find the second maximum element in a table",
+      "path": "dbms/query/examples/Find the second maximum element in a table.md"
+    },
+    {
+      "basename": "External sorting",
+      "path": "dbms/query/External sorting.md"
+    },
+    {
+      "basename": "Problem 619. Biggest Single Number",
+      "path": "algorithm/problems/leetcode/Problem 619. Biggest Single Number.md"
     },
     {
       "basename": "Problem 2154. Keep Multiplying Found Values by Two",
       "path": "algorithm/problems/leetcode/Problem 2154. Keep Multiplying Found Values by Two.md"
     },
     {
-      "basename": "Convert a primitive array to Set",
-      "path": "programming/java/fundamentals/functional-programming/stream/examples/Convert a primitive array to Set.md"
-    },
-    {
-      "basename": "Problem 707. 1-bit and 2-bit Characters",
-      "path": "algorithm/problems/leetcode/Problem 707. 1-bit and 2-bit Characters.md"
-    },
-    {
-      "basename": "Problem 620. Not Boring Movies",
-      "path": "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md"
-    },
-    {
-      "basename": "Problem 596. Classes with at Least 5 Students",
-      "path": "algorithm/problems/leetcode/Problem 596. Classes with at Least 5 Students.md"
-    },
-    {
-      "basename": "Problem 21. Merge two sorted lists",
-      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
-    },
-    {
-      "basename": "Problem 1518. Water Bottles",
-      "path": "algorithm/problems/leetcode/Problem 1518. Water Bottles.md"
-    },
-    {
-      "basename": "Pointer",
-      "path": "programming/go/fundamentals/Pointer.md"
-    },
-    {
-      "basename": "Type conversion",
-      "path": "programming/go/fundamentals/Type conversion.md"
-    },
-    {
-      "basename": "Variable",
-      "path": "programming/go/fundamentals/Variable.md"
-    },
-    {
-      "basename": "Slice",
-      "path": "programming/go/fundamentals/composite-type/Slice.md"
-    },
-    {
-      "basename": "Parameter-passing mechanism in Go",
-      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
-    },
-    {
-      "basename": "Map",
-      "path": "programming/go/fundamentals/composite-type/Map.md"
-    },
-    {
-      "basename": "Array",
-      "path": "programming/go/fundamentals/composite-type/Array.md"
-    },
-    {
-      "basename": "Dijkstra algorithm",
-      "path": "algorithm/graph/Dijkstra algorithm.md"
-    },
-    {
-      "basename": "Pointer",
-      "path": "programming/c/fundamentals/Pointer.md"
-    },
-    {
-      "basename": "08-07-2025",
-      "path": "plans/08-07-2025.md"
-    },
-    {
-      "basename": "Bellman-Ford algorithm",
-      "path": "algorithm/graph/Bellman-Ford algorithm.md"
-    },
-    {
-      "basename": "Heap sort",
-      "path": "algorithm/sorting/internal-sorting/Heap sort.md"
-    },
-    {
-      "basename": "Problem 627. Swap Sex of Employees",
-      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
-    },
-    {
-      "basename": "Problem 182. Duplicate email",
-      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
-    },
-    {
-      "basename": "Problem 595. Big Countries",
-      "path": "algorithm/problems/leetcode/Problem 595. Big Countries.md"
-    },
-    {
-      "basename": "Problem 143. Reorder list",
-      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
-    },
-    {
-      "basename": "Problem 506. Relative ranks",
-      "path": "algorithm/problems/leetcode/Problem 506. Relative ranks.md"
-    },
-    {
-      "basename": "Merge sort",
-      "path": "algorithm/sorting/internal-sorting/Merge sort.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Quicksort",
-      "path": "algorithm/sorting/internal-sorting/Quicksort.md"
-    },
-    {
-      "basename": "Selection sort",
-      "path": "algorithm/sorting/internal-sorting/Selection sort.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/Recurrence relation.md"
-    },
-    {
-      "basename": "XOR operation",
-      "path": "algorithm/bit-manipulation/XOR operation.md"
-    },
-    {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/string/Longest common subsequence.md"
-    },
-    {
-      "basename": "Domain driven design",
-      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md"
-    },
-    {
-      "basename": "Problem 404. Sum of Left Leaves",
-      "path": "algorithm/problems/leetcode/Problem 404. Sum of Left Leaves.md"
-    },
-    {
-      "basename": "Problem 590. N-ary Tree Postorder Traversal",
-      "path": "algorithm/problems/leetcode/Problem 590. N-ary Tree Postorder Traversal.md"
-    },
-    {
-      "basename": "Problem 589. N-ary Tree Preorder Traversal",
-      "path": "algorithm/problems/leetcode/Problem 589. N-ary Tree Preorder Traversal.md"
-    },
-    {
-      "basename": "Problem 415. Add Strings",
-      "path": "algorithm/problems/leetcode/Problem 415. Add Strings.md"
-    },
-    {
-      "basename": "Problem 824. Goat Latin",
-      "path": "algorithm/problems/leetcode/Problem 824. Goat Latin.md"
-    },
-    {
-      "basename": "Problem 868. Binary Gap",
-      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
+      "basename": "Problem 1716. Calculate Money in Leetcode Bank",
+      "path": "algorithm/problems/leetcode/Problem 1716. Calculate Money in Leetcode Bank.md"
     },
     {
       "basename": "Problem 577. Employee Bonus",
       "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
     },
     {
-      "basename": "Problem 896. Monotonic array",
-      "path": "algorithm/problems/leetcode/Problem 896. Monotonic array.md"
+      "basename": "Problem 182. Duplicate email",
+      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
     },
     {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/Algorithm complexity.md"
+      "basename": "Binary search",
+      "path": "algorithm/algorithm/search/Binary search.md"
     },
     {
-      "basename": "b+ tree",
-      "path": "assets/b+ tree.pdf"
+      "basename": "Maximum subarray problem",
+      "path": "algorithm/algorithm/array/Maximum subarray problem.md"
     },
     {
-      "basename": "SRE_Roadmap",
-      "path": "SRE_Roadmap.md"
+      "basename": "Problem 2357. Make Array Zero By Subtracting Equal Amounts",
+      "path": "algorithm/problems/leetcode/Problem 2357. Make Array Zero By Subtracting Equal Amounts.md"
     },
     {
-      "basename": "Array list",
-      "path": "algorithm/data-structure/list/Array list.md"
+      "basename": "Convert a primitive array to Set",
+      "path": "programming/java/fundamentals/functional-programming/examples/Convert a primitive array to Set.md"
     },
     {
-      "basename": "Linked list",
-      "path": "algorithm/data-structure/list/Linked list.md"
+      "basename": "Gradle commands",
+      "path": "programming/java/gradle/Gradle commands.md"
     },
     {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/hashing/Hash table.md"
+      "basename": "Gradle build scripts",
+      "path": "programming/java/gradle/Gradle build scripts.md"
     },
     {
-      "basename": "Problem 575. Distribute candies",
-      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
+      "basename": "Anonymous class",
+      "path": "programming/java/fundamentals/java-core/interface/Anonymous class.md"
     },
     {
-      "basename": "Leetcode",
-      "path": "templates/Leetcode.md"
+      "basename": "Variable arguments",
+      "path": "programming/java/fundamentals/java-core/function/Variable arguments.md"
     },
     {
-      "basename": "Problem 485. Max consecutive ones",
-      "path": "algorithm/problems/leetcode/Problem 485. Max consecutive ones.md"
+      "basename": "Problem 2335. Minimum Amount of Time to Fill Cups",
+      "path": "algorithm/problems/leetcode/Problem 2335. Minimum Amount of Time to Fill Cups.md"
+    },
+    {
+      "basename": "Problem 627. Swap Sex of Employees",
+      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
+    },
+    {
+      "basename": "Quicksort",
+      "path": "algorithm/sorting/internal-sorting/Quicksort.md"
+    },
+    {
+      "basename": "Merge sort",
+      "path": "algorithm/sorting/internal-sorting/Merge sort.md"
+    },
+    {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/string/Longest common subsequence.md"
+    },
+    {
+      "basename": "Primitive root - Discrete Logarithm",
+      "path": "number-theory/Primitive root - Discrete Logarithm.md"
+    },
+    {
+      "basename": "Quick UDP Internet Connection (QUIC)",
+      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
+    },
+    {
+      "basename": "Fermat little theorem",
+      "path": "number-theory/Fermat little theorem.md"
+    },
+    {
+      "basename": "Extended Euclidean algorithm",
+      "path": "number-theory/Extended Euclidean algorithm.md"
+    },
+    {
+      "basename": "Euler theorem",
+      "path": "number-theory/Euler theorem.md"
+    },
+    {
+      "basename": "User Datagram Protocol (UDP)",
+      "path": "computer-network/transport-layer/udp/User Datagram Protocol (UDP).md"
+    },
+    {
+      "basename": "Packet delay",
+      "path": "computer-network/Packet delay.md"
+    },
+    {
+      "basename": "Client-Server paradigm",
+      "path": "computer-network/application-layer/Client-Server paradigm.md"
+    },
+    {
+      "basename": "Web cache",
+      "path": "computer-network/application-layer/Web cache.md"
+    },
+    {
+      "basename": "World Wide Web",
+      "path": "computer-network/application-layer/World Wide Web.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Insertion sort",
+      "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
+    },
+    {
+      "basename": "Heap sort",
+      "path": "algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Peer-to-Peer paradigm",
+      "path": "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md"
+    },
+    {
+      "basename": "Domain Name System (DNS)",
+      "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
+    },
+    {
+      "basename": "Diophantine equation",
+      "path": "number-theory/Diophantine equation.md"
+    },
+    {
+      "basename": "Problem 594. Longest Harmonious Subsequence",
+      "path": "algorithm/problems/leetcode/Problem 594. Longest Harmonious Subsequence.md"
+    },
+    {
+      "basename": "Problem 595. Big Countries",
+      "path": "algorithm/problems/leetcode/Problem 595. Big Countries.md"
+    },
+    {
+      "basename": "Problem 596. Classes with at Least 5 Students",
+      "path": "algorithm/problems/leetcode/Problem 596. Classes with at Least 5 Students.md"
+    },
+    {
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Problem 121. Best Time to Buy and Sell Stock",
+      "path": "algorithm/problems/leetcode/Problem 121. Best Time to Buy and Sell Stock.md"
+    },
+    {
+      "basename": "Problem 110. Balanced Binary Tree",
+      "path": "algorithm/problems/leetcode/Problem 110. Balanced Binary Tree.md"
+    },
+    {
+      "basename": "Linear search",
+      "path": "algorithm/algorithm/search/Linear search.md"
+    },
+    {
+      "basename": "Problem 559. Maximum Depth of N-ary tree",
+      "path": "algorithm/problems/leetcode/Problem 559. Maximum Depth of N-ary tree.md"
+    },
+    {
+      "basename": "Find maximum element of a list",
+      "path": "programming/java/fundamentals/functional-programming/examples/Find maximum element of a list.md"
+    },
+    {
+      "basename": "Alternative configuration",
+      "path": "operating-system/ubuntu/Alternative configuration.md"
+    },
+    {
+      "basename": "Problem 242. Valid anagram",
+      "path": "algorithm/problems/leetcode/Problem 242. Valid anagram.md"
+    },
+    {
+      "basename": "Problem 383. Ransom Note",
+      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
+    },
+    {
+      "basename": "Problem 476. Number complement",
+      "path": "algorithm/problems/leetcode/Problem 476. Number complement.md"
     }
   ],
   "omittedPaths": [],

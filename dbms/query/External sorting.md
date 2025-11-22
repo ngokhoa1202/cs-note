@@ -1,5 +1,4 @@
-#dbms #dbms-architecture #rdbms #algorithm #secondary-storage #computer-architecture #sorting 
-#caching
+#dbms #dbms-architecture #rdbms #algorithm #secondary-storage #computer-architecture #sorting #caching
 
 # External sorting
 - External sorting are sorting algorithms which are designed to <mark style="background: #e4e62d;">sort large files of record</mark>s stored on secondary storage which do not entirely fit in main memory.
@@ -30,7 +29,7 @@
 - ![](Pasted%20image%2020241130132145.png)
 - ![](Pasted%20image%2020241130132158.png)
 - ![](Pasted%20image%2020241130132223.png)
-- 
+***
 # References
 1. HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.
 2. Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015):

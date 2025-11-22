@@ -2,7 +2,7 @@
   "theme": "moonstone",
   "accentColor": "",
   "baseFontSize": 20,
-  "textFontFamily": "Open Sans",
+  "textFontFamily": "Open Sans,Source Sans 3",
   "monospaceFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "SF Pro Text",
   "cssTheme": "Minimal",
