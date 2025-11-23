@@ -547,5 +547,16 @@
   "programming/java/fundamentals/functional-programming/examples/Find maximum element of a list.md": "FabJava",
   "dbms/query/External sorting.md": "RiSortNumberAsc",
   "dbms/query/examples/Find the second maximum element in a table.md": "TiSql",
-  "algorithm/problems/leetcode/Problem 50. Pow(x, n).md": "SiLeetcode"
+  "algorithm/problems/leetcode/Problem 50. Pow(x, n).md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 2357. Make Array Zero By Subtracting Equal Amounts.md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 607. Sales Person.md": "SiLeetcode",
+  "programming/java/fundamentals/functional-programming/examples/Sort a string.md": "FabJava",
+  "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md": "SiLeetcode",
+  "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md": "FabJava",
+  "algorithm/problems/leetcode/Problem 134. Gas Station.md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 2697. Lexicographically Smallest Palindrome.md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md": "SiLeetcode",
+  "programming/java/lombok/Project Lombok API.md": "LoProjectLombok",
+  "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md": "SiLeetcode"
 }

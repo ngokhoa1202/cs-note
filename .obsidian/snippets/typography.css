@@ -7,30 +7,6 @@
 
 .theme-light {
   /* Enhanced heading styling with subtle gradients */
-  .cm-header-1,
-  .el-h1 h1 {
-    /* display: inline-block; */
-    font-weight: 400;
-    font-optical-sizing: auto;
-    letter-spacing: normal;
-  }
-
-  .cm-header-2,
-  .el-h2 h2 {
-    font-weight: 400;
-    letter-spacing: normal;
-  }
-
-  .cm-header-3,
-  .el-h3 h3,
-  .cm-header-4,
-  .el-h4 h4,
-  .cm-header-5,
-  .el-h5 h5,
-  .cm-header-6,
-  .el-h6 h6 {
-    letter-spacing: normal;
-  }
 
   .cm-header-1.cm-inline-code,
   .cm-header-2.cm-inline-code,
@@ -42,48 +18,48 @@
   }
 }
 
-[class^="hltr-"],
+/* [class^="hltr-"],
 .cm-highlight,
 .has-list-bullet mark {
   font-family: "Lora" !important;
   font-style: italic;
-}
+} */
 
-a.cm-underline,
+/* a.cm-underline,
 .external-link,
 .internal-link {
   font-family: "Fira Sans" !important;
   font-style: italic !important;
-}
+} */
 
-.view-header-breadcrumb,
+/* .view-header-breadcrumb,
 .view-header-breadcrumb-separator {
   font-family: "Sora" !important;
   font-size: larger !important;
-}
+} */
 
-.view-header-title {
+/* .view-header-title {
   font-family: "Lora" !important;
   font-size: larger !important;
-}
+} */
 
 ul.has-list-bullet {
   margin-block-start: 0;
   margin-block-end: 0;
 }
 
-.cm-line [class^="cm-list-"],
+/* .cm-line [class^="cm-list-"],
 ul.has-list-bullet {
   line-height: 1.65 !important;
-}
+} */
 
-.callout-title {
+/* .callout-title {
   font-family: "Lora";
-}
+} */
 
-.callout-content {
+/* .callout-content {
   font-family: "Fira Sans";
-}
+} */
 
 h1,
 h2,

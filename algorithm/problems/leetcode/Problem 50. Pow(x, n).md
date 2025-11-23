@@ -5,7 +5,10 @@
 # Implementation
 
 # Complexity
-
+## Time complexity
+- The recurrence relation of time complexity is $$T_n=c+2T\left(\frac{n}{2}\right) \implies T_n=O(\text{log}(n))$$
+## Space complexity
+- $O(1)$
 ***
 # References
 1. https://leetcode.com/problems/powx-n/description/

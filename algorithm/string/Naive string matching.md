@@ -1,5 +1,4 @@
 #string #algorithm #brute-force
-
 # Input
 - String $p$ for pattern and string $t$ for text to search for pattern.
 # Output
