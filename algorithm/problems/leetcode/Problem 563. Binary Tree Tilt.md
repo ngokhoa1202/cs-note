@@ -1,6 +1,9 @@
 #leetcode #binary-tree #recursion #tree 
 # Algorithm
 ## Naive post-order traversal
+- Let $S(r)$ be the sum of root values and that of its left subtree and right subtree.
+- Let $f(r)$ be the tilt of the tree.
+- $$f(r)=\begin{cases}0 \text{ if } r \text{ is null}\\ \left|S(r.l)-S(r.r)\right|+f(r.l)+f(r.r) \text{ otherwise}\end{cases}$$
 # Implementation
 ## Java
 ```Java title='Problem 563 in Java: Naive post-order traversal solution'
@@ -38,10 +41,12 @@ class Solution {
 } 
 ```
 # Complexity
-## Space complexity
-
 ## Time complexity
-
+### Naive post-order traversal
+- $O(n^2)$
+## Space complexity
+### Naive post-order traversal
+- $O(h)$
 ***
 # References
 1. https://leetcode.com/problems/binary-tree-tilt/description/

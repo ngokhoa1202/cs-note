@@ -1,0 +1,6 @@
+.markdown-source-view.mod-readable.is-readable-line-width .cm-content,
+.markdown-preview-view.is-readable-line-width .markdown-preview-sizer {
+  max-width: 70% !important; /* adjust percentage here */
+  margin: 0 auto; /* keep it centered */
+}
+

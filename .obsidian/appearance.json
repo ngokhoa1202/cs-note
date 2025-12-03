@@ -1,8 +1,8 @@
 {
   "theme": "moonstone",
-  "accentColor": "",
+  "accentColor": "#3951d5",
   "baseFontSize": 20,
-  "textFontFamily": "Source Sans 3,Open Sans",
+  "textFontFamily": "Open Sans",
   "monospaceFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "Inter",
   "cssTheme": "Minimal",
@@ -10,11 +10,8 @@
   "enabledCssSnippets": [
     "sans-math",
     "math",
-    "beautiful-typography",
     "typography",
     "code-styler",
-    "enhanced-ui",
-    "beautiful-callouts",
     "image",
     "tag",
     "icon"

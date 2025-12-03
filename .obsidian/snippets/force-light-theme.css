@@ -1,0 +1,38 @@
+/* Force Light Theme - Ultimate Override */
+body.theme-light,
+body.theme-dark,
+body {
+  /* Force light theme class */
+  --background-primary: #ffffff;
+  --background-secondary: #f8f9fa;
+  --text-normal: #2e3338;
+  --text-muted: #6b7280;
+  --text-faint: #9ca3af;
+}
+
+/* Force light backgrounds */
+.app-container,
+.workspace,
+.workspace-split,
+.workspace-leaf,
+.workspace-leaf-content,
+.view-content,
+.markdown-preview-view,
+.markdown-source-view {
+  background-color: var(--background-primary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Sidebar light */
+.side-dock-panels,
+.nav-files-container,
+.nav-folder,
+.nav-file {
+  background-color: var(--background-secondary) !important;
+  color: var(--text-normal) !important;
+}
+
+/* Force body to be light theme */
+body.is-hidden-frameless:not(.is-fullscreen) .workspace-leaf-content[data-type=markdown] {
+  background-color: var(--background-primary) !important;
+}

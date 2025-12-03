@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "TiMathFunction",
       "TiSql",
       "RiSortNumberAsc",
       "LiSearch",
@@ -24,8 +25,7 @@
       "SiDiagramsdotnet",
       "SiQuarkus",
       "TiApi",
-      "LoJakartaEE",
-      "SiHibernate"
+      "LoJakartaEE"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -383,8 +383,6 @@
   "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md": "SiLeetcode",
   "algorithm/problems/leetcode/Problem 110. Balanced Binary Tree.md": "SiLeetcode",
   "algorithm/problems/leetcode/Problem 182. Duplicate email.md": "SiLeetcode",
-  "algorithm/Algorithm complexity.md": "TiChartLine",
-  "algorithm/Recurrence relation.md": "TiMathFunction",
   "programming/java/jakarta-ee": "LoJakartaEE",
   "programming/java/jakarta-ee/jakarta-persistence-api": "LoJakartaEE",
   "programming/java/jakarta-ee/jakarta-persistence-api/JPA Mappings.md": "LoJakartaEE",
@@ -558,5 +556,10 @@
   "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md": "SiLeetcode",
   "programming/java/lombok/Project Lombok API.md": "LoProjectLombok",
   "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md": "SiLeetcode",
-  "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md": "SiLeetcode"
+  "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md": "SiLeetcode",
+  "algorithm/complexity/Algorithm complexity.md": "TiChartLine",
+  "algorithm/complexity/Recurrence relation.md": "TiMathFunction",
+  "algorithm/complexity": "TiMathFunction",
+  "algorithm/algorithm/tree": "TiBinaryTree",
+  "algorithm/algorithm/tree/Tree traversal.md": "TiBinaryTree"
 }

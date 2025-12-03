@@ -1,5 +1,4 @@
 #operating-system #file-system #dbms #secondary-storage #cli 
-
 # Disk controller
 - Secondary storage - disks are typically managed by a <mark style="background: #e4e62d;">disk controller</mark> to manipulate I/O data.
 - <mark style="background: #e4e62d;">Minimizing the number of block transfers</mark> significantly boosts performance.
@@ -19,7 +18,7 @@
 sudo fdisk -l # check for block size
 ```
 
-## Interblock gap size
+## Inter-block gap size
 - Denoted by $G$
 ## Disk speed
 - Denoted by $p \space (\text{revolutions/min)}$
@@ -82,6 +81,6 @@ sudo fdisk -l # check for block size
 	- Chapter 17: Indexing Structures for Files and Physical Database Design.
 		- Section 17.3 Dynamic Multilevel indexes using B-Tree and B+-Tree.
 			- Exercise 17.19 & 17.20
-1. *https://www.youtube.com/watch?v=aZjYr87r1b8&t=13s*
-2. HCMUT Basic DBMS Slides - Truong Quynh Chi.
-3. HCMUT Advanced DBMS Slides - Le Thi Bao Thu.
+3. https://www.youtube.com/watch?v=aZjYr87r1b8&t=13s
+4. HCMUT Basic DBMS Slides - Truong Quynh Chi.
+5. HCMUT Advanced DBMS Slides - Le Thi Bao Thu.

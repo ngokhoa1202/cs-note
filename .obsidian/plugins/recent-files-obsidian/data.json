@@ -1,8 +1,84 @@
 {
   "recentFiles": [
     {
+      "basename": "Heap sort",
+      "path": "algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Problem 2706. Buy Two Chocolates",
+      "path": "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md"
+    },
+    {
+      "basename": "Problem 2578. Split with Minimum Sum",
+      "path": "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md"
+    },
+    {
+      "basename": "Problem 868. Binary Gap",
+      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
+    },
+    {
+      "basename": "Problem 627. Swap Sex of Employees",
+      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
+    },
+    {
+      "basename": "Problem 620. Not Boring Movies",
+      "path": "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md"
+    },
+    {
+      "basename": "Problem 607. Sales Person",
+      "path": "algorithm/problems/leetcode/Problem 607. Sales Person.md"
+    },
+    {
+      "basename": "Problem 226. Invert Binary tree",
+      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
+    },
+    {
+      "basename": "Problem 374. Guess Number Higher or Lower",
+      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
+    },
+    {
+      "basename": "Problem 134. Gas Station",
+      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
+    },
+    {
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Array list",
+      "path": "algorithm/data-structure/list/Array list.md"
+    },
+    {
+      "basename": "Linked list",
+      "path": "algorithm/data-structure/list/Linked list.md"
+    },
+    {
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/hashing/Hash table.md"
+    },
+    {
+      "basename": "Disk storage",
+      "path": "dbms/dbms-architecture/Disk storage.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
+    },
+    {
       "basename": "Problem 563. Binary Tree Tilt",
       "path": "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md"
+    },
+    {
+      "basename": "Tree traversal",
+      "path": "algorithm/algorithm/tree/Tree traversal.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/complexity/Algorithm complexity.md"
+    },
+    {
+      "basename": "L'Hopital rule",
+      "path": "L'Hopital rule.md"
     },
     {
       "basename": "Problem 222. Count Complete Tree Nodes",
@@ -41,10 +117,6 @@
       "path": "programming/java/fundamentals/functional-programming/examples/Sort a string.md"
     },
     {
-      "basename": "Problem 2706. Buy Two Chocolates",
-      "path": "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md"
-    },
-    {
       "basename": "Problem 2697. Lexicographically Smallest Palindrome",
       "path": "algorithm/problems/leetcode/Problem 2697. Lexicographically Smallest Palindrome.md"
     },
@@ -53,16 +125,8 @@
       "path": "algorithm/sorting/internal-sorting/Selection sort.md"
     },
     {
-      "basename": "Problem 134. Gas Station",
-      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
-    },
-    {
       "basename": "Insertion sort",
       "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Heap sort",
-      "path": "algorithm/sorting/internal-sorting/Heap sort.md"
     },
     {
       "basename": "Merge sort",
@@ -113,28 +177,12 @@
       "path": "algorithm/string/Naive string matching.md"
     },
     {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/Algorithm complexity.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/Recurrence relation.md"
-    },
-    {
       "basename": "Convert a primitive array to Set",
       "path": "programming/java/fundamentals/functional-programming/examples/Convert a primitive array to Set.md"
     },
     {
       "basename": "Find maximum element of a list",
       "path": "programming/java/fundamentals/functional-programming/examples/Find maximum element of a list.md"
-    },
-    {
-      "basename": "Problem 2578. Split with Minimum Sum",
-      "path": "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md"
-    },
-    {
-      "basename": "Problem 868. Binary Gap",
-      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
     },
     {
       "basename": "Problem 896. Monotonic array",
@@ -151,54 +199,6 @@
     {
       "basename": "Problem 2154. Keep Multiplying Found Values by Two",
       "path": "algorithm/problems/leetcode/Problem 2154. Keep Multiplying Found Values by Two.md"
-    },
-    {
-      "basename": "Problem 2335. Minimum Amount of Time to Fill Cups",
-      "path": "algorithm/problems/leetcode/Problem 2335. Minimum Amount of Time to Fill Cups.md"
-    },
-    {
-      "basename": "Problem 404. Sum of Left Leaves",
-      "path": "algorithm/problems/leetcode/Problem 404. Sum of Left Leaves.md"
-    },
-    {
-      "basename": "Problem 415. Add Strings",
-      "path": "algorithm/problems/leetcode/Problem 415. Add Strings.md"
-    },
-    {
-      "basename": "Problem 389. Find the Difference",
-      "path": "algorithm/problems/leetcode/Problem 389. Find the Difference.md"
-    },
-    {
-      "basename": "Problem 387. First Unique Character in a String",
-      "path": "algorithm/problems/leetcode/Problem 387. First Unique Character in a String.md"
-    },
-    {
-      "basename": "Problem 374. Guess Number Higher or Lower",
-      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
-    },
-    {
-      "basename": "External sorting",
-      "path": "dbms/query/External sorting.md"
-    },
-    {
-      "basename": "Problem 607. Sales Person",
-      "path": "algorithm/problems/leetcode/Problem 607. Sales Person.md"
-    },
-    {
-      "basename": "Problem 50. Pow(x, n)",
-      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
-    },
-    {
-      "basename": "Find the second maximum element in a table",
-      "path": "dbms/query/examples/Find the second maximum element in a table.md"
-    },
-    {
-      "basename": "Problem 619. Biggest Single Number",
-      "path": "algorithm/problems/leetcode/Problem 619. Biggest Single Number.md"
-    },
-    {
-      "basename": "Problem 577. Employee Bonus",
-      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
     }
   ],
   "omittedPaths": [],
