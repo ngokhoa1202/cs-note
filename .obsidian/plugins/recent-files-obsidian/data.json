@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Quicksort",
+      "path": "algorithm/sorting/internal-sorting/Quicksort.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Merge sort",
+      "path": "algorithm/sorting/internal-sorting/Merge sort.md"
+    },
+    {
       "basename": "Heap sort",
       "path": "algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Insertion sort",
+      "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
+    },
+    {
+      "basename": "Problem 134. Gas Station",
+      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
     },
     {
       "basename": "Problem 2706. Buy Two Chocolates",
@@ -35,10 +55,6 @@
     {
       "basename": "Problem 374. Guess Number Higher or Lower",
       "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
-    },
-    {
-      "basename": "Problem 134. Gas Station",
-      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
     },
     {
       "basename": "Problem 143. Reorder list",
@@ -121,18 +137,6 @@
       "path": "algorithm/problems/leetcode/Problem 2697. Lexicographically Smallest Palindrome.md"
     },
     {
-      "basename": "Selection sort",
-      "path": "algorithm/sorting/internal-sorting/Selection sort.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Merge sort",
-      "path": "algorithm/sorting/internal-sorting/Merge sort.md"
-    },
-    {
       "basename": "Install Python",
       "path": "programming/python/Install Python.md"
     },
@@ -163,10 +167,6 @@
     {
       "basename": "Domain Name System (DNS)",
       "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
-    },
-    {
-      "basename": "Quicksort",
-      "path": "algorithm/sorting/internal-sorting/Quicksort.md"
     },
     {
       "basename": "Longest common subsequence",

@@ -1,8 +1,8 @@
 {
   "theme": "moonstone",
-  "accentColor": "#3951d5",
+  "accentColor": "#6c85bc",
   "baseFontSize": 20,
-  "textFontFamily": "Open Sans",
+  "textFontFamily": "Lora,Open Sans",
   "monospaceFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "Inter",
   "cssTheme": "Minimal",

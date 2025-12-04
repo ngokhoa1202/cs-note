@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/sorting/internal-sorting/Heap sort.md",
+                "file": "algorithm/sorting/internal-sorting/Quicksort.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Heap sort"
+              "title": "Quicksort"
             }
           }
         ]
@@ -193,8 +193,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d8d7ea544fef7ec3",
+  "active": "bf0cec1086959eaa",
   "lastOpenFiles": [
+    "algorithm/sorting/internal-sorting/Selection sort.md",
+    "algorithm/sorting/internal-sorting/Quicksort.md",
+    "algorithm/sorting/internal-sorting/Merge sort.md",
+    "algorithm/sorting/internal-sorting/Heap sort.md",
+    "algorithm/sorting/internal-sorting/Insertion sort.md",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764756331584",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764751491607",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764751464838",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764750684458",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764750405879",
+    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764750121234",
     "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md",
     "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md",
     "algorithm/problems/leetcode/Problem 868. Binary Gap.md",
@@ -203,7 +215,6 @@
     "algorithm/problems/leetcode/Problem 607. Sales Person.md",
     "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md",
     "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md",
     "algorithm/problems/leetcode/Problem 143. Reorder list.md",
     "algorithm/data-structure/list/Array list.md",
     "algorithm/data-structure/list/Linked list.md",
@@ -218,23 +229,12 @@
     "L'Hopital rule.md",
     "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md",
     "programming/java/lombok/Project Lombok API.md",
-    "programming/java/fundamentals/functional-programming/functional-interface/Method reference.md",
-    "programming/java/fundamentals/functional-programming/functional-interface/Functional interface.md",
-    "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Predicate interface.md",
-    "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Function interface.md",
-    "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md",
     "dbms/query/examples",
     "algorithm/algorithm/search",
-    "algorithm/algorithm/array",
-    "algorithm/algorithm",
-    "programming/java/fundamentals/functional-programming/examples",
     "assets/Pasted image 20251116174033.png",
     "assets/Pasted image 20251116154232.png",
-    "algorithm/sorting/internal-sorting",
     "assets/Pasted image 20251116081643.png",
     "assets/Pasted image 20251116081630.png",
-    "assets/b+ tree.pdf",
-    "algorithm/data-structure/list",
     "assets/Pasted image 20251109160258.png",
     "assets/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif",
     "algorithm/Untitled.canvas",

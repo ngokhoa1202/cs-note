@@ -1,7 +1,13 @@
 {
   "permissions": {
     "allow": [
-      "Bash(find:*)"
+      "Bash(find:*)",
+      "WebFetch(domain:leetcode.com)",
+      "WebSearch",
+      "WebFetch(domain:algo.monster)",
+      "WebFetch(domain:stackoverflow.com)",
+      "WebFetch(domain:labuladong.online)",
+      "WebFetch(domain:medium.com)"
     ],
     "deny": []
   }
