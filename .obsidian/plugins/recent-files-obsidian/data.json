@@ -1,24 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "Quicksort",
-      "path": "algorithm/sorting/internal-sorting/Quicksort.md"
+      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
+      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
     },
     {
-      "basename": "Selection sort",
-      "path": "algorithm/sorting/internal-sorting/Selection sort.md"
+      "basename": "Problem 577. Employee Bonus",
+      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
     },
     {
-      "basename": "Merge sort",
-      "path": "algorithm/sorting/internal-sorting/Merge sort.md"
+      "basename": "Problem 575. Distribute candies",
+      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
     },
     {
-      "basename": "Heap sort",
-      "path": "algorithm/sorting/internal-sorting/Heap sort.md"
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/Hash table.md"
     },
     {
       "basename": "Insertion sort",
-      "path": "algorithm/sorting/internal-sorting/Insertion sort.md"
+      "path": "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Quicksort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Quicksort.md"
+    },
+    {
+      "basename": "Heap sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/complexity/Algorithm complexity.md"
+    },
+    {
+      "basename": "Problem 50. Pow(x, n)",
+      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
+    },
+    {
+      "basename": "Problem 49. Group anagrams",
+      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
+    },
+    {
+      "basename": "Merge sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Merge sort.md"
     },
     {
       "basename": "Problem 134. Gas Station",
@@ -57,10 +93,6 @@
       "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
     },
     {
-      "basename": "Problem 143. Reorder list",
-      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
-    },
-    {
       "basename": "Array list",
       "path": "algorithm/data-structure/list/Array list.md"
     },
@@ -77,24 +109,12 @@
       "path": "dbms/dbms-architecture/Disk storage.md"
     },
     {
-      "basename": "Recurrence relation",
-      "path": "algorithm/complexity/Recurrence relation.md"
-    },
-    {
       "basename": "Problem 563. Binary Tree Tilt",
       "path": "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md"
     },
     {
       "basename": "Tree traversal",
       "path": "algorithm/algorithm/tree/Tree traversal.md"
-    },
-    {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/complexity/Algorithm complexity.md"
-    },
-    {
-      "basename": "L'Hopital rule",
-      "path": "L'Hopital rule.md"
     },
     {
       "basename": "Problem 222. Count Complete Tree Nodes",
@@ -170,35 +190,15 @@
     },
     {
       "basename": "Longest common subsequence",
-      "path": "algorithm/string/Longest common subsequence.md"
+      "path": "algorithm/algorithm/string/Longest common subsequence.md"
     },
     {
       "basename": "Naive string matching",
-      "path": "algorithm/string/Naive string matching.md"
+      "path": "algorithm/algorithm/string/Naive string matching.md"
     },
     {
       "basename": "Convert a primitive array to Set",
       "path": "programming/java/fundamentals/functional-programming/examples/Convert a primitive array to Set.md"
-    },
-    {
-      "basename": "Find maximum element of a list",
-      "path": "programming/java/fundamentals/functional-programming/examples/Find maximum element of a list.md"
-    },
-    {
-      "basename": "Problem 896. Monotonic array",
-      "path": "algorithm/problems/leetcode/Problem 896. Monotonic array.md"
-    },
-    {
-      "basename": "Problem 1518. Water Bottles",
-      "path": "algorithm/problems/leetcode/Problem 1518. Water Bottles.md"
-    },
-    {
-      "basename": "Problem 1716. Calculate Money in Leetcode Bank",
-      "path": "algorithm/problems/leetcode/Problem 1716. Calculate Money in Leetcode Bank.md"
-    },
-    {
-      "basename": "Problem 2154. Keep Multiplying Found Values by Two",
-      "path": "algorithm/problems/leetcode/Problem 2154. Keep Multiplying Found Values by Two.md"
     }
   ],
   "omittedPaths": [],

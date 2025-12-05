@@ -1,5 +1,4 @@
 #leetcode #string #hash #sorting 
-
 # Algorithm
 - A hash table whose key is a specific function and value is the grouped strings is used to group the string into anagrams.
 - Each value of the hash table is organized as a chain to add new strings if the key is found.

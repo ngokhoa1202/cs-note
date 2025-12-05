@@ -16,11 +16,9 @@
 - Describes *equivalent* complexity. ![](Pasted%20image%2020240520102810.png)
 # Growth rates
 - ![](Pasted%20image%2020240519210128.png)
-- Also called ==order of growth==
+- Also called order of growth.
 # Dominance rule
-- Calculated from [[L'Hopital rule]]
-$$n! >> a^n >> n^a >> nlogn >> n >> logn >> 1$$
-where $a \geq 2$ and n is very large.
+- Calculated from [[calculus/L_Hopital rule|L_Hopital rule]] $$n! >> a^n >> n^a >> nlogn >> n >> logn >> 1$$where $a \geq 2$ and n is very large.
 
 - $$\Theta(f(n)+g(n))=\Theta(max\{f(n), g(n)\})$$
 - $$\Theta(f(n) \times g(n))=\Theta(f(n)) \times \Theta(g(n))$$
@@ -32,5 +30,8 @@ where $a \geq 2$ and n is very large.
 # References
 1. The Algorithm Design Manual - Steven S. Skiena - Springer Publisher - 2nd edition
 	1. Chapter 2. Algorithm Analysis.
-2. [L'Hopital rule](L'Hopital%20rule.md) for calculating limits.
-3. 
+2. [[calculus/L_Hopital rule|L_Hopital rule]] for calculating limits.
+3. Introduction to Algorithms - Thomas H.Cormen, Charles E.Leserson, Ronald L.Rivest, Clinfford Sten - The MIT Press - Third Edition 2009.
+	1. Chapter 4. Divide-and-Conquer.
+		1. Section 4.5. The master method for solving recurrences.
+4. [[algorithm/complexity/Recurrence relation|Recurrence relation]]

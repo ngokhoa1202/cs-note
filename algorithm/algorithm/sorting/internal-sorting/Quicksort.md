@@ -11,7 +11,7 @@
 ### Idea
 - Attempts to move all elements that are less than $pivot$ to the left and all elements that are greater than $pivot$ to the right.
 - Two pointer are used to perform one-way traversal.
-### Algorithm
+### Method
 - $pivot=a_r$
 - $i=l-1$ 
 - for $j=l$ to $r-1$:
@@ -96,7 +96,15 @@ graph TD
 - Initializes two pointers at the two ends of the array. 
 - The two indexes moves towards each other until an inversion where a smaller value on the left side and a larger value on the right side occurs. Then, two elements are swapped.
 - The process is repeated until two pointers meet each other.
-### Two regions after each partition
+### Method
+- Initialize $\text{pivot} \leftarrow a_l, \space i \leftarrow l-1, \space j \leftarrow r+1$.
+- while True:
+	- repeat $j \leftarrow j-1$ until $a_j \leq \text{pivot}$
+	- repeat $i \leftarrow i + 1$ until $a_i \geq \text{pivot}$
+	- if $i < j$ then $\text{swap}(a_i, a_j)$
+	-  else then return $j$
+### Characteristics
+#### Two regions after each partition
 - After each partition, the sorting sub-array is divided into two region:
 	- The left region contains the elements that are smaller than pivot.
 	- The right region contains the elements that are greater or equal to pivot. 
@@ -167,9 +175,9 @@ graph TD
     R1_L_R_Action --> R1_L_R_Left
     R1_L_R_Action --> R1_L_R_Right
 ```
-### Pivot position is not guaranteed
+#### Pivot position is not guaranteed
 - Hoare's partition ensures the correct split into the two regions, but not the pivot position.
-### Example
+#### Example
 ```mermaid
 graph TD
     %% Styling
@@ -252,7 +260,7 @@ graph TD
 # Implementation
 ## Lomuto's partition
 ### Java
-```Java title='Quicksort in Java: Lomuto partition'
+```Java title='Quicksort in Java: Lomuto partition' hl=16-17,26
 public class QuickSort {
     
     public static void quickSort(int[] arr) {
@@ -301,6 +309,62 @@ public class QuickSort {
     }
 }
 ```
+## Hoare's partition
+### Java
+```Java title='Quicksort in Java: Hoare partition' hl=24,25,29-31,34-36,39-40,43,13-14
+public class QuickSort {
+    
+    public static void quickSort(int[] arr) {
+        if (arr == null || arr.length == 0) {
+            return;
+        }
+        quickSortHelper(arr, 0, arr.length - 1);
+    }
+    
+    private static void quickSortHelper(int[] arr, int low, int high) {
+        if (low < high) {
+            int pivotIndex = partitionHoare(arr, low, high);
+            quickSortHelper(arr, low, pivotIndex);
+            quickSortHelper(arr, pivotIndex + 1, high);
+        }
+    }
+    
+    /**
+     * Hoare partition scheme (original QuickSort partition)
+     * More efficient than Lomuto - fewer swaps on average
+     */
+    private static int partition(int[] arr, int low, int high) {
+        int pivot = arr[low]; // Choose first element as pivot
+        int i = low - 1;
+        int j = high + 1;
+        
+        while (true) {
+            // Find element on left that should be on right
+            do {
+                i++;
+            } while (arr[i] < pivot);
+            
+            // Find element on right that should be on left
+            do {
+                j--;
+            } while (arr[j] > pivot);
+            
+            // If pointers crossed, partition is complete
+            if (i >= j) {
+                return j;
+            }
+            
+            swap(arr, i, j);
+        }
+    }
+    
+    private static void swap(int[] arr, int i, int j) {
+        int temp = arr[i];
+        arr[i] = arr[j];
+        arr[j] = temp;
+    }
+}
+```
 # Time complexity
 ## Mathematical analysis
 ### Best case
@@ -311,7 +375,8 @@ public class QuickSort {
 - The time complexity is $$T(n)=T(n-1)+T(0)+\Theta(n)=\Theta(n^2)$$
 ### Average case
 - The time complexity is $$T(n)=O(n\text{log}(n))$$
-## Lomuto's partition
+## Lomuto's partition and Hoare's partition
+- Hoare's partition is slightly more efficient because it performs three times fewer swaps than Lomuto's partition on average.
 # Space complexity
 - $O(n)$
 ***
@@ -320,4 +385,6 @@ public class QuickSort {
 	1. Chapter II. Sorting and Order Statistics.
 		1. Section 7. Quicksort.
 2. https://en.wikipedia.org/wiki/Quicksort#:~:text=Quicksort%20was%20developed%20by%20British,data%2C%20particularly%20on%20larger%20distributions.&text=Animated%20visualization%20of%20the%20quicksort%20algorithm.
-3. 
+3. [[Recurrence relation#Master theorem]]
+4. https://www.geeksforgeeks.org/dsa/hoares-vs-lomuto-partition-scheme-quicksort/
+5. 

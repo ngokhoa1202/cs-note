@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/sorting/internal-sorting/Quicksort.md",
+                "file": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Quicksort"
+              "title": "Problem 3432. Count Partitions with Even Sum Difference"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -91,15 +91,15 @@
             "state": {
               "type": "recent-files",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "recent-files"
+              "icon": "clock",
+              "title": "Recent Files"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 470.5
+    "width": 461.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -195,11 +195,24 @@
   },
   "active": "bf0cec1086959eaa",
   "lastOpenFiles": [
-    "algorithm/sorting/internal-sorting/Selection sort.md",
-    "algorithm/sorting/internal-sorting/Quicksort.md",
-    "algorithm/sorting/internal-sorting/Merge sort.md",
-    "algorithm/sorting/internal-sorting/Heap sort.md",
-    "algorithm/sorting/internal-sorting/Insertion sort.md",
+    "algorithm/problems/leetcode/Problem 577. Employee Bonus.md",
+    "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md",
+    "algorithm/problems/leetcode/Problem 575. Distribute candies.md",
+    "algorithm/problems/leetcode/Problem 143. Reorder list.md",
+    "algorithm/data-structure/Hash table.md",
+    "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md",
+    "algorithm/algorithm/sorting/internal-sorting/Selection sort.md",
+    "algorithm/algorithm/sorting/internal-sorting/Quicksort.md",
+    "algorithm/algorithm/sorting/internal-sorting/Heap sort.md",
+    "algorithm/complexity/Recurrence relation.md",
+    "algorithm/complexity/Algorithm complexity.md",
+    "algorithm/Algorithm complexity.md",
+    "algorithm/Recurrence relation.md",
+    "L_Hopital rule.md",
+    "L'Hopital rule.md",
+    "algorithm/problems/leetcode/Problem 50. Pow(x, n).md",
+    "algorithm/problems/leetcode/Problem 49. Group anagrams.md",
+    "algorithm/algorithm/sorting/internal-sorting/Merge sort.md",
     "algorithm/problems/leetcode/Problem 134. Gas Station.md",
     "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764756331584",
     "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764751491607",
@@ -214,21 +227,8 @@
     "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md",
     "algorithm/problems/leetcode/Problem 607. Sales Person.md",
     "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md",
-    "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md",
-    "algorithm/problems/leetcode/Problem 143. Reorder list.md",
-    "algorithm/data-structure/list/Array list.md",
-    "algorithm/data-structure/list/Linked list.md",
-    "algorithm/data-structure/hashing/Hash table.md",
-    "dbms/dbms-architecture/Disk storage.md",
-    "algorithm/complexity/Recurrence relation.md",
-    "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md",
-    "algorithm/algorithm/tree/Tree traversal.md",
     "algorithm/algorithm/tree",
     "algorithm/complexity",
-    "algorithm/complexity/Algorithm complexity.md",
-    "L'Hopital rule.md",
-    "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md",
-    "programming/java/lombok/Project Lombok API.md",
     "dbms/query/examples",
     "algorithm/algorithm/search",
     "assets/Pasted image 20251116174033.png",
