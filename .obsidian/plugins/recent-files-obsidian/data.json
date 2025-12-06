@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Problem 179. Largest Number",
-      "path": "algorithm/problems/leetcode/Problem 179. Largest Number.md"
+      "basename": "Problem 2389. Longest Subsequence with Limited Sum",
+      "path": "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md"
+    },
+    {
+      "basename": "Problem 2144. Minimum Cost of Buying Candies with Discount",
+      "path": "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md"
+    },
+    {
+      "basename": "Problem 868. Binary Gap",
+      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
     },
     {
       "basename": "Quick sort",
       "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
+    },
+    {
+      "basename": "Problem 179. Largest Number",
+      "path": "algorithm/problems/leetcode/Problem 179. Largest Number.md"
     },
     {
       "basename": "Problem 134. Gas Station",
@@ -85,10 +97,6 @@
       "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
     },
     {
-      "basename": "Problem 2389. Longest Subsequence with Limited Sum",
-      "path": "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md"
-    },
-    {
       "basename": "Problem 2578. Split with Minimum Sum",
       "path": "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md"
     },
@@ -123,10 +131,6 @@
     {
       "basename": "Problem 2706. Buy Two Chocolates",
       "path": "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md"
-    },
-    {
-      "basename": "Problem 868. Binary Gap",
-      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
     },
     {
       "basename": "Problem 627. Swap Sex of Employees",
@@ -195,10 +199,6 @@
     {
       "basename": "Sort a primitive array in reverse order",
       "path": "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md"
-    },
-    {
-      "basename": "Sort a string",
-      "path": "programming/java/fundamentals/functional-programming/examples/Sort a string.md"
     }
   ],
   "omittedPaths": [],

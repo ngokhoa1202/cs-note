@@ -19,7 +19,8 @@
 }
 
 body {
-  font-feature-settings: "calt" 1, "cv05" 1, "cv06" 1, 'tnum' 1, 'zero' 1, 'dlig' 1, 'case' 1, 'ss03' 1, 'ss08' 1;
+  font-feature-settings: "calt" 1, "cv05" 1, "cv06" 1, 'tnum' 1, 'zero' 1, 'dlig' 1, 'case' 1, 'ss03' 1, 'ss08' 1, 'cv08' 1, 
+    'cv05' 1, 'ss02' 1, 'ss07' 1, 'cv10' 1, 'cv06' 1, 'ss01' 1;
 }
 
 [class^="hltr-"],

@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/problems/leetcode/Problem 179. Largest Number.md",
+                "file": "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Problem 179. Largest Number"
+              "title": "Problem 2389. Longest Subsequence with Limited Sum"
             }
           }
         ]
@@ -95,7 +95,8 @@
               "title": "Recent Files"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -193,10 +194,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bf0cec1086959eaa",
+  "active": "3b98209b08301b70",
   "lastOpenFiles": [
+    "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md",
+    "algorithm/problems/leetcode/Problem 868. Binary Gap.md",
     "algorithm/algorithm/sorting/internal-sorting/Quick sort.md",
     "algorithm/problems/leetcode/Problem 179. Largest Number.md",
+    "PkgTTC-IosevkaSS18-33.3.5.zip",
+    "PkgTTC-IosevkaSS17-33.3.5.zip",
+    "PkgTTC-IosevkaSS16-33.3.5.zip",
+    "PkgTTC-IosevkaSS15-33.3.5.zip",
+    "PkgTTC-IosevkaSS14-33.3.5.zip",
+    "PkgTTC-IosevkaSS13-33.3.5.zip",
+    "PkgTTC-IosevkaSS12-33.3.5.zip",
+    "PkgTTC-IosevkaSS11-33.3.5.zip",
+    "PkgTTC-IosevkaSS10-33.3.5.zip",
+    "PkgTTC-IosevkaSS09-33.3.5.zip",
     "algorithm/problems/leetcode/Problem 134. Gas Station.md",
     "algorithm/problems/leetcode/Problem 121. Best Time to Buy and Sell Stock.md",
     "algorithm/problems/leetcode/Problem 110. Balanced Binary Tree.md",
@@ -219,18 +232,6 @@
     "algorithm/problems/leetcode/Problem 49. Group anagrams.md",
     "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md",
     "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md",
-    "algorithm/problems/hackerrank",
-    "algorithm/problems/codeforces",
-    "algorithm/algorithm/sorting/Merge sort.md",
-    "algorithm/algorithm/sorting/Quicksort.md",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764756331584",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764751491607",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764751464838",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764750684458",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764750405879",
-    "algorithm/problems/leetcode/Problem 134. Gas Station.md.tmp.41399.1764750121234",
-    "algorithm/algorithm/tree",
-    "algorithm/complexity",
     "assets/Pasted image 20251116174033.png",
     "assets/Pasted image 20251116154232.png",
     "assets/Pasted image 20251116081643.png",
