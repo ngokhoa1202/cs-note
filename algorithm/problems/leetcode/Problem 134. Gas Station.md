@@ -20,7 +20,7 @@
 - Suppose that the gas is in short supply before reaching $j$, that is $$\text{tank}(s, j - 1) = \sum_{i=s}^{j-1} \text{net}[i] < 0$$
 - Suppose there exists some station $t$ where $s<t<j$ can reach station $j$, which means $$\text{tank}(t, j - 1) = \sum_{i=t}^{j-1} \text{net}[i] \geq 0$$
 - Decompose the travel from station $s$ to $j-1$ $$\text{tank}(s, j - 1) = \sum_{i=s}^{t-1} \text{net}[i] + \sum_{i=t}^{j-1} \text{net}[i] < 0$$
-- As a result, $$\sum_{i=t}^{j-1} \text{net}[i] < 0$$
+- As a result, $$\text{tank}(t,j-1)=\sum_{i=t}^{j-1} \text{net}[i] < 0$$
 - But this means starting from $s$, the car ran out of gas before reach $t$, contradicting our assumption that station $j-1$ can be reached from $s$.
 #### Solution uniqueness
 ##### Theorem

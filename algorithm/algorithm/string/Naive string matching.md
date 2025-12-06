@@ -37,7 +37,7 @@ int main() {
 ```
 
 # Time complexity
-$$T(n)=O(n+m+(n-m)(m+2))=O(mn-n^2)=O(mn)$$
+- $$T(n)=O(n+m+(n-m)(m+2))=O(mn-n^2)=O(mn)$$
 ***
 # References
 1. 

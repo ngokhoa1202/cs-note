@@ -18,12 +18,17 @@
   }
 }
 
-/* [class^="hltr-"],
+body {
+  font-feature-settings: "calt" 1, "cv05" 1, "cv06" 1, 'tnum' 1, 'zero' 1, 'dlig' 1, 'case' 1, 'ss03' 1, 'ss08' 1;
+}
+
+[class^="hltr-"],
 .cm-highlight,
 .has-list-bullet mark {
   font-family: "Lora" !important;
   font-style: italic;
-} */
+  font-weight: 500;
+}
 
 /* a.cm-underline,
 .external-link,

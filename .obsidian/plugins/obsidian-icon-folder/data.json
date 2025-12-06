@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiHackerrank",
+      "SiCodeforces",
       "TiMathFunction",
       "TiSql",
       "RiSortNumberAsc",
@@ -23,9 +25,7 @@
       "TiQuotes",
       "FasQuestion",
       "SiDiagramsdotnet",
-      "SiQuarkus",
-      "TiApi",
-      "LoJakartaEE"
+      "SiQuarkus"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -559,8 +559,12 @@
   "algorithm/algorithm/sorting/internal-sorting/Heap sort.md": "RiSortNumberAsc",
   "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md": "RiSortNumberAsc",
   "algorithm/algorithm/sorting/internal-sorting/Merge sort.md": "RiSortNumberAsc",
-  "algorithm/algorithm/sorting/internal-sorting/Quicksort.md": "RiSortNumberAsc",
   "algorithm/algorithm/sorting/internal-sorting/Selection sort.md": "RiSortNumberAsc",
   "algorithm/algorithm/string": "RiDoubleQuotesL",
-  "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md": "SiLeetcode"
+  "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md": "SiLeetcode",
+  "algorithm/algorithm/sorting/internal-sorting/Quick sort.md": "RiSortNumberAsc",
+  "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md": "SiLeetcode",
+  "algorithm/problems/codeforces": "SiCodeforces",
+  "algorithm/problems/hackerrank": "SiHackerrank",
+  "algorithm/problems/leetcode/Problem 179. Largest Number.md": "SiLeetcode"
 }

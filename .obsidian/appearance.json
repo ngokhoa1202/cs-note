@@ -2,7 +2,7 @@
   "theme": "moonstone",
   "accentColor": "#6c85bc",
   "baseFontSize": 20,
-  "textFontFamily": "Lora,Open Sans",
+  "textFontFamily": "Fira Sans,Inter Variable,Open Sans",
   "monospaceFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "Inter",
   "cssTheme": "Minimal",

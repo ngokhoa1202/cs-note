@@ -5,13 +5,23 @@
 - The profit ending is maximized by finding the minimum of buy price $y_{min}$ and comparing the current profit at index $i$ with current profit.
 - The algorithm is described as:
 	- Initialize $x=p_0, y=0$
-	- For each price:
-		- $x=\min\{x,p_i\}$
-		- $\max(y-x)=\max\{y, p_i-x\}$
-	- 
+	- For each price in $p_i$:
+		- $x\leftarrow\min\{x,p_i\}$
+		- $\max(y-x)\leftarrow\max\{\max (y-x), p_i-x\}$
 # Implementation
 ## Java
-
+```Java title='Problem 121 in Java: Sliding window solution'
+class Solution {
+  public int maxProfit(int[] prices) {
+    int profit = 0, buyPrice = prices[0];
+    for (final var price: prices) {
+      buyPrice = Math.min(buyPrice, price);
+      profit = Math.max(profit, price - buyPrice);
+    }
+    return profit;
+  }
+}
+```
 # Complexity
 ## Time complexity
 - $O(n)$

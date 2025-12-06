@@ -1,3 +1,4 @@
+
 #leetcode #algorithm #java #data-structure #linked-list 
 # Algorithm
 - The transformation from $L_0 \rightarrow L_1 \rightarrow \space ... \to L_{n-1} \rightarrow L_n$ into $L_0 \to L_{n} \to L_1 \to L_{n-1} \to L_2 \to L_{n-2}$ can be sequentially executed as these steps:
