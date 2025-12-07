@@ -1,6 +1,4 @@
 #design-pattern #software-engineering  #software-architecture #object-oriented-programming #behavioral-pattern  #solid #functional-programming  #java 
-
-
 # Purpose
 - Represent an operation to be performed on the elements of an object structure.
 - Define a new operation <mark class="hltr-yellow">without changing the classes of the elements</mark> on which it operates.

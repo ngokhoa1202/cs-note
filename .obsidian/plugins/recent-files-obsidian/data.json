@@ -1,6 +1,138 @@
 {
   "recentFiles": [
     {
+      "basename": "Service-oriented architecture",
+      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
+    },
+    {
+      "basename": "Representational State Transfer (REST)",
+      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
+    },
+    {
+      "basename": "Hypermedia as the Engine of Application State (HATEOAS)",
+      "path": "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md"
+    },
+    {
+      "basename": "Resource",
+      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
+    },
+    {
+      "basename": "Hyper Text Transfer Protocol (HTTP)",
+      "path": "computer-network/application-layer/http/Hyper Text Transfer Protocol (HTTP).md"
+    },
+    {
+      "basename": "Web cache",
+      "path": "computer-network/application-layer/Web cache.md"
+    },
+    {
+      "basename": "World Wide Web",
+      "path": "computer-network/application-layer/World Wide Web.md"
+    },
+    {
+      "basename": "HTTP Version",
+      "path": "computer-network/application-layer/http/HTTP Version.md"
+    },
+    {
+      "basename": "Memento pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Memento pattern.md"
+    },
+    {
+      "basename": "Install OpenAPI",
+      "path": "software-engineering/api/api-tool/openapi/installation/Install OpenAPI.md"
+    },
+    {
+      "basename": "Layered architecture",
+      "path": "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md"
+    },
+    {
+      "basename": "Pasted image 20251206213815",
+      "path": "assets/Pasted image 20251206213815.png"
+    },
+    {
+      "basename": "Dependency injection pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/modern/integration/Dependency injection pattern.md"
+    },
+    {
+      "basename": "Callback pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/modern/concurrency-control/Callback pattern.md"
+    },
+    {
+      "basename": "Asynchronous method invocation",
+      "path": "software-engineering/software-architecture/design/design-pattern/modern/concurrency-control/Asynchronous method invocation.md"
+    },
+    {
+      "basename": "Design patterns",
+      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
+    },
+    {
+      "basename": "Adapter pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Adapter pattern.md"
+    },
+    {
+      "basename": "Problem 50. Pow(x, n)",
+      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
+    },
+    {
+      "basename": "Proxy pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Proxy pattern.md"
+    },
+    {
+      "basename": "Flyweight pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md"
+    },
+    {
+      "basename": "Decorator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Decorator pattern.md"
+    },
+    {
+      "basename": "Composite pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Composite pattern.md"
+    },
+    {
+      "basename": "Bridge pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Bridge pattern.md"
+    },
+    {
+      "basename": "Template method pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Template method pattern.md"
+    },
+    {
+      "basename": "Strategy pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Strategy pattern.md"
+    },
+    {
+      "basename": "Visitor pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Visitor pattern.md"
+    },
+    {
+      "basename": "Mediator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
+    },
+    {
+      "basename": "Facade pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
+    },
+    {
+      "basename": "Abstract Factory pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/creational-pattern/Abstract Factory pattern.md"
+    },
+    {
+      "basename": "Chain of responsibility pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md"
+    },
+    {
+      "basename": "UML Class diagram",
+      "path": "software-engineering/diagram/UML Class diagram.md"
+    },
+    {
       "basename": "Problem 2389. Longest Subsequence with Limited Sum",
       "path": "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md"
     },
@@ -67,138 +199,6 @@
     {
       "basename": "Maximum subarray problem",
       "path": "algorithm/algorithm/array/Maximum subarray problem.md"
-    },
-    {
-      "basename": "Problem 143. Reorder list",
-      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
-    },
-    {
-      "basename": "Problem 21. Merge two sorted lists",
-      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/complexity/Recurrence relation.md"
-    },
-    {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/complexity/Algorithm complexity.md"
-    },
-    {
-      "basename": "Rebasing",
-      "path": "site-reability-engineering/version-control/git/git-rebasing/Rebasing.md"
-    },
-    {
-      "basename": "Problem 50. Pow(x, n)",
-      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
-    },
-    {
-      "basename": "Problem 49. Group anagrams",
-      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
-    },
-    {
-      "basename": "Problem 2578. Split with Minimum Sum",
-      "path": "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md"
-    },
-    {
-      "basename": "Binary search",
-      "path": "algorithm/algorithm/search/Binary search.md"
-    },
-    {
-      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
-      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
-    },
-    {
-      "basename": "Problem 577. Employee Bonus",
-      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
-    },
-    {
-      "basename": "Problem 575. Distribute candies",
-      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/Hash table.md"
-    },
-    {
-      "basename": "Selection sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
-    },
-    {
-      "basename": "Heap sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
-    },
-    {
-      "basename": "Problem 2706. Buy Two Chocolates",
-      "path": "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md"
-    },
-    {
-      "basename": "Problem 627. Swap Sex of Employees",
-      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
-    },
-    {
-      "basename": "Problem 620. Not Boring Movies",
-      "path": "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md"
-    },
-    {
-      "basename": "Problem 607. Sales Person",
-      "path": "algorithm/problems/leetcode/Problem 607. Sales Person.md"
-    },
-    {
-      "basename": "Problem 226. Invert Binary tree",
-      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
-    },
-    {
-      "basename": "Problem 374. Guess Number Higher or Lower",
-      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
-    },
-    {
-      "basename": "Array list",
-      "path": "algorithm/data-structure/list/Array list.md"
-    },
-    {
-      "basename": "Linked list",
-      "path": "algorithm/data-structure/list/Linked list.md"
-    },
-    {
-      "basename": "Disk storage",
-      "path": "dbms/dbms-architecture/Disk storage.md"
-    },
-    {
-      "basename": "Problem 563. Binary Tree Tilt",
-      "path": "algorithm/problems/leetcode/Problem 563. Binary Tree Tilt.md"
-    },
-    {
-      "basename": "Problem 222. Count Complete Tree Nodes",
-      "path": "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md"
-    },
-    {
-      "basename": "Project Lombok API",
-      "path": "programming/java/lombok/Project Lombok API.md"
-    },
-    {
-      "basename": "Method reference",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/Method reference.md"
-    },
-    {
-      "basename": "Functional interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/Functional interface.md"
-    },
-    {
-      "basename": "Predicate interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Predicate interface.md"
-    },
-    {
-      "basename": "Function interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Function interface.md"
-    },
-    {
-      "basename": "Consumer interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md"
-    },
-    {
-      "basename": "Sort a primitive array in reverse order",
-      "path": "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md"
     }
   ],
   "omittedPaths": [],

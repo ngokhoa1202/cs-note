@@ -115,6 +115,7 @@ public static void main(String[] args) {
 # Trade-offs
 - Liskov substitution principle may be violated by suppressing a default step implementation via a subclass.
 - Some clients may be limited by the provided skeleton of an algorithm.
+***
 # References
 1. https://refactoring.guru/design-patterns/observer for observer pattern.
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.

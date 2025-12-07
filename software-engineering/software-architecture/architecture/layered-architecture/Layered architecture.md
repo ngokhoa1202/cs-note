@@ -1,5 +1,5 @@
-#software-engineering #software-architecture #software-testing #solid  #web-service #data-access-object 
-
+#software-engineering #software-architecture #software-testing #solid  #web-service
+#data-access-object 
 # Topology
 - Components within the layered architecture style are organized into <mark class="hltr-yellow">logical layers</mark>, with each layer performing a specific role within the application.
 - ![[Pasted image 20250705163629.png]]
@@ -37,7 +37,7 @@
 
 # Metrics
 - ![[Pasted image 20250706080827.png]]
-
+***
 # References
 1. Fundamentals of Software Architecture: An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020).
 	1. Chapter 10. Layered Architecture Style.

@@ -4,7 +4,6 @@
 - A callback is a high-order function.
 # Purpose
 - Maintains the correct order of execution of asynchronous operations.
-
 # Application
 - Handling <mark class="hltr-yellow">non-blocking</mark> operations, such as reading files, making HTTP requests, or querying a database.
 - Event handling in user interfaces, for example, responding to user actions like clicks or key presses.

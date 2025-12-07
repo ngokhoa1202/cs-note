@@ -16,4 +16,4 @@
 - If close before waiting to other to send alert => incomplete close.
 # References
 1. [Secure Socket Layer (SSL) - Transport Layer Security (TLS)](Secure%20Socket%20Layer%20(SSL)%20-%20Transport%20Layer%20Security%20(TLS).md) for the underlying transport layer protocol.
-2. [HTTP](HTTP.md)
+2. [Hyper Text Transfer Protocol (HTTP)](Hyper%20Text%20Transfer%20Protocol%20(HTTP).md)

@@ -1,5 +1,4 @@
 #microservice #service-oriented-architecture #software-architecture #software-engineering #software-testing #application-layer #computer-network #domain-driven-design 
-
 # Topology
 - Service-oriented architecture follows a distributed macro layered structure consisting of a separately deployed user interface, separately deployed remote coarse-grained services, and a monolithic database.
 - ![[Pasted image 20250706095557.png]]

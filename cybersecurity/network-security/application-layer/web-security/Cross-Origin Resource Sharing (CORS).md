@@ -159,5 +159,5 @@ fetchPromise.then((response) => console.log(response));
 6. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shapes_from_images for CSS Shapes from images.
 7. https://www.w3.org/TR/2014/REC-cors-20140116/#terminology for old CORS specification.
 8. https://developer.mozilla.org/en-U for S/docs/Web/HTTP/Reference/Headers/Access-Control-Allow-Origin for `Access-Control-Allow-Origin` header.
-9. [[HTTP#HTTP Methods]] for HTTP Methods.
+9. [[Hyper Text Transfer Protocol (HTTP)#HTTP Methods]] for HTTP Methods.
 10. [[computer-network/application-layer/http/Cookie|Cookie]] for HTTP Cookie.

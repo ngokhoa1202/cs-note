@@ -1,5 +1,4 @@
 #http #application-layer #computer-network #web #protocol 
-
 # HTTP 1.0
 - The HTTP connection is <mark class="hltr-yellow">non-persistent</mark>.
 - HTTP transmission is prohibitively costly.
@@ -25,7 +24,7 @@
 2. https://gcore.com/learning/what-is-http-3/ for comparison.
 3. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.
 	1. Chapter 2. Application layer.
-4. [[HTTP#Persistent HTTP vs Non-persistent HTTP]] for Persistent HTTP and Non-persistent HTTP.
+4. [[Hyper Text Transfer Protocol (HTTP)#Persistent HTTP vs Non-persistent HTTP]] for Persistent HTTP and Non-persistent HTTP.
 5. Computer Networks - Tanenbaum Andrew S., Wetherall David J. Wetherhall - Prentice Hall Publisher (2011).
 	1. Chapter 7. The application layer.
 		1. Section 7.3. The World Wide Web.

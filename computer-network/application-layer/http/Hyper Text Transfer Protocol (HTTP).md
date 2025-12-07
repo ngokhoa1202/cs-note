@@ -1,16 +1,15 @@
 #application-layer #http #web #computer-network #protocol #client-server #white-box-testing 
 #software-testing 
-
 # Definition
 - HTTP, known as Hyper Text Transfer Protocol, is a communication protocol which underlies the Web, providing a uni-directional communication channel over multiple TCP connections between a web client and web server.
 - HTTP is <mark class="hltr-yellow">stateless</mark> but not session-less. Server does not maintain past requests from client with cookies or sessions
 - HTTP default port is 80. If the HTTP is upgraded to HTTPS, port 443 is used.
 - ![A HTTP request from a client forwarded by several proxies to a server and a response taking the same route back to the client.](https://mdn.github.io/shared-assets/images/diagrams/http/overview/client-server-chain.svg)
 # Persistent HTTP vs Non-persistent HTTP
-## Non-persistent HTTP:
+## Non-persistent HTTP
 - At most <mark class="hltr-yellow">one object</mark> is allowed to be sent *on a single TCP connection* opened to server.
 - $\text{Response time}=2 \times RTT + \text{File transmission time}$ $\Rightarrow$ more ==overhead==.
-## Persistent HTTP:
+## Persistent HTTP
 - <mark class="hltr-yellow">Multiple objects</mark> are allowed to be sent *on a single TCP connection* opened to server.
 - Resolves head-of-line blocking.
 # HTTP Format

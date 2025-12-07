@@ -1,48 +1,38 @@
-#object-oriented-programming #solid #software-architecture #software-engineering #design-pattern 
+#object-oriented-programming #solid #software-architecture #software-engineering #design-pattern #software-testing 
 
 # Fundamentals
 ## Creational pattern
 - Resolves ==object creation==.
 ### Builder
-[Builder pattern](Builder%20pattern.md)
-
+- [Builder pattern](Builder%20pattern.md)
 ### Simple Factory
-[Simple factory pattern](software-engineering/software-architecture/software-design/design-pattern/fundamentals/creational-pattern/Simple%20factory%20pattern.md)
+- [Simple factory pattern](software-engineering/software-architecture/software-design/design-pattern/fundamentals/creational-pattern/Simple%20factory%20pattern.md)
 
 ### Factory Method
-[Factory Method pattern](Factory%20Method%20pattern.md)
+- [Factory Method pattern](Factory%20Method%20pattern.md)
 
 ### Prototype
-[Prototype pattern](Prototype%20pattern.md)
-
+- [Prototype pattern](Prototype%20pattern.md)
 ### Singleton
-[Singleton pattern](Singleton%20pattern.md)
-
+- [Singleton pattern](Singleton%20pattern.md)
 ### Abstract Factory
-[Abstract Factory pattern](Abstract%20Factory%20pattern.md)
-
+- [Abstract Factory pattern](Abstract%20Factory%20pattern.md)
 ## Structural pattern
 - Resolves class and object composition to ==form larger structures==.
 ### Adapter
-[Adapter pattern](Adapter%20pattern.md)
-
+- [Adapter pattern](Adapter%20pattern.md)
 ### Bridge
-[Bridge pattern](Bridge%20pattern.md)
-
+- [Bridge pattern](Bridge%20pattern.md)
 ### Composite
-[Composite pattern](Composite%20pattern.md)
-
+- [Composite pattern](Composite%20pattern.md)
 ### Decorator
-[Decorator pattern](Decorator%20pattern.md)
-
+- [Decorator pattern](Decorator%20pattern.md)
 ### Facade
-[Facade pattern](Facade%20pattern.md)
-
+- [Facade pattern](Facade%20pattern.md)
 ### Flyweight
-[Flyweight pattern](Flyweight%20pattern.md)
+- [Flyweight pattern](Flyweight%20pattern.md)
 ### Proxy
-[Proxy pattern](Proxy%20pattern.md)
-
+- [Proxy pattern](Proxy%20pattern.md)
 ## Behavioral pattern
 - Deals with ==algorithm== and ==assign responsibilities to objects==.
 ### Chain of responsibility
@@ -61,7 +51,11 @@
 - [[Template method pattern]]
 # Modern pattern
 ## Callback pattern
-
+- [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Callback pattern|Callback pattern]]
+## Asynchronous method invocation pattern
+- [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Asynchronous method invocation|Asynchronous method invocation]]
+## Dependency injection pattern
+- [[Dependency injection pattern]]
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
 2. [[Chain of responsibility pattern]]
@@ -86,7 +80,10 @@
 21. [[Flyweight pattern]]
 22. [[Proxy pattern]]
 23. [[Callback pattern]]
-24. 
+24. [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Callback pattern|Callback pattern]]
+25. [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Asynchronous method invocation|Asynchronous method invocation]]
+26. [[Dependency injection pattern]]
+27. 
 
 
 
