@@ -1,6 +1,5 @@
-#git #github #version-control #project-management #cli #file-system #ssh #https #software-engineering #site-realibility-engineering
-#project-management 
-
+#git #github #version-control #project-management #cli #file-system #ssh #https 
+#software-engineering #site-realibility-engineering #project-management 
 # Initialize a repository
 - Move to the project directory.
 - Create a sub directory `.git` - no tracking.
@@ -26,7 +25,7 @@ git clone <repo-url> <repo-name>
 >[!Important]
 >https:// prefix urls use HTTPS protocol.
 >git:// or username@server:path/to/repo.git use SSH protocol.
-
+***
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Basics.

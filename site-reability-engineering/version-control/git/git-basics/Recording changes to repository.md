@@ -17,7 +17,6 @@ git status
 ```bash
 git status -s
 ```
-
 or 
 ```bash
 git status --short

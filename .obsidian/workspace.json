@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md",
+                "file": "plans/ST-Engineering-Learning-Plan.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Service-oriented architecture"
+              "title": "ST-Engineering-Learning-Plan"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#restful",
+                "query": "tag:#ddd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -117,7 +117,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -195,8 +195,27 @@
   },
   "active": "bf0cec1086959eaa",
   "lastOpenFiles": [
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md",
+    "SRE_Roadmap.md",
+    "site-reability-engineering/version-control/git/git-basics/Initialize project.md",
+    "site-reability-engineering/version-control/git/git-basics/Recording changes to repository.md",
+    "site-reability-engineering/version-control/git/git-basics/Viewing commit history.md",
+    "site-reability-engineering/version-control/git/branching-strategy",
+    "site-reability-engineering/version-control/git/git-basics/Undoing things.md",
+    "site-reability-engineering/version-control/git/git-rebasing/Rebasing.md",
+    "plans/ST-Engineering-First-Day-Questions.md",
+    "plans/ST-Engineering-First-Week-Checklist.md",
+    "plans/ST-Engineering-First-Week-Checklist.md.tmp.106741.1765112604211",
+    "plans/ST-Engineering-Learning-Plan.md",
+    "plans/ST-Engineering-First-Day-Questions.md.tmp.106741.1765112439063",
+    "projects/leave-management/Business.md",
+    "resume/Middle Java Engineer - ST Engineering company.pdf",
+    "plans/ST-Engineering-Learning-Plan.md.tmp.106741.1765112168213",
+    "resume/english-resume.pdf",
+    "software-engineering/software-architecture/domain-driven-design/Domain driven design.md",
+    "resume",
+    "CLAUDE.md",
     "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md",
+    "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md",
     "software-engineering/api/protocol/web-service/rest/Pagination.md",
     "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md",
     "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md",
@@ -212,27 +231,8 @@
     "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Memento pattern.md",
     "computer-network/application-layer/http/HTTP Methods.md",
     "computer-network/application-layer/http/HTTP Format.md",
-    "software-engineering/api/api-tool/openapi/installation/Install OpenAPI.md",
     "software-engineering/api/protocol",
-    "software-engineering/api",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/gRPC.md",
-    "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md",
     "assets/Pasted image 20251206213815.png",
-    "software-engineering/software-architecture/design/design-pattern/modern/integration/Dependency injection pattern.md",
-    "software-engineering/software-architecture/design/design-pattern/modern/concurrency-control/Callback pattern.md",
-    "software-engineering/software-architecture/design/design-pattern/modern/concurrency-control/Asynchronous method invocation.md",
-    "software-engineering/software-architecture/design/design-pattern/Design patterns.md",
-    "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Adapter pattern.md",
-    "algorithm/problems/leetcode/Problem 50. Pow(x, n).md",
-    "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Proxy pattern.md",
-    "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md",
-    "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Decorator pattern.md",
-    "software-engineering/software-architecture/design/design-pattern/modern/integration",
-    "PkgTTC-IosevkaSS18-33.3.5.zip",
-    "PkgTTC-IosevkaSS17-33.3.5.zip",
-    "PkgTTC-IosevkaSS16-33.3.5.zip",
-    "PkgTTC-IosevkaSS15-33.3.5.zip",
-    "PkgTTC-IosevkaSS14-33.3.5.zip",
     "assets/Pasted image 20251116174033.png",
     "assets/Pasted image 20251116154232.png",
     "assets/Pasted image 20251116081643.png",

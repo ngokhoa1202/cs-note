@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "LiGitPullRequest",
+      "TiFileCv",
       "TiListNumbers",
       "TiWorldWww",
       "MiHttp",
@@ -23,9 +25,7 @@
       "TiSql",
       "RiSortNumberAsc",
       "LiSearch",
-      "SiTypescript",
-      "LiBrackets",
-      "FabJava"
+      "SiTypescript"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -577,5 +577,7 @@
   "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md": "TiApi",
   "software-engineering/api/protocol/web-service/rest/Resource.md": "TiProtocol",
   "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md": "TiProtocol",
-  "software-engineering/api/protocol/web-service/rest/Pagination.md": "TiListNumbers"
+  "software-engineering/api/protocol/web-service/rest/Pagination.md": "TiListNumbers",
+  "resume": "TiFileCv",
+  "site-reability-engineering/version-control/git/branching-strategy": "LiGitPullRequest"
 }

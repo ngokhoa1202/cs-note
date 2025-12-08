@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "ST-Engineering-Learning-Plan",
+      "path": "plans/ST-Engineering-Learning-Plan.md"
+    },
+    {
+      "basename": "SRE_Roadmap",
+      "path": "SRE_Roadmap.md"
+    },
+    {
+      "basename": "Initialize project",
+      "path": "site-reability-engineering/version-control/git/git-basics/Initialize project.md"
+    },
+    {
+      "basename": "Recording changes to repository",
+      "path": "site-reability-engineering/version-control/git/git-basics/Recording changes to repository.md"
+    },
+    {
+      "basename": "Viewing commit history",
+      "path": "site-reability-engineering/version-control/git/git-basics/Viewing commit history.md"
+    },
+    {
+      "basename": "Undoing things",
+      "path": "site-reability-engineering/version-control/git/git-basics/Undoing things.md"
+    },
+    {
+      "basename": "Rebasing",
+      "path": "site-reability-engineering/version-control/git/git-rebasing/Rebasing.md"
+    },
+    {
+      "basename": "ST-Engineering-First-Day-Questions",
+      "path": "plans/ST-Engineering-First-Day-Questions.md"
+    },
+    {
+      "basename": "Middle Java Engineer - ST Engineering company",
+      "path": "resume/Middle Java Engineer - ST Engineering company.pdf"
+    },
+    {
+      "basename": "english-resume",
+      "path": "resume/english-resume.pdf"
+    },
+    {
+      "basename": "Domain driven design",
+      "path": "software-engineering/software-architecture/domain-driven-design/Domain driven design.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
       "basename": "Service-oriented architecture",
       "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "Problem 179. Largest Number",
       "path": "algorithm/problems/leetcode/Problem 179. Largest Number.md"
-    },
-    {
-      "basename": "Problem 134. Gas Station",
-      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
-    },
-    {
-      "basename": "Problem 121. Best Time to Buy and Sell Stock",
-      "path": "algorithm/problems/leetcode/Problem 121. Best Time to Buy and Sell Stock.md"
-    },
-    {
-      "basename": "Problem 110. Balanced Binary Tree",
-      "path": "algorithm/problems/leetcode/Problem 110. Balanced Binary Tree.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Merge sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Merge sort.md"
-    },
-    {
-      "basename": "Tree traversal",
-      "path": "algorithm/algorithm/tree/Tree traversal.md"
-    },
-    {
-      "basename": "Naive string matching",
-      "path": "algorithm/algorithm/string/Naive string matching.md"
-    },
-    {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/algorithm/string/Longest common subsequence.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/hashing/Hash table.md"
-    },
-    {
-      "basename": "SRE_Roadmap",
-      "path": "SRE_Roadmap.md"
-    },
-    {
-      "basename": "Problem 596. Classes with at Least 5 Students",
-      "path": "algorithm/problems/leetcode/Problem 596. Classes with at Least 5 Students.md"
-    },
-    {
-      "basename": "Maximum subarray problem",
-      "path": "algorithm/algorithm/array/Maximum subarray problem.md"
     }
   ],
   "omittedPaths": [],

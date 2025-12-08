@@ -1,4 +1,4 @@
-#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #oop #solid #agile #project-management #ddd 
+#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #oop #solid #agile #project-management #domain-driven-design 
 
 # Purpose
 - Domain isolation: Isolate responsibility of each layer $\implies$ ensure [SOLID](SOLID.md) 

@@ -1,5 +1,5 @@
 #software-engineering #software-architecture #software-testing #design-pattern #microservice 
-#dependency-manager #dependency-injection #oop #solid #agile #project-management #ddd 
+#dependency-manager #dependency-injection #oop #solid #agile #project-management #domain-driven-design 
 #erd-diagram #dbms-design 
 
 # Overview picture
