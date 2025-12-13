@@ -1,5 +1,4 @@
 #software-engineering #software-architecture #software-testing 
-
 # Module
 - Module is a logical grouping of related code. (`package` in Java or `namespace` in C#)
 # Modular measurement
@@ -56,7 +55,6 @@
 - $LCOM=0$ happens when there are no methods in a class. This is also a "bad" class.
 - ![](Pasted%20image%2020250308181734.png)
 ## Coupling
-
 ## Abstractness
 - Abstractness is the ratio of abstract artifacts (abstract classes, interfaces, and so on) to concrete artifacts (implementation). $$A=\frac{\sum m^a}{\sum m^c}$$
 ## Instability
@@ -92,11 +90,9 @@
 - Execution: Order of execution matters
 - Timing: Timing of execution matters
 - Values: Values must change together
-- Identity: Components must reference the same entity
-
-
+- Identity: Components must reference the same entity.
+***
 # References
 1. Fundamentals of Software Architecture An Engineering Approach - Mark Richards Neal Ford - O_Reilly Media (2020)
 	1. Chapter 2. Architectural Thinking.
-	2. 
 2. HCMUT Software Architecture Slides - Trần Trương Tuấn Phát - 2025.

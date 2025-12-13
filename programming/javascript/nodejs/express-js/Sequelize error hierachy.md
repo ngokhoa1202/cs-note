@@ -2,7 +2,7 @@
 # Error Hierarchy in Sequelize
 
 1. `Error` (Native JavaScript error)
-    - `BaseError` (Sequelize's base error class)
+    - `BaseError` (Sequelize base error class)
         - `DatabaseError` (Thrown for SQL-related errors)
             - `SequelizeConnectionError` (Issues with database connection)
                 - `SequelizeConnectionRefusedError`

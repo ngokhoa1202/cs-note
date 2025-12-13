@@ -1,10 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900");
-@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap");
-
 .theme-light {
   /* Enhanced heading styling with subtle gradients */
 
@@ -19,7 +12,7 @@
 }
 
 body {
-  font-feature-settings: "calt" 1, "cv05" 1, "cv06" 1, 'tnum' 1, 'zero' 1, 'dlig' 1, 'case' 1, 'ss03' 1, 'ss08' 1, 'cv08' 1,
+  font-feature-settings: "calt" 1, "cv05" 1, "cv06" 1, 'zero' 1, 'dlig' 1, 'case' 1, 'ss03' 1, 'ss08' 1, 'cv08' 1,
     'cv05' 1, 'ss02' 1, 'ss07' 1, 'cv10' 1, 'cv06' 1, 'ss01' 1;
 }
 
@@ -66,6 +59,10 @@ ul.has-list-bullet {
 /* .callout-content {
   font-family: "Fira Sans";
 } */
+
+.inline-title {
+  text-transform: uppercase;
+}
 
 h1,
 h2,

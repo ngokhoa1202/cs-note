@@ -41,6 +41,7 @@ console.log(`The area of mySquare is ${mySquare.area()}`);
 - Module wrapper keeps top-level variables (defined with `var`, `const`, or `let`) *scoped to the module* rather than the global object.
 # Behavior
 - `CommonJS` modules are fully synchronous.
+***
 # References
 1. https://nodejs.org/docs/latest-v22.x/api/modules.html for CommonJS in Node.js version 22.
 2. https://nodejs.org/docs/latest-v22.x/api/modules.html#the-module-wrapper for Module wrapper in Node.js.

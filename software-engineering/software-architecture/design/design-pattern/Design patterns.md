@@ -1,89 +1,89 @@
 #object-oriented-programming #solid #software-architecture #software-engineering #design-pattern #software-testing 
-
-# Fundamentals
+# Classical pattern
 ## Creational pattern
-- Resolves ==object creation==.
+- Resolves object creation.
 ### Builder
-- [Builder pattern](Builder%20pattern.md)
+- [Builder pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder%20pattern.md)
 ### Simple Factory
 - [Simple factory pattern](software-engineering/software-architecture/software-design/design-pattern/fundamentals/creational-pattern/Simple%20factory%20pattern.md)
-
 ### Factory Method
-- [Factory Method pattern](Factory%20Method%20pattern.md)
-
+- [Factory Method pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory%20Method%20pattern.md)
 ### Prototype
-- [Prototype pattern](Prototype%20pattern.md)
+- [Prototype pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype%20pattern.md)
 ### Singleton
-- [Singleton pattern](Singleton%20pattern.md)
+- [Singleton pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Singleton%20pattern.md)
 ### Abstract Factory
-- [Abstract Factory pattern](Abstract%20Factory%20pattern.md)
+- [Abstract Factory pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract%20Factory%20pattern.md)
 ## Structural pattern
-- Resolves class and object composition to ==form larger structures==.
+- Resolves class and object composition to form larger structures.
 ### Adapter
-- [Adapter pattern](Adapter%20pattern.md)
+- [Adapter pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Adapter%20pattern.md)
 ### Bridge
-- [Bridge pattern](Bridge%20pattern.md)
+- [Bridge pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge%20pattern.md)
 ### Composite
-- [Composite pattern](Composite%20pattern.md)
+- [Composite pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Composite%20pattern.md)
 ### Decorator
-- [Decorator pattern](Decorator%20pattern.md)
+- [Decorator pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator%20pattern.md)
 ### Facade
-- [Facade pattern](Facade%20pattern.md)
+- [Facade pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade%20pattern.md)
 ### Flyweight
-- [Flyweight pattern](Flyweight%20pattern.md)
+- [Flyweight pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Flyweight%20pattern.md)
 ### Proxy
-- [Proxy pattern](Proxy%20pattern.md)
+- [Proxy pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy%20pattern.md)
 ## Behavioral pattern
-- Deals with ==algorithm== and ==assign responsibilities to objects==.
+- Deals with algorithm and assign responsibilities to objects.
 ### Chain of responsibility
-- [Chain of responsibility pattern](Chain%20of%20responsibility%20pattern.md)
+- [Chain of responsibility pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain%20of%20responsibility%20pattern.md)
 ### Command
-- [Command pattern](Command%20pattern.md)
+- [Command pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command%20pattern.md)
 ### Observer
-- [Observer pattern](Observer%20pattern.md)
+- [Observer pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Observer%20pattern.md)
 ### Strategy
-- [Strategy pattern](Strategy%20pattern.md)
+- [Strategy pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Strategy%20pattern.md)
 ### Mediator
-- [Mediator pattern](Mediator%20pattern.md)
+- [Mediator pattern](software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator%20pattern.md)
 ### Visitor
-- [[Visitor pattern]]
+- [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern|Visitor pattern]]
 ### Template method
-- [[Template method pattern]]
-# Modern pattern
+- [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Template method pattern|Template method pattern]]
+# Concurrency control pattern
 ## Callback pattern
-- [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Callback pattern|Callback pattern]]
+- [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern|Callback pattern]]
 ## Asynchronous method invocation pattern
-- [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Asynchronous method invocation|Asynchronous method invocation]]
+- [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern|Asynchronous method invocation pattern]]
+# Enterprise pattern
 ## Dependency injection pattern
-- [[Dependency injection pattern]]
+- [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern]]
+## Service Locator pattern
+- [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern|Service Locator pattern]]
+***
 # References
 1. Design Pattern Elements of Reusable Object-Oriented Software - Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
-2. [[Chain of responsibility pattern]]
-3. [[Command pattern]]
-4. [[Mediator pattern]]
-5. [[Memento pattern]]
-6. [[Observer pattern]]
-7. [[Strategy pattern]]
-8. [[Template method pattern]]
-9. [[Visitor pattern]]
-10. [[Abstract Factory pattern]]
-11. [[Builder pattern]]
-12. [[Factory Method pattern]]
-13. [[Prototype pattern]]
-14. [[software-engineering/software-architecture/software-design/design-pattern/fundamentals/creational-pattern/Simple factory pattern]]
-15. [[Singleton pattern]]
-16. [[Adapter pattern]]
-17. [[Bridge pattern]]
-18. [[Composite pattern]]
-19. [[Decorator pattern]]
-20. [[Facade pattern]]
-21. [[Flyweight pattern]]
-22. [[Proxy pattern]]
-23. [[Callback pattern]]
-24. [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Callback pattern|Callback pattern]]
-25. [[software-engineering/software-architecture/software-design/design-pattern/modern/concurrency-control/Asynchronous method invocation|Asynchronous method invocation]]
-26. [[Dependency injection pattern]]
-27. 
+2. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern|Chain of responsibility pattern]]
+3. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command pattern|Command pattern]]
+4. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern|Mediator pattern]]
+5. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Memento pattern|Memento pattern]]
+6. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Observer pattern|Observer pattern]]
+7. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Strategy pattern|Strategy pattern]]
+8. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Template method pattern|Template method pattern]]]
+9. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern|Visitor pattern]]
+10. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern|Abstract Factory pattern]]
+11. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern|Builder pattern]]
+12. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern|Factory Method pattern]]
+13. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern|Prototype pattern]]
+14. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Singleton pattern|Singleton pattern]]
+15. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Adapter pattern|Adapter pattern]]
+16. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern|Bridge pattern]]
+17. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Composite pattern|Composite pattern]]
+18. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern|Decorator pattern]]
+19. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern|Facade pattern]]
+20. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Flyweight pattern|Flyweight pattern]]
+21. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern|Proxy pattern]]
+22. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern|Callback pattern]]
+23. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern|Asynchronous method invocation pattern]]
+24. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern|Dependency injection pattern]]
+25. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern|Service Locator pattern]]
+
 
 
 

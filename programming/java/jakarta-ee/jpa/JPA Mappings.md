@@ -1,5 +1,4 @@
-#jpa #spring-jpa #quarkus #jakarta-ee #java #annotation #dbms #sql #relational-model  #relational-mapping 
-
+#jpa #spring-jpa #quarkus #jakarta-ee #java #annotation #dbms #sql #relational-model  #relational-mapping #spring #spring-framework #spring-boot 
 # Category
 - Categorized by relational mappings:
 	- One-to-one relationship $\equiv 1:1$ .

@@ -1,7 +1,6 @@
 #software-engineering #software-architecture #software-testing #design-pattern #microservice 
-#dependency-manager #dependency-injection #object-oriented-programming #solid #agile #project-management #domain-driven-design
-#erd-diagram #dbms-design 
-
+#dependency-manager #dependency-injection #object-oriented-programming #solid #agile 
+#project-management #domain-driven-design #erd-diagram #dbms-design 
 # Overview picture
 - ![](Pasted%20image%2020241117103410.png)
 # Associations
@@ -79,7 +78,7 @@
 - The Trade Order is not part of the same AGGREGATE as the Brokerage Account because, for a start, it will go on to interact with the trade execution application, where the Brokerage Account would only be in the way. Even so, it seems natural to give it control over the creation of Trade Orders. The Brokerage Account contains information that will be embedded in the Trade Order (starting with its own identity) and also rules that govern what trades are allowed. We might also benefit from hiding the implementation of Trade Order. ![](Pasted%20image%2020241117171146.png)
 - ![](Pasted%20image%2020241117171537.png)
 
-
+***
 # References
 1. Domain Driven Design - Eric Evans - 2003
 	1. A Model Expressed in Software.

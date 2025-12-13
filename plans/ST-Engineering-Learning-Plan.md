@@ -69,11 +69,11 @@
 
 ### P1: HIGH PRIORITY (Month 1) 🟡
 
-| Skill | Current Level | Target Level | Gap Severity | Time to Close |
-|-------|--------------|--------------|--------------|---------------|
-| Database Performance | Intermediate | Advanced | Medium | 2 weeks |
-| Microservices Patterns | Intermediate | Advanced | Medium | 2 weeks |
-| Kafka Fundamentals | Beginner | Intermediate | Medium | 1 week |
+| Skill                  | Current Level | Target Level | Gap Severity | Time to Close |
+| ---------------------- | ------------- | ------------ | ------------ | ------------- |
+| Database Performance   | Intermediate  | Advanced     | Medium       | 2 weeks       |
+| Microservices Patterns | Intermediate  | Advanced     | Medium       | 2 weeks       |
+| Kafka Fundamentals     | Beginner      | Intermediate | Medium       | 1 week        |
 
 **Why High**: Essential for independent work and meeting "nice-to-have" requirements
 

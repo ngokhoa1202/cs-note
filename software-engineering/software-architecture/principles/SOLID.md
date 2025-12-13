@@ -1,18 +1,15 @@
 #software-engineering #object-oriented-programming #solid #software-architecture #design-pattern #agile 
- 
-
 # Single responsibility principle
 - Every class should have only ==one reason== to change.
 - Design focused class solving one logical problem only.
 - If two responsibilities ==change at quite different rates==, then separate them.
-
-# Open-closed principle.
+# Open-closed principle
 - Software entities (classes, packages, methods, ...) should be ==open for extension, but closed for modification==.
 - ==Abstraction== is the key.
 # Liskov substitution principle
 - Subtypes must be ==substitutable== to base types $\equiv$ their behavior should not its parent behavior.
 - Degenerate method in child class if it is unnecessary.
-- Employs creational pattern (such as factory method, ....) to resolves `is-a` conflicted behavior. 
+- Employs creational pattern (such as factory method, ....) to resolves `is-a` conflicting behavior. 
 # Interface segregation principle
 - Clients should not be forced to depend on ==interfaces that they do not use==.
 - Keep interface concise and simple $\equiv$ Interface methods ==do not make sense for class==:

@@ -1,7 +1,6 @@
 #jakarta-ee  #software-architecture  #software-engineering #java #distributed-computing 
 #cloud #dbms #web  #web-server
 #dependency-injection  #java-servlet #layered-architecture #dependency-manager #bean 
-
 # Distributed multi-tiered application
 - Refers to [Three-tier Database architecture](Cloud%20computing.md#Three-tier%20Database%20architecture)
 - ![800x600](Pasted%20image%2020240809091913.png)

@@ -1,52 +1,108 @@
 {
   "recentFiles": [
     {
-      "basename": "ST-Engineering-Learning-Plan",
-      "path": "plans/ST-Engineering-Learning-Plan.md"
+      "basename": "Event-driven architecture",
+      "path": "software-engineering/software-architecture/architecture/event-driven-architecture/Event-driven architecture.md"
     },
     {
-      "basename": "SRE_Roadmap",
-      "path": "SRE_Roadmap.md"
+      "basename": "Layered architecture",
+      "path": "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md"
     },
     {
-      "basename": "Initialize project",
-      "path": "site-reability-engineering/version-control/git/git-basics/Initialize project.md"
+      "basename": "Chain of responsibility pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern.md"
     },
     {
-      "basename": "Recording changes to repository",
-      "path": "site-reability-engineering/version-control/git/git-basics/Recording changes to repository.md"
+      "basename": "Service Locator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern.md"
     },
     {
-      "basename": "Viewing commit history",
-      "path": "site-reability-engineering/version-control/git/git-basics/Viewing commit history.md"
+      "basename": "Dependency injection pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md"
     },
     {
-      "basename": "Undoing things",
-      "path": "site-reability-engineering/version-control/git/git-basics/Undoing things.md"
+      "basename": "Design patterns",
+      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
     },
     {
-      "basename": "Rebasing",
-      "path": "site-reability-engineering/version-control/git/git-rebasing/Rebasing.md"
+      "basename": "Builder pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md"
     },
     {
-      "basename": "ST-Engineering-First-Day-Questions",
-      "path": "plans/ST-Engineering-First-Day-Questions.md"
+      "basename": "CommonJS",
+      "path": "programming/javascript/nodejs/module/CommonJS.md"
     },
     {
-      "basename": "Middle Java Engineer - ST Engineering company",
-      "path": "resume/Middle Java Engineer - ST Engineering company.pdf"
+      "basename": "Native prototype",
+      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Native prototype.md"
     },
     {
-      "basename": "english-resume",
-      "path": "resume/english-resume.pdf"
+      "basename": "Global object",
+      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md"
+    },
+    {
+      "basename": "Script tag",
+      "path": "programming/javascript/vanilla-javascript/module/Script tag.md"
+    },
+    {
+      "basename": "ECMAScript Module",
+      "path": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md"
+    },
+    {
+      "basename": "CommonJS",
+      "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
+    },
+    {
+      "basename": "Install Node.Js",
+      "path": "programming/javascript/nodejs/installation/Install Node.Js.md"
+    },
+    {
+      "basename": "Sequelize error hierachy",
+      "path": "programming/javascript/nodejs/express-js/Sequelize error hierachy.md"
+    },
+    {
+      "basename": "Sequelize ORM",
+      "path": "programming/javascript/nodejs/express-js/Sequelize ORM.md"
+    },
+    {
+      "basename": "Express.js Web Server",
+      "path": "programming/javascript/nodejs/express-js/Express.js Web Server.md"
+    },
+    {
+      "basename": "Asynchronous method invocation pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern.md"
+    },
+    {
+      "basename": "Layered architecture",
+      "path": "software-engineering/software-architecture/design/domain-driven-design/Layered architecture.md"
+    },
+    {
+      "basename": "Domain driven design components",
+      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design components.md"
     },
     {
       "basename": "Domain driven design",
-      "path": "software-engineering/software-architecture/domain-driven-design/Domain driven design.md"
+      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "SOLID",
+      "path": "software-engineering/software-architecture/principles/SOLID.md"
+    },
+    {
+      "basename": "Software architecture",
+      "path": "software-engineering/software-architecture/principles/Software architecture.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "software-engineering/software-architecture/microservice/Microservice.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "software-engineering/software-architecture/microservice/gRPC.md"
+    },
+    {
+      "basename": "Modularity",
+      "path": "software-engineering/software-architecture/principles/Modularity.md"
     },
     {
       "basename": "Service-oriented architecture",
@@ -57,148 +113,92 @@
       "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md"
     },
     {
-      "basename": "Pagination",
-      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
-    },
-    {
-      "basename": "Representational State Transfer (REST)",
-      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
-    },
-    {
-      "basename": "Hypermedia as the Engine of Application State (HATEOAS)",
-      "path": "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md"
-    },
-    {
-      "basename": "Resource",
-      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
-    },
-    {
-      "basename": "Hyper Text Transfer Protocol (HTTP)",
-      "path": "computer-network/application-layer/http/Hyper Text Transfer Protocol (HTTP).md"
-    },
-    {
-      "basename": "Web cache",
-      "path": "computer-network/application-layer/Web cache.md"
-    },
-    {
-      "basename": "World Wide Web",
-      "path": "computer-network/application-layer/World Wide Web.md"
-    },
-    {
-      "basename": "HTTP Version",
-      "path": "computer-network/application-layer/http/HTTP Version.md"
-    },
-    {
-      "basename": "Memento pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Memento pattern.md"
-    },
-    {
-      "basename": "Install OpenAPI",
-      "path": "software-engineering/api/api-tool/openapi/installation/Install OpenAPI.md"
-    },
-    {
-      "basename": "Layered architecture",
-      "path": "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md"
-    },
-    {
-      "basename": "Pasted image 20251206213815",
-      "path": "assets/Pasted image 20251206213815.png"
-    },
-    {
-      "basename": "Dependency injection pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/modern/integration/Dependency injection pattern.md"
+      "basename": "Design pattern plan",
+      "path": "Design pattern plan.md"
     },
     {
       "basename": "Callback pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/modern/concurrency-control/Callback pattern.md"
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
     },
     {
-      "basename": "Asynchronous method invocation",
-      "path": "software-engineering/software-architecture/design/design-pattern/modern/concurrency-control/Asynchronous method invocation.md"
+      "basename": "Caching strategy",
+      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
     },
     {
-      "basename": "Design patterns",
-      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
-    },
-    {
-      "basename": "Adapter pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Adapter pattern.md"
-    },
-    {
-      "basename": "Problem 50. Pow(x, n)",
-      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
-    },
-    {
-      "basename": "Proxy pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Proxy pattern.md"
-    },
-    {
-      "basename": "Flyweight pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Flyweight pattern.md"
-    },
-    {
-      "basename": "Decorator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Decorator pattern.md"
-    },
-    {
-      "basename": "Composite pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Composite pattern.md"
-    },
-    {
-      "basename": "Bridge pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Bridge pattern.md"
-    },
-    {
-      "basename": "Template method pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Template method pattern.md"
-    },
-    {
-      "basename": "Strategy pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Strategy pattern.md"
-    },
-    {
-      "basename": "Visitor pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Visitor pattern.md"
-    },
-    {
-      "basename": "Mediator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Mediator pattern.md"
-    },
-    {
-      "basename": "Facade pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/structural-pattern/Facade pattern.md"
-    },
-    {
-      "basename": "Abstract Factory pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/creational-pattern/Abstract Factory pattern.md"
-    },
-    {
-      "basename": "Chain of responsibility pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Chain of responsibility pattern.md"
-    },
-    {
-      "basename": "UML Class diagram",
-      "path": "software-engineering/diagram/UML Class diagram.md"
-    },
-    {
-      "basename": "Problem 2389. Longest Subsequence with Limited Sum",
-      "path": "algorithm/problems/leetcode/Problem 2389. Longest Subsequence with Limited Sum.md"
-    },
-    {
-      "basename": "Problem 2144. Minimum Cost of Buying Candies with Discount",
-      "path": "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md"
-    },
-    {
-      "basename": "Problem 868. Binary Gap",
-      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
+      "basename": "Selection sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
     },
     {
       "basename": "Quick sort",
       "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
     },
     {
-      "basename": "Problem 179. Largest Number",
-      "path": "algorithm/problems/leetcode/Problem 179. Largest Number.md"
+      "basename": "Heap sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Problem 1925. Count Square Sum Triples",
+      "path": "algorithm/problems/leetcode/Problem 1925. Count Square Sum Triples.md"
+    },
+    {
+      "basename": "Resource",
+      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
+    },
+    {
+      "basename": "Representational State Transfer (REST)",
+      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
+    },
+    {
+      "basename": "Hypermedia as the Engine of Application State (HATEOAS)",
+      "path": "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md"
+    },
+    {
+      "basename": "Problem 2144. Minimum Cost of Buying Candies with Discount",
+      "path": "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md"
+    },
+    {
+      "basename": "Problem 506. Relative ranks",
+      "path": "algorithm/problems/leetcode/Problem 506. Relative ranks.md"
+    },
+    {
+      "basename": "Problem 559. Maximum Depth of N-ary tree",
+      "path": "algorithm/problems/leetcode/Problem 559. Maximum Depth of N-ary tree.md"
+    },
+    {
+      "basename": "Problem 594. Longest Harmonious Subsequence",
+      "path": "algorithm/problems/leetcode/Problem 594. Longest Harmonious Subsequence.md"
+    },
+    {
+      "basename": "Problem 595. Big Countries",
+      "path": "algorithm/problems/leetcode/Problem 595. Big Countries.md"
+    },
+    {
+      "basename": "Problem 596. Classes with at Least 5 Students",
+      "path": "algorithm/problems/leetcode/Problem 596. Classes with at Least 5 Students.md"
+    },
+    {
+      "basename": "Problem 607. Sales Person",
+      "path": "algorithm/problems/leetcode/Problem 607. Sales Person.md"
+    },
+    {
+      "basename": "Problem 619. Biggest Single Number",
+      "path": "algorithm/problems/leetcode/Problem 619. Biggest Single Number.md"
+    },
+    {
+      "basename": "Problem 620. Not Boring Movies",
+      "path": "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md"
+    },
+    {
+      "basename": "Problem 627. Swap Sex of Employees",
+      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
+    },
+    {
+      "basename": "Problem 707. 1-bit and 2-bit Characters",
+      "path": "algorithm/problems/leetcode/Problem 707. 1-bit and 2-bit Characters.md"
     }
   ],
   "omittedPaths": [],

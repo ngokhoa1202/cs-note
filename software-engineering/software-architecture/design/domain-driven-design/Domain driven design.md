@@ -1,7 +1,7 @@
-#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #object-oriented-programming #solid #agile #project-management #domain-driven-design
-
+#software-engineering #software-architecture #software-testing #design-pattern #microservice #dependency-manager #dependency-injection #object-oriented-programming #solid #agile 
+#project-management #domain-driven-design
 # Purpose
-- DDD plays as an <mark style="background: #e4e62d;">ubiquitous language</mark> - shared knowledge between development teams and business experts.
+- Domain-driven design plays as an <mark style="background: #e4e62d;">ubiquitous language</mark> - shared knowledge between development teams and business experts.
 - ![](Pasted%20image%2020241117094412.png)
 # Documents
 - UML diagram represents the <mark style="background: #e4e62d;">overall architecture</mark>, but not the meaning of concepts and what they are meant to do $\implies$ reflects <mark style="background: #e4e62d;">skeletons</mark> of ideas $\implies$ should be kept minimal.
@@ -24,6 +24,7 @@
 - Facilitate complex business systems.
 # Disadvantages
 - High initial investment $\implies$ only appropriate for complex systems.
+***
 # References
 1. [Programming paradigms](Programming%20paradigms.md) for programming paradigms.
 2. https://www.researchgate.net/figure/Process-flowchart-of-hospital-service_fig4_233221595 for hospital service procedure example image.

@@ -1,6 +1,4 @@
-#software-engineering  #software-architecture #dependency-manager #ci-cd #gradle #java #jakarta-ee #spring  
-#spring-boot #quarkus #operating-system #ubuntu #windows #configuration #installation #scripting 
-
+#software-engineering  #software-architecture #dependency-manager #ci-cd #gradle #java #jakarta-ee #spring  #spring-boot #quarkus #operating-system #ubuntu #windows #configuration #installation #scripting 
 # Purpose
 - Define the dependencies during the project build.
 - For modernity, Kotlin DSL (Domain-Specific Language) is chosen to support Gradle.
@@ -27,12 +25,12 @@ project
 ## Gradle directory
 - Stores version metadata and built gradle wrapper `.jar` file.
 - ![](Pasted%20image%2020240919094936.png)
-### lib.versions.toml
+### `lib.versions.toml`
 - Specify versions so that plugins can index that version on the central repository for downloading.
-### gradle-wrapper.jar
+### `gradle-wrapper.jar`
 - Built-and-packaged Gradle wrapper binary file
 - Install Gradle version if uninstalled.
-### gradle-wrapper.properties
+### `gradle-wrapper.properties`
 - Includes the metadata for the current Gradle being used.
 ```properties
 distributionBase=GRADLE_USER_HOME  
@@ -41,8 +39,7 @@ distributionUrl=https\://services.gradle.org/distributions/gradle-8.8-bin.zip
 zipStoreBase=GRADLE_USER_HOME  
 zipStorePath=wrapper/dists
 ```
-
-## gradlew(.bat)
+## `gradlew`(.bat)
 - `gradlew` and `gradlew` stores built-in gradle scripts (like `.sh` file):
 	- `gradlew`: Unix-based OS.
 	- `gradlew.bat`: Windows.
@@ -68,7 +65,6 @@ rootProject.name="human-resource"
 ```
 ## Build.gradle(.kts)
 - Define the <mark style="background: #e4e62d;">third-party dependencies</mark> (or simply API) needed to develop the main project.
-
 - Refers to [Gradle tasks](Gradle%20tasks.md) for specific task APIs.
 --- 
 # References

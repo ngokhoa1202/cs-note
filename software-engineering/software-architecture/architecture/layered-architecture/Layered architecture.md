@@ -3,12 +3,11 @@
 # Topology
 - Components within the layered architecture style are organized into <mark class="hltr-yellow">logical layers</mark>, with each layer performing a specific role within the application.
 - ![[Pasted image 20250705163629.png]]
-
 ## Presentation layer
 - The presentation layer serves as the <mark class="hltr-yellow">interface between users and the system</mark>. 
 - This layer handles all user interaction logic, including rendering user interfaces, managing and validating user input, and controlling the flow of information to and from the user.
 ## Business layer
-- The business layer contains <mark class="hltr-yellow">core logic that defines how the business operates and makes decisions</mark>.the  This layer implements business rules, performs calculations, validates data according to *business constraints*, and *orchestrates workflows*. For example, in an e-commerce system, the business layer would handle order processing logic, calculate discounts and taxes, enforce credit limits, and manage inventory rules. 
+- The business layer contains <mark class="hltr-yellow">core logic that defines how the business operates and makes decisions</mark>. This layer implements business rules, performs calculations, validates data according to *business constraints*, and *orchestrates workflows*. For example, in an e-commerce system, the business layer would handle order processing logic, calculate discounts and taxes, enforce credit limits, and manage inventory rules. 
 - By centralizing business logic in this layer, organizations can ensure consistent application of rules across different presentation interfaces and protect the integrity of business operations.
 ## Persistence layer
 - The persistence layer manages the <mark class="hltr-yellow">translation between the domain model</mark> in the business layer and <mark class="hltr-yellow">the relational model</mark> used in databases. 
@@ -20,7 +19,6 @@
 - Changes made in one layer of the architecture generally don’t impact or affect components in other layers, thereby ensuring the [[SOLID#Single responsibility principle]].
 - A full lifecycle of request moves top-down from layer to layer and cannot skip any layers.
 - If the business context is simpler, the business layer is implemented as services ![[Pasted image 20250705172529.png]]
-
 - In case the business context is complex, the business layer serves as an additional orchestration layer. ![[Pasted image 20250705173501.png]]
 # Architecture sinkhole anti-pattern
 - Architecture sinkhole anti-pattern occurs when requests move from layer to layer as simple pass-through processing <mark class="hltr-yellow">with no business logic performed within each layer.</mark>

@@ -14,4 +14,4 @@ class CollisionDetector {
 }
 ```
 # References
-1. [[Visitor pattern]] 
+1. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern]] 

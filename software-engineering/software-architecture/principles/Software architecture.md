@@ -1,7 +1,6 @@
 #software-engineering #software-architecture #software-testing 
-
 # Definition
-- Architecture is the <mark class="hltr-yellow">fundamental organization</mark> of a system, embodied in its <mark class="hltr-yellow">components</mark>, their <mark class="hltr-yellow">relationships</mark> to each other and the <mark class="hltr-yellow">environment</mark>, and the principles governing its design and evolution*.
+- Architecture is the <mark class="hltr-yellow">fundamental organization</mark> of a system, embodied in its <mark class="hltr-yellow">components</mark>, their <mark class="hltr-yellow">relationships</mark> to each other and the <mark class="hltr-yellow">environment</mark>, and the principles governing its design and evolution.
 # Software architecture vs software design
 ## Software architecture
 - **Architecture characteristics** encompass the quality attributes and non-functional requirements that shape the system, such as scalability, performance, security, and maintainability.... These characteristics <mark class="hltr-yellow">drive fundamental design decisions</mark> and establish constraints that influence the entire system.
@@ -15,7 +14,7 @@
 - **Source code** represents the actual implementation, where all architectural and design decisions materialize into executable programs written in specific programming languages.
 # Architecture characteristics
 ## Operational characteristic
-- Availability
+- Availability.
 - Continuity.
 - Performance.
 - Recoverability.
@@ -24,25 +23,25 @@
 - Robustness.
 - Scalability.
 ## Structural characteristic
-- Configurability
-- Extensibility
-- Installability
-- Reusability
+- Configurability.
+- Extensibility.
+- Installability.
+- Reusability.
 - Localization
 - Maintainability
 - Portability
 - Supportability
 - Upgradeability
 ## Cross-cutting characteristic
-- Accessibility
-- Archivability
-- Authentication
-- Authorization
-- Legal
-- Privacy
-- Security
-- Supportability
-- Usability
+- Accessibility.
+- Archivability.
+- Authentication.
+- Authorization.
+- Legal.
+- Privacy.
+- Security.
+- Supportability.
+- Usability.
 # Problems
 ## Knowledge triangle
 - ![](Pasted%20image%2020250219123418.png)

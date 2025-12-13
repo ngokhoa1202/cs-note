@@ -1,5 +1,4 @@
 #jakarta-ee #java #query #dbms 
-
 # Interface EntityManager
 - An `EntityManager` instance interacts with a ==persistence context==. 
 - The `EntityManager` API is used to ==query over entities==.

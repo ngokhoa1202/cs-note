@@ -1,8 +1,7 @@
-#dependency-manager #gradle #cli #java #jakarta-ee #spring #spring-boot #quarkus #kotlin #compilation 
+ #dependency-manager #gradle #cli #java #jakarta-ee #spring #spring-boot #quarkus #kotlin #compilation 
 
 > [!Disclamer]
 > The following documentation is written with respect to  JVM on Ubuntu 22.04 Linux platform. The gradle behaviour is slightly different on Windows' JVM.
-
 # Task
 - An independent unit of work.
 - Includes:
@@ -15,33 +14,30 @@
 ><mark style="background: #e4e62d;">source code $\to$ class files $\to$ .jar file</mark>
 >
 >An aggregate task means that an additional task that depends on another task and a more user-defined task.
-
 # Task lifecycle
 - For simplicity, we mention only the essential parts.
 - ![](Pasted%20image%2020240917155051.png)
 - The solid arrow A $\to$ B means that:
 	- Task A needs Task B to complete in advance.
 	- Performing task A triggers task B to perform.
-## Task compileJava
+## Task `compileJava`
 - Generates byte code from all of the `.java` file into `.class` file.
 - The output is inside the `build/classes`
-## Task processResources
+## Task `processResources`
 - Copy all of the files inside the `src/main/resources` (e.g: `application.properties`) directory into a new directory so that the folder containing the final `.jar` file does not contain the those files.
 ## Task classes
 - An aggregate task (https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_plugin_and_dependency_management)
 - Marks that the byte code generation phase is already finished.
 ## Task jar
 - Compiles all of the generated `.class` files and their resources; assembles them and create a final executable `.jar` file.
-## Task compileTestJava
+## Task `compileTestJava`
 - Directly compiles the test source code.
 - The official documentation <mark style="background: #e4e62d;">ignores</mark> the byte code generation and compilation phase.
 > [!Note]
 > Ignore does not mean not including
-
-
 ## Task processTestResources
 - Identical to [Task processResources](#Task%20processResources) but this task processes test resources only.
-## Task testClasses
+## Task `testClasses`
 - An aggregate task.
 - Marks that the test byte code generation is already finished.
 ## Task test
@@ -49,27 +45,26 @@
 ## Task check
 - An aggregate task.
 - Can be used to check the testing coverage.
-
 # Dependency configuration
 - Define the <mark style="background: #e4e62d;">scope</mark> of a specific dependency - when the dependency is needed:
 	- compile time $\implies$ static checking $\implies$ pass when writing code but not apply when running the final `.jar` file.
 	- run time $\implies$ being executed $\implies$ apply for third-party API (include their `.jar` file).
 	- test $\implies$ unit test.
-## implementation
+## `implementation`
 - Compile time and run time.
-## compileOnly
+## `compileOnly`
 - Only compile time.
-## runtimeOnly
+## `runtimeOnly`
 - Only run time.
-## testImplementation
+## `testImplementation`
 - Extends `implementation`.
 - Both compile time and run time for test.
-## testCompileOnly
+## `testCompileOnly`
 - Only compile time for test.
-## testRuntimeOnly
+## `testRuntimeOnly`
 - Extends `runtimeOnly`
 - Only run time for test.
-## annotationProcessor
+## `annotationProcessor`
 - Processes annotations - beans during run time.
 - Refers to [Incremental annotation processing](#Incremental%20annotation%20processing)
 # Incremental annotation processing
@@ -146,7 +141,7 @@ tasks.withType<JavaCompile> {
   options.compilerArgs.add("-parameters")  
 }
 ```
-
+***
 # References
 1. https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_plugin_and_dependency_management for task lifecycle.
 2. https://docs.gradle.org/current/userguide/tutorial_using_tasks.html for task dependecy Gradle.

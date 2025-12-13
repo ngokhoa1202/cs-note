@@ -8,12 +8,13 @@
 # Prototype scope
 - A new object is instantiated for every required bean.
 # Request scope
-- A new object for the bean is instantiated for evert HTTP Request.
+- A new object for the bean is instantiated for every HTTP Request.
 - Only used for Web.
 # Session scope
 - A new object for the bean is instantiated for every HTTP Session.
 # WebSocket scope
 - A new object for the bean is instantiated for every WebSocket.
+***
 # References
 1. https://docs.spring.io/spring-framework/reference/core/beans/factory-scopes.html for official documentation.
 2. 

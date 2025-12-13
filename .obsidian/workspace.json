@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "e0567115c34e89ae",
+        "id": "1e8a0e3db232c36a",
         "type": "tabs",
         "children": [
           {
-            "id": "bf0cec1086959eaa",
+            "id": "a7be7fbe99f4d589",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "plans/ST-Engineering-Learning-Plan.md",
+                "file": "software-engineering/software-architecture/architecture/event-driven-architecture/Event-driven architecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "ST-Engineering-Learning-Plan"
+              "title": "Event-driven architecture"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": true
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ddd",
+                "query": "tag:#srping-boot",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 457.5
+    "width": 441.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -193,56 +193,56 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "bf0cec1086959eaa",
+  "active": "d8d7ea544fef7ec3",
   "lastOpenFiles": [
-    "SRE_Roadmap.md",
-    "site-reability-engineering/version-control/git/git-basics/Initialize project.md",
-    "site-reability-engineering/version-control/git/git-basics/Recording changes to repository.md",
-    "site-reability-engineering/version-control/git/git-basics/Viewing commit history.md",
+    "assets/Pasted image 20251213172355.png",
+    "assets/Pasted image 20251213172346.png",
+    "assets/Pasted image 20251213172322.png",
+    "assets/Pasted image 20251213172306.png",
+    "assets/Pasted image 20251213172254.png",
+    "assets/Pasted image 20251213172225.png",
+    "assets/Pasted image 20251213172124.png",
+    "assets/Pasted image 20251213171041.png",
+    "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md",
+    "software-engineering/software-architecture/architecture/event-driven-architecture/Event-driven architecture.md",
+    "assets/Pasted image 20251213163114.png",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern.md",
+    "assets/Pasted image 20251213163100.png",
+    "assets/Pasted image 20251213162857.png",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/Design patterns.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md",
+    "programming/javascript/nodejs/module/CommonJS.md",
+    "programming/javascript/vanilla-javascript/object-oriented-programming/Native prototype.md",
+    "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md",
+    "programming/javascript/vanilla-javascript/module/Script tag.md",
+    "programming/javascript/vanilla-javascript/module/ECMAScript Module.md",
+    "programming/javascript/vanilla-javascript/module/CommonJS.md",
+    "programming/javascript/nodejs/installation/Install Node.Js.md",
+    "programming/javascript/nodejs/express-js/Sequelize error hierachy.md",
+    "programming/javascript/nodejs/express-js/Sequelize ORM.md",
+    "programming/javascript/nodejs/express-js/Express.js Web Server.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern.md",
+    "software-engineering/software-architecture/design/domain-driven-design/Layered architecture.md",
+    "software-engineering/software-architecture/design/domain-driven-design/Domain driven design components.md",
+    "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md",
+    "software-engineering/software-architecture/domain-driven-design/Domain driven design.md",
+    "software-engineering/software-architecture/principles/SOLID.md",
+    "software-engineering/software-architecture/principles/Software architecture.md",
+    "software-engineering/software-architecture/microservice/Microservice.md",
+    "software-engineering/software-architecture/architecture/event-driven-architecture",
     "site-reability-engineering/version-control/git/branching-strategy",
-    "site-reability-engineering/version-control/git/git-basics/Undoing things.md",
-    "site-reability-engineering/version-control/git/git-rebasing/Rebasing.md",
-    "plans/ST-Engineering-First-Day-Questions.md",
-    "plans/ST-Engineering-First-Week-Checklist.md",
     "plans/ST-Engineering-First-Week-Checklist.md.tmp.106741.1765112604211",
-    "plans/ST-Engineering-Learning-Plan.md",
     "plans/ST-Engineering-First-Day-Questions.md.tmp.106741.1765112439063",
-    "projects/leave-management/Business.md",
     "resume/Middle Java Engineer - ST Engineering company.pdf",
     "plans/ST-Engineering-Learning-Plan.md.tmp.106741.1765112168213",
     "resume/english-resume.pdf",
-    "software-engineering/software-architecture/domain-driven-design/Domain driven design.md",
     "resume",
-    "CLAUDE.md",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md",
-    "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md",
-    "software-engineering/api/protocol/web-service/rest/Pagination.md",
-    "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md",
-    "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md",
-    "software-engineering/api/protocol/web-service/rest/Resource.md",
     "software-engineering/api/protocol/web-service/rest",
     "software-engineering/api/protocol/web-service/Untitled.canvas",
-    "computer-network/application-layer/http/Hyper Text Transfer Protocol (HTTP).md",
-    "computer-network/application-layer/Web cache.md",
     "software-engineering/api/protocol/web-service",
-    "computer-network/application-layer/World Wide Web.md",
-    "computer-network/application-layer/Web.md",
-    "computer-network/application-layer/http/HTTP Version.md",
-    "software-engineering/software-architecture/design/design-pattern/fundamentals/behavioral-pattern/Memento pattern.md",
-    "computer-network/application-layer/http/HTTP Methods.md",
-    "computer-network/application-layer/http/HTTP Format.md",
-    "software-engineering/api/protocol",
-    "assets/Pasted image 20251206213815.png",
-    "assets/Pasted image 20251116174033.png",
-    "assets/Pasted image 20251116154232.png",
-    "assets/Pasted image 20251116081643.png",
-    "assets/Pasted image 20251116081630.png",
-    "assets/Pasted image 20251109160258.png",
-    "assets/ReduxDataFlowDiagram-49fa8c3968371d9ef6f2a1486bd40a26.gif",
     "algorithm/Untitled.canvas",
-    "assets/Pasted image 20251105105757.png",
-    "assets/Pasted image 20251103114501.png",
-    "assets/Pasted image 20251101153906.png",
     "Untitled.canvas",
     "Untitled 1.canvas",
     "network/Untitled.canvas",

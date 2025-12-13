@@ -1,7 +1,6 @@
 #object-oriented-programming #javascript #vanilla-javascript #nodejs #browser 
-
 # Definition
-- The global object in Javascript is an object which represents the global scope.
+- The global object in JavaScript is an object which represents the global scope.
 - The global object's interface depends on the execution context in which the script is running:
 	- For normal Web browser environment, the global object is `{Javascript} window`.
 	- For service worker, the global object is `{Javascript} workerGlobalScope`.
@@ -30,6 +29,7 @@ console.log(globalThis === global); // true
 global.DATABASE_URL = "mongodb://localhost:27017";
 ```
 # 
+***
 # References
 1. https://developer.mozilla.org/en-US/docs/Glossary/Global_object
 2. https://javascript.info/global-object

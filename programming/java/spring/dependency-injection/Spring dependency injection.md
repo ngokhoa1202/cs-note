@@ -1,10 +1,8 @@
 #annotation  #spring  #spring-boot  #dependency-injection  #inversion-of-control #java 
-
-- 
 # Spring dependency injection
 ## Constructor dependency injection
 - Inits the ==required dependencies==.
-- Recommended by spring.io 
+- Recommended.
 - Use `@Autowired` annotations.
 ```java
 @RestController
@@ -34,26 +32,23 @@ public class Car {
     }
 }
 ```
-
 ### Field dependency injection
-- Inject the dependency by  direcly setting the field, even the field is private.
+- Inject the dependency by direcly setting the field, even the field is private.
 - Not recommended by spring.io
 - Use `@Autowired` annotation.
-```java
+```Java
 public class Store { 
 	@Autowired 
 	private Item item; 
 }
 ```
-
 # Lazy initialization
-- By default, Spring instatiates all of the objects specified as beans. Lazy initialization means that the object is instatiated o==nly when it is needed for dependency injection or explicitly constructed==.
+- By default, Spring instantiates all of the objects specified as beans. Lazy initialization means that the object is instantiated only when it is needed for dependency injection or explicitly constructed.
 - Use `@Lazy` annotation to the given concrete class or specify in `application.properties`
-```config
+```Properties 
 spring.main.lazy-initialization=true
 ```
-
-
+***
 # References
-1. https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-autowire.html for lazy initilization.
+1. https://docs.spring.io/spring-framework/reference/core/beans/dependencies/factory-autowire.html for lazy initialization.
 2. 

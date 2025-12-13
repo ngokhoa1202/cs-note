@@ -75,9 +75,10 @@ function promiseUtils(app) {
     Promise.CONCURRENCY_DEGREE = MAX_PROMISE_CONCURRENCY_DEGREE;
 }
 ```
+***
 # References
-1. https://javascript.info/native-prototypes for Native prototype in Javascript.
-2. [[Prototypal inheritance]] for Prototypal inheritance In Javascript.
+1. https://javascript.info/native-prototypes for Native prototype in JavaScript.
+2. [[Prototypal inheritance]] for Prototypal inheritance In JavaScript.
 3. [[Polyfills and transpilers]]
 4. [[Object]]
 5. 
