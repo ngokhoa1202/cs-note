@@ -69,5 +69,5 @@ class Clock extends React.Component {
 
 # References
 1. https://legacy.reactjs.org/docs/components-and-props.html for ReactJs legacy class-based components.
-2. [useState hook](useState%20hook.md) for React `useState` hooks.
+2. [useState hook](programming/javascript/react/hooks/useState%20hook.md) for React `useState` hooks.
 3. [Component lifecycle](Component%20lifecycle.md) for React-class based component life cycle.

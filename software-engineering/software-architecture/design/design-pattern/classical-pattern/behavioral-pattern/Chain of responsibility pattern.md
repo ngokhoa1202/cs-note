@@ -1,9 +1,9 @@
-#design-pattern  #software-engineering  #software-architecture #behavioral-pattern #solid #object-oriented-programming 
-
+#design-pattern  #software-engineering  #software-architecture #behavioral-pattern #solid
+#object-oriented-programming 
 # Purpose
-- ==Avoids tightly coupling== the Client to the Concrete Handler. ==Chain each request and let a specific Concrete Handler handles== it along the chain.
+- Avoids tightly coupling the Client to the Concrete Handler. *Chain* each request and let a *specific Concrete Handler* handles it along the chain.
 # Application
-- Many Handlers can handle a request from the Client but ==their order and their type is unknown beforehand== and can change dynamically.
+- Multiple Handlers can handle a request from the Client but their *order* and their type is *unknown* beforehand and can *change dynamically*.
 # Component
 - ![](Pasted%20image%2020240717172829.png)
 - More specific diagram: ![900x800](Pasted%20image%2020240717173021.png)
@@ -12,10 +12,10 @@
 - Defines a common interface for Concrete Handler in the chain of requests.
 - Can itself implement the successor link ($\equiv$ the next handler in the chain).
 ## Concrete Handler
-- Handle a particular request that it is responsible for. ($\equiv$ ==concrete service==).
-- Must be able to access ($\equiv$ the next Handler in the chain) and ==forward the request to its successor==. (this feature may be inherited from the parent Handler).
+- Handle a particular request that it is responsible for. ($\equiv$ concrete service).
+- Must be able to access ($\equiv$ the next Handler in the chain) and forward the request to its successor. (this feature may be inherited from the parent Handler).
 ## Client
-- ==Initialize a chain of requests== without knowing the details of Concrete Handlers.
+- Initialize a *chain of requests* without knowing the details of Concrete Handlers.
 
 # Example
 - Class diagram ![](Pasted%20image%2020240717180608.png)
@@ -69,7 +69,7 @@ public abstract class Middleware implements IMiddleware {
   }  
 }
 ```
-- `class Authentication` , `class TokenVerification` , `class Encryption` is the three Concrete Handlers that implements the `handle` method in the `Middleware` abstract class:
+- `class Authentication`, `class TokenVerification`, `class Encryption` is the three Concrete Handlers that implements the `handle` method in the `Middleware` abstract class:
 	- When it finishes its current request, it ends up calling `handleNextMiddleware` method to handle the next request.
 ```java
 package org.tutorial.middleware;  
@@ -129,9 +129,7 @@ public class Encryption extends Middleware {
 package org.tutorial.middleware;  
   
 public class TokenVerification extends Middleware {  
-  
-  
-  
+
   @Override  
   public boolean handle(String username, String password, String token) {  
     if (token.equals("jwt")) {  
@@ -160,7 +158,6 @@ public class Main {
   }  
 }
 ```
-
 # Real example
 - `Middleware` in Laravel PHP.
 - `next` callback in Express.js middleware.
@@ -173,5 +170,5 @@ public class Main {
 # References
 1. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Chain of responsibility pattern.
-2. [[programming/javascript/nodejs/express-js/Express.js Web Server|Express.js Web Server]]
+2. [[programming/javascript/node.js/express-js/Express.js Web Server|Express.js Web Server]]
 3. 

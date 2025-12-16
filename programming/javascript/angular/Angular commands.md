@@ -1,5 +1,4 @@
 #javascript #angular #object-oriented-programming #cli #typescript #html #css 
-
 # Generate a component
 - Full command:
 ```Shell

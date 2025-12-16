@@ -1,10 +1,10 @@
 {
   "interfaceMode": "light",
   "spellcheck": true,
-  "tabSize": 2,
+  "tabSize": 4,
   "useMarkdownLinks": false,
   "alwaysUpdateLinks": true,
-  "useTab": true,
+  "useTab": false,
   "pdfExportSettings": {
     "includeName": true,
     "pageSize": "A4",

@@ -1,7 +1,7 @@
 #restful #web #computer-network #application-layer #software-engineering #software-architecture 
 # Definition
 - HATEOAS is the usage of hypermedia links in the API response contents, thereby allows the client to dynamically navigate to the appropriate resources by traversing the hypermedia links.
-- For instance, the given below JSON response may be from an API like `{HTTP}HTTP GET http://api.domain.com/management/departments/10`
+- For instance, the given below JSON response may be from an API like `{HTTP}HTTP GET http://api.domain.com/management/departments/10`.
 ```Json title='HATEOAS usage in response'
 {
     "departmentId": 10,

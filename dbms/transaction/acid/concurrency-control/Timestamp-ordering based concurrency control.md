@@ -67,7 +67,7 @@
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.
-2. [Mutex lock](Mutex%20lock.md)
+2. [Mutex lock](operating-system/process/process-synchronization/locking-mechanism/Mutex%20lock.md)
 3. [Critical section problem](Critical%20section%20problem.md)
 4. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe  - Pearson (2015):*
 	1. Chapter 21 - Section 2.

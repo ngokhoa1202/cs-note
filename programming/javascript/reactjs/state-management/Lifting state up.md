@@ -2,7 +2,7 @@
 
 # Purpose
 - Techniques that help ==share data among components==.
-- Used for [useState hook](useState%20hook.md)
+- Used for [useState hook](programming/javascript/react/hooks/useState%20hook.md)
 # Principle
 - Lift the state up to the ==closest common ancestor==.
 - ==Pass the state data as props== to child components.

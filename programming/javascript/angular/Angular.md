@@ -3,7 +3,7 @@
 # Angular commands
 - [Angular commands](Angular%20commands.md)
 # Asynchronous programming - AJAX
-- [RxJs](RxJs.md)
+- [RxJS](programming/javascript/rxjs/RxJS.md)
 - [Asynchronous programming in Angular](Asynchronous%20programming%20in%20Angular.md)
 # Syntax - Property binding
 - [Property binding](Property%20binding.md)

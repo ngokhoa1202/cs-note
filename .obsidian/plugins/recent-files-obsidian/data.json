@@ -1,76 +1,192 @@
 {
   "recentFiles": [
     {
-      "basename": "Event-driven architecture",
-      "path": "software-engineering/software-architecture/architecture/event-driven-architecture/Event-driven architecture.md"
+      "basename": "Event notification",
+      "path": "operating-system/process/process-synchronization/concurrency-control/Event notification.md"
     },
     {
-      "basename": "Layered architecture",
-      "path": "software-engineering/software-architecture/architecture/layered-architecture/Layered architecture.md"
+      "basename": "Caching strategy",
+      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
     },
     {
-      "basename": "Chain of responsibility pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern.md"
+      "basename": "Concurrency control model",
+      "path": "operating-system/process/process-synchronization/concurrency-control/Concurrency control model.md"
     },
     {
-      "basename": "Service Locator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern.md"
+      "basename": "Shared memory",
+      "path": "operating-system/process/inter-process-communication/Shared memory.md"
     },
     {
-      "basename": "Dependency injection pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md"
+      "basename": "Remote procedure call",
+      "path": "operating-system/process/inter-process-communication/Remote procedure call.md"
     },
     {
-      "basename": "Design patterns",
-      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
+      "basename": "Pipe",
+      "path": "operating-system/process/inter-process-communication/Pipe.md"
     },
     {
-      "basename": "Builder pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md"
+      "basename": "Message passing",
+      "path": "operating-system/process/inter-process-communication/Message passing.md"
     },
     {
-      "basename": "CommonJS",
-      "path": "programming/javascript/nodejs/module/CommonJS.md"
+      "basename": "Inter Process Communication",
+      "path": "operating-system/process/inter-process-communication/Inter Process Communication.md"
     },
     {
-      "basename": "Native prototype",
-      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Native prototype.md"
+      "basename": "Future",
+      "path": "programming/java/concurrency-control/Future.md"
     },
     {
-      "basename": "Global object",
-      "path": "programming/javascript/vanilla-javascript/object-oriented-programming/Global object.md"
+      "basename": "Concurrency control",
+      "path": "programming/javascript/node.js/concurrency-control/Concurrency control.md"
     },
     {
-      "basename": "Script tag",
-      "path": "programming/javascript/vanilla-javascript/module/Script tag.md"
+      "basename": "Babel configuration",
+      "path": "programming/javascript/babel/Babel configuration.md"
     },
     {
-      "basename": "ECMAScript Module",
-      "path": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md"
+      "basename": "Asynchronous programming in Angular",
+      "path": "programming/javascript/angular/Asynchronous programming in Angular.md"
     },
     {
-      "basename": "CommonJS",
-      "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
+      "basename": "useTransition hook",
+      "path": "programming/javascript/react/hooks/useTransition hook.md"
     },
     {
-      "basename": "Install Node.Js",
-      "path": "programming/javascript/nodejs/installation/Install Node.Js.md"
+      "basename": "useState hook",
+      "path": "programming/javascript/react/hooks/useState hook.md"
     },
     {
-      "basename": "Sequelize error hierachy",
-      "path": "programming/javascript/nodejs/express-js/Sequelize error hierachy.md"
+      "basename": "Event loop",
+      "path": "programming/javascript/node.js/architecture/Event loop.md"
     },
     {
-      "basename": "Sequelize ORM",
-      "path": "programming/javascript/nodejs/express-js/Sequelize ORM.md"
+      "basename": "RxJS",
+      "path": "programming/javascript/rxjs/RxJS.md"
     },
     {
-      "basename": "Express.js Web Server",
-      "path": "programming/javascript/nodejs/express-js/Express.js Web Server.md"
+      "basename": "Angular commands",
+      "path": "programming/javascript/angular/Angular commands.md"
     },
     {
-      "basename": "Asynchronous method invocation pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern.md"
+      "basename": "Class and Style binding",
+      "path": "programming/javascript/angular/template/Class and Style binding.md"
+    },
+    {
+      "basename": "Two-way binding in Angular",
+      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
+    },
+    {
+      "basename": "Batch processing",
+      "path": "operating-system/process/batching/Batch processing.md"
+    },
+    {
+      "basename": "Process sychronization",
+      "path": "operating-system/process/process-synchronization/Process sychronization.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "operating-system/process/thread/Thread.md"
+    },
+    {
+      "basename": "Process",
+      "path": "operating-system/process/Process.md"
+    },
+    {
+      "basename": "Deadlock",
+      "path": "operating-system/process/Deadlock.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "programming/java/concurrency-control/Thread.md"
+    },
+    {
+      "basename": "Thread-safe Singleton",
+      "path": "programming/java/concurrency-control/Thread-safe Singleton.md"
+    },
+    {
+      "basename": "Singleton pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Singleton pattern.md"
+    },
+    {
+      "basename": "Monitor",
+      "path": "operating-system/process/process-synchronization/locking-mechanism/Monitor.md"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "operating-system/process/process-synchronization/locking-mechanism/Semaphore.md"
+    },
+    {
+      "basename": "Jakarta EE Architecture",
+      "path": "programming/java/jakarta-ee/Jakarta EE Architecture.md"
+    },
+    {
+      "basename": "Jakarta Context Dependency Injection (CDI)",
+      "path": "programming/java/jakarta-ee/jakarta-enterprise-bean/Jakarta Context Dependency Injection (CDI).md"
+    },
+    {
+      "basename": "JPA Mappings",
+      "path": "programming/java/jakarta-ee/jakarta-persistence-api/JPA Mappings.md"
+    },
+    {
+      "basename": "Jakarta Web Service",
+      "path": "programming/java/jakarta-ee/Jakarta Web Service.md"
+    },
+    {
+      "basename": "Entity manager",
+      "path": "programming/java/jakarta-ee/jakarta-persistence-api/Entity manager.md"
+    },
+    {
+      "basename": "JPQL",
+      "path": "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/query/JPQL.md"
+    },
+    {
+      "basename": "Named Query",
+      "path": "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/query/Named Query.md"
+    },
+    {
+      "basename": "Bean lifecycle",
+      "path": "programming/java/spring/dependency-injection/Bean lifecycle.md"
+    },
+    {
+      "basename": "Spring Batch",
+      "path": "programming/java/spring/batch/Spring Batch.md"
+    },
+    {
+      "basename": "Controller",
+      "path": "programming/java/spring/controller/Controller.md"
+    },
+    {
+      "basename": "Install Open API",
+      "path": "programming/java/spring/controller/Install Open API.md"
+    },
+    {
+      "basename": "Install Java",
+      "path": "programming/java/installation/Install Java.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "software-engineering/api/protocol/remote-procedure-call/gRPC.md"
+    },
+    {
+      "basename": "Critical section problem",
+      "path": "operating-system/process/process-synchronization/Critical section problem.md"
+    },
+    {
+      "basename": "Peterson solution",
+      "path": "operating-system/process/process-synchronization/locking-mechanism/Peterson solution.md"
+    },
+    {
+      "basename": "Mutex lock",
+      "path": "operating-system/process/process-synchronization/locking-mechanism/Mutex lock.md"
+    },
+    {
+      "basename": "gRPC for Quarkus",
+      "path": "programming/java/quarkus/gRPC for Quarkus.md"
     },
     {
       "basename": "Layered architecture",
@@ -83,122 +199,6 @@
     {
       "basename": "Domain driven design",
       "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md"
-    },
-    {
-      "basename": "SOLID",
-      "path": "software-engineering/software-architecture/principles/SOLID.md"
-    },
-    {
-      "basename": "Software architecture",
-      "path": "software-engineering/software-architecture/principles/Software architecture.md"
-    },
-    {
-      "basename": "Microservice",
-      "path": "software-engineering/software-architecture/microservice/Microservice.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "software-engineering/software-architecture/microservice/gRPC.md"
-    },
-    {
-      "basename": "Modularity",
-      "path": "software-engineering/software-architecture/principles/Modularity.md"
-    },
-    {
-      "basename": "Service-oriented architecture",
-      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/Service-oriented architecture.md"
-    },
-    {
-      "basename": "Microservice",
-      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md"
-    },
-    {
-      "basename": "Design pattern plan",
-      "path": "Design pattern plan.md"
-    },
-    {
-      "basename": "Callback pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
-    },
-    {
-      "basename": "Caching strategy",
-      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
-    },
-    {
-      "basename": "Selection sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
-    },
-    {
-      "basename": "Quick sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
-    },
-    {
-      "basename": "Heap sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
-    },
-    {
-      "basename": "Problem 1925. Count Square Sum Triples",
-      "path": "algorithm/problems/leetcode/Problem 1925. Count Square Sum Triples.md"
-    },
-    {
-      "basename": "Resource",
-      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
-    },
-    {
-      "basename": "Representational State Transfer (REST)",
-      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
-    },
-    {
-      "basename": "Pagination",
-      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
-    },
-    {
-      "basename": "Hypermedia as the Engine of Application State (HATEOAS)",
-      "path": "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md"
-    },
-    {
-      "basename": "Problem 2144. Minimum Cost of Buying Candies with Discount",
-      "path": "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md"
-    },
-    {
-      "basename": "Problem 506. Relative ranks",
-      "path": "algorithm/problems/leetcode/Problem 506. Relative ranks.md"
-    },
-    {
-      "basename": "Problem 559. Maximum Depth of N-ary tree",
-      "path": "algorithm/problems/leetcode/Problem 559. Maximum Depth of N-ary tree.md"
-    },
-    {
-      "basename": "Problem 594. Longest Harmonious Subsequence",
-      "path": "algorithm/problems/leetcode/Problem 594. Longest Harmonious Subsequence.md"
-    },
-    {
-      "basename": "Problem 595. Big Countries",
-      "path": "algorithm/problems/leetcode/Problem 595. Big Countries.md"
-    },
-    {
-      "basename": "Problem 596. Classes with at Least 5 Students",
-      "path": "algorithm/problems/leetcode/Problem 596. Classes with at Least 5 Students.md"
-    },
-    {
-      "basename": "Problem 607. Sales Person",
-      "path": "algorithm/problems/leetcode/Problem 607. Sales Person.md"
-    },
-    {
-      "basename": "Problem 619. Biggest Single Number",
-      "path": "algorithm/problems/leetcode/Problem 619. Biggest Single Number.md"
-    },
-    {
-      "basename": "Problem 620. Not Boring Movies",
-      "path": "algorithm/problems/leetcode/Problem 620. Not Boring Movies.md"
-    },
-    {
-      "basename": "Problem 627. Swap Sex of Employees",
-      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
-    },
-    {
-      "basename": "Problem 707. 1-bit and 2-bit Characters",
-      "path": "algorithm/problems/leetcode/Problem 707. 1-bit and 2-bit Characters.md"
     }
   ],
   "omittedPaths": [],

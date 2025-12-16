@@ -77,7 +77,7 @@ classDiagram
 - Retrieves cached services when requested or added new services to the internal storage.
 ## Client
 - Requests services from the Service Locator by name and uses the returned service to perform business services.
-- Remain completely decoupled from how services are created or located.
+- Remains completely decoupled from how services are created or located.
 # Flowchart
 - ![[assets/Pasted image 20251211200737.png]]
 1. Client requests a service from Service Locator.

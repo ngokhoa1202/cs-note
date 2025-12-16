@@ -20,3 +20,4 @@
 ```
 ### Specify field name in JSON format
 - `@JsonProperty(value = "fieldname")` annotation to specify field in DTO class.
+***

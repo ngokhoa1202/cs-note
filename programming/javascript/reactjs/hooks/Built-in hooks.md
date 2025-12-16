@@ -2,7 +2,7 @@
 
 # State hooks
 - *State* hooks allow a component to store application information.
-- [[useState hook]]
+- [[programming/javascript/reactjs/hooks/useState hook]]
 # Context hooks
 - _Context_ hooks allow a component to receive information from distant parents without passing it as props.
 - [[useContext hook]]
@@ -25,7 +25,7 @@
 ---
 # References
 1. https://react.dev/reference/react/hooks for React hooks overview.
-2. [[useState hook]]
+2. [[programming/javascript/reactjs/hooks/useState hook]]
 3. [[useEffect hook]]
 4. [[useRef hook]]
 5. [[useContext hook]]

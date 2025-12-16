@@ -3,14 +3,12 @@
 # Quarkus gRPC architecture
 - ![](gRPC.drawio.png)
 - https://drive.google.com/file/d/1LR3gMJJW-HNo8pNfR3pCCbyI5-NiJnT8/view?usp=sharing
-- 
 # Quarkus gRPC implementation
 ## Required dependencies
 - In your `build.gradle` (`.kts`), specify `quarkus-grpc`
 ```kotlin
 implementation("${quarkusPluginId}:quarkus-grpc")
 ```
-
 ## Protobuf files
 - The `.proto` files must be in the directory `proto` which is in the same level as `java` directory.
 - ![](Pasted%20image%2020241018150217.png)
@@ -73,10 +71,8 @@ message UserIdProto {
 ```
 
 - These `.proto` files will end up being generated into `.class` files in `build` directory. Run `./gradlew assemble` or `./gradlew classes` to generate these classes at first to avoid annoying syntax errors.
-
 > [!Important]
 > For the time being, `.proto` files do not support mutual importation. As a result, if you want to import file `a.proto` which has imported file `b.proto`, then you must define a nested message instead or else encounter an error.
-
 ## gRPC client
 ### Resource layer - gateway
 - On client side, you have to define a resource layer to listens to HTTP requests and convert them to gRPC messages in case a `StatusRunTimeException` is thrown.
@@ -431,8 +427,7 @@ public class HumanResourceProviderHandler implements ExceptionHandlerProvider {
   }  
 }
 ```
-
-
+***
 # References
 1. *https://grpc.io/docs/languages/java/basics/ for gRPC official documentation.*
 2. https://grpc.io/docs/what-is-grpc/core-concepts/ for gRPC architecture.

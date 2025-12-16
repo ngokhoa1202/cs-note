@@ -1,4 +1,5 @@
-#process-synchronization #ipc #parallel-programming #thread #process #operating-system #critical-section 
+#process-synchronization #ipc #parallel-programming #thread #process #operating-system 
+#critical-section 
 
 # Original problem
 - Cooperating processes can either directly <mark style="background: #e4e62d;">share a logical space address</mark> via inter-process communication or message passing mechanisms.

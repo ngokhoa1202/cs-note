@@ -16,7 +16,7 @@
 # Transparency
 - A client interacting with a REST API remains completely *unaware of the intermediary components* positioned between itself and the ultimate destination server.
 # Code on demand
-- Truly RESTful APIs are infeasible in practice.
+- Truly RESTful APIs are *infeasible* in practice.
 -  All the constraints are optional.
 ***
 # References

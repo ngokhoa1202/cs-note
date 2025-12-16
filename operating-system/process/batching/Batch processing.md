@@ -14,6 +14,7 @@
 # Step
 - ![](Pasted%20image%2020250523165428.png)
 - ![](Pasted%20image%2020250523165504.png)
+***
 # References
 1. https://docs.spring.io/spring-batch/reference/step/chunk-oriented-processing.html
 2. 

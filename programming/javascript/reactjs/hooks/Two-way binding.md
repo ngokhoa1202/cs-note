@@ -1,7 +1,7 @@
 #reactjs #javascript  #hook   #dom #jsx 
 
 # Controlled form inputs
-- Employ `useState` hook to bind form content to user input [Callback to update state](useState%20hook.md#Callback%20to%20update%20state).
+- Employ `useState` hook to bind form content to user input [Callback to update state](programming/javascript/reactjs/hooks/useState%20hook.md#Callback%20to%20update%20state).
 ```jsx
 <input value={someValue} onChange={handleChange} />
 ...

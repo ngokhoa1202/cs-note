@@ -1,11 +1,11 @@
-#bean #spring #spring-boot #java #software-architecture  #design-pattern  #object-oriented-programming 
-
+#bean #spring #spring-boot #java #software-architecture  #design-pattern
+#object-oriented-programming 
 # Bean lifecycle
 - ![800](Pasted%20image%2020240716205458.png)
 # Initialization callback
 - Called after spring finishes its initialization and before bean usage.
 - Implements `InitializingBean` interface
-- Or use `@PostConstruct` annotation to specify initilization callback
+- Or use `@PostConstruct` annotation to specify initialization callback
 ```java
 package org.jpa;  
   
@@ -33,12 +33,13 @@ public class Midfielder implements FootballPlayer {
 	}
 }
 ```
-
 # Destruction callback
 - Called after the bean container has been destroyed.
 - Implement `DisposableBean` interface.
 - Or use `@PreDestroy` annotation.
 - [Initialization callback](#Initialization%20callback) for example.
-
+***
 # References
 1. https://docs.spring.io/spring-framework/reference/core/beans/factory-nature.html#beans-factory-lifecycle-combined-effects for bean lifecycle.
+2. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern|Dependency injection pattern]]
+3. 

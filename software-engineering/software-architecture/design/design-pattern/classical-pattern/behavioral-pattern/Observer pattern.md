@@ -225,4 +225,4 @@ public class Main {
 1. https://refactoring.guru/design-patterns/observer for observer pattern.
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.
 	1. Observer pattern.
-3. [[RxJs]] 
+3. [[programming/javascript/rxjs/RxJS]] 

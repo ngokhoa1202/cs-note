@@ -76,5 +76,5 @@ setTimeout(() => {
 2. [Generator](Generator.md) for generator concepts.
 3. [Observer pattern](software-engineering/software-architecture/design-pattern/fundamentals/behavioral-pattern/Observer%20pattern.md) for observer pattern.
 4. https://rxjs.dev/guide/observable
-5. [RxJs](RxJs.md)
+5. [RxJS](programming/javascript/rxjs/RxJS.md)
 6. 

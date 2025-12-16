@@ -20,8 +20,8 @@
 - Not common.
 - ![](Pasted%20image%2020240525165900.png)
 # Preemptive vs non-preemptive threads
-
+***
 # References
-1. Operating System Concepts - Abraham-Silberschatz - Wiley Publisher - 10th - 2018.
+1. Operating System Concepts - Abraham Silberschatz - Wiley Publisher - 10th - 2018.
 	1. Chapter 4. Threads & Concurrency.
 		1. 

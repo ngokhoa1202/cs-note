@@ -1,8 +1,7 @@
 #c #operating-system #unix #linux #windows #process-synchronization #process 
 
 > Pipes are the oldest method of IPC on the UNIX system, having appeared in Third Edition UNIX in the early 1970s.
-
-# Charateristics
+# Characteristics
 - Pipe allows allow the output produced by one process to be used as the input to the other process.
 - ![](Pasted%20image%2020250523110145.png)
 - A pipe is a byte stream:
@@ -10,7 +9,6 @@
 	- The data passes through the pipe <mark class="hltr-yellow">sequentially</mark>.
 - Pipe is unidirectional.
 - Writes of up to `PIPE_BUF` bytes are guaranteed to be atomic.
-- 
 - Pipe has limited capacity. Once a pipe is full, further writes to the pipe block until the reader removes some data from the pipe.
 # Usage
 - `pipe()` returns two open file descriptors in the array file descriptor: one for the read end of the pipe ( `filedes[0]`) and one for the write end ( `filedes[1]`)
@@ -62,12 +60,9 @@ int main()
     printf("Read from the child process: %d\n", y);
   }
 }
-
 ```
-
 - 
-
-
+***
 # References
 1. The Linux programming interface A Linux and UNIX system programming handbook - Micheal Kerrisk -No Starch Press (2010).
 	1. Section 44. Pipes and Fifos.

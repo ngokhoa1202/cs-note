@@ -36,7 +36,8 @@ export default function Counter() {
 ```javascript
 // ✅ Replace state with a new object  
 function TodoList() {  
-const [todos, setTodos] = useState(createInitialTodos);
+  const [todos, setTodos] = useState(createInitialTodos);
+}
 ```
 # Callback to update state
 - The best practice is to ==pass a callback== to the set callback.
@@ -64,6 +65,7 @@ setForm({
 - Change the `key` prop in component to update its state as well.
 # Sharing state between components
 - [Lifting state up](programming/javascript/react/hooks/Lifting%20state%20up.md)
+***
 # References
 1. https://react.dev/learn/preserving-and-resetting-state for state management.
 2. https://react.dev/reference/react/useState#adding-state-to-a-component for callback.

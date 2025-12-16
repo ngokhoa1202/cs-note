@@ -67,7 +67,7 @@
 	1. Chapter 13. Service-Based Architecture Style.
 2. Operating System Concepts - Abraham-Silberschatz - Wiley Publisher - 10th - 2018.
 	1. Chapter 3. Process
-		1. Section 3.4. Inter-process communication
+		1. Section 3.4. Inter-process communication.
 3. [[Message passing]]
 4. [[Shared memory]]
 5. 

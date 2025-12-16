@@ -63,9 +63,8 @@ ps -elf | grep '[Zz]'
 ## Orphan process
 - An orphan process is a process that is still running but whose parent had terminated before invoked `wait()`.
 - For Linux systems, an orphan process is reassigned to a system reaper.
-```c title='Orphan and zombie process example'
+```C title='Orphan and zombie process example'
 /* Removing the if statement makes the child process become orphan */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -84,7 +83,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 ```
-
+***
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 3: Process.

@@ -1,5 +1,5 @@
-#angular #html #angular17 #angular18 #typescript #javascript #object-oriented-programming #software-engineering #software-architecture #design-pattern #structural-pattern #dependency-injection 
-
+#angular #html #angular17 #angular18 #typescript #javascript #object-oriented-programming #software-engineering #software-architecture #design-pattern #structural-pattern 
+#dependency-injection 
 # Concepts
 - Two-way binding means two-way communication between what user do and what user see (input - output).
 - Two-way binding also means <mark style="background: #e4e62d;">property binding</mark> and <mark style="background: #e4e62d;">event binding</mark>.
@@ -54,10 +54,9 @@ export class AppComponent implements OnInit {
 <label for="example-ngModel">[(ngModel)]:</label>
 <input [(ngModel)]="currentItem.name" id="example-ngModel">
 ```
-
 ## signal
 - If the property is a `Signal` , the two-way binding is identical to [Without signal](#Without%20signal) . Angular automatically reads the content of `signal`.
-
+***
 # References
 1. https://angular.dev/guide/templates/two-way-binding
 

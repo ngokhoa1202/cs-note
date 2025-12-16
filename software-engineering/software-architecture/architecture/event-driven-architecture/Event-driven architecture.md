@@ -45,13 +45,15 @@
 - ![[assets/Pasted image 20251213172346.png]]
 - ![[assets/Pasted image 20251213172355.png]]
 ### Consequences
-
-# Deployment
+- The business workflow is cohesive and *centralized*, thereby make it simpler to handle errors, manage transactions or perform retry-logic; however, when it becomes increasingly complicated, the Mediator is larger and more difficult to maintain.
+- The entire system's *availability* depends on the mediator's availability because it is a single point of failure.
+- *Performance* bottlenecks are obvious in the Mediator because the Mediator must *sequentially* execute services to some extent.
+- Mediator topology can scale horizontally by partitioning workflows (e.g., by customer ID or order ID), but this must ensure each workflow is handled by exactly one mediator instance.
+# Asynchronous operations
 - 
-
 ***
 # References
-1. Fundamentals of Software Architecture_ An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020).
+1. Fundamentals of Software Architecture An Engineering Approach - Mark Richards, Neal Ford - O Reilly Media Publisher (2020).
 	1. Chapter 14. Event-Driven Architecture Style.
 2. [[software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern|Mediator pattern]]
 3. https://en.wikipedia.org/wiki/Business_Process_Execution_Language for Business  Process Execution Language.

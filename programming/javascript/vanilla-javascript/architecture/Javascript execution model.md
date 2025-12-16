@@ -36,4 +36,4 @@
 3. [[Process#Memory layout (Binary image)]] for Process binary image in Operating System.
 4. https://nodejs.org/docs/latest-v22.x/api/worker_threads.html for Worker threads in Node.js 22.
 5. [[Browser Job queue]] 
-6. [[Event loop]] for Node.js event loop.
+6. [[programming/javascript/node.js/architecture/Event loop]] for Node.js event loop.
