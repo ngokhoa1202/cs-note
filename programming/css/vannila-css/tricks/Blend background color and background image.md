@@ -1,5 +1,4 @@
 #css #css-tricks #vanilla-css 
-
 # Reduce color brightness
 - Use `linear-gradient` on top of background image on the stacking context.
 - Must specify `rgba` to ==reduce opacity== of color to make background image behind become visible.
@@ -48,3 +47,4 @@
 
 - Emphasizes on the color pallete.
 - ![800](Pasted%20image%2020240623211528.png)
+***

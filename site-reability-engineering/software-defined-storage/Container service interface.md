@@ -1,7 +1,0 @@
-
-
-For a while, container tools and orchestrators like Kubernetes, Mesos, Nomad, and Cloud Foundry have had their specific methods of managing external storage volumes. As a result, for storage vendors, it was difficult to manage different volume plugins for different orchestrators. Storage vendors and community members from different orchestrators have been working together to standardize the volume interface to avoid duplicate work. This is the aim of the [Container Storage Interface](https://github.com/container-storage-interface/spec) (CSI); that the same volume plugin would work with different container orchestrators out of the box.
-
-Such interoperability may only be achieved through an industry standard to be implemented by all storage providers which are developing universal plugins expected to work with all container orchestrators. The role of CSI is to maintain the CSI [specification](https://github.com/container-storage-interface/spec/blob/master/spec.md) and the [protobuf](https://github.com/container-storage-interface/spec/blob/master/csi.proto) - a protocol buffer language and platform-neutral, that serializes structured data. With the flexibility of various structures and stream types, data becomes smaller, faster, and simpler to manage. 
-
-The goal of the CSI specification is to define APIs for dynamic provisioning, attaching, mounting, consumption, and snapshot management of storage volumes. In addition, it defines the plugin configuration steps to be taken by the container orchestrator, together with deployment configuration options.

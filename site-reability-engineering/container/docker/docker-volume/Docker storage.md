@@ -1,5 +1,4 @@
 #docker #container #file-system #volume #process #operating-system #secondary-storage 
-
 # Docker storage
  - By default, all files created inside a container are stored in a <mark style="background: #e4e62d;">writable container layer</mark>. This mechanism has 3 implications:
 	 - The data storage is not persistent. It is complicated to access that data when the container no longer exists.
@@ -77,10 +76,10 @@ docker run -d \
 ```
 ### Usage
 - The files should be directly accessed from the host to the container.
-## tmpfs
+## `tmpfs`
 - Stands for temporary file system.
 - Stored <mark style="background: #e4e62d;">only  on</mark> the host's <mark style="background: #e4e62d;">memory</mark> and never written the host's filesystem.
-
+***
 # References
 1. https://docs.docker.com/engine/storage/ for Docker Storage.
 2. https://docs.docker.com/engine/storage/drivers/ for Docker storage driver.

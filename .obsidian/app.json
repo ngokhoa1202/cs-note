@@ -18,5 +18,6 @@
   "showInlineTitle": true,
   "smartIndentList": true,
   "defaultViewMode": "preview",
-  "newLinkFormat": "absolute"
+  "newLinkFormat": "absolute",
+  "promptDelete": false
 }

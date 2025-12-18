@@ -1,5 +1,4 @@
 #css #vanilla-css  #css-tricks  #css-animation 
-
 # Method
 - Define in HTML file
 ```HTML

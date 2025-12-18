@@ -1,50 +1,96 @@
-#java #parallel-programming #concurrency-control #java8 
+#java #parallel-programming #concurrency-control #java8 #java25 
 # Concept
-- Each child thread must implement `interface Runnable` or extend `class Thread`.
-```Java title='ThreadDemo.java'
-public class ThreadDemo implements Runnable {  
-  public static Long sum = (long) 0;  
-  @Override  
-  public void run() {  
-    for (int i = 1; i <= 100_000_000; ++i) {  
-      synchronized (this) {  
-        sum += (long) i;  
-      }  
-    }  
-  }
+- The implementation of thread must either create a subclass of `Thread` and override the `run()` method or implement the `{Java}Runnable` interface.
+```Java title='Thread subclass and Runnable implementation'
+public class ComprehensiveThreadComparison {
+    
+    public static void main(String[] args) throws InterruptedException {
+        System.out.println("=== Main thread: " + Thread.currentThread().getName() + " ===\n");
+        
+        // Scenario 1: Runnable + run()
+        System.out.println("1. Runnable implementation + run():");
+        Runnable runnable1 = createRunnable("Scenario 1");
+        Thread t1 = new Thread(runnable1);
+        t1.run();  // ❌ Executes in main thread
+        
+        Thread.sleep(50);
+        
+        // Scenario 2: Runnable + start()
+        System.out.println("\n2. Runnable implementation + start():");
+        Runnable runnable2 = createRunnable("Scenario 2");
+        Thread t2 = new Thread(runnable2);
+        t2.start();  // ✅ Executes in new thread
+        
+        Thread.sleep(50);
+        
+        // Scenario 3: Thread subclass + run()
+        System.out.println("\n3. Thread subclass + run():");
+        MyThread t3 = new MyThread("Scenario 3");
+        t3.run();  // ❌ Executes in main thread
+        
+        Thread.sleep(50);
+        
+        // Scenario 4: Thread subclass + start()
+        System.out.println("\n4. Thread subclass + start():");
+        MyThread t4 = new MyThread("Scenario 4");
+        t4.start();  // ✅ Executes in new thread
+        
+        Thread.sleep(100);
+    }
+    
+    private static Runnable createRunnable(String label) {
+        return () -> {
+            System.out.println("  [" + label + "] Running in: " + 
+                             Thread.currentThread().getName());
+            System.out.println("  [" + label + "] Thread ID: " + 
+                             Thread.currentThread().getId());
+        };
+    }
+    
+    static class MyThread extends Thread {
+        private final String label;
+        
+        public MyThread(String label) {
+            this.label = label;
+        }
+        
+        @Override
+        public void run() {
+            System.out.println("  [" + label + "] Running in: " + 
+                             Thread.currentThread().getName());
+            System.out.println("  [" + label + "] Thread ID: " + 
+                             Thread.currentThread().getId());
+        }
+    }
 }
 ```
 
-```Java title='Main.java'
-import java.util.Collections;  
-import java.util.LinkedList;  
-import java.util.List;  
-import java.util.Random;  
-import java.util.function.*;  
-  
-public class Main {  
-  private static int THREADS = 2;  
-  public static void main(String[] args) {  
-    List<Thread> threadDemoList = new LinkedList<Thread>();  
-    for (int i = 0 ; i < THREADS; ++i) {  
-      threadDemoList.add(new Thread(new ThreadDemo()));  
-    }  
-  
-    for (int i = 0; i < THREADS; ++i) {  
-      threadDemoList.get(i).start();  
-    }  
-  
-    try {  
-      for (int i = 0; i < THREADS; ++i) {  
-        threadDemoList.get(i).join();  
-      }  
-    } catch (Exception ex) {  
-      System.out.println("Interrupt");  
-    }  
-  
-    System.out.println(ThreadDemo.sum);  
-  }  
-}
+```Shell title='Result'
+=== Main thread: main ===
+
+1. Runnable implementation + run():
+  [Scenario 1] Running in: main      ← MAIN thread
+  [Scenario 1] Thread ID: 1
+
+2. Runnable implementation + start():
+  [Scenario 2] Running in: Thread-0  ← NEW thread
+  [Scenario 2] Thread ID: 14
+
+3. Thread subclass + run():
+  [Scenario 3] Running in: main      ← MAIN thread
+  [Scenario 3] Thread ID: 1
+
+4. Thread subclass + start():
+  [Scenario 4] Running in: Thread-1  ← NEW thread
+  [Scenario 4] Thread ID: 15
+```
+- If a concrete `Thread` instance is created to be parallel executed, `start()` method must be used.
+```Java title='start() vs run()'
+// This is ALWAYS wrong (whether Runnable or Thread):
+thread.run();  // ❌ Just a method call in current thread
+
+// This is ALWAYS correct (whether Runnable or Thread):
+thread.start();  // ✅ Creates and starts a new thread
 ```
 # Lifecycle
 ```mermaid
@@ -72,49 +118,6 @@ stateDiagram-v2
     TERMINATED --> [*]
 ```
 ```Java title='Thread lifecycle demostration'
-public class ThreadStates {
-    private static final Object lock = new Object();
-    
-    public static void main(String[] args) throws InterruptedException {
-        Thread t = new Thread(() -> {
-            try {
-                // RUNNABLE
-                System.out.println("Running");
-                
-                // TIMED_WAITING
-                Thread.sleep(1000);
-                
-                // WAITING
-                synchronized(lock) {
-                    lock.wait();
-                }
-                
-                // BLOCKED (if another thread holds lock)
-                synchronized(lock) {
-                    System.out.println("Got lock");
-                }
-                
-            } catch (InterruptedException e) {
-                // TERMINATED
-                Thread.currentThread().interrupt();
-            }
-        });
-        
-        System.out.println(t.getState()); // NEW
-        t.start();
-        System.out.println(t.getState()); // RUNNABLE
-        
-        Thread.sleep(1500);
-        synchronized(lock) {
-            lock.notify();                 // Wake up waiting thread
-        }
-        
-        t.join();
-        System.out.println(t.getState()); // TERMINATED
-    }
-}
-```
-```Java title='Thread lifecycle demostration in Java'
 public class ThreadStates {
     private static final Object lock = new Object();
     
@@ -343,6 +346,8 @@ public class ThreadSafeCache<K, V> {
     }
 }
 ```
+# Daemon thread
+
 ***
 # References
 1. https://medium.com/@seungbae2/understanding-the-synchronized-keyword-in-java-ensuring-thread-safety-and-synchronization-4d8f84622a77#:~:text=A%20synchronized%20method%20is%20a,synchronized%20method%20at%20a%20time. 

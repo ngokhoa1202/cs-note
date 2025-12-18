@@ -1,16 +1,104 @@
 {
   "recentFiles": [
     {
+      "basename": "Podman architecture",
+      "path": "site-reability-engineering/container/podman/Podman architecture.md"
+    },
+    {
+      "basename": "Docker storage",
+      "path": "site-reability-engineering/container/docker/docker-volume/Docker storage.md"
+    },
+    {
+      "basename": "Docker volume commands",
+      "path": "site-reability-engineering/container/docker/docker-volume/Docker volume commands.md"
+    },
+    {
+      "basename": "Docker architecture",
+      "path": "site-reability-engineering/container/docker/docker-architecture/Docker architecture.md"
+    },
+    {
+      "basename": "Docker information commands",
+      "path": "site-reability-engineering/container/docker/docker-architecture/Docker information commands.md"
+    },
+    {
+      "basename": "SRE Learning Path",
+      "path": "plans/SRE Learning Path.md"
+    },
+    {
+      "basename": "Entity manager",
+      "path": "programming/java/jakarta-ee/jakarta-persistence-api/Entity manager.md"
+    },
+    {
+      "basename": "Jakarta Web Service",
+      "path": "programming/java/jakarta-ee/Jakarta Web Service.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Concurrency control model",
+      "path": "operating-system/process/process-synchronization/concurrency-control/Concurrency control model.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "programming/java/concurrency-control/Thread.md"
+    },
+    {
+      "basename": "Future",
+      "path": "programming/java/concurrency-control/Future.md"
+    },
+    {
+      "basename": "Thread-safe singleton",
+      "path": "programming/java/concurrency-control/Thread-safe singleton.md"
+    },
+    {
+      "basename": "Blend background color and background image",
+      "path": "programming/css/vannila-css/tricks/Blend background color and background image.md"
+    },
+    {
+      "basename": "Focus animation on multiple photos",
+      "path": "programming/css/vannila-css/tricks/animation/Focus animation on multiple photos.md"
+    },
+    {
+      "basename": "Card rotation effect",
+      "path": "programming/css/vannila-css/tricks/animation/Card rotation effect.md"
+    },
+    {
+      "basename": "Basic CSS Compilation",
+      "path": "programming/css/vannila-css/compilation/Basic CSS Compilation.md"
+    },
+    {
+      "basename": "Deadlock",
+      "path": "operating-system/process/Deadlock.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "operating-system/process/thread/Thread.md"
+    },
+    {
+      "basename": "Process sychronization",
+      "path": "operating-system/process/process-synchronization/Process sychronization.md"
+    },
+    {
+      "basename": "Critical section problem",
+      "path": "operating-system/process/process-synchronization/Critical section problem.md"
+    },
+    {
+      "basename": "Mutex lock",
+      "path": "operating-system/process/process-synchronization/locking-mechanism/Mutex lock.md"
+    },
+    {
+      "basename": "Monitor",
+      "path": "operating-system/process/process-synchronization/locking-mechanism/Monitor.md"
+    },
+    {
       "basename": "Event notification",
       "path": "operating-system/process/process-synchronization/concurrency-control/Event notification.md"
     },
     {
       "basename": "Caching strategy",
       "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
-    },
-    {
-      "basename": "Concurrency control model",
-      "path": "operating-system/process/process-synchronization/concurrency-control/Concurrency control model.md"
     },
     {
       "basename": "Shared memory",
@@ -31,10 +119,6 @@
     {
       "basename": "Inter Process Communication",
       "path": "operating-system/process/inter-process-communication/Inter Process Communication.md"
-    },
-    {
-      "basename": "Future",
-      "path": "programming/java/concurrency-control/Future.md"
     },
     {
       "basename": "Concurrency control",
@@ -81,124 +165,12 @@
       "path": "operating-system/process/batching/Batch processing.md"
     },
     {
-      "basename": "Process sychronization",
-      "path": "operating-system/process/process-synchronization/Process sychronization.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "operating-system/process/thread/Thread.md"
-    },
-    {
       "basename": "Process",
       "path": "operating-system/process/Process.md"
     },
     {
-      "basename": "Deadlock",
-      "path": "operating-system/process/Deadlock.md"
-    },
-    {
       "basename": "Promise",
       "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "programming/java/concurrency-control/Thread.md"
-    },
-    {
-      "basename": "Thread-safe Singleton",
-      "path": "programming/java/concurrency-control/Thread-safe Singleton.md"
-    },
-    {
-      "basename": "Singleton pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Singleton pattern.md"
-    },
-    {
-      "basename": "Monitor",
-      "path": "operating-system/process/process-synchronization/locking-mechanism/Monitor.md"
-    },
-    {
-      "basename": "Semaphore",
-      "path": "operating-system/process/process-synchronization/locking-mechanism/Semaphore.md"
-    },
-    {
-      "basename": "Jakarta EE Architecture",
-      "path": "programming/java/jakarta-ee/Jakarta EE Architecture.md"
-    },
-    {
-      "basename": "Jakarta Context Dependency Injection (CDI)",
-      "path": "programming/java/jakarta-ee/jakarta-enterprise-bean/Jakarta Context Dependency Injection (CDI).md"
-    },
-    {
-      "basename": "JPA Mappings",
-      "path": "programming/java/jakarta-ee/jakarta-persistence-api/JPA Mappings.md"
-    },
-    {
-      "basename": "Jakarta Web Service",
-      "path": "programming/java/jakarta-ee/Jakarta Web Service.md"
-    },
-    {
-      "basename": "Entity manager",
-      "path": "programming/java/jakarta-ee/jakarta-persistence-api/Entity manager.md"
-    },
-    {
-      "basename": "JPQL",
-      "path": "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/query/JPQL.md"
-    },
-    {
-      "basename": "Named Query",
-      "path": "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/query/Named Query.md"
-    },
-    {
-      "basename": "Bean lifecycle",
-      "path": "programming/java/spring/dependency-injection/Bean lifecycle.md"
-    },
-    {
-      "basename": "Spring Batch",
-      "path": "programming/java/spring/batch/Spring Batch.md"
-    },
-    {
-      "basename": "Controller",
-      "path": "programming/java/spring/controller/Controller.md"
-    },
-    {
-      "basename": "Install Open API",
-      "path": "programming/java/spring/controller/Install Open API.md"
-    },
-    {
-      "basename": "Install Java",
-      "path": "programming/java/installation/Install Java.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "software-engineering/api/protocol/remote-procedure-call/gRPC.md"
-    },
-    {
-      "basename": "Critical section problem",
-      "path": "operating-system/process/process-synchronization/Critical section problem.md"
-    },
-    {
-      "basename": "Peterson solution",
-      "path": "operating-system/process/process-synchronization/locking-mechanism/Peterson solution.md"
-    },
-    {
-      "basename": "Mutex lock",
-      "path": "operating-system/process/process-synchronization/locking-mechanism/Mutex lock.md"
-    },
-    {
-      "basename": "gRPC for Quarkus",
-      "path": "programming/java/quarkus/gRPC for Quarkus.md"
-    },
-    {
-      "basename": "Layered architecture",
-      "path": "software-engineering/software-architecture/design/domain-driven-design/Layered architecture.md"
-    },
-    {
-      "basename": "Domain driven design components",
-      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design components.md"
-    },
-    {
-      "basename": "Domain driven design",
-      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design.md"
     }
   ],
   "omittedPaths": [],

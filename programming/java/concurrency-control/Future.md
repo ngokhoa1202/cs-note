@@ -87,8 +87,8 @@ stateDiagram-v2
 - `cancel()`: attempt to cancel execution.
 - `isDone()`: check completion status.
 - `isCancelled()`: Check cancellation status.
-# Push-based vs pull-based
-## Pull-based
+# Polling and Signal
+## Polling
 ```mermaid
 sequenceDiagram
     participant C as Consumer<br/>(Main)
@@ -104,11 +104,10 @@ sequenceDiagram
 
     Note right of P: 5. Task completes<br/>(stores result)
 
-    C->>P: 6. get() - "Give me result!"
+    C->>P: 6. poll() - "Give me result!"
     P-->>C: 7. Returns result
 ```
-## Push-based
-
+## Signal
 ```mermaid
 sequenceDiagram
     participant S as Subscriber

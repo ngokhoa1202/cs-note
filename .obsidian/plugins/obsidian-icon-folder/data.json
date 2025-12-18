@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiDocker",
+      "SiPodman",
       "LiSignal",
       "FasRotate",
       "TiArrowBackUp",
@@ -23,9 +25,7 @@
       "TiExchange",
       "LiLock",
       "TiArrowFork",
-      "MiMemcached",
-      "LiDownload",
-      "SiRedis"
+      "MiMemcached"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -117,7 +117,6 @@
   "programming/javascript/npm": "FabNpm",
   "programming/javascript/yarn": "TiBrandYarn",
   "programming/go/concurrency-control": "SiGo",
-  "programming/java/jakarta-ee/Jakarta EE Architecture.md": "LoJakartaEE",
   "programming/go/fundamentals/composite-type/Array.md": "SiGo",
   "programming/go/fundamentals/Channel.md": "SiGo",
   "number-theory/Extended Euclidean algorithm.md": "TiMathFunction",
@@ -591,7 +590,6 @@
   "programming/java/concurrency-control/Thread.md": "TiArrowFork",
   "operating-system/process/thread": "TiArrowFork",
   "operating-system/process/process-synchronization/locking-mechanism/Monitor.md": "LiMonitor",
-  "programming/java/concurrency-control/Thread-safe Singleton.md": "Fas1",
   "programming/java/concurrency-control": "TiArrowFork",
   "programming/java/concurrency-control/Future.md": "TiArrowBackUp",
   "operating-system/process/process-synchronization": "FasRotate",
@@ -613,5 +611,9 @@
   "programming/javascript/node.js/module/CommonJS.md": "FabNode",
   "programming/javascript/rxjs/RxJS.md": "SiReactivex",
   "programming/javascript/react/hooks/useState hook.md": "LiWebhook",
-  "operating-system/process/process-synchronization/concurrency-control/Event notification.md": "LiSignal"
+  "operating-system/process/process-synchronization/concurrency-control/Event notification.md": "LiSignal",
+  "programming/java/concurrency-control/Thread-safe singleton.md": "Fas1",
+  "site-reability-engineering/container/podman": "SiPodman",
+  "site-reability-engineering/container/docker/docker-architecture/Docker architecture.md": "SiDocker",
+  "site-reability-engineering/container/docker/docker-architecture": "SiDocker"
 }
