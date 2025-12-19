@@ -10,5 +10,6 @@
       "WebFetch(domain:medium.com)"
     ],
     "deny": []
-  }
+  },
+  "outputStyle": "default"
 }

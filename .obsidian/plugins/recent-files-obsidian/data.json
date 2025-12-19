@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "SRE Learning Path",
+      "path": "plans/SRE Learning Path.md"
+    },
+    {
+      "basename": "Build Java Quarkus Image",
+      "path": "site-reability-engineering/container/podman/podman-image/java/quarkus/Build Java Quarkus Image.md"
+    },
+    {
+      "basename": "Docker image commands",
+      "path": "site-reability-engineering/container/docker/docker-image/Docker image commands.md"
+    },
+    {
+      "basename": "Dockerfile",
+      "path": "site-reability-engineering/container/docker/docker-image/dockerfile/Dockerfile.md"
+    },
+    {
+      "basename": "Docker configuration",
+      "path": "site-reability-engineering/container/docker/docker-container/Docker configuration.md"
+    },
+    {
+      "basename": "Docker container commands",
+      "path": "site-reability-engineering/container/docker/docker-container/Docker container commands.md"
+    },
+    {
+      "basename": "Docker container",
+      "path": "site-reability-engineering/container/docker/docker-container/Docker container.md"
+    },
+    {
+      "basename": "Docker buildx commands",
+      "path": "site-reability-engineering/container/docker/docker-image/dockerfile/Docker buildx commands.md"
+    },
+    {
+      "basename": "Podman authentication",
+      "path": "site-reability-engineering/container/podman/podman-authentication/Podman authentication.md"
+    },
+    {
       "basename": "Podman architecture",
-      "path": "site-reability-engineering/container/podman/Podman architecture.md"
+      "path": "site-reability-engineering/container/podman/podman-architecture/Podman architecture.md"
     },
     {
       "basename": "Docker storage",
@@ -19,10 +55,6 @@
     {
       "basename": "Docker information commands",
       "path": "site-reability-engineering/container/docker/docker-architecture/Docker information commands.md"
-    },
-    {
-      "basename": "SRE Learning Path",
-      "path": "plans/SRE Learning Path.md"
     },
     {
       "basename": "Entity manager",
@@ -167,10 +199,6 @@
     {
       "basename": "Process",
       "path": "operating-system/process/Process.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
     }
   ],
   "omittedPaths": [],

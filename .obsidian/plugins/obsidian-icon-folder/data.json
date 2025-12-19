@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiQuarkus",
+      "LiContainer",
       "SiDocker",
       "SiPodman",
       "LiSignal",
@@ -23,9 +25,7 @@
       "MiGrpc",
       "RiRemoteControlLine",
       "TiExchange",
-      "LiLock",
-      "TiArrowFork",
-      "MiMemcached"
+      "LiLock"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -615,5 +615,9 @@
   "programming/java/concurrency-control/Thread-safe singleton.md": "Fas1",
   "site-reability-engineering/container/podman": "SiPodman",
   "site-reability-engineering/container/docker/docker-architecture/Docker architecture.md": "SiDocker",
-  "site-reability-engineering/container/docker/docker-architecture": "SiDocker"
+  "site-reability-engineering/container/docker/docker-architecture": "SiDocker",
+  "site-reability-engineering/container/podman/podman-authentication/Podman authentication.md": "SiPodman",
+  "site-reability-engineering/container": "LiContainer",
+  "site-reability-engineering/container/docker/docker-image/dockerfile": "SiDocker",
+  "site-reability-engineering/container/podman/podman-image/java/quarkus/Build Java Quarkus Image.md": "SiQuarkus"
 }

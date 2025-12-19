@@ -3,7 +3,7 @@
   "accentColor": "#6c85bc",
   "baseFontSize": 20,
   "textFontFamily": "Fira Sans",
-  "monospaceFontFamily": "JetBrains Mono",
+  "monospaceFontFamily": "JetBrains Mono,MonoLisa",
   "interfaceFontFamily": "SF Pro Text",
   "cssTheme": "Minimal",
   "showRibbon": true,

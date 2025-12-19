@@ -1,7 +1,6 @@
 #dockerfile #docker #ci-cd #operating-system #scripting #bash #shell #file-system #operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
 
 - Dockerfile is a special file for building Docker image.
-- More programmatic than [Docker container commands](Docker%20container%20commands.md)
 - From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
 # Syntax
 ```Dockerfile
@@ -23,7 +22,6 @@ EOF
 CMD ["executable", "param_1", "param_2", "param_3",...]
 
 ```
-
 ## From
 - Creates a new build stage from the base image.
 - If the base image does not exist on the host, Docker daemon automagically downloads it from Docker registry.
@@ -93,9 +91,12 @@ RUN npm install \
 # copy all remaining source files to WORKDIR
 COPY . .
 CMD ["tini", "--", "node", "./bin/www"]
-
 ```
-
+# Multi-stage builds
+- Each `FROM` instruction can use a different base image, and each of them begins a new stage of the build.
+- Files can be *selectively copied* from one stage to another stage until the final image.
+- 
+***
 # References
 1. [Docker image](Docker%20image.md) for Docker image concepts.
 2. https://docs.docker.com/reference/dockerfile/ for Dockerfile command references.

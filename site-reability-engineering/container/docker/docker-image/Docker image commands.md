@@ -1,5 +1,4 @@
 #binary-image  #docker  #cli #process #operating-system #installation #configuration #container 
-
 # Docker image history
 ## Purpose
 - Display the history of an image's layers.
@@ -25,7 +24,6 @@ docker image inspect IMAGE
 ```bash
 docker image tag SOURCE_IMAGE[:TAG] TARGET_IMAGE[:TAG]
 ```
-
 # Docker image build
 - Refers to [Docker buildx commands](Docker%20buildx%20commands.md)
 # Docker image prune
@@ -42,8 +40,7 @@ docker image prune [OPTIONS]
 > Dangling images are <mark style="background: #e4e62d;">untagged</mark> images and <mark style="background: #e4e62d;">do not any relationship</mark> with any tagged image as intermediatary layers. These images waste memory space.
 > 
 > Unused images are images which are not used by any containers.
-
-
+***
 # References
 1. https://docs.docker.com/reference/cli/docker/image/tag/ for `docker image tag`.
 2. 
