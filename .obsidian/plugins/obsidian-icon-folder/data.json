@@ -636,5 +636,7 @@
   "algorithm/problems/leetcode/Problem 944. Delete Columns to Make Sorted.md": "SiLeetcode",
   "algorithm/problems/leetcode/Problem 645. Set Mismatch.md": "SiLeetcode",
   "programming/java/fundamentals/functional-programming/examples/Convert a Stream<T> to TStream.md": "FabJava",
-  "programming/java/fundamentals/functional-programming/Method reference.md": "FabJava"
+  "programming/java/fundamentals/functional-programming/Method reference.md": "FabJava",
+  "algorithm/problems/leetcode/Problem 747. Largest Number At Least Twice of Others.md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 1051. Height Checker.md": "SiLeetcode"
 }

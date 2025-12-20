@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Problem 1051. Height Checker",
+      "path": "algorithm/problems/leetcode/Problem 1051. Height Checker.md"
+    },
+    {
+      "basename": "Quick sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
+    },
+    {
+      "basename": "Problem 747. Largest Number At Least Twice of Others",
+      "path": "algorithm/problems/leetcode/Problem 747. Largest Number At Least Twice of Others.md"
+    },
+    {
       "basename": "Lambda expression",
       "path": "programming/java/fundamentals/functional-programming/Lambda expression.md"
     },
@@ -187,14 +199,6 @@
     {
       "basename": "Thread-safe singleton",
       "path": "programming/java/concurrency-control/Thread-safe singleton.md"
-    },
-    {
-      "basename": "Blend background color and background image",
-      "path": "programming/css/vannila-css/tricks/Blend background color and background image.md"
-    },
-    {
-      "basename": "Focus animation on multiple photos",
-      "path": "programming/css/vannila-css/tricks/animation/Focus animation on multiple photos.md"
     }
   ],
   "omittedPaths": [],
