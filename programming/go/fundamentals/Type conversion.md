@@ -1,5 +1,4 @@
 #data-type #go 
-
 # Type conversion
 - Go's type conversion syntax is different from that of Java and C++.
 ```Go title='Type conversion syntax'
@@ -16,7 +15,7 @@ const (
   c = 50
 )
 ```
-- Untyped constants are constants <mark class="hltr-yellow">whose type is not explicitly specified</mark> until until they’re assigned to a variable or used in a context that requires a specific type.
+- Untyped constants are constants whose *type is <mark class="hltr-yellow">not explicitly specified</mark> until until they’re assigned to a variable or used* in a context that requires a specific type.
 - Also known as uncommitted constants.
 - Untyped constants not only retain their <mark class="hltr-yellow">higher precision</mark> until later, but they can<mark class="hltr-yellow"> participate in many more expressions</mark> than committed constants without requiring conversions.
 ```Go title='Untyped constant example in Go'
@@ -43,6 +42,6 @@ func main() {
 }
 
 ```
-
+***
 # References
 1. https://go.dev/tour/basics/11

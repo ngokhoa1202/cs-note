@@ -4,7 +4,7 @@
 - Maybe ==parallelly== executed.
 - Accepts high-order function as parameter:
 	- [Lambda expression](Lambda%20expression.md).
-	- [Method reference](Method%20reference.md).
+	- [Method reference](programming/java/fundamentals/functional-programming/Method%20reference.md).
 ## Intermediate operations
 - Lazy operations.
 - Important operations: `map`, `filter`, `sorted`.

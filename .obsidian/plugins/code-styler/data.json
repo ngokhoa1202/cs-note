@@ -679,7 +679,11 @@
           "activeCodeblockLineColour": "--color-base-30",
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "--text-highlight-bg",
-          "alternativeHighlights": {}
+          "alternativeHighlights": {
+            "error": "#C1A083",
+            "info": "#D6E9FB",
+            "warning": "#9DADC4"
+          }
         },
         "inline": {
           "backgroundColour": "--code-background",
@@ -722,7 +726,11 @@
           "activeCodeblockLineColour": "--color-base-30",
           "activeEditorLineColour": "--color-base-20",
           "defaultColour": "--text-highlight-bg",
-          "alternativeHighlights": {}
+          "alternativeHighlights": {
+            "error": "#9D6A3DFF",
+            "info": "#F2F1F6FF",
+            "warning": "#667EA2FF"
+          }
         },
         "inline": {
           "backgroundColour": "--code-background",

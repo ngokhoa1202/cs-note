@@ -1,20 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "SRE Learning Path",
-      "path": "plans/SRE Learning Path.md"
+      "basename": "Lambda expression",
+      "path": "programming/java/fundamentals/functional-programming/Lambda expression.md"
     },
     {
-      "basename": "Build Java Quarkus Image",
-      "path": "site-reability-engineering/container/podman/podman-image/java/quarkus/Build Java Quarkus Image.md"
+      "basename": "Method reference",
+      "path": "programming/java/fundamentals/functional-programming/Method reference.md"
     },
     {
-      "basename": "Docker image commands",
-      "path": "site-reability-engineering/container/docker/docker-image/Docker image commands.md"
+      "basename": "Sort a string",
+      "path": "programming/java/fundamentals/functional-programming/examples/Sort a string.md"
+    },
+    {
+      "basename": "Convert a Stream<T> to TStream",
+      "path": "programming/java/fundamentals/functional-programming/examples/Convert a Stream<T> to TStream.md"
+    },
+    {
+      "basename": "Convert a primitive array to Set",
+      "path": "programming/java/fundamentals/functional-programming/examples/Convert a primitive array to Set.md"
+    },
+    {
+      "basename": "Sort a primitive array in reverse order",
+      "path": "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md"
+    },
+    {
+      "basename": "Problem 645. Set Mismatch",
+      "path": "algorithm/problems/leetcode/Problem 645. Set Mismatch.md"
+    },
+    {
+      "basename": "Problem 1518. Water Bottles",
+      "path": "algorithm/problems/leetcode/Problem 1518. Water Bottles.md"
+    },
+    {
+      "basename": "Problem 896. Monotonic array",
+      "path": "algorithm/problems/leetcode/Problem 896. Monotonic array.md"
+    },
+    {
+      "basename": "Problem 868. Binary Gap",
+      "path": "algorithm/problems/leetcode/Problem 868. Binary Gap.md"
+    },
+    {
+      "basename": "Problem 944. Delete Columns to Make Sorted",
+      "path": "algorithm/problems/leetcode/Problem 944. Delete Columns to Make Sorted.md"
+    },
+    {
+      "basename": "Function",
+      "path": "programming/go/fundamentals/Function.md"
+    },
+    {
+      "basename": "Slice",
+      "path": "programming/go/fundamentals/composite-type/Slice.md"
+    },
+    {
+      "basename": "Method",
+      "path": "programming/go/fundamentals/Method.md"
+    },
+    {
+      "basename": "Struct",
+      "path": "programming/go/fundamentals/composite-type/Struct.md"
+    },
+    {
+      "basename": "Channel",
+      "path": "programming/go/fundamentals/Channel.md"
+    },
+    {
+      "basename": "Enum",
+      "path": "programming/go/fundamentals/Enum.md"
+    },
+    {
+      "basename": "Pointer",
+      "path": "programming/go/fundamentals/Pointer.md"
+    },
+    {
+      "basename": "Type conversion",
+      "path": "programming/go/fundamentals/Type conversion.md"
+    },
+    {
+      "basename": "Variable",
+      "path": "programming/go/fundamentals/Variable.md"
+    },
+    {
+      "basename": "Map",
+      "path": "programming/go/fundamentals/composite-type/Map.md"
+    },
+    {
+      "basename": "Array",
+      "path": "programming/go/fundamentals/composite-type/Array.md"
+    },
+    {
+      "basename": "Middle Java Engineer - ST Engineering company",
+      "path": "resume/Middle Java Engineer - ST Engineering company.pdf"
+    },
+    {
+      "basename": "english-resume",
+      "path": "resume/english-resume.pdf"
+    },
+    {
+      "basename": "Vim editor",
+      "path": "operating-system/text-editor/Vim editor.md"
+    },
+    {
+      "basename": "Path variable",
+      "path": "operating-system/linux/Path variable.md"
+    },
+    {
+      "basename": "Repository",
+      "path": "operating-system/linux/Repository.md"
+    },
+    {
+      "basename": "Systemctl commands",
+      "path": "operating-system/linux/Systemctl commands.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reability-engineering/container/podman/podman-image/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "Podman architecture",
+      "path": "site-reability-engineering/container/podman/podman-architecture/Podman architecture.md"
+    },
+    {
+      "basename": "Build Spring Boot image",
+      "path": "site-reability-engineering/container/podman/podman-image/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container/podman/podman-image/java/quarkus/Build Quarkus Image.md"
     },
     {
       "basename": "Dockerfile",
       "path": "site-reability-engineering/container/docker/docker-image/dockerfile/Dockerfile.md"
+    },
+    {
+      "basename": "Docker image",
+      "path": "site-reability-engineering/container/docker/docker-image/Docker image.md"
+    },
+    {
+      "basename": "SRE Learning Path",
+      "path": "plans/SRE Learning Path.md"
     },
     {
       "basename": "Docker configuration",
@@ -29,32 +153,12 @@
       "path": "site-reability-engineering/container/docker/docker-container/Docker container.md"
     },
     {
-      "basename": "Docker buildx commands",
-      "path": "site-reability-engineering/container/docker/docker-image/dockerfile/Docker buildx commands.md"
-    },
-    {
       "basename": "Podman authentication",
       "path": "site-reability-engineering/container/podman/podman-authentication/Podman authentication.md"
     },
     {
-      "basename": "Podman architecture",
-      "path": "site-reability-engineering/container/podman/podman-architecture/Podman architecture.md"
-    },
-    {
-      "basename": "Docker storage",
-      "path": "site-reability-engineering/container/docker/docker-volume/Docker storage.md"
-    },
-    {
-      "basename": "Docker volume commands",
-      "path": "site-reability-engineering/container/docker/docker-volume/Docker volume commands.md"
-    },
-    {
       "basename": "Docker architecture",
       "path": "site-reability-engineering/container/docker/docker-architecture/Docker architecture.md"
-    },
-    {
-      "basename": "Docker information commands",
-      "path": "site-reability-engineering/container/docker/docker-architecture/Docker information commands.md"
     },
     {
       "basename": "Entity manager",
@@ -91,114 +195,6 @@
     {
       "basename": "Focus animation on multiple photos",
       "path": "programming/css/vannila-css/tricks/animation/Focus animation on multiple photos.md"
-    },
-    {
-      "basename": "Card rotation effect",
-      "path": "programming/css/vannila-css/tricks/animation/Card rotation effect.md"
-    },
-    {
-      "basename": "Basic CSS Compilation",
-      "path": "programming/css/vannila-css/compilation/Basic CSS Compilation.md"
-    },
-    {
-      "basename": "Deadlock",
-      "path": "operating-system/process/Deadlock.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "operating-system/process/thread/Thread.md"
-    },
-    {
-      "basename": "Process sychronization",
-      "path": "operating-system/process/process-synchronization/Process sychronization.md"
-    },
-    {
-      "basename": "Critical section problem",
-      "path": "operating-system/process/process-synchronization/Critical section problem.md"
-    },
-    {
-      "basename": "Mutex lock",
-      "path": "operating-system/process/process-synchronization/locking-mechanism/Mutex lock.md"
-    },
-    {
-      "basename": "Monitor",
-      "path": "operating-system/process/process-synchronization/locking-mechanism/Monitor.md"
-    },
-    {
-      "basename": "Event notification",
-      "path": "operating-system/process/process-synchronization/concurrency-control/Event notification.md"
-    },
-    {
-      "basename": "Caching strategy",
-      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
-    },
-    {
-      "basename": "Shared memory",
-      "path": "operating-system/process/inter-process-communication/Shared memory.md"
-    },
-    {
-      "basename": "Remote procedure call",
-      "path": "operating-system/process/inter-process-communication/Remote procedure call.md"
-    },
-    {
-      "basename": "Pipe",
-      "path": "operating-system/process/inter-process-communication/Pipe.md"
-    },
-    {
-      "basename": "Message passing",
-      "path": "operating-system/process/inter-process-communication/Message passing.md"
-    },
-    {
-      "basename": "Inter Process Communication",
-      "path": "operating-system/process/inter-process-communication/Inter Process Communication.md"
-    },
-    {
-      "basename": "Concurrency control",
-      "path": "programming/javascript/node.js/concurrency-control/Concurrency control.md"
-    },
-    {
-      "basename": "Babel configuration",
-      "path": "programming/javascript/babel/Babel configuration.md"
-    },
-    {
-      "basename": "Asynchronous programming in Angular",
-      "path": "programming/javascript/angular/Asynchronous programming in Angular.md"
-    },
-    {
-      "basename": "useTransition hook",
-      "path": "programming/javascript/react/hooks/useTransition hook.md"
-    },
-    {
-      "basename": "useState hook",
-      "path": "programming/javascript/react/hooks/useState hook.md"
-    },
-    {
-      "basename": "Event loop",
-      "path": "programming/javascript/node.js/architecture/Event loop.md"
-    },
-    {
-      "basename": "RxJS",
-      "path": "programming/javascript/rxjs/RxJS.md"
-    },
-    {
-      "basename": "Angular commands",
-      "path": "programming/javascript/angular/Angular commands.md"
-    },
-    {
-      "basename": "Class and Style binding",
-      "path": "programming/javascript/angular/template/Class and Style binding.md"
-    },
-    {
-      "basename": "Two-way binding in Angular",
-      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
-    },
-    {
-      "basename": "Batch processing",
-      "path": "operating-system/process/batching/Batch processing.md"
-    },
-    {
-      "basename": "Process",
-      "path": "operating-system/process/Process.md"
     }
   ],
   "omittedPaths": [],

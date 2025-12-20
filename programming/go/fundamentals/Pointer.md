@@ -1,5 +1,4 @@
 #memory #operator #operating-system #garbage-collector #go 
-
 # Pointer
 - Pointer in Go holds the address of some memory space.
 - A pointer is able to be dereferenced to access its referenced content, which is similar the pointer in C++. Go, however, insulates it from perform pointer arithmetic operator for memory safety.
@@ -21,9 +20,8 @@ int* p = &x;
 p++; // not allowed
 ```
 - Pointer is automatically garbage collected by the Go compiler.
-
 # New function
-- Similarly to `new` keyword in C++, `new` in Go allocates a heap memory space for the unamed variable, returns its address as a pointer.
+- Similarly to `new` keyword in C++, `new` in Go allocates a heap memory space for the unnamed variable, returns its address as a pointer.
 ```Go title='new function in Go'
 p := new(int)
 fmt.Println(*p) // prints 0
@@ -31,7 +29,7 @@ fmt.Println(*p) // prints 0
 fmt.Println(*p) // prints 12
 ```
 # Heap escape
-- Distinctly from C/C++, Go compiler is smart enough to **escape** the variable to the heap if needed.
+- Distinct from C/C++, Go compiler is smart enough to **escape** the variable to the heap if needed.
 ```Go title='Heap escape to avoid dangling reference in Go'
 func newInt() *int {
 	dummy := 3

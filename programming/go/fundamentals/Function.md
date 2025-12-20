@@ -14,9 +14,9 @@ func SquaresOfSumAndDiff(a int64, b int64) (s int64, d int64) {
 	return // <=> return s, d
 }
 ```
-- A function can <mark class="hltr-yellow">return multiple values</mark> respectively in Go.
-- <mark class="hltr-yellow">Default parameters</mark> are <mark class="hltr-yellow">not supported</mark> by Go.
-- Function whose body has the last statement as a terminating statement does not have return a value.
+- A function can *return multiple values* respectively.
+- *Default parameters are not supported*.
+- Function whose body has the last statement as a terminating statement does not have to return a value.
 ```Go title='Function example do not return a value'
 func fa() int {
 	a:
@@ -28,12 +28,12 @@ func fb() bool {
 }
 ```
 # Function call
-- All function arguments are <mark class="hltr-yellow">passed by value</mark>. If the callee needs to change the instance argument, a pointer as a parameter is required and the address of the instance needs passing into that pointer.
-- The functions of the `unsafe` standard package are always evaluated at compile time. See https://go101.org/article/summaries.html#compile-time-evaluation
+- All function arguments are <mark class="hltr-yellow">passed by value</mark>. If the callee needs to change an instance argument, a pointer as a parameter is required and the address of the instance needs passing into that pointer.
+- The functions of the `unsafe` standard package are always evaluated at compile time.
 - If the return results of a call to a multi-result function are not discarded, then the call can only be used as a multi-value expression in two scenarios:
 	- The call can be used in an assignment as source values. But the call <mark class="hltr-yellow">can't mix with other source values</mark> in the assignment.
 	- The call can be nested in another function call as arguments. But the call <mark class="hltr-yellow">can't mix with other arguments</mark>.
-```Go title='Function calls as expressions notice'
+```Go title='Function calls as expressions notice' 
 package main
 
 func HalfAndNegative(n int) (int, int) {
@@ -63,7 +63,7 @@ func main() {
 }
 ```
 # Function signature
-- Function signature is also function type in Go because function is <mark class="hltr-yellow">first-class </mark> value in Go.
+- Function signature is also <mark class="hltr-yellow">function type</mark> in Go because function is *first-class*  value in Go.
 ```Go title='Equivalent representation of unamed function signature'
 func (int, string, string) (int, int, bool) // the standard form
 func (a int, b string, c string) (int, int, bool)
@@ -71,7 +71,7 @@ func (x int, _ string, z string) (int, int, bool)
 func (int, string, string) (x int, y int, z bool)
 func (int, string, string) (a int, b int, _ bool)
 ```
-
+- Function types are *incomparable*.
 # Function prototype
 - Function prototype is composed of function name and function signature, but has no body.
 ```Go title='Function prototype'
@@ -147,7 +147,6 @@ func main() {
 
 >[!Note]
 >Function value is a first-class function. Function type is the type of that first-class function.
-
 - Anonymous function is also supported.
 ```Go title='Anonymous function'
 package main
@@ -176,6 +175,7 @@ func main() {
 	fmt.Println(isMultipleOf15(60)) // true
 }
 ```
+***
 # References
 1. https://go101.org/article/function.html for Function Signature in Go.
 2. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.

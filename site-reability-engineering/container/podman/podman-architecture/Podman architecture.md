@@ -1,12 +1,9 @@
 #ci-cd #cli #docker #software-architecture #client-server #application-layer #web-server  #dbms #binary-image  #operating-system #process #memory #virtual-memory
 #site-realibility-engineering
-
 # Podman Architecture
-
 ## Overview
-
-Podman (Pod Manager) is a daemonless container engine for developing, managing, and running OCI containers on Linux systems. Unlike Docker, Podman operates without a central daemon, providing enhanced security and flexibility through a fork-exec model.
-
+- Podman (Pod Manager) is a <mark class="hltr-yellow">daemonless</mark> container engine for developing, managing, and running OCI containers on Linux systems. 
+- Unlike Docker, Podman operates without a central daemon, providing enhanced security and flexibility through a fork-exec model.
 ## Components
 ###  Daemonless Architecture
 - **No Central Daemon**: Podman runs containers as child processes of the Podman command itself

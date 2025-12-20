@@ -22,20 +22,20 @@ EOF
 CMD ["executable", "param_1", "param_2", "param_3",...]
 
 ```
-## From
+## `{Dockerfile}FROM`
 - Creates a new build stage from the base image.
 - If the base image does not exist on the host, Docker daemon automagically downloads it from Docker registry.
-## Expose
+## `{Dockerfile}Expose`
 - Exposes the port and its corresponding transport layer's protocol on which the image will be listening on Docker virtual network.
 - The specified port will be <mark style="background: #e4e62d;">bound with the host's port</mark> when running the container from the image.
-## Env
+## `{Dockerfile}ENV`
 - Specifies global variables for building image.
 - Format: `<key> = <value>`
-## Workdir
+## `{Dockerfile}WORKDIR`
 - Changes the current working directory which is applied for `RUN`, `CMD`, `ENTRYPOINT`, `COPY`, `AND` commands.
-## Copy
+## `{Dockerfile}COPY`
 - Copy files or directories from `src` to `dest`
-## Run
+## `{Dockerfile}RUN`
 - Executes a specific command to create a new layer on top of the current image.
 - The new layer will be used on the next stage of Dockerfile.
 - There are two forms
@@ -43,24 +43,23 @@ CMD ["executable", "param_1", "param_2", "param_3",...]
 - `RUN [OPTIONS] <commands>`
 ### Shell form
 - `RUN [OPTIONS] <commands>`
-- In case there are multiline segments of scripts:
-```Dockerfile
+- *Heredoc syntax* can be used In case there are multi-line segments of scripts:
+```Dockerfile title='Default heredoc'
 RUN <<EOF
 apt-get update
 apt-get install -y curl
 EOF
 ```
 
-```Dockerfile
+```Dockerfile title='Bash heredoc'
 RUN <<EOT bash
   set -ex
   apt-get update
   apt-get install -y vim
 EOT
 ```
-## Cmd
-- Run when a container built from image is executed.
-- There are two forms:
+## `CMD`
+- The command is run when a container is built from the current image.
 ### Executable form
 - Most common.
 - `CMD ["executable", "param_1", "param_2", "param_3",...]`
@@ -95,7 +94,6 @@ CMD ["tini", "--", "node", "./bin/www"]
 # Multi-stage builds
 - Each `FROM` instruction can use a different base image, and each of them begins a new stage of the build.
 - Files can be *selectively copied* from one stage to another stage until the final image.
-- 
 ***
 # References
 1. [Docker image](Docker%20image.md) for Docker image concepts.

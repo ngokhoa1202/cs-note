@@ -4,7 +4,7 @@
   "baseFontSize": 20,
   "textFontFamily": "Fira Sans",
   "monospaceFontFamily": "JetBrains Mono,MonoLisa",
-  "interfaceFontFamily": "SF Pro Text",
+  "interfaceFontFamily": "Inter",
   "cssTheme": "Minimal",
   "showRibbon": true,
   "enabledCssSnippets": [

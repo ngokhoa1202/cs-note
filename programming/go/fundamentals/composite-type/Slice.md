@@ -1,5 +1,4 @@
 #go #data-type #data-structure 
-
 # Slice
 - Slices represent <mark class="hltr-yellow">variable-length sequences</mark> whose elements all have the <mark class="hltr-yellow">same type</mark>. A slice type is written `[]T`, where the elements have type `T`; it looks like an array type without a size.
 - A slice is an <mark class="hltr-yellow">indirect reference</mark> that gives access to a sub sequence of the elements of its underlying array, which is actually a shallow copy of that array.
@@ -20,7 +19,6 @@ fmt.Println(summer[:20]) // panic: out of range
 endlessSummer := summer[:5] // extend a slice (within capacity)
 fmt.Println(endlessSummer) // "[June July August September October]"
 ```
-
 # Append function
 ```Go title='A small implementation of append function'
 func appendInt(x []int, y int) []int {
@@ -58,7 +56,7 @@ func main() {
 - ![](Pasted%20image%2020250608120018.png)
 - ![](Pasted%20image%2020250608120104.png)
 - ![](Pasted%20image%2020250608120112.png)
-- 
+***
 # References
 1. Programming languages, principles and practice - Louden K.C., Lambert K.A. - Course Technology, 3th Edition 2011.
 	1. Chapter 14. Data type.

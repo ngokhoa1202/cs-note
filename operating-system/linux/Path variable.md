@@ -6,7 +6,7 @@
 ```Sh
 sudo nvim ~/.bashrc
 ```
-- After having changed the `bashrc` file and exitted, apply the changes by
+- After having changed the `bashrc` file and exited, apply the changes by
 ```bash
 source ~/.bashrc
 ```

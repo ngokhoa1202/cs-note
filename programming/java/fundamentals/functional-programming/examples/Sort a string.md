@@ -1,4 +1,4 @@
-#java #stream #string #functional-programming #java8 
+#java #stream #string #functional-programming #java8 #stream 
 - `{Java}String` object is immutable in Java, so it cannot be directly sorted.
 # Convert to char array and sort
 ```Java title='Sort a string: imperative solution'

@@ -1,5 +1,4 @@
 #object-oriented-programming #go #data-type #c #cpp
-
 - Go does not support full features of Object-oriented programming such as class and access modifier.
 # Struct
 - A struct is an aggregate data type that <mark class="hltr-yellow">groups</mark> together zero or more named values of arbitrary types <mark class="hltr-yellow">as a single entity</mark>.
@@ -74,7 +73,6 @@ func main() {
 	fmt.Printf("%v\n", cardPtr)
 }
 ```
-
 # Struct literal
 - Struct literal is used to initialize a struct, similarly to constructor in Java and C++.
 - There are two forms of struct literal:
@@ -97,7 +95,6 @@ card := CrediCard { // order-based struct literal
   	200000, 
 }
 ```
-
 # Struct embedding
 - Struct embedding represents <mark class="hltr-yellow">seamless composition</mark> relationship in object-oriented programming.
 ```Go title='Struct embedding without anonymous field'
@@ -122,9 +119,8 @@ w.Circle.Center.Y = 8
 w.Circle.Radius = 5
 w.Spokes = 20
 ```
-
 - Anonymous field is required in case properties of the embedded struct should be promoted to the container struct, thereby making property access more concise.
-```Go title='Struct embedding with anonymous field'
+```Go title='Struct embedding with anonymous field' hl:15-18
 type Point struct {
 	X, Y int
 }
@@ -144,9 +140,9 @@ w.Y = 8 // equivalent to w.Circle.Point.Y = 8
 w.Radius = 5 // equivalent to w.Circle.Radius = 5
 w.Spokes = 20
 ```
-
 # Method
 - [Method](Method.md)
+***
 # References
 1. https://gobyexample.com/struct-embedding for Struct embedding.
 2. [UML Class diagram](UML%20Class%20diagram.md) for composition concept.

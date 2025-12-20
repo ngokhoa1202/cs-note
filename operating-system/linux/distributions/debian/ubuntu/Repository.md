@@ -11,7 +11,7 @@ sudo apt search <name>
 sudo apt install <name>
 ```
 
-or download the `.deb` file and follow [Install .deb file](Install%20.deb%20file.md)
+or download the `.deb` file and follow [Install .deb file](operating-system/linux/distributions/debian/ubuntu/Install%20.deb%20file.md)
 
 ## Update the meta data
 - Compare and check the local repository databse with new update from the central repository.

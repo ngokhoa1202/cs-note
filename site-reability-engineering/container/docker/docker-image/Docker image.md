@@ -10,6 +10,7 @@
 	- If the two images have an ==identical layer== with the same hash, docker can ==cache== that layer of image and <mark style="background: #e4e62d;">build the higher layers</mark> on top of that layer. $\implies$ save memory usage and save time for downloading and uploading.
 	- If the two containers are built on top of the same image layer, whenever one of the two containers need to access a file on that image layer, it (container) will copy that file into its filesystem and freely writes it $\implies$ ==Copy on Write== mechanism.
 	- The lowest layer is the host's operating system while the highest layer is our application.
+***
 # References
 1. https://docs.docker.com/guides/ for docker official documentation.
 2. 

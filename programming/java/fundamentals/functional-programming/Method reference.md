@@ -1,5 +1,4 @@
 #java #java8 #functional-programming #high-order-function 
-
 - Method reference is a shortened syntax of lambda expression by implicitly passing necessary arguments.
 # Reference to static method
 ## Syntax

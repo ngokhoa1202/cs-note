@@ -1,8 +1,10 @@
-#quarkus #java #java21 #java17 #podman #container 
+#quarkus #java #java21 #java17 #podman #container #site-realibility-engineering 
+#continuous-delivery #bash #cli #redhat 
+- Quarkus framework is microservice-oriented, so its final `.jar` file is not standalone but dynamically links to other libraries.
 # Simple image
-```Dockerfile title='Dockerfile Java Quarkus image'
-FROM registry.redhat.io/ubi9/openjdk-21:latest AS builder
+```Dockerfile title='Dockerfile Java Quarkus image' hl=22-25
 
+FROM registry.redhat.io/ubi9/openjdk-21:latest AS builder
 WORKDIR /app
 
 USER root
@@ -32,7 +34,6 @@ EXPOSE 8080
 ENV JAVA_OPTS_APPEND="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=org.jboss.logmanager.LogManager"
 ENV JAVA_APP_JAR="/app/deployments/quarkus-run.jar"
 ENTRYPOINT ["/opt/jboss/container/java/run/run-java.sh"]
-
 ```
 ***
 # References

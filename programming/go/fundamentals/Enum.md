@@ -1,5 +1,4 @@
 #data-type #go 
-
 - Go does not fully support enum type as Java or C++, but employs type declaration followed by multiple constant initialization. 
 # Ordinary enum
 ```Go title='Enum'
@@ -33,7 +32,6 @@ func main() {
 
 }
 ```
-
 # Constant generator
 - `iota` constant generator is utilized to create a sequence of related values without explicitly repeating their types and values.
 ```Go title='Constant generator in enum'
@@ -48,9 +46,8 @@ const (
 	Saturday
 	Sunday
 )
-
 ```
-
+***
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 2. https://gobyexample.com/enums

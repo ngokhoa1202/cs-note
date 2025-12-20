@@ -1,5 +1,4 @@
-#java #functional-programming #java8 #array #data-structure #set 
-
+#java #functional-programming #java8 #array #data-structure #set #stream
 # Unordered Set - `HashSet`
 ```Java title='Convert a primitive array to Set in Java with Stream API and HashSet'
 import java.util.Arrays;

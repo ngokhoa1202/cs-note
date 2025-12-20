@@ -1,5 +1,4 @@
 #object-oriented-programming #go #data-type #c #cpp 
-
 # Method declaration
 - In Go, a method declaration is similar to a function declaration, but it has an <mark class="hltr-yellow">extra parameter</mark> declaration part. The extra parameter part can contain one and only one parameter of the <mark class="hltr-yellow">receiver</mark> type $T$ (value receiver) or type ${}^*T$ of the method.
 - The receiver's type $T$ must satisfy four these conditions:
@@ -7,7 +6,7 @@
 	- $T$ is defined in the same package as the method declaration.
 	- $T$ is not a pointer type.
 	- $T$ must not be an interface type.
-```Go title='Method declaration example in Go'
+```Go title='Method declaration example in Go' hl=5-7,8-10,14-16,20-23
 // Age and int are two distinct types. We
 // can't declare methods for int and *int,
 // but can for Age and *Age.
@@ -52,7 +51,7 @@ func (b *Book) SetPages(pages int) {
 }
 ```
 - Each method is <mark class="hltr-yellow">implicitly</mark> understood as a function by the Go compiler.
-```Go title='Method is implicit function in Go'
+```Go title='Method is implicit function in Go' hl=5-7,9-11,13-15
 package main
 
 import "fmt"
@@ -81,8 +80,10 @@ func main() {
 	- Value receiver for  type $T$.
 	- Pointer receiver for type type ${}^*T$ 
 - [Method value normalization](#Method%20value%20normalization) makes the method invocation looks as if methods of the both receivers could be interchangeably used but actually dereferencing and address taking are implicitly employed behind the scene.
-- Receiver arguments are passed by copy, which means that all **value-type fields** (e.g., `int`, `bool`, `float`, structs without pointers) are **copied** and all **reference-type fields** (e.g., `slices`, `maps`, `pointers`, `channels`, `interfaces`, `functions`) are **copied by reference** — the underlying data is shared.
-```Go title='Receiver arguments are passed by copy in Go'
+- Receiver arguments are passed by copy, which means that:
+    -  all value-type fields (e.g., `int`, `bool`, `float`, structs without pointers) are copied,
+    -  all reference-type fields (e.g., `slices`, `maps`, `pointers`, `channels`, `interfaces`, `functions`) are copied by reference but the underlying data is shared.
+```Go title='Receiver arguments are passed by copy in Go' hl=17-18
 type Book struct {
 	pages int
 	notes []string
@@ -104,7 +105,6 @@ func main() {
 }
 
 ```
-
 # Method specification & method set
 - A method specification is the same as a function prototype without `func` keyword.
 ```Go title='Method declaration'
