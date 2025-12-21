@@ -1,6 +1,5 @@
 #git #github #version-control #project-management #cli #file-system #software-engineering 
-#site-realibility-engineering #project-management #software-architecture 
-
+#site-realibility-engineering #project-management #software-architecture #gitlab 
 # Basic rebasing
 - Git rebasing means all the changes committed on one branch is taken and <mark style="background: #e4e62d;">rewritten on a different branch</mark>. 
 - Rebasing works by as follow:
@@ -10,7 +9,6 @@
 	- $\implies$ *Linearize* the branch tree.
 >[!Important]
 >What makes the difference between `git merge` and `git rebase` is that rebasing rewrites commits onto another branch while merging creates a new commit to merge commits on the main branch and make any merge modification on that commit.
-
 - Use `git checkout` and `git rebase` command:
 ```bash
 git checkout <topic-branch> # Move HEAD pointer to topic branch
@@ -65,8 +63,7 @@ git rebase <main-branch> <topic-branch>
 - ![](Pasted%20image%2020241107112314.png)
 ## Deleting redundant branch history
 - After a rebasing is performed, a branch commit history may need to be manually deleted.
-- Run `git branch -d` [Git branching and merging](Git%20branching%20and%20merging.md)
-
+- Run `git branch -d` [Git branching and merging](Git%20branching%20and%20merging.md).
 # Perils of rebasing
 ## Tips
 - Rebasing means deleting existing commits in one branch and rewriting them into another branch.
@@ -85,8 +82,7 @@ git rebase <remote-main-branch-which-has-been-rebased>
 ```
 - The rationale behind this technique is that if a branch on which is based working has been remotely rebased, pulled down to one's local machine and <mark style="background: #e4e62d;">locally rebased again</mark>, Git can automagically detect which work is unique to his repository and apply them back on top of the new branch thanks to the patch id (or patch checksum).
 - Run `git pull --rebase` to automatically rebase or `git fetch` followed by `git rebase` to manually rebase.
-```bash title:"Rebase when your work has already rebased"
-
+```Shell title:"Rebase when your work has already rebased"
 # Automatically rebase
 git pull --rebase # Pull then rebase
 
@@ -116,6 +112,7 @@ git rebase <remote-branch>
 		- `C4` has the same patch id as `C4'` , thereby implying that it has been rewritten.
 	- Apply those commits on top of `teamone/master` branch ($\approx$ take and rewrite them).
 - ![](Pasted%20image%2020241107143506.png)
+***
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Branching.

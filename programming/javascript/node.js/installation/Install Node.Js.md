@@ -1,4 +1,4 @@
-#ubuntu #nodejs #javascript #installation #typescript #linux #fedora #redhat #centos 
+#ubuntu #nodejs #javascript #installation #typescript #linux #fedora #redhat #centos-stream 
 # Install Node.js
 - Download `nvm` package manager from Node.js default website.
 - Employ `nvm` to install Node.js.

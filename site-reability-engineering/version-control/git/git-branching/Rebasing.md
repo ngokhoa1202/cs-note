@@ -1,6 +1,5 @@
 #git #github #version-control #project-management #cli #file-system #software-engineering 
 #site-realibility-engineering #project-management #software-architecture 
-
 # Basic rebasing
 - Git rebasing means all the changes committed on one branch is taken and <mark style="background: #e4e62d;">rewritten on a different branch</mark>. 
 - Rebasing works by as follow:
@@ -11,10 +10,8 @@
 >[!Note]+ The branch rebased onto
 > If the command is `git rebase master`, `master` branch is the branch rebased onto.
 
-
 >[!Important]
 >What makes the difference between `git merge` and `git rebase` is that rebasing rewrites commits onto another branch while merging creates a new commit to merge commits on the main branch and make any merge modification on that commit.
-
 - Use `git checkout` and `git rebase` command:
 ```bash
 git checkout <topic-branch> # Move HEAD pointer to topic branch
@@ -62,7 +59,6 @@ git checkout main
 
 git merge client
 ```
-
 ## Rebasing without checkout
 - Rewrite all the commits made by a topic branch onto the main branch without check the former out.
 - Run `git rebase` command.
@@ -73,7 +69,6 @@ git rebase <main-branch> <topic-branch>
 ## Deleting redundant branch history
 - After a rebasing is performed, a branch commit history may need to be manually deleted.
 - Run `git branch -d` [Git branching and merging](Git%20branching%20and%20merging.md)
-
 # Disadvantages
 ## Tips
 - Rebasing means deleting existing commits in one branch and rewriting them into another branch.
@@ -119,7 +114,7 @@ git rebase <remote-branch>
 - ![](Pasted%20image%2020241107114808.png)
 - If these changes are **pulled**, a merge commit will be created and it includes both history of the two branches.
 	- The merge commit `C8` is created on the forcefully push commit `C4'` and the local merge commit `C7` from the remote server.
-	- The history of `C4` and `C6` is locally kept instead because they are all the ancestors of commit `C8`
+	- The history of `C4` and `C6` is locally kept instead because they are all the ancestors of commit `C8`.
 	- If the commit `C8` is pushed to the remote server, the commits `C4` and `C6`, whose author, date and message are the same, is re-introduced and causes confusion.
 - ![[Pasted image 20250802122826.png]]
 - Otherwise, in case these changes are **rebased**, Git will:
@@ -129,6 +124,7 @@ git rebase <remote-branch>
 		- `C4` has the same patch id as `C4'` , thereby implying that it has been rewritten.
 	- Apply those commits on top of `teamone/master` branch.
 - The result is a linearized git topology ![](Pasted%20image%2020241107143506.png)
+***
 # References
 1. Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	1. Git Branching.

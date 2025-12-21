@@ -2,7 +2,7 @@
 
 - Packets is called as ==frame==.
 - Transmit datagram from one ==node== to physically adjacent node ==over a medium link==.
-- Implemented in a [NIC](NIC.md).
+- Implemented in a [Network Interface Card (NIC)](computer-network/link-layer/Network%20Interface%20Card%20(NIC).md).
 - Works with ==switch==.
 # Services
 - Framing = encapsulates datagram

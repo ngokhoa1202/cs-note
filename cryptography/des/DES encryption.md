@@ -1,5 +1,4 @@
 #symmetric-cipher #cryptography #cybersecurity #algorithm #bit-manipulation #des 
-
 # Structure
 - ![](Pasted%20image%2020240530091845.png)
 - Block cipher $Plaintext=64 bits \to Ciphetext=64bits$ using key $K=56 bits$ 
@@ -30,7 +29,6 @@
 - ![](Pasted%20image%2020240526120646.png)
 - ![](Pasted%20image%2020240526120942.png)
 - Increases ==diffusion==.
-
 ### Substitution box (S-box)
 - Consists of 8 independent S-boxes $S_0, S_1,...,S_8$.
 - Each S-box contains $2^6=64$ entries, represented by $4 \times 16$ table, which map 6-bit input to 4-bit output.
@@ -63,5 +61,6 @@
 - From round 2 to round 16, repeat above steps to product subkey $k_i$ 
 - $$\begin{cases} C_0 \cdot D_0 = PC-1(k) \to 56 \space bit \\ C_i=LS(C_{i-1}), D_i=LS(D_{i-1}) \to 28 \space bit \\ k_i = PC-2(C_i \cdot P_i) \to 48 \space bit \end{cases}$$
 - ![](Pasted%20image%2020240527101336.png)
--
-- 
+***
+# References
+1. 

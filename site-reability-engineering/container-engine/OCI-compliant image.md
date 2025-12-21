@@ -1,6 +1,5 @@
 #docker #binary-image  #container #operating-system #process #cli  #software-architecture 
-
-# Docker image
+# Binary image
 - An image is a standardized ==filesystem== that includes all of the files, ==binaries==, libraries, and ==configurations== to run a container:
 - Docker image commands are actually ==mapped into the host's command line interface==.
 - If an image is loaded into RAM and executed, it become a process or multiple [Process](operating-system/process/Process.md)

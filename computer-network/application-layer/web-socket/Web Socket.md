@@ -1,5 +1,5 @@
-#web-socket #protocol #computer-network #application-layer #web #http #tcp #transport-layer 
-
+#web-socket #protocol #computer-network #application-layer #web #http #tcp
+#transport-layer 
 # Definition
 - WebSocket is a computer communications protocol, providing a <mark class="hltr-yellow">simultaneous bi-directional</mark> communication channel *over a single TCP connection*.
 # URI Scheme

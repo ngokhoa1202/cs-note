@@ -1,20 +1,19 @@
-#cli #ubuntu #system-admin #operating-system 
-
-# useradd
+#cli #ubuntu #system-admin #operating-system #linux #fedora #centos-stream #rhel 
+# `useradd`
 - Create a new user.
 ```bash
 useradd <username>
 ```
-
-# usermod
+# `usermod`
 - Modify a user.
-
-# groupadd
+# `groupadd`
 - Add a new group.
-
-# chgrp
+# `chgrp`
 - Change the group ownership of a particular user.
 ```bash
 chgrp -R <group> <user>
 ```
 - `-R` flag: Recursively change on files and related directories.
+***
+# References
+1. 

@@ -3,7 +3,7 @@
 # Remote branch initialization
 - Remote branches is actually <mark style="background: #e4e62d;">pointers</mark> to commits stored on remote server.
 - Explicitly list remote branches use `git ls-remote` or `git remote show` commands.
-```bash
+```Shell title='List remote branches'
 git ls-remote <local-name-of-remote-branch>
 # equivalent to
 git remote show <local-name-of-remote-branch>
@@ -15,7 +15,6 @@ git remote show <local-name-of-remote-branch>
 >Rename remote name when cloning a repository using  `-o` flag
 >`git clone -o <remote-name>` 
 - ![](Pasted%20image%2020241102112711.png)
-
 # Remote branch fetching
 - Local branches and remote branches may significantly diverges. ![](Pasted%20image%2020241102112848.png)
 - Remote branch synchronization means <mark style="background: #e4e62d;">fetching</mark> new data from remote server, <mark style="background: #e4e62d;">updating</mark> the local database, <mark style="background: #e4e62d;">moving the locally remote branch</mark> to its up-to-date position.
@@ -24,7 +23,6 @@ git fetch <remote-branch> # Fetch, update & move locally remote branch
 
 git fetch origin master # Update the master branch in remote origin
 ```
-
 - ![](Pasted%20image%2020241102113528.png)
 ## Multiple remote servers
 - Use `git remote add` to add a remote server to the local database. [Fetching and pulling from remote repositories](Remote%20repository.md#Fetching%20and%20pulling%20from%20remote%20repositories)
@@ -32,7 +30,7 @@ git fetch origin master # Update the master branch in remote origin
 - Run `git fetch <remote>` to fetch, update the new remote  branch on remote server.
 - ![](Pasted%20image%2020241102114030.png)
 - `git fetch` only downloads new <mark style="background: #e4e62d;">immutable remote branches</mark> ($\equiv$ not editable) but <mark style="background: #e4e62d;">NOT</mark> create an editable local equivalent branch.
-- $\implies$ There are two ways to resolve this:
+- There are two ways to resolve this:
 	- Switch to local branch and merge it with the fetched remote branch using `git merge`
 	- Create a local copy branch based on that remote branch using `git checkout` or `git branch -u` 
 ```bash title:"git checkout for fetching remote"
@@ -50,10 +48,9 @@ git fetch --all
 git checkout -b serverfix origin/serverfix 
 Branch serverfix set up to track remote branch serverfix from origin. Switched to a new branch 'serverfix
 ```
-
 # Remote branch push
 - Run `git push` to upload the local branch update to the remote branch. [Pushing to remote repositories](Remote%20repository.md#Pushing%20to%20remote%20repositories)
-```bash title:"git push to push a branch"
+```Shell title:"git push to push a branch"
 git push <remote> <branch> # General simplest form
 ```
 - The full branch form in both local and remote server is `refs/head/<local-name-of-branch>:refs/head/<remote-name-of-branch>`.

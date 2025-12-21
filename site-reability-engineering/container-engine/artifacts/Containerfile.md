@@ -1,6 +1,5 @@
 #dockerfile #docker #ci-cd #operating-system #scripting #bash #shell #file-system #operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
-
-- Dockerfile is a special file for building Docker image.
+- Containerfile or Dockerfile is a special file for building Docker image.
 - From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
 # Syntax
 ```Dockerfile
@@ -96,7 +95,7 @@ CMD ["tini", "--", "node", "./bin/www"]
 - Files can be *selectively copied* from one stage to another stage until the final image.
 ***
 # References
-1. [Docker image](Docker%20image.md) for Docker image concepts.
+1. [OCI-compliant image](site-reability-engineering/container-engine/OCI-compliant%20image.md) for Docker image concepts.
 2. https://docs.docker.com/reference/dockerfile/ for Dockerfile command references.
 3. https://docs.docker.com/reference/dockerfile/#copy for Copy command.
 4. https://www.udemy.com/course/docker-mastery/learn/lecture/6806640?start=390#overview for tutorial.

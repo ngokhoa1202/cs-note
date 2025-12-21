@@ -1,25 +1,21 @@
 #cli #docker #ci-cd #operating-system #container #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume 
-
 # General syntax
 ```bash
 docker <cmd> <sub-cmd> (options)
 ```
-
 # Docker container run
 ## Behavior
 - ==Create and run a new container== for an image. If the specified image is not found, Docker Engine will automagically ==pull== it from Docker Hub.
 - If the container name has already existed, docker stops running the new container.
 ## Syntax
-
 ```bash
 sudo docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
-
 ## Options
 ### Attached mode
 - `-a` or `--attach` ==attach container to the terminal== stdin, stdout $\implies$ all logs are shown to the current terminal.
 ### Detached mode 
-- `-d` or `--detach` run container as ==background process==, detach it from stdin, stdout of the currentt terminal:
+- `-d` or `--detach` run container as ==background process==, detach it from stdin, stdout of the current terminal:
 	- Return the container id on terminal.
 ### Publish port - Expose port
 - `-p` or `--publish` publish the container ==port== to the host:
@@ -52,7 +48,6 @@ $\implies$ The container's shell works the same as the Ubuntu shell.
 docker container run -a=stdout -a=stderr -i -v mysql-db:/var/lib/mysql -p 127.0.0.1:3306:3306/tcp -e \
   MYSQL_ALLOW_EMPTY_PASSWORD=yes --rm mysql:lts
 ```
-
 # Docker container stop
 ## Syntax
 ```bash
@@ -61,7 +56,6 @@ docker container stop CONTAINER+
 - The container id may not be completely specified.
 ## Behavior
 - Return the name / id of the container.
-
 # Docker container start
 ## Syntax
 ```bash
@@ -69,7 +63,6 @@ docker container start CONTAINER
 ```
 ## Behavior
 - Start a stopped container.
-
 # Docker container logs
 ## Behavior
 - ==Display all logs== related to a specific container.
@@ -85,7 +78,10 @@ docker container logs [OPTIONS] CONTAINER
 docker container top CONTAINER
 ```
 # Docker container ls
-- [List container](Docker%20information%20commands.md#List%20container)
+- List running containers.
+```Shell title='List running containers'
+docker container ls
+```
 # Docker container rm
 ## Behavior
 - ==Remove== a or multiple containers.
@@ -101,7 +97,6 @@ docker container rm [OPTIONS] CONTAINER+
 # Docker container inspect
 ## Behavior
 - Display the container's configuration (name, driver, platform, listening port, dns, ip).
-
 ## Syntax
 ```bash
 docker container inspect CONTAINER
@@ -162,11 +157,11 @@ docker container exec -it nginx bash
 ```Shell
 docker container exec -it nginx ping another-nginx
 ```
-
+***
 # References
 1. https://docs.docker.com/reference/cli/docker/container/run/#ipc for `docker run` command official documentation.
 2. https://hub.docker.com/_/mysql
 4. https://docs.docker.com/reference/cli/docker/container/ for all docker container command documentaion.
-5. [Docker container](Docker%20container.md) for introduction to docker container.
+5. [OCI-compliant container](site-reability-engineering/container-engine/OCI-compliant%20container.md) for introduction to docker container.
 6. 
 

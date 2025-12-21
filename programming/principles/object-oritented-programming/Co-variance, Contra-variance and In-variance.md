@@ -1,5 +1,4 @@
 #object-oriented-programming #discrete-math #relation #java 
-
 # Co-variant and Contra-variant functions
 - Let $D$ be a set on which a pre-order operator exists, written as $\preceq$ . 
 - A function $f : D → D$ is 

@@ -1,5 +1,4 @@
 #dns #computer-network #application-layer #client-server #udp 
-
 - Stands for ==Domain Name System==.
 - DNS service:
 	- translates host to IP.

@@ -19,13 +19,11 @@
 	- Alice does not know. She receives $Y_{D_2}$, thinks it as Bob's public key and calculates $K_2=Y_{D_2}^{X_A} (mod \space q)$ . Darth and Alice now share $K_2$ 
 	- On Bob's side, like Alice, he does not know, he still prepares $X_B$ for calculating $Y_B$ and sends it to Alice. He also calculate $K_1=Y_{D_1}^{X_B}$ 
 	- Darth once intercepts Bob's message and knows $Y_B$. He calculates secret key $K_1=Y_B^{X_{D_1}} (mod \space q)$  . Now Darth and Bob shares $K_1$.
-
-	
 # Application
 - Key exchange protocol [IKE](IKE.md).
 - Central directory to ==store public key==.
 - Any user granted permission can access directory to gain public key and generate his own private key.
 - Does not support replay attacks.
-
+***
 # References
 1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).

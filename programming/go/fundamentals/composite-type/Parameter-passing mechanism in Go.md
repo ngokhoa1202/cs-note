@@ -35,7 +35,7 @@ func resliceInFunction(s []int) {
     fmt.Println("Inside length:", len(s))    // 2
 }
 ```
-- 
+***
 # References
 1. [Parameter-passing mechanisms](Parameter-passing%20mechanisms.md) for pass by value.
 2. 

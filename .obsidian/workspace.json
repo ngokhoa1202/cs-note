@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "c4d7d69ff05e8897",
+        "id": "44386a8ce4449c55",
         "type": "tabs",
         "children": [
           {
-            "id": "f467261af5208b07",
+            "id": "f35e6d5b2f2acf60",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/problems/leetcode/Problem 1051. Height Checker.md",
+                "file": "computer-network/link-layer/Network Interface Card (NIC).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Problem 1051. Height Checker"
+              "title": "Network Interface Card (NIC)"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "heredoc",
+                "query": "tag:#centos",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 563.5
+    "width": 442.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -193,44 +193,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f467261af5208b07",
+  "active": "f35e6d5b2f2acf60",
   "lastOpenFiles": [
-    "algorithm/algorithm/sorting/internal-sorting/Quick sort.md",
-    "algorithm/problems/leetcode/Problem 1051. Height Checker.md",
-    "algorithm/problems/leetcode/Problem 747. Largest Number At Least Twice of Others.md",
-    "programming/java/fundamentals/functional-programming/Lambda expression.md",
-    "programming/java/fundamentals/functional-programming/Method reference.md",
-    "programming/java/fundamentals/functional-programming/Method reference.md",
-    "programming/java/fundamentals/functional-programming/high-order-function/Lambda expression.md",
-    "programming/java/fundamentals/functional-programming/examples/Sort a string.md",
-    "programming/java/fundamentals/functional-programming/examples/Convert a Stream<T> to TStream.md",
-    "programming/java/fundamentals/functional-programming/examples/Convert a primitive array to Set.md",
-    "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md",
-    "algorithm/problems/leetcode/Problem 645. Set Mismatch.md",
-    "algorithm/problems/leetcode/Problem 1518. Water Bottles.md",
-    "algorithm/problems/leetcode/Problem 896. Monotonic array.md",
-    "algorithm/problems/leetcode/Problem 868. Binary Gap.md",
-    "algorithm/problems/leetcode/Problem 944. Delete Columns to Make Sorted.md",
-    "programming/go/fundamentals/Function.md",
-    "programming/go/fundamentals/composite-type/Slice.md",
-    "programming/go/fundamentals/Method.md",
+    "operating-system/system-admin/User management commands.md",
+    "operating-system/system-admin/User account management.md",
+    "operating-system/linux/distributions/redhat/Repository.md",
+    "cryptography/classical-cipher/Affine cipher.md",
+    "programming/python/Install Python.md",
+    "programming/principles/object-oritented-programming/Co-variance, Contra-variance and In-variance.md",
+    "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/Entity manager.md",
+    "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/installation/Set up Hibernate.md",
+    "programming/java/fundamentals/Variable arguments.md",
+    "programming/go/fundamentals/Pointer.md",
     "programming/go/fundamentals/composite-type/Struct.md",
     "programming/go/fundamentals/Channel.md",
-    "programming/go/fundamentals/Enum.md",
-    "programming/go/fundamentals/Pointer.md",
-    "programming/go/fundamentals/Type conversion.md",
-    "programming/go/fundamentals/Variable.md",
+    "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md",
     "programming/go/fundamentals/composite-type/Map.md",
-    "resume/Middle Java Engineer - ST Engineering company.pdf",
-    "resume/english-resume.pdf",
-    "operating-system/linux/distributions/redhat/rhel",
-    "operating-system/linux/distributions/redhat/fedora",
-    "operating-system/linux/distributions/debian/ubuntu",
-    "operating-system/linux/distributions/debian",
-    "operating-system/linux/distributions",
-    "site-reability-engineering/container/podman/podman-image/java/spring/spring-boot",
-    "site-reability-engineering/container/podman/podman-image/java/spring",
-    "site-reability-engineering/container/podman/podman-image/java/quarkus",
+    "programming/go/fundamentals/composite-type/Array.md",
+    "programming/go/concurrency-control/Goroutine.md",
+    "cryptography/rsa/Diffie-Hellman key exchange..md",
+    "computer-network/link-layer/link-virtualization/MPLS.md",
+    "computer-network/link-layer/error-detection/Error detection overview.md",
+    "computer-network/application-layer/web-socket/Web Socket.md",
+    "computer-network/application-layer/dns/Domain name system.md",
+    "computer-network/application-layer/dns/DNS.md",
+    "site-reability-engineering/container-engine/Container commands.md",
+    "Docker information commands.md",
+    "discrete-math/relation/relational-algebra/Relational algebra examples.md",
+    "discrete-math/relation/relational-algebra/Relational Algebra.md",
+    "Base.base",
+    "site-reability-engineering/container-engine/artifacts",
+    "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot",
+    "site-reability-engineering/container-engine/artifacts/java/spring",
+    "site-reability-engineering/container-engine/artifacts/java/quarkus",
+    "site-reability-engineering/container-engine/artifacts/java",
+    "site-reability-engineering/container/docker/docker-image/dockerfile",
+    "site-reability-engineering/container/podman/podman-image",
+    "site-reability-engineering/container-engine/podman/podman-authentication",
+    "site-reability-engineering/container-engine/podman/podman-architecture",
     "assets/Pasted image 20251213172355.png",
     "assets/Pasted image 20251213172346.png",
     "assets/Pasted image 20251213172322.png",

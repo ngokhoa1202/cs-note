@@ -19,7 +19,7 @@ body {
 [class^="hltr-"],
 .cm-highlight,
 .has-list-bullet mark {
-  font-family: "Sentient Variable" !important;
+  font-family: "Lora" !important;
   font-style: italic;
   font-weight: 500;
 }

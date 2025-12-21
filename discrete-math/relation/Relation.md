@@ -1,5 +1,4 @@
 #discrete-math #relation 
-
 # n-ary relations
 - Let $A_1 , A_2 , . . . , A_n$ be sets. An **n-ary relation** on these sets is a subset of $A_1 \times A_2 \times · · · \times A_n$ .
 - The sets $A_1 , A_2 , . . . , A_n$  are called the domains of the relation, and $n$ is called its degree.

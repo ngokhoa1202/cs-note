@@ -1,4 +1,4 @@
-#ubuntu #operating-system  #configuration  #installation  #operating-system  #cli  #debian #centos #linux #fedora 
+#ubuntu #operating-system  #configuration  #installation  #operating-system  #cli  #debian #centos-stream #linux #fedora 
 
 # Path variable location
 - Append the `$PATH` environment variable with the `bin` path of the program that we want to make us of its command on the terminal.

@@ -14,7 +14,7 @@
 	- top-level domain -> .net, .com, .edu, .gov,....
 	- authoritative domain -> authoritative hostname...
 # DNS Resolution
-## Iterated query
+## Iterative query
 ![](Pasted%20image%2020240512185745.png)
 ## Recursive query
 ![](Pasted%20image%2020240512185942.png)
