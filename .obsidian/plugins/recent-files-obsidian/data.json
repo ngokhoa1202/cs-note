@@ -1,16 +1,36 @@
 {
   "recentFiles": [
     {
+      "basename": "Problem 3074. Apple Redistribution into Boxes",
+      "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
+    },
+    {
+      "basename": "The Linux Boot process",
+      "path": "operating-system/linux/The Linux Boot process.md"
+    },
+    {
+      "basename": "Redhat Repository",
+      "path": "operating-system/linux/distributions/redhat/Redhat Repository.md"
+    },
+    {
+      "basename": "Manage Process",
+      "path": "operating-system/linux/distributions/debian/ubuntu/Manage Process.md"
+    },
+    {
+      "basename": "Install .deb file",
+      "path": "operating-system/linux/distributions/debian/Install .deb file.md"
+    },
+    {
+      "basename": "Repository",
+      "path": "operating-system/linux/Repository.md"
+    },
+    {
       "basename": "Systemctl commands",
       "path": "operating-system/linux/Systemctl commands.md"
     },
     {
       "basename": "Nslookup",
       "path": "operating-system/linux/Nslookup.md"
-    },
-    {
-      "basename": "Repository",
-      "path": "operating-system/linux/distributions/redhat/Repository.md"
     },
     {
       "basename": "Diffie-Hellman key exchange.",
@@ -179,26 +199,6 @@
     {
       "basename": "Sort a primitive array in reverse order",
       "path": "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md"
-    },
-    {
-      "basename": "Convert a StreamT to TStream",
-      "path": "programming/java/fundamentals/functional-programming/examples/Convert a StreamT to TStream.md"
-    },
-    {
-      "basename": "Consumer interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md"
-    },
-    {
-      "basename": "Containerfile",
-      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
-    },
-    {
-      "basename": "Parameter-passing mechanism in Go",
-      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
-    },
-    {
-      "basename": "Map",
-      "path": "programming/go/fundamentals/composite-type/Map.md"
     }
   ],
   "omittedPaths": [],

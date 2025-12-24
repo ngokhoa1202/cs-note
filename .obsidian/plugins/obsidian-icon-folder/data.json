@@ -627,7 +627,6 @@
   "algorithm/problems/leetcode/Problem 1037. Valid Boomerang.md": "SiLeetcode",
   "algorithm/problems/leetcode/Problem 448. Find All Numbers Disappeared in an Array.md": "SiLeetcode",
   "algorithm/problems/leetcode/Problem 219. Contains Duplicate II.md": "SiLeetcode",
-  "operating-system/linux/distributions/redhat/Repository.md": "SiCentos",
   "programming/java/fundamentals/functional-programming/examples/Convert a StreamT to TStream.md": "FabJava",
   "site-reability-engineering/build-tools": "LiHammer",
   "site-reability-engineering/build-tools/java": "FabJava",
@@ -645,5 +644,7 @@
   "site-reability-engineering/container-engine/podman": "SiPodman",
   "site-reability-engineering/container-engine/podman/Podman architecture.md": "SiPodman",
   "site-reability-engineering/build-tools/javascript/web-bundler/vite": "SiVite",
-  "site-reability-engineering/build-tools/javascript/web-bundler/parcel": "LoParcel"
+  "site-reability-engineering/build-tools/javascript/web-bundler/parcel": "LoParcel",
+  "operating-system/linux/distributions/redhat/Redhat Repository.md": "SiCentos",
+  "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md": "SiLeetcode"
 }

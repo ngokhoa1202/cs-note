@@ -1,4 +1,4 @@
-#ubuntu #cli #operating-system #process #configuration  #debian 
+#ubuntu #cli #operating-system #process #configuration  #debian #rhel #linux 
 # General syntax
 ```Shell
 systemctl subcommand argument
@@ -6,7 +6,7 @@ systemctl subcommand argument
 - Maybe use the `sudo` command .
 # Service management
 ## List all available service
-```Shell
+```Shell title='List all available service'
 systemctl list-units --type=service
 ```
 ## List active service
@@ -19,14 +19,13 @@ systemctl list-units --type=service --state=active
 ```bash
 systemctl start {servicename}
 ```
-
 - For example `mssql-server` service.
 ```bash
 systemctl start mssql-server
 ```
 
 ## Stop a service
-- Equivalent to kill a runing process $\implies$ remove it from main memory.
+- Equivalent to kill a running process $\implies$ remove it from main memory.
 ```bash
 systemctl stop {servicename}
 ```
@@ -38,7 +37,7 @@ systemctl restart {servicename}
 
 ## Enable a service.
 - Allows a service to start during the system is booting.
-```bash
+```Shell
 systemctl enable {servicename}
 ```
 ## Disable a service
@@ -46,8 +45,10 @@ systemctl enable {servicename}
 ```bash
 systemctl disable {servicename}
 ```
-
 ## Check the service status
-```bash
+```Shell
 systemctl status {service-name}
 ```
+***
+# References
+1. 
