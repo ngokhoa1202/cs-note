@@ -1,10 +1,8 @@
 #ubuntu  #cli #computer-network #dns #application-layer #operating-system #installation 
-
 # Installation
 ```bash
 sudo apt install dnsutils
 ```
-
 # Usage
 ## Syntax
 ```bash

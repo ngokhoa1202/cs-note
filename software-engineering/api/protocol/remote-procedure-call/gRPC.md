@@ -1,4 +1,4 @@
-#grpc #rpc #operating-system #computer-network #application-layer #software-engineering #interface-definition-language #google #cloud #java #quarkus 
+#grpc #rpc #operating-system #computer-network #application-layer #software-engineering #interface-definition-language #google #cloud-computing #java #quarkus 
 - gRPC stands for google Remote Procedure Call - a RPC-based <mark style="background: #e4e62d;">protocol</mark> implemented by Google.
 # Architecture
 - ![](Pasted%20image%2020241018143822.png)

@@ -1,4 +1,4 @@
-#application-layer #client-server #computer-network #web 
+#application-layer #client-server #computer-network #web #dns #tcp #ip #transport-layer #network-layer #html #css #ssl-tls #software-architecture #software-engineering #protocol 
 # Web architecture
 - The web is a layered architecture from client to network infrastructure:
 	- Client Layer (The Web):

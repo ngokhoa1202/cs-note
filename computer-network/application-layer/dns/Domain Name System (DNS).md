@@ -1,5 +1,4 @@
 #dns #computer-network #application-layer #client-server #udp 
-
 # Purpose
 - Domain Name System performs the translation from hostname to IP address and does the mapping between hosts and mail servers.
 - Domain Name System also takes the responsibility of load balancing where one domain name is mapped in multiple IP addresses, each of which represents a host.
@@ -13,7 +12,7 @@
 	- top-level domain such as `.net, .com, .edu, .gov,...`.
 	- authoritative domain is equivalent to authoritative hostname.
 # DNS Resolution
-## Iterated query
+## Iterative query
 - The client host first queries the local DNS server the IP address of a specific website.
 - The local DNS server <mark class="hltr-yellow">iteratively</mark> queries the root DNS server to retrieve the IP of top-level-domain DNS server, queries the top-level-domain DNS server to retrieve the IP address of authoritative DNS server, queries the IP address of the authoritative to retrieve the IP of available server host.
 - The IP address of the host is finally returned from the local DNS server to the client host.

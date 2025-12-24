@@ -9,10 +9,8 @@
 - Link access = MAC.
 - Reliable delivery: for high-bit error medium.
 - Error detection & recovery. hardware.
-
 # Error detection
-[Error detection overview](Error%20detection%20overview.md)
-
+- [Error detection overview](Error%20detection%20overview.md)
 # MAC
 [MAC overview](MAC%20overview.md)
 

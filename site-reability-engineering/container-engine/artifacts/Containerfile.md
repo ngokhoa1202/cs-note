@@ -1,4 +1,4 @@
-#dockerfile #docker #ci-cd #operating-system #scripting #bash #shell #file-system #operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
+#dockerfile #docker #continuous-integration #operating-system #scripting #bash #shell #file-system #operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
 - Containerfile or Dockerfile is a special file for building Docker image.
 - From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
 # Syntax

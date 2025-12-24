@@ -1,5 +1,5 @@
 #service-oriented-architecture #microservice #software-testing #software-engineering
-#software-architecture #solid #ci-cd #logging #event-driven-programming 
+#software-architecture #solid #continuous-integration #logging #event-driven-programming 
 #concurrency-control #transaction #computer-network #application-layer #cybersecurity #transaction #container 
 # Topology
 - Every service is implemented in alignment with a <mark class="hltr-yellow">bounded context</mark> to highly prioritize the high coupling.

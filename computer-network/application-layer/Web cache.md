@@ -1,5 +1,4 @@
 #application-layer #computer-network #proxy-server #http #client-server 
-
 # Web caching
 - Cache server is also known as proxy server, staying in the middle of client and original server.
 - Cache server caches regularly accessed objects to return to client without directly requesting to server, thereby reducing traffic to access link, response time and cost. 

@@ -1,6 +1,6 @@
 #event-driven-architecture  #software-testing #software-engineering
-#software-architecture  #ci-cd #logging #event-driven-programming #concurrency-control
-#computer-network #application-layer #cybersecurity #message-broker
+#software-architecture  #continuous-integration #logging #event-driven-programming
+#concurrency-control #computer-network #application-layer #cybersecurity #message-broker
 # Components
 - Event-driven architecture follows a *request-based* model. 
 - The request processors handle the request, either retrieving or updating information in a database.

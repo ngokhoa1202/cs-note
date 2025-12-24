@@ -1,4 +1,4 @@
-#compilation #abstract-syntax-tree #browser #version-control #ci-cd 
+#compilation #abstract-syntax-tree #browser #version-control #continuous-integration 
 
 # Transpiler
 - Transpiler is a source-to-source translation engine which translates one source code to another source code for browser <mark style="background: #e4e62d;">compatibility</mark>.

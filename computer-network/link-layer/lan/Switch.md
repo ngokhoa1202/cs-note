@@ -2,8 +2,7 @@
 
 - ==Transparent== to end user.
 - ==Receives and forwards frames== on correct links.
-- ==Self-learning==.
-
+- ==Self-learning==. 
 # Principle
 - All hosts must be connected to switch.
 - Implemented Ethernet on each link $\Rightarrow$ collision ==occurs within a link==.

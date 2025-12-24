@@ -1,5 +1,4 @@
 #c #cpp #gnu #llvm 
-
 # Class essential operations
 ## Constructors, destructors, copy and move
 - Every class in C++ should define these functions:
@@ -46,7 +45,6 @@ void copy(Shape& s1, const Shape& s2)
 	s1 = s2; // error: Shape copy is deleted
 }
 ```
-
 ### Copy constructor
 - Copy constructor should conform to Deep copy mechanism.
 ```cpp title='Interface class for later implementation'
@@ -78,7 +76,6 @@ ArrayList::ArrayList(const ArrayList& list) : numbers{new int[list.size]}, size{
   }
 }
 ```
-
 ### Copy assignment
 -  Copy assignment should conform to Deep copy mechanism.
 ```cpp title='Copy assignment using Deep copy'
@@ -93,7 +90,6 @@ ArrayList& ArrayList::operator=(const ArrayList& list) {
   return *this;
 }
 ```
-
 ### Move constructor
 - Move constructor operation is to <mark class="hltr-yellow">transfer</mark> the <mark class="hltr-yellow">resources</mark> held by a temporary object to the new object. 
 - A move operation is applied when an <mark class="hltr-yellow">rvalue reference</mark> is used as an initializer (constructor) or as the right-hand side of an assignment.
@@ -178,7 +174,6 @@ public:
 Circle circle = 3.2; // unacceptable anymore
 ...
 ```
-
 ## Member initializer
 - Employs the member initializer list to simplify constructor in C++.
 ```cpp title='Member initializer with initializer list'
@@ -195,8 +190,7 @@ public:
 	// ...
 }
 ```
-
-
+***
 # References
 1. A Tour of C++ - Bjarne Stroustrup - Addison Wesley Professional (2022).
 	1. Chapter 6. Essential Operations.

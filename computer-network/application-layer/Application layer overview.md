@@ -1,5 +1,4 @@
 #computer-network #application-layer 
-
 # Concepts
 - ==Host-to-host== connection via ==sockets== (transport layer).
 - Packets are called ==messages==.

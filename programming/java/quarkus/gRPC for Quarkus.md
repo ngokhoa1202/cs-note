@@ -1,4 +1,4 @@
-#java #quarkus #rpc #grpc #operating-system #computer-network #application-layer #google #cloud #transport-layer #software-engineering  #software-architecture #jakarta-ee #microservice #proxy-server 
+#java #quarkus #rpc #grpc #operating-system #computer-network #application-layer #google #cloud-computing #transport-layer #software-engineering  #software-architecture #jakarta-ee #microservice #proxy-server 
 
 # Quarkus gRPC architecture
 - ![](gRPC.drawio.png)

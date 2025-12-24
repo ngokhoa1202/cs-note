@@ -1,30 +1,26 @@
 #ubuntu #cli #operating-system #process #configuration  #debian 
-
 # General syntax
-```bash
+```Shell
 systemctl subcommand argument
 ```
 - Maybe use the `sudo` command .
 # Service management
 ## List all available service
-```bash
+```Shell
 systemctl list-units --type=service
 ```
-
 ## List active service
-```bash
+```Shell
 systemctl list-units --type=service --state=active
 ```
-
-`active` is one of the states. Other states are `running`, `stopped`, `enabled`, `disabled` and `failed`.
-
+- `active` is one of the states. Other states are `running`, `stopped`, `enabled`, `disabled` and `failed`.
 ## Start a service
 - Equivalent to start a new process  $\implies$ load it into main memory.
 ```bash
 systemctl start {servicename}
 ```
 
-- For example `mssql-server` service (MSSQL)
+- For example `mssql-server` service.
 ```bash
 systemctl start mssql-server
 ```

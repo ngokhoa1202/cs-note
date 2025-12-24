@@ -1,5 +1,4 @@
 #cpp #c #operator 
-
 # Assignment to hardware
 - An assignment of a built-in type is a <mark class="hltr-yellow">simple machine copy operation</mark>.
 ```cpp title='Assignment to memory example'
@@ -26,7 +25,7 @@ r = r2; // read through r2, write through r: x becomes 3
 ```
 
 - ![](Pasted%20image%2020250510131740.png)
-
+***
 # References
 1. A Tour of C++ - Bjarne Stroustrup - Addison Wesley Professional (2022).
 2. [Alias, dangling references and garbage](Alias,%20dangling%20references%20and%20garbage.md)

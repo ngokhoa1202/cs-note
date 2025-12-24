@@ -1,9 +1,11 @@
 #quarkus #java #java21 #java17 #podman #container #site-realibility-engineering 
-#continuous-delivery #bash #cli #redhat #debian #ubuntu 
+#continuous-delivery #bash #cli #rhel #debian #ubuntu #serverless #cloud-computing #maven #gradle #binary-image #fedora 
 - Quarkus framework is microservice-oriented, so its final `.jar` file is not standalone but dynamically links to other libraries.
-# Redhat-based image
-```Dockerfile title='Build Redhat-based Quarkus image' hl=22-25
-
+- Quarkus framework is aligned with *Redhat-based* container.
+# JVM image
+## Redhat-based image
+### Build with Maven
+```Dockerfile title='Build Redhat-based Quarkus image' hl=21-24,5
 FROM registry.redhat.io/ubi9/openjdk-21:latest AS builder
 WORKDIR /app
 
@@ -35,8 +37,21 @@ ENV JAVA_OPTS_APPEND="-Dquarkus.http.host=0.0.0.0 -Djava.util.logging.manager=or
 ENV JAVA_APP_JAR="/app/deployments/quarkus-run.jar"
 ENTRYPOINT ["/opt/jboss/container/java/run/run-java.sh"]
 ```
-# Debian-based image
-```Dockerfile title='Build Debian-based Quarkus image' info:6-18,23-26
+### Build with Gradle
+## Debian-based image
+### Build with maven
+#### Build  with Maven container and copy binary image into JRE container
+```Dockerfile title='Build Debian-based Quarkus image by using maven container' info:1,14,33-36
+FROM docker.io/library/maven:3.9.12-eclipse-temurin-17-alpine AS builder
+
+USER 100
+WORKDIR /app
+
+USER root
+COPY ./pom.xml ./pom.xml
+
+RUN mvn dependency:go-offline
+
 COPY ./src /app/src
 RUN mvn clean package -DskipTests
 
@@ -67,6 +82,41 @@ COPY --from=builder --chown=100 /app/target/quarkus-app/quarkus ./deployments/qu
 EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "/app/deployments/quarkus-run.jar" ]
 ```
+#### Copy source and directly build into JRE container
+```Dockerfile title='Build Debian-based Quarkus image by copying source and build' info:6-18,23-26,1
+COPY ./src /app/src
+RUN mvn clean package -DskipTests
+
+FROM docker.io/library/eclipse-temurin:17-jre AS runtime
+
+USER root
+RUN <<EOT bash
+  set -ex
+  apt-get -y update
+  apt-get -y install --no-install-recommends \
+    build-essential \
+    ca-certificates \
+    curl \
+    wget \
+    git
+  apt-get clean
+  rm -rf /var/lib/apt/lists/*
+EOT
+
+USER 100
+WORKDIR /app
+
+COPY --from=builder --chown=100 /app/target/quarkus-app/lib ./deployments/lib
+COPY --from=builder --chown=100 /app/target/quarkus-app/*.jar ./deployments/
+COPY --from=builder --chown=100 /app/target/quarkus-app/app ./deployments/app
+COPY --from=builder --chown=100 /app/target/quarkus-app/quarkus ./deployments/quarkus
+
+EXPOSE 8080
+ENTRYPOINT [ "java", "-jar", "/app/deployments/quarkus-run.jar" ]
+```
+# Native image
+## Micro-native image
 ***
 # References
-1. 
+1. https://www.graalvm.org/ for GraalVM.
+2. 

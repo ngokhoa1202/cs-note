@@ -1,116 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Network Interface Card (NIC)",
-      "path": "computer-network/link-layer/Network Interface Card (NIC).md"
+      "basename": "Systemctl commands",
+      "path": "operating-system/linux/Systemctl commands.md"
     },
     {
-      "basename": "User management commands",
-      "path": "operating-system/system-admin/User management commands.md"
-    },
-    {
-      "basename": "User account management",
-      "path": "operating-system/system-admin/User account management.md"
+      "basename": "Nslookup",
+      "path": "operating-system/linux/Nslookup.md"
     },
     {
       "basename": "Repository",
       "path": "operating-system/linux/distributions/redhat/Repository.md"
     },
     {
-      "basename": "Affine cipher",
-      "path": "cryptography/classical-cipher/Affine cipher.md"
-    },
-    {
-      "basename": "Install Python",
-      "path": "programming/python/Install Python.md"
-    },
-    {
-      "basename": "Co-variance, Contra-variance and In-variance",
-      "path": "programming/principles/object-oritented-programming/Co-variance, Contra-variance and In-variance.md"
-    },
-    {
-      "basename": "Entity manager",
-      "path": "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/Entity manager.md"
-    },
-    {
-      "basename": "Set up Hibernate",
-      "path": "programming/java/jakarta-ee/jakarta-persistence-api/hibernate/installation/Set up Hibernate.md"
-    },
-    {
-      "basename": "Variable arguments",
-      "path": "programming/java/fundamentals/Variable arguments.md"
-    },
-    {
-      "basename": "Pointer",
-      "path": "programming/go/fundamentals/Pointer.md"
-    },
-    {
-      "basename": "Struct",
-      "path": "programming/go/fundamentals/composite-type/Struct.md"
-    },
-    {
-      "basename": "Channel",
-      "path": "programming/go/fundamentals/Channel.md"
-    },
-    {
-      "basename": "Parameter-passing mechanism in Go",
-      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
-    },
-    {
-      "basename": "Map",
-      "path": "programming/go/fundamentals/composite-type/Map.md"
-    },
-    {
-      "basename": "Array",
-      "path": "programming/go/fundamentals/composite-type/Array.md"
-    },
-    {
-      "basename": "Goroutine",
-      "path": "programming/go/concurrency-control/Goroutine.md"
-    },
-    {
       "basename": "Diffie-Hellman key exchange.",
       "path": "cryptography/rsa/Diffie-Hellman key exchange..md"
-    },
-    {
-      "basename": "MPLS",
-      "path": "computer-network/link-layer/link-virtualization/MPLS.md"
-    },
-    {
-      "basename": "Error detection overview",
-      "path": "computer-network/link-layer/error-detection/Error detection overview.md"
-    },
-    {
-      "basename": "Web Socket",
-      "path": "computer-network/application-layer/web-socket/Web Socket.md"
-    },
-    {
-      "basename": "Domain name system",
-      "path": "computer-network/application-layer/dns/Domain name system.md"
-    },
-    {
-      "basename": "DNS",
-      "path": "computer-network/application-layer/dns/DNS.md"
-    },
-    {
-      "basename": "Container commands",
-      "path": "site-reability-engineering/container-engine/Container commands.md"
-    },
-    {
-      "basename": "Docker information commands",
-      "path": "Docker information commands.md"
-    },
-    {
-      "basename": "Relational algebra examples",
-      "path": "discrete-math/relation/relational-algebra/Relational algebra examples.md"
-    },
-    {
-      "basename": "Relational Algebra",
-      "path": "discrete-math/relation/relational-algebra/Relational Algebra.md"
-    },
-    {
-      "basename": "RSA",
-      "path": "cryptography/rsa/RSA.md"
     },
     {
       "basename": "Elgamal cryptosystem",
@@ -121,84 +25,180 @@
       "path": "cryptography/des/DES encryption.md"
     },
     {
-      "basename": "DES",
-      "path": "cryptography/des/DES.md"
-    },
-    {
-      "basename": "Analytical attack",
-      "path": "cryptography/des/Analytical attack.md"
+      "basename": "DES decryption",
+      "path": "cryptography/des/DES decryption.md"
     },
     {
       "basename": "Exhaustive key search",
       "path": "cryptography/des/Exhaustive key search.md"
     },
     {
-      "basename": "DES decryption",
-      "path": "cryptography/des/DES decryption.md"
+      "basename": "World Wide Web",
+      "path": "computer-network/application-layer/World Wide Web.md"
     },
     {
-      "basename": "3DES",
-      "path": "cryptography/des/3DES.md"
+      "basename": "Application layer overview",
+      "path": "computer-network/application-layer/Application layer overview.md"
     },
     {
-      "basename": "Relation",
-      "path": "discrete-math/relation/Relation.md"
+      "basename": "Client-Server paradigm",
+      "path": "computer-network/application-layer/Client-Server paradigm.md"
     },
     {
-      "basename": "SRE_Roadmap",
-      "path": "SRE_Roadmap.md"
+      "basename": "Web Socket",
+      "path": "computer-network/application-layer/web-socket/Web Socket.md"
     },
     {
-      "basename": "Problem 219. Contains Duplicate II",
-      "path": "algorithm/problems/leetcode/Problem 219. Contains Duplicate II.md"
+      "basename": "Switch",
+      "path": "computer-network/link-layer/lan/Switch.md"
     },
     {
-      "basename": "Problem 448. Find All Numbers Disappeared in an Array",
-      "path": "algorithm/problems/leetcode/Problem 448. Find All Numbers Disappeared in an Array.md"
+      "basename": "MAC Address",
+      "path": "computer-network/link-layer/lan/MAC Address.md"
     },
     {
-      "basename": "Problem 1037. Valid Boomerang",
-      "path": "algorithm/problems/leetcode/Problem 1037. Valid Boomerang.md"
+      "basename": "Ethernet",
+      "path": "computer-network/link-layer/lan/Ethernet.md"
     },
     {
-      "basename": "Problem 771. Jewels and Stones",
-      "path": "algorithm/problems/leetcode/Problem 771. Jewels and Stones.md"
+      "basename": "Address Resolution Protocol (ARP)",
+      "path": "computer-network/link-layer/lan/Address Resolution Protocol (ARP).md"
     },
     {
-      "basename": "Base",
-      "path": "Base.base"
+      "basename": "Error detection overview",
+      "path": "computer-network/link-layer/error-detection/Error detection overview.md"
     },
     {
-      "basename": "Remote branches",
-      "path": "site-reability-engineering/version-control/git/git-branching/Remote branches.md"
-    },
-    {
-      "basename": "Rebasing",
-      "path": "site-reability-engineering/version-control/git/git-branching/Rebasing.md"
-    },
-    {
-      "basename": "Rebasing",
-      "path": "site-reability-engineering/version-control/git/git-rebasing/Rebasing.md"
-    },
-    {
-      "basename": "OCI-compliant image",
-      "path": "site-reability-engineering/container-engine/OCI-compliant image.md"
-    },
-    {
-      "basename": "Containerfile",
-      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+      "basename": "Web cache",
+      "path": "computer-network/application-layer/Web cache.md"
     },
     {
       "basename": "Build Spring Boot image",
       "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
     },
     {
-      "basename": "Podman architecture",
-      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Gradle commands",
+      "path": "site-reability-engineering/build-tools/java/gradle/Gradle commands.md"
+    },
+    {
+      "basename": "Event-driven architecture",
+      "path": "software-engineering/software-architecture/architecture/event-driven-architecture/Event-driven architecture.md"
+    },
+    {
+      "basename": "Domain Name System (DNS)",
+      "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
+    },
+    {
+      "basename": "Harmonic series",
+      "path": "calculus/Harmonic series.md"
+    },
+    {
+      "basename": "L Hopital rule",
+      "path": "calculus/L Hopital rule.md"
+    },
+    {
+      "basename": "Resource",
+      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
+    },
+    {
+      "basename": "Representational State Transfer (REST)",
+      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "software-engineering/api/protocol/remote-procedure-call/gRPC.md"
+    },
+    {
+      "basename": "OpenAPI",
+      "path": "software-engineering/api/api-tool/openapi/OpenAPI.md"
+    },
+    {
+      "basename": "Install OpenAPI",
+      "path": "software-engineering/api/api-tool/openapi/installation/Install OpenAPI.md"
+    },
+    {
+      "basename": "UML Class diagram",
+      "path": "software-engineering/diagram/UML Class diagram.md"
+    },
+    {
+      "basename": "english-resume",
+      "path": "resume/english-resume.pdf"
+    },
+    {
+      "basename": "Programming paradigms",
+      "path": "programming/principles/paradigm/Programming paradigms.md"
+    },
+    {
+      "basename": "Basic NPM cli",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Basic NPM cli.md"
+    },
+    {
+      "basename": "Basic Yarn cli",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/yarn/Basic Yarn cli.md"
+    },
+    {
+      "basename": "HTTP Put, Patch, Delete in Laravel PHP",
+      "path": "programming/php/laravel/router/HTTP Put, Patch, Delete in Laravel PHP.md"
+    },
+    {
+      "basename": "Webpack configuration",
+      "path": "site-reability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md"
+    },
+    {
+      "basename": "ESLint Parser",
+      "path": "programming/javascript/eslint/ESLint Parser.md"
+    },
+    {
+      "basename": "Run Java program",
+      "path": "programming/java/fundamentals/cli/Run Java program.md"
+    },
+    {
+      "basename": "Gradle project architecture",
+      "path": "site-reability-engineering/build-tools/java/gradle/Gradle project architecture.md"
+    },
+    {
+      "basename": "Gradle tasks",
+      "path": "site-reability-engineering/build-tools/java/gradle/Gradle tasks.md"
+    },
+    {
+      "basename": "Gradle build scripts",
+      "path": "site-reability-engineering/build-tools/java/gradle/Gradle build scripts.md"
+    },
+    {
+      "basename": "Supplier interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Supplier interface.md"
+    },
+    {
+      "basename": "Sort a primitive array in reverse order",
+      "path": "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md"
+    },
+    {
+      "basename": "Convert a StreamT to TStream",
+      "path": "programming/java/fundamentals/functional-programming/examples/Convert a StreamT to TStream.md"
+    },
+    {
+      "basename": "Consumer interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md"
+    },
+    {
+      "basename": "Containerfile",
+      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
+    },
+    {
+      "basename": "Parameter-passing mechanism in Go",
+      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md"
+    },
+    {
+      "basename": "Map",
+      "path": "programming/go/fundamentals/composite-type/Map.md"
     }
   ],
   "omittedPaths": [],
