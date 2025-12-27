@@ -1,9 +1,8 @@
-#structured-programming #functional-programming 
-
+#structured-programming #functional-programming #java #go #c #cpp #javascript #typescript #memory 
 # Pass by value
-- The caller evaluates the arguments and their content is copied into the parameter variable.
-- As a result, if the argument passed is not a pointer and reference, any modification to that corresponding parameter inside the callee is invisible in the caller.
-- Otherwise, the callee only copies the address content of the argument and is able to change the referenced object. 
+- The caller evaluates the arguments and their content is <mark class="hltr-yellow">copied</mark> into the parameter variable.
+- As a result, if the argument passed is not a pointer and reference, any modification to that corresponding parameter inside the callee is *invisible* in the caller.
+- Otherwise, the callee only copies the *address content* of the argument and is able to change the referenced object. 
 # Pass by reference
 - Pass by reference requires the argument to be a variable with an allocated address.
 - Pass by reference passes the location of the argument into its reciprocal parameter so that the parameter becomes an <mark class="hltr-yellow">alias</mark> for the argument.
@@ -51,7 +50,19 @@ main()
 - At line 4: $j = y = i + j$
 - At line 5: $i = i + 1$
 - At line 7: $j+y=i+j+i+j=(i+1)+j+(i+1)=2(i+1)+2j=2 \times (0+1) + 2 \times 2 = 6$
+# Application
+## Java
+- [[programming/java/fundamentals/java-core/common-problems/Swap two variables|Swap two variables]]
+## Go
+- [[programming/go/fundamentals/common-problems/Swap two variables|Swap two variables]]
+## JavaScript
+- [[programming/javascript/common-problems/Swap two variables|Swap two variables]]
+***
 # References
 1. Programming languages, principles and practice - Louden K.C., Lambert K.A. - Course Technology, 3th Edition 2011.
 	1. Chapter 10. Control II—Procedures and Environments
 		1. Section 10.2. Parameter-passing mechanisms.
+2. [[programming/javascript/common-problems/Swap two variables|Swap two variables]]
+3. [[programming/java/fundamentals/java-core/common-problems/Swap two variables|Swap two variables]]
+4. [[programming/go/fundamentals/common-problems/Swap two variables|Swap two variables]]
+5. 

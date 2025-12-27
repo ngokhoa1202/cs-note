@@ -14,8 +14,10 @@ class Solution {
 ```
 # Complexity
 ## Time complexity
-
+- $\Theta(n\text{log}n)$.
 ## Space complexity
+- $\Theta(n)$.
+- The auxiliary space is $\Theta(1)$.
 ***
 # References
 1. https://leetcode.com/problems/buy-two-chocolates/description/

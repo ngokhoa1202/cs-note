@@ -6,7 +6,7 @@
 # Implementation
 ## Java
 - `{Java}java.util.PriorityQueue` data structure is used to instantiate a priority queue object. `{Java}Collections.reverseOrder()` is passed as argument to specify that the priority queue is a max heap behind the scene.
-- A `{Java}java.util.HashMap` data structure is used to reversly mapped the score to its index because of its uniqueness.
+- A `{Java}java.util.HashMap` data structure is used to reversely mapped the score to its index because of its uniqueness.
 ```Java title='Problem 506 in Java: Priority queue solution'
 class Solution {
   public String[] findRelativeRanks(int[] scores) {

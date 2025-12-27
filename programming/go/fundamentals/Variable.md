@@ -1,5 +1,4 @@
 #go #data-type 
-
 # Variable declaration
 - Regular variable declaration
 ```Go title='General form of variable declaration'
@@ -49,6 +48,41 @@ func getPointerToClosureVariable() *int {
 field1, offset := nextField(str, 0)
 field2, offset := nextField(str, offset)  // redeclares offset
 x, y, x := 1, 2, 3                        // illegal: x repeated on left side of :=
+```
+# Constants
+## Untyped constants
+- [[programming/go/fundamentals/Type conversion#Untyped constant|Type conversion]].
+## Typed constants
+### Explicit type declaration
+```Go title='Type constant with explicit type declaration'
+const X float32 = 3.14
+
+const (
+	A, B int64   = -3, 5
+	Y    float32 = 2.718
+)
+```
+### Explicit type conversion
+```Go title='Type constant with explicit type conversion'
+const X = float32(3.14)
+
+const (
+	A, B = int64(-3), int64(5)
+	Y    = float32(2.718)
+)
+```
+
+```Go title='Illegal type constant with type declaration'
+// error: 256 overflows uint8
+const a uint8 = 256
+// error: 256 overflows uint8
+const b = uint8(255) + uint8(1)
+// error: 128 overflows int8
+const c = int8(-128) / int8(-1)
+// error: -1 overflows uint
+const MaxUint_a = uint(^0)
+// error: -1 overflows uint
+const MaxUint_b uint = ^0
 ```
 # Type inference
 - If the type is not specified in variable declaration, it is automatically inferred by the Go compiler.

@@ -4,7 +4,7 @@
 - ![](Pasted%20image%2020240820140638.png)
 - The rise of stateless architecture partially decentralizes server's load. However, this distributed system make the traditional session-based authentication infeasible because the user identity now resides on discrete servers.
 - This issue leads to the rise of JSON Web Token because it tackles the problem of distributed system authentication and authorization.
-# Json Web Token components
+# Components
 - Separated by the literal dot (.)
 - Simplified form:
 $$(Header).(Payload).(Signature)$$
@@ -29,7 +29,7 @@ $$(Header).(Payload).(Signature)$$
 ## JWT Payload
 - User-defined.
 - Each pair of $(key, \space value)$ specifies a ==claim==.
-```json
+```JSON
 {
 	"sub": "1234567890",
 	"name": "John Doe",
@@ -56,7 +56,6 @@ $$(Header).(Payload).(Signature)$$
 - Registered with https://www.iana.org/assignments/jwt/jwt.xhtml.
 ### Private claims
 - Defined by the party.
-
 ## JWT Signatures
 - Ensure data integrity  and authenticity.
 - Employs [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) , [Message Authentication Code](Message%20Authentication%20Code.md)
@@ -65,6 +64,7 @@ $$(Header).(Payload).(Signature)$$
 - `HS256`: ==HMAC using SHA-256==.
 - `RS256`: RSASSA PKCS1 v1.5 using SHA-256. 
 - `ES256`: ECDSA using P-256 and SHA-256.
+***
 # References
 1. https://jwt.io/introduction for JWT Introduction.
 2. https://jwt.io/ for JWT official documentation.

@@ -8,7 +8,7 @@ MAC =f_{MAC}(K=secret-key, M=message)
 - Check received MAC against recalculated MAC.
 - Can be together with ==sequence number== to resolve replay attack.
 - More ==lightweight== than encryption.
-- Widespread used by [Json Web Token](Json%20Web%20Token.md)
+- Widespread used by [Json Web Token](cybersecurity/web-security/Json%20Web%20Token.md)
 # MAC Function
 - ==Many-to-one== function: many messages for one MAC values $\implies$ less vulnerable than encryption. $|Messages| >> |MAC-values|$ 
 - Three scenarios:
@@ -33,7 +33,7 @@ MAC =f_{MAC}(K=secret-key, M=message)
 - Number of matches in third round: $2^{k-3n}$ 
 - Until: $k-\alpha \times n < 0$ => find key => Number of rounds: $\alpha = \frac{k}{n}$   
 # References
-1. [Json Web Token](Json%20Web%20Token.md) for HMAC application.
+1. [Json Web Token](cybersecurity/web-security/Json%20Web%20Token.md) for HMAC application.
 2. Cryptography and Network Security - William Stallings - MAC Section.
 
 

@@ -1,5 +1,4 @@
 #cli #ubuntu #linux #operating-system #file-system #software-architecture #data-structure 
-
 # Directory/File properties
 - ![](Pasted%20image%2020240817153022.png)
 ## Type
@@ -19,22 +18,18 @@
 - The owner of the file.
 ### Group
 - The group owns the file.
-
-
 ## Size
 - The size of the file/directory.
 ## Timestamp
 ### Month
 - The month when the file is created.
-
 ### Date
 -  The date when the file is created.
 ### Time
 -  The time when the file is created.
-
 # Inode
 - Stands for Index Node.
-- Represented by a number and stores metadata of a file / directory:
+- Represented by a number and stores *metadata* of a file / directory:
 	- File type.
 	- File size.
 	- Ownership.

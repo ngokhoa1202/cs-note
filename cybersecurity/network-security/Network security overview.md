@@ -8,7 +8,7 @@
 - [Secure Socket Layer (SSL) - Transport Layer Security (TLS)](Secure%20Socket%20Layer%20(SSL)%20-%20Transport%20Layer%20Security%20(TLS).md)
 # Application-layer security
 ## HTTPS
-- [HTTPS](HTTPS.md) 
+- [HTTP Over SSL (HTTPS)](cybersecurity/network-security/application-layer/HTTP%20Over%20SSL%20(HTTPS).md) 
 ## S-MIME
 - [S-MIME](S-MIME.md)
 # Network-layer security

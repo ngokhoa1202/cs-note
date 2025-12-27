@@ -36,4 +36,4 @@ System.out.println(sorted); // Output: abcde
 ```
 ***
 # References
-1. [[Sort a primitive array in reverse order]]
+1. [[programming/java/common-problems/functional-programming/Sort a primitive array in reverse order]]

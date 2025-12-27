@@ -1,7 +1,7 @@
 #leetcode #array #sorting #greedy-algorithm #java #quicksort 
 # Algorithm
 ## Sort and simulate
-- Sort the `capacity` array in descending order to prioritize boxes with larger size, thereby minimizing the number of boxes that will be used.
+- Sort the `capacity` array in *descending order* to prioritize boxes with larger size, thereby minimizing the number of boxes that will be used.
 - Simulates the distribution of apple. Whenever the left capacity of a box is deficient to hold, the box with largest capacity among the remainders is selected to hold  the apples.
 # Implementation
 ## Java

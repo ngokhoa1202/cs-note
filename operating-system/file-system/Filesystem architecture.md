@@ -26,13 +26,12 @@
 - ![](Pasted%20image%2020240817141705.png)
 ## System binaries
 - The `sbin` directory.
-- Contain binary executables and commands ==for system aministrator== and for system maintenance purpose (e.g: iptables, reboot, fdisk, ifconfig, swapon).
+- Contain executable binary file and commands ==for system administrator== and for system maintenance purpose (e.g: iptables, reboot, fdisk, ifconfig, swapon).
 - ![](Pasted%20image%2020240817142100.png)
 ## Process
 - The `/proc` directory.
 - Virtual filesystem containing information about the running processes.
 - ![](Pasted%20image%2020240817142509.png)
-- 
 ## Variable files
 - The `var` directory.
 - Contains content of the files that are ==expected to grow==:

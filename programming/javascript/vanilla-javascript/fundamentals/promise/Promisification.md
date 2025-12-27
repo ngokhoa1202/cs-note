@@ -1,8 +1,7 @@
 #software-engineering #software-architecture #javascript #vanilla-javascript #typescript #computer-network #application-layer #design-pattern #operating-system #concurrency-control #event-driven-programming 
-
 # Promisification
 ## Definition
-- Promisification is the transformation of a function that accepts a callback into a function that returns a promise. This approach is perfectly suitable for `async-await` mechanism in Javascript.
+- Promisification is the transformation of a function that accepts a callback into a function that returns a promise. This approach is perfectly suitable for `async-await` mechanism in JavaScript.
 ```Javascript title='Promisify a simple function'
 /* loadScript that accepts a callback */
 function loadScript(src, callback) {
@@ -124,6 +123,7 @@ class CacheService {
   }
 }
 ```
+***
 # References
 1. https://javascript.info/promisify
 2. https://javascript.info/async-await

@@ -91,5 +91,5 @@ func Partition(nums []int, low int, high int) int {
 - The auxiliary space is $\Theta(n)$
 ***
 # References
-1. https://leetcode.com/problems/height-checker/description/\
+1. https://leetcode.com/problems/height-checker/description/
 2. 

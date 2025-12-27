@@ -4,22 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "44386a8ce4449c55",
+        "id": "0ab29e5300f6fdfb",
         "type": "tabs",
         "children": [
           {
-            "id": "f35e6d5b2f2acf60",
+            "id": "6be1738b95aa804c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md",
+                "file": "algorithm/problems/leetcode/Problem 977. Squares of a Sorted Array.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Problem 3074. Apple Redistribution into Boxes"
+              "title": "Problem 977. Squares of a Sorted Array"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#ci-cd",
+                "query": "tag:#object-oriented-programming",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 490.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -195,8 +195,40 @@
   },
   "active": "d8d7ea544fef7ec3",
   "lastOpenFiles": [
-    "operating-system/linux/The Linux Boot process.md",
-    "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md",
+    "programming/javascript/common-problems/Swap two variables.md",
+    "programming/java/fundamentals/java-core/common-problems/Swap two variables.md",
+    "programming/principles/function/Parameter-passing mechanisms.md",
+    "programming/go/fundamentals/common-problems/Swap two variables.md",
+    "programming/javascript/vanilla-javascript/fundamentals/promise/Promisification.md",
+    "programming/javascript/common-problems",
+    "programming/java/common-problems/functional-programming",
+    "programming/javascript/vanilla-javascript/common-problems",
+    "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md",
+    "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md",
+    "programming/javascript/vanilla-javascript/fundamentals/Class.md",
+    "programming/java/fundamentals/generics/Heap pollution.md",
+    "programming/java/fundamentals/java-core/common-problems",
+    "programming/java/fundamentals/java-core/function/Variable arguments.md",
+    "programming/java/fundamentals/Variable arguments.md",
+    "programming/java/fundamentals/java-core/interface/Default method in interface.md",
+    "programming/java/fundamentals/cli/Run Java program.md",
+    "programming/java/fundamentals/interface/Default method in interface.md",
+    "programming/go/fundamentals/Variable.md",
+    "algorithm/problems/leetcode/Problem 977. Squares of a Sorted Array.md",
+    "programming/go/fundamentals/common-problems",
+    "programming/go/fundamentals/Type conversion.md",
+    "programming/go/fundamentals/Pointer.md",
+    "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md",
+    "cybersecurity/network-security/application-layer/web-security/JSON Web Token.md",
+    "cybersecurity/network-security/application-layer/web-security/Introduction to race condition.md",
+    "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md",
+    "cybersecurity/network-security/application-layer/web-security/Introduction to Web API Testing.md",
+    "cybersecurity/cloud-security/Cloud computing.md",
+    "algorithm/problems/leetcode/Problem 575. Distribute candies.md",
+    "algorithm/problems/leetcode/Problem 182. Duplicate email.md",
+    "operating-system/linux/booting",
+    "assets/gRPC.drawio 1.png",
+    "assets/Pasted image 20251224202812.png",
     "assets/Pasted image 20251224204119.png",
     "assets/Pasted image 20251224204105.png",
     "assets/Pasted image 20251224203711.png",
@@ -205,42 +237,10 @@
     "assets/Pasted image 20251224203339.png",
     "assets/Pasted image 20251224203026.png",
     "assets/Pasted image 20251224202952.png",
-    "assets/Pasted image 20251224202812.png",
-    "operating-system/linux/distributions/redhat/Redhat Repository.md",
-    "operating-system/linux/distributions/debian/ubuntu/Manage Process.md",
-    "operating-system/linux/distributions/debian/Install .deb file.md",
-    "operating-system/linux/distributions/debian/ubuntu/Install .deb file.md",
-    "operating-system/linux/Repository.md",
-    "operating-system/linux/Systemctl commands.md",
-    "operating-system/linux/Nslookup.md",
-    "cryptography/rsa/Diffie-Hellman key exchange..md",
-    "cryptography/rsa/Elgamal cryptosystem.md",
-    "cryptography/des/DES encryption.md",
-    "cryptography/des/DES decryption.md",
-    "cryptography/des/Exhaustive key search.md",
-    "computer-network/application-layer/World Wide Web.md",
-    "computer-network/application-layer/Application layer overview.md",
-    "computer-network/application-layer/Client-Server paradigm.md",
-    "computer-network/application-layer/web-socket/Web Socket.md",
-    "computer-network/link-layer/lan/Switch.md",
-    "computer-network/link-layer/lan/MAC Address.md",
-    "computer-network/link-layer/lan/Ethernet.md",
-    "computer-network/link-layer/lan/Address Resolution Protocol (ARP).md",
-    "computer-network/link-layer/lan/ARP.md",
-    "computer-network/link-layer/error-detection/Error detection overview.md",
-    "computer-network/application-layer/Web cache.md",
-    "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md",
     "site-reability-engineering/build-tools/javascript/web-bundler/parcel",
     "site-reability-engineering/build-tools/javascript/web-bundler/vite",
     "resume/english-resume.pdf",
     "site-reability-engineering/build-tools/javascript/web-bundler",
-    "site-reability-engineering/build-tools/javascript/package-manager",
-    "site-reability-engineering/build-tools/javascript",
-    "site-reability-engineering/build-tools/java",
-    "site-reability-engineering/build-tools",
-    "Base.base",
-    "site-reability-engineering/container-engine/artifacts",
-    "assets/Pasted image 20251213172355.png",
     "software-engineering/api/protocol/web-service/Untitled.canvas",
     "algorithm/Untitled.canvas",
     "Untitled.canvas",

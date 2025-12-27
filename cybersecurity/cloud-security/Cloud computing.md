@@ -50,4 +50,5 @@
 - Encryption means that some specific queries must be changed (e.g: encrypted data do not maintain ordering of number).
 ***
 # References
-1. 
+1. Cryptography and Network Security - Dat Nguyen Thanh - HCMUT Slides.
+2. 

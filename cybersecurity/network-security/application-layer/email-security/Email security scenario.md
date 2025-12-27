@@ -74,8 +74,6 @@
 			- Bob verifies the integrity of message $m$ by comparing $H(m)$ and $H'(m)$
 >[!Important]
 >The mechanism ensures the confidentiality as well as the integrity and authenticity of the message. The encrypted message digest is private between the server and the client thanks to the encryption using shared session key.
-
-
 ***
 # References
 1. HCMUT computer network slides - Nguyễn Phương Duy

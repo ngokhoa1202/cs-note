@@ -1,5 +1,4 @@
 #java8 #java #api 
-
 - Known as defender method or <mark class="hltr-yellow">virtual function method</mark>.
 # Default method
 - An interface has ==its own implementation== of `default` method.

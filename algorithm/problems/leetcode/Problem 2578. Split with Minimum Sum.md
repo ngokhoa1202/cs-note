@@ -2,7 +2,7 @@
 # Algorithm
 ## Sort, split and assign digits alternatively
 - The original number digits are sorted into ascending order because the large digits should be placed in most significant positions.
-- The digits are alternatively assigned to $\text{num}_1$ and $\text{num}_2$ for sum calculation
+- The digits are alternatively assigned to $\text{num}_1$ and $\text{num}_2$ for sum calculation.
 # Implementation
 ## Java
 ```Java title='Problem 2578 in Java: sort, split and assign digits alternatively solution'
@@ -28,5 +28,5 @@ class Solution {
 ***
 # References
 1. https://leetcode.com/problems/split-with-minimum-sum/description/
-2. [[Sort a string]] for String sort in Java.
+2. [[programming/java/common-problems/functional-programming/Sort a string]] for String sort in Java.
 3. 

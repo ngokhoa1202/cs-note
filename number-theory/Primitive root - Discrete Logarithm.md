@@ -15,5 +15,5 @@
 - Primitive root <=> chu kỳ lặp lại của phép modulo là ==$\phi(n)$==. If n is prime, then  $ord_n(a)=\phi(n)=n-1$ .
 ***
 # References
-1. Elementary Number Theory - David M Burton - 7th edition - Mc-Graw Hill Publisher.
+1. Elementary Number Theory - David M Burton - 7th edition - McGraw Hill Publisher.
 2. 

@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Problem 3074. Apple Redistribution into Boxes",
-      "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
+      "basename": "Problem 977. Squares of a Sorted Array",
+      "path": "algorithm/problems/leetcode/Problem 977. Squares of a Sorted Array.md"
     },
     {
-      "basename": "The Linux Boot process",
-      "path": "operating-system/linux/The Linux Boot process.md"
+      "basename": "Swap two variables",
+      "path": "programming/javascript/common-problems/Swap two variables.md"
     },
     {
-      "basename": "Redhat Repository",
-      "path": "operating-system/linux/distributions/redhat/Redhat Repository.md"
+      "basename": "Swap two variables",
+      "path": "programming/java/fundamentals/java-core/common-problems/Swap two variables.md"
     },
     {
-      "basename": "Manage Process",
-      "path": "operating-system/linux/distributions/debian/ubuntu/Manage Process.md"
+      "basename": "Parameter-passing mechanisms",
+      "path": "programming/principles/function/Parameter-passing mechanisms.md"
     },
     {
-      "basename": "Install .deb file",
-      "path": "operating-system/linux/distributions/debian/Install .deb file.md"
+      "basename": "Swap two variables",
+      "path": "programming/go/fundamentals/common-problems/Swap two variables.md"
     },
     {
-      "basename": "Repository",
-      "path": "operating-system/linux/Repository.md"
+      "basename": "Promisification",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promisification.md"
     },
     {
-      "basename": "Systemctl commands",
-      "path": "operating-system/linux/Systemctl commands.md"
+      "basename": "Promise",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
     },
     {
-      "basename": "Nslookup",
-      "path": "operating-system/linux/Nslookup.md"
+      "basename": "Polyfills and transpilers",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
     },
     {
-      "basename": "Diffie-Hellman key exchange.",
-      "path": "cryptography/rsa/Diffie-Hellman key exchange..md"
+      "basename": "Class",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Class.md"
     },
     {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/rsa/Elgamal cryptosystem.md"
+      "basename": "Heap pollution",
+      "path": "programming/java/fundamentals/generics/Heap pollution.md"
     },
     {
-      "basename": "DES encryption",
-      "path": "cryptography/des/DES encryption.md"
+      "basename": "Variable arguments",
+      "path": "programming/java/fundamentals/java-core/function/Variable arguments.md"
     },
     {
-      "basename": "DES decryption",
-      "path": "cryptography/des/DES decryption.md"
-    },
-    {
-      "basename": "Exhaustive key search",
-      "path": "cryptography/des/Exhaustive key search.md"
-    },
-    {
-      "basename": "World Wide Web",
-      "path": "computer-network/application-layer/World Wide Web.md"
-    },
-    {
-      "basename": "Application layer overview",
-      "path": "computer-network/application-layer/Application layer overview.md"
-    },
-    {
-      "basename": "Client-Server paradigm",
-      "path": "computer-network/application-layer/Client-Server paradigm.md"
-    },
-    {
-      "basename": "Web Socket",
-      "path": "computer-network/application-layer/web-socket/Web Socket.md"
-    },
-    {
-      "basename": "Switch",
-      "path": "computer-network/link-layer/lan/Switch.md"
-    },
-    {
-      "basename": "MAC Address",
-      "path": "computer-network/link-layer/lan/MAC Address.md"
-    },
-    {
-      "basename": "Ethernet",
-      "path": "computer-network/link-layer/lan/Ethernet.md"
-    },
-    {
-      "basename": "Address Resolution Protocol (ARP)",
-      "path": "computer-network/link-layer/lan/Address Resolution Protocol (ARP).md"
-    },
-    {
-      "basename": "Error detection overview",
-      "path": "computer-network/link-layer/error-detection/Error detection overview.md"
-    },
-    {
-      "basename": "Web cache",
-      "path": "computer-network/application-layer/Web cache.md"
-    },
-    {
-      "basename": "Build Spring Boot image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Gradle commands",
-      "path": "site-reability-engineering/build-tools/java/gradle/Gradle commands.md"
-    },
-    {
-      "basename": "Event-driven architecture",
-      "path": "software-engineering/software-architecture/architecture/event-driven-architecture/Event-driven architecture.md"
-    },
-    {
-      "basename": "Domain Name System (DNS)",
-      "path": "computer-network/application-layer/dns/Domain Name System (DNS).md"
-    },
-    {
-      "basename": "Harmonic series",
-      "path": "calculus/Harmonic series.md"
-    },
-    {
-      "basename": "L Hopital rule",
-      "path": "calculus/L Hopital rule.md"
-    },
-    {
-      "basename": "Resource",
-      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
-    },
-    {
-      "basename": "Pagination",
-      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
-    },
-    {
-      "basename": "Representational State Transfer (REST)",
-      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "software-engineering/api/protocol/remote-procedure-call/gRPC.md"
-    },
-    {
-      "basename": "OpenAPI",
-      "path": "software-engineering/api/api-tool/openapi/OpenAPI.md"
-    },
-    {
-      "basename": "Install OpenAPI",
-      "path": "software-engineering/api/api-tool/openapi/installation/Install OpenAPI.md"
-    },
-    {
-      "basename": "UML Class diagram",
-      "path": "software-engineering/diagram/UML Class diagram.md"
-    },
-    {
-      "basename": "english-resume",
-      "path": "resume/english-resume.pdf"
-    },
-    {
-      "basename": "Programming paradigms",
-      "path": "programming/principles/paradigm/Programming paradigms.md"
-    },
-    {
-      "basename": "Basic NPM cli",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Basic NPM cli.md"
-    },
-    {
-      "basename": "Basic Yarn cli",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/yarn/Basic Yarn cli.md"
-    },
-    {
-      "basename": "HTTP Put, Patch, Delete in Laravel PHP",
-      "path": "programming/php/laravel/router/HTTP Put, Patch, Delete in Laravel PHP.md"
-    },
-    {
-      "basename": "Webpack configuration",
-      "path": "site-reability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md"
-    },
-    {
-      "basename": "ESLint Parser",
-      "path": "programming/javascript/eslint/ESLint Parser.md"
+      "basename": "Default method in interface",
+      "path": "programming/java/fundamentals/java-core/interface/Default method in interface.md"
     },
     {
       "basename": "Run Java program",
       "path": "programming/java/fundamentals/cli/Run Java program.md"
     },
     {
-      "basename": "Gradle project architecture",
-      "path": "site-reability-engineering/build-tools/java/gradle/Gradle project architecture.md"
+      "basename": "Variable",
+      "path": "programming/go/fundamentals/Variable.md"
     },
     {
-      "basename": "Gradle tasks",
-      "path": "site-reability-engineering/build-tools/java/gradle/Gradle tasks.md"
+      "basename": "Type conversion",
+      "path": "programming/go/fundamentals/Type conversion.md"
     },
     {
-      "basename": "Gradle build scripts",
-      "path": "site-reability-engineering/build-tools/java/gradle/Gradle build scripts.md"
+      "basename": "Pointer",
+      "path": "programming/go/fundamentals/Pointer.md"
     },
     {
-      "basename": "Supplier interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Supplier interface.md"
+      "basename": "HTTP Over SSL (HTTPS)",
+      "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
     },
     {
-      "basename": "Sort a primitive array in reverse order",
-      "path": "programming/java/fundamentals/functional-programming/examples/Sort a primitive array in reverse order.md"
+      "basename": "JSON Web Token",
+      "path": "cybersecurity/network-security/application-layer/web-security/JSON Web Token.md"
+    },
+    {
+      "basename": "Introduction to race condition",
+      "path": "cybersecurity/network-security/application-layer/web-security/Introduction to race condition.md"
+    },
+    {
+      "basename": "Server-side request forgery (SSRF)",
+      "path": "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md"
+    },
+    {
+      "basename": "Cloud computing",
+      "path": "cybersecurity/cloud-security/Cloud computing.md"
+    },
+    {
+      "basename": "Problem 575. Distribute candies",
+      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
+    },
+    {
+      "basename": "Problem 182. Duplicate email",
+      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
+    },
+    {
+      "basename": "Problem 62. Unique Paths",
+      "path": "algorithm/problems/leetcode/Problem 62. Unique Paths.md"
+    },
+    {
+      "basename": "Problem 21. Merge two sorted lists",
+      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
+    },
+    {
+      "basename": "Problem 50. Pow(x, n)",
+      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
+    },
+    {
+      "basename": "Problem 226. Invert Binary tree",
+      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
+    },
+    {
+      "basename": "Problem 350. Intersection of Two Arrays II",
+      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
+    },
+    {
+      "basename": "Problem 349.  Intersection of Two Arrays",
+      "path": "algorithm/problems/leetcode/Problem 349.  Intersection of Two Arrays.md"
+    },
+    {
+      "basename": "Problem 577. Employee Bonus",
+      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
+    },
+    {
+      "basename": "Problem 3074. Apple Redistribution into Boxes",
+      "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
+    },
+    {
+      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
+      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
+    },
+    {
+      "basename": "Problem 3075. Maximize Happiness of Selected Children",
+      "path": "algorithm/problems/leetcode/Problem 3075. Maximize Happiness of Selected Children.md"
+    },
+    {
+      "basename": "Problem 2697. Lexicographically Smallest Palindrome",
+      "path": "algorithm/problems/leetcode/Problem 2697. Lexicographically Smallest Palindrome.md"
+    },
+    {
+      "basename": "Problem 2578. Split with Minimum Sum",
+      "path": "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md"
+    },
+    {
+      "basename": "Harmonic series",
+      "path": "calculus/Harmonic series.md"
+    },
+    {
+      "basename": "Stirling approximation",
+      "path": "calculus/Stirling approximation.md"
+    },
+    {
+      "basename": "Generate secret key openSSL",
+      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
+    },
+    {
+      "basename": "SSH key generation",
+      "path": "operating-system/linux/cryptography/SSH key generation.md"
+    },
+    {
+      "basename": "Boot process",
+      "path": "operating-system/linux/booting/Boot process.md"
+    },
+    {
+      "basename": "Filesystem architecture",
+      "path": "operating-system/file-system/Filesystem architecture.md"
+    },
+    {
+      "basename": "File properties",
+      "path": "operating-system/file-system/File properties.md"
+    },
+    {
+      "basename": "curl commands",
+      "path": "operating-system/linux/curl commands.md"
+    },
+    {
+      "basename": "Alternative configuration",
+      "path": "operating-system/linux/Alternative configuration.md"
+    },
+    {
+      "basename": "Problem 506. Relative ranks",
+      "path": "algorithm/problems/leetcode/Problem 506. Relative ranks.md"
+    },
+    {
+      "basename": "Problem 219. Contains Duplicate II",
+      "path": "algorithm/problems/leetcode/Problem 219. Contains Duplicate II.md"
+    },
+    {
+      "basename": "Problem 222. Count Complete Tree Nodes",
+      "path": "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md"
+    },
+    {
+      "basename": "Problem 197. Rising temperature",
+      "path": "algorithm/problems/leetcode/Problem 197. Rising temperature.md"
+    },
+    {
+      "basename": "Problem 134. Gas Station",
+      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
+    },
+    {
+      "basename": "Problem 49. Group anagrams",
+      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
     }
   ],
   "omittedPaths": [],

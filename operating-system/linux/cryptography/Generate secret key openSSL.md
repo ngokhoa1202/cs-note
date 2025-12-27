@@ -3,11 +3,11 @@
 - Refers to [RSA](RSA.md)
 # Generate key pair
 ## Generate private key
-```bash title='openssl for generating private key'
+```Shell title='openssl for generating private key'
 openssl genpkey -algorithm <algorithm> -out <private-key.pem>
 ```
 ### RSA algorithm
-```bash title='openssl for RSA'
+```Shell title='openssl for RSA'
 openssl genrsa -out private-key.pem <length> # generate secret key
 
 openssl rsa -in private-key.pem -out public-key.pem -outform PEM -pubout # generate public key
@@ -23,17 +23,14 @@ openssl ecparam -genkey -name <curve-name> -out private-key.pem
     - `secp384r1`: NIST P-384 curve (higher security)
     - `secp521r1`: NIST P-521 curve (highest security)
     - `secp256k1`: The curve used by Bitcoin and many cryptocurrencies
-
 ## Generate public key from private key
 ```Shell title='openssl for generating public key from private key'
 openssl pkey -in <private-key.pem> -pubout -out <public-key.pem>
 ```
-
 # List all algorithms
 ```Shell title='openssl for listing algorithm'
 openssl list --all-algorithms
 ```
-
 # Generate certificate
 - Generate private key:
 ```Shell title='Generate certificate with openssl'
@@ -59,7 +56,6 @@ DNS.1 = localhost
 ```Shell title='Generate the certificate request'
 openssl req -new -key <private_key.pem> -out cert.csr -config san.cnf
 ```
-
 - Generate the certificate from its own request with a given duration and hash algorithm to ensure data integrity.
 ```Shell title='Generate certificate.pem'
 openssl x509 -req -in <cert.csr> -signkey <private_key.pem> -out <certificate.pem> -days <duration> -extensions v3_req -extfile san.cnf

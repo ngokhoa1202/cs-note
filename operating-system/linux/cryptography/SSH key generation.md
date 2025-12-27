@@ -10,6 +10,7 @@
 ssh-keygen -t ecdsa -b 521 -f <filename> -C <comment>
 ```
 - After having been executed, the command requires user to enter a passphrase for fingerprint to generate public key.
+***
 # References
 1. [RSA](RSA.md)
 2. 

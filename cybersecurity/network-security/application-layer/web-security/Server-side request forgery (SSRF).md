@@ -1,5 +1,4 @@
 #cybersecurity #web-security #web-server #application-layer #client-server  #network-layer #computer-network 
-
 # Purpose
 - Causes our server-side application make request to ==unintended location==.
 - Make internal network connect external network to leak sensitive data.
@@ -43,7 +42,7 @@
 - [Domain name system](Domain%20name%20system.md)
 ## Upgrade to HTTPS
 - Always upgrade to HTTPS and register certificate with a CA (Cloudfare, DigiCert, Google, ...).
-- [HTTPS](HTTPS.md)
+- [HTTP Over SSL (HTTPS)](cybersecurity/network-security/application-layer/HTTP%20Over%20SSL%20(HTTPS).md)
 ## Blocks all suspected traffic, domain,...
 - Allows any traffic except ... (e.g: block `127.0.0.1`)
 - For Java on application layer, use:
