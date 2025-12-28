@@ -1,5 +1,4 @@
 #react #oop #javascript  #typescript  #software-engineering #software-architecture #jsx 
-
 - This approach is legacy and deprecated.
 # Props
 - A JSX component accepts properties via a single `props` object.
@@ -10,7 +9,6 @@ class Welcome extends React.Component {
   }
 }
 ```
-
 # State
 - Equivalent to `useState` hook and used to remember the state of component when preparing to run side effects.
 ```Jsx title='state in React class'
@@ -26,7 +24,6 @@ class Clock extends React.Component {
   }
 }
 ```
-
 # Lifecycle methods
 - There are three essential lifecycle methods `constructor`, `render`, `componentDidMount`, `componentDidUpdate` ,`componentUnmount`
 ```Jsx title='Lifecycle method in React class-based component'
@@ -54,19 +51,19 @@ class Clock extends React.Component {
   }
 }
 ```
-## constructor
+## `constructor`
 - Initializes the states of the component before being rendered.
-## render
+## `render`
 - Purely mounts and renders the component into the web user interface (simply build from Jsx to HTML).
-## componentDidMount
+## `componentDidMount`
 - After the component is successfully rendered,  `componentDidMount` runs side effects to update the state on DOM and refs.
-## componentDidUpdate
+## `componentDidUpdate`
 - Invoked immediately after the component has been successfully updated.
 - Used to compare the new props with the old props and perform operations.
-## componentWillUnmount
+## `componentWillUnmount`
 - Invoked right before the component is unmounted and destroyed.
 - Used to perform clean up function.
-
+***
 # References
 1. https://legacy.reactjs.org/docs/components-and-props.html for ReactJs legacy class-based components.
 2. [useState hook](programming/javascript/react/hooks/useState%20hook.md) for React `useState` hooks.

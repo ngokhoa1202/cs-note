@@ -111,7 +111,8 @@ consoleLogger("System started"); // Output: [INFO] System started
 
 ```
 # Typescript's interface cheatsheet
-- Everything in Javascript is an object and Typescript's interface is used to <mark style="background: #e4e62d;">match their runtime behavior</mark>.
+- Everything in JavaScript is an object and Typescript's interface is used to <mark style="background: #e4e62d;">match their runtime behavior</mark>.
+***
 # References
 1. https://www.typescriptlang.org/cheatsheets/
 2. *https://www.typescriptlang.org/docs/handbook/2/objects.html*

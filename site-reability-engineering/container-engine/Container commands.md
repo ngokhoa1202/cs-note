@@ -1,4 +1,4 @@
-#cli #docker #continuous-integration #operating-system #container #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume 
+#cli #docker #continuous-integration #operating-system #container #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume #podman #linux #fedora #centos-stream #rhel 
 # General syntax
 ```bash
 docker <cmd> <sub-cmd> (options)
@@ -131,12 +131,17 @@ $\implies$ The container's shell works the same as the ubuntu shell.
 ## Behavior
 - List all mapping ports of a container.
 ## Syntax
-```bash
+```Shell title='List all mapping ports of a container'
 docker container port CONTAINER
 ```
-
+# Docker container attach
+## Behavior
+- Attach the terminal's standard input, output, and error to a running container using the container's ID or name.
+```Shell title='Docker container attach'
+docker container attach CONTAINER
+```
 # Example
-## Run container from mysql image
+## Run container from MySQL image
 ```bash
 sudo docker run --publish 127.0.0.1:3306:3306/tcp --env MYSQL_ROOT_PASSWORD=12022002 --detach mysql:latest
 ```

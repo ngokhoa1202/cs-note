@@ -59,11 +59,21 @@ EOT
 ```
 ## `CMD`
 - The command is run when a container is built from the current image.
+- `CMD` can be override by the user when running the container.
+- Used to perform utility functions.
 ### Executable form
 - Most common.
 - `CMD ["executable", "param_1", "param_2", "param_3",...]`
 ### Shell form
 - `CMD <cmd> <param1> <param2> ...` .
+## `ENTRYPOINT`
+- The command is automatically appended to `{Shell}docker run` when running the container and not replaced by the user.
+- Defined the command to start the container from the image.
+### Executable form
+- Most common.
+- `{Dockerfile}ENTRYPOINT ["executable", "param_1", "param_2", "param_3",...]`
+### Shell form
+- `{Dockerfile}ENTRYPOINT <cmd> <param1> <param2> ...` .
 # Example
 ```Dockerfile
 # Clone the node image for running nodejs

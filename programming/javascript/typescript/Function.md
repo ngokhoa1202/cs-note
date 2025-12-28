@@ -35,7 +35,6 @@ function buildName(firstName: string, lastName: string = "Smith") {
   // ...  
 } 
 ```
-
 # Rest parameter
 - Rest parameter is a built-in feature of Javascript used to <mark style="background: #e4e62d;">collect multiple elements</mark> and represent them into a single variable, which makes the function variadic.
 - Conversely, spread operator allows an iterable object to be expanded  in places where arguments (for function calls) or elements (for array literals) are expected.
@@ -53,7 +52,7 @@ const names: string[] = ["John", "Bob", "Smith", "Peterson"]
 let result: string = buildName("Thomas", "Jack", ...names);
 
 ```
-
+***
 # References
 1. https://en.wikipedia.org/wiki/Variadic_function for variadic function concepts.
 2. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax for Spread operator.

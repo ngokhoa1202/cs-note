@@ -1,8 +1,5 @@
 #subnet #computer-network #network-layer #ip 
-
-
-- Idenfies subnet class by the ==first leftmost octets==, which is also called ==network id==.
-
+- Identifies subnet class by the ==first leftmost octets==, which is also called ==network id==.
 # Network id
 - Network id identifies a ==network== as well as its ==subnet class.==
 - The prefix (octets, binary format) identifying subnet class:
@@ -28,4 +25,6 @@
 # Summary 
 - ![](Pasted%20image%2020240522081907.png)
 - ![](Pasted%20image%2020240521164115.png)
-
+***
+# References
+1. 

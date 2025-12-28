@@ -18,3 +18,6 @@
 	- 30th series `TTL=3`.
 - When $n$ th series arrives on $n$ th router, `TTL=0`. That router drops datagram, ==sends an ICMP `TTL expired` type 11 code 0== to source host.
 - Source host receives ICMP `TTL expired` containing router name and IP and caculates RTT.
+***
+# References
+1. 

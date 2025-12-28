@@ -35,7 +35,6 @@
 - The elements $a$ and $b$ of a poset $(S, \preceq)$ are called <mark class="hltr-yellow">comparable</mark> if either $a \preceq b$ or $b \preceq a$. When a and b are elements of S such that neither $a \preceq b$ nor $b \preceq a$, $a$ and $b$ are called incomparable.
 ## Total ordering
 - If $(S, \preceq)$ is a poset and every two elements of $S$ are comparable, $S$ is called a <mark class="hltr-yellow">totally ordered </mark>or *linearly ordered set*, and  is called a total order or a linear order. A totally ordered set is also called a chain.
-- 
 # Example
 ## One-way hash function
 - Given a hash function $H: X → Y$, a relation $R$ on the input domain $X$  is defined as:

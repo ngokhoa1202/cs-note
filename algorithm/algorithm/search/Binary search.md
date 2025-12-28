@@ -1,4 +1,4 @@
-#algorithm #binary-search #binary-tree #binary-search-tree #tree #array #list 
+#algorithm #binary-search #binary-tree #binary-search-tree #tree #array #list #java #go 
 # Algorithm
 ## Array representation
 - The array must be monotone, either monotonically increasing or decreasing.
@@ -8,6 +8,7 @@
 	- If the search key is less than the item in the middle of the interval, narrow the interval to the lower half; otherwise narrow it to the upper half.
 # Implementation
 ## Java
+### Inclusive right boundary
 ```Java title='Binary search in Java'
 class BinarySearch {
   public static int search(int[] nums, int left, int right, int val) {
@@ -25,10 +26,13 @@ class BinarySearch {
   public static void main(String[] args) {
     int[] nums = new int[]{12, 34, 45, 56, 89, 100};
     int val = 34;
-    search(nums, 0, nums.length, val);
+    search(nums, 0, nums.length-1, val);
   }
 }
 ```
+### Exclusive right boundary
+## Go
+### Inclusive right boundary
 # Complexity
 ## Time complexity
 - $O(\text{log}(n))$

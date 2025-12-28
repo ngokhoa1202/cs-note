@@ -2,15 +2,44 @@
 #site-realibility-engineering
 # Podman Architecture
 ## Overview
-- Podman (Pod Manager) is a <mark class="hltr-yellow">daemonless</mark> container engine for developing, managing, and running OCI containers on Linux systems. 
+- Podman (Pod Manager) is a <mark class="hltr-yellow">daemonless</mark> container engine for developing, managing, and running OCI containers on Linux systems.
 - Unlike Docker, Podman operates without a central daemon, providing enhanced security and flexibility through a fork-exec model.
 ## Components
 ###  Daemonless Architecture
 - **No Central Daemon**: Podman runs containers as child processes of the Podman command itself
 - **Fork-Exec Model**: Each container runs as a direct child process of the user's shell
 - **Process Ownership**: Containers inherit the user's privileges, eliminating the need for root daemon
-### Key Components
+#### Daemonless Execution Flow
+```mermaid title='Daemonless execution flow of Podman'
+sequenceDiagram
+    participant User as User Shell
+    participant CLI as Podman CLI
+    participant Libpod as Libpod Library
+    participant Conmon as Conmon Monitor
+    participant Runtime as OCI Runtime (runc/crun)
+    participant Container as Container Process
 
+    User->>CLI: podman run nginx:alpine
+    Note over CLI: Direct process (no daemon)
+    CLI->>Libpod: Check local image
+    alt Image not found
+        Libpod->>Libpod: Pull from registry
+    end
+    Libpod->>Libpod: Create container config
+    Libpod->>Conmon: Fork conmon process
+    Note over Conmon: Monitors container lifecycle
+    Conmon->>Runtime: Execute OCI runtime
+    Runtime->>Runtime: Create namespaces & cgroups
+    Runtime->>Container: Fork container process
+    Note over Container: Runs as child of user shell
+    Container-->>Conmon: Process started
+    Conmon-->>Libpod: Container running
+    Libpod-->>CLI: Container ID
+    CLI-->>User: Container ID returned
+
+    Note over User,Container: No daemon - direct parent-child relationship
+```
+### Key Components
 #### Libpod
 - Core library implementing container and pod management logic
 - Handles container lifecycle (create, start, stop, remove)
@@ -24,20 +53,6 @@
 - Handles logging and TTY allocation
 - Maintains container state information
 - Acts as the intermediary between Podman and the runtime
-#### Container Storage
-- **Storage Driver**: Manages image layers and container filesystems
-- **Supported Drivers**: overlay, vfs, devicemapper
-- **Image Store**: Stores container images locally
-- **Container Store**: Manages running container storage
-### Networking Components
-#### CNI (Container Network Interface)
-- Plugin-based networking architecture
-- Supports bridge, macvlan, ipvlan network modes
-- Manages network namespaces and IP allocation
-#### Netavark (Modern Network Stack)
-- Rust-based network stack (replacing CNI in newer versions)
-- Improved performance and reliability
-- Native support for IPv4/IPv6 dual stack
 ### Pod Architecture
 Podman introduces the concept of pods (borrowed from Kubernetes):
 - **Infra Container**: Special pause container for shared namespaces
@@ -62,32 +77,59 @@ graph TD
     style F fill:#039be5
     style G fill:#0277bd
 ```
-
 ## Rootless Mode Architecture
 
 ### Key Features
-- Runs containers without root privileges
-- Uses user namespaces for UID/GID mapping
+- Runs containers without root privileges.
+- Uses user namespaces for UID/GID mapping.
 - Storage in user's home directory (`~/.local/share/containers`)
-- Enhanced security through privilege separation
-### Components
+- Enhanced security through privilege separation.
+### Rootless-Specific Components
 - **User Namespaces**: Maps container UIDs to unprivileged user UIDs.
-- `slirp4netns`: Provides user-mode networking
-- fuse-overlayfs: Enables overlay filesystem without root
-## Storage Architecture
-### Image Layers
-- Copy-on-Write (CoW) filesystem
-- Shared base layers across containers
-- Efficient storage utilization
-### Container Storage Layout
+- **slirp4netns**: Provides user-mode networking without root privileges
+- **fuse-overlayfs**: Enables overlay filesystem without root access
+- **UID/GID Mapping**: Container root (UID 0) $\implies$ unprivileged host user
+### Storage Location
 ```
-/var/lib/containers/storage/  (rootful)
-~/.local/share/containers/     (rootless)
-    ├── overlay/               (image layers)
-    ├── overlay-containers/    (container layers)
-    └── vfs-containers/        (alternative storage)
+~/.local/share/containers/     (rootless mode)
+/var/lib/containers/storage/   (rootful mode)
 ```
 
+# Storage Architecture
+- Podman uses ==layered storage== with Copy-on-Write mechanism.
+- Supports multiple storage drivers optimized for rootless operation.
+- See [Container storage](../Container%20storage.md) for detailed information on:
+  - Storage drivers (overlay, vfs, devicemapper)
+  - fuse-overlayfs for rootless containers
+  - Storage locations and configuration
+  - Volume management
+# Network Architecture
+- Podman supports ==CNI (Container Network Interface)== for plugin-based networking.
+- Modern versions use ==Netavark== for improved performance.
+- Rootless mode uses slirp4netns for user-mode networking.
+- See [Container networking](../Container%20networking.md) for detailed information on:
+  - CNI plugins and Netavark configuration
+  - Network drivers and modes
+  - DNS resolution and port mapping
+  - Rootless networking with slirp4netns
+
+# Security Architecture
+- Podman implements ==defense in depth== through multiple isolation layers.
+- Daemonless architecture eliminates daemon-level vulnerabilities.
+- Rootless mode provides enhanced security for multi-tenant environments.
+- See [Container security](../Container%20security.md) for detailed information on:
+  - Isolation mechanisms (namespaces, cgroups, capabilities)
+  - Seccomp filtering and MAC (SELinux, AppArmor)
+  - Rootless security benefits and UID/GID mapping
+  - Security best practices
+# Registry Architecture
+- Podman supports all OCI-compliant registries.
+- Compatible with Docker Hub, Quay.io, and private registries.
+- See [Container registry](../Container%20registry.md) for detailed information on:
+  - Registry types and authentication
+  - Image naming conventions
+  - Pulling and pushing images
+  - Registry configuration
 ## Comparison with Docker Architecture
 
 | Aspect | Podman | Docker |
@@ -113,18 +155,7 @@ graph TD
 - Pull/push images from OCI registries
 - Support for Docker Hub, Quay.io, private registries
 - Authentication and credential management
-## Security Architecture
 
-### Isolation Mechanisms
-- **Namespaces**: PID, network, mount, UTS, IPC, user
-- **Cgroups**: Resource limitation and accounting
-- **SELinux/AppArmor**: Mandatory Access Control (MAC)
-- **Seccomp**: System call filtering
-### Rootless Security Benefits
-- No daemon running as root
-- Reduced attack surface
-- User-level process isolation
-- No privilege escalation vectors
 ## Advantages
 1. **Security**: No central daemon eliminates single point of failure
 2. **Systemd Integration**: Better alignment with Linux service management
@@ -154,3 +185,9 @@ graph TD
 18. **User Namespaces** - "user_namespaces(7) - Linux manual page." Available at: https://man7.org/linux/man-pages/man7/user_namespaces.7.html
 19. **Seccomp** - "Seccomp BPF (SECure COMPuting with filters)." Available at: https://www.kernel.org/doc/html/latest/userspace-api/seccomp_filter.html
 20. **SELinux** - Red Hat. "What is SELinux?" Available at: https://www.redhat.com/en/topics/linux/what-is-selinux
+21. [Docker architecture](../docker/Docker%20architecture.md) for comparison with daemon-based architecture.
+22. [OCI-compliant container](../OCI-compliant%20container.md) for container fundamentals.
+23. [Container storage](../Container%20storage.md) for storage drivers and rootless storage.
+24. [Container networking](../Container%20networking.md) for CNI and Netavark configuration.
+25. [Container security](../Container%20security.md) for security mechanisms and rootless benefits.
+26. [Container registry](../Container%20registry.md) for registry integration.

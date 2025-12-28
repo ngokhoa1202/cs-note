@@ -1,5 +1,4 @@
 #web #web-bundler #javascript #ecmascript #dependency-manager #nodejs #browser #html #css 
-
 # Example
 ## Sample `webpack.config.ts`
 ```TypeScript title='Sample webpack.config.ts'
@@ -85,7 +84,6 @@ const bundle = () => {
 };
 
 export default bundle as Configuration;
-
 ```
 ***
 # References

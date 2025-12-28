@@ -30,7 +30,7 @@
 - Disadvantage:
 	- Scalability due to cross points grow quadratically.
 	- Complex.
-
+***
 # References
 1. Computer Networking  A Top-Down Approach, Global Edition, 8th Edition - James F. Kurose - Keith W. Ross.
 	1. Chapter 4: Network Layer - The Data Plane.

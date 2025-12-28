@@ -1,6 +1,5 @@
 #react #javascript #jsx  #image 
 
-
 # Import normally
 - Use `import` command.
 ```Javascript
@@ -17,7 +16,7 @@ function Header() {
 export default Header;
 ```
 			
-# Import as ReactComponent
+# Import as `ReactComponent`
 - Usually used for `svg` file.
 ```javascript
 import React from 'react';
@@ -34,6 +33,6 @@ function Header() {
 
 export default Header;
 ```
-
+***
 # References
 1. https://create-react-app.dev/docs/adding-images-fonts-and-files/ for source code.

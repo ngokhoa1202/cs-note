@@ -1,8 +1,6 @@
 #ip #computer-network #network-layer #protocol 
 
 - Designed to gradually replace IPv4.
-- Stands for ==Internet Protocol version 6==.
-
 # IPv6 datagram format
 - ![](Pasted%20image%2020240522153609.png)
 ## Compare with IPv4
@@ -16,4 +14,6 @@
 # Transition to IPv4
 - Employ tunnel mode (similar to [IP Security](IP%20Security.md) )
 - ![](Pasted%20image%2020240522154700.png)
-- 
+***
+# References
+1. 

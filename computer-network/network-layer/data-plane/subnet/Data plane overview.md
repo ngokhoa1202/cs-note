@@ -1,11 +1,9 @@
 #computer-network  #network-layer #data-plane 
-
 # Service
 - ==Forward== packets from inbound port to correct outbound port.
 - Local, ==per-router== function.
 # Router
-[Router](Router.md)
-
+- [Router](Router.md)
 ## Buffer management
 - [Buffer management](Buffer%20management.md)
 ## Packet scheduling
@@ -13,8 +11,10 @@
 - Priority Queuing.
 - Round Robin $\Rightarrow$ Weighted Fair Queuing.
 # IP Address
-- [IPv4](IPv4.md)
-
+- [Internet Protocol version 4 (IPv4)](computer-network/network-layer/data-plane/ip/Internet%20Protocol%20version%204%20(IPv4).md)
+***
+# References
+1. 
 
 
 

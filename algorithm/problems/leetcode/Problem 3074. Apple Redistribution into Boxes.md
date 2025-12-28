@@ -2,9 +2,10 @@
 # Algorithm
 ## Sort and simulate
 - Sort the `capacity` array in *descending order* to prioritize boxes with larger size, thereby minimizing the number of boxes that will be used.
-- Simulates the distribution of apple. Whenever the left capacity of a box is deficient to hold, the box with largest capacity among the remainders is selected to hold  the apples.
+- Simulate the distribution of apple. Whenever the left capacity of a box is deficient to hold, the box with largest capacity among the remainders is selected to hold  the apples.
 # Implementation
 ## Java
+### Sort and simulate
 ```Java title='Problem 3074 in Java: Sort and simulate solution'
 class Solution {
   public int minimumBoxes(int[] apple, int[] capacity) {

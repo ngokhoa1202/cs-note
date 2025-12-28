@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Problem 977. Squares of a Sorted Array",
-      "path": "algorithm/problems/leetcode/Problem 977. Squares of a Sorted Array.md"
+      "basename": "Operators",
+      "path": "programming/javascript/rxjs/Operators.md"
     },
     {
-      "basename": "Swap two variables",
-      "path": "programming/javascript/common-problems/Swap two variables.md"
+      "basename": "Observable",
+      "path": "programming/javascript/rxjs/Observable.md"
     },
     {
-      "basename": "Swap two variables",
-      "path": "programming/java/fundamentals/java-core/common-problems/Swap two variables.md"
+      "basename": "Type",
+      "path": "programming/javascript/typescript/Type.md"
     },
     {
-      "basename": "Parameter-passing mechanisms",
-      "path": "programming/principles/function/Parameter-passing mechanisms.md"
+      "basename": "Interface",
+      "path": "programming/javascript/typescript/Interface.md"
     },
     {
-      "basename": "Swap two variables",
-      "path": "programming/go/fundamentals/common-problems/Swap two variables.md"
+      "basename": "Function",
+      "path": "programming/javascript/typescript/Function.md"
     },
     {
-      "basename": "Promisification",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promisification.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
-    },
-    {
-      "basename": "Polyfills and transpilers",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
+      "basename": "Control flow",
+      "path": "programming/javascript/typescript/Control flow.md"
     },
     {
       "basename": "Class",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Class.md"
+      "path": "programming/javascript/typescript/Class.md"
     },
     {
-      "basename": "Heap pollution",
-      "path": "programming/java/fundamentals/generics/Heap pollution.md"
+      "basename": "Docker architecture",
+      "path": "site-reability-engineering/container-engine/docker/Docker architecture.md"
     },
     {
-      "basename": "Variable arguments",
-      "path": "programming/java/fundamentals/java-core/function/Variable arguments.md"
+      "basename": "Podman architecture",
+      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
     },
     {
-      "basename": "Default method in interface",
-      "path": "programming/java/fundamentals/java-core/interface/Default method in interface.md"
+      "basename": "Kubernetes architecture",
+      "path": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md"
     },
     {
-      "basename": "Run Java program",
-      "path": "programming/java/fundamentals/cli/Run Java program.md"
+      "basename": "Binary search",
+      "path": "algorithm/algorithm/search/Binary search.md"
     },
     {
-      "basename": "Variable",
-      "path": "programming/go/fundamentals/Variable.md"
+      "basename": "Problem 1351. Count Negative Numbers in a Sorted Matrix",
+      "path": "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md"
     },
     {
-      "basename": "Type conversion",
-      "path": "programming/go/fundamentals/Type conversion.md"
+      "basename": "01-06-2025",
+      "path": "plans/01-06-2025.md"
     },
     {
-      "basename": "Pointer",
-      "path": "programming/go/fundamentals/Pointer.md"
+      "basename": "Linear search",
+      "path": "algorithm/algorithm/search/Linear search.md"
     },
     {
-      "basename": "HTTP Over SSL (HTTPS)",
-      "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "cybersecurity/network-security/application-layer/web-security/JSON Web Token.md"
-    },
-    {
-      "basename": "Introduction to race condition",
-      "path": "cybersecurity/network-security/application-layer/web-security/Introduction to race condition.md"
-    },
-    {
-      "basename": "Server-side request forgery (SSRF)",
-      "path": "cybersecurity/network-security/application-layer/web-security/Server-side request forgery (SSRF).md"
-    },
-    {
-      "basename": "Cloud computing",
-      "path": "cybersecurity/cloud-security/Cloud computing.md"
-    },
-    {
-      "basename": "Problem 575. Distribute candies",
-      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
-    },
-    {
-      "basename": "Problem 182. Duplicate email",
-      "path": "algorithm/problems/leetcode/Problem 182. Duplicate email.md"
-    },
-    {
-      "basename": "Problem 62. Unique Paths",
-      "path": "algorithm/problems/leetcode/Problem 62. Unique Paths.md"
-    },
-    {
-      "basename": "Problem 21. Merge two sorted lists",
-      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
-    },
-    {
-      "basename": "Problem 50. Pow(x, n)",
-      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
-    },
-    {
-      "basename": "Problem 226. Invert Binary tree",
-      "path": "algorithm/problems/leetcode/Problem 226. Invert Binary tree.md"
-    },
-    {
-      "basename": "Problem 350. Intersection of Two Arrays II",
-      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
-    },
-    {
-      "basename": "Problem 349.  Intersection of Two Arrays",
-      "path": "algorithm/problems/leetcode/Problem 349.  Intersection of Two Arrays.md"
-    },
-    {
-      "basename": "Problem 577. Employee Bonus",
-      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
+      "basename": "Sieve of Eratosthenes",
+      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     },
     {
       "basename": "Problem 3074. Apple Redistribution into Boxes",
       "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
     },
     {
-      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
-      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
-    },
-    {
       "basename": "Problem 3075. Maximize Happiness of Selected Children",
       "path": "algorithm/problems/leetcode/Problem 3075. Maximize Happiness of Selected Children.md"
     },
     {
-      "basename": "Problem 2697. Lexicographically Smallest Palindrome",
-      "path": "algorithm/problems/leetcode/Problem 2697. Lexicographically Smallest Palindrome.md"
+      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
+      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
     },
     {
-      "basename": "Problem 2578. Split with Minimum Sum",
-      "path": "algorithm/problems/leetcode/Problem 2578. Split with Minimum Sum.md"
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/Hash table.md"
     },
     {
-      "basename": "Harmonic series",
-      "path": "calculus/Harmonic series.md"
+      "basename": "Linked list",
+      "path": "algorithm/data-structure/list/Linked list.md"
     },
     {
-      "basename": "Stirling approximation",
-      "path": "calculus/Stirling approximation.md"
+      "basename": "Array list",
+      "path": "algorithm/data-structure/list/Array list.md"
     },
     {
-      "basename": "Generate secret key openSSL",
-      "path": "operating-system/linux/cryptography/Generate secret key openSSL.md"
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
     },
     {
-      "basename": "SSH key generation",
-      "path": "operating-system/linux/cryptography/SSH key generation.md"
+      "basename": "Algorithm complexity",
+      "path": "algorithm/complexity/Algorithm complexity.md"
     },
     {
-      "basename": "Boot process",
-      "path": "operating-system/linux/booting/Boot process.md"
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/hashing/Hash table.md"
     },
     {
-      "basename": "Filesystem architecture",
-      "path": "operating-system/file-system/Filesystem architecture.md"
+      "basename": "Compose file",
+      "path": "site-reability-engineering/container-engine/services/Compose file.md"
     },
     {
-      "basename": "File properties",
-      "path": "operating-system/file-system/File properties.md"
+      "basename": "OCI-compliant container",
+      "path": "site-reability-engineering/container-engine/OCI-compliant container.md"
     },
     {
-      "basename": "curl commands",
-      "path": "operating-system/linux/curl commands.md"
+      "basename": "Container networking",
+      "path": "site-reability-engineering/container-engine/Container networking.md"
     },
     {
-      "basename": "Alternative configuration",
-      "path": "operating-system/linux/Alternative configuration.md"
+      "basename": "Container registry",
+      "path": "site-reability-engineering/container-engine/Container registry.md"
     },
     {
-      "basename": "Problem 506. Relative ranks",
-      "path": "algorithm/problems/leetcode/Problem 506. Relative ranks.md"
+      "basename": "Container security",
+      "path": "site-reability-engineering/container-engine/Container security.md"
     },
     {
-      "basename": "Problem 219. Contains Duplicate II",
-      "path": "algorithm/problems/leetcode/Problem 219. Contains Duplicate II.md"
+      "basename": "Container storage",
+      "path": "site-reability-engineering/container-engine/Container storage.md"
     },
     {
-      "basename": "Problem 222. Count Complete Tree Nodes",
-      "path": "algorithm/problems/leetcode/Problem 222. Count Complete Tree Nodes.md"
+      "basename": "Container commands",
+      "path": "site-reability-engineering/container-engine/Container commands.md"
     },
     {
-      "basename": "Problem 197. Rising temperature",
-      "path": "algorithm/problems/leetcode/Problem 197. Rising temperature.md"
+      "basename": "ST-Engineering-First-Day-Questions",
+      "path": "plans/ST-Engineering-First-Day-Questions.md"
     },
     {
-      "basename": "Problem 134. Gas Station",
-      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
+      "basename": "Variable length Subnet Mask (VLSM)",
+      "path": "computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM).md"
     },
     {
-      "basename": "Problem 49. Group anagrams",
-      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
+      "basename": "Fixed length Subnet Mask (FLSM)",
+      "path": "computer-network/network-layer/data-plane/subnet/Fixed length Subnet Mask (FLSM).md"
+    },
+    {
+      "basename": "Network Address Translation (NAT)",
+      "path": "computer-network/network-layer/data-plane/subnet/Network Address Translation (NAT).md"
+    },
+    {
+      "basename": "Subnet class",
+      "path": "computer-network/network-layer/data-plane/subnet/Subnet class.md"
+    },
+    {
+      "basename": "Subnet",
+      "path": "computer-network/network-layer/data-plane/subnet/Subnet.md"
+    },
+    {
+      "basename": "Data plane overview",
+      "path": "computer-network/network-layer/data-plane/subnet/Data plane overview.md"
+    },
+    {
+      "basename": "Internet Protocol version 6 (IPv6)",
+      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 6 (IPv6).md"
+    },
+    {
+      "basename": "Internet Protocol version 4 (IPv4)",
+      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
+    },
+    {
+      "basename": "Network layer overview",
+      "path": "computer-network/network-layer/Network layer overview.md"
+    },
+    {
+      "basename": "Switching fabric",
+      "path": "computer-network/network-layer/data-plane/Switching fabric.md"
+    },
+    {
+      "basename": "Router",
+      "path": "computer-network/network-layer/data-plane/Router.md"
+    },
+    {
+      "basename": "Buffer management",
+      "path": "computer-network/network-layer/data-plane/Buffer management.md"
+    },
+    {
+      "basename": "Dynamic Host Configuration Protocol",
+      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
+    },
+    {
+      "basename": "Simple Network Management Protocol (SNMP)",
+      "path": "computer-network/network-layer/control-plane/Simple Network Management Protocol (SNMP).md"
+    },
+    {
+      "basename": "ICMP",
+      "path": "computer-network/network-layer/control-plane/ICMP.md"
+    },
+    {
+      "basename": "Link-state algorithm",
+      "path": "computer-network/network-layer/control-plane/routing-algorithm/Link-state algorithm.md"
+    },
+    {
+      "basename": "Distance-vector algorithm",
+      "path": "computer-network/network-layer/control-plane/routing-algorithm/Distance-vector algorithm.md"
+    },
+    {
+      "basename": "Software-Defined Networking",
+      "path": "computer-network/network-layer/Software-Defined Networking.md"
     }
   ],
   "omittedPaths": [],

@@ -53,7 +53,7 @@
 5. [[Domain Name System (DNS)]]
 6. [[User Datagram Protocol (UDP)]]
 7. [[TCP]]
-8. [[IPv4]]
+8. [[computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4)]]
 9. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
 10. Computer Networks - Tanenbaum Andrew S., Wetherall David J. Wetherhall - Prentice Hall Publisher (2011).
 	1. Chapter 7. The application layer.

@@ -1,5 +1,4 @@
 #react #javascript #functional-programming #object-oriented-programming #software-architecture 
-
 # Lifecycle
 ## Simplified lifecycle
 - ![](Pasted%20image%2020250614080427.png)

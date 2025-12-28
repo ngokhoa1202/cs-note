@@ -1,5 +1,4 @@
 #asymmetric-cipher #cryptography #cybersecurity #openssl #ssh #digital-signature 
-
 # Definition
 - A public-key cryptosystem has three components:
 	- Plaintext & ciphertext
@@ -30,6 +29,7 @@
 - Public-key certificate is a digital document issued and digitally <mark class="hltr-yellow">signed by the private key of a Certification Authority</mark> that binds the name of a subscriber to a public key. The certificate indicates that the subscriber identified in the certificate has sole control and access to the corresponding private key.
 # Public-key infrastructure
 - Public-key infrastructure is a set of *policies, processes, server platforms, software and workstations* used for the purpose of <mark class="hltr-yellow">administering certificates</mark> and public-private key pairs, including the ability to issue, maintain, and revoke public key certificates.
+***
 # References
-1.  Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).
+1. Cryptography and Network Security Principles and Practice - William Stallings -  Global Edition-Pearson (2022).
 	1. Chapter 9. Public-Key Cryptography and RSA.

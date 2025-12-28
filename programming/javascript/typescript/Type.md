@@ -46,7 +46,6 @@ if (obj.last !== undefined) {    // OK
   console.log(obj.last.toUpperCase());  
 }   // A safe alternative using modern JavaScript syntax:  console.log(obj.last?.toUpperCase());}
 ```
-
 # Enum
 ```typescript
 enum Role {
@@ -54,8 +53,6 @@ enum Role {
   STUDENT = 'student';
 }
 ```
-
-
 # Type alias
 - Equivalent to assignment operator for a specific type.
 ```typescript
@@ -81,7 +78,6 @@ function isOlder(user: User, checkAge: number) {
 ```ts
 type Size = "X" | "XL" | "L";
 ```
-
 # Type indexing
 - A way to extract a subset of data from a type.
 ```ts
@@ -97,7 +93,6 @@ type Account = {
   
 type AccountHolder = Account["holder"];
 ```
-
 # Index signature
 - The index signature indicates to TypeScript that any fields on the object which are not mentioned ahead of time will be of a particular types.
 ```typescript
@@ -135,7 +130,6 @@ const vehicleRegistration: vehicleRegistration = {
   model: "Honda Future";  
 }
 ```
-
 # Conditional type
 - The value of a `type` can be determined at runtime by a condition.
 ```ts
@@ -179,7 +173,6 @@ function add(a: number, b: number): void {
 
 console.log(add(2, 3)); // print undefined
 ```
-
 ## any 
 - `any` keyword.
 - Represents any object, any type $\implies$ most generic.
@@ -202,7 +195,6 @@ let userInput: any;
 userInput = 'Bob';
 let username: string = userInput;
 ```
-
 ## unknown
 - `unknown` type represents any value, but an expression of unknown type is not allowed to access its property.
 ```typescript
@@ -215,7 +207,6 @@ let userInput: unknown = 3;
 userInput = 'Bob';
 console.log(userInput)
 ```
-
 ## never
 - `never` type specifies that the function never returns a value.
 ```typescript
@@ -223,7 +214,6 @@ function foo(): never {
   throw ("This is an error");
 }Error
 ```
-
 ## Function
 - `Function` type represents a type of a high-order function in TypeScript.
 ```typescript
@@ -240,7 +230,6 @@ if (x) {
 let a = x != null ? f(x) : ""; // Type of a is string
 let b = x && f(x); // Type of b is string | 0 | null | undefined
 ```
-
 # Tuple type
 - Tuple is an array with known type at specific index.
 ```ts
@@ -258,9 +247,8 @@ const house: House = [
   
 console.log(house[1]);
 ```
-
 # Mapped type
-
+- 
 
 # Examples
 ## Example 1
@@ -278,6 +266,7 @@ if (x) {
 let a = x != null ? f(x) : ""; // Type of a is string
 let b = x && f(x); // Type of b is string | 0 | null | undefined
 ```
+***
 # References
 1. https://www.typescriptlang.org/docs/handbook/release-notes/typescript-2-0.html for Typescript official documentation about strict null checking mode.
 2. https://www.typescriptlang.org/docs/handbook/2/mapped-types.html

@@ -1,6 +1,5 @@
-#application-layer  #computer-network #control-plane 
+#application-layer  #computer-network #control-plane #protocol 
 
-- Stands for ==Simple Network Management Protocol==.
 - Employs [User Datagram Protocol (UDP)](User%20Datagram%20Protocol%20(UDP).md)
 # Components
 - Managed hosts.
@@ -19,3 +18,7 @@
 # SNMP Message format
 - ![](Pasted%20image%2020240523151849.png)
 # Principle
+
+***
+# References
+1. 

@@ -8,4 +8,6 @@
 # Solution
 - Has solution $\iff$ $d=gcd(a,b) | c$ 
 - If $(x_0,y_0)$ is a specific solution, then general solution is $$\begin{cases} x=x_0+\frac{b}{d}t \\ y=y_0+\frac{a}{d}t \end{cases} \space \space \forall t \in Z$$
-- 
+***
+# References
+1. 

@@ -1,6 +1,4 @@
 #ip  #network-layer #computer-network #protocol 
-
-- Stands for ==Internet Protocol version 4==.
 # IPv4 Address
 - 32 bits $\equiv$ 4 octets in decimal ranging `0-255`.
 - General format: $$a.b.c.d/x$$ using CIDR notation.
@@ -20,13 +18,14 @@
 - `Option` $0 \to 40$ bytes for special routers.
 
 # IP Allocation
-
 ## Static IP allocation
 
 ## DHCP
-[Dynamic Host Configuration Protocol](Dynamic%20Host%20Configuration%20Protocol.md)
-
+- [Dynamic Host Configuration Protocol](Dynamic%20Host%20Configuration%20Protocol.md)
 # NAT
-[NAT](NAT.md)
+- [Network Address Translation (NAT)](computer-network/network-layer/data-plane/subnet/Network%20Address%20Translation%20(NAT).md)
+***
+# References
+1. 
 
 

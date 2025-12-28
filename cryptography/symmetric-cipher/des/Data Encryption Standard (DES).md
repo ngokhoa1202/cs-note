@@ -1,10 +1,7 @@
 #cryptography #symmetric-cipher #algorithm #cybersecurity #block-cipher 
-
-- Stands for ==Data Encryption Standard.==
 - Symmetric block cipher.
-- ==Insecure== for modern computer.
-- ==Bit-oriented== encryption.
-
+- Insecure for modern computer.
+- Bit-oriented encryption.
 # Encryption
 ## Structure
 - ![](Pasted%20image%2020240530091845.png)
