@@ -1,4 +1,4 @@
-#array #greedy-algorithm #algorithm #leetcode #python #java
+#array #greedy-algorithm #algorithm #leetcode #python #java #go 
 # Algorithm
 ## Naive approach
 ## Greedy algorithm
@@ -11,7 +11,7 @@
 ##### Theorem
 - If a solution exists, the greedy algorithm finds it:
 1. Start from station $0$
-2. If we run out of gas at station $j$, the next candidate starting station is $j+1$
+2. If the car runs out of gas at station $j$, the next candidate starting station is $j+1$
 3. Any station in $[0,j]$ cannot be the valid starting position.
 ##### Proof
 - Let $\text{net}[i]=\text{gas}[i]-\text{cost}[i]$ be the net gain at station $i$.
@@ -28,7 +28,7 @@
 ##### Proof
 - Suppose there are two valid starting stations $s_1$ and $s_2$​ where $s_1 < s_2$​.
 - From station $s_1$, the circuit can be completed, so $$\text{tank}(s_1,s_2-1) \geq 0$$
-- The station $s_2$ can be reached from $s_1$, but s_2 cannot be a valid starting position because the greedy choice would have chosen $s_1$ $\implies$ contradicts with the initial assumption.
+- The station $s_2$ can be reached from $s_1$, but $s_2$ cannot be a valid starting position because the greedy choice would have chosen $s_1$ $\implies$ contradicts with the initial assumption.
 - As a result, the greedy choice results in only one unique solution. 
 ### Method
 - Let $d_i = \text{gas}[i] - \text{cost}[i]$ represent the net gas gain at station $i$. 
@@ -41,11 +41,12 @@
 3. Return $\text{start}$ if $\text{total\_tank} \geq 0$, otherwise return $-1$
 # Implementation
 ## Java
+### Greedy algorithm
 ```Java title='Problem 134 in Java: Greedy algorithm solution'
 class Solution {
     public int canCompleteCircuit(int[] gas, int[] cost) {
-        int totalTank = 0;
-        int currentTank = 0;
+        int totalTank = 0; // the existence of solution
+        int currentTank = 0; // reset the tank if the starting position is invalid
         int startStation = 0;
 
         for (int i = 0; i < gas.length; i++) {
@@ -64,7 +65,8 @@ class Solution {
 }
 ```
 ## Python
-```python
+### Greedy algorithm
+```python title='Problem 134 in Python: Greedy algorithm solution'
 class Solution:
     def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
         total_tank = 0
@@ -82,7 +84,25 @@ class Solution:
 
         return start_station if total_tank >= 0 else -1
 ```
-
+## Go
+```Go title='Problem 134 in Go: Greedy algorithm solution'
+func canCompleteCircuit(gas []int, cost []int) int {
+  currentTank, totalTank, startStation := 0, 0, 0
+  for i, _ := range gas {
+    net := gas[i] - cost[i]
+    totalTank += net
+    currentTank += net
+    if currentTank < 0 {
+      currentTank = 0
+      startStation = i + 1
+    }
+  }
+  if totalTank < 0 {
+    return -1
+  }
+  return startStation
+}
+```
 # Complexity
 ## Time complexity
 - $O(n)$

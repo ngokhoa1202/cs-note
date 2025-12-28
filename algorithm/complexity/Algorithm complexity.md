@@ -30,7 +30,7 @@
 # References
 1. The Algorithm Design Manual - Steven S. Skiena - Springer Publisher - 2nd edition
 	1. Chapter 2. Algorithm Analysis.
-2. [[calculus/L_Hopital rule|L_Hopital rule]] for calculating limits.
+2. [[calculus/L Hopital rule|L Hopital rule]] for calculating limits.
 3. Introduction to Algorithms - Thomas H.Cormen, Charles E.Leserson, Ronald L.Rivest, Clinfford Sten - The MIT Press - Third Edition 2009.
 	1. Chapter 4. Divide-and-Conquer.
 		1. Section 4.5. The master method for solving recurrences.

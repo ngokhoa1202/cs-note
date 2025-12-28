@@ -7,7 +7,6 @@
 - Images consist of ==immutable read-only layers== stacked on top of each other.
 - Containers add a ==writable layer== on top of image layers for runtime changes.
 - Layers uniquely identified by ==SHA-256 hash== $\implies$ enables layer sharing and caching.
-
 ## Image Layer Concept
 ### Layer Structure
 ```mermaid
@@ -98,7 +97,6 @@ graph TB
     ├── network/           # Network configuration
     └── buildkit/          # BuildKit cache
 ```
-
 #### Windows
 ```
 C:\ProgramData\Docker\

@@ -690,5 +690,6 @@
   "site-reability-engineering/container-engine/services/Compose file.md": "LiContainer",
   "site-reability-engineering/container-engine/services": "LiLink",
   "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md": "SiKubernetes",
-  "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md": "SiLeetcode"
+  "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md": "SiLeetcode",
+  "algorithm/problems/leetcode/Problem 912. Sort an Array.md": "SiLeetcode"
 }

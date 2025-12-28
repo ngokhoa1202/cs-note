@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Problem 912. Sort an Array",
+      "path": "algorithm/problems/leetcode/Problem 912. Sort an Array.md"
+    },
+    {
+      "basename": "Quick sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Problem 134. Gas Station",
+      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/complexity/Algorithm complexity.md"
+    },
+    {
+      "basename": "XOR operation",
+      "path": "algorithm/bit-manipulation/XOR operation.md"
+    },
+    {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/algorithm/string/Longest common subsequence.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Heap sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Container storage",
+      "path": "site-reability-engineering/container-engine/Container storage.md"
+    },
+    {
+      "basename": "UML Class diagram",
+      "path": "software-engineering/diagram/UML Class diagram.md"
+    },
+    {
+      "basename": "index",
+      "path": "index.md"
+    },
+    {
       "basename": "Operators",
       "path": "programming/javascript/rxjs/Operators.md"
     },
@@ -89,10 +137,6 @@
       "path": "algorithm/complexity/Recurrence relation.md"
     },
     {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/complexity/Algorithm complexity.md"
-    },
-    {
       "basename": "Hash table",
       "path": "algorithm/data-structure/hashing/Hash table.md"
     },
@@ -115,10 +159,6 @@
     {
       "basename": "Container security",
       "path": "site-reability-engineering/container-engine/Container security.md"
-    },
-    {
-      "basename": "Container storage",
-      "path": "site-reability-engineering/container-engine/Container storage.md"
     },
     {
       "basename": "Container commands",
@@ -159,46 +199,6 @@
     {
       "basename": "Internet Protocol version 4 (IPv4)",
       "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
-    },
-    {
-      "basename": "Network layer overview",
-      "path": "computer-network/network-layer/Network layer overview.md"
-    },
-    {
-      "basename": "Switching fabric",
-      "path": "computer-network/network-layer/data-plane/Switching fabric.md"
-    },
-    {
-      "basename": "Router",
-      "path": "computer-network/network-layer/data-plane/Router.md"
-    },
-    {
-      "basename": "Buffer management",
-      "path": "computer-network/network-layer/data-plane/Buffer management.md"
-    },
-    {
-      "basename": "Dynamic Host Configuration Protocol",
-      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
-    },
-    {
-      "basename": "Simple Network Management Protocol (SNMP)",
-      "path": "computer-network/network-layer/control-plane/Simple Network Management Protocol (SNMP).md"
-    },
-    {
-      "basename": "ICMP",
-      "path": "computer-network/network-layer/control-plane/ICMP.md"
-    },
-    {
-      "basename": "Link-state algorithm",
-      "path": "computer-network/network-layer/control-plane/routing-algorithm/Link-state algorithm.md"
-    },
-    {
-      "basename": "Distance-vector algorithm",
-      "path": "computer-network/network-layer/control-plane/routing-algorithm/Distance-vector algorithm.md"
-    },
-    {
-      "basename": "Software-Defined Networking",
-      "path": "computer-network/network-layer/Software-Defined Networking.md"
     }
   ],
   "omittedPaths": [],
