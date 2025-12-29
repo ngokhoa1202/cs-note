@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Sieve of Eratosthenes",
+      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
+    },
+    {
       "basename": "Problem 912. Sort an Array",
       "path": "algorithm/problems/leetcode/Problem 912. Sort an Array.md"
     },
@@ -43,10 +51,6 @@
     {
       "basename": "UML Class diagram",
       "path": "software-engineering/diagram/UML Class diagram.md"
-    },
-    {
-      "basename": "index",
-      "path": "index.md"
     },
     {
       "basename": "Operators",
@@ -103,10 +107,6 @@
     {
       "basename": "Linear search",
       "path": "algorithm/algorithm/search/Linear search.md"
-    },
-    {
-      "basename": "Sieve of Eratosthenes",
-      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     },
     {
       "basename": "Problem 3074. Apple Redistribution into Boxes",

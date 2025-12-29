@@ -115,6 +115,49 @@ EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "/app/deployments/quarkus-run.jar" ]
 ```
 # Native image
+## Red Hat's GraalVM builder
+```Dockerfile title='Build a Red Hat based Quarkus image with Red Hat's GraalVM builder'
+# ============================================
+# Stage 1: Build Native Image with GraalVM
+# ============================================
+FROM quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-21 AS builder
+
+WORKDIR /build
+
+# Copy Maven wrapper and pom.xml for dependency caching
+COPY --chown=quarkus:quarkus mvnw /build/mvnw
+COPY --chown=quarkus:quarkus .mvn /build/.mvn
+COPY --chown=quarkus:quarkus pom.xml /build/
+
+# Download dependencies
+RUN ./mvnw dependency:go-offline -B
+
+# Copy source code
+COPY --chown=quarkus:quarkus src /build/src
+
+# Build native executable
+RUN ./mvnw package -Pnative -DskipTests -B
+
+# ============================================
+# Stage 2: Runtime with Minimal Image
+# ============================================
+FROM registry.access.redhat.com/ubi9/ubi-minimal:9.3
+
+WORKDIR /app
+
+# Copy the native executable
+COPY --from=builder --chown=1001:root /build/target/*-runner /app/application
+
+# Set ownership and permissions
+RUN chmod 775 /app/application
+
+# Run as non-root user
+USER 1001
+
+EXPOSE 8080
+
+ENTRYPOINT ["/app/application"]
+```
 ## Micro-native image
 ***
 # References

@@ -67,4 +67,5 @@ public class Solution {
 ***
 # References
 1. https://leetcode.com/problems/sort-an-array/description/
-2. 
+2. [[algorithm/algorithm/sorting/internal-sorting/Quick sort|Quick sort]]
+3. 

@@ -309,6 +309,9 @@ public class QuickSort {
     }
 }
 ```
+### Go
+
+### JavaScript
 ## Hoare's partition
 ### Java
 ```Java title='Quicksort in Java: Hoare partition' hl=24,25,29-31,34-36,39-40,43,13-14
@@ -365,6 +368,8 @@ public class QuickSort {
     }
 }
 ```
+### Go
+### JavaScript
 # Time complexity
 ## Mathematical analysis
 ### Best case
