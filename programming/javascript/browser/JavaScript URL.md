@@ -2,7 +2,7 @@
 # JavaScript URL
 - JavaScript URLs, which is prefixed with the `javascript:` scheme, are used as <mark class="hltr-yellow">fake navigation targets</mark> that execute JavaScript when the browser attempts to navigate.
 - If the URL evaluates to a string, it is treated as HTML and rendered by the browser.
-```URL title='javascript URL syntax'
+```URL title='JavaScript URL syntax'
 javascript:<script>
 ```
 - `javascript:` plays a navigation target. This includes, but not limited to:

@@ -6,6 +6,11 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiQuarkus",
+      "SiSpringboot",
+      "SiSpring",
+      "SiNpm",
+      "SiApachemaven",
       "SiLeetcode",
       "LiLink",
       "SiSymfony",
@@ -20,12 +25,7 @@
       "SiDocker",
       "SiYaml",
       "SiFlask",
-      "SiPython",
-      "TiNumber123",
-      "SiReact",
-      "TiLambda",
-      "RiJavascriptFill",
-      "TiMathFunction"
+      "SiPython"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -319,7 +319,6 @@
   "computer-network/application-layer/dns/Domain Name System (DNS).md": "TiProtocol",
   "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md": "TiShare",
   "programming/javascript/vanilla-javascript/object-oriented-programming": "FasArrowUp",
-  "programming/javascript/browser/javascript URL.md": "TiProtocol",
   "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md": "RiP2pFill",
   "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md": "TiProtocol",
   "algorithm/problems/leetcode": "SiLeetcode",
@@ -621,7 +620,6 @@
   "site-reability-engineering/build-tools": "LiHammer",
   "site-reability-engineering/build-tools/java": "FabJava",
   "site-reability-engineering/build-tools/java/gradle": "SiGradle",
-  "site-reability-engineering/build-tools/java/gradle/Gradle commands.md": "SiGradle",
   "programming/java/fundamentals/cli": "TiTerminal2",
   "site-reability-engineering/build-tools/java/maven": "SiApachemaven",
   "site-reability-engineering/build-tools/javascript": "SiJavascript",
@@ -691,5 +689,13 @@
   "site-reability-engineering/container-engine/services": "LiLink",
   "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md": "SiKubernetes",
   "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md": "SiLeetcode",
-  "algorithm/problems/leetcode/Problem 912. Sort an Array.md": "SiLeetcode"
+  "algorithm/problems/leetcode/Problem 912. Sort an Array.md": "SiLeetcode",
+  "programming/javascript/browser/JavaScript URL.md": "TiProtocol",
+  "site-reability-engineering/build-tools/java/maven/Lifecycle.md": "SiApachemaven",
+  "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md": "SiNpm",
+  "algorithm/problems/leetcode/Problem 162. Find Peak Element.md": "SiLeetcode",
+  "site-reability-engineering/build-tools/java/maven/spring": "SiSpring",
+  "site-reability-engineering/build-tools/java/maven/spring/spring-boot": "SiSpringboot",
+  "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md": "SiSpringboot",
+  "site-reability-engineering/build-tools/java/maven/quarkus": "SiQuarkus"
 }

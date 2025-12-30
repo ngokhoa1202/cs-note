@@ -1,20 +1,96 @@
 {
   "recentFiles": [
     {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+      "basename": "Dependency Configurations",
+      "path": "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md"
+    },
+    {
+      "basename": "Spring Boot Configuration",
+      "path": "site-reability-engineering/build-tools/java/gradle/spring/spring-boot/Spring Boot Configuration.md"
+    },
+    {
+      "basename": "Micronaut Configuration",
+      "path": "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md"
+    },
+    {
+      "basename": "Quarkus Configuration",
+      "path": "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md"
+    },
+    {
+      "basename": "Dependency Scopes",
+      "path": "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md"
+    },
+    {
+      "basename": "Spring Boot Configuration",
+      "path": "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/java/gradle/Lifecycle.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/java/maven/Lifecycle.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+    },
+    {
+      "basename": "XOR operation",
+      "path": "algorithm/bit-manipulation/XOR operation.md"
+    },
+    {
+      "basename": "Problem 162. Find Peak Element",
+      "path": "algorithm/problems/leetcode/Problem 162. Find Peak Element.md"
     },
     {
       "basename": "Sieve of Eratosthenes",
       "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     },
     {
-      "basename": "Problem 912. Sort an Array",
-      "path": "algorithm/problems/leetcode/Problem 912. Sort an Array.md"
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/Hash table.md"
+    },
+    {
+      "basename": "Linked list",
+      "path": "algorithm/data-structure/list/Linked list.md"
+    },
+    {
+      "basename": "Array list",
+      "path": "algorithm/data-structure/list/Array list.md"
+    },
+    {
+      "basename": "Tree traversal",
+      "path": "algorithm/algorithm/tree/Tree traversal.md"
+    },
+    {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/algorithm/string/Longest common subsequence.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
     },
     {
       "basename": "Quick sort",
       "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
+    },
+    {
+      "basename": "JavaScript URL",
+      "path": "programming/javascript/browser/JavaScript URL.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Problem 912. Sort an Array",
+      "path": "algorithm/problems/leetcode/Problem 912. Sort an Array.md"
     },
     {
       "basename": "CLAUDE",
@@ -27,18 +103,6 @@
     {
       "basename": "Algorithm complexity",
       "path": "algorithm/complexity/Algorithm complexity.md"
-    },
-    {
-      "basename": "XOR operation",
-      "path": "algorithm/bit-manipulation/XOR operation.md"
-    },
-    {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/algorithm/string/Longest common subsequence.md"
-    },
-    {
-      "basename": "Selection sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
     },
     {
       "basename": "Heap sort",
@@ -121,18 +185,6 @@
       "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
     },
     {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/Hash table.md"
-    },
-    {
-      "basename": "Linked list",
-      "path": "algorithm/data-structure/list/Linked list.md"
-    },
-    {
-      "basename": "Array list",
-      "path": "algorithm/data-structure/list/Array list.md"
-    },
-    {
       "basename": "Recurrence relation",
       "path": "algorithm/complexity/Recurrence relation.md"
     },
@@ -147,58 +199,6 @@
     {
       "basename": "OCI-compliant container",
       "path": "site-reability-engineering/container-engine/OCI-compliant container.md"
-    },
-    {
-      "basename": "Container networking",
-      "path": "site-reability-engineering/container-engine/Container networking.md"
-    },
-    {
-      "basename": "Container registry",
-      "path": "site-reability-engineering/container-engine/Container registry.md"
-    },
-    {
-      "basename": "Container security",
-      "path": "site-reability-engineering/container-engine/Container security.md"
-    },
-    {
-      "basename": "Container commands",
-      "path": "site-reability-engineering/container-engine/Container commands.md"
-    },
-    {
-      "basename": "ST-Engineering-First-Day-Questions",
-      "path": "plans/ST-Engineering-First-Day-Questions.md"
-    },
-    {
-      "basename": "Variable length Subnet Mask (VLSM)",
-      "path": "computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM).md"
-    },
-    {
-      "basename": "Fixed length Subnet Mask (FLSM)",
-      "path": "computer-network/network-layer/data-plane/subnet/Fixed length Subnet Mask (FLSM).md"
-    },
-    {
-      "basename": "Network Address Translation (NAT)",
-      "path": "computer-network/network-layer/data-plane/subnet/Network Address Translation (NAT).md"
-    },
-    {
-      "basename": "Subnet class",
-      "path": "computer-network/network-layer/data-plane/subnet/Subnet class.md"
-    },
-    {
-      "basename": "Subnet",
-      "path": "computer-network/network-layer/data-plane/subnet/Subnet.md"
-    },
-    {
-      "basename": "Data plane overview",
-      "path": "computer-network/network-layer/data-plane/subnet/Data plane overview.md"
-    },
-    {
-      "basename": "Internet Protocol version 6 (IPv6)",
-      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 6 (IPv6).md"
-    },
-    {
-      "basename": "Internet Protocol version 4 (IPv4)",
-      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
     }
   ],
   "omittedPaths": [],

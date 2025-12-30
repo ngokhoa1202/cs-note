@@ -1,5 +1,4 @@
 #algorithm #bit-manipulation #number-theory #cryptography #stream-cipher 
-
 # Definition
 - $$A \oplus B=\bar{A}B+A\bar{B}$$
 # Characteristics

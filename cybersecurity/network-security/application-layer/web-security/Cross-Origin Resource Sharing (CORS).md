@@ -30,7 +30,7 @@ http://myapp.example.com
 - It helps isolate potentially malicious documents, thereby reducing possible attack vectors. For example, it prevents a malicious website on the Internet from running JavaScript in a browser to read data from a third-party mail service in which the user is signed or a company intranet and relaying that data to the attacker.
 - ![[Pasted image 20251023111946.png]]
 ## Inherited origins
-- Scripts executed from pages with an `about:blank` or [[javascript URL]] inherit the origin of the document containing that URL since these types of URLs do not contain information about an origin server.
+- Scripts executed from pages with an `about:blank` or [[programming/javascript/browser/JavaScript URL]] inherit the origin of the document containing that URL since these types of URLs do not contain information about an origin server.
 ## File origins
 ### Mechanism
 - Files uploaded from the client host using `{URL} file:///` scheme is treated as opaque origins by browsers.
@@ -154,7 +154,7 @@ fetchPromise.then((response) => console.log(response));
 1. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS for CORS tutorial.
 2. https://developer.mozilla.org/en-US/docs/Web/Security/Same-origin_policy for Same Original Policy tutorial.
 3. [[World Wide Web#Uniform Resource Locator (URL)]] for URL.
-4. [[javascript URL]] for `javascript:` URL schemes.
+4. [[programming/javascript/browser/JavaScript URL]] for `javascript:` URL schemes.
 5. https://fetch.spec.whatwg.org/#http-cors-protocol for Cross-Origin Sharing Resource specification for HTTP request and response in the latest `fetch` specification.
 6. https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_shapes/Shapes_from_images for CSS Shapes from images.
 7. https://www.w3.org/TR/2014/REC-cors-20140116/#terminology for old CORS specification.

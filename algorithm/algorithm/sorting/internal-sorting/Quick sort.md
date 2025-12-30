@@ -378,6 +378,7 @@ public class QuickSort {
 ### Worst case
 - The given array has already been sorted in the same or reverse order; therefore, each partition only decreases the problem size by $1$.
 - The time complexity is $$T(n)=T(n-1)+T(0)+\Theta(n)=\Theta(n^2)$$
+- 
 ### Average case
 - The time complexity is $$T(n)=O(n\text{log}(n))$$
 ## Lomuto's partition and Hoare's partition

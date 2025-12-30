@@ -2,7 +2,7 @@
   "theme": "moonstone",
   "accentColor": "#6c85bc",
   "baseFontSize": 20,
-  "textFontFamily": "IBM Plex Serif",
+  "textFontFamily": "Source Sans 3",
   "monospaceFontFamily": "JetBrains Mono",
   "interfaceFontFamily": "Inter",
   "cssTheme": "Minimal",
