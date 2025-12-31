@@ -1,4 +1,4 @@
-#leetcode #frequency-table 
+#leetcode #frequency-table #java #java8 
 # Algorithm
 ## Frequency table
 # Implementation

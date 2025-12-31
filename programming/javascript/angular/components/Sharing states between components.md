@@ -1,7 +1,6 @@
-#angular #angular17 #angular18 #annotation #javascript #typescript #design-pattern #object-oriented-programming 
-#functional-programming 
-#structural-pattern #software-engineering #software-architecture #html 
-
+#angular #angular17 #angular18 #annotation #javascript #typescript #design-pattern 
+#object-oriented-programming #functional-programming #structural-pattern #software-engineering 
+#software-architecture #html 
 # Input
 ## Input decorator
 ### Purpose
@@ -11,8 +10,7 @@
 - For child component:
 	- Declare a property and <mark style="background: #e4e62d;">decorate</mark> it with `@Input` decorator.
 - For parent component:
-	- Pass the property to its children by <mark style="background: #e4e62d;">specifying HTML attribute</mark>.
-
+	- Pass the property to its children by <mark style="background: #e4e62d;">specifying HTML attribute</mark>. 
 # Output
 ## Output decorator
 ### Purpose
@@ -24,7 +22,7 @@
 - For parent component:
 	- Declare a function to receive the emitted property.
 	- <mark style="background: #e4e62d;">Bind</mark> the <mark style="background: #e4e62d;">event</mark> to the declared function in the child component tag in parent template file:
-		- The argument binded in HTML template is still an event.
+		- The argument bound in HTML template is still an event.
 ## Output function
 
 # References

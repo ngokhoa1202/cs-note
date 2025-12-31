@@ -1,56 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "Dependency Configurations",
-      "path": "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md"
-    },
-    {
-      "basename": "Spring Boot Configuration",
-      "path": "site-reability-engineering/build-tools/java/gradle/spring/spring-boot/Spring Boot Configuration.md"
-    },
-    {
-      "basename": "Micronaut Configuration",
-      "path": "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md"
-    },
-    {
-      "basename": "Quarkus Configuration",
-      "path": "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md"
-    },
-    {
-      "basename": "Dependency Scopes",
-      "path": "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md"
-    },
-    {
-      "basename": "Spring Boot Configuration",
-      "path": "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/java/gradle/Lifecycle.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/java/maven/Lifecycle.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
-    },
-    {
-      "basename": "XOR operation",
-      "path": "algorithm/bit-manipulation/XOR operation.md"
-    },
-    {
-      "basename": "Problem 162. Find Peak Element",
-      "path": "algorithm/problems/leetcode/Problem 162. Find Peak Element.md"
+      "basename": "Problem 204. Count Primes",
+      "path": "algorithm/problems/leetcode/Problem 204. Count Primes.md"
     },
     {
       "basename": "Sieve of Eratosthenes",
       "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     },
     {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/Hash table.md"
+      "basename": "Linux Services",
+      "path": "Linux Services.md"
+    },
+    {
+      "basename": "Insertion sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md"
+    },
+    {
+      "basename": "Merge sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Merge sort.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
     },
     {
       "basename": "Linked list",
@@ -61,44 +33,164 @@
       "path": "algorithm/data-structure/list/Array list.md"
     },
     {
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/Hash table.md"
+    },
+    {
       "basename": "Tree traversal",
       "path": "algorithm/algorithm/tree/Tree traversal.md"
     },
     {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/algorithm/string/Longest common subsequence.md"
+      "basename": "Naive string matching",
+      "path": "algorithm/algorithm/string/Naive string matching.md"
     },
     {
-      "basename": "Selection sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
-    },
-    {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
-      "basename": "Quick sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
-    },
-    {
-      "basename": "JavaScript URL",
-      "path": "programming/javascript/browser/JavaScript URL.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/hashing/Hash table.md"
     },
     {
       "basename": "Problem 912. Sort an Array",
       "path": "algorithm/problems/leetcode/Problem 912. Sort an Array.md"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "Problem 383. Ransom Note",
+      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
+    },
+    {
+      "basename": "Problem 350. Intersection of Two Arrays II",
+      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
+    },
+    {
+      "basename": "Problem 283. Move Zeroes",
+      "path": "algorithm/problems/leetcode/Problem 283. Move Zeroes.md"
+    },
+    {
+      "basename": "Problem 374. Guess Number Higher or Lower",
+      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
+    },
+    {
+      "basename": "Kubernetes architecture",
+      "path": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Quarkus Configuration",
+      "path": "site-reability-engineering/build-tools/java/gradle/quarkus/Quarkus Configuration.md"
+    },
+    {
+      "basename": "Dependency Scopes",
+      "path": "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md"
+    },
+    {
+      "basename": "Quarkus Configuration",
+      "path": "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/java/maven/Lifecycle.md"
+    },
+    {
+      "basename": "Swap two variables",
+      "path": "programming/javascript/common-problems/Swap two variables.md"
+    },
+    {
+      "basename": "Class and Style binding",
+      "path": "programming/javascript/angular/template/Class and Style binding.md"
+    },
+    {
+      "basename": "Sharing states between components",
+      "path": "programming/javascript/angular/components/Sharing states between components.md"
+    },
+    {
+      "basename": "File properties",
+      "path": "operating-system/file-system/File properties.md"
+    },
+    {
+      "basename": "Quick sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
+    },
+    {
+      "basename": "Selection sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
+    },
+    {
+      "basename": "Angular commands",
+      "path": "programming/javascript/angular/Angular commands.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+    },
+    {
+      "basename": "Micronaut Configuration",
+      "path": "site-reability-engineering/build-tools/java/gradle/micronaut/Micronaut Configuration.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/java/gradle/Lifecycle.md"
+    },
+    {
+      "basename": "Dependency Configurations",
+      "path": "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md"
+    },
+    {
+      "basename": "Spring Boot Configuration",
+      "path": "site-reability-engineering/build-tools/java/gradle/spring/spring-boot/Spring Boot Configuration.md"
+    },
+    {
+      "basename": "Problem 50. Pow(x, n)",
+      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
+    },
+    {
+      "basename": "Problem 49. Group anagrams",
+      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
+    },
+    {
+      "basename": "Problem 1351. Count Negative Numbers in a Sorted Matrix",
+      "path": "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md"
+    },
+    {
+      "basename": "Problem 1037. Valid Boomerang",
+      "path": "algorithm/problems/leetcode/Problem 1037. Valid Boomerang.md"
+    },
+    {
+      "basename": "Problem 589. N-ary Tree Preorder Traversal",
+      "path": "algorithm/problems/leetcode/Problem 589. N-ary Tree Preorder Traversal.md"
+    },
+    {
+      "basename": "Problem 575. Distribute candies",
+      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
+    },
+    {
+      "basename": "Problem 242. Valid anagram",
+      "path": "algorithm/problems/leetcode/Problem 242. Valid anagram.md"
     },
     {
       "basename": "Problem 134. Gas Station",
       "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
+    },
+    {
+      "basename": "Problem 485. Max consecutive ones",
+      "path": "algorithm/problems/leetcode/Problem 485. Max consecutive ones.md"
+    },
+    {
+      "basename": "Problem 179. Largest Number",
+      "path": "algorithm/problems/leetcode/Problem 179. Largest Number.md"
+    },
+    {
+      "basename": "Problem 143. Reorder list",
+      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
+    },
+    {
+      "basename": "Problem 21. Merge two sorted lists",
+      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
     },
     {
       "basename": "Algorithm complexity",
@@ -107,98 +199,6 @@
     {
       "basename": "Heap sort",
       "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
-    },
-    {
-      "basename": "Container storage",
-      "path": "site-reability-engineering/container-engine/Container storage.md"
-    },
-    {
-      "basename": "UML Class diagram",
-      "path": "software-engineering/diagram/UML Class diagram.md"
-    },
-    {
-      "basename": "Operators",
-      "path": "programming/javascript/rxjs/Operators.md"
-    },
-    {
-      "basename": "Observable",
-      "path": "programming/javascript/rxjs/Observable.md"
-    },
-    {
-      "basename": "Type",
-      "path": "programming/javascript/typescript/Type.md"
-    },
-    {
-      "basename": "Interface",
-      "path": "programming/javascript/typescript/Interface.md"
-    },
-    {
-      "basename": "Function",
-      "path": "programming/javascript/typescript/Function.md"
-    },
-    {
-      "basename": "Control flow",
-      "path": "programming/javascript/typescript/Control flow.md"
-    },
-    {
-      "basename": "Class",
-      "path": "programming/javascript/typescript/Class.md"
-    },
-    {
-      "basename": "Docker architecture",
-      "path": "site-reability-engineering/container-engine/docker/Docker architecture.md"
-    },
-    {
-      "basename": "Podman architecture",
-      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
-    },
-    {
-      "basename": "Kubernetes architecture",
-      "path": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md"
-    },
-    {
-      "basename": "Binary search",
-      "path": "algorithm/algorithm/search/Binary search.md"
-    },
-    {
-      "basename": "Problem 1351. Count Negative Numbers in a Sorted Matrix",
-      "path": "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md"
-    },
-    {
-      "basename": "01-06-2025",
-      "path": "plans/01-06-2025.md"
-    },
-    {
-      "basename": "Linear search",
-      "path": "algorithm/algorithm/search/Linear search.md"
-    },
-    {
-      "basename": "Problem 3074. Apple Redistribution into Boxes",
-      "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
-    },
-    {
-      "basename": "Problem 3075. Maximize Happiness of Selected Children",
-      "path": "algorithm/problems/leetcode/Problem 3075. Maximize Happiness of Selected Children.md"
-    },
-    {
-      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
-      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/complexity/Recurrence relation.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/hashing/Hash table.md"
-    },
-    {
-      "basename": "Compose file",
-      "path": "site-reability-engineering/container-engine/services/Compose file.md"
-    },
-    {
-      "basename": "OCI-compliant container",
-      "path": "site-reability-engineering/container-engine/OCI-compliant container.md"
     }
   ],
   "omittedPaths": [],

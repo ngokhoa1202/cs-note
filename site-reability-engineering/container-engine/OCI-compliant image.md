@@ -1,4 +1,4 @@
-#docker #binary-image #container #operating-system #process #cli #software-architecture #site-realibility-engineering #file-system #continuous-integration #cybersecurity 
+#docker #binary-image #containerization #operating-system #process #cli #software-architecture #site-realibility-engineering #file-system #continuous-integration #cybersecurity 
 #common-vulnerabilities-and-exposures
 # OCI-Compliant Image
 ## Definition

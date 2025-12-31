@@ -1,5 +1,5 @@
 #solace #message-broker #software-engineering #software-architecture #linux #podman #docker 
-#container #binary-image #installation #operating-system #container-engine #fedora #ubuntu #debian 
+#containerization #binary-image #installation #operating-system #container-engine #fedora #ubuntu #debian 
 # Rootless container engine installation
 - Increases system limits for the current user.
 ```Shell title='Access limit configuration file'

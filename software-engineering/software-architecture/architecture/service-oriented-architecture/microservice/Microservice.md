@@ -1,6 +1,6 @@
 #service-oriented-architecture #microservice #software-testing #software-engineering
 #software-architecture #solid #continuous-integration #logging #event-driven-programming 
-#concurrency-control #transaction #computer-network #application-layer #cybersecurity #transaction #container 
+#concurrency-control #transaction #computer-network #application-layer #cybersecurity #transaction #containerization 
 # Topology
 - Every service is implemented in alignment with a <mark class="hltr-yellow">bounded context</mark> to highly prioritize the high coupling.
 - Each microservice has its own API layer to interact with clients and comprises its business logic and dedicated database infrastructure, thereby promoting service autonomy.

@@ -1,4 +1,4 @@
-#cli #docker #continuous-integration #operating-system #container #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume #podman #linux #fedora #centos-stream #rhel 
+#cli #docker #continuous-integration #operating-system #containerization #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume #podman #linux #fedora #centos-stream #rhel 
 # General syntax
 ```bash
 docker <cmd> <sub-cmd> (options)

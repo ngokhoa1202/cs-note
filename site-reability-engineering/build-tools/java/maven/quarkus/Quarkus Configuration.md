@@ -394,9 +394,7 @@
     </profiles>
 </project>
 ```
-
 # Environment-Specific Application Configuration
-
 ## Development Configuration
 ```yaml title='src/main/resources/application-dev.yml'
 quarkus:
@@ -484,7 +482,6 @@ quarkus:
   devservices:
     enabled: true
 ```
-
 ## Production Configuration
 ```yaml title='src/main/resources/application-prod.yml'
 quarkus:
@@ -591,8 +588,7 @@ quarkus:
     max-threads: 100
 ```
 
-# Maven Commands for Different Environments
-
+# Commands for Different Environments
 ## Development Environment
 ```shell title='Development build and run'
 # Run in dev mode with live reload
@@ -613,7 +609,6 @@ mvn clean package
 # Access Dev UI
 # http://localhost:8080/q/dev
 ```
-
 ## Production Environment
 ```shell title='Production build'
 # Build production JAR
@@ -628,7 +623,6 @@ mvn clean package -Pprod -DskipTests
 # Run uber-jar
 java -jar target/quarkus-app-runner.jar
 ```
-
 ## Native Compilation
 ```shell title='Native image compilation'
 # Build native executable
@@ -648,7 +642,6 @@ mvn package -Pnative \
 # Test native executable
 mvn verify -Pnative
 ```
-
 ## Container Image
 ```shell title='Container image build'
 # Build JVM container image
@@ -668,47 +661,6 @@ mvn clean package \
     -Dquarkus.container-image.name=quarkus-app \
     -Dquarkus.container-image.tag=1.0.0
 ```
-
-# Dependency Management Strategy
-
-## Compile Scope
-- **Quarkus extensions** - RESTEasy, Hibernate, Security
-- **Business logic libraries** - MapStruct, utilities
-
-## Provided Scope
-- **Lombok** - Code generation at compile-time
-
-## Runtime Scope
-- **Automatically managed by Quarkus** - drivers, implementations
-
-## Test Scope
-- **Quarkus test framework** - JUnit 5, REST Assured
-- **Testcontainers** - Integration testing
-
-# Key Features
-
-## Live Reload
-- Automatic reload on code changes in dev mode.
-- No need for manual restart.
-- Fast iteration cycle.
-
-## DevServices
-- Automatic container startup for databases, Kafka, etc.
-- Zero configuration for development.
-- Testcontainers integration.
-
-## Native Compilation
-- GraalVM native image support.
-- Fast startup time (milliseconds).
-- Low memory footprint.
-- Ideal for serverless and containers.
-
-## Reactive Programming
-- Mutiny reactive types.
-- Non-blocking I/O.
-- Reactive database drivers.
-- Reactive messaging.
-
 # Project Structure
 ```
 quarkus-app/

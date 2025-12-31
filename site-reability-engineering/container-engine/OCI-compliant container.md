@@ -1,5 +1,5 @@
 #continuous-integration #software-engineering #operating-system #cli #kubernetes #process #docker #software-architecture #container-orchestration #site-realibility-engineering
-#computer-network #file-system #container
+#computer-network #file-system #containerization
 # Open Container Initiative (OCI)
 - Industry standard for <mark class="hltr-yellow">container runtimes</mark> and <mark class="hltr-yellow">image formats</mark>.
 - Governed by Linux Foundation.

@@ -1,12 +1,5 @@
-#gradle #micronaut #java #kotlin #groovy #dependency-manager #configuration #production #development #microservices
-# Purpose
-- Demonstrate comprehensive Gradle configuration for Micronaut applications.
-- Include environment-specific dependencies and configurations for development and production.
-- Showcase both Kotlin DSL and Groovy DSL configurations.
-- Highlight Micronaut-specific features: compile-time DI, AOT compilation, and GraalVM support.
-
-# Complete Micronaut Gradle Configuration
-
+#gradle #micronaut #java #kotlin #groovy #dependency-manager #configuration #microservices
+# Configuration
 ## Kotlin DSL
 
 ```kotlin title='build.gradle.kts - Complete Micronaut Configuration'
@@ -134,7 +127,6 @@ tasks.named<io.micronaut.gradle.docker.NativeImageDockerfile>("dockerfileNative"
     jdkVersion.set("17")
 }
 ```
-
 ## Groovy DSL
 
 ```groovy title='build.gradle - Complete Micronaut Configuration'
@@ -261,7 +253,6 @@ tasks.named('dockerfileNative') {
     jdkVersion = '17'
 }
 ```
-
 # Gradle Properties
 
 ```properties title='gradle.properties'
@@ -274,9 +265,7 @@ org.gradle.parallel=true
 org.gradle.caching=true
 org.gradle.daemon=true
 ```
-
 # Environment-Specific Application Configuration
-
 ## Development Configuration
 ```yaml title='src/main/resources/application-dev.yml'
 micronaut:
@@ -319,7 +308,6 @@ logger:
     root: INFO
     com.example: DEBUG
 ```
-
 ## Production Configuration
 ```yaml title='src/main/resources/application-prod.yml'
 micronaut:
@@ -369,9 +357,7 @@ logger:
     root: WARN
     com.example: INFO
 ```
-
 # Gradle Commands for Different Environments
-
 ## Development Environment
 ```shell title='Development build and run'
 # Compile and run
@@ -389,7 +375,6 @@ logger:
 # Clean build
 ./gradlew clean build
 ```
-
 ## Production Environment
 ```shell title='Production build'
 # Build production JAR
@@ -404,7 +389,6 @@ java -jar build/libs/micronaut-app-all.jar
 # Build without tests
 ./gradlew shadowJar -x test
 ```
-
 ## Native Compilation
 ```shell title='Native image with GraalVM'
 # Build native executable
@@ -416,7 +400,6 @@ java -jar build/libs/micronaut-app-all.jar
 # Build native Docker image
 ./gradlew dockerBuildNative
 ```
-
 ## Docker Image
 ```shell title='Docker image build'
 # Build JVM Docker image
@@ -429,7 +412,6 @@ java -jar build/libs/micronaut-app-all.jar
 # Push to registry
 ./gradlew dockerPush
 ```
-
 ## Testing
 ```shell title='Testing commands'
 # Run all tests
@@ -454,28 +436,6 @@ open build/reports/tests/test/index.html
 | `annotationProcessor` | Code generation | Lombok, MapStruct, Micronaut processors |
 | `runtimeOnly` | Runtime dependencies | Database drivers, Logback |
 | `testImplementation` | Testing frameworks | JUnit 5, Mockito, Testcontainers |
-
-# Key Features
-
-## Compile-Time Dependency Injection
-- No reflection at runtime.
-- Faster startup.
-- Lower memory usage.
-
-## Ahead-of-Time (AOT) Compilation
-- Compile-time code generation.
-- Optimized bytecode.
-- GraalVM native image support.
-
-## Reactive Programming
-- Reactive HTTP client/server.
-- R2DBC reactive database access.
-- Reactive messaging.
-
-## Test Resources
-- Automatic test container lifecycle.
-- Zero configuration testing.
-
 # Project Structure
 ```
 micronaut-app/
@@ -514,8 +474,7 @@ micronaut-app/
 ```
 
 # Settings Configuration
-
-**Kotlin DSL:**
+## Kotlin DSL
 ```kotlin title='settings.gradle.kts'
 pluginManagement {
     repositories {
@@ -530,8 +489,7 @@ plugins {
 
 rootProject.name = "micronaut-app"
 ```
-
-**Groovy DSL:**
+## Groovy DSL
 ```groovy title='settings.gradle'
 pluginManagement {
     repositories {
@@ -546,10 +504,8 @@ plugins {
 
 rootProject.name = 'micronaut-app'
 ```
-
 # Advanced Build Configuration
-
-**Kotlin DSL:**
+## Kotlin DSL
 ```kotlin title='Advanced build.gradle.kts configuration'
 tasks {
     named<io.micronaut.gradle.docker.MicronautDockerfile>("dockerfile") {
@@ -569,8 +525,7 @@ tasks {
     }
 }
 ```
-
-**Groovy DSL:**
+## Groovy DSL
 ```groovy title='Advanced build.gradle configuration'
 tasks.named('dockerfile') {
     baseImage = 'eclipse-temurin:17-jre-jammy'
@@ -588,7 +543,6 @@ optimizedJar {
     enabled = true
 }
 ```
-
 ---
 # References
 1. https://micronaut.io/documentation.html - Official Micronaut Documentation

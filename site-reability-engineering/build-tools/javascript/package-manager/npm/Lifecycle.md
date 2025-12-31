@@ -1,4 +1,5 @@
-#cli #npm #dependency-manager #javascript #react #continuous-delivery #continuous-integration #site-realibility-engineering #software-engineering #angular #node #build-lifecycle #typescript
+#cli #npm #dependency-manager #javascript #react #continuous-delivery #continuous-integration 
+#site-realibility-engineering #software-engineering #angular #node #build-lifecycle #typescript
 # Formal Definition
 - npm is built around the concept of **lifecycle scripts**. Lifecycle scripts are <mark class="hltr-yellow">special hooks that run automatically</mark> at different points during package operations (install, publish, pack, etc.).
 - npm has two types of scripts:
@@ -396,8 +397,7 @@ sequenceDiagram
 | `npm test`         | pretest → test → posttest                        | Run tests             |
 | `npm start`        | prestart → start → poststart                     | Start application     |
 | `npm run build`    | prebuild → build → postbuild                     | Run build script      |
-| `npm run <script>` | pre<script> → <script> → post<script>            | Run custom script     |
-dsds
+| `npm run <script>` | `pre<script> → <script> → post<script>`          | Run custom script     |
 ## Lifecycle Script Dependencies
 ```mermaid
 graph LR
@@ -413,7 +413,6 @@ graph LR
     style A fill:#FFE4B5
     style G fill:#90EE90
 ```
-
 - When a specific operation is executed, all lifecycle scripts for that operation are automatically executed in order.
 - Pre hooks (`pre*`) always run before the main script.
 - Post hooks (`post*`) always run after the main script.
@@ -437,7 +436,7 @@ graph LR
 }
 ```
 ## Script Best Practices
-### 1. Use prepare for Build Steps
+### Use prepare for Build Steps
 - The `prepare` script runs on both `npm install` and `npm publish`.
 - Ideal for TypeScript compilation, asset bundling.
 ```Shell title='prepare for builds'
@@ -447,7 +446,7 @@ graph LR
   }
 }
 ```
-### 2. Use prepublishOnly for Validation
+### Use prepublishOnly for Validation
 - The `prepublishOnly` script only runs on `npm publish`.
 - Ideal for running tests and linting before publishing.
 ```Shell title='prepublishOnly for validation'
@@ -457,11 +456,11 @@ graph LR
   }
 }
 ```
-### 3. Avoid Heavy postinstall Scripts
+### Avoid Heavy postinstall Scripts
 - The `postinstall` script runs for all users installing your package.
 - Avoid long-running operations that slow down installation.
 - Use `prepare` instead for build steps that should run for package consumers.
-### 4. Use Pre/Post Hooks for Setup/Teardown
+### Use Pre/Post Hooks for Setup/Teardown
 - Pre hooks are ideal for cleanup and preparation.
 - Post hooks are ideal for notifications and validation.
 ```Shell title='Pre/Post hooks pattern'
@@ -473,7 +472,7 @@ graph LR
   }
 }
 ```
-### 5. Make Scripts Cross-Platform
+### Make Scripts Cross-Platform
 - Avoid shell-specific commands (use npm packages instead).
 - Use `rimraf` instead of `rm -rf`.
 - Use `cross-env` for environment variables.
@@ -506,8 +505,7 @@ project-root/
 ├── coverage/                  # OUTPUT: Test coverage reports
 └── <name>-<version>.tgz      # OUTPUT: Packed tarball (from npm pack)
 ```
-
-## package.json Scripts Section
+## `package.json` Scripts Section
 ```json
 {
   "name": "my-package",

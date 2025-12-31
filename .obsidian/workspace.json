@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md",
+                "file": "algorithm/problems/leetcode/Problem 204. Count Primes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Dependency Configurations"
+              "title": "Problem 204. Count Primes"
             }
           }
         ]
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "quick sort",
+                "query": "tag:#rhel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 442.5
+    "width": 619.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -118,7 +118,7 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": ""
+                "searchQuery": "cli"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -130,13 +130,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md",
+                "file": "programming/javascript/angular/Angular commands.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Kubernetes architecture"
+              "title": "Outline of Angular commands"
             }
           },
           {
@@ -190,47 +190,49 @@
       "graph:Open graph view": false,
       "markdown-importer:Open format converter": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "274e12167d11c1e2",
   "lastOpenFiles": [
-    "site-reability-engineering/build-tools/java/gradle/spring/spring-boot/Spring Boot Configuration.md",
-    "site-reability-engineering/build-tools/java/gradle/Micronaut Configuration.md",
+    "algorithm/number-theory/Sieve of Eratosthenes.md",
+    "Linux Services.md",
+    "assets/Pasted image 20251231202553.png",
+    "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md",
+    "algorithm/algorithm/sorting/internal-sorting/Merge sort.md",
+    "algorithm/complexity/Recurrence relation.md",
+    "algorithm/data-structure/list/Linked list.md",
+    "algorithm/data-structure/list/Array list.md",
+    "algorithm/data-structure/Hash table.md",
+    "algorithm/algorithm/tree/Tree traversal.md",
+    "algorithm/algorithm/string/Naive string matching.md",
+    "algorithm/data-structure/hashing/Hash table.md",
+    "algorithm/problems/leetcode/Problem 204. Count Primes.md",
+    "algorithm/problems/leetcode/Problem 912. Sort an Array.md",
+    "algorithm/problems/leetcode/Problem 383. Ransom Note.md",
+    "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md",
+    "algorithm/problems/leetcode/Problem 283. Move Zeroes.md",
+    "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md",
+    "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md",
+    "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md",
+    "site-reability-engineering/build-tools/java/gradle/quarkus/Quarkus Configuration.md",
+    "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md",
+    "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md",
+    "site-reability-engineering/build-tools/java/maven/Lifecycle.md",
+    "programming/javascript/common-problems/Swap two variables.md",
+    "programming/javascript/angular/template/Class and Style binding.md",
+    "programming/javascript/angular/components/Sharing states between components.md",
+    "site-reability-engineering/build-tools/java/gradle/quarkus",
+    "site-reability-engineering/build-tools/java/gradle/micronaut",
     "site-reability-engineering/build-tools/java/gradle/Micronaut Configuration.md.tmp.13771.1767055656245",
-    "site-reability-engineering/build-tools/java/gradle/Quarkus Configuration.md",
     "site-reability-engineering/build-tools/java/gradle/Quarkus Configuration.md.tmp.13771.1767055547981",
     "site-reability-engineering/build-tools/java/gradle/spring/spring-boot",
     "site-reability-engineering/build-tools/java/gradle/spring",
-    "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md",
     "site-reability-engineering/build-tools/java/gradle/Spring Boot Configuration.md.tmp.13771.1767055433318",
-    "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md",
     "site-reability-engineering/build-tools/java/maven/micronaut",
     "site-reability-engineering/build-tools/java/maven/Micronaut Configuration.md.tmp.13771.1767055302810",
-    "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md",
     "site-reability-engineering/build-tools/java/maven/quarkus",
-    "site-reability-engineering/build-tools/java/maven/Quarkus Configuration.md.tmp.13771.1767055172662",
-    "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md",
-    "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md.tmp.13771.1767055076368",
-    "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md",
-    "site-reability-engineering/build-tools/java/gradle/Gradle commands.md",
-    "site-reability-engineering/build-tools/java/gradle/Gradle tasks.md",
-    "site-reability-engineering/build-tools/java/gradle/Gradle project architecture.md",
-    "site-reability-engineering/build-tools/java/gradle/Lifecycle.md",
-    "site-reability-engineering/build-tools/java/maven/Lifecycle.md",
-    "site-reability-engineering/build-tools/java/gradle/Gradle build scripts.md",
-    "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md",
-    "algorithm/bit-manipulation/XOR operation.md",
-    "algorithm/problems/leetcode/Problem 162. Find Peak Element.md",
-    "algorithm/number-theory/Sieve of Eratosthenes.md",
-    "algorithm/data-structure/Hash table.md",
-    "algorithm/data-structure/list/Linked list.md",
-    "algorithm/data-structure/list/Array list.md",
-    "algorithm/algorithm/tree/Tree traversal.md",
-    "algorithm/algorithm/string/Longest common subsequence.md",
-    "algorithm/algorithm/sorting/internal-sorting/Selection sort.md",
-    "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md",
-    "site-reability-engineering/build-tools/java/maven/Standard Directory layout.md",
     "assets/gRPC.drawio 1.png",
     "assets/Pasted image 20251224202812.png",
     "assets/Pasted image 20251224204119.png",
@@ -240,7 +242,6 @@
     "assets/Pasted image 20251224203409.png",
     "assets/Pasted image 20251224203339.png",
     "assets/Pasted image 20251224203026.png",
-    "assets/Pasted image 20251224202952.png",
     "software-engineering/api/protocol/web-service/Untitled.canvas",
     "algorithm/Untitled.canvas",
     "Untitled.canvas",

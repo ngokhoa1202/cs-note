@@ -6,6 +6,9 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "TiNumber123",
+      "LoMicronaut",
+      "SiGradle",
       "SiQuarkus",
       "SiSpringboot",
       "SiSpring",
@@ -22,10 +25,7 @@
       "TiProtocol",
       "LiNetwork",
       "RiKeyFill",
-      "SiDocker",
-      "SiYaml",
-      "SiFlask",
-      "SiPython"
+      "SiDocker"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -697,5 +697,19 @@
   "site-reability-engineering/build-tools/java/maven/spring": "SiSpring",
   "site-reability-engineering/build-tools/java/maven/spring/spring-boot": "SiSpringboot",
   "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md": "SiSpringboot",
-  "site-reability-engineering/build-tools/java/maven/quarkus": "SiQuarkus"
+  "site-reability-engineering/build-tools/java/maven/quarkus": "SiQuarkus",
+  "site-reability-engineering/build-tools/java/gradle/spring": "SiSpring",
+  "site-reability-engineering/build-tools/java/gradle/spring/spring-boot": "SiSpringboot",
+  "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md": "SiGradle",
+  "site-reability-engineering/build-tools/java/gradle/Lifecycle.md": "SiGradle",
+  "site-reability-engineering/build-tools/java/gradle/micronaut": "LoMicronaut",
+  "site-reability-engineering/build-tools/java/gradle/micronaut/Micronaut Configuration.md": "LoMicronaut",
+  "site-reability-engineering/build-tools/java/gradle/quarkus": "SiQuarkus",
+  "site-reability-engineering/build-tools/java/gradle/quarkus/Quarkus Configuration.md": "SiQuarkus",
+  "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md": "SiApachemaven",
+  "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md": "SiQuarkus",
+  "site-reability-engineering/build-tools/java/maven/micronaut": "LoMicronaut",
+  "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md": "LoMicronaut",
+  "algorithm/problems/leetcode/Problem 204. Count Primes.md": "SiLeetcode",
+  "algorithm/number-theory": "TiNumber123"
 }

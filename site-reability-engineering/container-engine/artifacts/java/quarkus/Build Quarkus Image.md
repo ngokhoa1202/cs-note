@@ -1,4 +1,4 @@
-#quarkus #java #java21 #java17 #podman #container #site-realibility-engineering 
+#quarkus #java #java21 #java17 #podman #containerization #site-realibility-engineering 
 #continuous-delivery #bash #cli #rhel #debian #ubuntu #serverless #cloud-computing #maven #gradle #binary-image #fedora 
 - Quarkus framework is microservice-oriented, so its final `.jar` file is not standalone but dynamically links to other libraries.
 - Quarkus framework is aligned with *Redhat-based* container.
@@ -141,7 +141,7 @@ RUN ./mvnw package -Pnative -DskipTests -B
 # ============================================
 # Stage 2: Runtime with Minimal Image
 # ============================================
-FROM registry.access.redhat.com/ubi9/ubi-minimal:9.3
+FROM registry.access.redhat.com/ubi10/ubi-minimal:latest
 
 WORKDIR /app
 

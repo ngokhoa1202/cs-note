@@ -1,4 +1,5 @@
-#maven #dependency-manager #java #spring #spring-boot #quarkus #micronaut #build-lifecycle
+#maven #dependency-manager #java #spring #spring-boot #quarkus #micronaut #build-lifecycle 
+#windows #continuous-delivery #continuous-integration 
 # Definition
 - Maven dependency scopes define <mark class="hltr-yellow">when and where dependencies are available</mark> during the build lifecycle.
 - Each scope determines:
@@ -7,7 +8,6 @@
   - **Transitive propagation** - whether the dependency is passed to consumers.
   - **Test availability** - whether the dependency is available during testing.
 - Maven provides six dependency scopes: `compile`, `provided`, `runtime`, `test`, `system`, and `import`.
-
 # Dependency Scope Visibility
 
 ```mermaid title='Maven Dependency Scopes'
@@ -101,7 +101,6 @@ graph TB
     </dependency>
 </dependencies>
 ```
-
 ## `provided`
 ### Purpose
 - Dependencies available at <mark class="hltr-yellow">compile-time but provided by runtime environment</mark>.
@@ -118,7 +117,6 @@ graph TB
 - Servlet API (provided by Tomcat, Jetty).
 - Jakarta EE APIs (provided by application servers).
 - Lombok (compile-time code generation).
-
 ```xml title='provided scope'
 <dependencies>
     <!-- Servlet API - provided by web container -->
@@ -154,7 +152,6 @@ graph TB
     </dependency>
 </dependencies>
 ```
-
 ## `runtime`
 ### Purpose
 - Dependencies needed <mark class="hltr-yellow">only at runtime</mark>, not during compilation.
@@ -171,7 +168,6 @@ graph TB
 - JDBC drivers (compile against interfaces, run with implementations).
 - Logging implementations (SLF4J bindings).
 - Runtime-specific libraries.
-
 ```xml title='runtime scope'
 <dependencies>
     <!-- PostgreSQL JDBC driver -->
@@ -207,7 +203,6 @@ graph TB
     </dependency>
 </dependencies>
 ```
-
 ## `test`
 ### Purpose
 - Dependencies needed <mark class="hltr-yellow">only for test compilation and execution</mark>.
@@ -225,7 +220,6 @@ graph TB
 - Mocking libraries (Mockito).
 - Assertion libraries (AssertJ, Hamcrest).
 - Test containers and utilities.
-
 ```xml title='test scope'
 <dependencies>
     <!-- JUnit 5 for testing -->
@@ -276,7 +270,6 @@ graph TB
     </dependency>
 </dependencies>
 ```
-
 ## `system`
 ### Purpose
 - Similar to `provided`, but JAR must be <mark class="hltr-yellow">explicitly provided via system path</mark>.
@@ -326,7 +319,6 @@ mvn install:install-file \
     <version>1.0.0</version>
 </dependency>
 ```
-
 ## `import`
 ### Purpose
 - Special scope used only in `<dependencyManagement>`.
@@ -450,10 +442,9 @@ graph LR
 
 # Dependency Management Best Practices
 
-## 1. Use `compile` scope by default
+## Use `compile` scope by default
 - Default scope for most dependencies.
 - Explicitly declare scope only when different from `compile`.
-
 ```xml title='Default compile scope'
 <!-- Scope omitted - defaults to compile -->
 <dependency>
@@ -461,11 +452,9 @@ graph LR
     <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 ```
-
-## 2. Use `provided` for container-supplied dependencies
+## Use `provided` for container-supplied dependencies
 - Servlet API, Jakarta EE APIs.
 - Compile-time annotation processors (Lombok).
-
 ```xml title='Provided scope for container dependencies'
 <dependency>
     <groupId>jakarta.servlet</groupId>
@@ -474,11 +463,9 @@ graph LR
     <scope>provided</scope>
 </dependency>
 ```
-
-## 3. Use `runtime` for implementation-agnostic dependencies
+## Use `runtime` for implementation-agnostic dependencies
 - JDBC drivers - compile against JDBC API, run with specific driver.
 - Logging implementations - compile against SLF4J API, bind at runtime.
-
 ```xml title='Runtime scope for drivers'
 <!-- Compile against SLF4J API -->
 <dependency>
@@ -495,8 +482,7 @@ graph LR
     <scope>runtime</scope>
 </dependency>
 ```
-
-## 4. Isolate test dependencies with `test` scope
+## Isolate test dependencies with `test` scope
 - Prevents test dependencies from polluting production classpath.
 
 ```xml title='Test scope isolation'
@@ -515,11 +501,9 @@ graph LR
     <scope>test</scope>
 </dependency>
 ```
-
-## 5. Use BOM imports for version management
+## Use BOM imports for version management
 - Centralize dependency version management.
 - Ensures compatible dependency versions.
-
 ```xml title='BOM import best practice'
 <dependencyManagement>
     <dependencies>
@@ -534,10 +518,9 @@ graph LR
 </dependencyManagement>
 ```
 
-## 6. Avoid `system` scope
+## Avoid `system` scope
 - **Deprecated** and not portable.
 - Use `mvn install:install-file` instead.
-
 # Real-World Example
 
 ```xml title='Complete dependency scope example'
