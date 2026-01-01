@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiGo",
+      "SiJavascript",
       "TiNumber123",
       "LoMicronaut",
       "SiGradle",
@@ -23,9 +25,7 @@
       "LoBuildah",
       "LiContainer",
       "TiProtocol",
-      "LiNetwork",
-      "RiKeyFill",
-      "SiDocker"
+      "LiNetwork"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -711,5 +711,8 @@
   "site-reability-engineering/build-tools/java/maven/micronaut": "LoMicronaut",
   "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md": "LoMicronaut",
   "algorithm/problems/leetcode/Problem 204. Count Primes.md": "SiLeetcode",
-  "algorithm/number-theory": "TiNumber123"
+  "algorithm/number-theory": "TiNumber123",
+  "programming/javascript/common-problems/Initialize an array with give size and default value.md": "SiJavascript",
+  "programming/go/common-problems": "SiGo",
+  "programming/go/common-problems/Initialize an array with given size and default value.md": "SiGo"
 }

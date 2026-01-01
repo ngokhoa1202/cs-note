@@ -5,6 +5,30 @@
       "path": "algorithm/problems/leetcode/Problem 204. Count Primes.md"
     },
     {
+      "basename": "Data type",
+      "path": "programming/go/fundamentals/Data type.md"
+    },
+    {
+      "basename": "Initialize an array with given size and default value",
+      "path": "programming/go/common-problems/Initialize an array with given size and default value.md"
+    },
+    {
+      "basename": "Initialize an array with give size and default value",
+      "path": "programming/javascript/common-problems/Initialize an array with give size and default value.md"
+    },
+    {
+      "basename": "Swap two variables",
+      "path": "programming/javascript/common-problems/Swap two variables.md"
+    },
+    {
+      "basename": "Problem 415. Add Strings",
+      "path": "algorithm/problems/leetcode/Problem 415. Add Strings.md"
+    },
+    {
+      "basename": "Problem 577. Employee Bonus",
+      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
+    },
+    {
       "basename": "Sieve of Eratosthenes",
       "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     },
@@ -93,10 +117,6 @@
       "path": "site-reability-engineering/build-tools/java/maven/Lifecycle.md"
     },
     {
-      "basename": "Swap two variables",
-      "path": "programming/javascript/common-problems/Swap two variables.md"
-    },
-    {
       "basename": "Class and Style binding",
       "path": "programming/javascript/angular/template/Class and Style binding.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "Problem 485. Max consecutive ones",
       "path": "algorithm/problems/leetcode/Problem 485. Max consecutive ones.md"
-    },
-    {
-      "basename": "Problem 179. Largest Number",
-      "path": "algorithm/problems/leetcode/Problem 179. Largest Number.md"
-    },
-    {
-      "basename": "Problem 143. Reorder list",
-      "path": "algorithm/problems/leetcode/Problem 143. Reorder list.md"
-    },
-    {
-      "basename": "Problem 21. Merge two sorted lists",
-      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
-    },
-    {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/complexity/Algorithm complexity.md"
-    },
-    {
-      "basename": "Heap sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
     }
   ],
   "omittedPaths": [],

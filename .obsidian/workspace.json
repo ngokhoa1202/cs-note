@@ -13,6 +13,21 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "programming/go/fundamentals/Data type.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Data type"
+            }
+          },
+          {
+            "id": "181e2f7dccdb0414",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "algorithm/problems/leetcode/Problem 204. Count Primes.md",
                 "mode": "source",
                 "source": false,
@@ -22,7 +37,8 @@
               "title": "Problem 204. Count Primes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -190,12 +206,19 @@
       "graph:Open graph view": false,
       "markdown-importer:Open format converter": false,
       "templater-obsidian:Templater": false,
-      "omnisearch:Omnisearch": false,
-      "obsidian-git:Open Git source control": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "274e12167d11c1e2",
+  "active": "181e2f7dccdb0414",
   "lastOpenFiles": [
+    "programming/go/fundamentals/Data type.md",
+    "programming/go/common-problems/Initialize an array with given size and default value.md",
+    "algorithm/problems/leetcode/Problem 204. Count Primes.md",
+    "programming/go/common-problems",
+    "programming/javascript/common-problems/Initialize an array with give size and default value.md",
+    "programming/javascript/common-problems/Swap two variables.md",
+    "algorithm/problems/leetcode/Problem 415. Add Strings.md",
+    "algorithm/problems/leetcode/Problem 577. Employee Bonus.md",
     "algorithm/number-theory/Sieve of Eratosthenes.md",
     "Linux Services.md",
     "assets/Pasted image 20251231202553.png",
@@ -208,7 +231,6 @@
     "algorithm/algorithm/tree/Tree traversal.md",
     "algorithm/algorithm/string/Naive string matching.md",
     "algorithm/data-structure/hashing/Hash table.md",
-    "algorithm/problems/leetcode/Problem 204. Count Primes.md",
     "algorithm/problems/leetcode/Problem 912. Sort an Array.md",
     "algorithm/problems/leetcode/Problem 383. Ransom Note.md",
     "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md",
@@ -217,12 +239,6 @@
     "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md",
     "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md",
     "site-reability-engineering/build-tools/java/gradle/quarkus/Quarkus Configuration.md",
-    "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md",
-    "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md",
-    "site-reability-engineering/build-tools/java/maven/Lifecycle.md",
-    "programming/javascript/common-problems/Swap two variables.md",
-    "programming/javascript/angular/template/Class and Style binding.md",
-    "programming/javascript/angular/components/Sharing states between components.md",
     "site-reability-engineering/build-tools/java/gradle/quarkus",
     "site-reability-engineering/build-tools/java/gradle/micronaut",
     "site-reability-engineering/build-tools/java/gradle/Micronaut Configuration.md.tmp.13771.1767055656245",
@@ -232,7 +248,6 @@
     "site-reability-engineering/build-tools/java/gradle/Spring Boot Configuration.md.tmp.13771.1767055433318",
     "site-reability-engineering/build-tools/java/maven/micronaut",
     "site-reability-engineering/build-tools/java/maven/Micronaut Configuration.md.tmp.13771.1767055302810",
-    "site-reability-engineering/build-tools/java/maven/quarkus",
     "assets/gRPC.drawio 1.png",
     "assets/Pasted image 20251224202812.png",
     "assets/Pasted image 20251224204119.png",
