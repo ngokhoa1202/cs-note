@@ -1,6 +1,6 @@
 #cli #operating-system #ubuntu #file-system #regular-expression  #scripting  #scripting 
 
-- Employed by [Filesystem commands](Filesystem%20commands.md)
+- Employed by [Filesystem commands](operating-system/file-system/Filesystem%20commands.md)
 # Star wildcard ($\star$)
 - Stands for any character, any string of arbitary size (even empty string).
 # Question mark wildcard (?)

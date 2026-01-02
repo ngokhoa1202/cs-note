@@ -294,7 +294,6 @@ func processEntity(entity interface{ GetID() string }) {
     fmt.Printf("Processing entity with ID: %s\n", id)
 }
 ```
-
 # Underlying types
 - Each type has its own underlying type. The rules of underlying type are:
 	- for *built-in* types, the respective underlying types are *themselves*. 
@@ -327,7 +326,7 @@ type Ages AgeSlice
 	- `MyIntSlice` $\to$ `[]MyInt` $\to$ ~~`[] int`~~ (stopped because slice `[]MyInt` is unnamed type).
 	- `AgeSlice` $\to$ `[]Age` (stopped because `[]Age` is unnamed type).
 	- `Ages` $\to$ `[]Age`
-
+***
 # References
 1. The Go Programming Language - Alan A. A. Donovan, Brian W. Kernighan - Addison-Wesley Professional Computing Series - 2015.
 	1. Chapter 3. Basic Data Types.

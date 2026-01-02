@@ -1,10 +1,9 @@
 #maven #dependency-manager #java #spring #spring-boot #build-lifecycle #quarkus #micronaut 
 # Definition
-- A build lifecycle is a well-defined <mark class="hltr-yellow">sequence of phases</mark> that define the order in which goals are executed. Maven has three built-in build lifecycles:
+- A build lifecycle is a well-defined <mark class="hltr-yellow">sequence of phases</mark> that define the order in which <mark class="hltr-yellow">goals</mark> are executed. Maven has three built-in build lifecycles:
 1. **default** - handles project deployment
 2. **clean** - handles project cleaning
 3. **site** - handles project site documentation creation
-- Each lifecycle consists of a sequence of **phases**, and each phase consists of a sequence of **goals**. When a phase is executed, all previous phases in the lifecycle are executed first.
 # Maven Build Lifecycles Architecture
 
 ```mermaid title='Maven lifecycle'

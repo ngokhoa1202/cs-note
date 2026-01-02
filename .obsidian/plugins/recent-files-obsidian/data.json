@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Problem 204. Count Primes",
-      "path": "algorithm/problems/leetcode/Problem 204. Count Primes.md"
+      "basename": "Hard link and Soft link",
+      "path": "operating-system/unix/linux/file-system/Hard link and Soft link.md"
     },
     {
-      "basename": "Data type",
-      "path": "programming/go/fundamentals/Data type.md"
-    },
-    {
-      "basename": "Initialize an array with given size and default value",
-      "path": "programming/go/common-problems/Initialize an array with given size and default value.md"
-    },
-    {
-      "basename": "Initialize an array with give size and default value",
-      "path": "programming/javascript/common-problems/Initialize an array with give size and default value.md"
-    },
-    {
-      "basename": "Swap two variables",
-      "path": "programming/javascript/common-problems/Swap two variables.md"
-    },
-    {
-      "basename": "Problem 415. Add Strings",
-      "path": "algorithm/problems/leetcode/Problem 415. Add Strings.md"
-    },
-    {
-      "basename": "Problem 577. Employee Bonus",
-      "path": "algorithm/problems/leetcode/Problem 577. Employee Bonus.md"
-    },
-    {
-      "basename": "Sieve of Eratosthenes",
-      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
-    },
-    {
-      "basename": "Linux Services",
-      "path": "Linux Services.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Merge sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Merge sort.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/complexity/Recurrence relation.md"
-    },
-    {
-      "basename": "Linked list",
-      "path": "algorithm/data-structure/list/Linked list.md"
-    },
-    {
-      "basename": "Array list",
-      "path": "algorithm/data-structure/list/Array list.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/Hash table.md"
-    },
-    {
-      "basename": "Tree traversal",
-      "path": "algorithm/algorithm/tree/Tree traversal.md"
-    },
-    {
-      "basename": "Naive string matching",
-      "path": "algorithm/algorithm/string/Naive string matching.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/hashing/Hash table.md"
-    },
-    {
-      "basename": "Problem 912. Sort an Array",
-      "path": "algorithm/problems/leetcode/Problem 912. Sort an Array.md"
-    },
-    {
-      "basename": "Problem 383. Ransom Note",
-      "path": "algorithm/problems/leetcode/Problem 383. Ransom Note.md"
-    },
-    {
-      "basename": "Problem 350. Intersection of Two Arrays II",
-      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
-    },
-    {
-      "basename": "Problem 283. Move Zeroes",
-      "path": "algorithm/problems/leetcode/Problem 283. Move Zeroes.md"
-    },
-    {
-      "basename": "Problem 374. Guess Number Higher or Lower",
-      "path": "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md"
-    },
-    {
-      "basename": "Kubernetes architecture",
-      "path": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Quarkus Configuration",
-      "path": "site-reability-engineering/build-tools/java/gradle/quarkus/Quarkus Configuration.md"
-    },
-    {
-      "basename": "Dependency Scopes",
-      "path": "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md"
-    },
-    {
-      "basename": "Quarkus Configuration",
-      "path": "site-reability-engineering/build-tools/java/maven/quarkus/Quarkus Configuration.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/java/maven/Lifecycle.md"
-    },
-    {
-      "basename": "Class and Style binding",
-      "path": "programming/javascript/angular/template/Class and Style binding.md"
-    },
-    {
-      "basename": "Sharing states between components",
-      "path": "programming/javascript/angular/components/Sharing states between components.md"
+      "basename": "Filesystem commands",
+      "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
     },
     {
       "basename": "File properties",
-      "path": "operating-system/file-system/File properties.md"
+      "path": "operating-system/unix/linux/file-system/File properties.md"
     },
     {
-      "basename": "Quick sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
+      "basename": "Manual references",
+      "path": "operating-system/unix/linux/Manual references.md"
     },
     {
-      "basename": "Selection sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
+      "basename": "Secure Shell (SSH)",
+      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
     },
     {
-      "basename": "Angular commands",
-      "path": "programming/javascript/angular/Angular commands.md"
+      "basename": "SSH remote login",
+      "path": "operating-system/unix/linux/SSH remote login.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md"
+      "basename": "HTTP Over SSL (HTTPS)",
+      "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+      "basename": "Network security overview",
+      "path": "cybersecurity/network-security/Network security overview.md"
     },
     {
-      "basename": "Micronaut Configuration",
-      "path": "site-reability-engineering/build-tools/java/gradle/micronaut/Micronaut Configuration.md"
+      "basename": "Web security overview",
+      "path": "cybersecurity/network-security/Web security overview.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/java/gradle/Lifecycle.md"
+      "basename": "Firewall overview",
+      "path": "cybersecurity/Firewall overview.md"
     },
     {
-      "basename": "Dependency Configurations",
-      "path": "site-reability-engineering/build-tools/java/gradle/Dependency Configurations.md"
+      "basename": "Alternative configuration",
+      "path": "operating-system/unix/linux/Alternative configuration.md"
     },
     {
-      "basename": "Spring Boot Configuration",
-      "path": "site-reability-engineering/build-tools/java/gradle/spring/spring-boot/Spring Boot Configuration.md"
+      "basename": "Install .zip file",
+      "path": "operating-system/unix/linux/Install .zip file.md"
     },
     {
-      "basename": "Problem 50. Pow(x, n)",
-      "path": "algorithm/problems/leetcode/Problem 50. Pow(x, n).md"
+      "basename": "Path variable",
+      "path": "operating-system/unix/linux/Path variable.md"
     },
     {
-      "basename": "Problem 49. Group anagrams",
-      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
+      "basename": "Systemctl commands",
+      "path": "operating-system/unix/linux/Systemctl commands.md"
     },
     {
-      "basename": "Problem 1351. Count Negative Numbers in a Sorted Matrix",
-      "path": "algorithm/problems/leetcode/Problem 1351. Count Negative Numbers in a Sorted Matrix.md"
+      "basename": "Apt repository",
+      "path": "operating-system/unix/linux/distributions/debian/repository/Apt repository.md"
+    },
+    {
+      "basename": "curl commands",
+      "path": "operating-system/unix/linux/networking/curl commands.md"
+    },
+    {
+      "basename": "Change password command",
+      "path": "operating-system/unix/linux/password/Change password command.md"
+    },
+    {
+      "basename": "Generate secret key openSSL",
+      "path": "operating-system/cryptography/Generate secret key openSSL.md"
+    },
+    {
+      "basename": "Debounce",
+      "path": "programming/javascript/lodash/concurrency-control/Debounce.md"
+    },
+    {
+      "basename": "Memoize",
+      "path": "programming/javascript/lodash/caching/Memoize.md"
+    },
+    {
+      "basename": "Problem 1518. Water Bottles",
+      "path": "algorithm/problems/leetcode/Problem 1518. Water Bottles.md"
     },
     {
       "basename": "Problem 1037. Valid Boomerang",
       "path": "algorithm/problems/leetcode/Problem 1037. Valid Boomerang.md"
     },
     {
-      "basename": "Problem 589. N-ary Tree Preorder Traversal",
-      "path": "algorithm/problems/leetcode/Problem 589. N-ary Tree Preorder Traversal.md"
+      "basename": "Problem 627. Swap Sex of Employees",
+      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
     },
     {
-      "basename": "Problem 575. Distribute candies",
-      "path": "algorithm/problems/leetcode/Problem 575. Distribute candies.md"
+      "basename": "Problem 197. Rising temperature",
+      "path": "algorithm/problems/leetcode/Problem 197. Rising temperature.md"
     },
     {
-      "basename": "Problem 242. Valid anagram",
-      "path": "algorithm/problems/leetcode/Problem 242. Valid anagram.md"
+      "basename": "Problem 66. Plus One",
+      "path": "algorithm/problems/leetcode/Problem 66. Plus One.md"
     },
     {
-      "basename": "Problem 134. Gas Station",
-      "path": "algorithm/problems/leetcode/Problem 134. Gas Station.md"
+      "basename": "Variable length Subnet Mask (VLSM)",
+      "path": "computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM).md"
     },
     {
-      "basename": "Problem 485. Max consecutive ones",
-      "path": "algorithm/problems/leetcode/Problem 485. Max consecutive ones.md"
+      "basename": "Subnet class",
+      "path": "computer-network/network-layer/data-plane/subnet/Subnet class.md"
+    },
+    {
+      "basename": "Subnet",
+      "path": "computer-network/network-layer/data-plane/subnet/Subnet.md"
+    },
+    {
+      "basename": "Data plane overview",
+      "path": "computer-network/network-layer/data-plane/subnet/Data plane overview.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Fixed length Subnet Mask (FLSM)",
+      "path": "computer-network/network-layer/data-plane/subnet/Fixed length Subnet Mask (FLSM).md"
+    },
+    {
+      "basename": "Container networking",
+      "path": "site-reability-engineering/container-engine/Container networking.md"
+    },
+    {
+      "basename": "Router",
+      "path": "computer-network/network-layer/data-plane/Router.md"
+    },
+    {
+      "basename": "Internet Protocol version 4 (IPv4)",
+      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
+    },
+    {
+      "basename": "Internet Protocol version 6 (IPv6)",
+      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 6 (IPv6).md"
+    },
+    {
+      "basename": "Network Address Translation (NAT)",
+      "path": "computer-network/network-layer/data-plane/subnet/Network Address Translation (NAT).md"
+    },
+    {
+      "basename": "Software-Defined Networking (SDN)",
+      "path": "computer-network/network-layer/Software-Defined Networking (SDN).md"
+    },
+    {
+      "basename": "Network layer overview",
+      "path": "computer-network/network-layer/Network layer overview.md"
+    },
+    {
+      "basename": "Switching fabric",
+      "path": "computer-network/network-layer/data-plane/Switching fabric.md"
+    },
+    {
+      "basename": "OSPF",
+      "path": "computer-network/network-layer/control-plane/OSPF.md"
+    },
+    {
+      "basename": "ICMP",
+      "path": "computer-network/network-layer/control-plane/ICMP.md"
+    },
+    {
+      "basename": "Hot potato routing",
+      "path": "computer-network/network-layer/control-plane/Hot potato routing.md"
+    },
+    {
+      "basename": "BGP",
+      "path": "computer-network/network-layer/control-plane/BGP.md"
+    },
+    {
+      "basename": "Container security",
+      "path": "site-reability-engineering/container-engine/Container security.md"
+    },
+    {
+      "basename": "OCI-compliant container",
+      "path": "site-reability-engineering/container-engine/OCI-compliant container.md"
+    },
+    {
+      "basename": "OCI-compliant image",
+      "path": "site-reability-engineering/container-engine/OCI-compliant image.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "Build Spring Boot image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Spring Boot Configuration",
+      "path": "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md"
+    },
+    {
+      "basename": "Data type",
+      "path": "programming/go/fundamentals/Data type.md"
     }
   ],
   "omittedPaths": [],

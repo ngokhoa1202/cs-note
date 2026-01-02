@@ -50,7 +50,7 @@ const countPrimes = function(n) {
 };
 ```
 ## Go
-- The default range of `int` in 64-bit systems is from $[-2^{63},2^{63}-1]$ , which already exceeds the given input.
+- The default range of `int` in 64-bit systems is in the range $[-2^{63},2^{63}-1]$ , which already exceeds the given input.
 - However, the type must be converted to `int64` if the current operating system is 32-bit-based.
 ### Optimized approach
 ```Go title='Problem 204 in Go: Optimized approach'

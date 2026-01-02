@@ -1,12 +1,13 @@
 #maven #dependency-manager #java #spring #spring-boot #quarkus #micronaut #build-lifecycle 
-#windows #continuous-delivery #continuous-integration 
+#continuous-delivery #continuous-integration #site-realibility-engineering #solid #software-engineering 
+#software-architecture 
 # Definition
 - Maven dependency scopes define <mark class="hltr-yellow">when and where dependencies are available</mark> during the build lifecycle.
 - Each scope determines:
-  - **Compile-time availability** - whether the dependency is available during compilation.
-  - **Runtime availability** - whether the dependency is included in the runtime classpath.
-  - **Transitive propagation** - whether the dependency is passed to consumers.
-  - **Test availability** - whether the dependency is available during testing.
+    - **Compile-time availability** - whether the dependency is available during compilation.
+    - **Runtime availability** - whether the dependency is included in the runtime classpath.
+    - **Transitive propagation** - whether the dependency is passed to consumers.
+    - **Test availability** - whether the dependency is available during testing.
 - Maven provides six dependency scopes: `compile`, `provided`, `runtime`, `test`, `system`, and `import`.
 # Dependency Scope Visibility
 
@@ -430,16 +431,19 @@ graph LR
 ## Transitive Scope Resolution
 
 | Dependency's Scope in B | Project A depends on B with scope | Resulting scope in A |
-|-------------------------|-----------------------------------|---------------------|
-| `compile` | `compile` | `compile` |
-| `compile` | `runtime` | `runtime` |
-| `compile` | `provided` | `provided` |
-| `runtime` | `compile` | `runtime` |
-| `runtime` | `runtime` | `runtime` |
-| `provided` | `compile` | `provided` |
-| `provided` | `runtime` | `provided` |
-| `test` | any | - (not included) |
-
+| ----------------------- | --------------------------------- | -------------------- |
+| `compile`               | `compile`                         | `compile`            |
+| `compile`               | `runtime`                         | `runtime`            |
+| `compile`               | `provided`                        | `provided`           |
+| `runtime`               | `compile`                         | `runtime`            |
+| `runtime`               | `runtime`                         | `runtime`            |
+| `provided`              | `compile`                         | `provided`           |
+| `provided`              | `runtime`                         | `provided`           |
+| `test`                  | any                               | - (not included)     |
+- The `test` scope does not allow its dependency to propagate to another project.
+- The `provided` scope definitely propagates its dependency scope because the dependency is completely supported by the environment.
+- The `runtime` scope also propagates its dependency scope because it is only needed at runtime, not build time.
+- The `compile` scope, however, cannot block or propagate its dependency scope. It is transparent pass-through.
 # Dependency Management Best Practices
 
 ## Use `compile` scope by default
@@ -517,7 +521,6 @@ graph LR
     </dependencies>
 </dependencyManagement>
 ```
-
 ## Avoid `system` scope
 - **Deprecated** and not portable.
 - Use `mvn install:install-file` instead.

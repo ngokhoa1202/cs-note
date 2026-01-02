@@ -9,7 +9,7 @@ or
 <command> --help
 ```
 # File name
-- [Wildcard character](Wildcard%20character.md) 
+- [Wildcard character](operating-system/unix/linux/file-system/Wildcard%20character.md) 
 # Listing files
 - List all files inside a directory.
 ```bash
@@ -106,7 +106,7 @@ rm -r <directory>
 - `-r` flag: recursive remove all of its children.
 
 # Create a link
-- [Hard link and Soft link](Hard%20link%20and%20Soft%20link.md)
+- [Hard link and Soft link](operating-system/unix/linux/file-system/Hard%20link%20and%20Soft%20link.md)
 - `ln` command
 ## Soft link
 ```bash

@@ -381,7 +381,6 @@
     </profiles>
 </project>
 ```
-
 # Environment-Specific Application Configuration
 
 ## Development Configuration

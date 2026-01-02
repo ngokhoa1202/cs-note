@@ -115,8 +115,10 @@ EXPOSE 8080
 ENTRYPOINT [ "java", "-jar", "/app/deployments/quarkus-run.jar" ]
 ```
 # Native image
+- The builder image must have the same Linux distribution as the runtime image.
 ## Red Hat's GraalVM builder
-```Dockerfile title='Build a Red Hat based Quarkus image with Red Hat's GraalVM builder'
+- GraalVM is natively supported by Red Hat operating system and Red Hat `mandrel` image, which is a customized version of Eclipse Temurin. 
+```Dockerfile title='Build a Red Hat based Quarkus image with Red Hat GraalVM builder'
 # ============================================
 # Stage 1: Build Native Image with GraalVM
 # ============================================
@@ -158,8 +160,49 @@ EXPOSE 8080
 
 ENTRYPOINT ["/app/application"]
 ```
-## Micro-native image
+## Debian-based GraalVM builder
+- GraalVM is not natively supported by Debian-based operating system; as a result, a separate installation of GraalVM is required.
+```Dockerfile title='Build a Red Hat based Quarkus image with Debian GraalVM builder' hl=16-20
+FROM docker.io/library/eclipse-temurin:21 AS builder
+
+USER root
+RUN <<EOT bash
+  set -ex
+  apt-get -y update
+  apt-get -y install build-essential \
+    zlib1g-dev \
+    wget \
+    tar
+  apt-get clean
+  rm -rf /var/lib/apt/lists/*
+EOT
+
+WORKDIR /opt
+RUN wget -q https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz && \
+    tar -xzf graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz && \
+    rm 'graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz'
+ENV JAVA_HOME=/opt/graalvm-community-openjdk-21.0.2+13.1
+ENV PATH=$JAVA_HOME/bin:$PATH
+
+WORKDIR /build
+COPY ./.mvn ./.mvn
+COPY ./mvnw ./mvnw
+COPY ./pom.xml ./pom.xml
+RUN ./mvnw dependency:go-offline
+COPY ./src ./src
+RUN ./mvnw package -Pnative -DskipTests
+
+FROM docker.io/library/ubuntu:noble AS runtime
+
+WORKDIR /app
+COPY --from=builder --chown=1000:root /build/target/*-runner /app/application
+RUN chmod 775 /app/application
+
+USER 1000
+EXPOSE 3563
+ENTRYPOINT ["/app/application"]
+```
 ***
 # References
 1. https://www.graalvm.org/ for GraalVM.
-2. 
+2. https://adoptium.net/temurin for Eclipse Temurin JDK.

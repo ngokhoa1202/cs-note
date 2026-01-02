@@ -5,7 +5,7 @@
 
 # Start MSSQL Service
 ## Ubuntu
-- Start the `mssql-server` service in the `systemctl` $\implies$ [Systemctl commands](operating-system/linux/Systemctl%20commands.md) 
+- Start the `mssql-server` service in the `systemctl` $\implies$ [Systemctl commands](operating-system/unix/linux/Systemctl%20commands.md) 
 
 # Login via command line
 ```bash title='Login into MSSQL Server via command line'

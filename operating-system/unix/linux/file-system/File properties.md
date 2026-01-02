@@ -19,8 +19,6 @@
 - The owner of the file.
 ### Group
 - The group owns the file.
-
-
 ## Size
 - The size of the file/directory.
 ## Timestamp
@@ -45,4 +43,6 @@
 		- atime: accessed time.
 	- Link count: The number of hard links pointing the inode.
 	- Pointers to the data blocks: Store address to the blocks on the disk where the actual data is stored.
-- 
+***
+# References
+1. 

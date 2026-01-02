@@ -13,28 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "programming/go/fundamentals/Data type.md",
+                "file": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Data type"
+              "title": "Internet Protocol version 4 (IPv4)"
             }
           },
           {
-            "id": "181e2f7dccdb0414",
+            "id": "9dcb9c6e7364c105",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/problems/leetcode/Problem 204. Count Primes.md",
+                "file": "operating-system/unix/linux/file-system/Hard link and Soft link.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Problem 204. Count Primes"
+              "title": "Hard link and Soft link"
             }
           }
         ],
@@ -70,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#rhel",
+                "query": "tag:#cli",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 619.5
+    "width": 437.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -209,45 +209,46 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "181e2f7dccdb0414",
+  "active": "9dcb9c6e7364c105",
   "lastOpenFiles": [
-    "programming/go/fundamentals/Data type.md",
-    "programming/go/common-problems/Initialize an array with given size and default value.md",
-    "algorithm/problems/leetcode/Problem 204. Count Primes.md",
-    "programming/go/common-problems",
-    "programming/javascript/common-problems/Initialize an array with give size and default value.md",
-    "programming/javascript/common-problems/Swap two variables.md",
-    "algorithm/problems/leetcode/Problem 415. Add Strings.md",
-    "algorithm/problems/leetcode/Problem 577. Employee Bonus.md",
-    "algorithm/number-theory/Sieve of Eratosthenes.md",
-    "Linux Services.md",
+    "operating-system/unix/linux/file-system/Filesystem commands.md",
+    "operating-system/unix/linux/file-system/File properties.md",
+    "operating-system/unix/linux/Manual references.md",
+    "Pasted image 20260102070659.png",
+    "cybersecurity/network-security/application-layer/Secure Shell (SSH).md",
+    "operating-system/unix/linux/SSH remote login.md",
+    "cybersecurity/network-security/application-layer/Secure Shell (SSH).md.tmp.14206.1767310488398",
+    "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md",
+    "cybersecurity/network-security/Network security overview.md",
+    "cybersecurity/network-security/Web security overview.md",
+    "cybersecurity/Firewall overview.md",
+    "operating-system/unix/linux/Alternative configuration.md",
+    "operating-system/unix/linux/Install .zip file.md",
+    "operating-system/unix/linux/Path variable.md",
+    "operating-system/unix/linux/Systemctl commands.md",
+    "operating-system/unix/linux/distributions/debian/repository/Apt repository.md",
+    "operating-system/unix/linux/Nslookup.md",
+    "operating-system/unix/linux/distributions/debian/repository",
+    "operating-system/unix/linux/networking/curl commands.md",
+    "operating-system/unix/linux/networking",
+    "operating-system/unix/linux/password/Change password command.md",
+    "operating-system/unix/linux/Manage Process.md",
+    "operating-system/cryptography/Generate secret key openSSL.md",
+    "operating-system/unix",
+    "programming/javascript/lodash/concurrency-control/Debounce.md",
+    "programming/javascript/lodash/caching/Memoize.md",
+    "algorithm/problems/leetcode/Problem 1518. Water Bottles.md",
+    "algorithm/problems/leetcode/Problem 1037. Valid Boomerang.md",
+    "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md",
+    "algorithm/problems/leetcode/Problem 197. Rising temperature.md",
+    "algorithm/problems/leetcode/Problem 66. Plus One.md",
+    "computer-network/network-layer/data-plane/subnet/Subnetting.md.tmp.182531.1767259813944",
+    "computer-network/network-layer/control-plane/OSPF.md.tmp.182531.1767259609973",
+    "computer-network/network-layer/control-plane/BGP.md.tmp.182531.1767259316219",
+    "computer-network/network-layer/data-plane/ip/Internet Protocol version 6 (IPv6).md.tmp.182531.1767259040607",
+    "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md.tmp.182531.1767258622643",
+    "computer-network/network-layer/Software-Defined Networking.md.tmp.182531.1767258124795",
     "assets/Pasted image 20251231202553.png",
-    "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md",
-    "algorithm/algorithm/sorting/internal-sorting/Merge sort.md",
-    "algorithm/complexity/Recurrence relation.md",
-    "algorithm/data-structure/list/Linked list.md",
-    "algorithm/data-structure/list/Array list.md",
-    "algorithm/data-structure/Hash table.md",
-    "algorithm/algorithm/tree/Tree traversal.md",
-    "algorithm/algorithm/string/Naive string matching.md",
-    "algorithm/data-structure/hashing/Hash table.md",
-    "algorithm/problems/leetcode/Problem 912. Sort an Array.md",
-    "algorithm/problems/leetcode/Problem 383. Ransom Note.md",
-    "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md",
-    "algorithm/problems/leetcode/Problem 283. Move Zeroes.md",
-    "algorithm/problems/leetcode/Problem 374. Guess Number Higher or Lower.md",
-    "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md",
-    "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md",
-    "site-reability-engineering/build-tools/java/gradle/quarkus/Quarkus Configuration.md",
-    "site-reability-engineering/build-tools/java/gradle/quarkus",
-    "site-reability-engineering/build-tools/java/gradle/micronaut",
-    "site-reability-engineering/build-tools/java/gradle/Micronaut Configuration.md.tmp.13771.1767055656245",
-    "site-reability-engineering/build-tools/java/gradle/Quarkus Configuration.md.tmp.13771.1767055547981",
-    "site-reability-engineering/build-tools/java/gradle/spring/spring-boot",
-    "site-reability-engineering/build-tools/java/gradle/spring",
-    "site-reability-engineering/build-tools/java/gradle/Spring Boot Configuration.md.tmp.13771.1767055433318",
-    "site-reability-engineering/build-tools/java/maven/micronaut",
-    "site-reability-engineering/build-tools/java/maven/Micronaut Configuration.md.tmp.13771.1767055302810",
     "assets/gRPC.drawio 1.png",
     "assets/Pasted image 20251224202812.png",
     "assets/Pasted image 20251224204119.png",
@@ -256,7 +257,6 @@
     "assets/Pasted image 20251224203517.png",
     "assets/Pasted image 20251224203409.png",
     "assets/Pasted image 20251224203339.png",
-    "assets/Pasted image 20251224203026.png",
     "software-engineering/api/protocol/web-service/Untitled.canvas",
     "algorithm/Untitled.canvas",
     "Untitled.canvas",

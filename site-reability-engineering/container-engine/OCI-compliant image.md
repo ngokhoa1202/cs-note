@@ -1,4 +1,5 @@
-#docker #binary-image #containerization #operating-system #process #cli #software-architecture #site-realibility-engineering #file-system #continuous-integration #cybersecurity 
+#docker #binary-image #containerization #operating-system #process #cli #software-architecture 
+#site-realibility-engineering #file-system #continuous-integration #cybersecurity 
 #common-vulnerabilities-and-exposures
 # OCI-Compliant Image
 ## Definition
@@ -86,8 +87,7 @@ graph TB
 - Original image layers remain unchanged $\implies$ multiple containers share same base.
 ## Layer Composition
 ### Build Process
-- Each Dockerfile instruction creates a new layer:
-
+- Each Dockerfile instruction creates a new layer
 ```dockerfile
 FROM node:18-alpine          # Layer 1: Base OS + Node.js runtime
 WORKDIR /app                 # Layer 2: Metadata change (no filesystem layer)

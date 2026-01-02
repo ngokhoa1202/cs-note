@@ -74,6 +74,6 @@ $$(Header).(Payload).(Signature)$$
 4. https://www.iana.org/assignments/jwt/jwt.xhtml for IANA JWT Registry
 5. [RSA](RSA.md) for RSA Algorithm
 6. [Message Authentication Code](Message%20Authentication%20Code.md) for encryption and digital signature scenario.
-7. [Generate secret key openSSL](Generate%20secret%20key%20openSSL.md) for generating RSA key pair by command line.
+7. [Generate secret key openSSL](operating-system/cryptography/Generate%20secret%20key%20openSSL.md) for generating RSA key pair by command line.
 
 

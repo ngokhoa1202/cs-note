@@ -14,7 +14,7 @@
    - Start with largest subnet at network base address
    - Next subnet address: $\text{Current} + 2^m$
    - Repeat until all subnets allocated
-1. **Verify**: Ensure no address overlap between subnets
+4. **Verify**: Ensure no address overlap between subnets
 ## Key Formulas
 - Usable hosts: $2^m - 2$ (where $m$ = host bits)
 - Subnet size: $2^m$ addresses
@@ -84,7 +84,6 @@
 - HR: $192.168.10.128 + 64 = 192.168.10.192$
 - Management: $192.168.10.192 + 32 = 192.168.10.224$
 - Remaining: $192.168.10.224 + 16 = 192.168.10.240$ to $192.168.10.255$ (16 addresses available for future use)
-
 #### Efficiency Analysis
 - Total required: $100 + 50 + 25 + 10 = 185$ hosts
 - Total allocated: $128 + 64 + 32 + 16 = 240$ addresses

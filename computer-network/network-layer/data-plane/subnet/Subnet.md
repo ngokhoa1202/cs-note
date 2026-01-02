@@ -1,5 +1,4 @@
 #subnet #computer-network #network-layer #ip 
-
 # Subnet definition
 - An ==isolated== network of interfaces ==without router's intervention==.
 # Subnet id
@@ -22,16 +21,19 @@
 	- Set all host bits to 0.
 - Regularly written as ==four octets==. $$a.b.c.d$$ 
 # Subnet class
-[Subnet class](Subnet%20class.md)
-
+- [Subnet class](Subnet%20class.md)
 # Establish Subnet masks
 ## FLSM
-[Fixed length Subnet Mask (FLSM)](computer-network/network-layer/data-plane/subnet/Fixed%20length%20Subnet%20Mask%20(FLSM).md)
-
+- [Fixed length Subnet Mask (FLSM)](computer-network/network-layer/data-plane/subnet/Fixed%20length%20Subnet%20Mask%20(FLSM).md)
 ## VLSM
-
-
+- [[computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM)|Variable length Subnet Mask (VLSM)]]
 # DHCP
-[Dynamic Host Configuration Protocol](Dynamic%20Host%20Configuration%20Protocol.md)
-
+- [Dynamic Host Configuration Protocol](Dynamic%20Host%20Configuration%20Protocol.md)
+***
+# References
+1. [[computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol|Dynamic Host Configuration Protocol]]
+2. [[computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM)|Variable length Subnet Mask (VLSM)]]
+3. [[computer-network/network-layer/data-plane/subnet/Fixed length Subnet Mask (FLSM)|Fixed length Subnet Mask (FLSM)]]
+4. [[computer-network/network-layer/data-plane/subnet/Subnet class|Subnet class]]
+5. 
 

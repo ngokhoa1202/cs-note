@@ -43,13 +43,11 @@ graph TB
 - **Content Addressability**: Each layer identified by SHA-256 hash of contents
 - **Layer Sharing**: Multiple images share identical layers $\implies$ reduced storage usage
 - **Incremental Updates**: Only changed layers need to be pulled/pushed
-
 ### Copy-on-Write (CoW) Mechanism
 - **Read Operations**: Direct access to files in image layers without copying
 - **Write Operations**: File copied to writable layer before modification
 - **Original Preservation**: Image layers remain unchanged $\implies$ multiple containers share same base
 - **Efficiency**: Minimizes disk usage and speeds up container creation
-
 ## Storage Drivers
 ### overlay2 (Recommended)
 - **Technology**: Uses Linux OverlayFS kernel filesystem
@@ -57,14 +55,12 @@ graph TB
 - **Performance**: Better than older drivers (aufs, devicemapper)
 - **Limits**: Supports up to 128 lower layers
 - **Use Case**: General purpose, production workloads
-
 ### devicemapper
 - **Technology**: Block-level storage using device mapper
 - **Status**: Legacy driver for older systems
 - **Configuration**: Requires additional setup (direct-lvm mode recommended)
 - **Performance**: Slower than overlay2
 - **Use Case**: Systems without overlay support
-
 ### btrfs
 - **Technology**: Uses Btrfs filesystem features (subvolumes, snapshots)
 - **Requirement**: Host must use Btrfs filesystem
@@ -78,13 +74,11 @@ graph TB
 - **Performance**: Excellent reliability and performance
 - **Features**: Compression, deduplication, snapshots
 - **Use Case**: ZFS-based systems, high-reliability requirements
-
 ### vfs
 - **Technology**: No Copy-on-Write support
 - **Performance**: Poor (full copy for each layer)
 - **Use Case**: Testing only, compatibility fallback
 - **Warning**: Not recommended for production
-
 ## Storage Locations
 ### Docker
 #### Linux
@@ -105,7 +99,6 @@ C:\ProgramData\Docker\
     ├── windowsfilter\     # Windows container layers
     └── volumes\
 ```
-
 ### Podman
 #### Rootful Mode
 ```
@@ -245,6 +238,8 @@ podman system reset           # Complete storage cleanup
 - **User Namespaces**: Minimal performance impact
 - **Network Storage**: Home directory on NFS may have issues
 - **Recommendation**: Local storage for best performance
+# File format
+- `crlf` and `lf`.
 
 ***
 # References

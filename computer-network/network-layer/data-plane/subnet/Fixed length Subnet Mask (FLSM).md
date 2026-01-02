@@ -2,7 +2,7 @@
 # Problem
 - Given network id (or IP address) $\Rightarrow$ identifies its ==subnet class==.
 # Method
--  Define $p$ is the ==prefix length== of IP address.
+- Define $p$ is the ==prefix length== of IP address.
 - Let $n$ is the number of bits from which the subnet id ==borrows== the host id.
 - Let $m$ is the number of usable IPs in a subnet id. $$m=32-p-n$$.
 - The number of divided subnets: $2^n$

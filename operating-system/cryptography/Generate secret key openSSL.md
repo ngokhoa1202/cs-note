@@ -13,12 +13,10 @@ openssl rsa -in private-key.pem -out public-key.pem -outform PEM -pubout # gener
 ```Shell title='openssl for generating private key'
 openssl genpkey -algorithm <algorithm> -out <private-key.pem>
 ```
-
 ## Generate public key from private key
 ```Shell title='openssl for generating public key from private key'
 openssl pkey -in <private-key.pem> -out <public-key.pem>
 ```
-
 # List all algorithms
 ```Shell title='openssl for listing algorithm'
 openssl list --all-algorithms
