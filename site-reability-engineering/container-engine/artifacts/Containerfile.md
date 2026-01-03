@@ -2,7 +2,7 @@
 - Containerfile or Dockerfile is a special file for building Docker image.
 - From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
 # Syntax
-```Dockerfile
+```Dockerfile title='Dockerfile syntax'
 FROM <base-image>
 
 EXPOSE <listening-port/protocol>

@@ -80,7 +80,6 @@
   "programming/php/laravel": "FabLaravel",
   "programming/principles/Copy operation.md": "LiCopy",
   "programming/go/fundamentals/composite-type/Slice.md": "FabGolang",
-  "programming/go/fundamentals/composite-type/Parameter-passing mechanism in Go.md": "FabGolang",
   "programming/go/fundamentals/composite-type/Map.md": "FabGolang",
   "programming/java/quarkus": "SiQuarkus",
   "programming/java/spring": "SiSpring",
@@ -724,5 +723,7 @@
   "operating-system/unix/linux/distributions/redhat/rhel": "SiRedhat",
   "operating-system/unix/linux/networking/curl commands.md": "SiLinux",
   "operating-system/unix/linux/networking": "LiNetwork",
-  "cybersecurity/network-security/application-layer/Secure Shell (SSH).md": "TiProtocol"
+  "cybersecurity/network-security/application-layer/Secure Shell (SSH).md": "TiProtocol",
+  "algorithm/problems/leetcode/Problem 961. N-Repeated Element in Size 2N Array.md": "SiLeetcode",
+  "programming/go/fundamentals/composite-type/Parameter-passing mechanism.md": "FabGolang"
 }

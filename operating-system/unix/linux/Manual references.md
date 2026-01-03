@@ -10,7 +10,7 @@ man php
 ```Shell title='apropos command'
 apropos apache
 ```
-- ![[Pasted image 20260102070659.png]]
+- ![[assets/Pasted image 20260102070659.png]]
 # `mandb`
 - Both `man` and `apropos` searches from the `mandb` for manual documentation.
 - Update the `mandb` to update the latest documentation.

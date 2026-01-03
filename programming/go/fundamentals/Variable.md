@@ -50,6 +50,7 @@ field2, offset := nextField(str, offset)  // redeclares offset
 x, y, x := 1, 2, 3                        // illegal: x repeated on left side of :=
 ```
 # Constants
+- Constants are expressions whose value is known to the compiler and calculated in <mark class="hltr-yellow">compile time</mark>.
 ## Untyped constants
 - [[programming/go/fundamentals/Type conversion#Untyped constant|Type conversion]].
 ## Typed constants

@@ -48,7 +48,11 @@ class Solution {
 }
 ```
 # Complexity
-
+## Time complexity
+- The time complexity is $$T(n)=\Theta(n+n\log n)=O(\log n)$$
+## Space complexity
+- $\Theta(n)=O(n)$.
+- The auxiliary space is $\Theta(1)=O(1)$.
 ***
 # References
 1. https://leetcode.com/problems/minimum-cost-of-buying-candies-with-discount/description/

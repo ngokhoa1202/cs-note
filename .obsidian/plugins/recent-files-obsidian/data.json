@@ -1,6 +1,102 @@
 {
   "recentFiles": [
     {
+      "basename": "Slice",
+      "path": "programming/go/fundamentals/composite-type/Slice.md"
+    },
+    {
+      "basename": "Array",
+      "path": "programming/go/fundamentals/composite-type/Array.md"
+    },
+    {
+      "basename": "Callback pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
+    },
+    {
+      "basename": "Struct",
+      "path": "programming/go/fundamentals/composite-type/Struct.md"
+    },
+    {
+      "basename": "Parameter-passing mechanism",
+      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism.md"
+    },
+    {
+      "basename": "Map",
+      "path": "programming/go/fundamentals/composite-type/Map.md"
+    },
+    {
+      "basename": "Parameter-passing mechanisms",
+      "path": "programming/principles/function/Parameter-passing mechanisms.md"
+    },
+    {
+      "basename": "Swap two variables",
+      "path": "programming/go/fundamentals/common-problems/Swap two variables.md"
+    },
+    {
+      "basename": "Problem 2144. Minimum Cost of Buying Candies with Discount",
+      "path": "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md"
+    },
+    {
+      "basename": "Problem 2154. Keep Multiplying Found Values by Two",
+      "path": "algorithm/problems/leetcode/Problem 2154. Keep Multiplying Found Values by Two.md"
+    },
+    {
+      "basename": "Problem 2706. Buy Two Chocolates",
+      "path": "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md"
+    },
+    {
+      "basename": "Problem 3074. Apple Redistribution into Boxes",
+      "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
+    },
+    {
+      "basename": "Problem 3075. Maximize Happiness of Selected Children",
+      "path": "algorithm/problems/leetcode/Problem 3075. Maximize Happiness of Selected Children.md"
+    },
+    {
+      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
+      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
+    },
+    {
+      "basename": "Problem 1051. Height Checker",
+      "path": "algorithm/problems/leetcode/Problem 1051. Height Checker.md"
+    },
+    {
+      "basename": "Problem 961. N-Repeated Element in Size 2N Array",
+      "path": "algorithm/problems/leetcode/Problem 961. N-Repeated Element in Size 2N Array.md"
+    },
+    {
+      "basename": "Variable",
+      "path": "programming/go/fundamentals/Variable.md"
+    },
+    {
+      "basename": "Containerfile",
+      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
+    },
+    {
+      "basename": "Build Spring Boot image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "Rebasing",
+      "path": "site-reability-engineering/version-control/git/git-branching/Rebasing.md"
+    },
+    {
+      "basename": "Branch management",
+      "path": "site-reability-engineering/version-control/git/git-branching/Branch management.md"
+    },
+    {
+      "basename": "Branching workflows",
+      "path": "site-reability-engineering/version-control/git/git-branching/Branching workflows.md"
+    },
+    {
+      "basename": "Internet Protocol version 4 (IPv4)",
+      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
+    },
+    {
       "basename": "Hard link and Soft link",
       "path": "operating-system/unix/linux/file-system/Hard link and Soft link.md"
     },
@@ -103,102 +199,6 @@
     {
       "basename": "Variable length Subnet Mask (VLSM)",
       "path": "computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM).md"
-    },
-    {
-      "basename": "Subnet class",
-      "path": "computer-network/network-layer/data-plane/subnet/Subnet class.md"
-    },
-    {
-      "basename": "Subnet",
-      "path": "computer-network/network-layer/data-plane/subnet/Subnet.md"
-    },
-    {
-      "basename": "Data plane overview",
-      "path": "computer-network/network-layer/data-plane/subnet/Data plane overview.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Fixed length Subnet Mask (FLSM)",
-      "path": "computer-network/network-layer/data-plane/subnet/Fixed length Subnet Mask (FLSM).md"
-    },
-    {
-      "basename": "Container networking",
-      "path": "site-reability-engineering/container-engine/Container networking.md"
-    },
-    {
-      "basename": "Router",
-      "path": "computer-network/network-layer/data-plane/Router.md"
-    },
-    {
-      "basename": "Internet Protocol version 4 (IPv4)",
-      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
-    },
-    {
-      "basename": "Internet Protocol version 6 (IPv6)",
-      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 6 (IPv6).md"
-    },
-    {
-      "basename": "Network Address Translation (NAT)",
-      "path": "computer-network/network-layer/data-plane/subnet/Network Address Translation (NAT).md"
-    },
-    {
-      "basename": "Software-Defined Networking (SDN)",
-      "path": "computer-network/network-layer/Software-Defined Networking (SDN).md"
-    },
-    {
-      "basename": "Network layer overview",
-      "path": "computer-network/network-layer/Network layer overview.md"
-    },
-    {
-      "basename": "Switching fabric",
-      "path": "computer-network/network-layer/data-plane/Switching fabric.md"
-    },
-    {
-      "basename": "OSPF",
-      "path": "computer-network/network-layer/control-plane/OSPF.md"
-    },
-    {
-      "basename": "ICMP",
-      "path": "computer-network/network-layer/control-plane/ICMP.md"
-    },
-    {
-      "basename": "Hot potato routing",
-      "path": "computer-network/network-layer/control-plane/Hot potato routing.md"
-    },
-    {
-      "basename": "BGP",
-      "path": "computer-network/network-layer/control-plane/BGP.md"
-    },
-    {
-      "basename": "Container security",
-      "path": "site-reability-engineering/container-engine/Container security.md"
-    },
-    {
-      "basename": "OCI-compliant container",
-      "path": "site-reability-engineering/container-engine/OCI-compliant container.md"
-    },
-    {
-      "basename": "OCI-compliant image",
-      "path": "site-reability-engineering/container-engine/OCI-compliant image.md"
-    },
-    {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
-      "basename": "Build Spring Boot image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
-    },
-    {
-      "basename": "Spring Boot Configuration",
-      "path": "site-reability-engineering/build-tools/java/maven/spring/spring-boot/Spring Boot Configuration.md"
-    },
-    {
-      "basename": "Data type",
-      "path": "programming/go/fundamentals/Data type.md"
     }
   ],
   "omittedPaths": [],

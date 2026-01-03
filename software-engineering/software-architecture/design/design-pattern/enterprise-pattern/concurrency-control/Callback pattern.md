@@ -85,7 +85,7 @@ public final class App {
 - Decouples the execution login from the task of signaling and notification.
 # Trade-offs
 - Callback hell or pyramid of doom.
-- 
+***
 # References
 1. [Promise](programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md) for Promise API.
 2. https://java-design-patterns.com/patterns/callback/#programmatic-example-of-callback-pattern-in-java for callback pattern.

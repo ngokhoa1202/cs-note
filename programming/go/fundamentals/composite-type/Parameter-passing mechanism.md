@@ -1,6 +1,6 @@
 #go #data-type 
 
-- All parameters in Go is passed by value.
+- All parameters in Go is <mark class="hltr-yellow">passed by value</mark>.
 ```Go title='Pass by value in Go'
 func increment(x int) {
     x++  // Modifies the local copy, not the original variable
