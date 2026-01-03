@@ -596,7 +596,7 @@
         "lineNumbers": true,
         "unwrapLines": true,
         "wrapLinesActive": false,
-        "curvature": 4
+        "curvature": 8
       },
       "gutter": {
         "highlight": true,
@@ -623,11 +623,11 @@
           "displayVersion": true,
           "displayTimestamp": true
         },
-        "fontSize": 13,
+        "fontSize": 16,
         "foldPlaceholder": "..."
       },
       "highlights": {
-        "activeCodeblockLine": false,
+        "activeCodeblockLine": true,
         "activeEditorLine": true
       },
       "inline": {
@@ -643,8 +643,8 @@
       "advanced": {
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
-        "languageBorderColour": false,
-        "languageBorderWidth": 5,
+        "languageBorderColour": true,
+        "languageBorderWidth": 6,
         "iconSize": 28
       }
     },

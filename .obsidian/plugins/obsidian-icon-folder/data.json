@@ -6,6 +6,14 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "LiFileLock2",
+      "TiUsersGroup",
+      "LiUser",
+      "LiUsers",
+      "FasUserLock",
+      "LiLink",
+      "LiAsterisk",
+      "LiFile",
       "LiLock",
       "SiGnubash",
       "LiDatabaseBackup",
@@ -17,15 +25,7 @@
       "TiShare",
       "LiMail",
       "LiHandshake",
-      "MiBatching",
-      "FasExclamation",
-      "MiSemaphore",
-      "TiArrowsRight",
-      "LiFolderSync",
-      "SiRedhat",
-      "LiSettings",
-      "LiBox",
-      "SiUbuntu"
+      "MiBatching"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -737,5 +737,12 @@
   "operating-system/unix/linux/system-administration/hardware": "TiDevices",
   "operating-system/unix/linux/system-administration/backup": "LiDatabaseBackup",
   "operating-system/unix/linux/shell-and-scripting/commands": "SiGnubash",
-  "operating-system/unix/linux/process-management/Deadlock.md": "LiLock"
+  "operating-system/unix/linux/process-management/Deadlock.md": "LiLock",
+  "operating-system/unix/linux/file-system/File properties.md": "LiFile",
+  "operating-system/unix/linux/file-system/Wildcard character.md": "LiAsterisk",
+  "operating-system/unix/linux/file-system/Hard link and Soft link.md": "LiLink",
+  "operating-system/unix/linux/system-administration/permissions": "FasUserLock",
+  "operating-system/unix/linux/system-administration/permissions/User.md": "LiUser",
+  "operating-system/unix/linux/system-administration/permissions/Group.md": "TiUsersGroup",
+  "operating-system/unix/linux/system-administration/permissions/File permissions.md": "LiFileLock2"
 }

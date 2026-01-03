@@ -1,6 +1,74 @@
 {
   "recentFiles": [
     {
+      "basename": "Group",
+      "path": "operating-system/unix/linux/system-administration/permissions/Group.md"
+    },
+    {
+      "basename": "User",
+      "path": "operating-system/unix/linux/system-administration/permissions/User.md"
+    },
+    {
+      "basename": "File permissions",
+      "path": "operating-system/unix/linux/system-administration/permissions/File permissions.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "programming/java/concurrency-control/Thread.md"
+    },
+    {
+      "basename": "File properties",
+      "path": "operating-system/unix/linux/file-system/File properties.md"
+    },
+    {
+      "basename": "Filesystem commands",
+      "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
+    },
+    {
+      "basename": "Hard link and Soft link",
+      "path": "operating-system/unix/linux/file-system/Hard link and Soft link.md"
+    },
+    {
+      "basename": "Initialize an array with given size and default value",
+      "path": "programming/go/common-problems/Initialize an array with given size and default value.md"
+    },
+    {
+      "basename": "Wildcard character",
+      "path": "operating-system/unix/linux/file-system/Wildcard character.md"
+    },
+    {
+      "basename": "Filesystem architecture",
+      "path": "operating-system/unix/linux/file-system/Filesystem architecture.md"
+    },
+    {
+      "basename": "Diophantine equation",
+      "path": "number-theory/Diophantine equation.md"
+    },
+    {
+      "basename": "Primitive root - Discrete Logarithm",
+      "path": "number-theory/Primitive root - Discrete Logarithm.md"
+    },
+    {
+      "basename": "Fermat little theorem",
+      "path": "number-theory/Fermat little theorem.md"
+    },
+    {
+      "basename": "Extended Euclidean algorithm",
+      "path": "number-theory/Extended Euclidean algorithm.md"
+    },
+    {
+      "basename": "Euler Phi function",
+      "path": "number-theory/Euler Phi function.md"
+    },
+    {
+      "basename": "SSH key generation",
+      "path": "operating-system/unix/linux/security/cryptography/SSH key generation.md"
+    },
+    {
+      "basename": "Manual references",
+      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
+    },
+    {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
     },
@@ -21,16 +89,8 @@
       "path": "operating-system/unix/linux/process-management/Deadlock.md"
     },
     {
-      "basename": "Extended Euclidean algorithm",
-      "path": "number-theory/Extended Euclidean algorithm.md"
-    },
-    {
       "basename": "Process creation",
       "path": "operating-system/unix/linux/process-management/Process creation.md"
-    },
-    {
-      "basename": "Manual references",
-      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
     },
     {
       "basename": "Path variable",
@@ -63,10 +123,6 @@
     {
       "basename": "Shared memory",
       "path": "operating-system/unix/linux/process-management/inter-process-communication/Shared memory.md"
-    },
-    {
-      "basename": "File properties",
-      "path": "operating-system/unix/linux/file-system/File properties.md"
     },
     {
       "basename": "apt Repository",
@@ -139,66 +195,6 @@
     {
       "basename": "Sieve of Eratosthenes",
       "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
-    },
-    {
-      "basename": "Caching strategy",
-      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
-    },
-    {
-      "basename": "Bridge pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md"
-    },
-    {
-      "basename": "Proxy pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md"
-    },
-    {
-      "basename": "Facade pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern.md"
-    },
-    {
-      "basename": "Composite pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Composite pattern.md"
-    },
-    {
-      "basename": "Adapter pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Adapter pattern.md"
-    },
-    {
-      "basename": "Prototype pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md"
-    },
-    {
-      "basename": "Abstract Factory pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md"
-    },
-    {
-      "basename": "Problem 3731. Find Missing Elements",
-      "path": "algorithm/problems/leetcode/Problem 3731. Find Missing Elements.md"
-    },
-    {
-      "basename": "Slice",
-      "path": "programming/go/fundamentals/composite-type/Slice.md"
-    },
-    {
-      "basename": "Array",
-      "path": "programming/go/fundamentals/composite-type/Array.md"
-    },
-    {
-      "basename": "Callback pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
-    },
-    {
-      "basename": "Struct",
-      "path": "programming/go/fundamentals/composite-type/Struct.md"
-    },
-    {
-      "basename": "Parameter-passing mechanism",
-      "path": "programming/go/fundamentals/composite-type/Parameter-passing mechanism.md"
-    },
-    {
-      "basename": "Map",
-      "path": "programming/go/fundamentals/composite-type/Map.md"
     }
   ],
   "omittedPaths": [],

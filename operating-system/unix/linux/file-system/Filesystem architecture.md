@@ -2,7 +2,43 @@
 
 # Filesystem architecture
 - The parent directory is `/`
-- ![600x800](Pasted%20image%2020240817144540.png)
+```mermaid
+graph TD
+    Root["/"]
+    
+    Root --> bin["/bin<br/>Commands: ls, cat, bash"]
+    Root --> sbin["/sbin<br/>Admin: fdisk, reboot"]
+    Root --> etc["/etc<br/>Config files"]
+    Root --> dev["/dev<br/>Hardware devices"]
+    Root --> proc["/proc<br/>Process info (virtual)"]
+    Root --> var["/var<br/>Logs, cache"]
+    Root --> tmp["/tmp<br/>Temp files"]
+    Root --> usr["/usr<br/>User programs"]
+    Root --> home["/home<br/>User directories"]
+    Root --> boot["/boot<br/>Kernel, bootloader"]
+    Root --> lib["/lib<br/>Shared libraries"]
+    Root --> opt["/opt<br/>3rd party apps"]
+    Root --> mnt["/mnt<br/>Manual mounts"]
+    Root --> media["/media<br/>USB, CD-ROM"]
+    Root --> srv["/srv<br/>Service data"]
+    
+    style Root fill:#FFD700
+    style bin fill:#90EE90
+    style sbin fill:#87CEEB
+    style etc fill:#FFB6C1
+    style dev fill:#DDA0DD
+    style proc fill:#F0E68C
+    style var fill:#FFA07A
+    style tmp fill:#FF6347
+    style usr fill:#98FB98
+    style home fill:#87CEFA
+    style boot fill:#FFE4B5
+    style lib fill:#D8BFD8
+    style opt fill:#FFDAB9
+    style mnt fill:#E0FFFF
+    style media fill:#F5DEB3
+    style srv fill:#FAFAD2
+```
 ## Boot loader
 - The directory `/boot`
 - Contains the file used by the boot loader `grub.cfg`
@@ -14,7 +50,7 @@
 ## Root directory
 - The directory `/root`
 - Every single file and directory starts from the root directory.
-- Priviledged.
+- Privileged.
 - Different from `/` directory.
 ## Configuration files
 - The directory `/etc`
@@ -75,3 +111,6 @@
 ## Service data
 - The directory `srv`.
 - Contains the service-related data.
+***
+# References
+1. 

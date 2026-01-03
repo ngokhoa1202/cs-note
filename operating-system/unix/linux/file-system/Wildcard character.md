@@ -1,11 +1,11 @@
-#cli #operating-system #ubuntu #file-system #regular-expression  #scripting  #scripting 
+ #operating-system #ubuntu #file-system #regular-expression  #scripting  #debian #fedora #rhel #centos-stream #operating-system 
 
 - Employed by [Filesystem commands](operating-system/unix/linux/file-system/Filesystem%20commands.md)
-# Star wildcard ($\star$)
-- Stands for any character, any string of arbitary size (even empty string).
-# Question mark wildcard (?)
+# Star wildcard `*`
+- Stands for any character, any string of arbitrary size (even empty string).
+# Question mark wildcard `?`
 - Stands for any single character.
-# Square bracket wildcard ([...])
+# Square bracket wildcard `[...]`
 - Stands for any of the characters specified in the enclosing pair of bracket.
 ```bash
 ls scripts.[xyz]* # either x or y or z
@@ -19,12 +19,14 @@ ls [a-cx-z]* # a to c or x to z
 ls [0-9][0-9][1-8] # 0 to 9 followed by 0 to 9 followed by 1-8
 ```
 
-# Backflash wildcard (\\)
+# Backlash wildcard (`\`)
 - Stands for escape sequence, used to mark an endline for scripting.
-# Caret wildcard (^)
+# Caret wildcard (`^`)
 - Stands for the beginning of the line.
-# Dollar sign wildcard ($)
+# Dollar sign wildcard (`$`)
 - Stands for the end of the line.
-
+***
+# References
+1. 
 
 

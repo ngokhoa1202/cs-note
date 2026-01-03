@@ -1,6 +1,6 @@
 #algebra #abstract-algebra 
 
-- Field is subset of [Group](Group.md)
+- Field is subset of [Group](algebra/abstract-algebra/Group.md)
 # Definition
 - A field $F$ is a group with:
 	- Additive group $(F,+)$ with - neutral element $0$.

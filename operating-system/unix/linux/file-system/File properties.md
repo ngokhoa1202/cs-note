@@ -1,4 +1,5 @@
- #ubuntu #linux #operating-system #file-system #software-architecture #data-structure 
+ #ubuntu #linux #operating-system #file-system #software-architecture #data-structure #debian #fedora 
+ #centos-stream #rhel 
 # File properties
 - ![](Pasted%20image%2020240817153022.png)
 ## Type
@@ -23,14 +24,13 @@
 ## Timestamp
 ### Month
 - The month when the file is created.
-
 ### Date
 -  The date when the file is created.
 ### Time
 -  The time when the file is created.
 # Inode
 - Stands for Index Node.
-- Represented by a number and stores metadata of a file / directory:
+- Represented by a number and stores <mark class="hltr-yellow">metadata</mark> of a file / directory:
 	- File type.
 	- File size.
 	- Ownership.
@@ -41,6 +41,7 @@
 		- atime: accessed time.
 	- Link count: The number of hard links pointing the inode.
 	- Pointers to the data blocks: Store address to the blocks on the disk where the actual data is stored.
+- 
 ***
 # References
 1. 
