@@ -6,7 +6,7 @@
 - Standardized ==container image format== defined by OCI Image Specification.
 - Immutable ==filesystem bundle== containing application binaries, libraries, dependencies, and runtime configurations.
 - Template for creating container instances.
-- When loaded into memory and executed $\implies$ becomes one or more [processes](../../operating-system/process/Process.md).
+- When loaded into memory and executed $\implies$ becomes one or more [processes](operating-system/unix/linux/process/Process.md).
 ## Image Structure
 ### Components
 - **Image Manifest**: JSON document describing image configuration and layers

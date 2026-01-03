@@ -40,8 +40,8 @@
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.
-2. [Mutex lock](operating-system/process/process-synchronization/locking-mechanism/Mutex%20lock.md)
-3. [Critical section problem](Critical%20section%20problem.md)
+2. [Mutex lock](operating-system/unix/linux/process/process-synchronization/locking-mechanism/Mutex%20lock.md)
+3. [Critical section problem](operating-system/unix/linux/process/process-synchronization/Critical%20section%20problem.md)
 4. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe  - Pearson (2015):*
 	1. Chapter 21 - Section 1.
 5. *HCMUT Advanced DBMS Slide - Lê Thị Bảo Thu.*
@@ -49,4 +49,4 @@
 7. [Serializability](Serializability.md)
 8. [Locking operations](Locking%20operations.md)
 9. [Deadlock](dbms/transaction/acid/concurrency-control/Deadlock.md) for DBMS transaction deadlock.
-10. [Deadlock](operating-system/process/Deadlock.md) for OS processes' deadlock.
+10. [Deadlock](operating-system/unix/linux/process/Deadlock.md) for OS processes' deadlock.

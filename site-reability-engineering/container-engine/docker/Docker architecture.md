@@ -210,7 +210,7 @@ graph TD
 - Stored in registry for distribution $\equiv$ program or executable.
 ## Docker Container
 - ==Running instance== of a Docker image.
-- Loaded into memory and executed as one or more [processes](operating-system/process/Process.md).
+- Loaded into memory and executed as one or more [processes](operating-system/unix/linux/process/Process.md).
 - Adds writable layer on top of image layers.
 - Has own network, storage, and process namespace.
 - Ephemeral by design $\implies$ destroyed data unless persisted in volumes $\equiv$ process.

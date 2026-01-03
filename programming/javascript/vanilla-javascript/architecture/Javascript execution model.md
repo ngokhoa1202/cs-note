@@ -33,7 +33,7 @@
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#stack_and_execution_contexts for Javascript execution model.
 2. https://262.ecma-international.org/16.0/index.html for ECMAScript 262 Specification.
-3. [[Process#Memory layout (Binary image)]] for Process binary image in Operating System.
+3. [[operating-system/unix/linux/process/Process#Memory layout (Binary image)]] for Process binary image in Operating System.
 4. https://nodejs.org/docs/latest-v22.x/api/worker_threads.html for Worker threads in Node.js 22.
 5. [[Browser Job queue]] 
 6. [[programming/javascript/node.js/architecture/Event loop]] for Node.js event loop.

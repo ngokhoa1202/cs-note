@@ -1,12 +1,140 @@
 {
   "recentFiles": [
     {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/algorithm/string/Longest common subsequence.md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Concurrency control model",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "operating-system/unix/linux/process-management/thread/Thread.md"
+    },
+    {
+      "basename": "Process",
+      "path": "operating-system/unix/linux/process-management/Process.md"
+    },
+    {
+      "basename": "Deadlock",
+      "path": "operating-system/unix/linux/process-management/Deadlock.md"
+    },
+    {
+      "basename": "Extended Euclidean algorithm",
+      "path": "number-theory/Extended Euclidean algorithm.md"
+    },
+    {
+      "basename": "Process creation",
+      "path": "operating-system/unix/linux/process-management/Process creation.md"
+    },
+    {
+      "basename": "Manual references",
+      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
+    },
+    {
+      "basename": "Path variable",
+      "path": "operating-system/unix/linux/shell-and-scripting/Path variable.md"
+    },
+    {
+      "basename": "Nslookup",
+      "path": "operating-system/unix/linux/networking/Nslookup.md"
+    },
+    {
+      "basename": "Boot process",
+      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
+    },
+    {
+      "basename": "Inter Process Communication",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Inter Process Communication.md"
+    },
+    {
+      "basename": "Remote procedure call",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Remote procedure call.md"
+    },
+    {
+      "basename": "Pipe",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Pipe.md"
+    },
+    {
+      "basename": "Message passing",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Message passing.md"
+    },
+    {
+      "basename": "Shared memory",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Shared memory.md"
+    },
+    {
+      "basename": "File properties",
+      "path": "operating-system/unix/linux/file-system/File properties.md"
+    },
+    {
+      "basename": "apt Repository",
+      "path": "operating-system/unix/linux/system-administration/package-management/debian/apt Repository.md"
+    },
+    {
+      "basename": "dnf Repository",
+      "path": "operating-system/unix/linux/system-administration/package-management/red-hat/dnf Repository.md"
+    },
+    {
+      "basename": "Peterson solution",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Peterson solution.md"
+    },
+    {
+      "basename": "Event notification",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md"
+    },
+    {
+      "basename": "Batch processing",
+      "path": "operating-system/unix/linux/process-management/batching/Batch processing.md"
+    },
+    {
+      "basename": "Process sychronization",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/Process sychronization.md"
+    },
+    {
+      "basename": "Critical section problem",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/Critical section problem.md"
+    },
+    {
+      "basename": "Semaphore",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Semaphore.md"
+    },
+    {
+      "basename": "Mutex lock",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Mutex lock.md"
+    },
+    {
+      "basename": "Monitor",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Monitor.md"
+    },
+    {
+      "basename": "Alternative configuration",
+      "path": "operating-system/unix/linux/system-administration/package-management/Alternative configuration.md"
+    },
+    {
+      "basename": "Install .deb file",
+      "path": "operating-system/unix/linux/system-administration/package-management/debian/Install .deb file.md"
+    },
+    {
+      "basename": "curl commands",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/curl commands.md"
+    },
+    {
+      "basename": "Container networking",
+      "path": "site-reability-engineering/container-engine/Container networking.md"
+    },
+    {
+      "basename": "Maximum subarray problem",
+      "path": "algorithm/algorithm/array/Maximum subarray problem.md"
     },
     {
       "basename": "String matching",
       "path": "algorithm/algorithm/string/String matching.md"
+    },
+    {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/algorithm/string/Longest common subsequence.md"
     },
     {
       "basename": "Sieve of Eratosthenes",
@@ -71,134 +199,6 @@
     {
       "basename": "Map",
       "path": "programming/go/fundamentals/composite-type/Map.md"
-    },
-    {
-      "basename": "Parameter-passing mechanisms",
-      "path": "programming/principles/function/Parameter-passing mechanisms.md"
-    },
-    {
-      "basename": "Swap two variables",
-      "path": "programming/go/fundamentals/common-problems/Swap two variables.md"
-    },
-    {
-      "basename": "Problem 2144. Minimum Cost of Buying Candies with Discount",
-      "path": "algorithm/problems/leetcode/Problem 2144. Minimum Cost of Buying Candies with Discount.md"
-    },
-    {
-      "basename": "Problem 2154. Keep Multiplying Found Values by Two",
-      "path": "algorithm/problems/leetcode/Problem 2154. Keep Multiplying Found Values by Two.md"
-    },
-    {
-      "basename": "Problem 2706. Buy Two Chocolates",
-      "path": "algorithm/problems/leetcode/Problem 2706. Buy Two Chocolates.md"
-    },
-    {
-      "basename": "Problem 3074. Apple Redistribution into Boxes",
-      "path": "algorithm/problems/leetcode/Problem 3074. Apple Redistribution into Boxes.md"
-    },
-    {
-      "basename": "Problem 3075. Maximize Happiness of Selected Children",
-      "path": "algorithm/problems/leetcode/Problem 3075. Maximize Happiness of Selected Children.md"
-    },
-    {
-      "basename": "Problem 3432. Count Partitions with Even Sum Difference",
-      "path": "algorithm/problems/leetcode/Problem 3432. Count Partitions with Even Sum Difference.md"
-    },
-    {
-      "basename": "Problem 1051. Height Checker",
-      "path": "algorithm/problems/leetcode/Problem 1051. Height Checker.md"
-    },
-    {
-      "basename": "Problem 961. N-Repeated Element in Size 2N Array",
-      "path": "algorithm/problems/leetcode/Problem 961. N-Repeated Element in Size 2N Array.md"
-    },
-    {
-      "basename": "Variable",
-      "path": "programming/go/fundamentals/Variable.md"
-    },
-    {
-      "basename": "Containerfile",
-      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
-    },
-    {
-      "basename": "Build Spring Boot image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
-    },
-    {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
-      "basename": "Rebasing",
-      "path": "site-reability-engineering/version-control/git/git-branching/Rebasing.md"
-    },
-    {
-      "basename": "Branch management",
-      "path": "site-reability-engineering/version-control/git/git-branching/Branch management.md"
-    },
-    {
-      "basename": "Branching workflows",
-      "path": "site-reability-engineering/version-control/git/git-branching/Branching workflows.md"
-    },
-    {
-      "basename": "Internet Protocol version 4 (IPv4)",
-      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
-    },
-    {
-      "basename": "Hard link and Soft link",
-      "path": "operating-system/unix/linux/file-system/Hard link and Soft link.md"
-    },
-    {
-      "basename": "Filesystem commands",
-      "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
-    },
-    {
-      "basename": "File properties",
-      "path": "operating-system/unix/linux/file-system/File properties.md"
-    },
-    {
-      "basename": "Manual references",
-      "path": "operating-system/unix/linux/Manual references.md"
-    },
-    {
-      "basename": "Secure Shell (SSH)",
-      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
-    },
-    {
-      "basename": "SSH remote login",
-      "path": "operating-system/unix/linux/SSH remote login.md"
-    },
-    {
-      "basename": "HTTP Over SSL (HTTPS)",
-      "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
-    },
-    {
-      "basename": "Network security overview",
-      "path": "cybersecurity/network-security/Network security overview.md"
-    },
-    {
-      "basename": "Web security overview",
-      "path": "cybersecurity/network-security/Web security overview.md"
-    },
-    {
-      "basename": "Firewall overview",
-      "path": "cybersecurity/Firewall overview.md"
-    },
-    {
-      "basename": "Alternative configuration",
-      "path": "operating-system/unix/linux/Alternative configuration.md"
-    },
-    {
-      "basename": "Install .zip file",
-      "path": "operating-system/unix/linux/Install .zip file.md"
-    },
-    {
-      "basename": "Path variable",
-      "path": "operating-system/unix/linux/Path variable.md"
-    },
-    {
-      "basename": "Systemctl commands",
-      "path": "operating-system/unix/linux/Systemctl commands.md"
     }
   ],
   "omittedPaths": [],

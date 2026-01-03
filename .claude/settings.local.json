@@ -7,7 +7,10 @@
       "WebFetch(domain:algo.monster)",
       "WebFetch(domain:stackoverflow.com)",
       "WebFetch(domain:labuladong.online)",
-      "WebFetch(domain:medium.com)"
+      "WebFetch(domain:medium.com)",
+      "Bash(tree:*)",
+      "Bash(cd /home/khoango/Documents/cs-note/operating-system/unix/linux/distributions/debian/ubuntu:*)",
+      "Bash(cd:*)"
     ],
     "deny": []
   },

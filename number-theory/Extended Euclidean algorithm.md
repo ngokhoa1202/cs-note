@@ -1,5 +1,4 @@
 #number-theory #cryptography #algorithm #asymmetric-cipher 
-
 - Equivalent to [Diophantine equation](Diophantine%20equation.md) 
 # Input
 - Given two huge positive integer $a,b>0$

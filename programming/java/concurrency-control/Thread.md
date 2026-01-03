@@ -352,9 +352,9 @@ public class ThreadSafeCache<K, V> {
 # References
 1. https://medium.com/@seungbae2/understanding-the-synchronized-keyword-in-java-ensuring-thread-safety-and-synchronization-4d8f84622a77#:~:text=A%20synchronized%20method%20is%20a,synchronized%20method%20at%20a%20time. 
 2. https://www.geeksforgeeks.org/synchronization-in-java/ 
-3. [[operating-system/process/process-synchronization/Critical section problem|Critical section problem]]
-4. [[operating-system/process/thread/Thread|Thread]]
-5. [[operating-system/process/process-synchronization/locking-mechanism/Monitor|Monitor]]
+3. [[operating-system/unix/linux/process/process-synchronization/Critical section problem|Critical section problem]]
+4. [[operating-system/unix/linux/process/thread/Thread|Thread]]
+5. [[operating-system/unix/linux/process/process-synchronization/locking-mechanism/Monitor|Monitor]]
 6. https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/lang/Thread.html for Java 21 Thread.
 7. https://www.baeldung.com/java-wait-notify
 8. 

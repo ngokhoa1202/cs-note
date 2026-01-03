@@ -26,8 +26,8 @@
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 8: Deadlocks.
-2. [Mutex lock](operating-system/process/process-synchronization/locking-mechanism/Mutex%20lock.md)
-3. [Critical section problem](Critical%20section%20problem.md)
+2. [Mutex lock](operating-system/unix/linux/process/process-synchronization/locking-mechanism/Mutex%20lock.md)
+3. [Critical section problem](operating-system/unix/linux/process/process-synchronization/Critical%20section%20problem.md)
 4. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe  - Pearson (2015):*
 	1. Chapter 21 - Section 1.
 5. *HCMUT Advanced DBMS Slide - Lê Thị Bảo Thu.*
