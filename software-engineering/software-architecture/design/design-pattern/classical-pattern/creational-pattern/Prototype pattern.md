@@ -1,5 +1,4 @@
-#solid #software-engineering #design-pattern #creational-pattern #java 
-#software-architecture 
+#solid #software-engineering #design-pattern #creational-pattern #java #software-architecture 
 # Purpose
 - Specify the type of object to create ==using a prototypical instance==.
 - Create new object by ==copying this instance==.

@@ -1,6 +1,5 @@
 #design-pattern #object-oriented-programming #software-engineering  #software-architecture 
 #structural-pattern #computer-network 
-
 # Purpose
 - Provides a ==surrogate - placeholder==  for a particular class to control its access.
 # Application
@@ -43,6 +42,7 @@
 # Disadvantages
 - Complicated.
 - Overhead.
+***
 # References
 1. https://refactoring.guru/design-patterns/proxy
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.

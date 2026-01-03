@@ -31,6 +31,7 @@
 - Promotes weak coupling between client and complex subsystems $\equiv$ Ensure [Dependency inversion principle](SOLID.md#Dependency%20inversion%20principle)
 # Disadvantages
 - Facade object may become a god object $\implies$ Violates [Single responsibility principle](SOLID.md#Single%20responsibility%20principle)
+***
 # References
 1. https://refactoring.guru/design-patterns/facade/java/example for Facade real examples.
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.

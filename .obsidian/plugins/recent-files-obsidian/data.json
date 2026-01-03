@@ -1,6 +1,54 @@
 {
   "recentFiles": [
     {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/algorithm/string/Longest common subsequence.md"
+    },
+    {
+      "basename": "String matching",
+      "path": "algorithm/algorithm/string/String matching.md"
+    },
+    {
+      "basename": "Sieve of Eratosthenes",
+      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
+    },
+    {
+      "basename": "Caching strategy",
+      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
+    },
+    {
+      "basename": "Bridge pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md"
+    },
+    {
+      "basename": "Proxy pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md"
+    },
+    {
+      "basename": "Facade pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern.md"
+    },
+    {
+      "basename": "Composite pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Composite pattern.md"
+    },
+    {
+      "basename": "Adapter pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Adapter pattern.md"
+    },
+    {
+      "basename": "Prototype pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md"
+    },
+    {
+      "basename": "Abstract Factory pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md"
+    },
+    {
+      "basename": "Problem 3731. Find Missing Elements",
+      "path": "algorithm/problems/leetcode/Problem 3731. Find Missing Elements.md"
+    },
+    {
       "basename": "Slice",
       "path": "programming/go/fundamentals/composite-type/Slice.md"
     },
@@ -151,54 +199,6 @@
     {
       "basename": "Systemctl commands",
       "path": "operating-system/unix/linux/Systemctl commands.md"
-    },
-    {
-      "basename": "Apt repository",
-      "path": "operating-system/unix/linux/distributions/debian/repository/Apt repository.md"
-    },
-    {
-      "basename": "curl commands",
-      "path": "operating-system/unix/linux/networking/curl commands.md"
-    },
-    {
-      "basename": "Change password command",
-      "path": "operating-system/unix/linux/password/Change password command.md"
-    },
-    {
-      "basename": "Generate secret key openSSL",
-      "path": "operating-system/cryptography/Generate secret key openSSL.md"
-    },
-    {
-      "basename": "Debounce",
-      "path": "programming/javascript/lodash/concurrency-control/Debounce.md"
-    },
-    {
-      "basename": "Memoize",
-      "path": "programming/javascript/lodash/caching/Memoize.md"
-    },
-    {
-      "basename": "Problem 1518. Water Bottles",
-      "path": "algorithm/problems/leetcode/Problem 1518. Water Bottles.md"
-    },
-    {
-      "basename": "Problem 1037. Valid Boomerang",
-      "path": "algorithm/problems/leetcode/Problem 1037. Valid Boomerang.md"
-    },
-    {
-      "basename": "Problem 627. Swap Sex of Employees",
-      "path": "algorithm/problems/leetcode/Problem 627. Swap Sex of Employees.md"
-    },
-    {
-      "basename": "Problem 197. Rising temperature",
-      "path": "algorithm/problems/leetcode/Problem 197. Rising temperature.md"
-    },
-    {
-      "basename": "Problem 66. Plus One",
-      "path": "algorithm/problems/leetcode/Problem 66. Plus One.md"
-    },
-    {
-      "basename": "Variable length Subnet Mask (VLSM)",
-      "path": "computer-network/network-layer/data-plane/subnet/Variable length Subnet Mask (VLSM).md"
     }
   ],
   "omittedPaths": [],

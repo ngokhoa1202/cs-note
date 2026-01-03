@@ -725,5 +725,6 @@
   "operating-system/unix/linux/networking": "LiNetwork",
   "cybersecurity/network-security/application-layer/Secure Shell (SSH).md": "TiProtocol",
   "algorithm/problems/leetcode/Problem 961. N-Repeated Element in Size 2N Array.md": "SiLeetcode",
-  "programming/go/fundamentals/composite-type/Parameter-passing mechanism.md": "FabGolang"
+  "programming/go/fundamentals/composite-type/Parameter-passing mechanism.md": "FabGolang",
+  "algorithm/problems/leetcode/Problem 3731. Find Missing Elements.md": "SiLeetcode"
 }

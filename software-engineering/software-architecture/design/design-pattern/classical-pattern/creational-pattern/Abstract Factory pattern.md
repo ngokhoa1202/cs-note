@@ -1,10 +1,8 @@
 #solid #software-engineering #design-pattern #creational-pattern #software-architecture 
-
 # Purpose
 - Provides an interface for creating ==families of related objects without specifying their concrete classes==.
 # Application
 - We have multiple families of related concrete products, and these families are orthogonal = independent.
-- 
 # Components
 - ![800x400](Pasted%20image%2020240605152529.png)
 ## Abstract Factory
