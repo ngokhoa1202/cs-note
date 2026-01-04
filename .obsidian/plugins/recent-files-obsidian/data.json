@@ -1,8 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "Containerfile",
+      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
+    },
+    {
       "basename": "Build Spring Boot image",
       "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Euler Phi function",
+      "path": "number-theory/Euler Phi function.md"
+    },
+    {
+      "basename": "Diophantine equation",
+      "path": "number-theory/Diophantine equation.md"
+    },
+    {
+      "basename": "Introduction",
+      "path": "data/data-mining/Introduction.md"
+    },
+    {
+      "basename": "08-07-2025",
+      "path": "plans/08-07-2025.md"
+    },
+    {
+      "basename": "SRE Learning Path",
+      "path": "plans/SRE Learning Path.md"
+    },
+    {
+      "basename": "01-06-2025",
+      "path": "plans/01-06-2025.md"
+    },
+    {
+      "basename": "Pasted image 20260104145737",
+      "path": "assets/Pasted image 20260104145737.png"
+    },
+    {
+      "basename": "Pasted image 20260104145727",
+      "path": "assets/Pasted image 20260104145727.png"
     },
     {
       "basename": "Build Debian-based image",
@@ -35,10 +71,6 @@
     {
       "basename": "Fundamental Theorem of Arithmetic",
       "path": "number-theory/Fundamental Theorem of Arithmetic.md"
-    },
-    {
-      "basename": "Euler Phi function",
-      "path": "number-theory/Euler Phi function.md"
     },
     {
       "basename": "Design pattern plan",
@@ -167,38 +199,6 @@
     {
       "basename": "Process",
       "path": "operating-system/unix/linux/process-management/Process.md"
-    },
-    {
-      "basename": "Group",
-      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
-    },
-    {
-      "basename": "Peterson solution",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Peterson solution.md"
-    },
-    {
-      "basename": "Monitor",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Monitor.md"
-    },
-    {
-      "basename": "Pipe",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Pipe.md"
-    },
-    {
-      "basename": "Remote procedure call",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Remote procedure call.md"
-    },
-    {
-      "basename": "Critical section problem",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/Critical section problem.md"
-    },
-    {
-      "basename": "Event notification",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md"
-    },
-    {
-      "basename": "Concurrency control model",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
     }
   ],
   "omittedPaths": [],

@@ -1,0 +1,17 @@
+services:
+  obsidian-web:
+    user: "root"
+    image: lscr.io/linuxserver/webtop:ubuntu-xfce
+    container_name: obsidian-web
+    security_opt:
+      - seccomp:unconfined # Required for some Electron apps
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Asia/Ho_Chi_Minh
+    volumes:
+      - ./config:/config
+      - ./vaults:/vaults
+    ports:
+      - "3000:3000"
+    shm_size: "3gb" # Electron apps crash if shared memory is too small
