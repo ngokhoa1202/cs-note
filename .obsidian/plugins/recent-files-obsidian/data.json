@@ -1,12 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "Manual references",
+      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
     },
     {
-      "basename": "Design pattern plan",
-      "path": "Design pattern plan.md"
+      "basename": "diff command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/diff command.md"
+    },
+    {
+      "basename": "sort command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/sort command.md"
+    },
+    {
+      "basename": "uniq command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/uniq command.md"
+    },
+    {
+      "basename": "cut command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/cut command.md"
+    },
+    {
+      "basename": "GEMINI_CONTEXT",
+      "path": "GEMINI_CONTEXT.md"
+    },
+    {
+      "basename": "Nslookup",
+      "path": "operating-system/unix/linux/networking/Nslookup.md"
+    },
+    {
+      "basename": "sed command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/sed command.md"
+    },
+    {
+      "basename": "tar command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/tar command.md"
     },
     {
       "basename": "curl command",
@@ -17,12 +45,44 @@
       "path": "operating-system/unix/linux/shell-and-scripting/commands/find command.md"
     },
     {
-      "basename": "sed commands",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/sed commands.md"
+      "basename": "vim command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/vim command.md"
     },
     {
-      "basename": "tar command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/tar command.md"
+      "basename": "Vim editor",
+      "path": "operating-system/text-editor/Vim editor.md"
+    },
+    {
+      "basename": "Container networking",
+      "path": "site-reability-engineering/container-engine/Container networking.md"
+    },
+    {
+      "basename": "File permissions",
+      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
+    },
+    {
+      "basename": "User",
+      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Podman architecture",
+      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "Design pattern plan",
+      "path": "Design pattern plan.md"
     },
     {
       "basename": "wget command",
@@ -57,16 +117,8 @@
       "path": "operating-system/unix/linux/shell-and-scripting/Path variable.md"
     },
     {
-      "basename": "Manual references",
-      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
-    },
-    {
       "basename": "Filesystem commands",
       "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
-    },
-    {
-      "basename": "File permissions",
-      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
     },
     {
       "basename": "CPU scheduling",
@@ -87,10 +139,6 @@
     {
       "basename": "Process",
       "path": "operating-system/unix/linux/process-management/Process.md"
-    },
-    {
-      "basename": "User",
-      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
     },
     {
       "basename": "Group",
@@ -147,58 +195,6 @@
     {
       "basename": "Stirling approximation",
       "path": "calculus/Stirling approximation.md"
-    },
-    {
-      "basename": "Caching strategy",
-      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
-    },
-    {
-      "basename": "Modularity",
-      "path": "software-engineering/software-architecture/principles/Modularity.md"
-    },
-    {
-      "basename": "Software architecture",
-      "path": "software-engineering/software-architecture/principles/Software architecture.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Container commands",
-      "path": "site-reability-engineering/container-engine/Container commands.md"
-    },
-    {
-      "basename": "Container networking",
-      "path": "site-reability-engineering/container-engine/Container networking.md"
-    },
-    {
-      "basename": "Boot process",
-      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
-    },
-    {
-      "basename": "Public-key cryptosystem",
-      "path": "cryptography/asymetric-cipher/Public-key cryptosystem.md"
-    },
-    {
-      "basename": "RSA",
-      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
-    },
-    {
-      "basename": "Diffie-Hellman key exchange.",
-      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
-    },
-    {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "programming/java/concurrency-control/Thread.md"
-    },
-    {
-      "basename": "File properties",
-      "path": "operating-system/unix/linux/file-system/File properties.md"
     }
   ],
   "omittedPaths": [],

@@ -198,6 +198,15 @@ find /usr/bin -type f -perm -755
 # Find world-writable files (security risk)
 find /var/www -type f -perm -002
 
+# Find files or directory that other cannot either read or write
+find /var/log ! -perm /o=rw
+
+# Find files that the group can at least read and other cannot read or write
+find . -type f -perm -g=r ! -perm /o=rw
+
+# Find files that group can read and others cannot read or write (parentheses are needed)
+find . -type f \( -perm -g=r -o ! -perm /o=rw \)
+
 # Find SUID files
 find / -type f -perm -4000
 
@@ -532,20 +541,23 @@ find /home/user -type f ! -path "*/node_modules/*" | tar -czf backup.tar.gz -T -
 ```
 # Common Options
 
-| Option | Description | Example |
-|--------|-------------|---------|
-| `-name` | Match filename pattern | `find . -name "*.txt"` |
-| `-iname` | Case-insensitive name | `find . -iname "*.PDF"` |
-| `-type` | Match file type | `find . -type d` |
-| `-size` | Match file size | `find . -size +100M` |
-| `-mtime` | Modified time (days) | `find . -mtime -7` |
-| `-mmin` | Modified time (minutes) | `find . -mmin -60` |
-| `-user` | Match owner | `find . -user alice` |
-| `-perm` | Match permissions | `find . -perm 644` |
-| `-exec` | Execute command | `find . -exec ls {} \;` |
-| `-delete` | Delete matched files | `find . -name "*.tmp" -delete` |
-| `-maxdepth` | Limit search depth | `find . -maxdepth 2` |
-| `-prune` | Exclude directory | `find . -name ".git" -prune` |
+| Option      | Description             | Example                                            |
+| ----------- | ----------------------- | -------------------------------------------------- |
+| `-name`     | Match filename pattern  | `find . -name "*.txt"`                             |
+| `-iname`    | Case-insensitive name   | `find . -iname "*.PDF"`                            |
+| `-type`     | Match file type         | `find . -type d`                                   |
+| `-size`     | Match file size         | `find . -size +100M`                               |
+| `-mtime`    | Modified time (days)    | `find . -mtime -7`                                 |
+| `-mmin`     | Modified time (minutes) | `find . -mmin -60`                                 |
+| `-user`     | Match owner             | `find . -user alice`                               |
+| `-perm`     | Match permissions       | `find . -perm 644`                                 |
+| `-exec`     | Execute command         | `find . -exec ls {} \;`                            |
+| `-delete`   | Delete matched files    | `find . -name "*.tmp" -delete`                     |
+| `-maxdepth` | Limit search depth      | `find . -maxdepth 2`                               |
+| `-prune`    | Exclude directory       | `find . -name ".git" -prune`                       |
+| `-a`        | And operator            | `find . -type f ! -perm -o=r -a ! -perm -o=w`      |
+| `!`         | Not operator            | `find . -type f ! -perm -o=r -a ! -perm -o=w`      |
+| `-o`        | Or operator             | `find . -type f \( -perm -g=r -o ! -perm /o=rw \)` |
 
 ***
 # References

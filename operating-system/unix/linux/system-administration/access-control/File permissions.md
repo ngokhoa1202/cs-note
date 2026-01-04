@@ -257,6 +257,9 @@ chmod go-w file.txt
 # Set read and write for owner, read-only for others
 chmod u=rw,go=r file.txt
 
+# set permissions for some_directory to rwxr-xr-x
+chmod u=rwx,g=rx,o=rx some_directory
+
 # Add execute permission for all
 chmod a+x script.sh
 # Or equivalently:

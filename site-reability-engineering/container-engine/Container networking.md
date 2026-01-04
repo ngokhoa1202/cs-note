@@ -1,13 +1,12 @@
 #containerization #docker #podman #computer-network #network-layer #transport-layer #application-layer
 #site-realibility-engineering
-# Container Networking
-## Overview
+# Overview
 - Container engines provide <mark class="hltr-yellow">network isolation </mark>through Linux network namespaces.
 - Multiple network drivers support different networking scenarios.
 - Each container has its own network stack (interfaces, routing tables, firewall rules).
 - Containers communicate via virtual ethernet (veth) pairs connecting namespaces.
-## Network Namespace Isolation
-### Concept
+# Network Namespace Isolation
+## Concept
 - Each container runs in separate ==network namespace==.
 - Namespace provides isolated view of network stack including:
     - Network interfaces
@@ -15,7 +14,7 @@
     - Routing tables
     - Firewall rules (iptables/nftables)
     - Network statistics
-### Communication Model
+## Communication Model
 ```mermaid
 graph TB
     Host["Host Network Namespace"]
@@ -46,16 +45,16 @@ graph TB
     style veth2 fill:#b3e5fc
 ```
 
-## Network Drivers
-### bridge (Default)
+# Network Drivers
+## bridge (Default)
 - Creates <mark class="hltr-yellow">virtual bridge network</mark> on host.
 - **Default Name**:
     - Docker: `docker0`
     - Podman: `podman0` (or CNI-managed bridge)
 - **IP Range**: Default `172.17.0.0/16` (Docker), configurable
-#### Usecase
+### Usecase
 - Single-host container communication.
-#### Topology
+### Topology
 ```mermaid
 graph TB
     HostNet["Host Network"]
@@ -76,12 +75,12 @@ graph TB
     style C3 fill:#4fc3f7
 ```
 
-#### Characteristics
+### Characteristics
 - Containers on same bridge can communicate directly
 - *Port mapping* required for *external access* (`-p` flag)
 - Automatic DNS resolution between containers (Docker)
 - NAT for outbound connections
-#### Example
+### Example
 ```Shell title='Imperative example'
 # Docker - Create custom bridge network
 docker network create --driver bridge \
@@ -161,7 +160,7 @@ networks:
           gateway: 172.21.0.1
 ```
 
-#### Topology
+### Topology
 ```mermaid
 graph TB
     Internet["Internet / External Network"]
@@ -196,9 +195,9 @@ graph TB
 - `web` and `db` are isolated from each other (different networks)
 - External access only to `web` via port mapping
 - Internal DNS: containers resolve each other by service name.
-#### Container communication
+### Container communication
 - Containers on the same bridge network can communicate using multiple methods.
-##### Container name - DNS resolution
+#### Container name - DNS resolution
 ```Shell title='Container name for container communication'
 # Create bridge network
 docker network create mybridge
@@ -213,7 +212,7 @@ docker run --rm --network mybridge alpine ping web
 # Access web server from app container
 docker run --rm --network mybridge alpine wget -O- http://web:80
 ```
-##### Service name
+#### Service name
 ```yaml title='Service name for container communication'
 # compose.yaml
 services:
@@ -235,7 +234,7 @@ networks:
   mynet:
     driver: bridge
 ```
-##### Network alias
+#### Network alias
 ```Shell title='Network alias for container communication'
 # Run container with network alias
 docker run -d --name web \
@@ -257,7 +256,7 @@ docker inspect web -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
 # Access using IP (not recommended - IP can change)
 docker run --rm --network mybridge alpine wget http://172.18.0.2:80
 ```
-##### `host.docker.internal`
+#### `host.docker.internal`
 - `host.docker.internal` only allows simplex access from *container to host services*.
 ```Shell title='host.docker.internal help access from container to host'
 # This is for accessing HOST machine services, NOT other containers
@@ -322,17 +321,17 @@ networks:
       config:
         - subnet: 172.25.0.0/16
 ```
-### host
+## host
 -  Container uses ==host network directly==
 - No network isolation $\implies$ container sees all host interfaces
 - Better performance (no bridge overhead) but can lead to port conflicts.
-#### Usecase
+### Usecase
 - Maximum network performance, monitoring tools.
-#### Characteristics
+### Characteristics
 - Container binds ports directly to host.
 - Access to all host network interfaces.
 - No IP address translation (NAT).
-#### Example
+### Example
 ```Shell title='Container networking with host mode'
 # Docker - Run container with host networking
 docker run -d --name nginx-host --network host nginx
@@ -384,7 +383,7 @@ volumes:
   prometheus-data:
   grafana-data:
 ```
-#### Topology
+### Topology
 ```mermaid
 graph TB
     Internet["Internet / External Network"]
@@ -421,12 +420,12 @@ graph TB
 - All containers share same network namespace.
 - Port conflicts possible if multiple containers use same port.
 - Access via host IP address: `http://192.168.1.100:9090`.
-### none
+## none
 - Disables all external networking.
 - Interfaces: Only loopback (`127.0.0.1`) available
-#### Usecase
+### Usecase
 - Isolated workloads, security-sensitive applications.
-#### Example
+### Example
 ```Shell title='Disable container networking with none mode'
 # Docker - Run container with no network
 docker run -d --name isolated --network none alpine sleep 3600
@@ -475,7 +474,7 @@ services:
 volumes:
   postgres-data:
 ```
-#### Topology
+### Topology
 ```mermaid
 graph TB
     subgraph IsolatedContainer["Isolated Container Namespace"]
@@ -498,19 +497,18 @@ graph TB
 - Useful for batch processing, offline tasks, security-sensitive operations
 - Can still access host filesystem via volume mounts
 - No DNS resolution, no internet access
-### overlay (Docker Swarm)
+## overlay (Docker Swarm)
 - Multi-host networking for ==Docker Swarm clusters==
 - **Technology**: VXLAN encapsulation for cross-host communication
 - **Encryption**: Optional IPsec encryption
 - **Use Case**: Multi-host container orchestration
 - **Scope**: Swarm services
-
-**Features:**
+### Feature
 - Containers on different hosts communicate seamlessly
 - Automatic service discovery
 - Load balancing across replicas
 - Encrypted control plane
-#### Example
+### Example
 ```Shell title='Imperative example'
 # Initialize Docker Swarm (on manager node)
 docker swarm init --advertise-addr 192.168.1.100
@@ -615,7 +613,7 @@ networks:
 volumes:
   db-data:
 ```
-#### Topology
+### Topology
 ```mermaid title='Container networking topology for Docker Swarm'
 graph TB
     Internet["Internet"]
@@ -673,7 +671,7 @@ graph TB
 - Optional encryption with `--opt encrypted=true`
 - Automatic service discovery via DNS.
 - Requires Docker Swarm mode.
-### macvlan
+## macvlan
 - **Description**: Assigns ==MAC address== to container
 - **Visibility**: Container appears as physical device on network
 - **Use Case**: Legacy applications requiring direct network access
@@ -682,8 +680,8 @@ graph TB
 - **Bridge Mode**: Virtual bridge for container communication
 - **802.1Q Trunk**: VLAN tagging support
 - **IPVLAN**: Alternative to MACVLAN with shared MAC
-#### Example
-```Shell title='Imperative example'
+### Example
+```Shell title='macvlan example'
 # Docker - Create macvlan network
 docker network create -d macvlan \
   --subnet=192.168.1.0/24 \
@@ -717,7 +715,7 @@ docker network inspect mymacvlan
 docker network rm mymacvlan
 ```
 
-```yaml title='Declarative example'
+```yaml title='macvlan example'
 # compose.yaml - Macvlan network example
 services:
   legacy-app:
@@ -768,8 +766,7 @@ networks:
         - subnet: 192.168.10.0/24
           gateway: 192.168.10.1
 ```
-
-**Network Topology Diagram:**
+### Topology
 ```mermaid
 graph TB
     PhysicalSwitch["Physical Network Switch<br/>192.168.1.0/24"]
@@ -810,12 +807,12 @@ graph TB
 - Cannot communicate with host by default (use `ip_range` workaround)
 - Ideal for legacy apps, DHCP servers, network appliances
 - 802.1Q VLAN tagging supported via `parent=eth0.10` syntax
-## CNI (Container Network Interface)
-### Overview
+# CNI (Container Network Interface)
+## Overview
 - Plugin-based networking architecture used by Podman, Kubernetes
 - Standard interface for configuring container networks
 - Pluggable network providers
-### CNI vs Docker Networking
+## CNI vs Docker Networking
 | Aspect | Docker | Podman (CNI) |
 |--------|--------|--------------|
 | **Architecture** | Built-in drivers | Plugin-based |
@@ -823,17 +820,15 @@ graph TB
 | **Kubernetes** | Custom integration | Native CNI support |
 | **Configuration** | daemon.json | CNI config files |
 
-### Common CNI Plugins
+## Common CNI Plugins
 - **bridge**: Standard bridge networking
 - **macvlan**: MACVLAN networking
 - **ipvlan**: IPVLAN networking
 - **host-device**: Move host device into container
 - **ptp**: Point-to-point link between containers
-### Podman CNI Configuration
-Location: `/etc/cni/net.d/`
-
-Example (`87-podman-bridge.conflist`):
-```json
+## Podman CNI Configuration
+- Location: `/etc/cni/net.d/`
+```json title='87-podman-bridge.conflist'
 {
   "cniVersion": "0.4.0",
   "name": "podman",
@@ -857,23 +852,22 @@ Example (`87-podman-bridge.conflist`):
 }
 ```
 
-## Netavark (Modern Podman)
-### Overview
+# Netavark (Modern Podman)
+## Overview
 - ==Rust-based network stack== replacing CNI in newer Podman versions
 - Improved performance and reliability
 - Native IPv4/IPv6 dual stack support
-### Features
+## Features
 - **Performance**: Faster than CNI plugins
 - **IPv6**: First-class IPv6 support
 - **DNS**: Built-in DNS server (aardvark-dns)
 - **Firewall**: Integrated firewall management
-### Migration
+## Migration
 - Podman 4.0+ uses Netavark by default
 - CNI still supported for backward compatibility
 - Configuration: `/etc/containers/containers.conf`
-
-## DNS Resolution
-### Docker DNS
+# DNS Resolution
+## Docker DNS
 - **Built-in DNS Server**: 127.0.0.11 in containers
 - **Service Discovery**: Containers resolve each other by ==service name==
 - **Custom DNS**: `--dns` flag for external DNS servers
@@ -884,16 +878,16 @@ docker run --name web nginx
 docker run --name app --link web alpine ping web
 # 'web' resolves to nginx container IP
 ```
-### Podman DNS
+## Podman DNS
 - **CNI dnsname Plugin**: Provides DNS resolution
 - **Netavark**: Uses aardvark-dns for DNS
 - **Container Names**: Resolvable within same network
-## Port Mapping
-### Concept
+# Port Mapping
+## Concept
 - Exposes container ports to host network
 - Uses ==iptables/nftables== rules for port forwarding
 - Format: `-p HOST_PORT:CONTAINER_PORT`
-### Syntax
+## Syntax
 ```bash
 # Single port
 docker run -p 8080:80 nginx
@@ -910,8 +904,7 @@ docker run -p 8080:80/tcp -p 53:53/udp nginx
 # Random host port
 docker run -p 80 nginx
 ```
-
-### Port Mapping Flow
+## Port Mapping Flow
 ```mermaid
 graph LR
     Client["External Client"]
@@ -932,7 +925,7 @@ graph LR
     style Container fill:#4fc3f7
 ```
 
-## Network Security
+# Network Security
 ### Firewall Integration
 - **iptables**: Traditional Linux firewall
 - **nftables**: Modern replacement for iptables
@@ -944,7 +937,6 @@ graph LR
 3. **Internal Networks**: Use custom networks for service isolation
 4. **Encryption**: Use overlay encryption for multi-host
 5. **Network Policies**: Implement firewall rules between containers
-
 ***
 # References
 1. [Docker Networking](https://docs.docker.com/network/) for Docker network documentation.

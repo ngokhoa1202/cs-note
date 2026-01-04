@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiVim",
       "LiCalendar",
       "MiBatching",
       "LiMonitor",
@@ -24,8 +25,7 @@
       "LiDatabaseBackup",
       "TiLogs",
       "MiBooting",
-      "MiService",
-      "MiPipe"
+      "MiService"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -751,8 +751,13 @@
   "operating-system/unix/linux/process-management/scheduling": "LiCalendar",
   "operating-system/unix/linux/shell-and-scripting/commands/find command.md": "SiGnubash",
   "operating-system/unix/linux/shell-and-scripting/commands/curl command.md": "SiGnubash",
-  "operating-system/unix/linux/shell-and-scripting/commands/sed commands.md": "SiGnubash",
   "operating-system/unix/linux/shell-and-scripting/commands/tar command.md": "SiGnubash",
   "operating-system/unix/linux/shell-and-scripting/commands/wget command.md": "SiGnubash",
-  "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md": "SiGnubash"
+  "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md": "SiGnubash",
+  "operating-system/unix/linux/shell-and-scripting/commands/vim command.md": "SiVim",
+  "operating-system/unix/linux/shell-and-scripting/commands/sed command.md": "SiGnubash",
+  "operating-system/unix/linux/shell-and-scripting/commands/cut command.md": "SiGnubash",
+  "operating-system/unix/linux/shell-and-scripting/commands/uniq command.md": "SiGnubash",
+  "operating-system/unix/linux/shell-and-scripting/commands/sort command.md": "SiGnubash",
+  "operating-system/unix/linux/shell-and-scripting/commands/diff command.md": "SiGnubash"
 }

@@ -74,7 +74,6 @@ tar -czvf website-backup.tar.gz \
 # website-backup-20240115.tar.gz created
 # Total size: 250MB compressed to 85MB
 ```
-
 # Extracting Archives
 
 ## Extract Complete Archive
