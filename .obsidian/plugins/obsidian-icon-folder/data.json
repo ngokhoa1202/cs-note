@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiLeetcode",
+      "✖",
       "SiVim",
       "LiCalendar",
       "MiBatching",
@@ -23,9 +25,7 @@
       "LiLock",
       "SiGnubash",
       "LiDatabaseBackup",
-      "TiLogs",
-      "MiBooting",
-      "MiService"
+      "TiLogs"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -759,5 +759,7 @@
   "operating-system/unix/linux/shell-and-scripting/commands/cut command.md": "SiGnubash",
   "operating-system/unix/linux/shell-and-scripting/commands/uniq command.md": "SiGnubash",
   "operating-system/unix/linux/shell-and-scripting/commands/sort command.md": "SiGnubash",
-  "operating-system/unix/linux/shell-and-scripting/commands/diff command.md": "SiGnubash"
+  "operating-system/unix/linux/shell-and-scripting/commands/diff command.md": "SiGnubash",
+  "number-theory/Fundamental Theorem of Arithmetic.md": "✖",
+  "algorithm/problems/leetcode/Problem 1390. Four Divisors.md": "SiLeetcode"
 }

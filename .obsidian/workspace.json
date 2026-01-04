@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "operating-system/unix/linux/shell-and-scripting/Manual references.md",
+                "file": "algorithm/problems/leetcode/Problem 1390. Four Divisors.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Manual references"
+              "title": "Problem 1390. Four Divisors"
             }
           }
         ]
@@ -193,15 +193,20 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c9d5aa1225b5333",
+  "active": "d8d7ea544fef7ec3",
   "lastOpenFiles": [
-    "Linux Services.md",
+    "algorithm/number-theory/Sieve of Eratosthenes.md",
+    "algorithm/problems/leetcode/Problem 1390. Four Divisors.md",
+    "number-theory/Fundamental Theorem of Arithmetic.md",
+    "number-theory/Euler Phi function.md",
+    "Design pattern plan.md",
+    "GEMINI_CONTEXT.md",
     "operating-system/unix/linux/shell-and-scripting/Manual references.md",
+    "Linux Services.md",
     "operating-system/unix/linux/shell-and-scripting/commands/diff command.md",
     "operating-system/unix/linux/shell-and-scripting/commands/sort command.md",
     "operating-system/unix/linux/shell-and-scripting/commands/uniq command.md",
     "operating-system/unix/linux/shell-and-scripting/commands/cut command.md",
-    "GEMINI_CONTEXT.md",
     "operating-system/unix/linux/networking/Nslookup.md",
     "operating-system/unix/linux/shell-and-scripting/commands/sed command.md",
     "operating-system/unix/linux/shell-and-scripting/commands/tar command.md",
@@ -218,11 +223,6 @@
     "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md",
     "site-reability-engineering/container-engine/podman/Podman architecture.md",
     "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md",
-    "CLAUDE.md",
-    "Design pattern plan.md",
-    "SRE_Roadmap.md",
-    "operating-system/unix/linux/shell-and-scripting/commands/wget command.md",
-    "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md",
     "operating-system/unix/linux/shell-and-scripting/commands/wget command.md.tmp.8523.1767490567983",
     "operating-system/unix/linux/shell-and-scripting/commands/curl command.md.tmp.8523.1767490467845",
     "operating-system/unix/linux/shell-and-scripting/commands/tar command.md.tmp.8523.1767490305156",
