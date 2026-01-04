@@ -1,4 +1,4 @@
-#angular #javascript #cli #html #object-oriented-programming #typescript #string #dom 
+#angular #javascript #shell #html #object-oriented-programming #typescript #string #dom 
 
 # Double curly braces
 - Use double curly braces `{{ object.property }}` :

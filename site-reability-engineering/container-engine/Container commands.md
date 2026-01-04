@@ -1,6 +1,6 @@
-#cli #docker #continuous-integration #operating-system #containerization #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume #podman #linux #fedora #centos-stream #rhel 
+#shell #docker #continuous-integration #operating-system #containerization #computer-network #application-layer #transport-layer #ubuntu #secondary-storage #network-layer  #file-system #volume #podman #linux #fedora #centos-stream #rhel 
 # General syntax
-```bash
+```Shell
 docker <cmd> <sub-cmd> (options)
 ```
 # Docker container run
@@ -8,7 +8,7 @@ docker <cmd> <sub-cmd> (options)
 - ==Create and run a new container== for an image. If the specified image is not found, Docker Engine will automagically ==pull== it from Docker Hub.
 - If the container name has already existed, docker stops running the new container.
 ## Syntax
-```bash
+```Shell title=''
 sudo docker container run [OPTIONS] IMAGE [COMMAND] [ARG...]
 ```
 ## Options

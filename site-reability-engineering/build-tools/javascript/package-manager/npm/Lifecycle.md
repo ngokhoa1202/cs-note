@@ -1,4 +1,4 @@
-#cli #npm #dependency-manager #javascript #react #continuous-delivery #continuous-integration 
+#shell #npm #dependency-manager #javascript #react #continuous-delivery #continuous-integration 
 #site-realibility-engineering #software-engineering #angular #node #build-lifecycle #typescript
 # Formal Definition
 - npm is built around the concept of **lifecycle scripts**. Lifecycle scripts are <mark class="hltr-yellow">special hooks that run automatically</mark> at different points during package operations (install, publish, pack, etc.).
@@ -505,7 +505,7 @@ project-root/
 ├── coverage/                  # OUTPUT: Test coverage reports
 └── <name>-<version>.tgz      # OUTPUT: Packed tarball (from npm pack)
 ```
-## `package.json` Scripts Section
+## `package.json` Scripts
 ```json
 {
   "name": "my-package",

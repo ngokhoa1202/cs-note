@@ -1,5 +1,5 @@
   #git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management 
-  #version-control #cli #project-management 
+  #version-control #shell #project-management 
 - Remote repositories are repository hosted on the Internet.
 
 # Cloning remote repositories

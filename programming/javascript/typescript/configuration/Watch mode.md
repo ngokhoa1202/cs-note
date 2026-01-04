@@ -1,4 +1,4 @@
-#typescript #javascript #compilation #cli #interpreter
+#typescript #javascript #compilation #shell #interpreter
 
 - Watch mode allows Javascript compiler to detect changes of file and automatically compile the source file into executable image.
 # Use --watch flag

@@ -1,4 +1,4 @@
-#git #github #version-control #project-management #cli #file-system #software-engineering 
+#git #github #version-control #project-management #shell #file-system #software-engineering 
 #site-realibility-engineering #project-management #software-architecture 
 # Remote branch initialization
 - Remote branches is actually <mark style="background: #e4e62d;">pointers</mark> to commits stored on remote server.
@@ -18,7 +18,7 @@ git remote show <local-name-of-remote-branch>
 # Remote branch fetching
 - Local branches and remote branches may significantly diverges. ![](Pasted%20image%2020241102112848.png)
 - Remote branch synchronization means <mark style="background: #e4e62d;">fetching</mark> new data from remote server, <mark style="background: #e4e62d;">updating</mark> the local database, <mark style="background: #e4e62d;">moving the locally remote branch</mark> to its up-to-date position.
-```bash
+```Shell title='Fetch remote branch'
 git fetch <remote-branch> # Fetch, update & move locally remote branch
 
 git fetch origin master # Update the master branch in remote origin
@@ -33,7 +33,7 @@ git fetch origin master # Update the master branch in remote origin
 - There are two ways to resolve this:
 	- Switch to local branch and merge it with the fetched remote branch using `git merge`
 	- Create a local copy branch based on that remote branch using `git checkout` or `git branch -u` 
-```bash title:"git checkout for fetching remote"
+```Shell title:"git checkout for fetching remote"
 # Creating a branch based on remote branch
 git checkout -b <new-local-branch> <fetched-remote-branch>
 
@@ -56,30 +56,30 @@ git push <remote> <branch> # General simplest form
 - The full branch form in both local and remote server is `refs/head/<local-name-of-branch>:refs/head/<remote-name-of-branch>`.
 # Remote branch track
 - When a repository is cloned, an <mark style="background: #e4e62d;">upstream branch</mark> is automatically locally created to track changes of that cloned remote branch. Run `git checkout --track` to manually track a remote branch. 
-```bash
+```Shell title='Track a remote branch'
 git checkout --track <remote-branch>
 ```
 - In case the branch name does not exist or exactly matches a remote branch name, it is <mark style="background: #e4e62d;">automatically tracked</mark> by Git.
 - ![](Pasted%20image%2020241102135338.png)
 - If a branch is being tracked, `@{upstream}` or `@{u}` can be used to replace the remote branch name when merging.
-```bash title:@{upstream}
+```Shell title:@{upstream}
 git merge @{u}
 ```
 
 # Remote branch pull
 - `git pull` both fetches the remote branches' updates and merges them with the local branches. In a word, `git pull` is equivalent to `git fetch` and `git merge`.
-```bash
+```Shell title='Fetch and automatically merge a remote branch'
 git pull <remote-branch>
 ```
 
 # Remote branch deletion
 - Run `git push -d` to delete a remote branch.
-```bash title:"git push --delete"
+```Shell title:"Delete a branch locally and push it to remote"
 git push <remote> --delete <branch> # Verbose form
 
 git push <remote> -d <branch> # Simple form
 ```
-
+***
 # References
 - Pro Git - Scott Chacon, Ben Straut - version 2.1.434
 	- Git Branching.

@@ -1,7 +1,19 @@
 #quarkus #java #java21 #java17 #podman #containerization #site-realibility-engineering 
-#continuous-delivery #bash #cli #rhel #debian #ubuntu #serverless #cloud-computing #maven #gradle #binary-image #fedora 
+#continuous-delivery #bash #shell #rhel #debian #ubuntu #serverless #cloud-computing #maven #gradle #binary-image #fedora 
 - Quarkus framework is microservice-oriented, so its final `.jar` file is not standalone but dynamically links to other libraries.
 - Quarkus framework is aligned with *Redhat-based* container.
+# Prerequisites
+- Toggle off the `devservices` properties via `application.properties` or `application.yaml` file.
+```Properties title='Turn devservices off'
+quarkus.datasource.devservices.enabled=false
+```
+
+```yaml title='Turn devservices off'
+application:
+  datasource:
+    devservices:
+      enable: false
+```
 # JVM image
 ## Redhat-based image
 ### Build with Maven
@@ -23,13 +35,13 @@ COPY src ./src
 RUN ./mvnw package -DskipTests
 FROM registry.redhat.io/ubi8/openjdk-21-runtime:latest AS runtime
 
-USER 100
+USER 1000
 
 WORKDIR /app
-COPY --from=builder --chown=100 /app/target/quarkus-app/lib ./deployments/lib/
-COPY --from=builder --chown=100 /app/target/quarkus-app/*.jar ./deployments/
-COPY --from=builder --chown=100 /app/target/quarkus-app/app/ ./deployments/app/
-COPY --from=builder --chown=100 /app/target/quarkus-app/quarkus/ ./deployments/quarkus/
+COPY --from=builder --chown=1000 /app/target/quarkus-app/lib ./deployments/lib/
+COPY --from=builder --chown=1000 /app/target/quarkus-app/*.jar ./deployments/
+COPY --from=builder --chown=1000 /app/target/quarkus-app/app/ ./deployments/app/
+COPY --from=builder --chown=1000 /app/target/quarkus-app/quarkus/ ./deployments/quarkus/
 
 EXPOSE 8080
 

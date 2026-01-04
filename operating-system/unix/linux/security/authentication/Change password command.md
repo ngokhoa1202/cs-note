@@ -1,4 +1,4 @@
-#linux #ubuntu #cli 
+#linux #ubuntu #shell 
 
 # Change password
 ```Sh

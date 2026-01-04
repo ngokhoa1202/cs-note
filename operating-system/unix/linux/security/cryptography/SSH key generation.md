@@ -1,4 +1,4 @@
-#ssh #computer-network #cybersecurity #cryptography #cli #protocol #transport-layer 
+#ssh #computer-network #cybersecurity #cryptography #shell #protocol #transport-layer 
 # Key management
 - The key pair including private key and public key is first generated on the local environment.
 - The public key  is given to the clients while the private key is kept secret.

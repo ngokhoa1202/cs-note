@@ -1,4 +1,4 @@
-#scss #css #css-preprocessor  #cli #npm #dependency-manager 
+#scss #css #css-preprocessor  #shell #npm #dependency-manager 
 
 # Compilation
 - SASS is always translated into vanilla CSS file so that the website can understand and style HTML element.

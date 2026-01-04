@@ -1,4 +1,4 @@
-#git #github #version-control #project-management #cli #file-system #ssh #https 
+#git #github #version-control #project-management #shell #file-system #ssh #https 
 #software-engineering #site-realibility-engineering #project-management 
 # Initialize a repository
 - Move to the project directory.

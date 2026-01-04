@@ -1,5 +1,5 @@
 #spring #java #java21 #java17 #podman #containerization #site-realibility-engineering 
-#continuous-delivery #bash #cli #rhel #spring-boot #ubuntu #debian
+#continuous-delivery #bash #shell #rhel #spring-boot #ubuntu #debian
 - The Spring Boot `.jar` is a standalone executable image.
 # Debian-based image
 ```Dockerfile title='Containerfile to build simple Spring Boot image based on Debian'

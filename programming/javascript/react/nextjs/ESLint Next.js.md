@@ -1,4 +1,4 @@
-#debug  #nextjs #react #typescript  #javascript #functional-programming  #cli 
+#debug  #nextjs #react #typescript  #javascript #functional-programming  #shell 
 
 
 - Run eslint for NextJs project

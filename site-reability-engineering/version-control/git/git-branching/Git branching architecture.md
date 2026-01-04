@@ -1,4 +1,4 @@
-#git #github #version-control #project-management #cli #file-system #software-engineering 
+#git #github #version-control #project-management #shell #file-system #software-engineering 
 #site-realibility-engineering #project-management #software-architecture 
 
 # Git branching

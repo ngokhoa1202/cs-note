@@ -1,4 +1,4 @@
-#continuous-integration #software-engineering #operating-system #cli #kubernetes #process #docker
+#continuous-integration #software-engineering #operating-system #shell #kubernetes #process #docker
 #software-architecture #container-orchestration #site-realibility-engineering
 #computer-network #file-system #containerization
 # Open Container Initiative (OCI)

@@ -1,4 +1,4 @@
-#php #dependency-manager  #cli #installation #ubuntu
+#php #dependency-manager  #shell #installation #ubuntu
 
 
 # Generate class file

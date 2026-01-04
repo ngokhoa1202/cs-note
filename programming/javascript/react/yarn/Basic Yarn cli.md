@@ -1,4 +1,4 @@
-#cli #yarn #react #dependency-manager #javascript #typescript 
+#shell #yarn #react #dependency-manager #javascript #typescript 
 
 # Create React project
 - `yarn create react-app <app-name>`

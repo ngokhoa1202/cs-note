@@ -1,4 +1,4 @@
-#cli #operating-system #centos-stream #file-system #regular-expression  #fedora
+#shell #operating-system #centos-stream #file-system #regular-expression  #fedora
 #dependency-manager #rhel #centos-stream 
 # List enabled repositories
 ```Shell title='List all enabled repositories'

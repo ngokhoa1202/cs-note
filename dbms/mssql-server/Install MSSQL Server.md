@@ -1,4 +1,4 @@
-#microsoft #dbms #sql #microsoft-sql-server  #cli #ubuntu 
+#microsoft #dbms #sql #microsoft-sql-server  #shell #ubuntu 
 
 # Install MSSQL 2022
 - https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16&tabs=ubuntu2204

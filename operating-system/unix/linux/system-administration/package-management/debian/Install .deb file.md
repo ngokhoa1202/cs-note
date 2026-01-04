@@ -1,4 +1,4 @@
-#operating-system #ubuntu #installation  #cli #debian
+#operating-system #ubuntu #installation  #shell #debian
 # Install `.deb` file
 - Use the command:
 ```bash

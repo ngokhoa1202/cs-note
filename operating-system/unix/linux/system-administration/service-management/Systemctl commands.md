@@ -1,4 +1,4 @@
-#ubuntu #cli #operating-system #process #configuration  #debian #rhel #linux 
+#ubuntu #shell #operating-system #process #configuration  #debian #rhel #linux 
 # General syntax
 ```Shell
 systemctl subcommand argument

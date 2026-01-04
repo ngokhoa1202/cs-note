@@ -1,4 +1,4 @@
-#cli #java #software-engineering 
+#shell #java #software-engineering 
 # Generate .class file
 ```Shell title='Command to compile Java source file into class file'
 javac -d  <path-to-generate> <.java file>

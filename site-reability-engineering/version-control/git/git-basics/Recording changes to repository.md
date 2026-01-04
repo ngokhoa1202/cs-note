@@ -1,5 +1,5 @@
 #git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control 
-#cli #project-management 
+#shell #project-management 
 
 # File lifecycle
 -  Each file in the working directory can be in one of two states: <mark style="background: #e4e62d;">tracked</mark> or <mark style="background: #e4e62d;">untracked</mark>.

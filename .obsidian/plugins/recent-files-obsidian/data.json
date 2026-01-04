@@ -1,16 +1,196 @@
 {
   "recentFiles": [
     {
-      "basename": "Group",
-      "path": "operating-system/unix/linux/system-administration/permissions/Group.md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
-      "basename": "User",
-      "path": "operating-system/unix/linux/system-administration/permissions/User.md"
+      "basename": "Design pattern plan",
+      "path": "Design pattern plan.md"
+    },
+    {
+      "basename": "curl command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/curl command.md"
+    },
+    {
+      "basename": "find command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/find command.md"
+    },
+    {
+      "basename": "sed commands",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/sed commands.md"
+    },
+    {
+      "basename": "tar command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/tar command.md"
+    },
+    {
+      "basename": "wget command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/wget command.md"
+    },
+    {
+      "basename": "xargs command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+    },
+    {
+      "basename": "Micronaut Configuration",
+      "path": "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md"
+    },
+    {
+      "basename": "Install Python",
+      "path": "programming/python/Install Python.md"
+    },
+    {
+      "basename": "Initialize Express Typescript",
+      "path": "programming/javascript/node.js/express-js/express-ts/Initialize Express Typescript.md"
+    },
+    {
+      "basename": "Compose file",
+      "path": "site-reability-engineering/container-engine/services/Compose file.md"
+    },
+    {
+      "basename": "Path variable",
+      "path": "operating-system/unix/linux/shell-and-scripting/Path variable.md"
+    },
+    {
+      "basename": "Manual references",
+      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
+    },
+    {
+      "basename": "Filesystem commands",
+      "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
     },
     {
       "basename": "File permissions",
-      "path": "operating-system/unix/linux/system-administration/permissions/File permissions.md"
+      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
+    },
+    {
+      "basename": "CPU scheduling",
+      "path": "operating-system/unix/linux/process-management/scheduling/CPU scheduling.md"
+    },
+    {
+      "basename": "Deadlock",
+      "path": "operating-system/unix/linux/process-management/Deadlock.md"
+    },
+    {
+      "basename": "Batch processing system",
+      "path": "operating-system/unix/linux/process-management/Batch processing system.md"
+    },
+    {
+      "basename": "Inter Process Communication",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Inter Process Communication.md"
+    },
+    {
+      "basename": "Process",
+      "path": "operating-system/unix/linux/process-management/Process.md"
+    },
+    {
+      "basename": "User",
+      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
+    },
+    {
+      "basename": "Group",
+      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
+    },
+    {
+      "basename": "Peterson solution",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Peterson solution.md"
+    },
+    {
+      "basename": "Monitor",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Monitor.md"
+    },
+    {
+      "basename": "Pipe",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Pipe.md"
+    },
+    {
+      "basename": "Remote procedure call",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Remote procedure call.md"
+    },
+    {
+      "basename": "Critical section problem",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/Critical section problem.md"
+    },
+    {
+      "basename": "Event notification",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md"
+    },
+    {
+      "basename": "Concurrency control model",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
+    },
+    {
+      "basename": "Process sychronization",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/Process sychronization.md"
+    },
+    {
+      "basename": "Remote branches",
+      "path": "site-reability-engineering/version-control/git/git-branching/Remote branches.md"
+    },
+    {
+      "basename": "Dependency Scopes",
+      "path": "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md"
+    },
+    {
+      "basename": "Design patterns",
+      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
+    },
+    {
+      "basename": "Microservice",
+      "path": "software-engineering/software-architecture/architecture/service-oriented-architecture/microservice/Microservice.md"
+    },
+    {
+      "basename": "Stirling approximation",
+      "path": "calculus/Stirling approximation.md"
+    },
+    {
+      "basename": "Caching strategy",
+      "path": "software-engineering/software-architecture/design/caching/Caching strategy.md"
+    },
+    {
+      "basename": "Modularity",
+      "path": "software-engineering/software-architecture/principles/Modularity.md"
+    },
+    {
+      "basename": "Software architecture",
+      "path": "software-engineering/software-architecture/principles/Software architecture.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Container commands",
+      "path": "site-reability-engineering/container-engine/Container commands.md"
+    },
+    {
+      "basename": "Container networking",
+      "path": "site-reability-engineering/container-engine/Container networking.md"
+    },
+    {
+      "basename": "Boot process",
+      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
+    },
+    {
+      "basename": "Public-key cryptosystem",
+      "path": "cryptography/asymetric-cipher/Public-key cryptosystem.md"
+    },
+    {
+      "basename": "RSA",
+      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
+    },
+    {
+      "basename": "Diffie-Hellman key exchange.",
+      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
     },
     {
       "basename": "Thread",
@@ -19,182 +199,6 @@
     {
       "basename": "File properties",
       "path": "operating-system/unix/linux/file-system/File properties.md"
-    },
-    {
-      "basename": "Filesystem commands",
-      "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
-    },
-    {
-      "basename": "Hard link and Soft link",
-      "path": "operating-system/unix/linux/file-system/Hard link and Soft link.md"
-    },
-    {
-      "basename": "Initialize an array with given size and default value",
-      "path": "programming/go/common-problems/Initialize an array with given size and default value.md"
-    },
-    {
-      "basename": "Wildcard character",
-      "path": "operating-system/unix/linux/file-system/Wildcard character.md"
-    },
-    {
-      "basename": "Filesystem architecture",
-      "path": "operating-system/unix/linux/file-system/Filesystem architecture.md"
-    },
-    {
-      "basename": "Diophantine equation",
-      "path": "number-theory/Diophantine equation.md"
-    },
-    {
-      "basename": "Primitive root - Discrete Logarithm",
-      "path": "number-theory/Primitive root - Discrete Logarithm.md"
-    },
-    {
-      "basename": "Fermat little theorem",
-      "path": "number-theory/Fermat little theorem.md"
-    },
-    {
-      "basename": "Extended Euclidean algorithm",
-      "path": "number-theory/Extended Euclidean algorithm.md"
-    },
-    {
-      "basename": "Euler Phi function",
-      "path": "number-theory/Euler Phi function.md"
-    },
-    {
-      "basename": "SSH key generation",
-      "path": "operating-system/unix/linux/security/cryptography/SSH key generation.md"
-    },
-    {
-      "basename": "Manual references",
-      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Concurrency control model",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
-    },
-    {
-      "basename": "Thread",
-      "path": "operating-system/unix/linux/process-management/thread/Thread.md"
-    },
-    {
-      "basename": "Process",
-      "path": "operating-system/unix/linux/process-management/Process.md"
-    },
-    {
-      "basename": "Deadlock",
-      "path": "operating-system/unix/linux/process-management/Deadlock.md"
-    },
-    {
-      "basename": "Process creation",
-      "path": "operating-system/unix/linux/process-management/Process creation.md"
-    },
-    {
-      "basename": "Path variable",
-      "path": "operating-system/unix/linux/shell-and-scripting/Path variable.md"
-    },
-    {
-      "basename": "Nslookup",
-      "path": "operating-system/unix/linux/networking/Nslookup.md"
-    },
-    {
-      "basename": "Boot process",
-      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
-    },
-    {
-      "basename": "Inter Process Communication",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Inter Process Communication.md"
-    },
-    {
-      "basename": "Remote procedure call",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Remote procedure call.md"
-    },
-    {
-      "basename": "Pipe",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Pipe.md"
-    },
-    {
-      "basename": "Message passing",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Message passing.md"
-    },
-    {
-      "basename": "Shared memory",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Shared memory.md"
-    },
-    {
-      "basename": "apt Repository",
-      "path": "operating-system/unix/linux/system-administration/package-management/debian/apt Repository.md"
-    },
-    {
-      "basename": "dnf Repository",
-      "path": "operating-system/unix/linux/system-administration/package-management/red-hat/dnf Repository.md"
-    },
-    {
-      "basename": "Peterson solution",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Peterson solution.md"
-    },
-    {
-      "basename": "Event notification",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md"
-    },
-    {
-      "basename": "Batch processing",
-      "path": "operating-system/unix/linux/process-management/batching/Batch processing.md"
-    },
-    {
-      "basename": "Process sychronization",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/Process sychronization.md"
-    },
-    {
-      "basename": "Critical section problem",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/Critical section problem.md"
-    },
-    {
-      "basename": "Semaphore",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Semaphore.md"
-    },
-    {
-      "basename": "Mutex lock",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Mutex lock.md"
-    },
-    {
-      "basename": "Monitor",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Monitor.md"
-    },
-    {
-      "basename": "Alternative configuration",
-      "path": "operating-system/unix/linux/system-administration/package-management/Alternative configuration.md"
-    },
-    {
-      "basename": "Install .deb file",
-      "path": "operating-system/unix/linux/system-administration/package-management/debian/Install .deb file.md"
-    },
-    {
-      "basename": "curl commands",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/curl commands.md"
-    },
-    {
-      "basename": "Container networking",
-      "path": "site-reability-engineering/container-engine/Container networking.md"
-    },
-    {
-      "basename": "Maximum subarray problem",
-      "path": "algorithm/algorithm/array/Maximum subarray problem.md"
-    },
-    {
-      "basename": "String matching",
-      "path": "algorithm/algorithm/string/String matching.md"
-    },
-    {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/algorithm/string/Longest common subsequence.md"
-    },
-    {
-      "basename": "Sieve of Eratosthenes",
-      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     }
   ],
   "omittedPaths": [],

@@ -7,7 +7,7 @@
 # Asymmetric keys
 - A pair of key, a public key and a private key, that are used to perform <mark class="hltr-yellow">complementary</mark> operations, such as <mark class="hltr-yellow">encryption and decryption</mark> or <mark class="hltr-yellow">signature generation and signature verification</mark>.
 ## Encryption with public key - decryption with private key
-- Encryption with public key is employed to **secure communications** between two sides.
+- Encryption with public key is employed to secure communications between two sides.
 - The recipient owns a private key and has his public key distributed to the sender. Each sender has his own public key ring containing all of the distributed public key.
 - Whenever Bob sends a message to Alice, the plaintext is first encrypted using Alice's public key. When the ciphertext is received on Alice's side, it is decrypted using Alice's private key. The implication is that <mark class="hltr-yellow">no recipient except Alice</mark>, who owns the proper private key, <mark class="hltr-yellow">is able to decrypt the ciphertext</mark> which is encrypted with her public key. As a result, *confidentiality* is ensured. ![[Pasted image 20250627105521.png]]
 - ![[Pasted image 20250627115211.png]]

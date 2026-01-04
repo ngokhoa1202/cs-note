@@ -1,4 +1,4 @@
-#php #laravel #cli #composer  
+#php #laravel #shell #composer  
 
 # Install laravel
 - Use composer `composer create-project laravel/laravel <app-name>`

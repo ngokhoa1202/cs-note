@@ -1,4 +1,4 @@
-#docker #binary-image #containerization #operating-system #process #cli #software-architecture 
+#docker #binary-image #containerization #operating-system #process #shell #software-architecture 
 #site-realibility-engineering #file-system #continuous-integration #cybersecurity 
 #common-vulnerabilities-and-exposures
 # OCI-Compliant Image

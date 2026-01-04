@@ -1,4 +1,4 @@
-#git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control #cli #project-management 
+#git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control #shell #project-management 
 
 - Always use [Checking repository status](Recording%20changes%20to%20repository.md#Checking%20repository%20status) to check repository status before making commits.
 # Amending commits

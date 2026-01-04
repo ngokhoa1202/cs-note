@@ -1,4 +1,4 @@
-#expressjs #javascript #vanilla-javascript #typescript #data-type #abstract-syntax-tree #configuration #npm #yarn 
+#expressjs #javascript #vanilla-javascript #typescript #data-type #abstract-syntax-tree #npm #yarn 
 #software-engineering #software-architecture 
 # Initialize project
 - Run `npx express-generator-typescript`

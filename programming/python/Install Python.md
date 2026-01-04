@@ -1,4 +1,4 @@
-#python #installation  #ubuntu #configuration #cli 
+#python #installation  #ubuntu  #shell 
 # Install Python
 - Download `tar.gz` file from https://www.python.org/
 - Extract the `.tar.gz` file

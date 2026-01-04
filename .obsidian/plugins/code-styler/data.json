@@ -6,26 +6,26 @@
           "lineNumbers": true,
           "unwrapLines": true,
           "wrapLinesActive": false,
-          "curvature": 4
+          "curvature": 8
         },
         "gutter": {
           "highlight": true,
-          "activeLine": false
+          "activeLine": true
         },
         "header": {
           "title": {
             "textFont": "",
-            "textBold": false,
-            "textItalic": true
+            "textBold": true,
+            "textItalic": false
           },
           "languageTag": {
-            "display": "none",
+            "display": "always",
             "textFont": "",
             "textBold": true,
             "textItalic": false
           },
           "languageIcon": {
-            "display": "none",
+            "display": "always",
             "displayColour": true
           },
           "externalReference": {
@@ -33,28 +33,28 @@
             "displayVersion": true,
             "displayTimestamp": true
           },
-          "fontSize": 14,
-          "foldPlaceholder": ""
+          "fontSize": 16,
+          "foldPlaceholder": "..."
         },
         "highlights": {
-          "activeCodeblockLine": false,
-          "activeEditorLine": false
+          "activeCodeblockLine": true,
+          "activeEditorLine": true
         },
         "inline": {
           "syntaxHighlight": true,
           "style": true,
-          "fontWeight": 4,
-          "curvature": 6,
-          "paddingVertical": 5,
-          "paddingHorizontal": 5,
-          "marginHorizontal": 0,
-          "titleFontWeight": 8
+          "fontWeight": 5,
+          "curvature": 4,
+          "paddingVertical": 4,
+          "paddingHorizontal": 6,
+          "marginHorizontal": 2,
+          "titleFontWeight": 7
         },
         "advanced": {
           "gradientHighlights": false,
           "gradientHighlightsColourStop": "70%",
-          "languageBorderColour": false,
-          "languageBorderWidth": 5,
+          "languageBorderColour": true,
+          "languageBorderWidth": 6,
           "iconSize": 28
         }
       },
@@ -89,7 +89,11 @@
             "activeCodeblockLineColour": "--color-base-30",
             "activeEditorLineColour": "--color-base-20",
             "defaultColour": "--text-highlight-bg",
-            "alternativeHighlights": {}
+            "alternativeHighlights": {
+              "error": "#C1A083",
+              "info": "#D6E9FB",
+              "warning": "#9DADC4"
+            }
           },
           "inline": {
             "backgroundColour": "--code-background",
@@ -132,7 +136,11 @@
             "activeCodeblockLineColour": "--color-base-30",
             "activeEditorLineColour": "--color-base-20",
             "defaultColour": "--text-highlight-bg",
-            "alternativeHighlights": {}
+            "alternativeHighlights": {
+              "error": "#9D6A3DFF",
+              "info": "#F2F1F6FF",
+              "warning": "#667EA2FF"
+            }
           },
           "inline": {
             "backgroundColour": "--code-background",
@@ -600,7 +608,7 @@
       },
       "gutter": {
         "highlight": true,
-        "activeLine": false
+        "activeLine": true
       },
       "header": {
         "title": {

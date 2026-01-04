@@ -1,6 +1,6 @@
 #linux #container-engine #container-orchestration #containerization #podman #docker
 #computer-network #application-layer #transport-layer #windows #wsl #fedora #ubuntu
-#debian #centos-stream #rhel  #configuration #site-realibility-engineering #continuous-delivery 
+#debian #centos-stream #rhel   #site-realibility-engineering #continuous-delivery 
 #continuous-integration 
 # Purpose
 - Compose file (or Docker Compose file) is a *YAML configuration file* that defines and manages multi-container applications.
@@ -579,7 +579,7 @@ volumes:
 ```
 ## Using environment file
 ### `.env` file
-```Shell title='.env file example'
+```Properties title='.env file example'
 # Database configuration
 MYSQL_ROOT_PASSWORD=mysecretpassword
 MYSQL_DATABASE=wordpress
@@ -645,7 +645,7 @@ volumes:
   node-modules:
 ```
 ## Running commands
-```bash
+```Shell
 # Start all services in background
 docker compose up -d
 
@@ -692,7 +692,6 @@ docker compose build
 # Build without cache
 docker compose build --no-cache
 ```
-
 ***
 # References
 1. [Docker Compose Specification](https://github.com/compose-spec/compose-spec/blob/master/spec.md) for official Compose file specification.

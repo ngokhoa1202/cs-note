@@ -1,8 +1,7 @@
-#cli #linux #ubuntu #operating-system #file-system 
+#shell #linux #ubuntu #operating-system #file-system 
 
 - Stands for stream editor.
 - Used to transform and filter texts.
-
 # Examples
 ## Replace a group of charaters
 - Only change on console.
@@ -14,12 +13,10 @@ sed 's/John/Micheal/g' names.txt
 ```bash
 sed -i 's/John/Micheal/g' names.txt
 ```
-
 ## Delete a group of characters
 ```bash
 sed 's/Micheal//g' names.txt
 ```
-
 ## Delete all of the lines containing a group of characters
 ```bash
 sed '/Micheal/d' names.txt

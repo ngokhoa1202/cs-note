@@ -1,4 +1,4 @@
-#continuous-integration #cli #docker #software-architecture #client-server #application-layer #web-server #dbms #binary-image #operating-system #process #memory #virtual-memory #site-realibility-engineering #container-engine #container-orchestration #linux
+#continuous-integration #shell #docker #software-architecture #client-server #application-layer #web-server #dbms #binary-image #operating-system #process #memory #virtual-memory #site-realibility-engineering #container-engine #container-orchestration #linux
 #computer-network #go
 # Overview
 - Docker is a ==client-server container engine== for developing, shipping, and running OCI-compliant containers.

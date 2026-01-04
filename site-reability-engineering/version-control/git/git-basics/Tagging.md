@@ -1,4 +1,4 @@
-#git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control #cli #project-management 
+#git #github #software-engineering #software-architecture #site-realibility-engineering  #file-system #project-management #version-control #shell #project-management 
 
 - Tag specific points in a repository's history.
 # Show repository tagging difference

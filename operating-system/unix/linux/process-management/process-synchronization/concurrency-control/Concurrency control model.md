@@ -56,7 +56,6 @@ flowchart TD
 - <mark class="hltr-yellow">Divide problem into smaller subproblems recursively, solve in parallel, then combine results</mark>.
 - Based on divide-and-conquer strategy.
 - Work-stealing algorithm balances load among threads.
-
 ### Architecture
 ```mermaid
 flowchart TD
@@ -110,12 +109,10 @@ flowchart TD
 - **Advantages**: Automatic load balancing; scales with available cores; recursive decomposition natural for some problems.
 - **Disadvantages**: Overhead for small tasks; recursive overhead; requires problem decomposability.
 - **Use Cases**: Sorting algorithms (merge sort, quick sort), tree traversal, parallel aggregation.
-
 ## Pipeline (Assembly Line)
 - <mark class="hltr-yellow">Data flows through stages; each stage performs specific operation</mark>.
 - Multiple data items processed simultaneously at different stages.
 - Each stage typically has dedicated thread or thread pool.
-
 ### Architecture
 ```mermaid
 flowchart LR
@@ -216,11 +213,10 @@ sequenceDiagram
 - **Disadvantages**: Message overhead; debugging difficulty; potential deadlocks with request-response.
 - **Use Cases**: Distributed systems (Akka, Erlang), reactive applications, microservices.
 
-## CSP (Communicating Sequential Processes)
+## Communicating Sequential Processes (CSP)
 - <mark class="hltr-yellow">Processes communicate through typed channels with synchronous or buffered message passing</mark>.
 - Channels are first-class citizens.
 - Focus on communication primitives rather than processes.
-
 ### Architecture
 ```mermaid
 flowchart LR
@@ -255,13 +251,11 @@ flowchart LR
 - **Advantages**: Composable; type-safe; explicit communication; supports select operation.
 - **Disadvantages**: Potential deadlocks; channel management overhead; memory for buffered channels.
 - **Use Cases**: Go goroutines, concurrent pipelines, coordinating concurrent operations.
-
 # Data-Oriented Models
 ## Data Parallelism
 - <mark class="hltr-yellow">Same operation applied to multiple data elements simultaneously</mark>.
 - Data divided among processing units.
 - SIMD (Single Instruction, Multiple Data) style parallelism.
-
 ### Architecture
 ```mermaid
 flowchart TD
@@ -308,7 +302,6 @@ flowchart TD
 - <mark class="hltr-yellow">Map phase applies function to data partitions; Reduce phase aggregates results</mark>.
 - Designed for distributed data processing.
 - Framework handles distribution, fault tolerance, load balancing.
-
 ### Architecture
 ```mermaid
 flowchart TD
@@ -356,13 +349,11 @@ flowchart TD
 - **Advantages**: Scalable to massive datasets; automatic fault tolerance; hides distribution complexity.
 - **Disadvantages**: High latency; not suitable for iterative algorithms; shuffle overhead.
 - **Use Cases**: Log analysis, web indexing, large-scale data processing (Hadoop, Spark).
-
 # Asynchronous Models
 ## Event-Driven (Reactor/Proactor)
 - <mark class="hltr-yellow">Single-threaded event loop handles I/O events asynchronously</mark>.
 - Non-blocking I/O operations registered with event loop.
 - Callbacks or handlers invoked when events occur.
-
 ### Reactor Pattern
 ```mermaid
 flowchart TD
@@ -403,12 +394,10 @@ flowchart TD
 - **Advantages**: High concurrency with single thread; low memory overhead; no thread synchronization.
 - **Disadvantages**: Callback hell; CPU-bound tasks block event loop; complex error handling.
 - **Use Cases**: Node.js, Redis, Nginx, GUI applications.
-
 ## Reactive Streams
 - <mark class="hltr-yellow">Asynchronous stream processing with backpressure support</mark>.
 - Publisher produces data; Subscriber consumes data.
 - Backpressure prevents overwhelming slow consumers.
-
 ### Architecture
 ```mermaid
 sequenceDiagram
@@ -454,12 +443,10 @@ sequenceDiagram
 - **Advantages**: Backpressure handling; composable operators; async by default; resource-efficient.
 - **Disadvantages**: Steep learning curve; complex debugging; operator overhead.
 - **Use Cases**: RxJava, Project Reactor, Akka Streams, real-time data processing.
-
 ## Coroutines (Structured Concurrency)
 - <mark class="hltr-yellow">Lightweight threads that can suspend and resume execution</mark>.
 - Cooperative multitasking within single OS thread.
 - Structured concurrency ensures proper lifecycle management.
-
 ### Architecture
 ```mermaid
 flowchart TD
@@ -505,7 +492,6 @@ flowchart TD
 - **Advantages**: Lightweight; sequential code style; structured concurrency; no callback hell.
 - **Disadvantages**: Language support required; debugging can be tricky; learning curve.
 - **Use Cases**: Kotlin coroutines, Python asyncio, JavaScript async/await, Go goroutines.
-
 # Memory Models
 ## Software Transactional Memory (STM)
 - <mark class="hltr-yellow">Transactions on memory operations; atomic, consistent, isolated</mark>.
@@ -544,7 +530,6 @@ flowchart TD
 - **Advantages**: Composable; no deadlocks; automatic conflict resolution; simpler than locks.
 - **Disadvantages**: Retry overhead; not suitable for I/O operations; performance unpredictable under high contention.
 - **Use Cases**: Haskell STM, Clojure atoms/refs, concurrent data structures.
-
 # Model Comparison
 | Model            | Paradigm        | Communication  | State       | Best For               |
 | ---------------- | --------------- | -------------- | ----------- | ---------------------- |

@@ -1,4 +1,4 @@
-#operating-system #file-system #dbms #secondary-storage #cli 
+#operating-system #file-system #dbms #secondary-storage #shell 
 # Disk controller
 - Secondary storage - disks are typically managed by a <mark style="background: #e4e62d;">disk controller</mark> to manipulate I/O data.
 - <mark style="background: #e4e62d;">Minimizing the number of block transfers</mark> significantly boosts performance.

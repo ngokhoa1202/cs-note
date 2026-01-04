@@ -1,4 +1,4 @@
-#ubuntu  #cli #computer-network #dns #application-layer #operating-system #installation 
+#ubuntu  #shell #computer-network #dns #application-layer #operating-system #installation 
 
 # Installation
 ```bash

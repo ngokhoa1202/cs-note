@@ -192,7 +192,6 @@ graph TB
     style DB fill:#ffb74d
 ```
 
-**Key Points:**
 - The `app` container connects to both networks, acting as a bridge
 - `web` and `db` are isolated from each other (different networks)
 - External access only to `web` via port mapping
@@ -215,7 +214,7 @@ docker run --rm --network mybridge alpine ping web
 docker run --rm --network mybridge alpine wget -O- http://web:80
 ```
 ##### Service name
-```yaml
+```yaml title='Service name for container communication'
 # compose.yaml
 services:
   web:
@@ -237,7 +236,7 @@ networks:
     driver: bridge
 ```
 ##### Network alias
-```Shell
+```Shell title='Network alias for container communication'
 # Run container with network alias
 docker run -d --name web \
   --network mybridge \
@@ -250,7 +249,7 @@ docker run --rm --network mybridge alpine wget http://webserver:80
 docker run --rm --network mybridge alpine wget http://api:80
 ```
 ##### IP address
-```Shell
+```Shell title='IP address for container communication'
 # Inspect container to get IP
 docker inspect web -f '{{range.NetworkSettings.Networks}}{{.IPAddress}}{{end}}'
 # Output: 172.18.0.2
@@ -274,7 +273,7 @@ docker run --rm --network mybridge postgres:15 \
 # Note: host.docker.internal is NOT for container-to-container communication
 ```
 
-```yaml
+```yaml title='host.docker.internal for access from container to host services'
 # compose.yaml - Demonstrating all communication methods
 services:
   nginx:
@@ -334,7 +333,7 @@ networks:
 - Access to all host network interfaces.
 - No IP address translation (NAT).
 #### Example
-```Shell title='Imperative example'
+```Shell title='Container networking with host mode'
 # Docker - Run container with host networking
 docker run -d --name nginx-host --network host nginx
 
@@ -351,7 +350,7 @@ docker network ls
 docker network inspect host
 ```
 
-```yaml
+```yaml title='Container networking with host mode'
 # compose.yaml - Host network example
 services:
   prometheus:
@@ -424,11 +423,11 @@ graph TB
 - Access via host IP address: `http://192.168.1.100:9090`.
 ### none
 - Disables all external networking.
-- Interfaces: Only loopback (127.0.0.1) available
+- Interfaces: Only loopback (`127.0.0.1`) available
 #### Usecase
 - Isolated workloads, security-sensitive applications.
 #### Example
-```Shell title='Imperative example'
+```Shell title='Disable container networking with none mode'
 # Docker - Run container with no network
 docker run -d --name isolated --network none alpine sleep 3600
 
@@ -443,7 +442,7 @@ podman run -d --name isolated --network none alpine sleep 3600
 docker network inspect none
 ```
 
-```yaml
+```yaml title='Disable container networking with none mode'
 # compose.yaml - None network example
 services:
   batch-processor:
@@ -617,7 +616,7 @@ volumes:
   db-data:
 ```
 #### Topology
-```mermaid
+```mermaid title='Container networking topology for Docker Swarm'
 graph TB
     Internet["Internet"]
 
@@ -804,7 +803,6 @@ graph TB
     style OtherDevices fill:#b3e5fc
 ```
 
-**Key Points:**
 - Containers get unique MAC addresses and appear as physical devices
 - Containers exist on same network as host physical interface
 - No port mapping needed - direct network access
@@ -812,13 +810,11 @@ graph TB
 - Cannot communicate with host by default (use `ip_range` workaround)
 - Ideal for legacy apps, DHCP servers, network appliances
 - 802.1Q VLAN tagging supported via `parent=eth0.10` syntax
-
 ## CNI (Container Network Interface)
 ### Overview
 - Plugin-based networking architecture used by Podman, Kubernetes
 - Standard interface for configuring container networks
 - Pluggable network providers
-
 ### CNI vs Docker Networking
 | Aspect | Docker | Podman (CNI) |
 |--------|--------|--------------|
@@ -833,7 +829,6 @@ graph TB
 - **ipvlan**: IPVLAN networking
 - **host-device**: Move host device into container
 - **ptp**: Point-to-point link between containers
-
 ### Podman CNI Configuration
 Location: `/etc/cni/net.d/`
 

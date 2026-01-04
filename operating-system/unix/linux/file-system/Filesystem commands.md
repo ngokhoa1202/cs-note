@@ -1,4 +1,4 @@
-#cli #ubuntu #operating-system #file-system
+#shell #ubuntu #operating-system #file-system
 # File name
 - [Wildcard character](operating-system/unix/linux/file-system/Wildcard%20character.md) 
 # Listing files
@@ -82,16 +82,14 @@ mv -v <src> <dst>
 # Search a file/directory
 ## find command
 - Iterates the filesystem to search for the file so it is slower compared to `locate` command.
-```bash
+```Shell title='Find file'
 find <directory> <file>
 ```
-
 ### Find by name
 - `-name` flag: Find specified name as substring.
-```bash
+```Shell title='Find by name'
 find <dir> -name "file"
 ```
-
 ## locate command
 - Employs a pre-built database so it is faster than `find` command, but that database could be obselete $\implies$ update the database.
 ### Find by whole name

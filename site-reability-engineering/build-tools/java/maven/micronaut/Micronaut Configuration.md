@@ -1,6 +1,5 @@
 #maven #micronaut #java #dependency-manager #configuration #production #development #microservices
 # Complete Micronaut Maven Configuration
-
 ```xml title='pom.xml - Complete Micronaut Configuration'
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"

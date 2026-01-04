@@ -1,4 +1,4 @@
-#git #github #version-control #project-management #cli #file-system #software-engineering 
+#git #github #version-control #project-management #shell #file-system #software-engineering 
 #site-realibility-engineering #project-management #software-architecture #gitlab 
 # Basic rebasing
 - Git rebasing means all the changes committed on one branch is taken and <mark style="background: #e4e62d;">rewritten on a different branch</mark>. 

@@ -1,4 +1,4 @@
-#operating-system #ubuntu #installation  #cli 
+#operating-system #ubuntu #installation  #shell 
 # Search a package
 ```Shell
 sudo apt search <name>

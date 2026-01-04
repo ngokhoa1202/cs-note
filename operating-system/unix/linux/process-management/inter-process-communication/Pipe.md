@@ -61,7 +61,6 @@ int main()
   }
 }
 ```
-- 
 ***
 # References
 1. The Linux programming interface A Linux and UNIX system programming handbook - Micheal Kerrisk -No Starch Press (2010).

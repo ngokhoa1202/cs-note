@@ -57,7 +57,7 @@ graph TD
 ```
 
 # Permission Sets
-Every file has three permission sets for three categories of users.
+- Every file has three permission sets for three categories of users.
 ## Owner (User)
 - <mark class="hltr-yellow">Permissions for the file owner</mark>.
 - Identified by UID.
@@ -73,7 +73,6 @@ Every file has three permission sets for three categories of users.
 - Users who are not owner and not in the group.
 - Represented by third three permission bits.
 - Symbol: `o` (others)
-
 ## Permission Structure
 ```mermaid
 graph LR
@@ -144,17 +143,15 @@ lrwxrwxrwx  # Symbolic link: all permissions (links inherit target permissions)
 | 5 | 101 | r-x | Read + Execute |
 | 6 | 110 | rw- | Read + Write |
 | 7 | 111 | rwx | Read + Write + Execute |
-
 ### Common Permission Modes
-| Octal | Symbolic | Description |
-|-------|----------|-------------|
-| 644 | -rw-r--r-- | Regular file (owner: rw, group: r, others: r) |
-| 755 | -rwxr-xr-x | Executable file (owner: rwx, group: rx, others: rx) |
-| 700 | -rwx------ | Private file (owner: rwx, no access for others) |
-| 666 | -rw-rw-rw- | World-writable file (all: rw) |
-| 777 | -rwxrwxrwx | World-writable executable (all: rwx) |
-| 600 | -rw------- | Private file (owner: rw only) |
-
+| Octal | Symbolic   | Description                                         |
+| ----- | ---------- | --------------------------------------------------- |
+| 644   | -rw-r--r-- | Regular file (owner: rw, group: r, others: r)       |
+| 755   | -rwxr-xr-x | Executable file (owner: rwx, group: rx, others: rx) |
+| 700   | -rwx------ | Private file (owner: rwx, no access for others)     |
+| 666   | -rw-rw-rw- | World-writable file (all: rw)                       |
+| 777   | -rwxrwxrwx | World-writable executable (all: rwx)                |
+| 600   | -rw------- | Private file (owner: rw only)                       |
 ### Calculation Example
 ```
 Symbolic: rwxr-xr--
@@ -163,7 +160,6 @@ Group:  r-x = 4 + 0 + 1 = 5
 Others: r-- = 4 + 0 + 0 = 4
 Octal: 754
 ```
-
 ## Permission Conversion
 ```mermaid
 graph TD
@@ -225,7 +221,6 @@ stat -c '%a %n' file.txt
 # Detailed information
 stat file.txt
 ```
-
 # Changing Permissions
 ## Modify Permissions
 ### Syntax
@@ -233,7 +228,7 @@ stat file.txt
 chmod [options] mode file
 ```
 ### Octal Mode
-```bash
+```Shell title='Change permissions with octal mode example'
 # Set permissions using octal notation
 chmod 644 file.txt         # rw-r--r--
 chmod 755 script.sh        # rwxr-xr-x
@@ -252,7 +247,7 @@ chmod -R 755 /var/www/html
 	- `+` - add permission
 	- `-` - remove permission
 	- `=` - set exact permission
-```bash
+```Shell title='Modify permissions'
 # Add execute permission for owner
 chmod u+x script.sh
 
@@ -296,7 +291,6 @@ chmod --reference=template.txt newfile.txt
 # Recursively set directory permissions
 chmod -R 755 /var/www/html
 ```
-
 # Changing Ownership
 ## Change Owner
 ### Syntax
@@ -304,7 +298,7 @@ chmod -R 755 /var/www/html
 chown [options] owner[:group] file
 ```
 ### Examples
-```bash
+```Shell title='Change file owner examples'
 # Change owner to alice
 sudo chown alice file.txt
 
@@ -330,7 +324,7 @@ sudo chown 1000:1001 file.txt
 chgrp [options] group file
 ```
 ### Examples
-```bash
+```Shell title='Change group examples'
 # Change group to developers
 sudo chgrp developers file.txt
 
@@ -340,14 +334,13 @@ sudo chgrp -R developers /opt/project/
 # Copy group from another file
 sudo chgrp --reference=template.txt newfile.txt
 ```
-
 # Default Permissions (umask)
 ## umask Value
 - <mark class="hltr-yellow">Determines default permissions for newly created files and directories</mark>.
 - Subtracts permissions from the base permissions.
 - Base permissions:
-	- Files: `666` (rw-rw-rw-)
-	- Directories: `777` (rwxrwxrwx)
+	- Files: `666` (`rw-rw-rw-`)
+	- Directories: `777` (`rwxrwxrwx`)
 - Final permissions = Base permissions - umask
 ## View umask
 ```Shell title='Display current umask'
@@ -401,7 +394,6 @@ Directories:
 | 0002  | 664 (rw-rw-r--) | 775 (rwxrwxr-x) | Group-writable            |
 | 0027  | 640 (rw-r-----) | 750 (rwxr-x---) | Group-readable only       |
 | 0077  | 600 (rw-------) | 700 (rwx------) | Private (owner only)      |
-
 ## umask Flow
 ```mermaid
 flowchart TD
@@ -437,17 +429,21 @@ flowchart TD
 ```
 
 # Special Permissions
-## SUID (Set User ID)
+## Set User ID (SUID)
 - <mark class="hltr-yellow">Executes file with owner's privileges instead of executor's</mark>.
-- Applies only to executable files.
+- Applies only to *executable* files.
 - Symbolic: `s` in owner's execute position.
 - Octal: `4xxx` (e.g., `4755`)
-- Security risk if applied to shell scripts or insecure programs.
+- Poses a security risk if applied to shell scripts or insecure programs.
 ### Example
 ```Shell title='SUID example'
 # /usr/bin/passwd has SUID set
 ls -l /usr/bin/passwd
 # Output: -rwsr-xr-x 1 root root 68208 Jan 03 10:00 /usr/bin/passwd
+
+# The system temporarily elevates you to root permissions
+passwd
+
 
 # Set SUID
 sudo chmod u+s program
@@ -456,10 +452,10 @@ sudo chmod 4755 program
 # Remove SUID
 sudo chmod u-s program
 ```
-### SUID Behavior
-- When user executes `/usr/bin/passwd`, it runs with root privileges.
-- Allows users to change their own passwords (requires modifying `/etc/shadow`).
-## SGID (Set Group ID)
+### Behavior
+- When user executes  a file, for example`/usr/bin/passwd`, it runs with root privileges.
+- Allows users to run the program with the owner's privileges.
+## Set Group ID (SGID)
 ### For Files
 - <mark class="hltr-yellow">Executes file with group's privileges</mark>.
 - Symbolic: `s` in group's execute position.
@@ -758,7 +754,6 @@ drwxr-xr-x  /etc             # 755 (standard)
 drwx------  /root            # 700 (root private)
 drwxrwxrwt  /tmp             # 1777 (world-writable, sticky bit)
 ```
-
 # Troubleshooting Permissions
 ## Permission Denied Errors
 ```Shell title='Debug permission issues'
@@ -781,7 +776,7 @@ namei -l /path/to/file
 ```
 ## Common Issues
 ### Cannot Execute Script
-```bash
+```Shell title='Fix cannot execute script'
 # Problem: Permission denied
 ./script.sh
 # Error: bash: ./script.sh: Permission denied
@@ -790,7 +785,7 @@ namei -l /path/to/file
 chmod +x script.sh
 ```
 ### Cannot Access Directory
-```bash
+```Shell title='Fix cannot access directory'
 # Problem: Cannot cd into directory
 cd /opt/project
 # Error: bash: cd: /opt/project: Permission denied
@@ -803,7 +798,7 @@ ls -ld /opt/project
 sudo chmod 755 /opt/project
 ```
 ### Cannot List Directory Contents
-```bash
+```Shell title='Fix cannot list directory contents'
 # Problem: Can cd but cannot ls
 cd /opt/project  # Success
 ls
@@ -817,7 +812,7 @@ ls -ld .
 sudo chmod 755 .
 ```
 ### Cannot Delete File in Directory
-```bash
+```Shell title='Fix cannot delete file in directory'
 # Problem: Cannot delete file even with write permission on file
 rm /shared/file.txt
 # Error: rm: cannot remove 'file.txt': Permission denied

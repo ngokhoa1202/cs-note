@@ -1,4 +1,4 @@
-#dbms #postgresql #installation #ubuntu #cli #rdbms 
+#dbms #postgresql #installation #ubuntu #shell #rdbms 
 
 # Download PostgreSQL
 - https://www.postgresql.org/download/

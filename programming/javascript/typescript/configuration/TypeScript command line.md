@@ -1,4 +1,4 @@
-#cli #typescript #javascript 
+#shell #typescript #javascript 
 # Initialize TypeScript parser
 
 ```Shell title='Typescript basic commands'

@@ -1,4 +1,4 @@
-#cli #rsa #cryptography #asymmetric-cipher #operating-system #linux #ubuntu #fedora #computer-network #transport-layer #openssl
+#shell #rsa #cryptography #asymmetric-cipher #operating-system #linux #ubuntu #fedora #computer-network #transport-layer #openssl
 
 - Refers to [RSA](RSA.md)
 # Generate key pair

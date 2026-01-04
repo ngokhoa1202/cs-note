@@ -1,5 +1,5 @@
 #linux #operating-system #security #access-control #ubuntu #debian #fedora #rhel
-#centos-stream #unix 
+#centos-stream #unix #shell 
 - A user is an entity that can interact with the operating system and access resources.
 - Users provide the basis for access control and resource management in Unix-like systems.
 # User Types
@@ -176,7 +176,7 @@ useradd [options] username
 - `-c comment` - Add comment (GECOS field).
 - `-r` or `--system` - Create system account.
 ### Examples
-```Shell
+```Shell title='Add user examples'
 # Create user with default settings
 sudo useradd alice
 
@@ -206,7 +206,7 @@ usermod [options] username
 - `-U` - Unlock user account.
 - `--expiredate YEAR-MONTH-DAY`: Set expiration date
 ### Examples
-```bash
+```Shell title='Modify user examples'
 # Add user to sudo group
 sudo usermod -aG sudo alice
 
