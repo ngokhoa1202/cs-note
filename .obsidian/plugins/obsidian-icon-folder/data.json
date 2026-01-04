@@ -6,6 +6,9 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiDebian",
+      "SiLinux",
+      "SiLinuxcontainers",
       "SiLeetcode",
       "✖",
       "SiVim",
@@ -22,10 +25,7 @@
       "LiLink",
       "LiAsterisk",
       "LiFile",
-      "LiLock",
-      "SiGnubash",
-      "LiDatabaseBackup",
-      "TiLogs"
+      "LiLock"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -761,5 +761,9 @@
   "operating-system/unix/linux/shell-and-scripting/commands/sort command.md": "SiGnubash",
   "operating-system/unix/linux/shell-and-scripting/commands/diff command.md": "SiGnubash",
   "number-theory/Fundamental Theorem of Arithmetic.md": "✖",
-  "algorithm/problems/leetcode/Problem 1390. Four Divisors.md": "SiLeetcode"
+  "algorithm/problems/leetcode/Problem 1390. Four Divisors.md": "SiLeetcode",
+  "site-reability-engineering/container-engine/artifacts/operating-system": "SiLinuxcontainers",
+  "site-reability-engineering/container-engine/artifacts/operating-system/linux": "SiLinux",
+  "site-reability-engineering/container-engine/artifacts/operating-system/linux/debian": "SiDebian",
+  "site-reability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md": "SiDebian"
 }

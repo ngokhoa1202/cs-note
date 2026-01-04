@@ -1,6 +1,30 @@
 {
   "recentFiles": [
     {
+      "basename": "Build Spring Boot image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Build Debian-based image",
+      "path": "site-reability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Container networking",
+      "path": "site-reability-engineering/container-engine/Container networking.md"
+    },
+    {
+      "basename": "Container registry",
+      "path": "site-reability-engineering/container-engine/Container registry.md"
+    },
+    {
+      "basename": "Podman architecture",
+      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
+    },
+    {
       "basename": "Problem 1390. Four Divisors",
       "path": "algorithm/problems/leetcode/Problem 1390. Four Divisors.md"
     },
@@ -73,24 +97,12 @@
       "path": "operating-system/text-editor/Vim editor.md"
     },
     {
-      "basename": "Container networking",
-      "path": "site-reability-engineering/container-engine/Container networking.md"
-    },
-    {
       "basename": "File permissions",
       "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
     },
     {
       "basename": "User",
       "path": "operating-system/unix/linux/system-administration/access-control/User.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Podman architecture",
-      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
     },
     {
       "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
@@ -187,18 +199,6 @@
     {
       "basename": "Concurrency control model",
       "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
-    },
-    {
-      "basename": "Process sychronization",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/Process sychronization.md"
-    },
-    {
-      "basename": "Remote branches",
-      "path": "site-reability-engineering/version-control/git/git-branching/Remote branches.md"
-    },
-    {
-      "basename": "Dependency Scopes",
-      "path": "site-reability-engineering/build-tools/java/maven/Dependency Scopes.md"
     }
   ],
   "omittedPaths": [],

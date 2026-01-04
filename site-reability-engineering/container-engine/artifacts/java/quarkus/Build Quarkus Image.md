@@ -218,3 +218,4 @@ ENTRYPOINT ["/app/application"]
 # References
 1. https://www.graalvm.org/ for GraalVM.
 2. https://adoptium.net/temurin for Eclipse Temurin JDK.
+3. https://quarkus.io/guides/building-native-image for building a Quarkus native image tutorial.
