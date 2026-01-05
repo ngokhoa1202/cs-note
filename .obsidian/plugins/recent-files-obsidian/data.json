@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "0-1 Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
+    },
+    {
+      "basename": "Bounded Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Bounded Knapsack problem.md"
+    },
+    {
+      "basename": "Unbounded Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Unbounded Knapsack problem.md"
+    },
+    {
+      "basename": "Fractional Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Fractional Knapsack problem.md"
+    },
+    {
+      "basename": "Longest common subsequence",
+      "path": "algorithm/algorithm/string/Longest common subsequence.md"
+    },
+    {
+      "basename": "Kubernetes architecture",
+      "path": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md"
+    },
+    {
+      "basename": "Webpack configuration",
+      "path": "site-reability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+    },
+    {
       "basename": "Containerfile",
       "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
+    },
+    {
+      "basename": "GraalVM",
+      "path": "site-reability-engineering/container-engine/artifacts/java/GraalVM.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
     },
     {
       "basename": "Build Spring Boot image",
@@ -137,10 +181,6 @@
       "path": "operating-system/unix/linux/system-administration/access-control/User.md"
     },
     {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
       "basename": "CLAUDE",
       "path": "CLAUDE.md"
     },
@@ -153,52 +193,12 @@
       "path": "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
-    },
-    {
       "basename": "Micronaut Configuration",
       "path": "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md"
     },
     {
       "basename": "Install Python",
       "path": "programming/python/Install Python.md"
-    },
-    {
-      "basename": "Initialize Express Typescript",
-      "path": "programming/javascript/node.js/express-js/express-ts/Initialize Express Typescript.md"
-    },
-    {
-      "basename": "Compose file",
-      "path": "site-reability-engineering/container-engine/services/Compose file.md"
-    },
-    {
-      "basename": "Path variable",
-      "path": "operating-system/unix/linux/shell-and-scripting/Path variable.md"
-    },
-    {
-      "basename": "Filesystem commands",
-      "path": "operating-system/unix/linux/file-system/Filesystem commands.md"
-    },
-    {
-      "basename": "CPU scheduling",
-      "path": "operating-system/unix/linux/process-management/scheduling/CPU scheduling.md"
-    },
-    {
-      "basename": "Deadlock",
-      "path": "operating-system/unix/linux/process-management/Deadlock.md"
-    },
-    {
-      "basename": "Batch processing system",
-      "path": "operating-system/unix/linux/process-management/Batch processing system.md"
-    },
-    {
-      "basename": "Inter Process Communication",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Inter Process Communication.md"
-    },
-    {
-      "basename": "Process",
-      "path": "operating-system/unix/linux/process-management/Process.md"
     }
   ],
   "omittedPaths": [],

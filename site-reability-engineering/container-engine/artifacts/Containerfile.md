@@ -1,6 +1,9 @@
-#dockerfile #docker #continuous-integration #operating-system #scripting #bash #shell #file-system #operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
+ #docker #continuous-integration #operating-system #shell  #file-system 
+#operating-system #software-engineering #software-architecture #computer-network #transport-layer #application-layer 
+#wsl #debian #ubuntu #fedora #podman #container-engine #containerization #continuous-delivery
+#centos-stream #rhel 
 - Containerfile or Dockerfile is a special file for building Docker image.
-- From a base image, docker employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
+- From a base image, container engine such as Docker and Podman employs user-defined dockerfile to <mark style="background: #e4e62d;">encapsulate and add new layer</mark> to that image and build a new image for a particular application. 
 # Syntax
 ```Dockerfile title='Dockerfile syntax'
 FROM <base-image> [AS <stage-name>]
@@ -37,7 +40,7 @@ CMD ["executable", "param_1", "param_2", "param_3",...]
 ## `{Dockerfile}FROM`
 - Creates a new build stage from the base image.
 - If the base image does not exist on the host, Docker daemon automagically downloads it from Docker registry.
-## `{Dockerfile}Expose`
+## `{Dockerfile}EXPOSE`
 - Exposes the port and its corresponding transport layer's protocol on which the image will be listening on Docker virtual network.
 - The specified port will be <mark style="background: #e4e62d;">bound with the host's port</mark> when running the container from the image.
 ## `{Dockerfile}ENV`
@@ -53,8 +56,21 @@ CMD ["executable", "param_1", "param_2", "param_3",...]
 - Similar to `COPY` but with additional features:
 	- Can extract <mark style="background: #e4e62d;">compressed archives</mark> (tar, gzip, bzip2, xz) automatically.
 	- Can download files from <mark style="background: #e4e62d;">remote URLs</mark>.
-- **Best practice**: Use `COPY` unless you specifically need `ADD`'s extra features.
-- Format: `ADD [OPTIONS] <src> <dest>`
+- Use `COPY` unless `ADD`'s extra features are needed.
+```Dockerfile title='COPY vs ADD examples'
+# COPY: Simple and predictable
+COPY package.json /app/
+COPY src/ /app/src/
+
+# ADD: Auto-extraction of archive
+ADD myapp.tar.gz /app/
+# Automatically extracts to /app/
+
+# ADD: Download from URL (not recommended, use RUN + curl instead)
+ADD https://example.com/file.tar.gz /tmp/
+# Better approach:
+RUN curl -o /tmp/file.tar.gz https://example.com/file.tar.gz
+```
 ## `{Dockerfile}ARG`
 - Defines build-time variables that users can pass at build-time.
 - Only available during the <mark style="background: #e4e62d;">build process</mark>, not in running containers.
@@ -140,17 +156,12 @@ EOT
 - Can only be overridden with `docker run --entrypoint` flag.
 - Defines the main command that should always run when container starts.
 ### Executable form
+- Strings are automatically concatenated and executed as a single command.
 - Most common and recommended.
 - `ENTRYPOINT ["executable", "param_1", "param_2", "param_3",...]`
 ### Shell form
 - `ENTRYPOINT <cmd> <param1> <param2> ...`
 - Prevents `CMD` or `docker run` arguments from being used.
-### `CMD` vs `ENTRYPOINT` interaction
-| Dockerfile | Command executed |
-|------------|------------------|
-| `ENTRYPOINT ["/bin/echo"]`<br>`CMD ["Hello"]` | `/bin/echo Hello` |
-| `ENTRYPOINT ["/bin/echo"]` | `/bin/echo` |
-| `CMD ["/bin/echo", "Hello"]` | `/bin/echo Hello` |
 ```Dockerfile title='ENTRYPOINT and CMD example'
 # Container always runs as Python interpreter
 ENTRYPOINT ["python3"]
@@ -185,30 +196,6 @@ RUN npm install \
 COPY . .
 CMD ["tini", "--", "node", "./bin/www"]
 ```
-# COPY vs ADD comparison
-| Feature | COPY | ADD |
-|---------|------|-----|
-| **Basic file copying** | ✓ | ✓ |
-| **Copy from URL** | ✗ | ✓ |
-| **Auto-extract archives** | ✗ | ✓ (tar, gzip, bzip2, xz) |
-| **Transparency** | High (predictable) | Low (implicit behavior) |
-| **Best practice** | Recommended | Use only when needed |
-| **Docker cache** | Better (simpler) | Can be unpredictable |
-```Dockerfile title='COPY vs ADD examples'
-# COPY: Simple and predictable
-COPY package.json /app/
-COPY src/ /app/src/
-
-# ADD: Auto-extraction of archive
-ADD myapp.tar.gz /app/
-# Automatically extracts to /app/
-
-# ADD: Download from URL (not recommended, use RUN + curl instead)
-ADD https://example.com/file.tar.gz /tmp/
-# Better approach:
-RUN curl -o /tmp/file.tar.gz https://example.com/file.tar.gz
-```
-**Recommendation**: Use `COPY` unless you explicitly need `ADD`'s auto-extraction feature for local archives.
 # Multi-stage builds
 - Each `FROM` instruction can use a different base image, and each of them begins a new stage of the build.
 - Files can be <mark style="background: #e4e62d;">selectively copied</mark> from one stage to another stage until the final image.
@@ -219,7 +206,8 @@ RUN curl -o /tmp/file.tar.gz https://example.com/file.tar.gz
 ## Naming build stages
 - Use `AS` keyword to name a stage: `FROM <image> AS <stage-name>`
 - Reference named stages in `COPY --from=<stage-name>` instruction.
-## Example: Go application multi-stage build
+## Example
+### Go application multi-stage build
 ```Dockerfile title='Multi-stage build for Go'
 # Build stage
 FROM golang:1.21-alpine AS builder
@@ -237,11 +225,10 @@ COPY --from=builder /app/main .
 EXPOSE 8080
 CMD ["./main"]
 ```
-**Explanation:**
-- **Builder stage**: Uses full Go environment (~300MB) to compile the application.
-- **Production stage**: Uses minimal Alpine Linux (~5MB), copies only the compiled binary.
-- **Result**: Final image is ~15MB instead of ~300MB.
-## Example: Java Spring Boot multi-stage build
+- Builder stage: Uses full Go environment (~300MB) to compile the application.
+- Production stage: Uses minimal Alpine Linux (~5MB), copies only the compiled binary.
+- Result: Final image is ~15MB instead of ~300MB.
+### Java Spring Boot multi-stage build
 ```Dockerfile title='Multi-stage build for Spring Boot'
 # Build stage
 FROM maven:3.9-eclipse-temurin-17 AS build
@@ -297,9 +284,9 @@ tmp/
 - Each Dockerfile instruction creates a <mark style="background: #e4e62d;">new image layer</mark>.
 - Docker caches layers and reuses them if instruction hasn't changed.
 - Cache is invalidated when instruction or its context changes.
-- **Important**: Once a layer is invalidated, <mark style="background: #e4e62d;">all subsequent layers are rebuilt</mark>.
+- Once a layer is invalidated, <mark style="background: #e4e62d;">all subsequent layers are rebuilt</mark>.
 ## Layer caching best practices
-1. **Order instructions from least to most frequently changing:**
+- Order instructions from least to most frequently changing.
 ```Dockerfile title='Optimized layer ordering'
 FROM node:18-alpine
 
@@ -317,7 +304,7 @@ COPY . .
 
 CMD ["node", "server.js"]
 ```
-2. **Combine related RUN commands to reduce layers:**
+- Combine related RUN commands to reduce layers.
 ```Dockerfile title='Layer reduction'
 # Bad: Creates 3 layers
 RUN apt-get update
@@ -329,7 +316,7 @@ RUN apt-get update && \
     apt-get install -y curl vim && \
     rm -rf /var/lib/apt/lists/*
 ```
-3. **Separate dependency installation from code copying:**
+- Separate dependency installation from code copying.
 ```Dockerfile title='Dependency caching'
 # Copy only dependency manifests first
 COPY package.json package-lock.json ./
@@ -339,8 +326,8 @@ RUN npm install
 COPY . .
 ```
 # Best practices
-## Security best practices
-1. **Use specific base image tags:**
+## Security
+- Use specific base image tags.
 ```Dockerfile
 # Bad: Version can change unexpectedly
 FROM node:latest
@@ -348,22 +335,22 @@ FROM node:latest
 # Good: Explicit version
 FROM node:18.17-alpine3.18
 ```
-2. **Run as non-root user:**
+- Run as non-root user.
 ```Dockerfile
 # Create and use non-root user
 RUN addgroup -g 1001 -S appgroup && \
     adduser -u 1001 -S appuser -G appgroup
 USER appuser
 ```
-3. **Scan for vulnerabilities:**
+- Scan for vulnerabilities.
 ```bash
 # Use Docker Scout or Trivy
 docker scout cves myimage:latest
 trivy image myimage:latest
 ```
-4. **Use multi-stage builds to exclude build dependencies.**
-5. **Don't store secrets in Dockerfile:**
-```Dockerfile
+- Use multi-stage builds to exclude build dependencies.
+- Exclude secrets from Dockerfile.
+```Dockerfile title='Secrets in Dockerfile'
 # Bad: Hardcoded secrets
 ENV API_KEY=secret123
 
@@ -372,9 +359,9 @@ ARG API_KEY
 # Or pass at runtime: docker run -e API_KEY=secret123
 ```
 ## Image size optimization
-1. **Use minimal base images:**
-	- `alpine` variants: Smallest (~5MB base)
-	- `slim` variants: Debian-based without extras (~50MB)
+- Use minimal base images.
+	- `alpine` variants: Smallest (~5 MB base)
+	- `slim` variants: Debian-based without extras (~50 MB)
 	- `distroless`: Minimal runtime without shell
 ```Dockerfile
 # 1GB+ image
@@ -386,7 +373,7 @@ FROM node:18-slim
 # 50MB image
 FROM node:18-alpine
 ```
-2. **Clean up in same layer:**
+- Clean up in same layer.
 ```Dockerfile
 RUN apt-get update && \
     apt-get install -y curl && \
@@ -396,21 +383,21 @@ RUN apt-get update && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 ```
-3. **Use `.dockerignore` to exclude unnecessary files.**
-## Maintainability best practices
-1. **Use meaningful stage names in multi-stage builds.**
-2. **Add LABEL for metadata:**
+- Use `.dockerignore` to exclude unnecessary files.
+## Maintainability
+- Use meaningful stage names in multi-stage builds.
+- Add LABEL for metadata.
 ```Dockerfile
 LABEL org.opencontainers.image.source="https://github.com/user/repo" \
       org.opencontainers.image.version="${VERSION}" \
       org.opencontainers.image.authors="team@example.com"
 ```
-3. **Pin versions for reproducible builds:**
+- Pin versions for reproducible builds:
 ```Dockerfile
 FROM node:18.17-alpine3.18
 RUN apk add --no-cache python3=3.11.6-r0
 ```
-4. **Use WORKDIR instead of `cd` in RUN:**
+- Use `{Dockerfile}WORKDIR` instead of `{Shell}cd` in `{Dockerfile}RUN`:
 ```Dockerfile
 # Bad
 RUN cd /app && npm install

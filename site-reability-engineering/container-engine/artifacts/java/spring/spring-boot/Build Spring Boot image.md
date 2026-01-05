@@ -1,5 +1,5 @@
 #spring #java #java21 #java17 #podman #containerization #site-realibility-engineering 
-#continuous-delivery #bash #shell #rhel #spring-boot #ubuntu #debian
+#continuous-delivery #shell #shell #rhel #spring-boot #ubuntu #debian
 - The Spring Boot `.jar` is a standalone executable image.
 # JVM image
 ## Debian-based image
@@ -78,7 +78,7 @@ EXPOSE 5483
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 ```
 - The image size recorded in reality is 677 MB.
-- ![[Pasted image 20260104165012.png]]
+- ![[assets/Pasted image 20260104165012.png]]
 ## Red Hat-based image
 ```Dockerfile title='Containerfile to build simple Spring Boot image based on Red Hat'
 FROM quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-21.0.9 AS builder

@@ -1,4 +1,4 @@
-#linux #unix #shell #command #http #https #api #web #networking #bash
+#linux #unix #shell #command #http #https #api #web #networking #shell
 
 - `curl` (Client URL) transfers data to or from a server using URLs.
 - <mark class="hltr-yellow">Supports HTTP, HTTPS, FTP, SFTP, and many other protocols</mark>.

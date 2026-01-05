@@ -1,4 +1,4 @@
-#linux #unix #shell  #pipeline #bash #command-building
+#linux #unix #shell  #pipeline #shell #command-building
 
 - `xargs` builds and executes command lines from standard input.
 - <mark class="hltr-yellow">Converts input stream into arguments for another command</mark>.

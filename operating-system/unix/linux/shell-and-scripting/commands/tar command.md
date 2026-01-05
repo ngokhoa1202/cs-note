@@ -1,4 +1,4 @@
-#linux #unix #shell  #archive #compression #backup #bash
+#linux #unix #shell  #archive #compression #backup #shell
 
 - `tar` (Tape ARchive) creates, extracts, and manipulates archive files.
 - <mark class="hltr-yellow">Bundles multiple files and directories into single archive file</mark>.

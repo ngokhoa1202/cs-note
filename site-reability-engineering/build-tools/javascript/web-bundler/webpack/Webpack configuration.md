@@ -1,4 +1,4 @@
-#web #web-bundler #javascript #ecmascript #dependency-manager #nodejs #browser #html #css 
+#web #web-bundler #javascript #dependency-manager #nodejs #browser #html #css 
 # Example
 ## Sample `webpack.config.ts`
 ```TypeScript title='Sample webpack.config.ts'

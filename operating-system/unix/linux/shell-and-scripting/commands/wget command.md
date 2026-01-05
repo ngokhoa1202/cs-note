@@ -1,4 +1,4 @@
-#linux #unix #shell #http #https #download #web #networking #bash
+#linux #unix #shell #http #https #download #web #networking #shell
 
 - `wget` (Web GET) downloads files from the web via HTTP, HTTPS, and FTP.
 - <mark class="hltr-yellow">Non-interactive network downloader optimized for unstable connections</mark>.

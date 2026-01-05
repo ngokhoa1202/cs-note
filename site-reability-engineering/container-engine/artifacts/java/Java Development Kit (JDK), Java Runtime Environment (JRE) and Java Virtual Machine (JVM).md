@@ -1,5 +1,5 @@
 #quarkus #java #java21 #java17 #podman #containerization #site-realibility-engineering 
-#continuous-delivery #bash #shell #rhel #ibm #amazon #microsoft #continuous-integration 
+#continuous-delivery #shell  #rhel #ibm #amazon #microsoft #continuous-integration 
 ```mermaid title='The architecture of Java runtime'
 graph TB
     subgraph JDK["JDK (Java Development Kit)"]

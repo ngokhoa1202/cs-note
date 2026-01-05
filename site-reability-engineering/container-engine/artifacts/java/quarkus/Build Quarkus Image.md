@@ -1,5 +1,5 @@
 #quarkus #java #java21 #java17 #podman #containerization #site-realibility-engineering 
-#continuous-delivery #bash #shell #rhel #debian #ubuntu #serverless #cloud-computing #maven #gradle #binary-image #fedora 
+#continuous-delivery #shell #shell #rhel #debian #ubuntu #serverless #cloud-computing #maven #gradle #binary-image #fedora 
 - Quarkus framework is microservice-oriented, so its final `.jar` file is not standalone but dynamically links to other libraries.
 - Quarkus framework is aligned with *Redhat-based* container.
 # Prerequisites

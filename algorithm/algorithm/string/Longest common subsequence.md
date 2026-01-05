@@ -53,15 +53,15 @@
 ### Flowchart
 ```mermaid
 flowchart TD
-    Start([Start]) --> Init[Initialize c table with zeros<br/>c&#91;i,0&#93; = 0 for all i<br/>c&#91;0,j&#93; = 0 for all j]
+    Start([Start]) --> Init[Initialize c table with zeros<br/>c#91;i,0#93; = 0 for all i<br/>c#91;0,j#93; = 0 for all j]
     Init --> LoopI{i ≤ m?}
-    LoopI -->|No| Return[Return c&#91;m,n&#93;]
+    LoopI -->|No| Return[Return c#91;m,n#93;]
     LoopI -->|Yes| LoopJ{j ≤ n?}
     LoopJ -->|No| IncI[i = i + 1]
     IncI --> LoopI
-    LoopJ -->|Yes| CheckEqual{x&#91;i&#93; = y&#91;j&#93;?}
-    CheckEqual -->|Yes| Match[c&#91;i,j&#93; = c&#91;i-1,j-1&#93; + 1]
-    CheckEqual -->|No| NoMatch[c&#91;i,j&#93; = max&#123;c&#91;i-1,j&#93;, c&#91;i,j-1&#93;&#125;]
+    LoopJ -->|Yes| CheckEqual{x#91;i#93; = y#91;j#93;?}
+    CheckEqual -->|Yes| Match[c#91;i,j#93; = c#91;i-1,j-1#93; + 1]
+    CheckEqual -->|No| NoMatch[c#91;i,j#93; = max#123;c#91;i-1,j#93;, c#91;i,j-1#93;#125;]
     Match --> IncJ[j = j + 1]
     NoMatch --> IncJ
     IncJ --> LoopJ

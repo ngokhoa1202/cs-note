@@ -1,4 +1,4 @@
-#linux #unix #shell  #file-search #bash #file-system #windows #wsl #fedora #ubuntu #centos-stream #rhel 
+#linux #unix #shell  #file-search #shell #file-system #windows #wsl #fedora #ubuntu #centos-stream #rhel 
 
 - `find` searches for files and directories in a directory hierarchy.
 - <mark class="hltr-yellow">Recursively traverses directories and evaluates expressions to locate files</mark>.

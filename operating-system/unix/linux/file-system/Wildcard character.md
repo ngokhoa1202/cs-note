@@ -1,4 +1,4 @@
- #operating-system #ubuntu #file-system #regular-expression  #scripting  #debian #fedora #rhel #centos-stream #operating-system 
+ #operating-system #ubuntu #file-system #regular-expression  #shell  #debian #fedora #rhel #centos-stream #operating-system 
 
 - Employed by [Filesystem commands](operating-system/unix/linux/file-system/Filesystem%20commands.md)
 # Star wildcard `*`

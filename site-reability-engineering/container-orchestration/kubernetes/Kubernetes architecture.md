@@ -1,11 +1,11 @@
 #kubernetes #go #container-orchestration #computer-network #application-layer
-#transport-layer #containerization #site-realibility-engineering #distributed-system #algorithm 
+#transport-layer #containerization #site-realibility-engineering #distributed-system 
 #container-engine #continuous-delivery #continuous-integration #linux #fedora #ubuntu #centos-stream 
 #rhel 
 # Overview
 - ==Container orchestration platform== for automating deployment, scaling, and management of containerized applications across clusters.
 - Manages multiple nodes (servers) as a single unified system.
-# Architecture Components
+# Components
 - Kubernetes uses ==master-worker architecture== with two main layers:
 
 ```mermaid
