@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "0-1 Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
-    },
-    {
-      "basename": "Bounded Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Bounded Knapsack problem.md"
-    },
-    {
-      "basename": "Unbounded Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Unbounded Knapsack problem.md"
-    },
-    {
-      "basename": "Fractional Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Fractional Knapsack problem.md"
-    },
-    {
-      "basename": "Longest common subsequence",
-      "path": "algorithm/algorithm/string/Longest common subsequence.md"
-    },
-    {
-      "basename": "Kubernetes architecture",
-      "path": "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md"
-    },
-    {
-      "basename": "Webpack configuration",
-      "path": "site-reability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
-    },
-    {
-      "basename": "Containerfile",
-      "path": "site-reability-engineering/container-engine/artifacts/Containerfile.md"
-    },
-    {
-      "basename": "GraalVM",
-      "path": "site-reability-engineering/container-engine/artifacts/java/GraalVM.md"
-    },
-    {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
-      "basename": "Build Spring Boot image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
-    },
-    {
-      "basename": "Euler Phi function",
-      "path": "number-theory/Euler Phi function.md"
-    },
-    {
-      "basename": "Diophantine equation",
-      "path": "number-theory/Diophantine equation.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "data/data-mining/Introduction.md"
-    },
-    {
-      "basename": "08-07-2025",
-      "path": "plans/08-07-2025.md"
-    },
-    {
-      "basename": "SRE Learning Path",
-      "path": "plans/SRE Learning Path.md"
-    },
-    {
-      "basename": "01-06-2025",
-      "path": "plans/01-06-2025.md"
-    },
-    {
-      "basename": "Pasted image 20260104145737",
-      "path": "assets/Pasted image 20260104145737.png"
-    },
-    {
-      "basename": "Pasted image 20260104145727",
-      "path": "assets/Pasted image 20260104145727.png"
-    },
-    {
-      "basename": "Build Debian-based image",
-      "path": "site-reability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Container networking",
-      "path": "site-reability-engineering/container-engine/Container networking.md"
-    },
-    {
-      "basename": "Container registry",
-      "path": "site-reability-engineering/container-engine/Container registry.md"
-    },
-    {
-      "basename": "Podman architecture",
-      "path": "site-reability-engineering/container-engine/podman/Podman architecture.md"
-    },
-    {
-      "basename": "Problem 1390. Four Divisors",
-      "path": "algorithm/problems/leetcode/Problem 1390. Four Divisors.md"
-    },
-    {
-      "basename": "Sieve of Eratosthenes",
-      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
-    },
-    {
-      "basename": "Fundamental Theorem of Arithmetic",
-      "path": "number-theory/Fundamental Theorem of Arithmetic.md"
-    },
-    {
-      "basename": "Design pattern plan",
-      "path": "Design pattern plan.md"
-    },
-    {
-      "basename": "GEMINI_CONTEXT",
-      "path": "GEMINI_CONTEXT.md"
-    },
-    {
-      "basename": "Manual references",
-      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
-    },
-    {
-      "basename": "diff command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/diff command.md"
-    },
-    {
-      "basename": "sort command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/sort command.md"
-    },
-    {
-      "basename": "uniq command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/uniq command.md"
-    },
-    {
-      "basename": "cut command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/cut command.md"
-    },
-    {
-      "basename": "Nslookup",
-      "path": "operating-system/unix/linux/networking/Nslookup.md"
-    },
-    {
-      "basename": "sed command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/sed command.md"
-    },
-    {
-      "basename": "tar command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/tar command.md"
-    },
-    {
-      "basename": "curl command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/curl command.md"
-    },
-    {
-      "basename": "find command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/find command.md"
-    },
-    {
-      "basename": "vim command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/vim command.md"
-    },
-    {
-      "basename": "Vim editor",
-      "path": "operating-system/text-editor/Vim editor.md"
-    },
-    {
       "basename": "File permissions",
       "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
+    },
+    {
+      "basename": "Group",
+      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
     },
     {
       "basename": "User",
       "path": "operating-system/unix/linux/system-administration/access-control/User.md"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "Batch processing system",
+      "path": "operating-system/unix/linux/process-management/Batch processing system.md"
     },
     {
-      "basename": "wget command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/wget command.md"
+      "basename": "Process creation",
+      "path": "operating-system/unix/linux/process-management/Process creation.md"
     },
     {
-      "basename": "xargs command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md"
+      "basename": "Memory management basics",
+      "path": "operating-system/unix/linux/memory/Memory management basics.md"
     },
     {
-      "basename": "Micronaut Configuration",
-      "path": "site-reability-engineering/build-tools/java/maven/micronaut/Micronaut Configuration.md"
+      "basename": "Container storage",
+      "path": "site-reliability-engineering/container-engine/Container storage.md"
+    },
+    {
+      "basename": "OCI-compliant image",
+      "path": "site-reliability-engineering/container-engine/OCI-compliant image.md"
+    },
+    {
+      "basename": "Podman architecture",
+      "path": "site-reliability-engineering/container-engine/podman/Podman architecture.md"
+    },
+    {
+      "basename": "Compose file",
+      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
+    },
+    {
+      "basename": "Hindley-Milner type checking",
+      "path": "programming/principles/data-types/Hindley-Milner type checking.md"
+    },
+    {
+      "basename": "Type system",
+      "path": "programming/principles/data-types/Type system.md"
+    },
+    {
+      "basename": "Class",
+      "path": "programming/javascript/typescript/Class.md"
+    },
+    {
+      "basename": "Network automation",
+      "path": "programming/python/Network automation.md"
+    },
+    {
+      "basename": "Text processing",
+      "path": "programming/python/Text processing.md"
+    },
+    {
+      "basename": "System automation",
+      "path": "programming/python/System automation.md"
+    },
+    {
+      "basename": "Python basics",
+      "path": "programming/python/Python basics.md"
+    },
+    {
+      "basename": "File operations",
+      "path": "programming/python/File operations.md"
     },
     {
       "basename": "Install Python",
       "path": "programming/python/Install Python.md"
+    },
+    {
+      "basename": "Parameter-passing mechanisms",
+      "path": "programming/principles/function/Parameter-passing mechanisms.md"
+    },
+    {
+      "basename": "First-class function",
+      "path": "programming/principles/function/First-class function.md"
+    },
+    {
+      "basename": "Closure",
+      "path": "programming/principles/function/Closure.md"
+    },
+    {
+      "basename": "Swapping",
+      "path": "operating-system/unix/linux/memory/Swapping.md"
+    },
+    {
+      "basename": "Paging",
+      "path": "operating-system/unix/linux/memory/Paging.md"
+    },
+    {
+      "basename": "Virtual memory",
+      "path": "operating-system/unix/linux/memory/Virtual memory.md"
+    },
+    {
+      "basename": "Alternative configuration",
+      "path": "operating-system/unix/linux/system-administration/package-management/Alternative configuration.md"
+    },
+    {
+      "basename": "Move semantics",
+      "path": "programming/cpp/fundamentals/Move semantics.md"
+    },
+    {
+      "basename": "Sequelize ORM",
+      "path": "programming/javascript/node.js/express-js/Sequelize ORM.md"
+    },
+    {
+      "basename": "Sequelize error hierarchy",
+      "path": "programming/javascript/node.js/express-js/Sequelize error hierarchy.md"
+    },
+    {
+      "basename": "Sequelize error hierachy",
+      "path": "programming/javascript/node.js/express-js/Sequelize error hierachy.md"
+    },
+    {
+      "basename": "Debugging",
+      "path": "programming/javascript/node.js/debugging/Debugging.md"
+    },
+    {
+      "basename": "ESLint Parser",
+      "path": "programming/javascript/eslint/ESLint Parser.md"
+    },
+    {
+      "basename": "Babel configuration",
+      "path": "programming/javascript/babel/Babel configuration.md"
+    },
+    {
+      "basename": "HTTP Put, Patch, Delete in Laravel PHP",
+      "path": "programming/php/laravel/router/HTTP Put, Patch, Delete in Laravel PHP.md"
+    },
+    {
+      "basename": "Boot process",
+      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
+    },
+    {
+      "basename": "find command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/find command.md"
+    },
+    {
+      "basename": "GraalVM",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/GraalVM.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Rebasing",
+      "path": "site-reliability-engineering/version-control/git/git-branching/Rebasing.md"
+    },
+    {
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
+    },
+    {
+      "basename": "0-1 Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
+    },
+    {
+      "basename": "Packet delay",
+      "path": "computer-network/Packet delay.md"
+    },
+    {
+      "basename": "Project Lombok",
+      "path": "programming/java/lombok/Project Lombok.md"
+    },
+    {
+      "basename": "Throttle",
+      "path": "programming/javascript/lodash/concurrency-control/Throttle.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/java/gradle/Lifecycle.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/php/composer/Lifecycle.md"
+    },
+    {
+      "basename": "Dependency Scopes",
+      "path": "site-reliability-engineering/build-tools/java/maven/Dependency Scopes.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md"
+    },
+    {
+      "basename": "Webpack configuration",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md"
     }
   ],
   "omittedPaths": [],

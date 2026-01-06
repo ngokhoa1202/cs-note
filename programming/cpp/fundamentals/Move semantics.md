@@ -1,5 +1,4 @@
-#cpp #cpp-11 #cpp-98
-
+#cpp #cpp-11 #cpp-98 #memory 
 # Definition
 - Move semantics allows an object, under certain conditions, to <mark class="hltr-yellow">take ownership of some other object's external resources</mark>. 
 # Purpose
@@ -112,6 +111,7 @@ public:
     {}
 };
 ```
+***
 # References
 1. [Value category](Value%20category.md)
 2. https://stackoverflow.com/questions/3106110/what-is-move-semantics

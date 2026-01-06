@@ -4,7 +4,6 @@
 - Batch processing is a method where jobs are collected and executed without user interaction.
 - <mark class="hltr-yellow">Jobs are grouped into batches and processed sequentially or concurrently</mark>.
 - Users submit jobs and receive results after completion, with no interactive control during execution.
-
 # Batch Processing Characteristics
 
 ## Non-Interactive Execution

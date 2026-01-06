@@ -1,5 +1,4 @@
 #c #cpp #operating-system #gnu #linux #process 
-
 # Overview
 - The `fork()` system call allows one process, the parent, to <mark class="hltr-yellow">create a new proces</mark>s, the child. This is done by making the new child process an (almost) exact <mark class="hltr-yellow">duplicate of the paren</mark>t: the child obtains copies of the parent’s stack, data, heap,and text segments.
 - The `exit(status)` library function <mark class="hltr-yellow">terminates</mark> a process, reclaiming all resources (memory, open file descriptors, and so on). The status argument is an integer that determines the termination status for the process. Using the `wait()` system call, the parent can retrieve this status.
@@ -150,6 +149,7 @@ int main(int argc, char* argv[])
 }
 
 ```
+***
 # Preferences
 1. https://www.youtube.com/watch?v=tcYo6hipaSA&list=PLfqABt5AS4FkW5mOn2Tn9ZZLLDwA3kZUY&index=2
 2. The Linux programming interface A Linux and UNIX system programming handbook - Micheal Kerrisk -No Starch Press (2010).

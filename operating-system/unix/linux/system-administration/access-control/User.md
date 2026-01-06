@@ -1,4 +1,4 @@
-#linux #operating-system #security #access-control #ubuntu #debian #fedora #rhel
+#linux #operating-system #cybersecurity #access-control #ubuntu #debian #fedora #rhel
 #centos-stream #unix #shell 
 - A user is an entity that can interact with the operating system and access resources.
 - Users provide the basis for access control and resource management in Unix-like systems.
@@ -334,7 +334,7 @@ flowchart TD
 - Allows switching to another user account.
 - <mark class="hltr-yellow">Requires target user's password</mark>.
 ### Syntax
-```bash
+```Shell
 su [options] [username]
 ```
 ### Common Options
@@ -459,8 +459,8 @@ last alice
 finger alice
 ```
 # Practical Examples
-## Example 1: Create Developer User
-```bash
+## Create Developer User
+```Shell title='Create developer user'
 # Create user with home directory
 sudo useradd -m -s /bin/bash developer
 
@@ -474,8 +474,8 @@ sudo usermod -aG sudo,docker,www-data developer
 id developer
 grep developer /etc/passwd
 ```
-## Example 2: Create Service Account
-```bash
+## Create Service Account
+```Shell title='Create service account'
 # Create system user for nginx
 sudo useradd -r -s /usr/sbin/nologin nginx
 
@@ -483,8 +483,8 @@ sudo useradd -r -s /usr/sbin/nologin nginx
 grep nginx /etc/passwd
 # Output: nginx:x:995:995::/home/nginx:/usr/sbin/nologin
 ```
-## Example 3: Modify Existing User
-```bash
+## Modify Existing User
+```Shell title='Modify a specific user'
 # Change user's shell
 sudo usermod -s /bin/zsh alice
 
@@ -498,8 +498,8 @@ sudo usermod -d /opt/alice -m alice
 id alice
 grep alice /etc/passwd
 ```
-## Example 4: Lock and Unlock User
-```bash
+## Lock and Unlock User
+```Shell title='Lock and unlock the user'
 # Lock user account
 sudo passwd -l alice
 

@@ -1,4 +1,4 @@
-#linux #operating-system #security #access-control #file-system #ubuntu #debian #fedora
+#linux #operating-system #cybersecurity #access-control #file-system #ubuntu #debian #fedora
 #rhel #centos-stream #unix
 - File permissions control who can read, write, or execute files and directories.
 - <mark class="hltr-yellow">Permissions form the foundation of Unix security model</mark>.

@@ -1,4 +1,5 @@
-#dbms #secondary-storage #sql #nosql  #dbms-architecture  #data-structure #hash  #algorithm #algorithm-analysis #file-system #operating-system 
+#dbms #secondary-storage #sql #nosql  #dbms-architecture  #data-structure #hash  #algorithm
+#algorithm-analysis #file-system #operating-system 
 
 - The minimum unit to transfer data between main memory and secondary memory is a <mark style="background: #e4e62d;">block</mark>.
 # Heap files
@@ -68,7 +69,7 @@
 ## Static hashing
 - The number of buckets $M$ is always <mark style="background: #e4e62d;">fixed</mark>.
 - A record pointer is used to point the overflown record in case of chaing.
-- ![800x600](Pasted%20image%2020240915183033.png)
+- ![](Pasted%20image%2020240915183033.png)
 ### File operations 
 #### Searching
 - Searching with <mark style="background: #e4e62d;">equality</mark> condition on hash field is constant $O(1)$ $\implies$ $\geq$ 1 block access.

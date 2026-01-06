@@ -14,8 +14,6 @@
 - ![](Pasted%20image%2020241005174153.png)
 >[!info]
 > The first record in each block of data file is called the <mark style="background: #BBFABBA6;">anchor record</mark> or block anchor
-
-
 ## Characteristics
 - <mark style="background: #e4e62d;">Sparse</mark> index:
 	- The number of index entries is far smaller than the number of data records simply because one index entry's size is far smaller than a data record's size.
@@ -81,6 +79,7 @@
 	- Index maintenance for [Duplicate index entries](#Duplicate%20index%20entries) is <mark style="background: #e4e62d;">most expensive</mark> because it is prohibitive to move old records forwards or backwards to leave space for new records.
 	- Index maintenance for [Pointer list P(i)](#Pointer%20list%20$P(i)$) is <mark style="background: #e4e62d;">less expensive</mark> because a list of pointers is allocated in the beginning. However, when that list is full, moving index entries is inevitable and the cost grows exponentially.
 	- Index maintenance for [Indirection index level](#Indirection%20index%20level) is<mark style="background: #e4e62d;"> least expensive</mark> because the index file is separated into the two levels. However, when the block of record pointers become full, memory allocation is required.
+***
 # References
 1. *HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.*
 2. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).*

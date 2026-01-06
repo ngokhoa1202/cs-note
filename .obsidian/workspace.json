@@ -8,21 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33912423ce2b9681",
+            "id": "f6666f7303cd2a8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md",
+                "file": "site-reliability-engineering/container-engine/Container storage.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "0-1 Knapsack problem"
+              "title": "Container storage"
+            }
+          },
+          {
+            "id": "fd91089b844c1a13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "operating-system/unix/linux/system-administration/access-control/File permissions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "File permissions"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -54,7 +70,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#dependency-manager",
+                "query": "tag:#memory",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +115,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 471.5
+    "width": 402.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -118,7 +134,7 @@
                 "sortOrder": "frequency",
                 "useHierarchy": true,
                 "showSearch": true,
-                "searchQuery": "scripting"
+                "searchQuery": "memory"
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -193,47 +209,48 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "33912423ce2b9681",
+  "active": "fd91089b844c1a13",
   "lastOpenFiles": [
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/Bounded Knapsack problem.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/Unbounded Knapsack problem.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/Fractional Knapsack problem.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md.tmp.17199.1767573087861",
-    "algorithm/algorithm/string/Longest common subsequence.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem",
-    "algorithm/algorithm/dynamic-programming",
-    "site-reability-engineering/container-orchestration/kubernetes/Kubernetes architecture.md",
-    "site-reability-engineering/build-tools/javascript/package-manager/deno",
-    "site-reability-engineering/build-tools/javascript/package-manager/bun",
-    "site-reability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md",
-    "site-reability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md",
-    "site-reability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md.tmp.11932.1767570847667",
-    "site-reability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md",
-    "site-reability-engineering/container-engine/artifacts/Containerfile.md",
-    "site-reability-engineering/build-tools/javascript/package-manager/pnpm",
-    "site-reability-engineering/build-tools/python/uv",
-    "site-reability-engineering/build-tools/python/pip",
-    "site-reability-engineering/build-tools/php/composer",
-    "site-reability-engineering/container-engine/artifacts/java/GraalVM.md",
-    "site-reability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md",
-    "site-reability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md",
+    "operating-system/unix/linux/system-administration/access-control/Group.md",
+    "operating-system/unix/linux/system-administration/access-control/User.md",
+    "operating-system/unix/linux/process-management/Batch processing system.md",
+    "operating-system/unix/linux/process-management/Process creation.md",
+    "operating-system/unix/linux/memory/Memory management basics.md",
+    "site-reliability-engineering/container-engine/Container storage.md",
+    "site-reliability-engineering/container-engine/OCI-compliant image.md",
+    "site-reliability-engineering/container-engine/podman/Podman architecture.md",
+    "site-reliability-engineering/container-engine/services/Compose file.md",
+    "programming/principles/data-types/Hindley-Milner type checking.md",
+    "programming/principles/data-types/Type system.md",
+    "programming/javascript/typescript/Class.md",
+    "programming/python/Network automation.md",
+    "programming/python/Text processing.md",
+    "programming/python/Network automation.md.tmp.9482.1767658312721",
+    "programming/python/System automation.md",
+    "programming/python/Python basics.md",
+    "programming/python/File operations.md",
+    "programming/python/Text processing.md.tmp.9482.1767658215464",
+    "programming/python/System automation.md.tmp.9482.1767658110586",
+    "programming/python/Install Python.md",
+    "programming/principles/function/Parameter-passing mechanisms.md",
+    "programming/python/File operations.md.tmp.9482.1767657998173",
+    "programming/python/Python basics.md.tmp.9482.1767657859624",
+    "programming/principles/function/First-class function.md",
+    "programming/principles/function/Closure.md",
+    "operating-system/unix/linux/memory/Swapping.md",
+    "operating-system/unix/linux/memory/Paging.md",
+    "operating-system/unix/linux/memory/Virtual memory.md",
+    "operating-system/unix/linux/system-administration/package-management/Alternative configuration.md",
+    "operating-system/unix/linux/memory/Virtual memory.md.tmp.9482.1767657239711",
+    "programming/cpp/fundamentals/Move semantics.md",
+    "operating-system/unix/linux/memory/Paging.md.tmp.9482.1767657074838",
+    "operating-system/unix/linux/memory/Memory management basics.md.tmp.9482.1767656920724",
+    "programming/javascript/sequelize",
+    "operating-system/unix/linux/system-administration/booting/Boot process.md.tmp.9482.1767656577968",
+    "site-reliability-engineering/web-server/Untitled.canvas",
     "assets/Pasted image 20260104165012.png",
-    "number-theory/Euler Phi function.md",
-    "number-theory/Diophantine equation.md",
-    "data/data-mining/Introduction.md",
-    "plans/08-07-2025.md",
-    "plans/SRE Learning Path.md",
-    "plans/01-06-2025.md",
     "assets/Pasted image 20260104145737.png",
     "assets/Pasted image 20260104145727.png",
-    "site-reability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md",
-    "site-reability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md",
-    "site-reability-engineering/container-engine/Container networking.md",
-    "site-reability-engineering/container-engine/Container registry.md",
-    "site-reability-engineering/container-engine/podman/Podman architecture.md",
-    "algorithm/problems/leetcode/Problem 1390. Four Divisors.md",
-    "algorithm/number-theory/Sieve of Eratosthenes.md",
     "Pasted image 20260103145739.png",
     "Pasted image 20260103145636.png",
     "Pasted image 20260103145539.png",

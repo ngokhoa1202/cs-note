@@ -305,7 +305,7 @@ find /home/user -type d -empty -delete
 # Delete with confirmation
 find /tmp -name "*.old" -ok rm {} \;
 ```
-## Practical Use Case: Batch File Processing
+## Batch File Processing
 ```Shell title='Process multiple files efficiently'
 # Convert all .txt to .md
 find . -name "*.txt" -exec bash -c 'mv "$0" "${0%.txt}.md"' {} \;

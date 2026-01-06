@@ -1,4 +1,4 @@
-#linux #operating-system #security #access-control #ubuntu #debian #fedora #rhel
+#linux #operating-system #cybersecurity #access-control #ubuntu #debian #fedora #rhel
 #centos-stream #unix
 - A group is a collection of users that share common permissions and access rights.
 - Groups provide the basis for collaborative access control and resource sharing in Unix-like systems.
@@ -133,7 +133,7 @@ groupadd [options] groupname
 - `-r` - Create system group.
 - `-f` - Force creation (exit successfully if group exists).
 ### Examples
-```bash
+```Shell title='Create new group'
 # Create group with default settings
 sudo groupadd developers
 
@@ -152,7 +152,7 @@ groupmod [options] groupname
 - `-g GID` - Change group ID.
 - `-n newname` - Rename group.
 ### Examples
-```bash
+```Shell title='Modify groups'
 # Change group GID
 sudo groupmod -g 1600 developers
 
@@ -165,7 +165,7 @@ sudo groupmod -n dev-team developers
 groupdel groupname
 ```
 ### Examples
-```bash
+```Shell title='Delete group'
 # Delete group
 sudo groupdel developers
 
@@ -182,7 +182,7 @@ gpasswd [options] groupname
 - `-A user` - Set group administrator.
 - `-M user1,user2` - Set group members (replaces existing).
 ### Examples
-```bash
+```Shell title='Add specific users to group'
 # Add user to group
 sudo gpasswd -a alice developers
 
@@ -201,7 +201,7 @@ sudo gpasswd -A alice developers
 usermod -aG groupname username
 ```
 ### Examples
-```bash
+```Shell='Add user to supplementary group'
 # Add user to supplementary group
 sudo usermod -aG docker alice
 

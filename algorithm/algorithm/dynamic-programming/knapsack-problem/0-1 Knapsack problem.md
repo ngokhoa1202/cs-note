@@ -16,11 +16,9 @@
 # Definitions
 ## Knapsack capacity
 - The maximum weight $W$ that the knapsack can hold.
-
 ## Item weight and value
 - Each item $i$ has weight $w_i$ and value $v_i$.
 - Items are indivisible (cannot take fractional parts).
-
 ## Optimal solution
 - A selection of items that maximizes total value without exceeding capacity $W$.
 # Algorithm
@@ -62,7 +60,6 @@ K[i-1, w] & \text{if } w_i > w \\
 		- If $w_i > w$, then $K[i, w] = K[i-1, w]$ (item cannot fit)
 		- Else $K[i, w] = \max\{K[i-1, w], \, K[i-1, w - w_i] + v_i\}$
 3. Return $K[n, W]$
-
 ### Flowchart
 ```mermaid
 flowchart TD
@@ -123,24 +120,20 @@ $$
 - $K[1,1] = \max\{K[0,1], K[0,0] + 1\} = \max\{0, 0+1\} = 1$
 - $K[1,2] = \max\{K[0,2], K[0,1] + 1\} = \max\{0, 0+1\} = 1$
 - All cells from capacity 1 onwards have value 1
-
 ### Row 2 (Item 2: $w_2=3, v_2=4$)
 - $K[2,1] = K[1,1] = 1$ (item 2 doesn't fit)
 - $K[2,2] = K[1,2] = 1$ (item 2 doesn't fit)
 - $K[2,3] = \max\{K[1,3], K[1,0] + 4\} = \max\{1, 0+4\} = 4$
 - $K[2,4] = \max\{K[1,4], K[1,1] + 4\} = \max\{1, 1+4\} = 5$
 - $K[2,5] = \max\{K[1,5], K[1,2] + 4\} = \max\{1, 1+4\} = 5$
-
 ### Row 3 (Item 3: $w_3=4, v_3=5$)
 - $K[3,4] = \max\{K[2,4], K[2,0] + 5\} = \max\{5, 0+5\} = 5$
 - $K[3,5] = \max\{K[2,5], K[2,1] + 5\} = \max\{5, 1+5\} = 6$
 - $K[3,7] = \max\{K[2,7], K[2,3] + 5\} = \max\{5, 4+5\} = 9$
-
 ### Row 4 (Item 4: $w_4=5, v_4=7$)
 - $K[4,5] = \max\{K[3,5], K[3,0] + 7\} = \max\{6, 0+7\} = 7$
 - $K[4,6] = \max\{K[3,6], K[3,1] + 7\} = \max\{6, 1+7\} = 8$
 - $K[4,7] = \max\{K[3,7], K[3,2] + 7\} = \max\{9, 1+7\} = 9$
-
 ### Result
 - Maximum value: $K[4,7] = 9$
 - Selected items: Items 2 and 3 (weight $3+4=7$, value $4+5=9$)
@@ -258,7 +251,6 @@ public class Knapsack {
     }
 }
 ```
-
 ## JavaScript
 ```javascript title='0-1 Knapsack in JavaScript: bottom-up approach' hl=8,11-17
 function knapsack(weights, values, W) {
@@ -313,7 +305,6 @@ function findItems(weights, values, W) {
     return items;
 }
 ```
-
 ## Python
 ```python title='0-1 Knapsack in Python: bottom-up approach' hl=7,10-16
 def knapsack(weights: list[int], values: list[int], W: int) -> int:
@@ -356,7 +347,6 @@ def find_items(weights: list[int], values: list[int], W: int) -> list[int]:
 
     return items
 ```
-
 ## Go
 ```go title='0-1 Knapsack in Go: bottom-up approach' hl=8-9,12-18
 package main
@@ -424,7 +414,6 @@ func max(a, b int) int {
 	return b
 }
 ```
-
 ## C++
 ```cpp title='0-1 Knapsack in C++: bottom-up approach' hl=10-11,14-20
 #include <vector>
@@ -481,7 +470,6 @@ std::vector<int> findItems(const std::vector<int>& weights,
     return items;
 }
 ```
-
 # Complexity
 ## Time complexity
 ### Bottom-up approach

@@ -1,5 +1,5 @@
-#dbms #indexing #query #rdbms #sql #data-structure #b-tree #algorithm-analysis #file-system #operating-system 
-
+#dbms #indexing #query #rdbms #sql #data-structure #b-tree #algorithm-analysis #file-system
+#operating-system 
 # Purpose
 - Plays as additional auxiliary access paths to access records *without affecting physical structure* of files.
 - Speeds up query on *certain conditions*.
@@ -10,7 +10,7 @@
 - [Static multi-level index](Static%20multi-level%20index.md)
 ## Dynamic multi-level indexes
 - [Dynamic multi-level indexes using B tree or B+ tree](Dynamic%20multi-level%20indexes%20using%20B%20tree%20or%20B+%20tree.md)
-
+***
 # References
 1. *HCMUT Advanced DBMS Slides - Vo Thi Ngoc Chau.*
 2. *Fundamentals of Database Systems - Ramez Elmasri, Shamkant B. Navathe - Pearson (2015).*

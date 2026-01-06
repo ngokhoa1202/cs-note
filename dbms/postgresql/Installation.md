@@ -1,5 +1,4 @@
 #operating-system #fedora #ubuntu #windows #postgresql #dbms 
-
 # Installation
 ## Fedora OS
 - Follows https://docs.fedoraproject.org/en-US/quick-docs/postgresql/
@@ -18,5 +17,6 @@ CREATE USER <username> with PASSWORD '<password>';
 ```postgresql
 ALTER USER <username> WITH SUPERUSER;
 ```
+***
 # References
 1. https://docs.fedoraproject.org/en-US/quick-docs/postgresql/
