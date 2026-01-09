@@ -25,7 +25,6 @@
 - An object defined primarily by <mark style="background: #e4e62d;">its identity</mark>  and employed to express a Model is called an Entity.
 - ![](Pasted%20image%2020241117142052.png)
 - An entity can reference to another entity or a certain value object.
-
 # Value objects
 - An object <mark style="background: #e4e62d;">without identity</mark> but employed to directly express a Model is a Value Object.
 - A value object can reference to an entity.

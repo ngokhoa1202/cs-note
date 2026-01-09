@@ -1,7 +1,6 @@
 #dynamic-programming #array #matrix #brute-force #algorithm #algorithm-analysis #java #javascript #go #cpp #python
-
 - The 0-1 knapsack problem is a classic optimization problem where items cannot be divided.
-- Each item can be either included in the knapsack or excluded (binary choice: 0 or 1).
+- Each item can be either included in the knapsack or excluded.
 - The goal is to maximize the total value while respecting the weight capacity constraint.
 # Problem
 - Given:
@@ -12,7 +11,6 @@
 		- Value $v_i > 0$
 - Find a subset $S \subseteq \{1, 2, \ldots, n\}$ that maximizes: $$\sum_{i \in S} v_i$$
 - Subject to the constraint: $$\sum_{i \in S} w_i \leq W$$
-
 # Definitions
 ## Knapsack capacity
 - The maximum weight $W$ that the knapsack can hold.
@@ -30,7 +28,6 @@
 	2. If item $i$ is **included**: $K[i, w] = K[i-1, w - w_i] + v_i$
 		- This requires $w_i \leq w$ (item must fit)
 - Therefore: $$K[i, w] = \max\{K[i-1, w], \, K[i-1, w - w_i] + v_i\}$$
-
 ### Proof
 - **Case 1**: Item $i$ is not in the optimal solution
 	- The optimal value is the same as the optimal value for items $1, \ldots, i-1$ with capacity $w$.

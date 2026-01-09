@@ -1,5 +1,4 @@
 #react  #javascript  #dom  #jsx #api 
-
 # Common syntax
 ```Jsx title='lazy API syntax'
 const SomeComponent = lazy(load)

@@ -67,7 +67,6 @@ graph TB
 - **Performance**: Good for copy-on-write operations
 - **Features**: Native snapshot support, compression
 - **Use Case**: Btrfs-based systems
-
 ### zfs
 - **Technology**: Uses ZFS filesystem
 - **Requirement**: ZFS installed on host system

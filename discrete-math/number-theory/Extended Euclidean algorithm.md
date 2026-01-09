@@ -1,5 +1,5 @@
 #number-theory #cryptography #algorithm #asymmetric-cipher 
-- Equivalent to [Diophantine equation](Diophantine%20equation.md) 
+- Equivalent to [Diophantine equation](discrete-math/number-theory/Diophantine%20equation.md) 
 # Input
 - Given two huge positive integer $a,b>0$
 $$as+bt=gcd(a,b)$$

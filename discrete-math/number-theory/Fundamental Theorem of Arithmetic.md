@@ -44,4 +44,4 @@ The theorem asserts two key properties:
 
 ***
 # Reference
-1. [Euler Phi function](Euler%20Phi%20function.md).
+1. [Euler Phi function](discrete-math/number-theory/Euler%20Phi%20function.md).

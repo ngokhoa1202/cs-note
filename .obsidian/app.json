@@ -17,7 +17,7 @@
   "trashOption": "system",
   "showInlineTitle": true,
   "smartIndentList": true,
-  "defaultViewMode": "preview",
+  "defaultViewMode": "source",
   "newLinkFormat": "absolute",
   "promptDelete": false
 }

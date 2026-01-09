@@ -1,9 +1,4 @@
 #linux #debian #containerization #container-engine #cybersecurity #operating-system #debian13
-# Purpose
-- **Security Foundation**: Provides up-to-date security patches and hardened system configurations
-- **Runtime Prerequisites**: Installs essential utilities and libraries required by applications
-- **Standardization**: Creates consistent base environments across different applications
-- **Size Optimization**: Minimizes image size while maintaining necessary functionality
 # Image Build Strategy
 
 ```mermaid
@@ -40,7 +35,6 @@ graph TD
 2. **Use `--no-install-recommends`**: Prevents installing unnecessary suggested packages
 3. **Clean in same layer**: Remove package cache in the same `RUN` command that installs packages
 4. **Multi-stage builds**: Separate build-time and runtime dependencies
-
 ## Package Management
 1. **Certificate updates**: Install `ca-certificates` before making HTTPS requests
 2. **Transport security**: Use `apt-transport-https` for secure package downloads
@@ -61,7 +55,6 @@ flowchart LR
     style E fill:#ffe66d
 ```
 
-**Critical Issues to Avoid:**
 - Running `apt-get update` in a separate layer creates cache inconsistencies
 - Using `latest` tag makes builds non-reproducible
 - Not removing apt cache can increase image size by 50-100MB
@@ -172,6 +165,7 @@ USER appuser
 ```Dockerfile
 FROM debian:13-slim
 
+USER root
 LABEL maintainer="your-email@example.com"
 LABEL description="Production-ready Debian 13 base for application runtime"
 
@@ -403,11 +397,13 @@ docker build \
   -t my-debian-base:latest .
 ```
 ***
-
 # References
 1. [Containerfile](site-reliability-engineering/container-engine/artifacts/Containerfile.md) for general Dockerfile syntax and commands
 2. https://hub.docker.com/_/debian for official Debian Docker images
 3. https://docs.docker.com/develop/develop-images/dockerfile_best-practices/ for Dockerfile best practices
 4. https://www.debian.org/security/ for Debian security updates and advisories
 5. https://docs.docker.com/build/building/multi-stage/ for multi-stage build documentation
-6. https://docs.docker.com/engine/reference/builder/#run---mounttypecache for build cache optimization
+6. https://docs.docker.com/engine/reference/builder/#run---mounttypecache for build cache optimization.
+7. [[operating-system/unix/linux/system-administration/access-control/Group|Group]] for Group in Linux.
+8. [[operating-system/unix/linux/system-administration/access-control/User|User]] for User in Linux.
+9. [[operating-system/unix/linux/system-administration/access-control/File permissions|File permissions]] for File permissions.

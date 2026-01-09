@@ -85,13 +85,11 @@ flowchart TD
 - Goal: Maximize (keep CPU as busy as possible).
 - Range: 0% to 100%.
 - Typical: 40% (lightly loaded) to 90% (heavily loaded).
-
 ## Throughput
 - <mark class="hltr-yellow">Number of processes completed per unit time</mark>.
 - Goal: Maximize (complete more processes).
 - Measured in processes per second/minute/hour.
 - Depends on process length and scheduling algorithm.
-
 ## Turnaround Time
 - <mark class="hltr-yellow">Time from process submission to completion</mark>.
 - Goal: Minimize (reduce total time).

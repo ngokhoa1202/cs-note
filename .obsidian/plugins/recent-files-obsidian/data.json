@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "File permissions",
-      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
-    },
-    {
-      "basename": "Group",
-      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
-    },
-    {
-      "basename": "User",
-      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
-    },
-    {
-      "basename": "Batch processing system",
-      "path": "operating-system/unix/linux/process-management/Batch processing system.md"
-    },
-    {
-      "basename": "Process creation",
-      "path": "operating-system/unix/linux/process-management/Process creation.md"
-    },
-    {
-      "basename": "Memory management basics",
-      "path": "operating-system/unix/linux/memory/Memory management basics.md"
-    },
-    {
-      "basename": "Container storage",
-      "path": "site-reliability-engineering/container-engine/Container storage.md"
-    },
-    {
-      "basename": "OCI-compliant image",
-      "path": "site-reliability-engineering/container-engine/OCI-compliant image.md"
-    },
-    {
-      "basename": "Podman architecture",
-      "path": "site-reliability-engineering/container-engine/podman/Podman architecture.md"
-    },
-    {
-      "basename": "Compose file",
-      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
-    },
-    {
-      "basename": "Hindley-Milner type checking",
-      "path": "programming/principles/data-types/Hindley-Milner type checking.md"
-    },
-    {
-      "basename": "Type system",
-      "path": "programming/principles/data-types/Type system.md"
-    },
-    {
-      "basename": "Class",
-      "path": "programming/javascript/typescript/Class.md"
-    },
-    {
-      "basename": "Network automation",
-      "path": "programming/python/Network automation.md"
-    },
-    {
-      "basename": "Text processing",
-      "path": "programming/python/Text processing.md"
-    },
-    {
-      "basename": "System automation",
-      "path": "programming/python/System automation.md"
-    },
-    {
-      "basename": "Python basics",
-      "path": "programming/python/Python basics.md"
-    },
-    {
-      "basename": "File operations",
-      "path": "programming/python/File operations.md"
-    },
-    {
-      "basename": "Install Python",
-      "path": "programming/python/Install Python.md"
-    },
-    {
-      "basename": "Parameter-passing mechanisms",
-      "path": "programming/principles/function/Parameter-passing mechanisms.md"
-    },
-    {
-      "basename": "First-class function",
-      "path": "programming/principles/function/First-class function.md"
-    },
-    {
-      "basename": "Closure",
-      "path": "programming/principles/function/Closure.md"
-    },
-    {
-      "basename": "Swapping",
-      "path": "operating-system/unix/linux/memory/Swapping.md"
-    },
-    {
-      "basename": "Paging",
-      "path": "operating-system/unix/linux/memory/Paging.md"
-    },
-    {
-      "basename": "Virtual memory",
-      "path": "operating-system/unix/linux/memory/Virtual memory.md"
-    },
-    {
-      "basename": "Alternative configuration",
-      "path": "operating-system/unix/linux/system-administration/package-management/Alternative configuration.md"
-    },
-    {
-      "basename": "Move semantics",
-      "path": "programming/cpp/fundamentals/Move semantics.md"
-    },
-    {
-      "basename": "Sequelize ORM",
-      "path": "programming/javascript/node.js/express-js/Sequelize ORM.md"
-    },
-    {
-      "basename": "Sequelize error hierarchy",
-      "path": "programming/javascript/node.js/express-js/Sequelize error hierarchy.md"
-    },
-    {
-      "basename": "Sequelize error hierachy",
-      "path": "programming/javascript/node.js/express-js/Sequelize error hierachy.md"
-    },
-    {
-      "basename": "Debugging",
-      "path": "programming/javascript/node.js/debugging/Debugging.md"
-    },
-    {
-      "basename": "ESLint Parser",
-      "path": "programming/javascript/eslint/ESLint Parser.md"
-    },
-    {
-      "basename": "Babel configuration",
-      "path": "programming/javascript/babel/Babel configuration.md"
-    },
-    {
-      "basename": "HTTP Put, Patch, Delete in Laravel PHP",
-      "path": "programming/php/laravel/router/HTTP Put, Patch, Delete in Laravel PHP.md"
-    },
-    {
-      "basename": "Boot process",
-      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
-    },
-    {
-      "basename": "find command",
-      "path": "operating-system/unix/linux/shell-and-scripting/commands/find command.md"
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
     },
     {
       "basename": "GraalVM",
       "path": "site-reliability-engineering/container-engine/artifacts/java/GraalVM.md"
     },
     {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+      "basename": "Build Spring Boot image",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
     },
     {
-      "basename": "Build Quarkus Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
     },
     {
-      "basename": "Rebasing",
-      "path": "site-reliability-engineering/version-control/git/git-branching/Rebasing.md"
+      "basename": "Diffie-Hellman key exchange.",
+      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
     },
     {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
+      "basename": "RSA",
+      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
     },
     {
-      "basename": "0-1 Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
+      "basename": "Public-key cryptosystem",
+      "path": "cryptography/asymetric-cipher/Public-key cryptosystem.md"
+    },
+    {
+      "basename": "Sequence",
+      "path": "dbms/postgresql/Sequence.md"
+    },
+    {
+      "basename": "PostgreSQL installation",
+      "path": "dbms/postgresql/PostgreSQL installation.md"
+    },
+    {
+      "basename": "Installation",
+      "path": "dbms/postgresql/Installation.md"
+    },
+    {
+      "basename": "LIKE operator",
+      "path": "dbms/postgresql/LIKE operator.md"
+    },
+    {
+      "basename": "DDL",
+      "path": "dbms/postgresql/DDL.md"
+    },
+    {
+      "basename": "Malicious software",
+      "path": "cybersecurity/Malicious software.md"
+    },
+    {
+      "basename": "IDS overview",
+      "path": "cybersecurity/IDS overview.md"
+    },
+    {
+      "basename": "Wireless network security",
+      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
+    },
+    {
+      "basename": "IEEE 802.11 Wireless LAN",
+      "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
+    },
+    {
+      "basename": "IP Security",
+      "path": "cybersecurity/network-security/network-layer/IP Security.md"
+    },
+    {
+      "basename": "Network security overview",
+      "path": "cybersecurity/network-security/Network security overview.md"
+    },
+    {
+      "basename": "Secure Shell (SSH)",
+      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
+    },
+    {
+      "basename": "HTTP Over SSL (HTTPS)",
+      "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
+    },
+    {
+      "basename": "IKE",
+      "path": "cybersecurity/network-security/network-layer/IKE.md"
+    },
+    {
+      "basename": "Secure Socket Layer (SSL) - Transport Layer Security (TLS)",
+      "path": "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md"
     },
     {
       "basename": "Packet delay",
       "path": "computer-network/Packet delay.md"
     },
     {
-      "basename": "Project Lombok",
-      "path": "programming/java/lombok/Project Lombok.md"
+      "basename": "Transport layer overview",
+      "path": "computer-network/transport-layer/Transport layer overview.md"
     },
     {
-      "basename": "Throttle",
-      "path": "programming/javascript/lodash/concurrency-control/Throttle.md"
+      "basename": "User Datagram Protocol (UDP)",
+      "path": "computer-network/transport-layer/udp/User Datagram Protocol (UDP).md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/java/gradle/Lifecycle.md"
+      "basename": "UDP",
+      "path": "computer-network/transport-layer/udp/UDP.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/php/composer/Lifecycle.md"
+      "basename": "Reliable data transfer principle",
+      "path": "computer-network/transport-layer/tcp/rdt/Reliable data transfer principle.md"
     },
     {
-      "basename": "Dependency Scopes",
-      "path": "site-reliability-engineering/build-tools/java/maven/Dependency Scopes.md"
+      "basename": "Dynamic Host Configuration Protocol",
+      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md"
+      "basename": "Dijkstra algorithm",
+      "path": "algorithm/algorithm/graph/Dijkstra algorithm.md"
     },
     {
-      "basename": "Webpack configuration",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md"
+      "basename": "Asynchronous programming in Angular",
+      "path": "programming/javascript/angular/Asynchronous programming in Angular.md"
+    },
+    {
+      "basename": "Two-way binding in Angular",
+      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
+    },
+    {
+      "basename": "Sharing states between components",
+      "path": "programming/javascript/angular/components/Sharing states between components.md"
+    },
+    {
+      "basename": "Quarkus project structure",
+      "path": "programming/java/quarkus/Quarkus project structure.md"
+    },
+    {
+      "basename": "Maximum subarray problem",
+      "path": "algorithm/algorithm/array/Maximum subarray problem.md"
+    },
+    {
+      "basename": "Heap sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
+    },
+    {
+      "basename": "Bellman-Ford algorithm",
+      "path": "algorithm/algorithm/graph/Bellman-Ford algorithm.md"
+    },
+    {
+      "basename": "Storage performance and monitoring",
+      "path": "operating-system/unix/linux/storage/Storage performance and monitoring.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
+    },
+    {
+      "basename": "World Wide Web",
+      "path": "computer-network/application-layer/World Wide Web.md"
+    },
+    {
+      "basename": "Diophantine equation",
+      "path": "discrete-math/number-theory/Diophantine equation.md"
+    },
+    {
+      "basename": "Logical Volume Manager",
+      "path": "operating-system/unix/linux/storage/Logical Volume Manager.md"
+    },
+    {
+      "basename": "Disk partitioning",
+      "path": "operating-system/unix/linux/storage/Disk partitioning.md"
+    },
+    {
+      "basename": "Storage architecture",
+      "path": "operating-system/unix/linux/storage/Storage architecture.md"
+    },
+    {
+      "basename": "TCP",
+      "path": "computer-network/transport-layer/tcp/TCP.md"
+    },
+    {
+      "basename": "Hyper Text Transfer Protocol (HTTP)",
+      "path": "computer-network/application-layer/http/Hyper Text Transfer Protocol (HTTP).md"
+    },
+    {
+      "basename": "BGP",
+      "path": "computer-network/network-layer/control-plane/BGP.md"
+    },
+    {
+      "basename": "IMAP",
+      "path": "computer-network/application-layer/email/IMAP.md"
+    },
+    {
+      "basename": "Email",
+      "path": "computer-network/application-layer/email/Email.md"
+    },
+    {
+      "basename": "GEMINI_CONTEXT",
+      "path": "GEMINI_CONTEXT.md"
+    },
+    {
+      "basename": "Nslookup",
+      "path": "operating-system/unix/linux/networking/Nslookup.md"
     }
   ],
   "omittedPaths": [],

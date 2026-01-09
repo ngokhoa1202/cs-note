@@ -548,7 +548,7 @@ flowchart TD
 ***
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Pearson Publisher.
-	1. Chapter 4: Threads & Concurrency.
+	1. Chapter 4: Threads.
 	2. Chapter 6: Synchronization Tools.
 2. [[programming/javascript/node.js/architecture/Event loop|Event loop]] for Node.js event loop.
 3. https://en.wikipedia.org/wiki/Concurrency_pattern

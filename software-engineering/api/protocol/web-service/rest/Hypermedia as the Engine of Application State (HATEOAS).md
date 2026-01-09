@@ -29,5 +29,6 @@ Link: <10/employees>; rel="employees"
 >[!Important]
 > Academic REST architecture strongly promotes HATEOAS but the industry pragmatically ignores it.
 ***
+
 # References
 1. 

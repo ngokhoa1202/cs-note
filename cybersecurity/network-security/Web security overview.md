@@ -5,7 +5,7 @@
 - ![](Pasted%20image%2020240513115814.png)
 # Transport-layer security
 ## SSL/TLS
-[SSL-TLS](SSL-TLS.md)
+[Secure Socket Layer - Transport Layer Security](cybersecurity/network-security/transport-layer/Secure%20Socket%20Layer%20-%20Transport%20Layer%20Security.md)
 
 # Application-layer security
 ## HTTPS

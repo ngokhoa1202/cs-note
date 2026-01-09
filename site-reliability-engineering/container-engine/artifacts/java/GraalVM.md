@@ -47,10 +47,10 @@ graph TB
 ## Graal Compiler
 - A *modern JIT compiler* written in Java that replaces the traditional HotSpot C2 compiler.
 - Provides advanced optimizations including:
-  - Better inlining decisions
-  - Profile-guided optimization
-  - Speculative optimizations
-  - Improved escape analysis
+    - Better inlining decisions
+    - Profile-guided optimization
+    - Speculative optimizations
+    - Improved escape analysis
 - Can run as a JIT compiler within the JVM or as an AOT compiler for Native Image generation.
 ## Native Image
 - Compiles Java bytecode *ahead-of-time* into a standalone native executable.
@@ -155,7 +155,7 @@ graph LR
 - **Legacy Applications**: Migration cost may outweigh benefits.
 # Installation
 ## Download GraalVM
-```bash title='Download and install GraalVM Community Edition on Linux'
+```Shell title='Download and install GraalVM Community Edition on Linux'
 # Download GraalVM
 wget https://github.com/graalvm/graalvm-ce-builds/releases/download/jdk-21.0.2/graalvm-community-jdk-21.0.2_linux-x64_bin.tar.gz
 
@@ -170,7 +170,7 @@ export JAVA_HOME=/opt/graalvm
 export PATH=$JAVA_HOME/bin:$PATH
 ```
 ## Verify Installation
-```bash title='Verify GraalVM installation'
+```Shell title='Verify GraalVM installation'
 # Check Java version
 java -version
 
@@ -180,7 +180,7 @@ java -version
 # OpenJDK 64-Bit Server VM GraalVM CE 21.0.2+13.1 (build 21.0.2+13-jvmci-23.1-b30, mixed mode, sharing)
 ```
 ## Install Native Image
-```bash title='Install Native Image component'
+```Shell title='Install Native Image component'
 # Install native-image tool
 gu install native-image
 
@@ -258,9 +258,7 @@ graalvmNative {
 # Run the native executable
 ./build/native/nativeCompile/myapp
 ```
-
 ## Container Images with GraalVM
-
 ### Multi-Stage Dockerfile with Debian Base
 ```Dockerfile title='Build Java native image using GraalVM on Debian' hl=13-17,19-20
 FROM docker.io/library/eclipse-temurin:21 AS builder

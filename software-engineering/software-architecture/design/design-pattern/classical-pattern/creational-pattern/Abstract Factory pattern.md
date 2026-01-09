@@ -41,6 +41,7 @@ public class WinFactory implements GUIFactory {
   }  
 }
 ```
+
 ```Java
 public class MacFactory implements GUIFactory {  
   @Override  

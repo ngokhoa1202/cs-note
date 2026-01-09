@@ -1,5 +1,4 @@
 #react #router #javascript 
-
 # React router v6
 - Use `createBrowserRouter` function instead of `BrowserRouter`
 

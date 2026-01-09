@@ -4,7 +4,6 @@
 - <mark class="hltr-yellow">Recursively traverses directories and evaluates expressions to locate files</mark>.
 - Can execute actions on found files (delete, move, execute commands).
 # Basic Syntax
-
 ```Shell title='Find command syntax'
 find [path...] [expression]
 ```

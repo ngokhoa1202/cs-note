@@ -4,41 +4,25 @@
     "type": "split",
     "children": [
       {
-        "id": "a153757aa7b69fc4",
+        "id": "32a7e614281a62e8",
         "type": "tabs",
         "children": [
           {
-            "id": "f6666f7303cd2a8d",
+            "id": "22c7e7ddaf12e46c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "site-reliability-engineering/container-engine/Container storage.md",
+                "file": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Container storage"
-            }
-          },
-          {
-            "id": "fd91089b844c1a13",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "operating-system/unix/linux/system-administration/access-control/File permissions.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "File permissions"
+              "title": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -70,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#memory",
+                "query": "tag:#text-editor",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -115,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 402.5
+    "width": 332.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -209,44 +193,49 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fd91089b844c1a13",
+  "active": "22c7e7ddaf12e46c",
   "lastOpenFiles": [
-    "operating-system/unix/linux/system-administration/access-control/Group.md",
-    "operating-system/unix/linux/system-administration/access-control/User.md",
-    "operating-system/unix/linux/process-management/Batch processing system.md",
-    "operating-system/unix/linux/process-management/Process creation.md",
-    "operating-system/unix/linux/memory/Memory management basics.md",
-    "site-reliability-engineering/container-engine/Container storage.md",
-    "site-reliability-engineering/container-engine/OCI-compliant image.md",
-    "site-reliability-engineering/container-engine/podman/Podman architecture.md",
-    "site-reliability-engineering/container-engine/services/Compose file.md",
-    "programming/principles/data-types/Hindley-Milner type checking.md",
-    "programming/principles/data-types/Type system.md",
-    "programming/javascript/typescript/Class.md",
-    "programming/python/Network automation.md",
-    "programming/python/Text processing.md",
-    "programming/python/Network automation.md.tmp.9482.1767658312721",
-    "programming/python/System automation.md",
-    "programming/python/Python basics.md",
-    "programming/python/File operations.md",
-    "programming/python/Text processing.md.tmp.9482.1767658215464",
-    "programming/python/System automation.md.tmp.9482.1767658110586",
-    "programming/python/Install Python.md",
-    "programming/principles/function/Parameter-passing mechanisms.md",
-    "programming/python/File operations.md.tmp.9482.1767657998173",
-    "programming/python/Python basics.md.tmp.9482.1767657859624",
-    "programming/principles/function/First-class function.md",
-    "programming/principles/function/Closure.md",
-    "operating-system/unix/linux/memory/Swapping.md",
-    "operating-system/unix/linux/memory/Paging.md",
-    "operating-system/unix/linux/memory/Virtual memory.md",
-    "operating-system/unix/linux/system-administration/package-management/Alternative configuration.md",
-    "operating-system/unix/linux/memory/Virtual memory.md.tmp.9482.1767657239711",
-    "programming/cpp/fundamentals/Move semantics.md",
-    "operating-system/unix/linux/memory/Paging.md.tmp.9482.1767657074838",
-    "operating-system/unix/linux/memory/Memory management basics.md.tmp.9482.1767656920724",
-    "programming/javascript/sequelize",
-    "operating-system/unix/linux/system-administration/booting/Boot process.md.tmp.9482.1767656577968",
+    "site-reliability-engineering/container-engine/artifacts/java/GraalVM.md",
+    "site-reliability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md",
+    "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md",
+    "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md",
+    "cryptography/asymetric-cipher/rsa/RSA.md",
+    "cryptography/asymetric-cipher/Public-key cryptosystem.md",
+    "dbms/postgresql/Sequence.md",
+    "cryptography/asymetric-cipher/rsa/RSA.md.tmp.103368.1767882383521",
+    "dbms/postgresql/PostgreSQL installation.md",
+    "dbms/postgresql/Installation.md",
+    "dbms/postgresql/LIKE operator.md",
+    "dbms/postgresql/DDL.md",
+    "cybersecurity/Malicious software.md",
+    "cybersecurity/IDS overview.md",
+    "cybersecurity/wireless-network-security/Wireless network security.md",
+    "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md",
+    "cybersecurity/network-security/network-layer/IP Security.md",
+    "cybersecurity/network-security/Network security overview.md",
+    "cybersecurity/network-security/network-layer/IP Security.md.tmp.103368.1767882162034",
+    "cybersecurity/network-security/application-layer/Secure Shell (SSH).md",
+    "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md",
+    "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md.tmp.103368.1767881687661",
+    "cybersecurity/network-security/network-layer/IKE.md",
+    "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md",
+    "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md.tmp.103368.1767881336082",
+    "cybersecurity/network-security/transport-layer/Secure Socket Layer - Transport Layer Security.md",
+    "computer-network/Packet delay.md",
+    "computer-network/transport-layer/Transport layer overview.md",
+    "computer-network/transport-layer/udp/User Datagram Protocol (UDP).md",
+    "computer-network/transport-layer/udp/UDP.md",
+    "algorithm/algorithm/graph/Dijkstra algorithm.md.tmp.103368.1767880868477",
+    "operating-system/unix/linux/storage/Storage performance and monitoring.md.tmp.103368.1767879936372",
+    "operating-system/unix/linux/storage/RAID.md.tmp.103368.1767879594881",
+    "operating-system/unix/linux/storage/Logical Volume Manager.md.tmp.103368.1767879352436",
+    "operating-system/unix/linux/storage/Disk partitioning.md.tmp.103368.1767879085023",
+    "operating-system/unix/linux/storage/Storage architecture.md.tmp.103368.1767878946138",
+    "site-reliability-engineering/container-engine/artifacts/operating-system/linux/Untitled.canvas",
+    "Pasted image 20260108201852.png",
+    "Pasted image 20260108201832.png",
+    "assets/Pasted image 20260107203951.png",
+    "assets/Pasted image 20260107072603.png",
     "site-reliability-engineering/web-server/Untitled.canvas",
     "assets/Pasted image 20260104165012.png",
     "assets/Pasted image 20260104145737.png",
@@ -254,10 +243,6 @@
     "Pasted image 20260103145739.png",
     "Pasted image 20260103145636.png",
     "Pasted image 20260103145539.png",
-    "assets/Pasted image 20260103145455.png",
-    "assets/Pasted image 20260103145434.png",
-    "assets/Pasted image 20260103135228.png",
-    "assets/Pasted image 20260103115212.png",
     "software-engineering/api/protocol/web-service/Untitled.canvas",
     "algorithm/Untitled.canvas",
     "Untitled.canvas",

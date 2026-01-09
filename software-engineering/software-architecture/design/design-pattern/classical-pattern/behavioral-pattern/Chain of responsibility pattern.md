@@ -16,7 +16,6 @@
 - Must be able to access ($\equiv$ the next Handler in the chain) and forward the request to its successor. (this feature may be inherited from the parent Handler).
 ## Client
 - Initialize a *chain of requests* without knowing the details of Concrete Handlers.
-
 # Example
 - Class diagram ![](Pasted%20image%2020240717180608.png)
 - ![](Pasted%20image%2020240717195622.png)

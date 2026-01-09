@@ -1,4 +1,5 @@
-#java #software-engineering #software-architecture #software-testing #design-pattern #quarkus #micronaut #jakarta-ee #inversion-of-control #spring-boot #spring-framework
+#java #software-engineering #software-architecture #software-testing #design-pattern #quarkus #micronaut 
+#jakarta-ee #inversion-of-control #spring-boot #spring-framework
 #object-oriented-programming #integration-pattern #enterprise-pattern
 # Purpose
 - <mark class="hltr-yellow">Decouples</mark> the creation of the client's dependencies from its own behavior.

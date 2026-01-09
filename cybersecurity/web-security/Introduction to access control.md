@@ -4,7 +4,7 @@
 - Access control means someone is <mark style="background: #e4e62d;">granted authorization</mark> to <mark style="background: #e4e62d;">access</mark> something.
 - Broad topics:
 	- [Secure Shell (SSH)](cybersecurity/network-security/application-layer/Secure%20Shell%20(SSH).md)
-	- [SSL-TLS](SSL-TLS.md)
+	- [Secure Socket Layer - Transport Layer Security](cybersecurity/network-security/transport-layer/Secure%20Socket%20Layer%20-%20Transport%20Layer%20Security.md)
 - In terms of web security (<mark style="background: #e4e62d;">application layer</mark>), there are 2 main topics:
 	- authentication.
 	- session.

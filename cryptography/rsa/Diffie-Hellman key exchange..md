@@ -1,6 +1,6 @@
 #cryptography  #cybersecurity #asymmetric-cipher   #discrete-logarithm #algorithm 
 # Principle
-- Based on [Primitive root - Discrete Logarithm](Primitive%20root%20-%20Discrete%20Logarithm.md)
+- Based on [Primitive root - Discrete Logarithm](discrete-math/number-theory/Primitive%20root%20-%20Discrete%20Logarithm.md)
 - Algorithm:
 	- Alice and Bob choose $(\alpha=primitive-root, q=prime)$ as global elements. 
 	- Each side chooses $X_A < q$, $X_B < q$ as private key.

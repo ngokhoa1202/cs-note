@@ -1,5 +1,4 @@
 #operator #functional-programming #high-order-function #javascript #typescript #ecmascript 
-
 # Rest parameter
 - Rest parameter (`...`) allows a function to <mark style="background: #e4e62d;">accept multiple arguments</mark> and <mark style="background: #e4e62d;">collect them into a single variable</mark>.
 ```javascript title='Rest parameter'

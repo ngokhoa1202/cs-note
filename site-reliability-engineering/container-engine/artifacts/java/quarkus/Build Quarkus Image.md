@@ -16,7 +16,8 @@ application:
 ```
 # JVM image
 ## Redhat-based image
-### Build with Maven
+### Red Hat 8
+#### JDK 21
 ```Dockerfile title='Build Redhat-based Quarkus image' hl=21-24,5
 FROM registry.redhat.io/ubi9/openjdk-21:latest AS builder
 WORKDIR /app

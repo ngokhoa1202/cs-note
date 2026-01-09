@@ -1,7 +1,7 @@
 #number-theory 
 
 - Solution to small number.
-- Equivalent to [Extended Euclidean algorithm](Extended%20Euclidean%20algorithm.md)
+- Equivalent to [Extended Euclidean algorithm](discrete-math/number-theory/Extended%20Euclidean%20algorithm.md)
 # Definition
 - Given $a,b$ . Find all integer pair $(x,y)$ for the following equation
 - $$ax+by=c$$
