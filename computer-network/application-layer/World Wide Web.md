@@ -52,7 +52,7 @@
 4. [[cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS)]]
 5. [[Domain Name System (DNS)]]
 6. [[User Datagram Protocol (UDP)]]
-7. [[TCP]]
+7. [[computer-network/transport-layer/tcp/Transmission Control Protocol (TCP)]]
 8. [[computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4)]]
 9. https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/Overview
 10. Computer Networks - Tanenbaum Andrew S., Wetherall David J. Wetherhall - Prentice Hall Publisher (2011).

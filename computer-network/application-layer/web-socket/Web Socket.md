@@ -146,7 +146,7 @@ Sec-WebSocket-Accept: s3pPLMBiTxaQ9kYGzzhZRbK+xOo=
 1. https://datatracker.ietf.org/doc/html/rfc6455 for standard WebSocket documentation.
 2. https://developer.mozilla.org/en-US/docs/Web/API/CloseEvent/code for WebSocket Close frames status code.
 3. [[Link layer overview]]
-4. [[TCP]]
+4. [[computer-network/transport-layer/tcp/Transmission Control Protocol (TCP)]]
 5. https://socket.io/ for WebSocket in JavaScript.
 6. https://websocket.org/guides/websocket-protocol/ for WebSocket protocol fundamentals.
 7. https://datatracker.ietf.org/doc/html/rfc8441 - Bootstrapping WebSockets with HTTP/2 - for WebSocket based on HTTP/2.

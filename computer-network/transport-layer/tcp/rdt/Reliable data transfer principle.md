@@ -1,6 +1,6 @@
 #transport-layer #tcp #client-server #computer-network #reliable-data-transfer
 
-- Used in [TCP](TCP.md)
+- Used in [Transmission Control Protocol (TCP)](computer-network/transport-layer/tcp/Transmission%20Control%20Protocol%20(TCP).md)
 - Provides transport layer with reliable data transfer, in the case that ==network layer channel is not reliable==. ![](Pasted%20image%2020240515082419.png)
 - Employ FSM (==Finite State Machine==).
 

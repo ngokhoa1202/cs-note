@@ -1,60 +1,84 @@
 {
   "recentFiles": [
     {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+      "basename": "Two-phase locking protocol",
+      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md"
     },
     {
-      "basename": "GraalVM",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/GraalVM.md"
+      "basename": "Two-phase locking protocol 1",
+      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol 1.md"
     },
     {
-      "basename": "Build Spring Boot image",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
+      "basename": "Timestamp-ordering based concurrency control",
+      "path": "dbms/transaction/acid/concurrency-control/Timestamp-ordering based concurrency control.md"
     },
     {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
+      "basename": "Transaction isolation level",
+      "path": "dbms/transaction/acid/concurrency-control/Transaction isolation level.md"
     },
     {
-      "basename": "Diffie-Hellman key exchange.",
-      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
+      "basename": "Optimistic Concurrency control techniques",
+      "path": "dbms/transaction/acid/concurrency-control/Optimistic Concurrency control techniques.md"
     },
     {
-      "basename": "RSA",
-      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
+      "basename": "Multiple granularity level locking",
+      "path": "dbms/transaction/acid/concurrency-control/Multiple granularity level locking.md"
     },
     {
-      "basename": "Public-key cryptosystem",
-      "path": "cryptography/asymetric-cipher/Public-key cryptosystem.md"
+      "basename": "Fundamental Theorem of Arithmetic",
+      "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
     },
     {
-      "basename": "Sequence",
-      "path": "dbms/postgresql/Sequence.md"
+      "basename": "Fermat little theorem",
+      "path": "discrete-math/number-theory/Fermat little theorem.md"
     },
     {
-      "basename": "PostgreSQL installation",
-      "path": "dbms/postgresql/PostgreSQL installation.md"
+      "basename": "Transaction processing",
+      "path": "dbms/transaction/acid/Transaction processing.md"
     },
     {
-      "basename": "Installation",
-      "path": "dbms/postgresql/Installation.md"
+      "basename": "Deadlock",
+      "path": "dbms/transaction/acid/concurrency-control/Deadlock.md"
     },
     {
-      "basename": "LIKE operator",
-      "path": "dbms/postgresql/LIKE operator.md"
+      "basename": "Multiversion concurrency control techniques",
+      "path": "dbms/transaction/acid/concurrency-control/Multiversion concurrency control techniques.md"
     },
     {
-      "basename": "DDL",
-      "path": "dbms/postgresql/DDL.md"
+      "basename": "Indexing structures",
+      "path": "dbms/dbms-indexing/Indexing structures.md"
+    },
+    {
+      "basename": "Dynamic multi-level indexes using B tree or B+ tree",
+      "path": "dbms/dbms-indexing/Dynamic multi-level indexes using B tree or B+ tree.md"
+    },
+    {
+      "basename": "Single-level ordered indexes",
+      "path": "dbms/dbms-indexing/Single-level ordered indexes.md"
+    },
+    {
+      "basename": "Shadow paging",
+      "path": "dbms/transaction/acid/recovery/Shadow paging.md"
+    },
+    {
+      "basename": "Multiversion concurrency control",
+      "path": "dbms/transaction/acid/concurrency-control/Multiversion concurrency control.md"
+    },
+    {
+      "basename": "Locking operations",
+      "path": "dbms/transaction/acid/concurrency-control/Locking operations.md"
+    },
+    {
+      "basename": "Concurrency control problems",
+      "path": "dbms/transaction/acid/concurrency-control/Concurrency control problems.md"
+    },
+    {
+      "basename": "Firewall overview",
+      "path": "cybersecurity/Firewall overview.md"
     },
     {
       "basename": "Malicious software",
       "path": "cybersecurity/Malicious software.md"
-    },
-    {
-      "basename": "IDS overview",
-      "path": "cybersecurity/IDS overview.md"
     },
     {
       "basename": "Wireless network security",
@@ -65,140 +89,116 @@
       "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
     },
     {
-      "basename": "IP Security",
-      "path": "cybersecurity/network-security/network-layer/IP Security.md"
-    },
-    {
-      "basename": "Network security overview",
-      "path": "cybersecurity/network-security/Network security overview.md"
-    },
-    {
-      "basename": "Secure Shell (SSH)",
-      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
+      "basename": "Introduction to race condition",
+      "path": "cybersecurity/web-security/Introduction to race condition.md"
     },
     {
       "basename": "HTTP Over SSL (HTTPS)",
       "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
     },
     {
-      "basename": "IKE",
-      "path": "cybersecurity/network-security/network-layer/IKE.md"
-    },
-    {
-      "basename": "Secure Socket Layer (SSL) - Transport Layer Security (TLS)",
-      "path": "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md"
-    },
-    {
-      "basename": "Packet delay",
-      "path": "computer-network/Packet delay.md"
-    },
-    {
-      "basename": "Transport layer overview",
-      "path": "computer-network/transport-layer/Transport layer overview.md"
-    },
-    {
-      "basename": "User Datagram Protocol (UDP)",
-      "path": "computer-network/transport-layer/udp/User Datagram Protocol (UDP).md"
-    },
-    {
-      "basename": "UDP",
-      "path": "computer-network/transport-layer/udp/UDP.md"
-    },
-    {
-      "basename": "Reliable data transfer principle",
-      "path": "computer-network/transport-layer/tcp/rdt/Reliable data transfer principle.md"
-    },
-    {
-      "basename": "Dynamic Host Configuration Protocol",
-      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
-    },
-    {
-      "basename": "Dijkstra algorithm",
-      "path": "algorithm/algorithm/graph/Dijkstra algorithm.md"
-    },
-    {
-      "basename": "Asynchronous programming in Angular",
-      "path": "programming/javascript/angular/Asynchronous programming in Angular.md"
-    },
-    {
-      "basename": "Two-way binding in Angular",
-      "path": "programming/javascript/angular/components/Two-way binding in Angular.md"
-    },
-    {
-      "basename": "Sharing states between components",
-      "path": "programming/javascript/angular/components/Sharing states between components.md"
-    },
-    {
-      "basename": "Quarkus project structure",
-      "path": "programming/java/quarkus/Quarkus project structure.md"
-    },
-    {
-      "basename": "Maximum subarray problem",
-      "path": "algorithm/algorithm/array/Maximum subarray problem.md"
-    },
-    {
-      "basename": "Heap sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Heap sort.md"
-    },
-    {
-      "basename": "Bellman-Ford algorithm",
-      "path": "algorithm/algorithm/graph/Bellman-Ford algorithm.md"
-    },
-    {
-      "basename": "Storage performance and monitoring",
-      "path": "operating-system/unix/linux/storage/Storage performance and monitoring.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/complexity/Recurrence relation.md"
+      "basename": "Secure Shell (SSH)",
+      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
     },
     {
       "basename": "World Wide Web",
       "path": "computer-network/application-layer/World Wide Web.md"
     },
     {
-      "basename": "Diophantine equation",
-      "path": "discrete-math/number-theory/Diophantine equation.md"
+      "basename": "Reliable data transfer principle",
+      "path": "computer-network/transport-layer/tcp/rdt/Reliable data transfer principle.md"
     },
     {
-      "basename": "Logical Volume Manager",
-      "path": "operating-system/unix/linux/storage/Logical Volume Manager.md"
+      "basename": "Seletive repeat",
+      "path": "computer-network/transport-layer/tcp/rdt/Seletive repeat.md"
     },
     {
-      "basename": "Disk partitioning",
-      "path": "operating-system/unix/linux/storage/Disk partitioning.md"
+      "basename": "Interruption vs. Interception vs. Modification vs. Fabrication",
+      "path": "cybersecurity/q-a/Interruption vs. Interception vs. Modification vs. Fabrication.md"
     },
     {
-      "basename": "Storage architecture",
-      "path": "operating-system/unix/linux/storage/Storage architecture.md"
+      "basename": "Quick UDP Internet Connection (QUIC)",
+      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
     },
     {
-      "basename": "TCP",
-      "path": "computer-network/transport-layer/tcp/TCP.md"
+      "basename": "Multiple Purpose Internet Mail Extension (MIME)",
+      "path": "computer-network/application-layer/email/Multiple Purpose Internet Mail Extension (MIME).md"
     },
     {
-      "basename": "Hyper Text Transfer Protocol (HTTP)",
-      "path": "computer-network/application-layer/http/Hyper Text Transfer Protocol (HTTP).md"
+      "basename": "POP3",
+      "path": "computer-network/application-layer/email/POP3.md"
     },
     {
-      "basename": "BGP",
-      "path": "computer-network/network-layer/control-plane/BGP.md"
+      "basename": "SMTP",
+      "path": "computer-network/application-layer/email/SMTP.md"
     },
     {
-      "basename": "IMAP",
-      "path": "computer-network/application-layer/email/IMAP.md"
+      "basename": "User Datagram Protocol (UDP)",
+      "path": "computer-network/transport-layer/udp/User Datagram Protocol (UDP).md"
     },
     {
-      "basename": "Email",
-      "path": "computer-network/application-layer/email/Email.md"
+      "basename": "Packet delay",
+      "path": "computer-network/Packet delay.md"
     },
     {
-      "basename": "GEMINI_CONTEXT",
-      "path": "GEMINI_CONTEXT.md"
+      "basename": "Webpack",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
     },
     {
-      "basename": "Nslookup",
-      "path": "operating-system/unix/linux/networking/Nslookup.md"
+      "basename": "Cloud computing model",
+      "path": "cybersecurity/cloud-security/Cloud computing model.md"
+    },
+    {
+      "basename": "Transmission Control Protocol (TCP)",
+      "path": "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md"
+    },
+    {
+      "basename": "Network layer overview",
+      "path": "computer-network/network-layer/Network layer overview.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md"
+    },
+    {
+      "basename": "Server-side request forgery (SSRF)",
+      "path": "cybersecurity/web-security/Server-side request forgery (SSRF).md"
+    },
+    {
+      "basename": "MAC Concept",
+      "path": "cybersecurity/mac/MAC Concept.md"
+    },
+    {
+      "basename": "CMAC",
+      "path": "cybersecurity/mac/CMAC.md"
+    },
+    {
+      "basename": "Peer-to-Peer paradigm",
+      "path": "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md"
+    },
+    {
+      "basename": "Web Socket",
+      "path": "computer-network/application-layer/web-socket/Web Socket.md"
+    },
+    {
+      "basename": "Dynamic Host Configuration Protocol",
+      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
+    },
+    {
+      "basename": "Cookie",
+      "path": "computer-network/application-layer/http/Cookie.md"
+    },
+    {
+      "basename": "HTTP Version",
+      "path": "computer-network/application-layer/http/HTTP Version.md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
+    },
+    {
+      "basename": "Triple Data Encryption Standard (3DES)",
+      "path": "cryptography/symmetric-cipher/des/Triple Data Encryption Standard (3DES).md"
     }
   ],
   "omittedPaths": [],

@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "SiVite",
       "SiRedhat",
       "SiUbuntu",
       "SiRust",
@@ -24,8 +25,7 @@
       "SiBun",
       "SiYarn",
       "SiPnpm",
-      "SiComposer",
-      "FabPhp"
+      "SiComposer"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -272,7 +272,6 @@
   "computer-network/application-layer/Application layer overview.md": "TiApps",
   "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md": "TiProtocol",
   "computer-network/link-layer/lan/Switch.md": "TiSwitch2",
-  "computer-network/transport-layer/tcp/TCP.md": "TiProtocol",
   "computer-network/application-layer/World Wide Web.md": "TiWorldWww",
   "cybersecurity/network-security": "LiNetwork",
   "cybersecurity/network-security/transport-layer": "FarHandshake",
@@ -768,7 +767,6 @@
   "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md": "SiNpm",
   "site-reliability-engineering/build-tools/javascript/package-manager/pnpm/Lifecyle.md": "SiPnpm",
   "site-reliability-engineering/build-tools/javascript/package-manager/yarn/Lifecycle.md": "SiYarn",
-  "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack configuration.md": "SiWebpack",
   "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md": "SiQuarkus",
   "site-reliability-engineering/container-engine/artifacts/java/spring/spring-boot": "SiSpringboot",
   "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian": "SiDebian",
@@ -793,5 +791,8 @@
   "discrete-math/number-theory/Euler Phi function.md": "TiMathFunction",
   "discrete-math/number-theory/Extended Euclidean algorithm.md": "TiMathFunction",
   "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md": "✖",
-  "discrete-math/number-theory/Primitive root - Discrete Logarithm.md": "TiMathFunction"
+  "discrete-math/number-theory/Primitive root - Discrete Logarithm.md": "TiMathFunction",
+  "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md": "SiWebpack",
+  "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md": "SiVite",
+  "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md": "TiProtocol"
 }

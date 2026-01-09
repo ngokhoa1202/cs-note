@@ -1,9 +1,7 @@
 #tcp #computer-network #transport-layer #client-server #protocol #reliable-data-transfer 
 
-- Stands for ==Transmission Control Protocol==.
 - ==Connection-oriented== protocol.
 - Support reliable data transfer, 
-
 # TCP Segment format
 - ![](Pasted%20image%2020240517141956.png)
 - In theory, total size is $2^{16}-1$, but limited by ==maximum transmission unit==.

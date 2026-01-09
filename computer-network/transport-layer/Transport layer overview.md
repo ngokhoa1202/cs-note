@@ -11,7 +11,7 @@
 - ![](Pasted%20image%2020240514203949.png)
 
 # TCP
-[TCP](TCP.md)
+[Transmission Control Protocol (TCP)](computer-network/transport-layer/tcp/Transmission%20Control%20Protocol%20(TCP).md)
 # UDP
 [User Datagram Protocol (UDP)](User%20Datagram%20Protocol%20(UDP).md)
 

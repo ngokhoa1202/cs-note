@@ -55,9 +55,9 @@ graph TB
 ## Native Image
 - Compiles Java bytecode *ahead-of-time* into a standalone native executable.
 - Produces binaries that:
-  - Start up in *milliseconds* (vs. seconds for traditional JVM)
-  - Consume *less memory* (no JIT overhead, smaller heap)
-  - Do not require JVM installation to run
+    - Start up in *milliseconds* (vs. seconds for traditional JVM).
+    - Consume *less memory* (no JIT overhead, smaller heap).
+    - Do not require JVM installation to run.
 - Uses **Substrate VM**, a minimal runtime that includes only the necessary components.
 ## Truffle Framework
 - A language implementation framework that enables *polyglot programming*.
@@ -233,7 +233,6 @@ mvn clean package -Pnative
 # Run the native executable
 ./target/myapp
 ```
-
 ### Gradle Project
 ```kotlin title='Gradle configuration for native image'
 plugins {
@@ -259,7 +258,7 @@ graalvmNative {
 ./build/native/nativeCompile/myapp
 ```
 ## Container Images with GraalVM
-### Multi-Stage Dockerfile with Debian Base
+### Debian-based image
 ```Dockerfile title='Build Java native image using GraalVM on Debian' hl=13-17,19-20
 FROM docker.io/library/eclipse-temurin:21 AS builder
 
@@ -305,7 +304,7 @@ USER 1000
 EXPOSE 8080
 ENTRYPOINT ["/app/application"]
 ```
-### Using Red Hat Mandrel
+### Red Hat Mandrel image
 ```Dockerfile title='Build Java native image using Red Hat Mandrel'
 FROM quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-21 AS builder
 
@@ -341,7 +340,7 @@ ENTRYPOINT ["/app/application"]
 - Automatic generation of native-image configuration.
 - Extensions tested for native compatibility.
 ## Spring Boot (Spring Native)
-- Official support via Spring Native project (now part of Spring Boot 3.0+).
+- Official support via Spring Native project.
 - AOT processing engine generates native-image configuration.
 - GraalVM reachability metadata repository for popular libraries.
 - Trade-off: some Spring features have limitations in native mode.
@@ -414,14 +413,13 @@ native-image \
 ## Troubleshooting Common Issues
 
 ### Missing Reflection Configuration
-```bash title='Generate reflection configuration using tracing agent'
+```Shell title='Generate reflection configuration using tracing agent'
 # Run application with tracing agent
 java -agentlib:native-image-agent=config-output-dir=src/main/resources/META-INF/native-image \
   -jar target/myapp.jar
 
 # Configuration files will be generated automatically
 ```
-
 ### Class Initialization Issues
 ```Shell title='Control class initialization timing'
 # Initialize at build time (faster startup, larger binary)
@@ -437,7 +435,6 @@ native-image -J-Xmx8g -jar myapp.jar
 ```
 
 ***
-
 # References
 1. https://www.graalvm.org/ - Official GraalVM website
 2. https://www.graalvm.org/latest/reference-manual/native-image/ - Native Image documentation
@@ -446,4 +443,5 @@ native-image -J-Xmx8g -jar myapp.jar
 5. https://docs.spring.io/spring-boot/docs/current/reference/html/native-image.html - Spring Boot Native documentation
 6. https://github.com/oracle/graal/tree/master/substratevm - Substrate VM documentation
 7. https://www.redhat.com/en/blog/mandrel-distribution-graalvm - Red Hat Mandrel introduction
-8. https://medium.com/graalvm/graalvm-quick-start-guide-c8c6e7c0d3e7 - GraalVM Quick Start Guide
+8. https://medium.com/graalvm/graalvm-quick-start-guide-c8c6e7c0d3e7 - GraalVM Quick Start Guide.
+9. https://inside.java/tag/hotspot for HotSpot JVM C2 JIT Compiler.

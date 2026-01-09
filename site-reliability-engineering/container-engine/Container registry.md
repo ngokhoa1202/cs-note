@@ -1,12 +1,10 @@
-#containerization #docker #podman #application-layer #computer-network #site-realibility-engineering #binary-image #continuous-delivery
-
+#containerization #docker #podman #application-layer #computer-network #site-realibility-engineering #binary-image #continuous-delivery 
 # Container Registry
 ## Overview
 - ==Centralized repository== for storing and distributing container images.
-- Implements OCI Distribution Specification (formerly Docker Registry HTTP API V2).
+- Implements OCI Distribution Specification.
 - Provides image versioning, access control, and distribution.
 - Enables sharing images across teams and deployment environments.
-
 ## Registry Hierarchy
 ```mermaid
 graph TB
@@ -57,13 +55,11 @@ graph TB
 - **Repository**: Collection of related images (e.g., nginx, mysql)
 - **Tag**: Version identifier for image (e.g., latest, v1.0, alpine)
 - **Digest**: Immutable SHA-256 hash of image manifest
-
 ## Image Naming Convention
 ### Format
 ```
 [REGISTRY_HOST[:PORT]/][NAMESPACE/]REPOSITORY[:TAG|@DIGEST]
 ```
-
 ### Components
 - **REGISTRY_HOST**: Registry domain/IP (optional, defaults to Docker Hub)
 - **PORT**: Registry port (optional, default 443 for HTTPS)
@@ -71,9 +67,8 @@ graph TB
 - **REPOSITORY**: Image repository name (required)
 - **TAG**: Version tag (optional, defaults to `latest`)
 - **DIGEST**: SHA-256 hash for immutable reference (optional)
-
 ### Examples
-```bash
+```Shell title='Image name'
 # Docker Hub official image (implicit registry)
 nginx:alpine
 # Full: docker.io/library/nginx:alpine
@@ -97,23 +92,20 @@ nginx@sha256:abc123def456...
 # Combined tag and digest
 nginx:1.25@sha256:abc123...
 ```
-
 ## Registry Types
 ### Docker Hub
 - **Operator**: Docker Inc.
-- **URL**: hub.docker.com
-- **Type**: Public registry
-- **Official Images**: Curated by Docker (library namespace)
-- **Free Tier**: Unlimited public repositories, limited private repositories
-- **Paid Tiers**: More private repositories, increased pull rate limits
+- **URL**: `{URL}hub.docker.com`
+- **Type**: Public registry.
+- **Official Images**: Curated by Docker (library namespace).
+- **Free Tier**: Unlimited public repositories, limited private repositories.
+- **Paid Tiers**: More private repositories, increased pull rate limits.
 - **Features**:
-  - Automated builds from GitHub/Bitbucket
-  - Webhooks for CI/CD integration
-  - Team collaboration tools
-  - Vulnerability scanning (paid)
-
-**Usage:**
-```bash
+    - Automated builds from GitHub/Bitbucket.
+    - Webhooks for CI/CD integration.
+    - Team collaboration tools.
+    - Vulnerability scanning (paid).
+```Shell title='Pull an image'
 # Pull from Docker Hub (implicit)
 docker pull nginx
 podman pull nginx
@@ -121,7 +113,6 @@ podman pull nginx
 # Explicit registry
 docker pull docker.io/library/nginx
 ```
-
 ### Private Self-Hosted Registry
 - **Image**: `registry:2`
 - **Purpose**: Full control over image storage
@@ -130,7 +121,7 @@ docker pull docker.io/library/nginx
 - **Security**: TLS encryption, authentication (basic auth, token-based)
 
 **Deployment:**
-```bash
+```Shell
 # Run registry container
 docker run -d -p 5000:5000 \
   --name registry \
@@ -160,7 +151,6 @@ auth:
     realm: basic-realm
     path: /auth/htpasswd
 ```
-
 ### Cloud Registries
 #### Amazon ECR (Elastic Container Registry)
 - **Provider**: AWS
@@ -169,7 +159,7 @@ auth:
 - **Scanning**: Integrated vulnerability scanning
 - **Lifecycle**: Automatic image cleanup policies
 
-```bash
+```Shell
 # Login to ECR
 aws ecr get-login-password --region us-east-1 | \
   docker login --username AWS --password-stdin \
@@ -178,21 +168,18 @@ aws ecr get-login-password --region us-east-1 | \
 # Push image
 docker push 123456789012.dkr.ecr.us-east-1.amazonaws.com/myapp:v1.0
 ```
-
 #### Google Container Registry (GCR) / Artifact Registry
 - **Provider**: Google Cloud Platform
 - **Authentication**: gcloud SDK or service accounts
 - **Regions**: Multi-regional replication
 - **Integration**: Cloud Build, GKE
-
-```bash
+```Shell title=''
 # Login to GCR
 gcloud auth configure-docker
 
 # Push image
 docker push gcr.io/project-id/myapp:v1.0
 ```
-
 #### Azure Container Registry (ACR)
 - **Provider**: Microsoft Azure
 - **Tiers**: Basic, Standard, Premium (geo-replication)
@@ -227,14 +214,13 @@ docker push ghcr.io/username/myapp:v1.0
 - **Integration**: Kubernetes, OpenShift
 - **Access**: Public and private repositories
 
-```bash
+```Shell
 # Login to Quay
 docker login quay.io
 
 # Push image
 docker push quay.io/organization/myapp:v1.0
 ```
-
 ## Registry Operations
 ### Authentication
 ```bash
@@ -291,15 +277,13 @@ docker history nginx:alpine
 - **Requirement**: Production registries must use HTTPS
 - **Certificates**: Valid SSL/TLS certificates required
 - **Insecure Registry**: Testing only, requires explicit configuration
-
-**Allow insecure registry** (not recommended for production):
+- **Allow insecure registry** (not recommended for production):
 ```json
 // Docker: /etc/docker/daemon.json
 {
   "insecure-registries": ["registry.example.com:5000"]
 }
 ```
-
 ### Authentication Methods
 #### Basic Authentication
 ```bash
@@ -308,20 +292,17 @@ htpasswd -Bc auth/htpasswd username
 
 # Configure registry to use htpasswd
 ```
-
 #### Token-Based Authentication
 - OAuth 2.0 tokens
 - JWT (JSON Web Tokens)
 - Registry token service
-
 #### Cloud Provider Authentication
 - AWS IAM roles
 - Google Cloud service accounts
 - Azure managed identities
-
 ### Image Signing and Verification
 #### Docker Content Trust (Notary)
-```bash
+```Shell title='Sign container with docker'
 # Enable content trust
 export DOCKER_CONTENT_TRUST=1
 
@@ -333,7 +314,6 @@ docker push username/myapp:v1.0
 docker pull username/myapp:v1.0
 # Verifies signature automatically
 ```
-
 #### Cosign (Sigstore)
 ```bash
 # Generate key pair
@@ -345,7 +325,6 @@ cosign sign --key cosign.key registry.example.com/myapp:v1.0
 # Verify signature
 cosign verify --key cosign.pub registry.example.com/myapp:v1.0
 ```
-
 ## Registry Mirroring and Caching
 ### Pull-Through Cache
 - **Purpose**: Reduce external bandwidth, improve pull speed
@@ -378,7 +357,6 @@ location = "mirror.example.com"
 3. **Environment Tags**: dev, staging, prod
 4. **Avoid `latest`**: Use specific versions in production
 5. **Immutable Tags**: Never overwrite existing tags
-
 ### Registry Management
 1. **Cleanup Policies**: Remove old/unused images regularly
 2. **Storage Limits**: Monitor registry disk usage
@@ -391,7 +369,6 @@ location = "mirror.example.com"
 3. **Layer Caching**: Optimize Dockerfile layer ordering
 4. **Compression**: Enable image compression
 5. **Rate Limiting**: Implement rate limits to prevent abuse
-
 ***
 # References
 1. [OCI Distribution Specification](https://github.com/opencontainers/distribution-spec) for registry protocol standards.
