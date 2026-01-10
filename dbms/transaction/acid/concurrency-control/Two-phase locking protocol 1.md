@@ -1,253 +1,94 @@
 #transaction #operating-system #sql #nosql #dbms #dbms-architecture #rdbms #parallel-programming #process #caching #software-architecture #computer-architecture #acid #process-synchronization #concurrency-control #serializability
-
-# Formal Definition
-
-**Two-Phase Locking Protocol (2PL)** is a concurrency control protocol that ensures serializability by requiring that all lock acquisitions precede all lock releases in a transaction. A transaction following 2PL operates in two distinct phases:
-
-1. **Growing Phase (Expanding Phase)**: The transaction may acquire locks but may not release any lock.
-2. **Shrinking Phase (Contracting Phase)**: The transaction may release locks but may not acquire any new lock.
-
-The point at which the transaction acquires its final lock and begins releasing locks is called the **lock point** of the transaction. Once a transaction enters the shrinking phase by releasing any lock, it can never return to the growing phase.
-
-# Fundamental Principle
-
-From [Serializability](Serializability.md), a schedule is correct if it is serializable, meaning it is equivalent to some serial execution of the same transactions. The Two-Phase Locking Protocol guarantees that if every transaction in a schedule follows 2PL, then the schedule is conflict serializable.
-
-**Theorem**: If all transactions in a schedule S follow the two-phase locking protocol, then S is conflict serializable.
-
-**Proof Sketch**: The serializability order of transactions in S can be determined by the order of their lock points. If transaction Ti has its lock point before transaction Tj, then Ti precedes Tj in the equivalent serial order. This ordering creates a precedence graph without cycles, which is the necessary and sufficient condition for conflict serializability.
-
-**Important Caveat**: While 2PL guarantees serializability, it does not prevent deadlocks. Additionally, 2PL may prohibit some schedules that are actually serializable but do not conform to the strict phase separation required by the protocol.
-
-# Detailed Phase Analysis
-
+# Definition
+- Two-Phase Locking Protocol (2PL) is a concurrency control protocol that ensures serializability by requiring that all lock acquisitions precede all lock releases in a transaction. A transaction following 2PL operates in two distinct phases:
+1. *Growing Phase*: The transaction may acquire locks but may not release any lock.
+2. *Shrinking Phase*: The transaction may release locks but may not acquire any new lock.
+- Once a transaction enters the shrinking phase by releasing any lock, it can never return to the growing phase.
+- While 2PL guarantees serializability, it does not prevent deadlocks and prohibits some possible serializable schedules.
+# Phase Analysis
 ## Growing Phase
-
-During the growing phase, a transaction:
-- May acquire shared locks for reading data items
-- May acquire exclusive locks for writing data items
-- May upgrade locks from shared to exclusive (lock conversion)
-- May not release any locks
-- Continues accumulating locks until it reaches the lock point
-
-The growing phase ends when the transaction releases its first lock, regardless of whether it is a shared or exclusive lock.
-
+- During the growing phase, a transaction:
+    - may acquire shared locks for reading data items
+    - may acquire exclusive locks for writing data items
+    - may upgrade locks from shared to exclusive (lock conversion)
+    - may not release any locks
+    - continues accumulating locks until it reaches the lock point
+- The growing phase ends when the transaction releases its first lock, regardless of whether it is a shared or exclusive lock.
 ## Shrinking Phase
-
-During the shrinking phase, a transaction:
-- May release shared locks
-- May release exclusive locks
-- May downgrade locks from exclusive to shared (lock conversion)
-- May not acquire any new locks
-- Continues releasing locks until transaction completion
-
-The shrinking phase continues until the transaction commits or aborts, at which point all remaining locks are released.
-
-# Lock Modes and Compatibility
-
-Two-phase locking protocols employ [Multi-mode locks](Locking%20operations.md#Multi-mode%20locks) with the following lock modes:
-
-**Shared Lock (S-lock, Read Lock)**:
-- Allows multiple transactions to read the same data item concurrently
-- Prevents other transactions from writing to the locked item
-- Compatible with other shared locks
-- Incompatible with exclusive locks
-
-**Exclusive Lock (X-lock, Write Lock)**:
-- Allows only one transaction to write to a data item
-- Prevents all other transactions from reading or writing the locked item
-- Incompatible with both shared and exclusive locks
-
-**Lock Compatibility Matrix**:
-
-|            | Shared (S) | Exclusive (X) |
-|------------|------------|---------------|
-| Shared (S) | Yes        | No            |
-| Exclusive (X) | No      | No            |
-
+- During the shrinking phase, a transaction:
+    - may release shared locks
+    - may release exclusive locks
+    - may downgrade locks from exclusive to shared (lock conversion)
+    - may not acquire any new locks
+    - continues releasing locks until transaction completion.
+- The shrinking phase continues until the transaction commits or aborts, at which point all remaining locks are released.
 # Basic Two-Phase Locking (Basic 2PL)
-
 ## Definition
+- Basic 2PL is the fundamental form of the two-phase locking protocol where:
+    - Locks are acquired during the growing phase
+    - Locks are released during the shrinking phase
+    - No restrictions on when locks can be released after the lock point
+    - No guarantee of recoverability
+## Example
+### Problem
+- Consider two transactions $T_1$ and $T_2$ operating on data items $A$ and $B$ with initial values $A=100$ and $B=200$ $$\begin{array}{l l}
+T_1: & \text{read}(A) \\
+T_1: & A := A - 50 \\
+T_1: & \text{write}(A) \\
+T_1: & \text{read}(B) \\
+T_1: & B := B + 50 \\
+T_1: & \text{write}(B)
+\end{array}$$
+$$\begin{array}{l l}
+T_2: & \text{read}(A) \\
+T_2: & \text{read}(B) \\
+T_2: & \text{sum} := A + B \\
+T_2: & \text{write}(\text{sum})
+\end{array}$$
+### Solution
+- The schedule of execution can be $$\begin{array}{|c|l|l|l|l|l|l|} \hline \textbf{Time} & \textbf{T}_1 & \textbf{T}_2 & \textbf{Locks T}_1 & \textbf{Locks T}_2 & \textbf{Phase T}_1 & \textbf{Phase T}_2 \\ \hline t_1 & \text{lock-X}(A) & & X(A) & & \text{Growing} & \\ t_2 & \text{read}(A) \ [A=100] & & X(A) & & \text{Growing} & \\ t_3 & A := A - 50 & & X(A) & & \text{Growing} & \\ t_4 & \text{write}(A) \ [A=50] & & X(A) & & \text{Growing} & \\ t_5 & \text{lock-X}(B) & & X(A), X(B) & & \text{Growing} & \\ t_6 & \text{read}(B) \ [B=200] & & X(A), X(B) & & \text{Growing} & \\ t_7 & B := B + 50 & & X(A), X(B) & & \text{Growing} & \\ t_8 & \text{write}(B) \ [B=250] & & X(A), X(B) & & \text{Growing} & \\ t_9 & \text{unlock}(A) & & X(B) & & \text{Shrinking} & \text{[Lock point } T_1] \\ t_{10} & & \text{lock-S}(A) & X(B) & S(A) & \text{Shrinking} & \text{Growing} \\ t_{11} & & \text{read}(A) \ [A=50] & X(B) & S(A) & \text{Shrinking} & \text{Growing} \\ t_{12} & \text{unlock}(B) & & & S(A) & \text{Shrinking} & \text{Growing} \\ t_{13} & \text{commit} & & & S(A) & & \text{Growing} \\ t_{14} & & \text{lock-S}(B) & & S(A), S(B) & & \text{Growing} \\ t_{15} & & \text{read}(B) \ [B=250] & & S(A), S(B) & & \text{Growing} \\ t_{16} & & \text{sum} := 50 + 250 & & S(A), S(B) & & \text{Growing} \\ t_{17} & & \text{lock-X}(\text{sum}) & & S(A), S(B), X(\Sigma) & & \text{Growing} \\ t_{18} & & \text{write}(\text{sum}) & & S(A), S(B), X(\Sigma) & & \text{Growing} \\ t_{19} & & \text{unlock}(A) & & S(B), X(\Sigma) & & \text{Shrinking [LP } T_2] \\ t_{20} & & \text{unlock}(B) & & X(\Sigma) & & \text{Shrinking} \\ t_{21} & & \text{unlock}(\text{sum}) & & & & \text{Shrinking} \\ t_{22} & & \text{commit} & & & & \\ \hline \end{array}$$ 
+### Analysis
+- $T_1$ lock point: $t_9$ (first unlock).
+- $T_2$ lock point: $t_{19}$ (first unlock).
+- $T_1$ precedes $T_2$ in serialization order since $T_1$'s lock point occurs before $T_2$'s lock point
+- The equivalent serial schedule is $T_1 → T_2$
+- The final state of item is $A=50, B=250, sum=300$.
 
-Basic 2PL is the fundamental form of the two-phase locking protocol where:
-- Locks are acquired during the growing phase
-- Locks are released during the shrinking phase
-- No restrictions on when locks can be released after the lock point
-- No guarantee of recoverability
-
-## Detailed Example: Basic 2PL Execution
-
-Consider two transactions T1 and T2 operating on data items A and B with initial values A=100 and B=200:
-
-**Transaction T1**: Transfer 50 from A to B
-```
-T1: read(A)
-T1: A := A - 50
-T1: write(A)
-T1: read(B)
-T1: B := B + 50
-T1: write(B)
-```
-
-**Transaction T2**: Read A and B and compute sum
-```
-T2: read(A)
-T2: read(B)
-T2: sum := A + B
-T2: write(sum)
-```
-
-**Basic 2PL Schedule**:
-
-```
-Time | T1                    | T2                    | Locks T1        | Locks T2        | Phase T1    | Phase T2
------|----------------------|----------------------|-----------------|-----------------|-------------|-------------
-t1   | lock-X(A)            |                      | X(A)            |                 | Growing     |
-t2   | read(A) [A=100]      |                      | X(A)            |                 | Growing     |
-t3   | A := A - 50          |                      | X(A)            |                 | Growing     |
-t4   | write(A) [A=50]      |                      | X(A)            |                 | Growing     |
-t5   | lock-X(B)            |                      | X(A), X(B)      |                 | Growing     |
-t6   | read(B) [B=200]      |                      | X(A), X(B)      |                 | Growing     |
-t7   | B := B + 50          |                      | X(A), X(B)      |                 | Growing     |
-t8   | write(B) [B=250]     |                      | X(A), X(B)      |                 | Growing     |
-t9   | unlock(A)            |                      | X(B)            |                 | Shrinking   | [Lock point T1]
-t10  |                      | lock-S(A)            | X(B)            | S(A)            | Shrinking   | Growing
-t11  |                      | read(A) [A=50]       | X(B)            | S(A)            | Shrinking   | Growing
-t12  | unlock(B)            |                      |                 | S(A)            | Shrinking   | Growing
-t13  | commit               |                      |                 | S(A)            |             | Growing
-t14  |                      | lock-S(B)            |                 | S(A), S(B)      |             | Growing
-t15  |                      | read(B) [B=250]      |                 | S(A), S(B)      |             | Growing
-t16  |                      | sum := 50 + 250      |                 | S(A), S(B)      |             | Growing
-t17  |                      | lock-X(sum)          |                 | S(A), S(B), X(sum) |          | Growing
-t18  |                      | write(sum) [sum=300] |                 | S(A), S(B), X(sum) |          | Growing
-t19  |                      | unlock(A)            |                 | S(B), X(sum)    |             | Shrinking [Lock point T2]
-t20  |                      | unlock(B)            |                 | X(sum)          |             | Shrinking
-t21  |                      | unlock(sum)          |                 |                 |             | Shrinking
-t22  |                      | commit               |                 |                 |             |
-```
-
-**Analysis**:
-- T1 lock point: t9 (first unlock)
-- T2 lock point: t19 (first unlock)
-- T1 precedes T2 in serialization order since T1's lock point occurs before T2's lock point
-- Equivalent serial schedule: T1 → T2
-- Final state: A=50, B=250, sum=300 (consistent)
-
-## Problem with Basic 2PL: Cascading Rollback
-
-Consider a problematic schedule:
-
-```
-Time | T1                  | T2                  | Locks T1    | Locks T2    | Notes
------|---------------------|---------------------|-------------|-------------|------------------
-t1   | lock-X(A)           |                     | X(A)        |             |
-t2   | read(A) [A=100]     |                     | X(A)        |             |
-t3   | write(A) [A=150]    |                     | X(A)        |             |
-t4   | unlock(A)           |                     |             |             | T1 enters shrinking
-t5   |                     | lock-S(A)           |             | S(A)        |
-t6   |                     | read(A) [A=150]     |             | S(A)        | T2 reads dirty data
-t7   | lock-X(B)           |                     | X(B)        | S(A)        |
-t8   | read(B) [B=200]     |                     | X(B)        | S(A)        |
-t9   | abort               |                     |             | S(A)        | T1 aborts!
-t10  | A := 100 (restore)  |                     |             | S(A)        | Rollback A
-t11  |                     | [T2 must abort]     |             |             | Cascading abort
-```
-
-**Issue**: T2 read uncommitted data from T1 (A=150). When T1 aborts, T2 must also abort (cascading rollback), which violates recoverability.
-
+## Cascading Rollback problem
+- Given a schedule $$\begin{array}{|c|l|l|l|l|l|} \hline \textbf{Time} & \textbf{T}_1 & \textbf{T}_2 & \textbf{Locks T}_1 & \textbf{Locks T}_2 & \textbf{Notes} \\ \hline t_1 & \text{lock-X}(A) & & X(A) & & \\ t_2 & \text{read}(A) \ [A=100] & & X(A) & & \\ t_3 & \text{write}(A) \ [A=150] & & X(A) & & \\ t_4 & \text{unlock}(A) & & & & T_1 \text{ enters shrinking} \\ t_5 & & \text{lock-S}(A) & & S(A) & \\ t_6 & & \text{read}(A) \ [A=150] & & S(A) & T_2 \text{ reads dirty data} \\ t_7 & \text{lock-X}(B) & & X(B) & S(A) & \\ t_8 & \text{read}(B) \ [B=200] & & X(B) & S(A) & \\ t_9 & \text{abort} & & & S(A) & T_1 \text{ aborts!} \\ t_{10} & A := 100 \ (\text{restore}) & & & S(A) & \text{Rollback } A \\ t_{11} & & [T_2 \text{ must abort}] & & & \text{Cascading abort} \\ \hline \end{array}$$
+- The issue is that $T_2$ read uncommitted data from $T_1$ ($A=150$). When $T_1$ aborts, $T_2$ must also abort (cascading rollback), which violates recoverability.
 # Conservative Two-Phase Locking (Static 2PL)
-
 ## Definition
-
-Conservative 2PL requires that a transaction must lock all items it will access before beginning execution. This is achieved by:
-- Predeclaring the read-set (all items to be read)
-- Predeclaring the write-set (all items to be written)
-- Acquiring all locks atomically before transaction execution begins
-- If any required lock cannot be acquired, the transaction waits
-- The transaction never enters a true "growing" phase as all locks are acquired upfront
-
-## Key Properties
-
-**Deadlock Freedom**: Conservative 2PL is deadlock-free because:
-- No circular wait can occur
-- A transaction either acquires all needed locks or acquires none
-- There is no incremental lock acquisition that could lead to circular dependencies
-
-**Trade-offs**:
-- Requires advance knowledge of all data items to be accessed
-- May lead to low concurrency due to locking items that might not be needed
-- Prevents deadlocks at the cost of decreased parallelism
-
-## Detailed Example: Conservative 2PL
-
-Consider three transactions accessing a shared banking database:
-
-**Transaction T1**: Transfer 100 from Account A to Account B
-```
-Read-set: {A, B}
-Write-set: {A, B}
-Operations: read(A), write(A), read(B), write(B)
-```
-
-**Transaction T2**: Transfer 50 from Account B to Account C
-```
-Read-set: {B, C}
-Write-set: {B, C}
-Operations: read(B), write(B), read(C), write(C)
-```
-
-**Transaction T3**: Audit total balance of accounts A, B, C
-```
-Read-set: {A, B, C}
-Write-set: {}
-Operations: read(A), read(B), read(C)
-```
-
-**Conservative 2PL Schedule**:
-
-```
-Time | T1                        | T2                        | T3                        | Locks
------|---------------------------|---------------------------|---------------------------|------------------
-t1   | Request locks: X(A), X(B) |                           |                           |
-t2   | Acquire X(A), X(B)        |                           |                           | T1: {X(A), X(B)}
-t3   | read(A) [A=1000]          |                           |                           | T1: {X(A), X(B)}
-t4   | A := A - 100              |                           |                           | T1: {X(A), X(B)}
-t5   | write(A) [A=900]          |                           |                           | T1: {X(A), X(B)}
-t6   |                           | Request locks: X(B), X(C) |                           | T1: {X(A), X(B)}
-t7   |                           | [WAIT - X(B) held by T1]  |                           | T1: {X(A), X(B)}
-t8   |                           |                           | Request locks: S(A), S(B), S(C) |
-t9   |                           |                           | [WAIT - A,B held by T1]   | T1: {X(A), X(B)}
-t10  | read(B) [B=2000]          |                           |                           | T1: {X(A), X(B)}
-t11  | B := B + 100              |                           |                           | T1: {X(A), X(B)}
-t12  | write(B) [B=2100]         |                           |                           | T1: {X(A), X(B)}
-t13  | Release all locks         |                           |                           |
-t14  | commit                    |                           |                           |
-t15  |                           | Acquire X(B), X(C)        |                           | T2: {X(B), X(C)}
-t16  |                           | read(B) [B=2100]          |                           | T2: {X(B), X(C)}
-t17  |                           | B := B - 50               |                           | T2: {X(B), X(C)}
-t18  |                           | write(B) [B=2050]         |                           | T2: {X(B), X(C)}
-t19  |                           |                           | [STILL WAITING - B held by T2] | T2: {X(B), X(C)}
-t20  |                           | read(C) [C=3000]          |                           | T2: {X(B), X(C)}
-t21  |                           | C := C + 50               |                           | T2: {X(B), X(C)}
-t22  |                           | write(C) [C=3050]         |                           | T2: {X(B), X(C)}
-t23  |                           | Release all locks         |                           |
-t24  |                           | commit                    |                           |
-t25  |                           |                           | Acquire S(A), S(B), S(C)  | T3: {S(A), S(B), S(C)}
-t26  |                           |                           | read(A) [A=900]           | T3: {S(A), S(B), S(C)}
-t27  |                           |                           | read(B) [B=2050]          | T3: {S(A), S(B), S(C)}
-t28  |                           |                           | read(C) [C=3050]          | T3: {S(A), S(B), S(C)}
-t29  |                           |                           | total := 900+2050+3050    | T3: {S(A), S(B), S(C)}
-t30  |                           |                           | Release all locks         |
-t31  |                           |                           | commit                    |
-```
-
-**Analysis**:
-- T1 acquires all locks before execution begins
-- T2 waits for B to be released by T1 (cannot acquire partial locks)
-- T3 waits for all items to become available
+- Conservative 2PL requires that a transaction must lock all items it will access before beginning execution. This is achieved by:
+    - Predeclaring the read-set (all items to be read)
+    - Predeclaring the write-set (all items to be written)
+    - Acquiring all locks atomically before transaction execution begins
+    - If any required lock cannot be acquired, the transaction waits
+- As a result, the transaction never enters a true growing phase as all locks are acquired upfront.
+## Characteristics
+### Deadlock free
+- Conservative 2PL is deadlock-free because:
+    - No circular wait can occur
+    - A transaction either acquires all needed locks or acquires none
+    - There is no incremental lock acquisition that could lead to circular dependencies
+### Low concurrency
+- Requires advance knowledge of all data items to be accessed.
+- May lead to low concurrency due to locking items that might not be needed.
+- Prevents deadlocks at the cost of decreased parallelism.
+## Example
+### Problem
+- Consider three transactions accessing a shared banking database:
+    - Transaction $T_1$: Transfer $100$ from account $A$ to Account $B$ $$\begin{aligned} \textbf{Read-set:} & \quad \{A, B\} \\ \textbf{Write-set:} & \quad \{A, B\} \\ \textbf{Operations:} & \quad \text{read}(A), \text{write}(A), \text{read}(B), \text{write}(B) \end{aligned}$$
+    - Transaction $T_2$: Transfer $50$ from Account $B$ to Account $C$ $$\begin{aligned} \textbf{Read-set:} & \quad \{B, C\} \\ \textbf{Write-set:} & \quad \{B, C\} \\ \textbf{Operations:} & \quad \text{read}(B), \text{write}(B), \text{read}(C), \text{write}(C) \end{aligned}$$
+    - Transaction $T_3$: Audit total balance of accounts $A, B, C$ $$\begin{aligned} \textbf{Read-set:} & \quad \{A, B, C\} \\ \textbf{Write-set:} & \quad \emptyset \\ \textbf{Operations:} & \quad \text{read}(A), \text{read}(B), \text{read}(C) \end{aligned}$$
+### Solution
+- The strict schedule can be $$\begin{array}{|c|l|l|l|l|} \hline \textbf{Time} & \textbf{T}_1 & \textbf{T}_2 & \textbf{T}_3 & \textbf{Locks Held} \\ \hline t_1 & \text{Request locks: } X(A), X(B) & & & \\ t_2 & \text{Acquire } X(A), X(B) & & & T_1: \{X(A), X(B)\} \\ t_3 & \text{read}(A) \ [A=1000] & & & T_1: \{X(A), X(B)\} \\ t_4 & A := A - 100 & & & T_1: \{X(A), X(B)\} \\ t_5 & \text{write}(A) \ [A=900] & & & T_1: \{X(A), X(B)\} \\ t_6 & & \text{Request locks: } X(B), X(C) & & T_1: \{X(A), X(B)\} \\ t_7 & & \textbf{[WAIT - } X(B) \text{ held by } T_1 \textbf{]} & & T_1: \{X(A), X(B)\} \\ t_8 & & & \text{Request locks: } S(A), S(B), S(C) & \\ t_9 & & & \textbf{[WAIT - } A, B \text{ held by } T_1 \textbf{]} & T_1: \{X(A), X(B)\} \\ t_{10} & \text{read}(B) \ [B=2000] & & & T_1: \{X(A), X(B)\} \\ t_{11} & B := B + 100 & & & T_1: \{X(A), X(B)\} \\ t_{12} & \text{write}(B) \ [B=2100] & & & T_1: \{X(A), X(B)\} \\ t_{13} & \text{Release all locks} & & & \\ t_{14} & \textbf{commit} & & & \\ t_{15} & & \text{Acquire } X(B), X(C) & & T_2: \{X(B), X(C)\} \\ t_{16} & & \text{read}(B) \ [B=2100] & & T_2: \{X(B), X(C)\} \\ t_{17} & & B := B - 50 & & T_2: \{X(B), X(C)\} \\ t_{18} & & \text{write}(B) \ [B=2050] & & T_2: \{X(B), X(C)\} \\ t_{19} & & & \textbf{[STILL WAIT - } B \text{ held by } T_2 \textbf{]} & T_2: \{X(B), X(C)\} \\ t_{20} & & \text{read}(C) \ [C=3000] & & T_2: \{X(B), X(C)\} \\ t_{21} & & C := C + 50 & & T_2: \{X(B), X(C)\} \\ t_{22} & & \text{write}(C) \ [C=3050] & & T_2: \{X(B), X(C)\} \\ t_{23} & & \text{Release all locks} & & \\ t_{24} & & \textbf{commit} & & \\ t_{25} & & & \text{Acquire } S(A), S(B), S(C) & T_3: \{S(A), S(B), S(C)\} \\ t_{26} & & & \text{read}(A) \ [A=900] & T_3: \{S(A), S(B), S(C)\} \\ t_{27} & & & \text{read}(B) \ [B=2050] & T_3: \{S(A), S(B), S(C)\} \\ t_{28} & & & \text{read}(C) \ [C=3050] & T_3: \{S(A), S(B), S(C)\} \\ t_{29} & & & \text{total} := 900+2050+3050 & T_3: \{S(A), S(B), S(C)\} \\ t_{30} & & & \text{Release all locks} & \\ t_{31} & & & \textbf{commit} & \\ \hline \end{array}$$
+### Analysis
+- $T_1$ acquires all locks before execution begins.
+- $T_2$ waits for $B$ to be released by $T_1$ (cannot acquire partial locks).
+- $T_3$ waits for all items to become available.
 - No deadlock occurs: transactions wait for all locks or proceed
-- Serialization order: T1 → T2 → T3
-
+- The serialization order is $T_1 → T_2 → T_3$
 ## Deadlock Prevention Comparison
 
 **Without Conservative 2PL (Potential Deadlock)**:
@@ -305,8 +146,7 @@ Strict 2PL is the most commonly implemented variant in commercial database manag
 - Lower concurrency than basic 2PL due to holding write locks longer
 - May still experience deadlocks
 - Better than basic 2PL for recovery purposes
-
-## Detailed Example: Strict 2PL
+## Example
 
 Consider a banking scenario with transactions T1 and T2:
 

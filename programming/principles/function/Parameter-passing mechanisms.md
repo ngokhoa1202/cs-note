@@ -52,7 +52,7 @@ main()
 - At line 7: $j+y=i+j+i+j=(i+1)+j+(i+1)=2(i+1)+2j=2 \times (0+1) + 2 \times 2 = 6$
 # Application
 ## Java
-- [[programming/java/fundamentals/java-core/common-problems/Swap two variables|Swap two variables]]
+- [[programming/java/common-problems/fundamentals/Swap two variables|Swap two variables]]
 ## Go
 - [[programming/go/fundamentals/common-problems/Swap two variables|Swap two variables]]
 ## JavaScript
@@ -63,6 +63,6 @@ main()
 	1. Chapter 10. Control II—Procedures and Environments
 		1. Section 10.2. Parameter-passing mechanisms.
 2. [[programming/javascript/common-problems/Swap two variables|Swap two variables]]
-3. [[programming/java/fundamentals/java-core/common-problems/Swap two variables|Swap two variables]]
+3. [[programming/java/common-problems/fundamentals/Swap two variables|Swap two variables]]
 4. [[programming/go/fundamentals/common-problems/Swap two variables|Swap two variables]]
 5. 

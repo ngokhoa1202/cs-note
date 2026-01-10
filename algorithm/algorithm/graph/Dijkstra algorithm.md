@@ -40,7 +40,6 @@
 ### Theorem
 - Any subpath of a shortest path is itself a shortest path.
 - If $p = \langle v_0, v_1, \ldots, v_k \rangle$ is a shortest path from $v_0$ to $v_k$, then for any $0 \leq i \leq j \leq k$, the subpath $p_{ij} = \langle v_i, v_{i+1}, \ldots, v_j \rangle$ is a shortest path from $v_i$ to $v_j$.
-
 ### Proof sketch
 - Suppose $p$ is shortest but $p_{ij}$ is not.
 - Then there exists a shorter path $p'_{ij}$ from $v_i$ to $v_j$.

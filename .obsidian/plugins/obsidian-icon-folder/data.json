@@ -6,6 +6,8 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "TiLockUp",
+      "FabJava",
       "SiVite",
       "SiRedhat",
       "SiUbuntu",
@@ -23,9 +25,7 @@
       "TiLine",
       "SiDeno",
       "SiBun",
-      "SiYarn",
-      "SiPnpm",
-      "SiComposer"
+      "SiYarn"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -109,7 +109,6 @@
   "cybersecurity": "TiShieldCheckered",
   "cybersecurity/cloud-security": "LiCloud",
   "cybersecurity/network-security/application-layer/email-security/Email security scenario.md": "LiMail",
-  "cybersecurity/network-security/application-layer/email-security/S-MIME.md": "LiFile",
   "cybersecurity/network-security/application-layer/email-security": "LiMail",
   "cybersecurity/network-security/application-layer": "TiApps",
   "cybersecurity/network-security/network-layer": "LiRouter",
@@ -548,7 +547,6 @@
   "programming/java/fundamentals/cli/Run Java program.md": "FabJava",
   "programming/java/fundamentals/java-core/interface/Default method in interface.md": "FabJava",
   "programming/java/fundamentals/java-core/function": "TiMathFunction",
-  "programming/java/fundamentals/java-core/common-problems/Swap two variables.md": "FabJava",
   "programming/javascript/vanilla-javascript/fundamentals": "SiJavascript",
   "programming/javascript/vanilla-javascript/common-problems": "SiJavascript",
   "programming/java/common-problems": "FabJava",
@@ -794,5 +792,9 @@
   "discrete-math/number-theory/Primitive root - Discrete Logarithm.md": "TiMathFunction",
   "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md": "SiWebpack",
   "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md": "SiVite",
-  "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md": "TiProtocol"
+  "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md": "TiProtocol",
+  "programming/java/common-problems/fundamentals/Swap two variables.md": "FabJava",
+  "cybersecurity/network-security/application-layer/email-security/Secure Multipurpose Internet Mail Extension (S-MIME).md": "LiFile",
+  "programming/java/fundamentals/functional-programming/Optional.md": "FabJava",
+  "dbms/transaction/acid/concurrency-control/Two-phase locking protocol 1.md": "TiLockUp"
 }

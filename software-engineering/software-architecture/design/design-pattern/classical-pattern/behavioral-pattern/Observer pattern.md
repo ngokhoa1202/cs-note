@@ -3,7 +3,6 @@
 - Also known as <mark style="background: #e4e62d;">Publish-Subcribe</mark> or Dependents.
 # Purpose
 - Defines a one-to-many dependency between objects so that whenever one object has <mark style="background: #e4e62d;">changed its state,</mark> all of <mark style="background: #e4e62d;">its dependents </mark>are notified and <mark style="background: #e4e62d;">automatically updated</mark>.
-
 # Application
 - When one object's change leads to the <mark style="background: #e4e62d;">change of all of its dependent objects</mark> and the dependents are unknown at run time.
 # Components
@@ -221,6 +220,7 @@ public class Main {
 # Disadvantage
 - <mark style="background: #e4e62d;">Unexpected updates</mark> may occur in case the Subject takes control of the notifications.
 - The order of notification to observers are not specified.
+***
 # References
 1. https://refactoring.guru/design-patterns/observer for observer pattern.
 2. Design Patterns: Elements of Reusable Object-Oriented Software -  Erich Gamma, Richard Helm, Ralph Johnson, and John Vlissides.

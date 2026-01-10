@@ -159,7 +159,7 @@ graph TD
 # Implementation
 ## Java
 ### Bottom-up approach
-```java title='0-1 Knapsack in Java: bottom-up approach' hl=8-9,12-18
+```java title='0-1 Knapsack in Java: bottom-up approach' hl=8-9,12-19
 public class Knapsack {
     public static int knapsack(int[] weights, int[] values, int W) {
         int n = weights.length;

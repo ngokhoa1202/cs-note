@@ -12,7 +12,7 @@
 [HTTP Over SSL (HTTPS)](cybersecurity/network-security/application-layer/HTTP%20Over%20SSL%20(HTTPS).md) 
 
 ## S-MIME
-[S-MIME](S-MIME.md)
+[Secure Multipurpose Internet Mail Extension (S-MIME)](cybersecurity/network-security/application-layer/email-security/Secure%20Multipurpose%20Internet%20Mail%20Extension%20(S-MIME).md)
 
 # Network-layer security
 ## IPSec

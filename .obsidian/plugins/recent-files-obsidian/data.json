@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Two-phase locking protocol",
-      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md"
+      "basename": "Pasted image 20260108201832",
+      "path": "assets/Pasted image 20260108201832.png"
     },
     {
-      "basename": "Two-phase locking protocol 1",
-      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol 1.md"
+      "basename": "gRPC for Quarkus",
+      "path": "programming/java/quarkus/gRPC for Quarkus.md"
     },
     {
-      "basename": "Timestamp-ordering based concurrency control",
-      "path": "dbms/transaction/acid/concurrency-control/Timestamp-ordering based concurrency control.md"
+      "basename": "Composite pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Composite pattern.md"
     },
     {
-      "basename": "Transaction isolation level",
-      "path": "dbms/transaction/acid/concurrency-control/Transaction isolation level.md"
+      "basename": "Domain driven design components",
+      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design components.md"
     },
     {
-      "basename": "Optimistic Concurrency control techniques",
-      "path": "dbms/transaction/acid/concurrency-control/Optimistic Concurrency control techniques.md"
+      "basename": "Dependency injection pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md"
     },
     {
-      "basename": "Multiple granularity level locking",
-      "path": "dbms/transaction/acid/concurrency-control/Multiple granularity level locking.md"
+      "basename": "Callback pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
     },
     {
-      "basename": "Fundamental Theorem of Arithmetic",
-      "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
+      "basename": "Proxy pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md"
+    },
+    {
+      "basename": "Factory Method pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern.md"
+    },
+    {
+      "basename": "Builder pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md"
+    },
+    {
+      "basename": "Abstract Factory pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md"
+    },
+    {
+      "basename": "Adapter pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Adapter pattern.md"
+    },
+    {
+      "basename": "Asynchronous method invocation pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern.md"
+    },
+    {
+      "basename": "Template method pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Template method pattern.md"
+    },
+    {
+      "basename": "Strategy pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Strategy pattern.md"
+    },
+    {
+      "basename": "Command pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command pattern.md"
+    },
+    {
+      "basename": "Flyweight pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Flyweight pattern.md"
+    },
+    {
+      "basename": "Decorator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern.md"
+    },
+    {
+      "basename": "Bridge pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md"
+    },
+    {
+      "basename": "Singleton pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Singleton pattern.md"
+    },
+    {
+      "basename": "Prototype pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md"
+    },
+    {
+      "basename": "Mediator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern.md"
+    },
+    {
+      "basename": "Observer pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Observer pattern.md"
+    },
+    {
+      "basename": "Visitor pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern.md"
+    },
+    {
+      "basename": "Control flow statements",
+      "path": "programming/java/fundamentals/java-core/control-flow/Control flow statements.md"
+    },
+    {
+      "basename": "Remote procedure call",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Remote procedure call.md"
+    },
+    {
+      "basename": "Message passing",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Message passing.md"
+    },
+    {
+      "basename": "Inter Process Communication",
+      "path": "operating-system/unix/linux/process-management/inter-process-communication/Inter Process Communication.md"
     },
     {
       "basename": "Fermat little theorem",
       "path": "discrete-math/number-theory/Fermat little theorem.md"
     },
     {
-      "basename": "Transaction processing",
-      "path": "dbms/transaction/acid/Transaction processing.md"
+      "basename": "Recoverability",
+      "path": "dbms/transaction/acid/transaction-schedule/Recoverability.md"
     },
     {
-      "basename": "Deadlock",
-      "path": "dbms/transaction/acid/concurrency-control/Deadlock.md"
+      "basename": "Two-phase locking protocol 1",
+      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol 1.md"
     },
     {
-      "basename": "Multiversion concurrency control techniques",
-      "path": "dbms/transaction/acid/concurrency-control/Multiversion concurrency control techniques.md"
+      "basename": "Transaction isolation level",
+      "path": "dbms/transaction/acid/concurrency-control/Transaction isolation level.md"
     },
     {
-      "basename": "Indexing structures",
-      "path": "dbms/dbms-indexing/Indexing structures.md"
-    },
-    {
-      "basename": "Dynamic multi-level indexes using B tree or B+ tree",
-      "path": "dbms/dbms-indexing/Dynamic multi-level indexes using B tree or B+ tree.md"
-    },
-    {
-      "basename": "Single-level ordered indexes",
-      "path": "dbms/dbms-indexing/Single-level ordered indexes.md"
-    },
-    {
-      "basename": "Shadow paging",
-      "path": "dbms/transaction/acid/recovery/Shadow paging.md"
-    },
-    {
-      "basename": "Multiversion concurrency control",
-      "path": "dbms/transaction/acid/concurrency-control/Multiversion concurrency control.md"
+      "basename": "Two-phase locking protocol",
+      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md"
     },
     {
       "basename": "Locking operations",
       "path": "dbms/transaction/acid/concurrency-control/Locking operations.md"
     },
     {
-      "basename": "Concurrency control problems",
-      "path": "dbms/transaction/acid/concurrency-control/Concurrency control problems.md"
+      "basename": "Dijkstra algorithm",
+      "path": "algorithm/algorithm/graph/Dijkstra algorithm.md"
     },
     {
-      "basename": "Firewall overview",
-      "path": "cybersecurity/Firewall overview.md"
+      "basename": "Bellman-Ford algorithm",
+      "path": "algorithm/algorithm/graph/Bellman-Ford algorithm.md"
     },
     {
-      "basename": "Malicious software",
-      "path": "cybersecurity/Malicious software.md"
+      "basename": "Selection sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
     },
     {
-      "basename": "Wireless network security",
-      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
+      "basename": "Insertion sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md"
     },
     {
-      "basename": "IEEE 802.11 Wireless LAN",
-      "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
+      "basename": "Merge sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Merge sort.md"
     },
     {
-      "basename": "Introduction to race condition",
-      "path": "cybersecurity/web-security/Introduction to race condition.md"
+      "basename": "Quick sort",
+      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
     },
     {
-      "basename": "HTTP Over SSL (HTTPS)",
-      "path": "cybersecurity/network-security/application-layer/HTTP Over SSL (HTTPS).md"
+      "basename": "0-1 Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
     },
     {
-      "basename": "Secure Shell (SSH)",
-      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
+      "basename": "Build Quarkus Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
     },
     {
-      "basename": "World Wide Web",
-      "path": "computer-network/application-layer/World Wide Web.md"
+      "basename": "Build Spring Boot image",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
     },
     {
-      "basename": "Reliable data transfer principle",
-      "path": "computer-network/transport-layer/tcp/rdt/Reliable data transfer principle.md"
+      "basename": "Stream API",
+      "path": "programming/java/fundamentals/functional-programming/stream/Stream API.md"
     },
     {
-      "basename": "Seletive repeat",
-      "path": "computer-network/transport-layer/tcp/rdt/Seletive repeat.md"
+      "basename": "Optional",
+      "path": "programming/java/fundamentals/functional-programming/Optional.md"
     },
     {
-      "basename": "Interruption vs. Interception vs. Modification vs. Fabrication",
-      "path": "cybersecurity/q-a/Interruption vs. Interception vs. Modification vs. Fabrication.md"
+      "basename": "Collector",
+      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collector.md"
     },
     {
-      "basename": "Quick UDP Internet Connection (QUIC)",
-      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
+      "basename": "Lambda expression",
+      "path": "programming/java/fundamentals/functional-programming/Lambda expression.md"
     },
     {
-      "basename": "Multiple Purpose Internet Mail Extension (MIME)",
-      "path": "computer-network/application-layer/email/Multiple Purpose Internet Mail Extension (MIME).md"
+      "basename": "Method reference",
+      "path": "programming/java/fundamentals/functional-programming/Method reference.md"
     },
     {
-      "basename": "POP3",
-      "path": "computer-network/application-layer/email/POP3.md"
+      "basename": "Functional interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/Functional interface.md"
     },
     {
-      "basename": "SMTP",
-      "path": "computer-network/application-layer/email/SMTP.md"
+      "basename": "Consumer interface",
+      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md"
     },
     {
-      "basename": "User Datagram Protocol (UDP)",
-      "path": "computer-network/transport-layer/udp/User Datagram Protocol (UDP).md"
-    },
-    {
-      "basename": "Packet delay",
-      "path": "computer-network/Packet delay.md"
-    },
-    {
-      "basename": "Webpack",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
-    },
-    {
-      "basename": "Cloud computing model",
-      "path": "cybersecurity/cloud-security/Cloud computing model.md"
-    },
-    {
-      "basename": "Transmission Control Protocol (TCP)",
-      "path": "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md"
-    },
-    {
-      "basename": "Network layer overview",
-      "path": "computer-network/network-layer/Network layer overview.md"
-    },
-    {
-      "basename": "Vite",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md"
-    },
-    {
-      "basename": "Server-side request forgery (SSRF)",
-      "path": "cybersecurity/web-security/Server-side request forgery (SSRF).md"
-    },
-    {
-      "basename": "MAC Concept",
-      "path": "cybersecurity/mac/MAC Concept.md"
-    },
-    {
-      "basename": "CMAC",
-      "path": "cybersecurity/mac/CMAC.md"
-    },
-    {
-      "basename": "Peer-to-Peer paradigm",
-      "path": "computer-network/application-layer/p2p/Peer-to-Peer paradigm.md"
-    },
-    {
-      "basename": "Web Socket",
-      "path": "computer-network/application-layer/web-socket/Web Socket.md"
-    },
-    {
-      "basename": "Dynamic Host Configuration Protocol",
-      "path": "computer-network/application-layer/dhcp/Dynamic Host Configuration Protocol.md"
-    },
-    {
-      "basename": "Cookie",
-      "path": "computer-network/application-layer/http/Cookie.md"
-    },
-    {
-      "basename": "HTTP Version",
-      "path": "computer-network/application-layer/http/HTTP Version.md"
-    },
-    {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
-    },
-    {
-      "basename": "Triple Data Encryption Standard (3DES)",
-      "path": "cryptography/symmetric-cipher/des/Triple Data Encryption Standard (3DES).md"
+      "basename": "Exception handling",
+      "path": "programming/java/fundamentals/java-core/exception-handling/Exception handling.md"
     }
   ],
   "omittedPaths": [],

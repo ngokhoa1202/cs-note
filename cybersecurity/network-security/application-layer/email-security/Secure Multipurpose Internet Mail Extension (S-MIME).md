@@ -1,6 +1,6 @@
 #cybersecurity #protocol #email #computer-network #application-layer #web #web-security 
 
-- Stands for ==Secure Multipurpose Internet Mail Extension==.
+- Stands for Secure Multipurpose Internet Mail Extension.
 - Support ==canonical form==.
 - Provide:
 	- Authentication.

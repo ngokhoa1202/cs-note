@@ -19,5 +19,5 @@
 # Email format:
 - RFC 5322.
 - [Multiple Purpose Internet Mail Extension (MIME)](Multiple%20Purpose%20Internet%20Mail%20Extension%20(MIME).md)
-- [S-MIME](S-MIME.md)
+- [Secure Multipurpose Internet Mail Extension (S-MIME)](cybersecurity/network-security/application-layer/email-security/Secure%20Multipurpose%20Internet%20Mail%20Extension%20(S-MIME).md)
 - 

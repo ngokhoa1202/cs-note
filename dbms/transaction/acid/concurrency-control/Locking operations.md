@@ -55,7 +55,7 @@
 - A <mark style="background: #e4e62d;">system lock table</mark> must be organized by DBMSs to know <mark style="background: #e4e62d;">which records are being locked</mark>.
 - For binary locks, a record in lock table can be in the form $<\text{item\_name}, \text{LOCK}, \text{Locking\_transaction}>$.
 - For multi-mode locks, a record in lock table can be in the form $<\text{item\_name}, \text{LOCK}, \text{No\_of\_reads}, \text{Locking\_transaction}>$
-
+***
 # References
 1. Operating System Concepts - Abraham Silberschatz - 10th - 2018 - Person Publisher.
 	1. Chapter 6: Synchronization tools.
