@@ -1,4 +1,4 @@
-#cpp #cpp-11 #cpp-98 #memory 
+#cpp #cpp-11 #cpp-98 #memory-management 
 # Definition
 - Move semantics allows an object, under certain conditions, to <mark class="hltr-yellow">take ownership of some other object's external resources</mark>. 
 # Purpose

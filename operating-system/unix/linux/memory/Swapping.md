@@ -1,4 +1,4 @@
-#linux #operating-system #memory #swapping #virtual-memory #swap-space #unix #fedora #ubuntu #debian #rhel #centos-stream
+#linux #operating-system #memory-management #swapping #virtual-memory #swap-space #unix #fedora #ubuntu #debian #rhel #centos-stream
 - Swapping is a memory management technique that moves entire processes between main memory and secondary storage.
 - <mark class="hltr-yellow">Extends available memory by using disk space as overflow storage for RAM</mark>.
 - Enables system to handle more processes than can fit in physical memory.

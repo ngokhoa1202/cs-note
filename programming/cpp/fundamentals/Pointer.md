@@ -1,4 +1,4 @@
-#c #cpp #memory #operating-system #garbage-collector #cpp-11  
+#c #cpp #memory-management #operating-system #garbage-collector #cpp-11  
 
 # Raw pointer
 - A _raw pointer_ is a pointer whose lifetime isn't controlled by an encapsulating object; as a result, its lifetime must be manually handled.

@@ -1381,7 +1381,6 @@ import.meta.env.VITE_API_URL
 ```
 
 ---
-
 # References
 1. https://vitejs.dev/guide/ - Official Vite guide
 2. https://vitejs.dev/config/ - Configuration reference

@@ -1,4 +1,4 @@
-#linux #operating-system #memory #paging #page-replacement #virtual-memory #algorithms #unix #fedora #ubuntu #debian #rhel #centos-stream
+#linux #operating-system #memory-management #paging #page-replacement #virtual-memory #algorithms #unix #fedora #ubuntu #debian #rhel #centos-stream
 - Page replacement is essential when all physical frames are allocated and a page fault occurs.
 - <mark class="hltr-yellow">Selects victim page to be removed from memory to make room for new page</mark>.
 - Goal is to minimize page fault rate and improve system performance.

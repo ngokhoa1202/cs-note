@@ -36,7 +36,6 @@ graph TD
 5. **Run as non-root**: Create and use non-privileged users (UID/GID ≥ 1000) for application runtime
 6. **Minimal attack surface**: Install only necessary packages to reduce potential vulnerabilities
 7. **Enable security updates**: Ensure `ubuntu-security` repository is enabled
-
 ## Ubuntu-Specific Considerations
 1. **Repository Management**:
    - **main**: Officially supported free software
@@ -52,14 +51,12 @@ graph TD
 3. **Use `--no-install-recommends`**: Prevents installing unnecessary suggested packages
 4. **Clean in same layer**: Remove package cache in the same `RUN` command that installs packages
 5. **Multi-stage builds**: Separate build-time and runtime dependencies
-6. **Remove snapd**: If not using snap packages, remove to save ~100MB
-
+6. **Remove snapd**: If not using snap packages, remove to save ~100 MB.
 ## Package Management
 1. **Certificate updates**: Install `ca-certificates` before making HTTPS requests
 2. **Transport security**: Use `apt-transport-https` for secure package downloads (built-in on Ubuntu 20.04+)
 3. **GPG verification**: Maintain `gnupg` for package signature verification
 4. **DEBIAN_FRONTEND**: Set to `noninteractive` to prevent interactive prompts during package installation
-
 ## Warning: Common Pitfalls
 
 ```mermaid
@@ -136,10 +133,8 @@ RUN chown appuser:appuser /app
 # Switch to non-root user
 USER appuser
 ```
-
 ## Extended Utilities Base
 - Includes development tools and network utilities for debugging and troubleshooting.
-
 ```Dockerfile
 FROM ubuntu:24.04
 
@@ -205,7 +200,6 @@ RUN chown appuser:appuser /app
 
 USER appuser
 ```
-
 ## Application Runtime Base
 - Production-ready base with runtime libraries, security configurations, and locale support.
 
@@ -284,11 +278,8 @@ USER appuser
 HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
   CMD curl -f http://localhost/ || exit 1
 ```
-
 ## Multi-stage Build Pattern
-
-Demonstrates separation of build-time and runtime dependencies for minimal final image size.
-
+- Demonstrates separation of build-time and runtime dependencies for minimal final image size.
 ```Dockerfile
 # Build stage with full toolchain
 FROM ubuntu:24.04 AS builder
@@ -341,11 +332,8 @@ RUN chown appuser:appuser /app
 
 USER appuser
 ```
-
 ## Ubuntu with Additional Repositories
-
-Example showing how to enable universe/multiverse repositories for additional packages.
-
+- Example showing how to enable universe/multiverse repositories for additional packages.
 ```Dockerfile
 FROM ubuntu:24.04
 

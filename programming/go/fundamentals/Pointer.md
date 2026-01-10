@@ -1,4 +1,4 @@
-#memory #operator #operating-system #garbage-collector #go 
+#memory-management #operator #operating-system #garbage-collector #go 
 # Pointer
 - Pointer in Go holds the address of some memory space.
 - A pointer is able to be dereferenced to access its referenced content, which is similar the pointer in C++. Go, however, insulates it from perform pointer arithmetic operator for memory safety.

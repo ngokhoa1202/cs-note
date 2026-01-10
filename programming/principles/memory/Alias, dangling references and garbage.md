@@ -1,4 +1,4 @@
-#c #cpp #java #javascript #rust #go #php #operating-system #memory #virtual-memory 
+#c #cpp #java #javascript #rust #go #php #operating-system #memory-management #virtual-memory 
 
 # Alias
 - An alias occurs when the <mark class="hltr-yellow">same object is bound to two different names</mark> at the same time.

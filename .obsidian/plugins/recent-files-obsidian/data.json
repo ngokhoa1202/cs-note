@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "Vite",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md"
+    },
+    {
+      "basename": "Node.js runtime",
+      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Node.js runtime.md"
+    },
+    {
+      "basename": "Bun runtime",
+      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Bun runtime.md"
+    },
+    {
+      "basename": "Deno runtime",
+      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Deno runtime.md"
+    },
+    {
+      "basename": "Containerfile",
+      "path": "site-reliability-engineering/container-engine/artifacts/Containerfile.md"
+    },
+    {
+      "basename": "Build Debian-based image",
+      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
+    },
+    {
+      "basename": "Build Ubuntu-based image",
+      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/ubuntu/Build Ubuntu-based image.md"
+    },
+    {
+      "basename": "Build Express.js image",
+      "path": "site-reliability-engineering/container-engine/artifacts/javascript/express.js/Build Express.js image.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "SUSE Based Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/suse/SUSE Based Image.md"
+    },
+    {
+      "basename": "Red Hat Based Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/red-hat/Red Hat Based Image.md"
+    },
+    {
+      "basename": "User",
+      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
+    },
+    {
+      "basename": "File permissions",
+      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
+    },
+    {
+      "basename": "Group",
+      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
+    },
+    {
+      "basename": "Compose file",
+      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
+    },
+    {
+      "basename": "Message broker",
+      "path": "software-engineering/api/protocol/message-passing/Message broker.md"
+    },
+    {
       "basename": "Pasted image 20260108201832",
       "path": "assets/Pasted image 20260108201832.png"
     },
@@ -135,70 +199,6 @@
     {
       "basename": "Dijkstra algorithm",
       "path": "algorithm/algorithm/graph/Dijkstra algorithm.md"
-    },
-    {
-      "basename": "Bellman-Ford algorithm",
-      "path": "algorithm/algorithm/graph/Bellman-Ford algorithm.md"
-    },
-    {
-      "basename": "Selection sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Selection sort.md"
-    },
-    {
-      "basename": "Insertion sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Insertion sort.md"
-    },
-    {
-      "basename": "Merge sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Merge sort.md"
-    },
-    {
-      "basename": "Quick sort",
-      "path": "algorithm/algorithm/sorting/internal-sorting/Quick sort.md"
-    },
-    {
-      "basename": "0-1 Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Build Spring Boot image",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/spring/spring-boot/Build Spring Boot image.md"
-    },
-    {
-      "basename": "Stream API",
-      "path": "programming/java/fundamentals/functional-programming/stream/Stream API.md"
-    },
-    {
-      "basename": "Optional",
-      "path": "programming/java/fundamentals/functional-programming/Optional.md"
-    },
-    {
-      "basename": "Collector",
-      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collector.md"
-    },
-    {
-      "basename": "Lambda expression",
-      "path": "programming/java/fundamentals/functional-programming/Lambda expression.md"
-    },
-    {
-      "basename": "Method reference",
-      "path": "programming/java/fundamentals/functional-programming/Method reference.md"
-    },
-    {
-      "basename": "Functional interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/Functional interface.md"
-    },
-    {
-      "basename": "Consumer interface",
-      "path": "programming/java/fundamentals/functional-programming/functional-interface/built-in-interface/Consumer interface.md"
-    },
-    {
-      "basename": "Exception handling",
-      "path": "programming/java/fundamentals/java-core/exception-handling/Exception handling.md"
     }
   ],
   "omittedPaths": [],

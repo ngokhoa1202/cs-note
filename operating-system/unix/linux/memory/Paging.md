@@ -1,4 +1,4 @@
-#linux #operating-system #memory #paging #memory-management #unix #fedora #ubuntu #debian #rhel #centos-stream
+#linux #operating-system #memory-management #paging #memory-management #unix #fedora #ubuntu #debian #rhel #centos-stream
 - Paging is a memory management scheme that eliminates the need for contiguous allocation.
 - <mark class="hltr-yellow">Divides physical memory into fixed-size blocks called frames and logical memory into same-size blocks called pages</mark>.
 - Eliminates external fragmentation and reduces internal fragmentation.

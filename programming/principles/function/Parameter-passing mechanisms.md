@@ -1,4 +1,4 @@
-#structured-programming #functional-programming #java #go #c #cpp #javascript #typescript #memory 
+#structured-programming #functional-programming #java #go #c #cpp #javascript #typescript #memory-management 
 # Pass by value
 - The caller evaluates the arguments and their content is <mark class="hltr-yellow">copied</mark> into the parameter variable.
 - As a result, if the argument passed is not a pointer and reference, any modification to that corresponding parameter inside the callee is *invisible* in the caller.

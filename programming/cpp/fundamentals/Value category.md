@@ -1,4 +1,4 @@
-#cpp #data-type #memory 
+#cpp #data-type #memory-management 
 
 - Every C++ expression has a type, and belongs to a _value category_. The value categories are the basis for rules that compilers must follow when <mark class="hltr-yellow">creating, copying, and moving temporary objects</mark> during expression evaluation.
 - ![](Pasted%20image%2020250518140455.png)

@@ -1,7 +1,7 @@
 #linux #container-engine #container-orchestration #containerization #podman #docker
 #computer-network #application-layer #transport-layer #windows #wsl #fedora #ubuntu
 #debian #centos-stream #rhel   #site-realibility-engineering #continuous-delivery 
-#continuous-integration 
+#continuous-integration #memory-management 
 # Purpose
 - Compose file (or Docker Compose file) is a *YAML configuration file* that defines and manages multi-container applications.
 - Instead of running multiple `docker run` commands with numerous flags, Compose file allows <mark class="hltr-yellow">defining services, networks, and volumes in a single declarative file</mark>.
@@ -229,6 +229,286 @@ volumes:
       o: addr=192.168.1.100,rw
       device: ":/path/to/dir"
 ```
+## Resource constraints
+- Resource constraints prevent containers from consuming excessive host resources, ensuring fair allocation and system stability.
+### Memory constraints
+- On Linux hosts, if the kernel detects insufficient memory for critical system functions, it triggers an Out Of Memory Exception and kills processes to free memory.
+#### Hard memory limit (`mem_limit`)
+Restricts container to use no more than fixed amount of memory. Container processes are killed if they exceed this limit.
+
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+```
+
+Legacy syntax (Docker Compose v2):
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    mem_limit: 512m
+```
+- The minimum memory limit is 6 MB.
+#### Soft memory limit (`mem_reservation`)
+- Specifies threshold below hard limit that activates when host detects memory contention. Container can use more than reservation when memory is available but scales back under pressure.
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
+```
+#### Memory swap limit (`memswap_limit`)
+Defines combined memory and swap capacity. Setting equal to memory limit disables swap entirely.
+
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    mem_limit: 300m
+    memswap_limit: 300m  # No swap allowed
+```
+
+To allow unlimited swap:
+```yaml
+services:
+  app:
+    mem_limit: 512m
+    memswap_limit: -1  # Unlimited swap
+```
+
+#### OOM killer disable
+- Prevents kernel from killing container processes during OOM events. Only effective when hard memory limit is set.
+
+```yaml
+services:
+  critical-app:
+    image: myapp:latest
+    mem_limit: 1g
+    oom_kill_disable: true
+```
+- Disabling OOM killer can cause system-wide instability if container consumes all available memory.
+#### Memory swappiness
+- Controls percentage of anonymous pages eligible for swapping (0-100 scale). Lower values reduce swap usage.
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    mem_swappiness: 0  # Disable swapping
+```
+- `0`: Disable swap (may still swap under extreme pressure)
+- `100`: Aggressive swapping
+### CPU constraints
+#### CPU quota (`cpus`)
+- Specifies number of CPUs container can use. Supports fractional values.
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    deploy:
+      resources:
+        limits:
+          cpus: '1.5'  # 1.5 CPUs
+```
+
+Legacy syntax:
+```yaml
+services:
+  app:
+    cpus: 0.5  # Half a CPU
+```
+
+#### CPU shares (`cpu_shares`)
+- Relative weight for CPU allocation when resources are constrained. Default is 1024.
+
+```yaml
+services:
+  high-priority:
+    image: app:latest
+    cpu_shares: 2048  # Gets 2x CPU time vs default
+
+  low-priority:
+    image: worker:latest
+    cpu_shares: 512   # Gets 0.5x CPU time vs default
+```
+- CPU shares are ==soft limits==. Container can use more CPU when system is idle but gets proportional allocation under contention.
+#### CPU set (`cpuset`)
+- Restricts container to specific CPU cores.
+
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    cpuset: "0,1"     # Use CPU cores 0 and 1
+
+  worker:
+    image: worker:latest
+    cpuset: "2-3"     # Use CPU cores 2 and 3
+```
+- NUMA optimization
+- Isolating workloads
+- Preventing interference between services
+#### CPU period and quota
+- Fine-grained control using CFS (Completely Fair Scheduler) parameters.
+```yaml
+services:
+  app:
+    image: nginx:alpine
+    cpu_period: 100000        # 100ms period (microseconds)
+    cpu_quota: 50000          # 50ms quota = 50% of one CPU
+```
+- **cpu_period**: Scheduling period in microseconds (default: 100000)
+- **cpu_quota**: Microseconds per period container can use
+- Formula: CPU usage = `cpu_quota / cpu_period`
+#### Real-time scheduler priority
+For latency-sensitive applications requiring real-time scheduling.
+
+```yaml
+services:
+  realtime-app:
+    image: rt-app:latest
+    cpu_rt_runtime: 950000    # 95ms of real-time per period
+    cpu_rt_period: 1000000    # 1 second period
+    cap_add:
+      - SYS_NICE
+    ulimits:
+      rtprio: 99
+```
+
+**Warning:** Real-time scheduling can starve other processes. Use with extreme caution.
+### GPU constraints
+- Expose GPU resources to containers for machine learning, graphics processing, or compute workloads.
+#### NVIDIA GPU access
+Requires NVIDIA Container Toolkit installed on host.
+
+```yaml
+services:
+  ml-training:
+    image: tensorflow/tensorflow:latest-gpu
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+```
+
+Expose specific GPUs:
+```yaml
+services:
+  inference:
+    image: pytorch:latest
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              device_ids: ['0', '2']  # Use GPU 0 and 2
+              capabilities: [gpu, compute, utility]
+```
+
+Legacy syntax:
+```yaml
+services:
+  ml-app:
+    image: cuda-app:latest
+    runtime: nvidia
+    environment:
+      NVIDIA_VISIBLE_DEVICES: all
+```
+
+GPU capabilities:
+- `gpu`: Full GPU access
+- `compute`: CUDA compute operations
+- `utility`: nvidia-smi and management tools
+- `video`: Video encoding/decoding
+- `graphics`: OpenGL rendering
+### Complete resource constraint example
+
+```yaml
+services:
+  web:
+    image: nginx:alpine
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 2G
+        reservations:
+          cpus: '0.5'
+          memory: 512M
+    cpuset: "0-1"
+    cpu_shares: 1024
+    mem_swappiness: 0
+
+  database:
+    image: postgres:15
+    deploy:
+      resources:
+        limits:
+          cpus: '4'
+          memory: 4G
+        reservations:
+          cpus: '1'
+          memory: 1G
+    cpuset: "2-5"
+    cpu_shares: 2048
+    mem_limit: 4g
+    memswap_limit: 4g
+    oom_kill_disable: false
+    volumes:
+      - db-data:/var/lib/postgresql/data
+
+  ml-worker:
+    image: pytorch:latest
+    deploy:
+      resources:
+        limits:
+          cpus: '8'
+          memory: 16G
+        reservations:
+          cpus: '2'
+          memory: 4G
+          devices:
+            - driver: nvidia
+              count: 1
+              capabilities: [gpu, compute]
+    cpuset: "6-13"
+
+volumes:
+  db-data:
+```
+
+### Monitoring resource usage
+```Shell title='Check container resource consumption'
+# View resource usage for all containers
+docker stats
+
+# View resource usage for specific compose project
+docker stats $(docker compose ps -q)
+
+# View detailed container inspection
+docker compose exec app cat /sys/fs/cgroup/memory/memory.limit_in_bytes
+docker compose exec app cat /sys/fs/cgroup/cpu/cpu.cfs_quota_us
+```
+### Best practices
+- **Set both limits and reservations**: Reservations guarantee minimum resources, limits prevent overconsumption
+- **Monitor before constraining**: Use `docker stats` to understand actual resource usage patterns
+- **Test under load**: Resource constraints may cause performance degradation or OOM kills
+- **Avoid disabling OOM killer**: Can cause system-wide instability
+- **Use CPU shares for priority**: Better than hard CPU limits for most web applications
+- **Pin critical workloads to specific cores**: Reduces context switching and improves cache performance
+- **Disable swap for databases**: Swapping database memory causes severe performance degradation
 # Docker Compose Commands
 ## General syntax
 ```Shell title='docker compose basic syntax'
@@ -361,7 +641,7 @@ docker compose logs -t
 ```Shell title='Limit the number of lines in logs'
 docker compose logs --tail=100 app
 ```
-## `docker compose exec`
+## `{Shell}docker compose exec`
 ### Behavior
 - ==Executes command== in running service container $\equiv$ `docker exec`.
 ### Syntax
@@ -704,5 +984,5 @@ docker compose build --no-cache
 8. [Docker Compose Networking](https://docs.docker.com/compose/networking/) for advanced networking concepts.
 9. [Docker Compose Environment Variables](https://docs.docker.com/compose/environment-variables/) for environment variable substitution.
 10. https://www.udemy.com/course/docker-mastery/ for Docker Compose tutorials.
-11. [[site-reliability-engineering/container-engine/artifacts/Containerfile|Containerfile]]
-
+11. [[site-reliability-engineering/container-engine/artifacts/Containerfile|Containerfile]].
+12. https://docs.docker.com/engine/containers/resource_constraints/ for Docker resource constraints.

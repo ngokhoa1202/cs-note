@@ -1,4 +1,4 @@
-#linux #operating-system #memory #memory-management #unix #fedora #ubuntu #debian #rhel #centos-stream
+#linux #operating-system #memory-management #memory-management #unix #fedora #ubuntu #debian #rhel #centos-stream
 - Memory management is a critical function of the operating system that manages primary memory.
 - <mark class="hltr-yellow">Provides each process with its own address space while protecting processes from each other</mark>.
 - Coordinates allocation and deallocation of memory for processes.

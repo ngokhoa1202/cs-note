@@ -1,4 +1,4 @@
-#linux #operating-system #memory #virtual-memory #paging #memory-management #unix #fedora #ubuntu #debian #rhel #centos-stream
+#linux #operating-system #memory-management #virtual-memory #paging #memory-management #unix #fedora #ubuntu #debian #rhel #centos-stream
 - Virtual memory is a memory management technique that provides an abstraction of storage resources.
 - <mark class="hltr-yellow">Allows execution of processes that are not completely in physical memory</mark>.
 - Separates logical memory from physical memory, enabling larger programs than physical RAM.
