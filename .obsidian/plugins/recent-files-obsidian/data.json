@@ -1,12 +1,144 @@
 {
   "recentFiles": [
     {
-      "basename": "Vite",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md"
+      "basename": "Event notification",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md"
     },
     {
-      "basename": "Node.js runtime",
-      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Node.js runtime.md"
+      "basename": "Compose file",
+      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
+    },
+    {
+      "basename": "Boot process",
+      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
+    },
+    {
+      "basename": "Persistence",
+      "path": "programming/java/quarkus/Persistence.md"
+    },
+    {
+      "basename": "RESTful Services",
+      "path": "programming/java/quarkus/RESTful Services.md"
+    },
+    {
+      "basename": "Reactive Programming",
+      "path": "programming/java/quarkus/Reactive Programming.md"
+    },
+    {
+      "basename": "Dependency Injection",
+      "path": "programming/java/quarkus/Dependency Injection.md"
+    },
+    {
+      "basename": "Quarkus",
+      "path": "programming/java/quarkus/Quarkus.md"
+    },
+    {
+      "basename": "Quarkus project structure",
+      "path": "programming/java/quarkus/Quarkus project structure.md"
+    },
+    {
+      "basename": "Concurrency control model",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
+    },
+    {
+      "basename": "Redux toolkit",
+      "path": "programming/javascript/react/state-management/redux/Redux toolkit.md"
+    },
+    {
+      "basename": "Redux",
+      "path": "programming/javascript/react/state-management/redux/Redux.md"
+    },
+    {
+      "basename": "Deriving state from redux store",
+      "path": "programming/javascript/react/state-management/redux/Deriving state from redux store.md"
+    },
+    {
+      "basename": "Classic Redux",
+      "path": "programming/javascript/react/state-management/redux/Classic Redux.md"
+    },
+    {
+      "basename": "useEffect hook",
+      "path": "programming/javascript/react/hooks/useEffect hook.md"
+    },
+    {
+      "basename": "useCallback hook",
+      "path": "programming/javascript/react/hooks/useCallback hook.md"
+    },
+    {
+      "basename": "Import image",
+      "path": "programming/javascript/react/asset-management/Import image.md"
+    },
+    {
+      "basename": "Component lifecycle",
+      "path": "programming/javascript/react/architecture/Component lifecycle.md"
+    },
+    {
+      "basename": "Thread",
+      "path": "programming/java/concurrency-control/Thread.md"
+    },
+    {
+      "basename": "Future",
+      "path": "programming/java/concurrency-control/Future.md"
+    },
+    {
+      "basename": "Processes",
+      "path": "operating-system/concepts/Processes.md"
+    },
+    {
+      "basename": "Repository pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md"
+    },
+    {
+      "basename": "gRPC for Quarkus",
+      "path": "programming/java/quarkus/gRPC for Quarkus.md"
+    },
+    {
+      "basename": "Systemctl commands",
+      "path": "operating-system/unix/linux/system-administration/service-management/Systemctl commands.md"
+    },
+    {
+      "basename": "Cloud computing model",
+      "path": "cybersecurity/cloud-security/Cloud computing model.md"
+    },
+    {
+      "basename": "Remote Procedure Call",
+      "path": "software-engineering/api/protocol/remote-procedure-call/Remote Procedure Call.md"
+    },
+    {
+      "basename": "JSON-RPC",
+      "path": "software-engineering/api/protocol/remote-procedure-call/json-rpc/JSON-RPC.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "software-engineering/api/protocol/remote-procedure-call/grpc/gRPC.md"
+    },
+    {
+      "basename": "Solace",
+      "path": "software-engineering/api/protocol/message-passing/solace/Solace.md"
+    },
+    {
+      "basename": "Message broker",
+      "path": "software-engineering/api/protocol/message-passing/Message broker.md"
+    },
+    {
+      "basename": "Apache Kafka",
+      "path": "software-engineering/api/protocol/message-passing/apache-kafka/Apache Kafka.md"
+    },
+    {
+      "basename": "RabbitMQ",
+      "path": "software-engineering/api/protocol/message-passing/rabbitmq/RabbitMQ.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "Build Express.js image",
+      "path": "site-reliability-engineering/container-engine/artifacts/javascript/express.js/Build Express.js image.md"
     },
     {
       "basename": "Bun runtime",
@@ -15,6 +147,42 @@
     {
       "basename": "Deno runtime",
       "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Deno runtime.md"
+    },
+    {
+      "basename": "Node.js runtime",
+      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Node.js runtime.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+    },
+    {
+      "basename": "Design patterns",
+      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
+    },
+    {
+      "basename": "Resource",
+      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
+    },
+    {
+      "basename": "Representational State Transfer (REST)",
+      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
+    },
+    {
+      "basename": "Pagination",
+      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
+    },
+    {
+      "basename": "Hypermedia as the Engine of Application State (HATEOAS)",
+      "path": "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md"
+    },
+    {
+      "basename": "Apache Thrift",
+      "path": "software-engineering/api/protocol/remote-procedure-call/thrift/Apache Thrift.md"
+    },
+    {
+      "basename": "Vite",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md"
     },
     {
       "basename": "Containerfile",
@@ -29,176 +197,8 @@
       "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/ubuntu/Build Ubuntu-based image.md"
     },
     {
-      "basename": "Build Express.js image",
-      "path": "site-reliability-engineering/container-engine/artifacts/javascript/express.js/Build Express.js image.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
       "basename": "SUSE Based Image",
       "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/suse/SUSE Based Image.md"
-    },
-    {
-      "basename": "Red Hat Based Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/red-hat/Red Hat Based Image.md"
-    },
-    {
-      "basename": "User",
-      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
-    },
-    {
-      "basename": "File permissions",
-      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
-    },
-    {
-      "basename": "Group",
-      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
-    },
-    {
-      "basename": "Compose file",
-      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
-    },
-    {
-      "basename": "Message broker",
-      "path": "software-engineering/api/protocol/message-passing/Message broker.md"
-    },
-    {
-      "basename": "Pasted image 20260108201832",
-      "path": "assets/Pasted image 20260108201832.png"
-    },
-    {
-      "basename": "gRPC for Quarkus",
-      "path": "programming/java/quarkus/gRPC for Quarkus.md"
-    },
-    {
-      "basename": "Composite pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Composite pattern.md"
-    },
-    {
-      "basename": "Domain driven design components",
-      "path": "software-engineering/software-architecture/design/domain-driven-design/Domain driven design components.md"
-    },
-    {
-      "basename": "Dependency injection pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md"
-    },
-    {
-      "basename": "Callback pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
-    },
-    {
-      "basename": "Proxy pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md"
-    },
-    {
-      "basename": "Factory Method pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern.md"
-    },
-    {
-      "basename": "Builder pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md"
-    },
-    {
-      "basename": "Abstract Factory pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md"
-    },
-    {
-      "basename": "Adapter pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Adapter pattern.md"
-    },
-    {
-      "basename": "Asynchronous method invocation pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Asynchronous method invocation pattern.md"
-    },
-    {
-      "basename": "Template method pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Template method pattern.md"
-    },
-    {
-      "basename": "Strategy pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Strategy pattern.md"
-    },
-    {
-      "basename": "Command pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command pattern.md"
-    },
-    {
-      "basename": "Flyweight pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Flyweight pattern.md"
-    },
-    {
-      "basename": "Decorator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern.md"
-    },
-    {
-      "basename": "Bridge pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md"
-    },
-    {
-      "basename": "Singleton pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Singleton pattern.md"
-    },
-    {
-      "basename": "Prototype pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md"
-    },
-    {
-      "basename": "Mediator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern.md"
-    },
-    {
-      "basename": "Observer pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Observer pattern.md"
-    },
-    {
-      "basename": "Visitor pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern.md"
-    },
-    {
-      "basename": "Control flow statements",
-      "path": "programming/java/fundamentals/java-core/control-flow/Control flow statements.md"
-    },
-    {
-      "basename": "Remote procedure call",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Remote procedure call.md"
-    },
-    {
-      "basename": "Message passing",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Message passing.md"
-    },
-    {
-      "basename": "Inter Process Communication",
-      "path": "operating-system/unix/linux/process-management/inter-process-communication/Inter Process Communication.md"
-    },
-    {
-      "basename": "Fermat little theorem",
-      "path": "discrete-math/number-theory/Fermat little theorem.md"
-    },
-    {
-      "basename": "Recoverability",
-      "path": "dbms/transaction/acid/transaction-schedule/Recoverability.md"
-    },
-    {
-      "basename": "Two-phase locking protocol 1",
-      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol 1.md"
-    },
-    {
-      "basename": "Transaction isolation level",
-      "path": "dbms/transaction/acid/concurrency-control/Transaction isolation level.md"
-    },
-    {
-      "basename": "Two-phase locking protocol",
-      "path": "dbms/transaction/acid/concurrency-control/Two-phase locking protocol.md"
-    },
-    {
-      "basename": "Locking operations",
-      "path": "dbms/transaction/acid/concurrency-control/Locking operations.md"
-    },
-    {
-      "basename": "Dijkstra algorithm",
-      "path": "algorithm/algorithm/graph/Dijkstra algorithm.md"
     }
   ],
   "omittedPaths": [],

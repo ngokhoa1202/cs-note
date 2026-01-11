@@ -1,8 +1,7 @@
-#messaging #kafka #event-streaming #distributed-systems #log-based
-==Apache Kafka== is a distributed event streaming platform designed for high-throughput, fault-tolerant, and scalable data pipelines. Unlike traditional message brokers, Kafka persists messages in a distributed commit log, enabling event replay and stream processing.
-
-## Architecture
-
+ #kafka #event-streaming #distributed-systems #log-based
+- Apache Kafka is a distributed event streaming platform designed for high-throughput, fault-tolerant, and scalable data pipelines. 
+- Unlike traditional message brokers, Kafka persists messages in a <mark class="hltr-yellow">distributed commit log</mark>, enabling event replay and stream processing.
+# Architecture
 ```mermaid
 graph TD
     P1[Producer 1] -->|write| T[Topic: orders]
@@ -22,9 +21,7 @@ graph TD
     style B2 fill:#9cf,stroke:#333
     style B3 fill:#9cf,stroke:#333
 ```
-
-### Core Components
-
+## Components
 - **Broker**: Kafka server that stores and serves messages
 - **Topic**: Logical category for organizing messages
 - **Partition**: Ordered, immutable sequence of records within a topic
@@ -32,7 +29,6 @@ graph TD
 - **Consumer**: Client that subscribes to topics and processes records
 - **Consumer Group**: Set of consumers that coordinate to consume partitions
 - **ZooKeeper/KRaft**: Cluster coordination and metadata management
-
 ## Topics and Partitions
 
 ```mermaid
@@ -55,12 +51,11 @@ graph TD
     style P2 fill:#9f9,stroke:#333
 ```
 
-### Partitioning Strategy
+## Partitioning Strategy
 
 - **Key-based**: Records with same key route to same partition (maintains ordering per key)
 - **Round-robin**: Distributes evenly when key is null
 - **Custom partitioner**: Application-specific routing logic
-
 ```Java
 Properties props = new Properties();
 props.put("bootstrap.servers", "localhost:9092");
@@ -72,9 +67,7 @@ ProducerRecord<String, String> record =
     new ProducerRecord<>("orders", "user-123", orderJson);
 producer.send(record);
 ```
-
-## Consumer Groups
-
+# Consumer Groups
 ```mermaid
 graph LR
     subgraph Topic Partitions
@@ -99,9 +92,7 @@ graph LR
     style P2 fill:#9cf,stroke:#333
     style P3 fill:#9cf,stroke:#333
 ```
-
-Consumers within same group coordinate to consume partitions. Each partition consumed by exactly one consumer in the group, enabling parallelism and load balancing.
-
+- Consumers within same group coordinate to consume partitions. Each partition consumed by exactly one consumer in the group, enabling parallelism and load balancing.
 ```Java
 Properties props = new Properties();
 props.put("bootstrap.servers", "localhost:9092");
@@ -120,9 +111,7 @@ while (true) {
     consumer.commitSync();
 }
 ```
-
-## Offset Management
-
+# Offset Management
 ```mermaid
 graph LR
     subgraph Partition
@@ -142,14 +131,11 @@ graph LR
     style M2 fill:#ff9,stroke:#333
 ```
 
-==Offset== is the sequential ID of each record within partition. Consumers track position to enable resumption and replay.
-
-### Commit Strategies
-
+- Offset is the sequential ID of each record within partition. Consumers track position to enable resumption and replay.
+## Commit Strategies
 - **Auto-commit**: Periodic automatic offset commits (may duplicate processing)
 - **Manual sync commit**: Explicit blocking commit after processing
 - **Manual async commit**: Non-blocking commit with callback
-
 ```Java
 // Manual sync commit
 consumer.commitSync();
@@ -161,17 +147,12 @@ consumer.commitAsync((offsets, exception) -> {
     }
 });
 ```
-
 ## Delivery Guarantees
-
 ### At-Most-Once
-Enable auto-commit or commit before processing. Fast but may lose messages on consumer failure.
-
+- Enable auto-commit or commit before processing. Fast but may lose messages on consumer failure.
 ### At-Least-Once
-Process then commit. May duplicate messages on consumer failure before commit. Requires idempotent consumers.
-
+- Process then commit. May duplicate messages on consumer failure before commit. Requires idempotent consumers.
 ### Exactly-Once Semantics (EOS)
-
 ```Java
 Properties props = new Properties();
 props.put("enable.idempotence", "true");
@@ -188,10 +169,8 @@ try {
     producer.abortTransaction();
 }
 ```
-
-Requires idempotent producer and transactional semantics. Prevents duplicates across retries and failures.
-
-## Replication and Fault Tolerance
+- Requires idempotent producer and transactional semantics. Prevents duplicates across retries and failures.
+# Replication and Fault Tolerance
 
 ```mermaid
 sequenceDiagram
@@ -209,17 +188,14 @@ sequenceDiagram
     L->>P: ACK
 ```
 
-### In-Sync Replicas (ISR)
-Replicas that are caught up with leader. Leader waits for ISR acknowledgment based on `acks` configuration.
-
-- **acks=0**: No acknowledgment (fastest, may lose data)
-- **acks=1**: Leader acknowledgment only (may lose data if leader fails)
-- **acks=all**: All ISR acknowledgment (strongest guarantee)
-
-### Leader Election
-When leader fails, one of the ISR replicas is elected as new leader. Ensures no data loss when using `acks=all`.
-
-## Log Retention
+## In-Sync Replicas (ISR)
+- Replicas that are caught up with leader. Leader waits for ISR acknowledgment based on `acks` configuration.
+    - **acks=0**: No acknowledgment (fastest, may lose data)
+    - **acks=1**: Leader acknowledgment only (may lose data if leader fails)
+    - **acks=all**: All ISR acknowledgment (strongest guarantee)
+## Leader Election
+- When leader fails, one of the ISR replicas is elected as new leader. Ensures no data loss when using `acks=all`.
+# Log Retention
 
 ```mermaid
 graph LR
@@ -231,9 +207,7 @@ graph LR
     style O1 fill:#fcc,stroke:#333
     style O2 fill:#9f9,stroke:#333
 ```
-
-Kafka retains messages based on time or size policies, independent of consumption.
-
+- Kafka retains messages based on time or size policies, independent of consumption.
 ```Shell
 # Time-based retention (7 days)
 retention.ms=604800000
@@ -244,9 +218,7 @@ retention.bytes=1073741824
 # Compaction - keeps latest value per key
 cleanup.policy=compact
 ```
-
-## Log Compaction
-
+# Log Compaction
 ```mermaid
 graph TD
     subgraph Before Compaction
@@ -269,10 +241,8 @@ graph TD
     style K3A2 fill:#9f9,stroke:#333
 ```
 
-Retains only latest value for each key. Useful for state snapshots and changelog topics.
-
-## Stream Processing (Kafka Streams)
-
+- Retains only latest value for each key. Useful for state snapshots and changelog topics.
+# Stream Processing (Kafka Streams)
 ```mermaid
 graph LR
     IT[Input Topic] --> SP[Stream Processor]
@@ -284,8 +254,7 @@ graph LR
     style SP fill:#ff9,stroke:#333
 ```
 
-Native stream processing library for transformations, aggregations, and joins.
-
+- Native stream processing library for transformations, aggregations, and joins.
 ```Java
 StreamsBuilder builder = new StreamsBuilder();
 KStream<String, String> orders = builder.stream("orders");
@@ -299,40 +268,19 @@ KafkaStreams streams = new KafkaStreams(builder.build(), props);
 streams.start();
 ```
 
-## Performance Characteristics
-
-### High Throughput
+# Performance
+## High Throughput
 - Sequential disk I/O for log appends
 - Zero-copy data transfer from disk to network
 - Batch compression and transmission
-
-### Low Latency
+## Low Latency
 - End-to-end latency typically under 10ms
 - Optimized for sustained throughput over individual message latency
-
-### Scalability
+## Scalability
 - Horizontal scaling via partition distribution
 - Consumer parallelism through consumer groups
 - Linear scaling with broker addition
-
-## Use Cases
-
-### Event Sourcing
-Store all state changes as immutable events. Rebuild application state by replaying event log.
-
-### Stream Processing
-Real-time data transformations, aggregations, and analytics on event streams.
-
-### Log Aggregation
-Centralized collection of application logs from distributed services.
-
-### Metrics and Monitoring
-High-throughput ingestion of operational metrics and telemetry data.
-
-### Change Data Capture (CDC)
-Track and propagate database changes to downstream systems.
-
-## Kafka Connect
+# Kafka Connect
 
 Framework for integrating Kafka with external systems through connectors.
 
@@ -347,11 +295,8 @@ graph LR
 
 - **Source connectors**: Import data into Kafka
 - **Sink connectors**: Export data from Kafka
-
-## Schema Registry
-
-Centralized schema management for Kafka messages using Avro, Protobuf, or JSON Schema.
-
+# Schema Registry
+- Centralized schema management for Kafka messages using Avro, Protobuf, or JSON Schema.
 ```Java
 Properties props = new Properties();
 props.put("schema.registry.url", "http://localhost:8081");
@@ -359,29 +304,13 @@ props.put("schema.registry.url", "http://localhost:8081");
 KafkaAvroSerializer serializer = new KafkaAvroSerializer();
 KafkaAvroDeserializer deserializer = new KafkaAvroDeserializer();
 ```
-
-Ensures producer-consumer compatibility and enables schema evolution.
-
-## Common Pitfalls
-
-### Too Many Partitions
-Increases ZooKeeper overhead and recovery time. Start conservatively and scale as needed.
-
-### Ignoring Rebalancing
-Frequent rebalances impact consumer performance. Tune `session.timeout.ms` and `max.poll.interval.ms`.
-
-### Not Monitoring Consumer Lag
-Growing lag indicates consumers cannot keep up. Scale consumers or optimize processing.
-
-### Improper Key Selection
-Poor key distribution causes partition skew. Choose keys that distribute evenly.
-
+- Ensures producer-consumer compatibility and enables schema evolution.
 ***
 # References
 1. Kafka: The Definitive Guide - Neha Narkhede, Gwen Shapira, Todd Palino - 2nd Edition - 2021 - O'Reilly
-   1. Chapter 3: Kafka Producers
-   2. Chapter 4: Kafka Consumers
-   3. Chapter 6: Reliable Data Delivery
+    1. Chapter 3: Kafka Producers
+    2. Chapter 4: Kafka Consumers
+    3. Chapter 6: Reliable Data Delivery
 2. https://kafka.apache.org/documentation/
 3. Designing Event-Driven Systems - Ben Stopford - 2018 - O'Reilly
 4. https://kafka.apache.org/documentation/streams/

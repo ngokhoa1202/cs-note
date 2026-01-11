@@ -1,6 +1,5 @@
 #concurrency-control #operating-system #thread #process #process-synchronization #parallel-programming
 #asynchronous-programming
-
 - Concurrency control models provide architectural patterns for managing concurrent execution.
 - Different models suit different types of problems and workloads.
 # Task-Based Models
@@ -142,7 +141,6 @@ flowchart LR
 - **Advantages**: Throughput optimization; natural for stream processing; stages can run at different speeds.
 - **Disadvantages**: Pipeline stalls; backpressure handling; complex error handling.
 - **Use Cases**: Data processing pipelines, video encoding, network packet processing.
-
 # Message-Passing Models
 ## Actor Model
 - <mark class="hltr-yellow">Actors are independent entities that communicate only via asynchronous messages</mark>.

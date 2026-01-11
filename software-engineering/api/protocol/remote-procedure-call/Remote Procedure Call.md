@@ -244,7 +244,6 @@ Clients locate server instances dynamically through service registry.
 - **Centralized registry**: Consul, etcd, ZooKeeper
 - **Client-side discovery**: Client queries registry
 - **Server-side discovery**: Load balancer queries registry
-
 ## Load Balancing
 
 ### Client-Side Load Balancing
@@ -365,10 +364,10 @@ Breaking changes disrupt clients. Use backward-compatible field additions and de
 ***
 # References
 1. Designing Data-Intensive Applications - Martin Kleppmann - 2017 - O'Reilly
-   1. Chapter 4: Encoding and Evolution
+    1. Chapter 4: Encoding and Evolution
 2. Building Microservices - Sam Newman - 2nd Edition - 2021 - O'Reilly
-   1. Chapter 4: Microservice Communication Styles
+    1. Chapter 4: Microservice Communication Styles
 3. https://grpc.io/docs/what-is-grpc/introduction/
 4. Distributed Systems - Andrew S. Tanenbaum, Maarten Van Steen - 3rd Edition - 2017
-   1. Chapter 4: Communication
+    1. Chapter 4: Communication
 5. https://www.enterpriseintegrationpatterns.com/patterns/messaging/

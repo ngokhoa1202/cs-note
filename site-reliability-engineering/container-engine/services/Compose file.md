@@ -388,7 +388,7 @@ services:
 ### GPU constraints
 - Expose GPU resources to containers for machine learning, graphics processing, or compute workloads.
 #### NVIDIA GPU access
-Requires NVIDIA Container Toolkit installed on host.
+- Requires NVIDIA Container Toolkit installed on host.
 
 ```yaml
 services:
