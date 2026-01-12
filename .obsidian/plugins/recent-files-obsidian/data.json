@@ -1,12 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Event notification",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md"
+      "basename": "Hardware event notification",
+      "path": "operating-system/unix/linux/io-management/Hardware event notification.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+    },
+    {
+      "basename": "File permissions",
+      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
+    },
+    {
+      "basename": "Build Debian-based image",
+      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
     },
     {
       "basename": "Compose file",
       "path": "site-reliability-engineering/container-engine/services/Compose file.md"
+    },
+    {
+      "basename": "Build Express.js image",
+      "path": "site-reliability-engineering/container-engine/artifacts/javascript/express.js/Build Express.js image.md"
+    },
+    {
+      "basename": "Event notification patterns",
+      "path": "operating-system/unix/linux/io-management/Event notification patterns.md"
+    },
+    {
+      "basename": "Concurrency control model",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
     },
     {
       "basename": "Boot process",
@@ -35,10 +59,6 @@
     {
       "basename": "Quarkus project structure",
       "path": "programming/java/quarkus/Quarkus project structure.md"
-    },
-    {
-      "basename": "Concurrency control model",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
     },
     {
       "basename": "Redux toolkit",
@@ -137,10 +157,6 @@
       "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
     },
     {
-      "basename": "Build Express.js image",
-      "path": "site-reliability-engineering/container-engine/artifacts/javascript/express.js/Build Express.js image.md"
-    },
-    {
       "basename": "Bun runtime",
       "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Bun runtime.md"
     },
@@ -151,10 +167,6 @@
     {
       "basename": "Node.js runtime",
       "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Node.js runtime.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
     },
     {
       "basename": "Design patterns",
@@ -187,18 +199,6 @@
     {
       "basename": "Containerfile",
       "path": "site-reliability-engineering/container-engine/artifacts/Containerfile.md"
-    },
-    {
-      "basename": "Build Debian-based image",
-      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
-    },
-    {
-      "basename": "Build Ubuntu-based image",
-      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/ubuntu/Build Ubuntu-based image.md"
-    },
-    {
-      "basename": "SUSE Based Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/suse/SUSE Based Image.md"
     }
   ],
   "omittedPaths": [],

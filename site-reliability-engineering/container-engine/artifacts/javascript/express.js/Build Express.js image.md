@@ -5,6 +5,7 @@
 - The standard location for binary executable file on Red hat based image is `/opt/app-root/bin`.
 ## Red Hat 8
 ```Dockerfile title='Containerfile to build an express.js app with Red Hat Universal Binary Image 8'
+
 WORKDIR /opt/app-root/src
 
 COPY package*.json yarn.lock ./

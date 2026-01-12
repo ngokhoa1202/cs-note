@@ -123,9 +123,9 @@ graph TB
 
 #### Usage
 - Runs automatically during:
-  - `npm install` (without arguments)
-  - `npm publish`
-  - `npm pack`
+    - `npm install` (without arguments)
+    - `npm publish`
+    - `npm pack`
   - Git dependencies installation
 ## Publish Lifecycle Scripts
 ### 1. prepublishOnly

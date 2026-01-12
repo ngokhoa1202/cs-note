@@ -339,7 +339,7 @@ offset: File offset to start mapping
 - When all frames are allocated, must select victim page to replace.
 - Goal: Minimize page fault rate.
 - <mark class="hltr-yellow">Critical for virtual memory performance</mark>.
-- Covered in detail in [[Page replacement.md]].
+- Covered in detail in [[operating-system/unix/linux/memory-management/Page replacement]].
 # Working Set Model
 - <mark class="hltr-yellow">Set of pages actively used by process during execution window</mark>.
 - Based on principle of locality.

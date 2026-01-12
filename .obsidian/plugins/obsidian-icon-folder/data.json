@@ -599,7 +599,6 @@
   "operating-system/unix/linux/shell-and-scripting/Path variable.md": "LiSlash",
   "operating-system/unix/linux/process-management": "TiArrowFork",
   "operating-system/unix/linux/security": "LiLock",
-  "operating-system/unix/linux/memory": "FasMemory",
   "operating-system/unix/linux/kernel": "SiLinux",
   "operating-system/unix/linux/shell-and-scripting": "SiGnubash",
   "operating-system/unix/linux/storage": "FarFloppyDisk",
@@ -640,7 +639,6 @@
   "operating-system/unix/linux/system-administration/access-control/Group.md": "TiUsersGroup",
   "operating-system/unix/linux/system-administration/access-control/User.md": "LiUser",
   "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md": "TiArrowsRight",
-  "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Event notification.md": "LiBell",
   "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Monitor.md": "LiMonitor",
   "operating-system/unix/linux/process-management/process-synchronization/locking-mechanism/Peterson solution.md": "LiLock",
   "operating-system/unix/linux/process-management/Batch processing system.md": "MiBatching",
@@ -818,5 +816,6 @@
   "software-engineering/api/protocol/remote-procedure-call/json-rpc/JSON-RPC.md": "LiBraces",
   "programming/java/quarkus/Reactive Programming.md": "MiSmallrye",
   "programming/java/quarkus/Quarkus.md": "SiQuarkus",
-  "programming/java/quarkus/Persistence.md": "SiQuarkus"
+  "programming/java/quarkus/Persistence.md": "SiQuarkus",
+  "operating-system/unix/linux/memory-management": "FasMemory"
 }

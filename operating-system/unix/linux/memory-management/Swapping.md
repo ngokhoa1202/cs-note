@@ -35,7 +35,7 @@ flowchart TD
 - Modern approach: swap individual pages, not entire process.
 - More efficient than process swapping.
 - Allows partial residence of process in memory.
-- See [[Virtual memory.md]] and [[Page replacement.md]] for details.
+- See [[operating-system/unix/linux/memory-management/Virtual memory]] and [[operating-system/unix/linux/memory-management/Page replacement]] for details.
 ## Swap Space
 - <mark class="hltr-yellow">Dedicated area on disk for swapping</mark>.
 - Can be partition or file.
