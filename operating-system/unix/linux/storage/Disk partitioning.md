@@ -3,32 +3,7 @@
 - Disk partitioning divides physical storage into logical sections called partitions.
 - <mark class="hltr-yellow">Each partition acts as an independent disk with its own filesystem</mark>.
 - Enables multi-boot systems, data organization, and isolation of OS from user data.
-
-# Partition Concepts
-
-## Why Partitioning?
-### Benefits
-1. **Separation of Concerns**
-	- Separate OS from user data.
-	- Isolate critical system files.
-	- Prevent log files from filling root partition.
-
-2. **Multi-Boot Systems**
-	- Install multiple operating systems.
-	- Each OS in separate partition.
-
-3. **Performance Optimization**
-	- Place frequently accessed data on faster partitions.
-	- Optimize filesystem parameters per partition.
-
-4. **Data Protection**
-	- Corruption in one partition doesn't affect others.
-	- Easier backup and recovery.
-
-5. **Security and Quota Management**
-	- Apply different security policies per partition.
-	- Set disk quotas independently.
-
+# Concepts
 ## Partition Types
 ```mermaid
 graph TD

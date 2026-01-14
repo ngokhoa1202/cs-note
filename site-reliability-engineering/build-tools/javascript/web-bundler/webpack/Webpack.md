@@ -540,11 +540,11 @@ module.exports = {
 }
 ```
 
-| Mode            | Optimizations Enabled                               |
-| --------------- | --------------------------------------------------- |
-| `development`   | Fast builds, detailed errors, source maps           |
-| `production`    | Minification, tree shaking, scope hoisting          |
-| `none`          | No built-in optimizations                           |
+| Mode          | Optimizations Enabled                      |
+| ------------- | ------------------------------------------ |
+| `development` | Fast builds, detailed errors, source maps  |
+| `production`  | Minification, tree shaking, scope hoisting |
+| `none`        | No built-in optimizations                  |
 
 **Development Mode:**
 - Fast rebuild times

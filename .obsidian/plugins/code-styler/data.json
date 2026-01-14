@@ -612,13 +612,13 @@
       },
       "header": {
         "title": {
-          "textFont": "",
+          "textFont": "Source Sans 3",
           "textBold": true,
-          "textItalic": false
+          "textItalic": true
         },
         "languageTag": {
           "display": "always",
-          "textFont": "",
+          "textFont": "Lora",
           "textBold": true,
           "textItalic": false
         },

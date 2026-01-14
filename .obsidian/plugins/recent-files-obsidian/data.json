@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Hardware event notification",
-      "path": "operating-system/unix/linux/io-management/Hardware event notification.md"
+      "basename": "Email security scenario",
+      "path": "cybersecurity/network-security/application-layer/email-security/Email security scenario.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
+      "basename": "Unbounded Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Unbounded Knapsack problem.md"
     },
     {
-      "basename": "File permissions",
-      "path": "operating-system/unix/linux/system-administration/access-control/File permissions.md"
+      "basename": "Bounded Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Bounded Knapsack problem.md"
     },
     {
-      "basename": "Build Debian-based image",
-      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
+      "basename": "0-1 Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
     },
     {
-      "basename": "Compose file",
-      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
+      "basename": "Controller as syntax",
+      "path": "programming/javascript/angular/angularjs/controllers/Controller as syntax.md"
     },
     {
-      "basename": "Build Express.js image",
-      "path": "site-reliability-engineering/container-engine/artifacts/javascript/express.js/Build Express.js image.md"
+      "basename": "Controllers and $scope",
+      "path": "programming/javascript/angular/angularjs/controllers/Controllers and $scope.md"
     },
     {
-      "basename": "Event notification patterns",
-      "path": "operating-system/unix/linux/io-management/Event notification patterns.md"
+      "basename": "Controller as syntax",
+      "path": "Controller as syntax.md"
     },
     {
-      "basename": "Concurrency control model",
-      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
+      "basename": "Asynchronous programming in Angular",
+      "path": "programming/javascript/angular/modern-angular/reactive-programming/Asynchronous programming in Angular.md"
     },
     {
-      "basename": "Boot process",
-      "path": "operating-system/unix/linux/system-administration/booting/Boot process.md"
+      "basename": "Class and Style binding",
+      "path": "programming/javascript/angular/modern-angular/templates/Class and Style binding.md"
     },
     {
-      "basename": "Persistence",
-      "path": "programming/java/quarkus/Persistence.md"
+      "basename": "Angular",
+      "path": "programming/javascript/angular/modern-angular/fundamentals/Angular.md"
     },
     {
-      "basename": "RESTful Services",
-      "path": "programming/java/quarkus/RESTful Services.md"
+      "basename": "Two-way binding in Angular",
+      "path": "programming/javascript/angular/modern-angular/components/Two-way binding in Angular.md"
     },
     {
-      "basename": "Reactive Programming",
-      "path": "programming/java/quarkus/Reactive Programming.md"
+      "basename": "Sharing states between components",
+      "path": "programming/javascript/angular/modern-angular/components/Sharing states between components.md"
     },
     {
-      "basename": "Dependency Injection",
-      "path": "programming/java/quarkus/Dependency Injection.md"
+      "basename": "Angular commands",
+      "path": "programming/javascript/angular/modern-angular/cli/Angular commands.md"
     },
     {
-      "basename": "Quarkus",
-      "path": "programming/java/quarkus/Quarkus.md"
+      "basename": "AngularJS",
+      "path": "programming/javascript/angular/angularjs/AngularJS.md"
     },
     {
-      "basename": "Quarkus project structure",
-      "path": "programming/java/quarkus/Quarkus project structure.md"
+      "basename": "RxJS",
+      "path": "programming/javascript/rxjs/RxJS.md"
     },
     {
-      "basename": "Redux toolkit",
-      "path": "programming/javascript/react/state-management/redux/Redux toolkit.md"
+      "basename": "Deadlock",
+      "path": "operating-system/unix/linux/process-management/Deadlock.md"
     },
     {
-      "basename": "Redux",
-      "path": "programming/javascript/react/state-management/redux/Redux.md"
+      "basename": "IEEE 802.11 Wireless LAN",
+      "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
     },
     {
-      "basename": "Deriving state from redux store",
-      "path": "programming/javascript/react/state-management/redux/Deriving state from redux store.md"
+      "basename": "Wireless network security",
+      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
     },
     {
-      "basename": "Classic Redux",
-      "path": "programming/javascript/react/state-management/redux/Classic Redux.md"
+      "basename": "CMAC",
+      "path": "cybersecurity/mac/CMAC.md"
     },
     {
-      "basename": "useEffect hook",
-      "path": "programming/javascript/react/hooks/useEffect hook.md"
+      "basename": "DAA",
+      "path": "cybersecurity/mac/DAA.md"
     },
     {
-      "basename": "useCallback hook",
-      "path": "programming/javascript/react/hooks/useCallback hook.md"
+      "basename": "HMAC",
+      "path": "cybersecurity/mac/HMAC.md"
     },
     {
-      "basename": "Import image",
-      "path": "programming/javascript/react/asset-management/Import image.md"
+      "basename": "IKE",
+      "path": "cybersecurity/network-security/network-layer/IKE.md"
     },
     {
-      "basename": "Component lifecycle",
-      "path": "programming/javascript/react/architecture/Component lifecycle.md"
+      "basename": "IP Security",
+      "path": "cybersecurity/network-security/network-layer/IP Security.md"
     },
     {
-      "basename": "Thread",
-      "path": "programming/java/concurrency-control/Thread.md"
+      "basename": "Network security overview",
+      "path": "cybersecurity/network-security/Network security overview.md"
     },
     {
-      "basename": "Future",
-      "path": "programming/java/concurrency-control/Future.md"
+      "basename": "Chinese Remainder Theorem",
+      "path": "discrete-math/number-theory/Chinese Remainder Theorem.md"
     },
     {
-      "basename": "Processes",
-      "path": "operating-system/concepts/Processes.md"
-    },
-    {
-      "basename": "Repository pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md"
-    },
-    {
-      "basename": "gRPC for Quarkus",
-      "path": "programming/java/quarkus/gRPC for Quarkus.md"
-    },
-    {
-      "basename": "Systemctl commands",
-      "path": "operating-system/unix/linux/system-administration/service-management/Systemctl commands.md"
-    },
-    {
-      "basename": "Cloud computing model",
-      "path": "cybersecurity/cloud-security/Cloud computing model.md"
-    },
-    {
-      "basename": "Remote Procedure Call",
-      "path": "software-engineering/api/protocol/remote-procedure-call/Remote Procedure Call.md"
-    },
-    {
-      "basename": "JSON-RPC",
-      "path": "software-engineering/api/protocol/remote-procedure-call/json-rpc/JSON-RPC.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "software-engineering/api/protocol/remote-procedure-call/grpc/gRPC.md"
-    },
-    {
-      "basename": "Solace",
-      "path": "software-engineering/api/protocol/message-passing/solace/Solace.md"
-    },
-    {
-      "basename": "Message broker",
-      "path": "software-engineering/api/protocol/message-passing/Message broker.md"
-    },
-    {
-      "basename": "Apache Kafka",
-      "path": "software-engineering/api/protocol/message-passing/apache-kafka/Apache Kafka.md"
-    },
-    {
-      "basename": "RabbitMQ",
-      "path": "software-engineering/api/protocol/message-passing/rabbitmq/RabbitMQ.md"
-    },
-    {
-      "basename": "Build Quarkus Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reliability-engineering/container-engine/artifacts/java/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
-      "basename": "Bun runtime",
-      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Bun runtime.md"
-    },
-    {
-      "basename": "Deno runtime",
-      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Deno runtime.md"
+      "basename": "Extended Euclidean algorithm",
+      "path": "discrete-math/number-theory/Extended Euclidean algorithm.md"
     },
     {
       "basename": "Node.js runtime",
       "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Node.js runtime.md"
     },
     {
-      "basename": "Design patterns",
-      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
+      "basename": "Deno runtime",
+      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Deno runtime.md"
     },
     {
-      "basename": "Resource",
-      "path": "software-engineering/api/protocol/web-service/rest/Resource.md"
+      "basename": "Bun runtime",
+      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Bun runtime.md"
     },
     {
-      "basename": "Representational State Transfer (REST)",
-      "path": "software-engineering/api/protocol/web-service/rest/Representational State Transfer (REST).md"
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/php/composer/Lifecycle.md"
     },
     {
-      "basename": "Pagination",
-      "path": "software-engineering/api/protocol/web-service/rest/Pagination.md"
+      "basename": "Webpack",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
     },
     {
-      "basename": "Hypermedia as the Engine of Application State (HATEOAS)",
-      "path": "software-engineering/api/protocol/web-service/rest/Hypermedia as the Engine of Application State (HATEOAS).md"
+      "basename": "RAID",
+      "path": "operating-system/unix/linux/storage/RAID.md"
     },
     {
-      "basename": "Apache Thrift",
-      "path": "software-engineering/api/protocol/remote-procedure-call/thrift/Apache Thrift.md"
+      "basename": "Disk partitioning",
+      "path": "operating-system/unix/linux/storage/Disk partitioning.md"
     },
     {
-      "basename": "Vite",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/vite/Vite.md"
+      "basename": "Fundamental Theorem of Arithmetic",
+      "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
     },
     {
-      "basename": "Containerfile",
-      "path": "site-reliability-engineering/container-engine/artifacts/Containerfile.md"
+      "basename": "Diophantine equation",
+      "path": "discrete-math/number-theory/Diophantine equation.md"
+    },
+    {
+      "basename": "Euler Phi function",
+      "path": "discrete-math/number-theory/Euler Phi function.md"
+    },
+    {
+      "basename": "Primitive root - Discrete Logarithm",
+      "path": "discrete-math/number-theory/Primitive root - Discrete Logarithm.md"
+    },
+    {
+      "basename": "Diffie-Hellman key exchange.",
+      "path": "cryptography/rsa/Diffie-Hellman key exchange..md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/rsa/Elgamal cryptosystem.md"
+    },
+    {
+      "basename": "RSA",
+      "path": "cryptography/rsa/RSA.md"
+    },
+    {
+      "basename": "DAA",
+      "path": "cryptography/hash-function/mac/DAA.md"
+    },
+    {
+      "basename": "Hash-based Message Authentication Code",
+      "path": "cryptography/hash-function/mac/Hash-based Message Authentication Code.md"
+    },
+    {
+      "basename": "CMAC",
+      "path": "cryptography/hash-function/mac/CMAC.md"
+    },
+    {
+      "basename": "Exhaustive key search",
+      "path": "cryptography/des/Exhaustive key search.md"
+    },
+    {
+      "basename": "DES encryption",
+      "path": "cryptography/des/DES encryption.md"
+    },
+    {
+      "basename": "DES decryption",
+      "path": "cryptography/des/DES decryption.md"
+    },
+    {
+      "basename": "Analytical attack",
+      "path": "cryptography/des/Analytical attack.md"
+    },
+    {
+      "basename": "3DES",
+      "path": "cryptography/des/3DES.md"
+    },
+    {
+      "basename": "DES",
+      "path": "cryptography/des/DES.md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "cybersecurity/web-security/JSON Web Token.md"
     }
   ],
   "omittedPaths": [],

@@ -471,9 +471,7 @@ graph LR
         - *Exit* the ISR, restore the saved process state (or schedule a new one), and *return to user mode.*
     - $T_\text{ISR}$ is the execution time of the Interrupt Service Routine itself, which performs the minimal, time-critical actions such as reading a byte from a port, acknowledging the interrupt, triggering the next operation.
 ## Hybrid Approaches
-
-Modern systems often combine polling and interrupts for optimal performance.
-
+- Modern systems often combine polling and interrupts for optimal performance.
 ### Interrupt Coalescing
 
 ```mermaid

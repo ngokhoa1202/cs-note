@@ -11,10 +11,10 @@
 - More detailed: ![](Pasted%20image%2020240514155417.png)
 # Mail access protocol
 ## SMTP
-[SMTP](SMTP.md) 
+[Simple Mail Transfer Protocol (SMTP)](computer-network/application-layer/email/Simple%20Mail%20Transfer%20Protocol%20(SMTP).md) 
 
 ## POP3
-[POP3](POP3.md)
+[Post Office Protocol version 3 (POP3)](computer-network/application-layer/email/Post%20Office%20Protocol%20version%203%20(POP3).md)
 
 # Email format:
 - RFC 5322.

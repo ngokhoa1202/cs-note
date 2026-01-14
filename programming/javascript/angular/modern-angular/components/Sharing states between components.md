@@ -26,8 +26,8 @@
 ## Output function
 
 # References
-1. [Event binding](Event%20binding.md) for binding events in Angular.
-2. [Decorator pattern](software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator%20pattern.md) for decorator used in both `@Input` and `@Output` annotation.
+1. [Event binding](../templates/Event%20binding.md) for binding events in Angular.
+2. [Decorator pattern](../../../../../software-engineering/software-architecture/design-pattern/fundamentals/structural-pattern/Decorator%20pattern.md) for decorator used in both `@Input` and `@Output` annotation.
 3. 
 
 

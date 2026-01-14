@@ -9,7 +9,7 @@
 # Characteristics
 - Can be together with ==sequence number== to resolve replay attack.
 - More ==lightweight== than encryption.
-- Widespread used by [Json Web Token](cybersecurity/web-security/Json%20Web%20Token.md)
+- Widespread used by [JSON Web Token](cybersecurity/web-security/JSON%20Web%20Token.md)
 - Message authentication protects two parties who exchange messages *from any third party*. However, it <mark class="hltr-yellow">does not protect the two parties against each other</mark>.
 # MAC Function
 - MAC Function is  a ==many-to-one== function which accepts a variable-length message and generates a fixed-length authenticator called tag $T=MAC(K,M)$
@@ -74,7 +74,7 @@
 
 
 # References
-1. [Json Web Token](cybersecurity/web-security/Json%20Web%20Token.md) for HMAC application.
+1. [JSON Web Token](cybersecurity/web-security/JSON%20Web%20Token.md) for HMAC application.
 2. Cryptography and Network Security_ Principles and Practice - William Stallings -  Global Edition-Pearson (2022)
 	1. Chapter 12. Message Authentication Codes.
 3. [[HMAC]] 

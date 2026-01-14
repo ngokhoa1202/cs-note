@@ -2,7 +2,7 @@
 
 - Refer to [Email](Email.md)
 - Secure mail access protocol:
-	- [POP3](POP3.md)
+	- [Post Office Protocol version 3 (POP3)](computer-network/application-layer/email/Post%20Office%20Protocol%20version%203%20(POP3).md)
 	- [IMAP](IMAP.md)
 - Depends on the scenario, all security protocols have to adhere to CIA triad.
 - Apply to ==session-based security== protocols.
