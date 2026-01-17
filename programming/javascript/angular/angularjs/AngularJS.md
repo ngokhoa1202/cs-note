@@ -84,7 +84,7 @@ Format and transform data for display in templates.
 AngularJS's built-in ==IoC container== for managing dependencies.
 
 **DI Topics:**
-- [Dependency Injection in AngularJS](dependency-injection/Dependency%20Injection%20in%20AngularJS.md)
+- [Dependency Injection](programming/javascript/angular/angularjs/dependency-injection/Dependency%20Injection.md)
 
 ***
 # References

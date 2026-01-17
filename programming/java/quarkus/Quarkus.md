@@ -416,10 +416,10 @@ quarkus-project/
    2. Chapter 5: Process Synchronization
       1. Section 5.8: Event-based systems
 10. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern|Dependency Injection Pattern]]
-11. [[Dependency Injection|Quarkus Dependency Injection]] for Quarkus CDI implementation
+11. [[programming/java/quarkus/Dependency Injection|Quarkus Dependency Injection]] for Quarkus CDI implementation
 12. [[Reactive Programming|Quarkus Reactive Programming]] for Mutiny and reactive patterns
 13. [[Persistence|Quarkus Persistence]] for Hibernate Panache
 14. [[RESTful Services|Quarkus RESTful Services]] for JAX-RS endpoints
 15. [[gRPC for Quarkus]] for gRPC microservices implementation
-16. [[site-reliability-engineering/container-engine/artifacts/java/GraalVM|GraalVM]]
+16. [[site-reliability-engineering/container-engine/artifacts/programming-language/java/GraalVM|GraalVM]]
 17. 

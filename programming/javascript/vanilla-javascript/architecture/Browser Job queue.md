@@ -1,5 +1,4 @@
 #javascript #software-architecture #software-engineering #operating-system #nodejs #browser #thread #process #browser #data-structure #event-driven-programming 
-
 # Macro-task queue
 - A task, or macro-task is *callback* which is *scheduled* to be run by the standard mechanisms such as *initially starting to run a program*, an *event* being dispatched asynchronously, or an *interval* or *timeout* being fired. These tasks are scheduled on the task queue.
 - For example, tasks is added to the task queue when:

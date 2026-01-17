@@ -1,4 +1,4 @@
-#grpc #rpc #protobuf #http2 #microservices #distributed-systems #google
+#grpc #remote-procedure-call #protobuf #http2 #microservices #distributed-systems #google
 
 ==gRPC== (gRPC Remote Procedure Call) is a high-performance, open-source RPC framework developed by Google. It uses Protocol Buffers for serialization and HTTP/2 for transport, enabling efficient communication in distributed systems and microservices architectures.
 ## Architecture

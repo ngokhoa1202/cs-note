@@ -527,7 +527,6 @@ project-root/
   }
 }
 ```
-
 ---
 # References
 1. https://docs.npmjs.com/cli/v10/using-npm/scripts - Official npm scripts documentation

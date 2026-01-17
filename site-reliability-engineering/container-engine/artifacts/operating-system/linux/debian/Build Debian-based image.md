@@ -1,4 +1,4 @@
-#linux #debian #containerization #container-engine #cybersecurity #operating-system #debian13
+#linux #debian #containerization #container-engine #cybersecurity #operating-system #debian13 #debian12 #debian11 
 # Image Build Strategy
 
 ```mermaid
@@ -23,7 +23,6 @@ graph TD
 ```
 
 # Best Practices
-
 ## Security Hardening
 1. **Always update packages**: Run `apt-get update && apt-get upgrade` to patch known vulnerabilities
 2. **Use specific versions**: Pin Debian version (e.g., `debian:13` not `debian:latest`) for reproducibility

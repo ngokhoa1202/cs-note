@@ -604,7 +604,7 @@
         "lineNumbers": true,
         "unwrapLines": true,
         "wrapLinesActive": false,
-        "curvature": 8
+        "curvature": 16
       },
       "gutter": {
         "highlight": true,
@@ -612,13 +612,13 @@
       },
       "header": {
         "title": {
-          "textFont": "Source Sans 3",
-          "textBold": true,
+          "textFont": "Italic",
+          "textBold": false,
           "textItalic": true
         },
         "languageTag": {
           "display": "always",
-          "textFont": "Lora",
+          "textFont": "Source Sans 3",
           "textBold": true,
           "textItalic": false
         },
@@ -652,8 +652,8 @@
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": true,
-        "languageBorderWidth": 6,
-        "iconSize": 28
+        "languageBorderWidth": 8,
+        "iconSize": 32
       }
     },
     "colours": {

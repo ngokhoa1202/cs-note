@@ -1,5 +1,4 @@
 #number-theory #algorithm #cryptography #modular-arithmetic #asymmetric-cipher
-# Fast Modular Exponentiation
 
 ==Fast Modular Exponentiation== (also called ==binary exponentiation== or ==exponentiation by squaring==) is an efficient algorithm for computing $a^b \bmod n$ in $O(\log b)$ time. This is crucial for RSA cryptography where exponents can be thousands of bits long.
 

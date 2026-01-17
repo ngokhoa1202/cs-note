@@ -4,12 +4,6 @@
 - Webpack is a <mark class="hltr-yellow">static module bundler</mark> for modern JavaScript applications.
 - Webpack builds a <mark class="hltr-yellow">dependency graph</mark> that maps every module your project needs and generates one or more bundles.
 - Webpack treats every file (JS, CSS, images, fonts) as a <mark class="hltr-yellow">module</mark> that can be imported.
-- Core concepts:
-  1. **Entry** - Starting point for building the dependency graph
-  2. **Output** - Where to emit bundled files
-  3. **Loaders** - Transform non-JavaScript files into modules
-  4. **Plugins** - Perform wider range of tasks (optimization, asset management)
-  5. **Mode** - Enable built-in optimizations (development/production)
 # Webpack Architecture
 
 ```mermaid title='Webpack Build Process'
@@ -85,12 +79,10 @@ sequenceDiagram
     Output-->>User: dist/ created
 ```
 
-# Core Concepts
+# Components
 
-## 1. Entry Points
-
-Entry points tell Webpack where to start building the dependency graph.
-
+## Entry Points
+- Entry points tell Webpack where to start building the dependency graph.
 ### Single Entry
 ```javascript title='webpack.config.js - Single entry'
 module.exports = {
@@ -101,12 +93,7 @@ module.exports = {
   }
 }
 ```
-
-**Result:**
-```
-src/index.js → dist/bundle.js
-```
-
+- The build result will be stored at `dist/bundle.js`
 ### Multiple Entries
 ```javascript title='webpack.config.js - Multiple entries'
 module.exports = {
@@ -120,13 +107,7 @@ module.exports = {
   }
 }
 ```
-
-**Result:**
-```
-src/app.js   → dist/app.bundle.js
-src/admin.js → dist/admin.bundle.js
-```
-
+- The build results will be stored at `dist/app.bundle.js` and `dist/admin.bundle.js`
 ### Multi-Page Application
 ```javascript title='webpack.config.js - Multi-page app'
 const path = require('path')

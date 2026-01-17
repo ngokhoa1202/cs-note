@@ -1,14 +1,11 @@
 #angularjs #angular1 #javascript #mvc #controller #scope #legacy
-==Controllers== in AngularJS are JavaScript constructor functions that ==augment the Angular scope== (`$scope`). They are responsible for setting up the initial state and adding behavior to the scope object.
-
+- ==Controllers== in AngularJS are JavaScript constructor functions that ==augment the Angular scope== (`$scope`). They are responsible for setting up the initial state and adding behavior to the scope object.
 # Concept
 - Controllers act as the ==bridge between the view and the model==
-- They use ==`$scope`== as the glue between the controller and the view
+- They use `$scope` as the glue between the controller and the view
 - Controllers should only contain business logic, not DOM manipulation
 - Each controller creates a new child scope
-
 # Basic Controller Definition
-
 ## Controller Function
 ```javascript
 angular.module('myApp', [])
@@ -22,7 +19,6 @@ angular.module('myApp', [])
     };
   });
 ```
-
 ## Using Controller in HTML
 ```html
 <div ng-app="myApp" ng-controller="MyController">
@@ -30,15 +26,12 @@ angular.module('myApp', [])
   <button ng-click="sayHello()">Say Hello</button>
 </div>
 ```
-
-# The $scope Object
-
+# The `$scope` Object
 ## Purpose
-- ==`$scope`== is the application model
+- `$scope` is the application model
 - It is the execution context for expressions
 - Scopes are arranged in ==hierarchical structure== that mimics the DOM structure
 - Scopes can watch expressions and propagate events
-
 ## Properties and Methods
 ```javascript
 app.controller('UserController', function($scope) {
@@ -60,9 +53,7 @@ app.controller('UserController', function($scope) {
   });
 });
 ```
-
 # Scope Hierarchy
-
 ## Parent-Child Relationship
 ```html
 <div ng-controller="ParentController">
@@ -85,7 +76,6 @@ app.controller('ChildController', function($scope) {
   // Can access $scope.parentMessage through prototype chain
 });
 ```
-
 ## Scope Inheritance
 - Child scopes ==prototypically inherit== from parent scopes
 - Properties defined in parent are accessible in child
@@ -148,22 +138,8 @@ var UserController = function($scope, $http) {
 UserController.$inject = ['$scope', '$http'];
 app.controller('UserController', UserController);
 ```
-
-# Best Practices
-
-## Do's
-- **Keep controllers focused**: Controllers should only contain business logic
-- **Use services for shared logic**: Move reusable code to services
-- **Initialize model on $scope**: Set up initial state in controller
-- **Use minification-safe dependency injection**: Always use array notation or `$inject`
-
-## Don'ts
-- **No DOM manipulation**: Use directives for DOM manipulation, not controllers
-- **No formatting logic**: Use filters for formatting
-- **No data filtering**: Use filters or computed properties
-- **No sharing code across controllers**: Use services instead
-
-## Example: Good Controller Structure
+# Examples
+## Good Controller Structure
 ```javascript
 app.controller('TodoController', ['$scope', 'TodoService', function($scope, TodoService) {
   // Initialize
@@ -197,13 +173,11 @@ app.controller('TodoController', ['$scope', 'TodoService', function($scope, Todo
   };
 }]);
 ```
-
-# Controller As Syntax
-For modern approach using `controllerAs`, see [Controller as syntax](Controller%20as%20syntax.md)
-
 ***
 # References
 1. https://docs.angularjs.org/guide/controller for AngularJS controller guide
 2. https://docs.angularjs.org/guide/scope for understanding `$scope`
-3. [Dependency Injection in AngularJS](../dependency-injection/Dependency%20Injection%20in%20AngularJS.md)
+3. [Dependency Injection](programming/javascript/angular/angularjs/dependency-injection/Dependency%20Injection.md)
 4. [Digest cycle and watchers](../digest-cycle/Digest%20cycle%20and%20watchers.md)
+5. [[programming/javascript/angular/angularjs/controllers/Controller as syntax]]
+6. 

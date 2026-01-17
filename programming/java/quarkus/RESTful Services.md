@@ -1032,7 +1032,7 @@ public Response create(UserDTO dto) {
 7. https://www.ietf.org/rfc/rfc7231.txt - HTTP Semantics
 8. [[Reactive Programming]] for reactive endpoints with Mutiny
 9. [[Persistence]] for database integration
-10. [[Dependency Injection]] for service injection
+10. [[programming/java/quarkus/Dependency Injection]] for service injection
 11. [[gRPC for Quarkus]] for RPC alternative to REST
 12. [[computer-network/application-layer/http/Hyper Text Transfer Protocol (HTTP)|Hyper Text Transfer Protocol (HTTP)]]
 13. [[computer-network/application-layer/web-socket/Web Socket|Web Socket]]

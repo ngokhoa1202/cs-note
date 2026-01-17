@@ -1,8 +1,7 @@
-#thrift #rpc #serialization #cross-language #facebook #distributed-systems
-==Apache Thrift== is a cross-language RPC framework developed by Facebook for efficient communication between services written in different programming languages. It provides a robust interface definition language, code generation, and pluggable serialization protocols.
-
-## Architecture
-
+ #remote-procedure-call  #distributed-systems #software-engineering #software-architecture #computer-network
+  #application-layer 
+- ==Apache Thrift== is a cross-language RPC framework developed by Facebook for efficient communication between services written in different programming languages. It provides a robust interface definition language, code generation, and pluggable serialization protocols.
+# Architecture
 ```mermaid
 graph TB
     subgraph Client Application
@@ -28,14 +27,10 @@ graph TB
     style IDL fill:#ff9,stroke:#333
     style NT fill:#9cf,stroke:#333
 ```
-
-Thrift separates concerns through layered architecture: transport handles data transmission, protocol manages serialization, and processors dispatch requests to service implementations.
-
-## Thrift IDL
-
-### Service Definition
-
-```thrift
+- Thrift separates concerns through layered architecture: transport handles data transmission, protocol manages serialization, and processors dispatch requests to service implementations.
+# Thrift IDL
+## Service Definition
+```apacheconf title='Example of .thrift file'
 namespace java com.example.order
 namespace py order
 namespace go order
@@ -70,49 +65,34 @@ service OrderService {
     void deleteOrder(1: string order_id)
 }
 ```
-
 ### Data Types
-
 - **Base types**: `bool`, `i8`, `i16`, `i32`, `i64`, `double`, `string`, `binary`
 - **Containers**: `list<type>`, `set<type>`, `map<keyType, valueType>`
 - **Structs**: User-defined composite types
 - **Exceptions**: Error handling types
 - **Enums**: Named integer constants
-
 ### Field Qualifiers
-
 - **required**: Field must be present (deprecated in favor of validation)
 - **optional**: Field may be absent
 - No qualifier: Default behavior, similar to optional
-
 ### Code Generation
-
-```Shell
+```Shell title='Generate an .thrift file'
 thrift --gen java order.thrift
 thrift --gen py order.thrift
 thrift --gen go order.thrift
 ```
-
-Generates language-specific code including data structures, client stubs, and server interfaces.
-
+- Generates language-specific code including data structures, client stubs, and server interfaces.
 ## Transport Layer
-
 ### Blocking Transports
-
-**TSocket**: Standard TCP socket transport
-
+- TSocket: Standard TCP socket transport
 ```Java
 TTransport transport = new TSocket("localhost", 9090);
 transport.open();
 ```
-
-**TFileTransport**: File-based transport for logging or batch processing
-
-**TZlibTransport**: Compressed transport wrapper
-
+- **TFileTransport**: File-based transport for logging or batch processing
+- **TZlibTransport**: Compressed transport wrapper
 ### Buffered Transports
-
-**TBufferedTransport**: Buffers writes and reads for improved performance
+- **TBufferedTransport**: Buffers writes and reads for improved performance
 
 ```Java
 TTransport buffered = new TBufferedTransport(new TSocket("localhost", 9090));

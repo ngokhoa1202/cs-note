@@ -1,5 +1,4 @@
 #functional-programming #high-order-function #name-binding #compiler 
-
 # Definition
 - Currying is the technique of translating a a function that takes multiple arguments into a sequence of families of functions, <mark class="hltr-yellow">each taking a single argument</mark>:
 	- Given a function $f: (X \times Y) \to Z$.
@@ -146,6 +145,7 @@ public class FunctionalUtil {
   }
 }
 ```
+***
 # References
 1. Functional Programming in Java: How functional techniques improve your Java programs - Pierre-Yves Saumont - Manning Publications 2017.
 	1. Chapter 2. Using Functions in Java.

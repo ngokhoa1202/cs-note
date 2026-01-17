@@ -1,15 +1,13 @@
 #angularjs #angular1 #javascript #controller #best-practice #legacy
-==Controller as syntax== is an alternative way to write controllers in AngularJS that ==binds methods and properties to the controller instance== rather than directly to `$scope`. This approach is considered a ==best practice== and bridges the gap toward modern Angular's component-based architecture.
-
+- Controller as syntax is an alternative way to write controllers in AngularJS that <mark class="hltr-yellow">binds methods and properties to the controller instance</mark> rather than directly to `$scope`. 
+- This approach is considered a ==best practice== and bridges the gap toward modern Angular's component-based architecture.
 # Concept
-- Binds properties to ==`this`== instead of ==`$scope`==
+- Binds properties to `this` instead of `$scope`.
 - Controller instance is published into the scope under a specified name
 - Provides better clarity about where properties come from
 - More aligned with ES6 classes and modern JavaScript
 - Easier migration path to Modern Angular
-
 # Basic Syntax
-
 ## Controller Definition
 ```javascript
 angular.module('myApp', [])
@@ -24,7 +22,6 @@ angular.module('myApp', [])
     };
   });
 ```
-
 ## Using in HTML
 ```html
 <div ng-app="myApp" ng-controller="UserController as userCtrl">
@@ -33,10 +30,8 @@ angular.module('myApp', [])
   <button ng-click="userCtrl.greet()">Greet</button>
 </div>
 ```
-
-# Traditional $scope vs Controller As
-
-## Traditional $scope Approach
+# Traditional `$scope` vs Controller As
+## Traditional `$scope` Approach
 ```javascript
 app.controller('TodoController', function($scope) {
   $scope.todos = [];
@@ -55,7 +50,6 @@ app.controller('TodoController', function($scope) {
   <button ng-click="addTodo('New Task')">Add</button>
 </div>
 ```
-
 ## Controller As Approach
 ```javascript
 app.controller('TodoController', function() {
@@ -76,65 +70,7 @@ app.controller('TodoController', function() {
   <button ng-click="todoCtrl.addTodo('New Task')">Add</button>
 </div>
 ```
-
-# Advantages
-
-## Clarity and Readability
-```html
-<!-- Clear where properties come from -->
-<div ng-controller="UserController as user">
-  <div ng-controller="ProductController as product">
-    <p>User: {{ user.name }}</p>        <!-- From UserController -->
-    <p>Product: {{ product.name }}</p>  <!-- From ProductController -->
-  </div>
-</div>
-```
-
-## No $scope Confusion
-```javascript
-// Traditional: $scope can be confusing in nested scopes
-app.controller('ParentController', function($scope) {
-  $scope.value = 'parent';
-
-  $scope.updateValue = function() {
-    $scope.value = 'updated'; // Which scope?
-  };
-});
-
-// Controller As: Clear reference
-app.controller('ParentController', function() {
-  var vm = this;
-  vm.value = 'parent';
-
-  vm.updateValue = function() {
-    vm.value = 'updated'; // Clearly refers to this controller
-  };
-});
-```
-
-## Easier Testing
-```javascript
-describe('UserController', function() {
-  var controller;
-
-  beforeEach(function() {
-    controller = new UserController();
-  });
-
-  it('should initialize with name', function() {
-    expect(controller.name).toBe('Khoa');
-  });
-
-  it('should greet user', function() {
-    spyOn(window, 'alert');
-    controller.greet();
-    expect(window.alert).toHaveBeenCalledWith('Hello, Khoa');
-  });
-});
-```
-
-# When $scope is Still Needed
-
+# `$scope`
 ## Watching for Changes
 ```javascript
 app.controller('UserController', function($scope) {
@@ -147,7 +83,6 @@ app.controller('UserController', function($scope) {
   });
 });
 ```
-
 ## Event Broadcasting
 ```javascript
 app.controller('UserController', function($scope) {
@@ -162,7 +97,7 @@ app.controller('UserController', function($scope) {
 });
 ```
 
-## Using $scope Methods
+## Using `$scope` Methods
 ```javascript
 app.controller('UserController', function($scope) {
   var vm = this;

@@ -1,4 +1,4 @@
-#json-rpc #rpc #json #lightweight #web-api #blockchain
+#json-rpc #remote-procedure-call #json #lightweight #web-api #blockchain
 ==JSON-RPC== is a lightweight remote procedure call protocol encoded in JSON. It defines a simple message format for requesting method execution and returning results, making it ideal for web applications, browser-based clients, and blockchain interactions.
 
 ## Specification

@@ -1,204 +1,200 @@
 {
   "recentFiles": [
     {
-      "basename": "Email security scenario",
-      "path": "cybersecurity/network-security/application-layer/email-security/Email security scenario.md"
+      "basename": "Repository pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md"
     },
     {
-      "basename": "Unbounded Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Unbounded Knapsack problem.md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
-      "basename": "Bounded Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/Bounded Knapsack problem.md"
+      "basename": "Fluent Interface pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/functional-pattern/Fluent Interface pattern.md"
     },
     {
-      "basename": "0-1 Knapsack problem",
-      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
+      "basename": "Design patterns",
+      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
     },
     {
-      "basename": "Controller as syntax",
-      "path": "programming/javascript/angular/angularjs/controllers/Controller as syntax.md"
+      "basename": "GEMINI_CONTEXT",
+      "path": "GEMINI_CONTEXT.md"
     },
     {
-      "basename": "Controllers and $scope",
-      "path": "programming/javascript/angular/angularjs/controllers/Controllers and $scope.md"
+      "basename": "Dependency injection pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md"
     },
     {
-      "basename": "Controller as syntax",
-      "path": "Controller as syntax.md"
+      "basename": "Service Locator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern.md"
     },
     {
-      "basename": "Asynchronous programming in Angular",
-      "path": "programming/javascript/angular/modern-angular/reactive-programming/Asynchronous programming in Angular.md"
+      "basename": "Facade pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern.md"
     },
     {
-      "basename": "Class and Style binding",
-      "path": "programming/javascript/angular/modern-angular/templates/Class and Style binding.md"
+      "basename": "Data Transfer Object pattern (DTO)",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/distribution/Data Transfer Object pattern (DTO).md"
     },
     {
-      "basename": "Angular",
-      "path": "programming/javascript/angular/modern-angular/fundamentals/Angular.md"
+      "basename": "Design pattern plan",
+      "path": "Design pattern plan.md"
     },
     {
-      "basename": "Two-way binding in Angular",
-      "path": "programming/javascript/angular/modern-angular/components/Two-way binding in Angular.md"
+      "basename": "Decorator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern.md"
     },
     {
-      "basename": "Sharing states between components",
-      "path": "programming/javascript/angular/modern-angular/components/Sharing states between components.md"
+      "basename": "Proxy pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md"
     },
     {
-      "basename": "Angular commands",
-      "path": "programming/javascript/angular/modern-angular/cli/Angular commands.md"
+      "basename": "Persistence",
+      "path": "programming/java/quarkus/Persistence.md"
     },
     {
-      "basename": "AngularJS",
-      "path": "programming/javascript/angular/angularjs/AngularJS.md"
+      "basename": "Callback pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
     },
     {
-      "basename": "RxJS",
-      "path": "programming/javascript/rxjs/RxJS.md"
+      "basename": "Bridge pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md"
     },
     {
-      "basename": "Deadlock",
-      "path": "operating-system/unix/linux/process-management/Deadlock.md"
+      "basename": "Prototype pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md"
     },
     {
-      "basename": "IEEE 802.11 Wireless LAN",
-      "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
+      "basename": "Factory Method pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern.md"
     },
     {
-      "basename": "Wireless network security",
-      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
+      "basename": "Abstract Factory pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md"
     },
     {
-      "basename": "CMAC",
-      "path": "cybersecurity/mac/CMAC.md"
+      "basename": "Builder pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md"
     },
     {
-      "basename": "DAA",
-      "path": "cybersecurity/mac/DAA.md"
+      "basename": "Visitor pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern.md"
     },
     {
-      "basename": "HMAC",
-      "path": "cybersecurity/mac/HMAC.md"
+      "basename": "Mediator pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern.md"
     },
     {
-      "basename": "IKE",
-      "path": "cybersecurity/network-security/network-layer/IKE.md"
+      "basename": "Command pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command pattern.md"
     },
     {
-      "basename": "IP Security",
-      "path": "cybersecurity/network-security/network-layer/IP Security.md"
+      "basename": "Chain of responsibility pattern",
+      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern.md"
     },
     {
-      "basename": "Network security overview",
-      "path": "cybersecurity/network-security/Network security overview.md"
+      "basename": "Apache Thrift",
+      "path": "software-engineering/api/protocol/remote-procedure-call/apache-thrift/Apache Thrift.md"
     },
     {
-      "basename": "Chinese Remainder Theorem",
-      "path": "discrete-math/number-theory/Chinese Remainder Theorem.md"
+      "basename": "Remote Procedure Call",
+      "path": "software-engineering/api/protocol/remote-procedure-call/Remote Procedure Call.md"
     },
     {
-      "basename": "Extended Euclidean algorithm",
-      "path": "discrete-math/number-theory/Extended Euclidean algorithm.md"
+      "basename": "Fast Modular Exponentiation",
+      "path": "discrete-math/number-theory/Fast Modular Exponentiation.md"
     },
     {
-      "basename": "Node.js runtime",
-      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Node.js runtime.md"
+      "basename": "Problem 350. Intersection of Two Arrays II",
+      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
     },
     {
-      "basename": "Deno runtime",
-      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Deno runtime.md"
+      "basename": "Problem 219. Contains Duplicate II",
+      "path": "algorithm/problems/leetcode/Problem 219. Contains Duplicate II.md"
     },
     {
-      "basename": "Bun runtime",
-      "path": "site-reliability-engineering/build-tools/javascript/javascript-runtime/Bun runtime.md"
+      "basename": "Problem 49. Group anagrams",
+      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
     },
     {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/php/composer/Lifecycle.md"
+      "basename": "Problem 21. Merge two sorted lists",
+      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
     },
     {
-      "basename": "Webpack",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
+      "basename": "Sieve of Eratosthenes",
+      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
     },
     {
-      "basename": "RAID",
-      "path": "operating-system/unix/linux/storage/RAID.md"
+      "basename": "Hash table",
+      "path": "algorithm/data-structure/hashing/Hash table.md"
     },
     {
-      "basename": "Disk partitioning",
-      "path": "operating-system/unix/linux/storage/Disk partitioning.md"
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/complexity/Algorithm complexity.md"
     },
     {
       "basename": "Fundamental Theorem of Arithmetic",
       "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
     },
     {
-      "basename": "Diophantine equation",
-      "path": "discrete-math/number-theory/Diophantine equation.md"
-    },
-    {
-      "basename": "Euler Phi function",
-      "path": "discrete-math/number-theory/Euler Phi function.md"
-    },
-    {
       "basename": "Primitive root - Discrete Logarithm",
       "path": "discrete-math/number-theory/Primitive root - Discrete Logarithm.md"
     },
     {
-      "basename": "Diffie-Hellman key exchange.",
-      "path": "cryptography/rsa/Diffie-Hellman key exchange..md"
+      "basename": "Explicit Congestion Notification (ECN)",
+      "path": "computer-network/transport-layer/tcp/congestion-control/Explicit Congestion Notification (ECN).md"
     },
     {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/rsa/Elgamal cryptosystem.md"
+      "basename": "TCP Cubic",
+      "path": "computer-network/transport-layer/tcp/congestion-control/TCP Cubic.md"
     },
     {
-      "basename": "RSA",
-      "path": "cryptography/rsa/RSA.md"
+      "basename": "TCP Congestion Control",
+      "path": "computer-network/transport-layer/tcp/congestion-control/TCP Congestion Control.md"
     },
     {
-      "basename": "DAA",
-      "path": "cryptography/hash-function/mac/DAA.md"
+      "basename": "Transmission Control Protocol (TCP)",
+      "path": "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md"
     },
     {
-      "basename": "Hash-based Message Authentication Code",
-      "path": "cryptography/hash-function/mac/Hash-based Message Authentication Code.md"
+      "basename": "Selective repeat",
+      "path": "computer-network/transport-layer/tcp/reliable-data-transfer/Selective repeat.md"
     },
     {
-      "basename": "CMAC",
-      "path": "cryptography/hash-function/mac/CMAC.md"
+      "basename": "Reliable data transfer principle",
+      "path": "computer-network/transport-layer/tcp/reliable-data-transfer/Reliable data transfer principle.md"
     },
     {
-      "basename": "Exhaustive key search",
-      "path": "cryptography/des/Exhaustive key search.md"
+      "basename": "Quick UDP Internet Connection (QUIC)",
+      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
     },
     {
-      "basename": "DES encryption",
-      "path": "cryptography/des/DES encryption.md"
+      "basename": "Webpack",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
     },
     {
-      "basename": "DES decryption",
-      "path": "cryptography/des/DES decryption.md"
+      "basename": "Build Debian-based image",
+      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
     },
     {
-      "basename": "Analytical attack",
-      "path": "cryptography/des/Analytical attack.md"
+      "basename": "Build Express.js image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/express-js/Build Express.js image.md"
     },
     {
-      "basename": "3DES",
-      "path": "cryptography/des/3DES.md"
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
     },
     {
-      "basename": "DES",
-      "path": "cryptography/des/DES.md"
+      "basename": "Container networking",
+      "path": "site-reliability-engineering/container-engine/Container networking.md"
     },
     {
-      "basename": "JSON Web Token",
-      "path": "cybersecurity/web-security/JSON Web Token.md"
+      "basename": "Hindley-Milner type checking",
+      "path": "programming/principles/data-types/Hindley-Milner type checking.md"
     }
   ],
   "omittedPaths": [],

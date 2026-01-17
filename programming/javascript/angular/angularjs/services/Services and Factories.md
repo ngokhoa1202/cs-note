@@ -545,5 +545,5 @@ app.factory('UserService', function($http, $q) {
 1. https://docs.angularjs.org/guide/services for services guide
 2. https://docs.angularjs.org/guide/providers for understanding providers
 3. [Providers](Providers.md) for advanced service configuration
-4. [Dependency Injection in AngularJS](../dependency-injection/Dependency%20Injection%20in%20AngularJS.md)
+4. [Dependency Injection](programming/javascript/angular/angularjs/dependency-injection/Dependency%20Injection.md)
 5. [Values and Constants](Values%20and%20Constants.md)

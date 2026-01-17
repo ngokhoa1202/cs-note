@@ -13,13 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cybersecurity/network-security/application-layer/email-security/Email security scenario.md",
+                "file": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Email security scenario"
+              "title": "Repository pattern"
             }
           }
         ]
@@ -42,7 +42,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -54,7 +54,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#serialization",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 473.5
+    "width": 437.5
   },
   "right": {
     "id": "e3120c9e695554bd",
@@ -193,44 +193,44 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "d8d7ea544fef7ec3",
+  "active": "f0ae8a254d068be3",
   "lastOpenFiles": [
-    "programming/javascript/angular/angularjs/AngularJS.md.tmp.116738.1768400657631",
-    "programming/javascript/angular/angularjs/dependency-injection/Dependency Injection in AngularJS.md",
-    "programming/javascript/angular/angularjs/dependency-injection/Dependency Injection in AngularJS.md.tmp.116738.1768400536989",
-    "programming/javascript/angular/angularjs/routing/ngRoute.md",
-    "programming/javascript/angular/angularjs/routing/ngRoute.md.tmp.116738.1768400536174",
-    "programming/javascript/angular/angularjs/forms/Form validation.md",
-    "programming/javascript/angular/angularjs/forms/Form validation.md.tmp.116738.1768400535095",
-    "programming/javascript/angular/angularjs/filters/Filters.md",
-    "programming/javascript/angular/angularjs/filters/Filters.md.tmp.116738.1768400533554",
-    "programming/javascript/angular/angularjs/digest-cycle/Digest cycle and watchers.md",
-    "programming/javascript/angular/angularjs/digest-cycle/Digest cycle and watchers.md.tmp.116738.1768400430643",
-    "programming/javascript/angular/angularjs/data-binding/Two-way data binding.md",
-    "programming/javascript/angular/angularjs/data-binding/Two-way data binding.md.tmp.116738.1768400428696",
-    "programming/javascript/angular/angularjs/services/Services and Factories.md",
-    "programming/javascript/angular/angularjs/services/Services and Factories.md.tmp.116738.1768400373440",
-    "programming/javascript/angular/angularjs/directives/Custom directives.md",
-    "programming/javascript/angular/angularjs/directives/Custom directives.md.tmp.116738.1768400127237",
-    "programming/javascript/angular/angularjs/directives/Built-in directives.md",
-    "programming/javascript/angular/angularjs/directives/Built-in directives.md.tmp.116738.1768400061262",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/Unbounded Knapsack problem.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/Bounded Knapsack problem.md",
-    "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md",
-    "programming/javascript/angular/angularjs/controllers/Controller as syntax.md",
-    "programming/javascript/angular/angularjs/controllers/Controllers and $scope.md",
-    "programming/javascript/angular/angularjs/controllers/Controller as syntax.md.tmp.116738.1768399976846",
-    "Controller as syntax.md",
-    "programming/javascript/angular/modern-angular/reactive-programming/Asynchronous programming in Angular.md",
-    "programming/javascript/angular/modern-angular/templates/Class and Style binding.md",
-    "programming/javascript/angular/modern-angular/fundamentals/Angular.md",
-    "programming/javascript/angular/modern-angular/components/Two-way binding in Angular.md",
-    "programming/javascript/angular/modern-angular/components/Sharing states between components.md",
-    "programming/javascript/angular/modern-angular/cli/Angular commands.md",
-    "programming/javascript/angular/angularjs/AngularJS.md",
-    "programming/javascript/rxjs/RxJS.md",
-    "programming/javascript/angular/modern-angular/Modern Angular.md",
-    "programming/javascript/angular/modern-angular/templates/Property binding.md",
+    "operating-system/unix/linux/networking/Nslookup.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md",
+    "CLAUDE.md",
+    "software-engineering/software-architecture/design/design-pattern/functional-pattern/Fluent Interface pattern.md.tmp.21431.1768619666200",
+    "software-engineering/software-architecture/design/design-pattern/functional-pattern/Fluent Interface pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/Design patterns.md",
+    "GEMINI_CONTEXT.md",
+    "software-engineering/software-architecture/design/design-pattern/functional-pattern/Fluent Interface pattern.md.tmp.21431.1768618937747",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern.md.tmp.21431.1768618557937",
+    "Base.base",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/distribution/Data Transfer Object pattern (DTO).md",
+    "Design pattern plan.md",
+    "software-engineering/software-architecture/design/design-pattern/functional-pattern",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern.md.tmp.21431.1768617997583",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md.tmp.21431.1768617607953",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/distribution/Data Transfer Object pattern (DTO).md.tmp.21431.1768617488688",
+    "programming/java/quarkus/Persistence.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/distribution",
+    "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md.tmp.21431.1768617017282",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command pattern.md",
+    "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern.md",
+    "software-engineering/api/protocol/remote-procedure-call/apache-thrift/Apache Thrift.md",
+    "software-engineering/api/protocol/remote-procedure-call/Remote Procedure Call.md",
     "assets/Pasted image 20260108201832.png",
     "site-reliability-engineering/container-engine/artifacts/operating-system/linux/Untitled.canvas",
     "assets/Pasted image 20260108201852.png",

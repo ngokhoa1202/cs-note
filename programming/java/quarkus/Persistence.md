@@ -1,4 +1,4 @@
-#java #quarkus #hibernate #panache #jpa #persistence #database #orm #repository-pattern #active-record-pattern #jakarta-ee
+#java #quarkus #hibernate #panache #jpa  #database #orm #repository-pattern #active-record-pattern #jakarta-ee
 # Definition
 - Hibernate ORM with Panache is Quarkus' persistence layer that simplifies Hibernate.
 # Architecture
@@ -847,7 +847,7 @@ List<Order> orders = Order.find(
 5. https://www.martinfowler.com/eaaCatalog/ - Patterns of Enterprise Application Architecture
 6. [[software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern|Repository Pattern]]
 7. [[Reactive Programming]] for Mutiny reactive persistence
-8. [[Dependency Injection]] for CDI repository injection
+8. [[programming/java/quarkus/Dependency Injection]] for CDI repository injection
 9. [[programming/java/quarkus/Quarkus]] for build-time optimization architecture
 10. [[programming/java/jakarta-ee/jakarta-persistence-api/Entity manager|Entity Manager]] for JPA entity manager concepts
 11. [[programming/java/jakarta-ee/jakarta-persistence-api/hibernate/Persistence lifecycle|Persistence Lifecycle]] for entity state management

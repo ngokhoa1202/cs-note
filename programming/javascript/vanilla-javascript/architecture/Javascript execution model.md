@@ -1,5 +1,4 @@
 #javascript #software-architecture #software-engineering #operating-system #nodejs #browser #thread #process #browser 
-
 # Javascript engine and host environment
 - The execution of Javascript requires the cooperation of *Javascript engine* and the *host environment*.
 - The Javascript engine implements the ECMAScript language specification, providing the core functionality. While the host environment provides external resources, implements security- or performance-related mechanisms.
@@ -30,10 +29,12 @@
 	- Globally declared variables, the value of `globalThis`, and the global object.
 	- A cache of template literal arrays.
 - On the web, a realm is equivalent to a global object.
+***
 # References
 1. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Execution_model#stack_and_execution_contexts for Javascript execution model.
 2. https://262.ecma-international.org/16.0/index.html for ECMAScript 262 Specification.
-3. [[operating-system/unix/linux/process/Process#Memory layout (Binary image)]] for Process binary image in Operating System.
-4. https://nodejs.org/docs/latest-v22.x/api/worker_threads.html for Worker threads in Node.js 22.
-5. [[Browser Job queue]] 
-6. [[programming/javascript/node.js/architecture/Event loop]] for Node.js event loop.
+3. https://nodejs.org/docs/latest-v22.x/api/worker_threads.html for Worker threads in Node.js 22.
+4. [[Browser Job queue]] 
+5. [[programming/javascript/node.js/architecture/Event loop]] for Node.js event loop.
+6. [[operating-system/unix/linux/process-management/Process]]
+7. 

@@ -774,5 +774,5 @@ public Uni<Void> deleteUser(Long id);
       2. Section 13.4: I/O Scheduling
 3. [[operating-system/concepts/Processes|Processes]] for process scheduling and management
 4. [[programming/java/quarkus/Quarkus]] for Quarkus architecture overview
-5. [[Dependency Injection]] for Arc CDI integration with reactive code
+5. [[programming/java/quarkus/Dependency Injection]] for Arc CDI integration with reactive code
 6. [[gRPC for Quarkus]] for reactive gRPC implementation
