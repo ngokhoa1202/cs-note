@@ -80,7 +80,6 @@ sequenceDiagram
 ```
 
 # Components
-
 ## Entry Points
 - Entry points tell Webpack where to start building the dependency graph.
 ### Single Entry
@@ -145,9 +144,7 @@ module.exports = {
 ```
 
 ## 2. Output
-
-Output tells Webpack where to emit bundles and how to name them.
-
+- Output tells Webpack where to emit bundles and how to name them.
 ### Basic Output
 ```javascript title='webpack.config.js - Basic output'
 const path = require('path')
@@ -173,8 +170,7 @@ module.exports = {
 }
 ```
 
-**Result:**
-```
+```Shell title='Tree of dist'
 dist/
 ├── main.abc123def.js
 ├── vendor.xyz789abc.chunk.js
@@ -195,15 +191,11 @@ module.exports = {
 }
 ```
 
-**Generated HTML:**
-```html
+```HTML title='Generated HTML'
 <script src="https://cdn.example.com/assets/main.abc123.js"></script>
 ```
-
-## 3. Loaders
-
-Loaders transform files into modules that Webpack can process.
-
+## Loaders
+- Loaders transform files into modules that Webpack can process.
 ```mermaid
 graph LR
     A[.css file] -->|css-loader| B[CSS Module]
@@ -218,8 +210,7 @@ graph LR
 ```
 
 ### JavaScript/TypeScript Loaders
-
-**Babel Loader (ES6+ → ES5):**
+#### Babel loader
 ```javascript title='webpack.config.js - Babel loader'
 module.exports = {
   module: {
@@ -244,8 +235,7 @@ module.exports = {
   }
 }
 ```
-
-**TypeScript Loader:**
+#### TypeScript loader
 ```javascript title='webpack.config.js - TypeScript'
 module.exports = {
   module: {
@@ -262,10 +252,8 @@ module.exports = {
   }
 }
 ```
-
-### CSS Loaders
-
-**CSS Loader Chain:**
+#### CSS Loader
+##### CSS Loader chain
 ```javascript title='webpack.config.js - CSS processing'
 const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
@@ -289,10 +277,8 @@ module.exports = {
   ]
 }
 ```
-
-**Loader execution order:** Right to left (bottom to top)
-
-**SASS/SCSS Loader:**
+- The loader execution order is right to left or bottom to top.
+#### SASS/SCSS Loader
 ```javascript title='webpack.config.js - SASS processing'
 module.exports = {
   module: {
@@ -310,8 +296,7 @@ module.exports = {
   }
 }
 ```
-
-**CSS Modules:**
+#### CSS Modules
 ```javascript title='webpack.config.js - CSS Modules'
 module.exports = {
   module: {
@@ -335,7 +320,6 @@ module.exports = {
 }
 ```
 
-**Usage:**
 ```javascript title='Button.jsx - CSS Modules'
 import styles from './Button.module.css'
 
@@ -345,10 +329,8 @@ function Button() {
 
 // Generated class: Button__primary___a1b2c
 ```
-
 ### Asset Loaders
-
-**File Loader (Images, Fonts):**
+#### File loaders
 ```javascript title='webpack.config.js - Asset modules'
 module.exports = {
   module: {
@@ -371,13 +353,11 @@ module.exports = {
   }
 }
 ```
-
-**Asset Types:**
+#### Asset types
 - `asset/resource`: Emit separate file, return URL
 - `asset/inline`: Inline as data URI (base64)
 - `asset/source`: Inline as string
 - `asset`: Automatic choice based on file size
-
 ```javascript title='webpack.config.js - Auto asset handling'
 module.exports = {
   module: {
@@ -395,14 +375,11 @@ module.exports = {
   }
 }
 ```
-
-## 4. Plugins
-
-Plugins perform tasks on the entire bundle (optimization, injection, environment variables).
-
+## Plugins
+- Plugins perform tasks on the entire bundle (optimization, injection, environment variables).
 ### Essential Plugins
-
-**HtmlWebpackPlugin (Generate HTML):**
+#### `HtmlWebpackPlugin`
+- `HtmlWebpackPlugin` generates HTML files.
 ```javascript title='webpack.config.js - HTML generation'
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 

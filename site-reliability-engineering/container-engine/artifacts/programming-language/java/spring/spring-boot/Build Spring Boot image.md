@@ -1,12 +1,12 @@
 #spring #java #java21 #java17 #podman #containerization #site-realibility-engineering 
-#continuous-delivery #shell  #rhel #spring-boot #ubuntu #debian #ibm #rhel10 #graalvm 
+#continuous-delivery #shell  #rhel #spring-boot #ubuntu #debian #ibm #rhel10 #graalvm #gradle #maven 
 - The Spring Boot `.jar` is a standalone executable image.
 # JVM image
 ## Debian-based image
 ### Ubuntu-based image
 #### Eclipse Temurin JDK
 ##### Java 17
-```Dockerfile title='Containerfile to build simple Spring Boot image based on Debian with Eclipse Temurin JDK 17'
+```Dockerfile title='Containerfile to build simple Spring Boot image based on Debian with Eclipse Temurin JDK 17 and Maven' hl=31,9-10
 FROM maven:3.9.12-eclipse-temurin-17-alpine AS builder
 
 # USER root
@@ -42,7 +42,7 @@ COPY --from=builder --chown=100 /app/target/*.jar /app/app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 ```
-- The image size recorded in reality is 613 MB.
+- The image size recorded in reality is 653 MB.
 - ![[assets/Pasted image 20260104145737.png]]
 ##### Java 21
 ```Dockerfile title='Containerfile to build simple Spring Boot image based on Debian with Eclipse Temurin JDK 21'
@@ -77,6 +77,38 @@ COPY --from=builder --chown=1000 /build/target/*.jar /app/app.jar
 
 EXPOSE 5483
 ENTRYPOINT ["java", "-jar", "/app/app.jar"]
+```
+
+```Dockerfile title='Containerfile to build simple Spring Boot image based on Debian with Eclipse Temurin JDK 17 and Gradle' hl=5-7,9,29
+FROM docker.io/library/gradle:9.2.1-jdk21-noble AS builder
+USER gradle
+
+WORKDIR /home/gradle
+COPY ./src ./src
+COPY ./build.gradle ./build.gradle
+COPY ./settings.gradle ./settings.gradle
+
+RUN gradle clean build --info
+
+FROM docker.io/library/eclipse-temurin:21-jre AS runtime
+USER root
+
+RUN <<EOT bash
+  set -ex
+  apt-get update -y
+  apt-get install -y --no-install-recommends \
+    build-essential \
+    ca-certificates \
+    curl \
+    wget \
+    git
+  apt-get clean
+  rm -rf /var/lib/apt/lists/*
+EOT
+
+USER 1000
+WORKDIR /app
+COPY --from=builder --chown=1000 /home/gradle/build/libs/spring-petclinic-?.?.?-SNAPSHOT.jar /app/app.jar
 ```
 - The image size recorded in reality is 677 MB.
 - ![[assets/Pasted image 20260104165012.png]]
@@ -483,3 +515,5 @@ ENTRYPOINT ["/app/spring-petclinic"]
 # References
 1. https://spring.io/guides/gs/spring-boot-docker
 2. https://github.com/spring-projects/spring-petclinic for reference repository.
+3. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Eclipse Temurin]]
+4. 

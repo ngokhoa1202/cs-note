@@ -1,13 +1,13 @@
-#gradle #dependency-manager #java #spring #spring-boot #quarkus #micronaut #kotlin #groovy #build-lifecycle
+#gradle #dependency-manager #java #spring #spring-boot #quarkus #micronaut #kotlin #groovy
+#quarkus #continuous-delivery #continuous-integration 
 # Definition
 - Dependency configurations define <mark class="hltr-yellow">how dependencies are used during compilation and runtime</mark>.
 - Each configuration determines:
-  - **Compile-time availability** - whether the dependency is available during compilation.
-  - **Runtime availability** - whether the dependency is included in the runtime classpath.
-  - **Transitive exposure** - whether the dependency is exposed to consumers of the library.
+    - *Compile-time availability* - whether the dependency is available during compilation.
+    - *Runtime availability* - whether the dependency is included in the runtime classpath.
+    - *Transitive exposure* - whether the dependency is exposed to consumers of the library.
 - Gradle provides built-in configurations through the Java plugin for managing dependencies across different scopes.
 # Dependency Configuration Scopes
-
 ```mermaid title='Dependency Configuration Visibility'
 graph TB
     subgraph "Main Source Set"
@@ -46,7 +46,6 @@ graph TB
     style COMPILE fill:#87CEEB
     style TEST_IMPL fill:#FFA500
 ```
-
 # Main Source Set Configurations
 
 ## `implementation`
@@ -58,11 +57,13 @@ graph TB
 - Included in the runtime classpath.
 ### Transitive Exposure
 - **Not exposed** to consumers (encapsulated).
+>[!error]
+>If  project A depends on project B, and project B depends on library C, then project A cannot directly use library C because it is already hidden by project B.
+>If project B declares `implementation('C')`, project A can use project B but cannot transitively use library C.
 ### Use Case
 - Internal implementation dependencies that consumers don't need to know about.
 - Improves compilation performance by reducing classpath size for consumers.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='implementation configuration'
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
@@ -70,8 +71,7 @@ dependencies {
     implementation 'org.hibernate:hibernate-core:6.2.7.Final'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='implementation configuration'
 dependencies {
     implementation("org.springframework.boot:spring-boot-starter-web")
@@ -79,7 +79,6 @@ dependencies {
     implementation("org.hibernate:hibernate-core:6.2.7.Final")
 }
 ```
-
 ## `api`
 ### Purpose
 - Declare dependencies that are <mark class="hltr-yellow">exposed to consumers transitively</mark>.
@@ -89,12 +88,14 @@ dependencies {
 ### Runtime
 - Included in the runtime classpath.
 ### Transitive Exposure
-- **Exposed** to consumers (part of the public API).
+- Exposed to consumers as part of the public API.
+>[!info]
+>If  project A depends on project B, and project B depends on library C, then project A might automatically depend library C as well.
+>If project B declares `api('C')`, project A can directly use both project B and library C.
 ### Use Case
 - Dependencies that are part of the library's public API.
 - Types from these dependencies appear in public method signatures or are returned/accepted by public methods.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='api configuration'
 plugins {
     id 'java-library'
@@ -108,8 +109,7 @@ dependencies {
     implementation 'org.apache.commons:commons-lang3:3.13.0'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='api configuration'
 plugins {
     `java-library`
@@ -123,9 +123,7 @@ dependencies {
     implementation("org.apache.commons:commons-lang3:3.13.0")
 }
 ```
-
 ### `api` vs `implementation` Decision
-
 ```mermaid title='api vs implementation Decision Flow'
 flowchart TD
     A[Dependency needed?] -->|Yes| B{Used in public API?}
@@ -156,8 +154,7 @@ flowchart TD
 ### Use Case
 - Compile-time annotations (e.g., Lombok, JSR-305).
 - APIs provided by the runtime environment (e.g., Servlet API in web containers).
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='compileOnly configuration'
 dependencies {
     compileOnly 'org.projectlombok:lombok:1.18.30'
@@ -165,8 +162,7 @@ dependencies {
     compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='compileOnly configuration'
 dependencies {
     compileOnly("org.projectlombok:lombok:1.18.30")
@@ -174,7 +170,6 @@ dependencies {
     compileOnly("com.google.code.findbugs:jsr305:3.0.2")
 }
 ```
-
 ## `runtimeOnly`
 ### Purpose
 - Declare dependencies needed <mark class="hltr-yellow">only at runtime</mark>, not during compilation.
@@ -188,8 +183,7 @@ dependencies {
 - JDBC drivers.
 - Logging implementations.
 - Runtime-specific implementations.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='runtimeOnly configuration'
 dependencies {
     // Database drivers - only needed at runtime
@@ -200,8 +194,7 @@ dependencies {
     runtimeOnly 'ch.qos.logback:logback-classic:1.4.11'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='runtimeOnly configuration'
 dependencies {
     // Database drivers - only needed at runtime
@@ -212,9 +205,7 @@ dependencies {
     runtimeOnly("ch.qos.logback:logback-classic:1.4.11")
 }
 ```
-
 # Test Source Set Configurations
-
 ## `testImplementation`
 ### Purpose
 - Declare dependencies for <mark class="hltr-yellow">compiling and running tests</mark>.
@@ -229,8 +220,7 @@ dependencies {
 - Testing frameworks.
 - Test utilities and assertions.
 - Mock libraries.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='testImplementation configuration'
 dependencies {
     testImplementation 'org.junit.jupiter:junit-jupiter:5.10.0'
@@ -239,8 +229,7 @@ dependencies {
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='testImplementation configuration'
 dependencies {
     testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
@@ -249,7 +238,6 @@ dependencies {
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 }
 ```
-
 ## `testCompileOnly`
 ### Purpose
 - Declare dependencies needed only during test compilation, not at test runtime.
@@ -261,21 +249,18 @@ dependencies {
 - Not applicable (test scope only).
 ### Use Case
 - Test-specific compile-time annotations.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='testCompileOnly configuration'
 dependencies {
     testCompileOnly 'org.apiguardian:apiguardian-api:1.1.2'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='testCompileOnly configuration'
 dependencies {
     testCompileOnly("org.apiguardian:apiguardian-api:1.1.2")
 }
 ```
-
 ## `testRuntimeOnly`
 ### Purpose
 - Declare dependencies needed only during test execution, not test compilation.
@@ -288,8 +273,7 @@ dependencies {
 ### Use Case
 - Test runtime engines.
 - Test database drivers.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='testRuntimeOnly configuration'
 dependencies {
     // JUnit Platform Engine for running JUnit 5 tests
@@ -299,8 +283,7 @@ dependencies {
     testRuntimeOnly 'com.h2database:h2:2.2.224'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='testRuntimeOnly configuration'
 dependencies {
     // JUnit Platform Engine for running JUnit 5 tests
@@ -310,9 +293,7 @@ dependencies {
     testRuntimeOnly("com.h2database:h2:2.2.224")
 }
 ```
-
 # Annotation Processing Configuration
-
 ## `annotationProcessor`
 ### Purpose
 - Declare annotation processors that generate code during compilation.
@@ -326,8 +307,7 @@ dependencies {
 - Lombok annotation processor.
 - MapStruct processor.
 - JPA metamodel generator.
-
-**Groovy DSL:**
+#### Groovy DSL
 ```groovy title='annotationProcessor configuration'
 dependencies {
     // Lombok for compile-time code generation
@@ -342,8 +322,7 @@ dependencies {
     annotationProcessor 'org.hibernate:hibernate-jpamodelgen:6.2.7.Final'
 }
 ```
-
-**Kotlin DSL:**
+#### Kotlin DSL
 ```kotlin title='annotationProcessor configuration'
 dependencies {
     // Lombok for compile-time code generation
@@ -407,7 +386,6 @@ graph TB
 | `testCompileOnly` | ✅ Yes | ❌ No | ❌ Test only | Test annotations |
 | `testRuntimeOnly` | ❌ No | ✅ Yes | ❌ Test only | JUnit engine, H2 database |
 | `annotationProcessor` | 🔧 Processing | ❌ No | ❌ Hidden | Lombok, MapStruct, JPA metamodel |
-
 # Dependency Configuration Flow
 
 ```mermaid title='Dependency Resolution Flow'
@@ -447,8 +425,7 @@ sequenceDiagram
 ```
 
 # Real-World Example
-
-**Groovy DSL:**
+## Groovy DSL
 ```groovy title='Complete dependency configuration example'
 plugins {
     id 'java-library'
@@ -487,8 +464,7 @@ test {
     useJUnitPlatform()
 }
 ```
-
-**Kotlin DSL:**
+## Kotlin DSL
 ```kotlin title='Complete dependency configuration example'
 plugins {
     `java-library`
@@ -527,14 +503,11 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 ```
-
 # Best Practices
-
-## 1. Prefer `implementation` over `api`
+## Prefer `implementation` over `api`
 - Use `implementation` by default to reduce compilation dependencies.
 - Only use `api` when types are exposed in public API.
-
-**Example:**
+### Example
 ```kotlin
 // ❌ Bad - unnecessarily exposes internal dependency
 api("org.apache.commons:commons-lang3:3.13.0")
@@ -542,12 +515,10 @@ api("org.apache.commons:commons-lang3:3.13.0")
 // ✅ Good - hides internal dependency
 implementation("org.apache.commons:commons-lang3:3.13.0")
 ```
-
-## 2. Use `compileOnly` for provided dependencies
+## Use `compileOnly` for provided dependencies
 - Container-provided APIs (Servlet API, Jakarta EE).
 - Compile-time annotation processors (Lombok).
-
-**Example:**
+### Example
 ```kotlin
 // ✅ Correct - Servlet API provided by container
 compileOnly("jakarta.servlet:jakarta.servlet-api:6.0.0")
@@ -556,12 +527,10 @@ compileOnly("jakarta.servlet:jakarta.servlet-api:6.0.0")
 compileOnly("org.projectlombok:lombok:1.18.30")
 annotationProcessor("org.projectlombok:lombok:1.18.30")
 ```
-
-## 3. Use `runtimeOnly` for implementation-agnostic dependencies
+## Use `runtimeOnly` for implementation-agnostic dependencies
 - JDBC drivers (switch between databases without code changes).
 - Logging implementations (switch SLF4J bindings).
-
-**Example:**
+### Example
 ```kotlin
 // Compile against SLF4J API
 implementation("org.slf4j:slf4j-api:2.0.9")
@@ -569,11 +538,9 @@ implementation("org.slf4j:slf4j-api:2.0.9")
 // Choose logging implementation at runtime
 runtimeOnly("ch.qos.logback:logback-classic:1.4.11")
 ```
-
-## 4. Separate main and test configurations
+## Separate main and test configurations
 - Test dependencies should use `testImplementation`, not `implementation`.
-
-**Example:**
+### Example
 ```kotlin
 // ❌ Bad - pollutes main classpath
 implementation("org.junit.jupiter:junit-jupiter:5.10.0")
@@ -598,3 +565,5 @@ testImplementation("org.junit.jupiter:junit-jupiter:5.10.0")
 2. https://docs.gradle.org/current/userguide/dependency_management.html - Gradle Dependency Management
 3. https://docs.gradle.org/current/userguide/java_plugin.html#sec:java_plugin_and_dependency_management - Java Plugin dependency configurations
 4. https://docs.gradle.org/current/userguide/upgrading_version_6.html#sec:configuration_removal - Migration from deprecated configurations
+5. [[site-reliability-engineering/build-tools/java/build-tools/maven/Dependency Scopes]] for Maven Dependency scopes.
+6. [[site-reliability-engineering/build-tools/java/build-tools/maven/Lifecycle]] for Maven lifecycle

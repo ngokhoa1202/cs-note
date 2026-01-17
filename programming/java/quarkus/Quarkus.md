@@ -421,5 +421,5 @@ quarkus-project/
 13. [[Persistence|Quarkus Persistence]] for Hibernate Panache
 14. [[RESTful Services|Quarkus RESTful Services]] for JAX-RS endpoints
 15. [[gRPC for Quarkus]] for gRPC microservices implementation
-16. [[site-reliability-engineering/container-engine/artifacts/programming-language/java/GraalVM|GraalVM]]
+16. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/GraalVM|GraalVM]]
 17. 

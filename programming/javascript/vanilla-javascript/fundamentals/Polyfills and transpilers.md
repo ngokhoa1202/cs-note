@@ -22,6 +22,7 @@ if (!Math.trunc) { // if no such function
   };
 }
 ```
+***
 # References
 1. https://javascript.info/polyfills.
 2. https://tc39.es/ecma262/ for ECMAScript 2025.

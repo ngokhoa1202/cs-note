@@ -56,7 +56,6 @@ $$(Header).(Payload).(Signature)$$
 - Registered with https://www.iana.org/assignments/jwt/jwt.xhtml.
 ### Private claims
 - Defined by the party.
-
 ## JWT Signatures
 - Ensure data integrity  and authenticity.
 - Employs [Hash-based Message Authentication Code](Hash-based%20Message%20Authentication%20Code.md) , [Message Authentication Code](Message%20Authentication%20Code.md)

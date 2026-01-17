@@ -1,6 +1,138 @@
 {
   "recentFiles": [
     {
+      "basename": "Build Quarkus Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Build Spring Boot image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Eclipse Temurin",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Eclipse Temurin.md"
+    },
+    {
+      "basename": "FDMA",
+      "path": "computer-network/link-layer/mac/channel-partitioning/FDMA.md"
+    },
+    {
+      "basename": "MPLS",
+      "path": "computer-network/link-layer/link-virtualization/MPLS.md"
+    },
+    {
+      "basename": "Link layer overview",
+      "path": "computer-network/link-layer/Link layer overview.md"
+    },
+    {
+      "basename": "Network Interface Card (NIC)",
+      "path": "computer-network/link-layer/Network Interface Card (NIC).md"
+    },
+    {
+      "basename": "IEEE 802.11 Wireless LAN",
+      "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
+    },
+    {
+      "basename": "Wireless network security",
+      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
+    },
+    {
+      "basename": "Server-side request forgery (SSRF)",
+      "path": "cybersecurity/web-security/Server-side request forgery (SSRF).md"
+    },
+    {
+      "basename": "JSON Web Token",
+      "path": "cybersecurity/web-security/JSON Web Token.md"
+    },
+    {
+      "basename": "Fundamental Theorem of Arithmetic",
+      "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
+    },
+    {
+      "basename": "Fermat little theorem",
+      "path": "discrete-math/number-theory/Fermat little theorem.md"
+    },
+    {
+      "basename": "Chinese Remainder Theorem",
+      "path": "discrete-math/number-theory/Chinese Remainder Theorem.md"
+    },
+    {
+      "basename": "Oracle JDK",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Oracle JDK.md"
+    },
+    {
+      "basename": "OpenJDK",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/OpenJDK.md"
+    },
+    {
+      "basename": "Amazon Corretto",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Amazon Corretto.md"
+    },
+    {
+      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
+    },
+    {
+      "basename": "GraalVM",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/GraalVM.md"
+    },
+    {
+      "basename": "Lifecycle",
+      "path": "site-reliability-engineering/build-tools/java/build-tools/gradle/Lifecycle.md"
+    },
+    {
+      "basename": "Dependency Configurations",
+      "path": "site-reliability-engineering/build-tools/java/build-tools/gradle/Dependency Configurations.md"
+    },
+    {
+      "basename": "Spring Boot Configuration",
+      "path": "site-reliability-engineering/build-tools/java/build-tools/maven/spring/spring-boot/Spring Boot Configuration.md"
+    },
+    {
+      "basename": "Bundle and build React web image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/react/Bundle and build React web image.md"
+    },
+    {
+      "basename": "Build Express.js image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/express-js/Build Express.js image.md"
+    },
+    {
+      "basename": "Collector",
+      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collector.md"
+    },
+    {
+      "basename": "Collectors",
+      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collectors.md"
+    },
+    {
+      "basename": "Dependency Injection",
+      "path": "programming/java/quarkus/Dependency Injection.md"
+    },
+    {
+      "basename": "ECMAScript Module",
+      "path": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md"
+    },
+    {
+      "basename": "CommonJS",
+      "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
+    },
+    {
+      "basename": "Scope",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Scope.md"
+    },
+    {
+      "basename": "Polyfills and transpilers",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
+    },
+    {
+      "basename": "Promise",
+      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
+    },
+    {
+      "basename": "Webpack",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
+    },
+    {
       "basename": "Repository pattern",
       "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md"
     },
@@ -67,134 +199,6 @@
     {
       "basename": "Factory Method pattern",
       "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern.md"
-    },
-    {
-      "basename": "Abstract Factory pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Abstract Factory pattern.md"
-    },
-    {
-      "basename": "Builder pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Builder pattern.md"
-    },
-    {
-      "basename": "Visitor pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Visitor pattern.md"
-    },
-    {
-      "basename": "Mediator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Mediator pattern.md"
-    },
-    {
-      "basename": "Command pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Command pattern.md"
-    },
-    {
-      "basename": "Chain of responsibility pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/behavioral-pattern/Chain of responsibility pattern.md"
-    },
-    {
-      "basename": "Apache Thrift",
-      "path": "software-engineering/api/protocol/remote-procedure-call/apache-thrift/Apache Thrift.md"
-    },
-    {
-      "basename": "Remote Procedure Call",
-      "path": "software-engineering/api/protocol/remote-procedure-call/Remote Procedure Call.md"
-    },
-    {
-      "basename": "Fast Modular Exponentiation",
-      "path": "discrete-math/number-theory/Fast Modular Exponentiation.md"
-    },
-    {
-      "basename": "Problem 350. Intersection of Two Arrays II",
-      "path": "algorithm/problems/leetcode/Problem 350. Intersection of Two Arrays II.md"
-    },
-    {
-      "basename": "Problem 219. Contains Duplicate II",
-      "path": "algorithm/problems/leetcode/Problem 219. Contains Duplicate II.md"
-    },
-    {
-      "basename": "Problem 49. Group anagrams",
-      "path": "algorithm/problems/leetcode/Problem 49. Group anagrams.md"
-    },
-    {
-      "basename": "Problem 21. Merge two sorted lists",
-      "path": "algorithm/problems/leetcode/Problem 21. Merge two sorted lists.md"
-    },
-    {
-      "basename": "Sieve of Eratosthenes",
-      "path": "algorithm/number-theory/Sieve of Eratosthenes.md"
-    },
-    {
-      "basename": "Hash table",
-      "path": "algorithm/data-structure/hashing/Hash table.md"
-    },
-    {
-      "basename": "Recurrence relation",
-      "path": "algorithm/complexity/Recurrence relation.md"
-    },
-    {
-      "basename": "Algorithm complexity",
-      "path": "algorithm/complexity/Algorithm complexity.md"
-    },
-    {
-      "basename": "Fundamental Theorem of Arithmetic",
-      "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
-    },
-    {
-      "basename": "Primitive root - Discrete Logarithm",
-      "path": "discrete-math/number-theory/Primitive root - Discrete Logarithm.md"
-    },
-    {
-      "basename": "Explicit Congestion Notification (ECN)",
-      "path": "computer-network/transport-layer/tcp/congestion-control/Explicit Congestion Notification (ECN).md"
-    },
-    {
-      "basename": "TCP Cubic",
-      "path": "computer-network/transport-layer/tcp/congestion-control/TCP Cubic.md"
-    },
-    {
-      "basename": "TCP Congestion Control",
-      "path": "computer-network/transport-layer/tcp/congestion-control/TCP Congestion Control.md"
-    },
-    {
-      "basename": "Transmission Control Protocol (TCP)",
-      "path": "computer-network/transport-layer/tcp/Transmission Control Protocol (TCP).md"
-    },
-    {
-      "basename": "Selective repeat",
-      "path": "computer-network/transport-layer/tcp/reliable-data-transfer/Selective repeat.md"
-    },
-    {
-      "basename": "Reliable data transfer principle",
-      "path": "computer-network/transport-layer/tcp/reliable-data-transfer/Reliable data transfer principle.md"
-    },
-    {
-      "basename": "Quick UDP Internet Connection (QUIC)",
-      "path": "computer-network/transport-layer/quic/Quick UDP Internet Connection (QUIC).md"
-    },
-    {
-      "basename": "Webpack",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
-    },
-    {
-      "basename": "Build Debian-based image",
-      "path": "site-reliability-engineering/container-engine/artifacts/operating-system/linux/debian/Build Debian-based image.md"
-    },
-    {
-      "basename": "Build Express.js image",
-      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/express-js/Build Express.js image.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/javascript/package-manager/npm/Lifecycle.md"
-    },
-    {
-      "basename": "Container networking",
-      "path": "site-reliability-engineering/container-engine/Container networking.md"
-    },
-    {
-      "basename": "Hindley-Milner type checking",
-      "path": "programming/principles/data-types/Hindley-Milner type checking.md"
     }
   ],
   "omittedPaths": [],

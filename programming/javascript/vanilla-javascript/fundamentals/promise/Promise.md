@@ -124,7 +124,6 @@ async function getPageData() {
   const analytics = await fetchAnalytics()
 }
 ```
-
 ## `Promise.all`
  - `Promise.all()` fulfills when **all** of the promises fulfill with an array of *fulfillment values*; and rejects when **any** of the promises rejects with only the *first reject reason*.
 ```Javascript title='Promise.all() may cause unhandled rejections'
@@ -162,7 +161,6 @@ async function getPageData() {
   }
 }
 ```
-
 ## `Promise.allSettled`
  - `Promise.allSettled()` fulfills when **all** promises settle, with an array of objects that describe the outcome of each promise. Each settled object is made up of `status` and `value` in case of fulfillment or `reason` in case of rejection properties.
 ```Javascript title='Promise.allSettled() usage'

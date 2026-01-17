@@ -1,5 +1,4 @@
 #software-engineering #software-architecture #javascript #nodejs #vanilla-javascript 
-
 # CommonJS module
 - CommonJS modules are the <mark class="hltr-yellow">original</mark> way to package JavaScript source code for Node.js.
 - In Node.js, each file is treated as a separate module.
@@ -23,7 +22,6 @@ const Square = require('./square.js');
 const mySquare = new Square(2);
 console.log(`The area of mySquare is ${mySquare.area()}`);
 ```
-
 # File format
 - Files with a `.cjs` extension.
 - Files with a `.js` extension when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"commonjs"`.

@@ -7,7 +7,6 @@
 3. **Execution** - executes selected tasks in dependency order.
 - Each task has its own lifecycle: `doFirst` → task actions → `doLast`
 # Gradle Build Phases Architecture
-
 ```mermaid title='Gradle Build Phases'
 graph TB
     subgraph "Initialization Phase"
@@ -38,7 +37,7 @@ graph TB
     style E2 fill:#FFD700
 ```
 ## Build Phases
-### 1. Initialization Phase
+### Initialization Phase
 #### Purpose
 - Determine which projects participate in the build (single or multi-project).
 #### Input
@@ -62,7 +61,7 @@ include("core")
 include("web")
 include("api")
 ```
-### 2. Configuration Phase
+### Configuration Phase
 #### Purpose
 - Execute build scripts and configure all tasks.
 - Construct task dependency graph (DAG).
@@ -119,8 +118,7 @@ tasks.named<Test>("test") {
     useJUnitPlatform()
 }
 ```
-
-### 3. Execution Phase
+### Execution Phase
 #### Purpose
 - Execute tasks in dependency order according to the task graph.
 #### Input
@@ -136,9 +134,7 @@ tasks.named<Test>("test") {
 ```shell title='Execute tasks'
 ./gradlew build
 ```
-
 # Task Lifecycle
-
 ```mermaid title='Task Execution Lifecycle'
 sequenceDiagram
     participant Gradle
@@ -221,7 +217,6 @@ tasks.named("build") {
 - Compiled test classes in `build/classes/java/test/`.
 - Test results in `build/test-results/`.
 - HTML test reports in `build/reports/tests/`.
-
 ```shell title='test task'
 ./gradlew test
 ```
@@ -417,17 +412,18 @@ tasks.register("integrationTest") {
 ```
 # Common Task Combinations
 
-| Command                         | Tasks Executed                                                                                         | Use Case                          |
-| ------------------------------- | ------------------------------------------------------------------------------------------------------ | --------------------------------- |
-| `./gradlew clean`               | clean                                                                                                  | Remove build artifacts            |
-| `./gradlew compileJava`         | compileJava                                                                                            | Quick compilation check           |
-| `./gradlew test`                | compileJava → processResources → classes → compileTestJava → processTestResources → testClasses → test | Run unit tests                    |
-| `./gradlew jar`                 | compileJava → processResources → classes → jar                                                         | Create JAR artifact               |
-| `./gradlew build`               | Complete build task graph                                                                              | Build and test project            |
-| `./gradlew assemble`            | compileJava → processResources → classes → jar → assemble                                              | Build without tests               |
-| `./gradlew clean build`         | clean → full build                                                                                     | Fresh build                       |
-| `./gradlew build -x test`       | Build excluding tests                                                                                  | Fast build for development        |
-| `./gradlew publishToMavenLocal` | build → publishToMavenLocal                                                                            | Install to local Maven repository |
+| Command                         | Tasks Executed                                                                                                       | Use Case                          |
+| ------------------------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------------------- |
+| `./gradlew clean`               | `clean`                                                                                                              | Remove build artifacts            |
+| `./gradlew compileJava`         | `compileJava`                                                                                                        | Quick compilation check           |
+| `./gradlew test`                | `compileJava` → `processResources` → `classes` → `compileTestJava` → `processTestResources` → `testClasses` → `test` | Run unit tests                    |
+| `./gradlew jar`                 | `compileJava` → `processResources` → `classes` → `jar`                                                               | Create JAR artifact               |
+| `./gradlew build`               | Complete build task graph                                                                                            | Build and test project            |
+| `./gradlew assemble`            | `compileJava` → `processResources` → `classes` → `jar` → `assemble`                                                  | Build without tests               |
+| `./gradlew clean build`         | `clean` → full build                                                                                                 | Fresh build                       |
+| `./gradlew build -x test`       | Build excluding tests                                                                                                | Fast build for development        |
+| `./gradlew publishToMavenLocal` | `build` → `publishToMavenLocal`                                                                                      | Install to local Maven repository |
+|                                 |                                                                                                                      |                                   |
 # Maven vs Gradle Lifecycle Comparison
 
 | Maven Phase | Gradle Task | Description |
@@ -471,7 +467,6 @@ tasks.register("example") {
     }
 }
 ```
-
 # Build Lifecycle Hooks
 ```groovy title='Gradle lifecycle hooks'
 gradle.beforeProject { project ->
@@ -509,7 +504,6 @@ gradle.buildFinished {
 }
 ```
 # Directory Structure Input/Output
-
 ```
 project-root/
 ├── build.gradle.kts          # INPUT: Build configuration (Kotlin DSL)
