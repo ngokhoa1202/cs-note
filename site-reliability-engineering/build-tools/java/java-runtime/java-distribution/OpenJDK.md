@@ -473,3 +473,8 @@ javac -Xlint:deprecation src/**/*.java
 4. OpenJDK Mailing Lists: https://mail.openjdk.org/
 5. Oracle Java Documentation: https://docs.oracle.com/en/java/
 6. OpenJDK Wiki: https://wiki.openjdk.org/
+7. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Amazon Corretto]]
+8. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Eclipse Temurin]]
+9. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/GraalVM]]
+10. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Oracle JDK]]
+11. 

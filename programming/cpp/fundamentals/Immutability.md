@@ -24,7 +24,6 @@ square(100); // computed at compile time
 int b = 10;
 square(b); // computed at run time, does not raise error.
 ```
-
 # Constant
 ## Constant variable
 - Constant variable is a variable that cannot be changed after initialization.

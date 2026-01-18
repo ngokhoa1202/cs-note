@@ -181,6 +181,7 @@ const fedora: Environment = {
 
 const family = fedora["family"];
 ```
+***
 # References
 1.  https://www.typescriptlang.org/docs/handbook/compiler-options.html for Typescript basic command lines.
 2. . https://www.typescriptlang.org/docs/handbook/compiler-options.html for TypeScript watch mode.

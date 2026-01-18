@@ -202,7 +202,6 @@ USER appuser
 ```
 ## Application Runtime Base
 - Production-ready base with runtime libraries, security configurations, and locale support.
-
 ```Dockerfile
 FROM ubuntu:24.04
 

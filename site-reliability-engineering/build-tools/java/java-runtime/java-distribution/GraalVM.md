@@ -445,3 +445,6 @@ native-image -J-Xmx8g -jar myapp.jar
 7. https://www.redhat.com/en/blog/mandrel-distribution-graalvm - Red Hat Mandrel introduction
 8. https://medium.com/graalvm/graalvm-quick-start-guide-c8c6e7c0d3e7 - GraalVM Quick Start Guide.
 9. https://inside.java/tag/hotspot for HotSpot JVM C2 JIT Compiler.
+10. [[site-reliability-engineering/build-tools/java/java-runtime/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)]]
+11. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/OpenJDK]]
+12. 

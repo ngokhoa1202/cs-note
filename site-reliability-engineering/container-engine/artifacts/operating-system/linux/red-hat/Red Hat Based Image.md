@@ -23,79 +23,82 @@ graph TD
 ```
 
 # Red Hat Image Variants
-
 ## Red Hat Universal Base Image (UBI)
-
-==Universal Base Images (UBI)== are freely redistributable OCI-compliant container base images based on Red Hat Enterprise Linux. UBI images can be used, built upon, and redistributed without a Red Hat subscription.
-
-**Key Characteristics:**
+- ==Universal Base Images (UBI)== are freely redistributable OCI-compliant container base images based on Red Hat Enterprise Linux. UBI images can be used, built upon, and redistributed without a Red Hat subscription.
+### Characteristics
 - **License**: Free to use and redistribute, even for commercial purposes
 - **Support**: Backed by Red Hat's security updates and quality assurance
 - **Registry**: Available on Red Hat Container Catalog and Docker Hub
 - **Compliance**: OpenShift-ready with security best practices built-in
-
-**UBI Variants:**
-- `ubi9`: Standard base image (~200MB)
-- `ubi9-minimal`: Minimal image with microdnf (~100MB)
-- `ubi9-micro`: Ultra-minimal without package manager (~25MB)
+### Variants
+- `ubi9`: Standard base image (~200 MB)
+- `ubi9-minimal`: Minimal image with `microdnf` (~100 MB)
+- `ubi9-micro`: Ultra-minimal without package manager (~25 MB)
 - `ubi9-init`: Includes systemd for multi-service containers
+```mermaid
+graph LR
+    A[UBI Variants] --> B[ubi9: ~200MB]
+    A --> C[ubi9-minimal: ~100MB]
+    A --> D[ubi9-micro: ~25MB]
+    A --> E[ubi9-init: ~240MB]
 
+    style D fill:#90EE90
+    style C fill:#fff4e6
+    style B fill:#ffe66d
+    style E fill:#FFB6C6
+
+    note1[Smallest - no package manager]
+    note2[Recommended for most apps]
+    note3[Full DNF package manager]
+    note4[Includes systemd]
+
+    D -.-> note1
+    C -.-> note2
+    B -.-> note3
+    E -.-> note4
+```
 ## Red Hat Enterprise Linux (RHEL)
-
-Full RHEL images require a valid Red Hat subscription and are accessed through the Red Hat Container Registry.
-
+- Full RHEL images require a valid Red Hat subscription and are accessed through the Red Hat Container Registry.
+### Characteristics
 - **Authentication**: Requires `podman login registry.redhat.io`
 - **Updates**: Full access to RHEL repositories
 - **Support**: Commercial support from Red Hat
-
 ## Fedora
-
-Community-driven upstream for RHEL with cutting-edge packages and frequent updates.
-
+### Characteristics
+- Community-driven upstream for RHEL with cutting-edge packages and frequent updates.
 - **Release Cycle**: ~6 months per version
 - **Package Manager**: `dnf`
 - **Use Case**: Development, testing, latest features
-
 ## CentOS Stream
-
-Rolling-release distribution that sits between Fedora and RHEL.
-
+- Rolling-release distribution that sits between Fedora and RHEL.
+### Characteristics
 - **Model**: Continuous delivery of next RHEL minor version
 - **Stability**: More stable than Fedora, preview of RHEL
 - **Use Case**: Development environments, CI/CD pipelines
-
 ## Rocky Linux / AlmaLinux
-
-Community RHEL rebuilds maintaining 1:1 binary compatibility with RHEL.
-
+- Community RHEL rebuilds maintaining 1:1 binary compatibility with RHEL.
+### Characteristics
 - **License**: Free and open source
 - **Compatibility**: Drop-in replacement for CentOS/RHEL
 - **Support**: Community-driven
-
 # Best Practices
 
 ## Security Hardening
-
 1. **Always update packages**: Run `dnf upgrade -y` or `microdnf upgrade -y` to patch known vulnerabilities
 2. **Use specific versions**: Pin image versions (e.g., `ubi9:9.3` not `ubi9:latest`) for reproducibility
 3. **Remove package cache**: Clean `/var/cache/dnf` and `/var/cache/yum` to prevent stale packages
 4. **Run as non-root**: UBI images use UID 1001 by default; follow OpenShift random UID pattern
 5. **Minimal attack surface**: Install only necessary packages to reduce potential vulnerabilities
 6. **Use minimal variants**: Prefer `ubi9-minimal` or `ubi9-micro` for production workloads
-
 ## Image Optimization
-
 1. **Combine RUN commands**: Use heredoc syntax to reduce layer count
 2. **Use `--nodocs`**: Skip documentation with `dnf install --nodocs` to save space
 3. **Clean in same layer**: Remove package cache in the same `RUN` command that installs packages
 4. **Multi-stage builds**: Separate build-time and runtime dependencies
 5. **Choose appropriate base**: Use `ubi9-micro` for statically-linked binaries
-
 ## Package Management
-
 ### DNF (Dandified YUM) - Standard RHEL/Fedora
-
-```Shell
+```Shell title='dnf package manager'
 # Update package metadata
 dnf check-update
 
@@ -105,21 +108,16 @@ dnf install -y --nodocs package-name
 # Clean package cache
 dnf clean all
 ```
-
 ### MicroDNF - UBI Minimal
-
-```Shell
+```Shell title='microdnf package manager'
 # Install packages (automatically excludes docs)
 microdnf install -y package-name
 
 # Clean cache
 microdnf clean all
 ```
-
 ### No Package Manager - UBI Micro
-
-UBI Micro has no package manager. Packages must be installed during build using multi-stage patterns or by copying binaries.
-
+- UBI Micro has no package manager. Packages must be installed during build using multi-stage patterns or by copying binaries.
 ## Warning: Common Pitfalls
 
 ```mermaid
@@ -143,11 +141,8 @@ flowchart LR
 - Full RHEL images require registry authentication
 
 # Practical Dockerfiles
-
 ## Minimal Security-Hardened UBI Base
-
-Suitable for applications with minimal dependencies using the smallest UBI variant with package manager.
-
+- Suitable for applications with minimal dependencies using the smallest UBI variant with package manager.
 ```Dockerfile
 FROM registry.access.redhat.com/ubi9/ubi-minimal:9.3
 
@@ -193,11 +188,8 @@ USER 1001
 ENV HOME=/home/appuser \
     PATH=/app/bin:$PATH
 ```
-
 ## Standard UBI Base with Development Tools
-
-Includes common development and debugging utilities.
-
+- Includes common development and debugging utilities.
 ```Dockerfile
 FROM registry.access.redhat.com/ubi9/ubi:9.3
 
@@ -251,9 +243,7 @@ USER 1001
 ```
 
 ## Fedora Latest with Modern Tools
-
-For development environments requiring cutting-edge packages.
-
+- For development environments requiring cutting-edge packages.
 ```Dockerfile
 FROM fedora:39
 
@@ -311,11 +301,8 @@ USER developer
 
 ENV EDITOR=vim
 ```
-
 ## CentOS Stream Base
-
-For CI/CD pipelines and testing environments.
-
+- For CI/CD pipelines and testing environments.
 ```Dockerfile
 FROM quay.io/centos/centos:stream9
 
@@ -356,11 +343,8 @@ RUN chgrp -R 0 /app && chmod -R g=u /app
 
 USER 1001
 ```
-
 ## Ultra-Minimal UBI Micro for Static Binaries
-
-For containers running single statically-linked binaries.
-
+- For containers running single statically-linked binaries.
 ```Dockerfile
 # Build stage with full toolchain
 FROM registry.access.redhat.com/ubi9/ubi:9.3 AS builder
@@ -390,10 +374,8 @@ USER 1001
 # No shell available - use exec form
 CMD ["/app/app"]
 ```
-
 ## Multi-Stage Build with UBI
-
-Demonstrates separation of build and runtime environments.
+- Demonstrates separation of build and runtime environments.
 
 ```Dockerfile
 # Builder stage with full UBI
@@ -432,10 +414,8 @@ RUN chgrp -R 0 /app && chmod -R g=u /app
 
 USER 1001
 ```
-
 ## Rocky Linux / AlmaLinux Base
-
-RHEL-compatible alternative with full package availability.
+- RHEL-compatible alternative with full package availability.
 
 ```Dockerfile
 FROM rockylinux:9
@@ -475,12 +455,9 @@ WORKDIR /app
 
 USER appuser
 ```
-
 # Security
-
 ## OpenShift Random UID Pattern
-
-UBI images are designed for ==OpenShift== which assigns random UIDs to containers for security. This requires specific permission patterns:
+- UBI images are designed for ==OpenShift== which assigns random UIDs to containers for security. This requires specific permission patterns:
 
 ```mermaid
 flowchart TD
@@ -494,9 +471,7 @@ flowchart TD
     style F fill:#90EE90
     style G fill:#ff6b6b
 ```
-
-**Implementation Pattern:**
-
+### Implementation pattern
 ```Dockerfile
 # Create user with UID 1001, GID 0 (root group)
 RUN useradd -r -u 1001 -g 0 appuser
@@ -507,30 +482,22 @@ RUN chgrp -R 0 /app && \
 
 # This allows any UID in GID 0 to have same permissions as user
 ```
-
-**UID/GID Ranges:**
+### Identifier pattern
 - **UID 0**: root (never use in containers)
 - **UID 1-999**: System users
 - **UID 1000+**: Regular users (traditional)
 - **UID 1001**: Default UBI non-root user
 - **GID 0**: Root group (OpenShift pattern for all containers)
-
 ## RHEL Security Features
-
 ### SELinux Integration
-
-UBI images are built with SELinux in mind:
-
+- UBI images are built with SELinux in mind:
 ```Dockerfile
 # For files that need specific SELinux contexts
 # Use COPY with --chown and verify with:
 # podman run --security-opt label=disable myimage ls -Z /app
 ```
-
 ### Subscription Management
-
-For full RHEL images requiring subscriptions:
-
+- For full RHEL images requiring subscriptions:
 ```Shell
 # Login to Red Hat registry
 podman login registry.redhat.io
@@ -538,22 +505,17 @@ podman login registry.redhat.io
 # Use in Dockerfile
 FROM registry.redhat.io/rhel9/rhel:9.3
 ```
-
 ### Package Signature Verification
-
 ```Dockerfile
 # DNF automatically verifies RPM signatures using GPG
 # Ensure gpgcheck is enabled (default)
 RUN echo "gpgcheck=1" >> /etc/dnf/dnf.conf
 ```
-
 ## UBI Security Best Practices
-
 1. **Use minimal variants**: Smaller attack surface with `ubi-minimal` or `ubi-micro`
 2. **Read-only root filesystem**: Design apps to run with `--read-only` flag
 3. **Drop capabilities**: Remove unnecessary Linux capabilities
 4. **No privilege escalation**: Ensure `allowPrivilegeEscalation: false` in Kubernetes
-
 ```Shell
 # Run with security constraints
 podman run --rm \
@@ -563,139 +525,6 @@ podman run --rm \
   --user 1001 \
   myapp:latest
 ```
-
-# Advanced Techniques
-
-## Conditional Package Installation by Architecture
-
-```Dockerfile
-FROM registry.access.redhat.com/ubi9/ubi-minimal:9.3
-
-RUN <<EOT bash
-  set -ex
-  microdnf upgrade -y
-
-  # Base packages
-  microdnf install -y ca-certificates curl
-
-  # Architecture-specific packages
-  ARCH=$(uname -m)
-  if [ "$ARCH" = "x86_64" ]; then
-    microdnf install -y some-x86-package
-  elif [ "$ARCH" = "aarch64" ]; then
-    microdnf install -y some-arm-package
-  fi
-
-  microdnf clean all
-EOT
-```
-
-## Build Arguments for Flexibility
-
-```Dockerfile
-ARG UBI_VERSION=9.3
-ARG USER_UID=1001
-ARG APP_DIR=/app
-
-FROM registry.access.redhat.com/ubi9/ubi-minimal:${UBI_VERSION}
-
-RUN microdnf upgrade -y && \
-    microdnf install -y ca-certificates shadow-utils && \
-    microdnf clean all
-
-RUN useradd -r -u ${USER_UID} -g 0 appuser
-
-WORKDIR ${APP_DIR}
-
-RUN chgrp -R 0 ${APP_DIR} && chmod -R g=u ${APP_DIR}
-
-USER ${USER_UID}
-```
-
-```Shell
-podman build \
-  --build-arg UBI_VERSION=9.2 \
-  --build-arg USER_UID=5000 \
-  -t myapp:latest .
-```
-
-## Installing Non-RPM Software
-
-For software not available in RPM repositories:
-
-```Dockerfile
-FROM registry.access.redhat.com/ubi9/ubi-minimal:9.3
-
-RUN <<EOT bash
-  set -ex
-  microdnf upgrade -y
-  microdnf install -y curl tar gzip ca-certificates
-
-  # Download and install binary
-  curl -fsSL https://example.com/software.tar.gz -o /tmp/software.tar.gz
-  tar -xzf /tmp/software.tar.gz -C /usr/local/bin
-
-  # Cleanup
-  rm -rf /tmp/*
-  microdnf clean all
-EOT
-```
-
-## Using UBI Init for Multi-Process Containers
-
-```Dockerfile
-FROM registry.access.redhat.com/ubi9/ubi-init:9.3
-
-# Install services
-RUN dnf install -y --nodocs httpd postgresql && \
-    dnf clean all
-
-# Enable services
-RUN systemctl enable httpd postgresql
-
-# Expose ports
-EXPOSE 80 5432
-
-# UBI Init uses systemd as PID 1
-CMD ["/sbin/init"]
-```
-
-## Registry Selection Matrix
-
-| Registry | Image Type | Authentication | Use Case |
-|----------|-----------|----------------|----------|
-| `registry.access.redhat.com` | UBI | None | Free UBI images |
-| `registry.redhat.io` | RHEL Full | Required | Enterprise RHEL |
-| `docker.io` | UBI Mirror | None | Docker Hub convenience |
-| `quay.io/centos` | CentOS Stream | None | Community images |
-| `docker.io/rockylinux` | Rocky Linux | None | RHEL alternative |
-| `docker.io/almalinux` | AlmaLinux | None | RHEL alternative |
-
-# Image Size Comparison
-
-```mermaid
-graph LR
-    A[UBI Variants] --> B[ubi9: ~200MB]
-    A --> C[ubi9-minimal: ~100MB]
-    A --> D[ubi9-micro: ~25MB]
-    A --> E[ubi9-init: ~240MB]
-
-    style D fill:#90EE90
-    style C fill:#fff4e6
-    style B fill:#ffe66d
-    style E fill:#FFB6C6
-
-    note1[Smallest - no package manager]
-    note2[Recommended for most apps]
-    note3[Full DNF package manager]
-    note4[Includes systemd]
-
-    D -.-> note1
-    C -.-> note2
-    B -.-> note3
-    E -.-> note4
-```
-
 # Package Manager Command Reference
 
 | Operation | DNF (UBI/RHEL/Fedora) | MicroDNF (UBI Minimal) | Notes |

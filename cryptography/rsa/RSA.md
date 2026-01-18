@@ -1,5 +1,5 @@
 #cybersecurity #asymmetric-cipher #cryptography #rsa #number-theory #public-key
-# RSA (Rivest-Shamir-Adleman) Cryptosystem
+# RSA Cryptosystem
 - RSA is the ==backbone of asymmetric cryptography==, invented in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman. It is a ==public-key cryptosystem== used for secure data transmission and digital signatures.
 
 ## Key Characteristics

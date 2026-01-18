@@ -268,9 +268,8 @@ services:
           memory: 512M
 ```
 #### Memory swap limit (`memswap_limit`)
-Defines combined memory and swap capacity. Setting equal to memory limit disables swap entirely.
-
-```yaml
+- Defines combined memory and swap capacity. Setting equal to memory limit disables swap entirely.
+```yaml title='Memory swap limit' hl=5
 services:
   app:
     image: nginx:alpine
@@ -278,18 +277,15 @@ services:
     memswap_limit: 300m  # No swap allowed
 ```
 
-To allow unlimited swap:
-```yaml
+```yaml title='Unlimied swap in services' hl=4
 services:
   app:
     mem_limit: 512m
     memswap_limit: -1  # Unlimited swap
 ```
-
 #### OOM killer disable
 - Prevents kernel from killing container processes during OOM events. Only effective when hard memory limit is set.
-
-```yaml
+```yaml title='Disable killing container when it become out of memory' hl=5
 services:
   critical-app:
     image: myapp:latest

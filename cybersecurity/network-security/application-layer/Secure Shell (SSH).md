@@ -6,7 +6,6 @@
 - Critical for remote server management, secure file transfer, tunneling, and bastion host access
 # Architecture
 - SSH protocol stack consists of three ==layered protocols==:
-
 ```mermaid
 graph TB
     A[SSH Connection Protocol<br/>RFC 4254] --> B[SSH Authentication Protocol<br/>RFC 4252]
@@ -28,7 +27,6 @@ graph TB
 | **Connection Layer** | Multiplexed channels | Interactive sessions, port forwarding, X11 forwarding |
 
 ## SSH Transport Layer Protocol (RFC 4253)
-
 ### Host Keys
 - Each SSH server has unique ==host key pair== (public/private)
 - Host keys managed by:
@@ -196,8 +194,7 @@ cat ~/.ssh/id_ed25519.pub | ssh user@server 'cat >> ~/.ssh/authorized_keys'
 - Requires `/etc/ssh/shosts.equiv` or `~/.shosts`
 - Rarely used (deprecated due to IP spoofing risks)
 ### Multi-Factor Authentication (MFA)
-
-```bash
+```Shell title='MFA for SSH'
 # Install Google Authenticator PAM module
 sudo apt install libpam-google-authenticator
 
@@ -216,11 +213,8 @@ sudo systemctl restart sshd
 google-authenticator
 # Scan QR code with authenticator app (Google Authenticator, Authy)
 ```
-
 ## SSH Connection Protocol (RFC 4254)
-
 ### Channel Types
-
 - The Connection Protocol multiplexes multiple ==logical channels== over single SSH connection:
 
 | Channel Type | Purpose | Use Case |
@@ -229,9 +223,7 @@ google-authenticator
 | **x11** | X Window System forwarding | GUI applications over SSH |
 | **forwarded-tcpip** | Remote port forwarding | Expose local service to remote network |
 | **direct-tcpip** | Local port forwarding | Access remote service through SSH tunnel |
-
 ### Channel Open Request
-
 ```
 Client → Server: SSH_MSG_CHANNEL_OPEN
 {
@@ -249,9 +241,7 @@ Server → Client: SSH_MSG_CHANNEL_OPEN_CONFIRMATION
   maximum_packet_size: 32768
 }
 ```
-
 ### Port Forwarding (SSH Tunneling)
-
 #### Local Port Forwarding
 - Forward connections from ==local machine port== to remote destination through SSH server:
 ```mermaid
@@ -264,7 +254,7 @@ graph LR
     style C fill:#fff4e1
 ```
 
-```bash
+```Shell
 # Forward local port 8080 to remote database
 ssh -L 8080:db.internal:5432 user@bastion.example.com
 
@@ -276,7 +266,6 @@ psql -h localhost -p 8080 -U dbuser database_name
 # - Bypass firewall restrictions
 # - Encrypt unencrypted protocols (HTTP, MySQL, PostgreSQL)
 ```
-
 #### Remote Port Forwarding
 - Forward connections from ==remote server port== back to local machine:
 ```mermaid
@@ -289,7 +278,7 @@ graph RL
     style C fill:#fff4e1
 ```
 
-```bash
+```Shell
 # Expose local web server (port 3000) on remote server port 8080
 ssh -R 8080:localhost:3000 user@public.example.com
 
@@ -301,10 +290,9 @@ ssh -R 8080:localhost:3000 user@public.example.com
 # - Provide temporary external access to internal service
 # - Webhook testing (GitHub webhooks to local dev environment)
 ```
-
 #### Dynamic Port Forwarding (SOCKS Proxy)
 - Create ==SOCKS proxy== for routing arbitrary TCP connections:
-```bash
+```Shell
 # Create SOCKS5 proxy on port 1080
 ssh -D 1080 user@proxy.example.com
 

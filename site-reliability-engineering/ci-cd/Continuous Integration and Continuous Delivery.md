@@ -71,7 +71,6 @@ stage('Build') {
 }
 ```
 ## 3. Test Stage
-
 - Multiple levels of testing execute automatically:
     - **Unit tests**: Test individual components in isolation
     - **Integration tests**: Test component interactions
@@ -102,7 +101,6 @@ EXPOSE 3000
 CMD ["node", "dist/server.js"]
 ```
 ## 5. Deploy Stage
-
 - Configuration is applied for target environment
 - Database migrations execute
 - Application is deployed
@@ -405,7 +403,6 @@ jobs:
           webhook_url: ${{ secrets.SLACK_WEBHOOK }}
         if: always()
 ```
-
 # Metrics and KPIs
 ## Key Performance Indicators
 - **Deployment frequency**: How often are deployments to production occurring?
@@ -415,12 +412,12 @@ jobs:
 ## DORA Metrics
 - The DevOps Research and Assessment (DORA) team identified four key metrics that indicate software delivery performance:
 
-| Performance Level | Deployment Frequency | Lead Time | MTTR | Change Failure Rate |
-|------------------|---------------------|-----------|------|---------------------|
-| Elite | Multiple per day | Less than 1 hour | Less than 1 hour | 0-15% |
-| High | Once per week to once per month | 1 day to 1 week | Less than 1 day | 16-30% |
-| Medium | Once per month to once per 6 months | 1 week to 1 month | 1 day to 1 week | 16-30% |
-| Low | Fewer than once per 6 months | More than 1 month | More than 1 week | 16-30% |
+| Performance Level | Deployment Frequency                | Lead Time         | MTTR             | Change Failure Rate |
+| ----------------- | ----------------------------------- | ----------------- | ---------------- | ------------------- |
+| Elite             | Multiple per day                    | Less than 1 hour  | Less than 1 hour | 0-15%               |
+| High              | Once per week to once per month     | 1 day to 1 week   | Less than 1 day  | 16-30%              |
+| Medium            | Once per month to once per 6 months | 1 week to 1 month | 1 day to 1 week  | 16-30%              |
+| Low               | Fewer than once per 6 months        | More than 1 month | More than 1 week | 16-30%              |
 
 ## Monitoring Pipeline Health
 

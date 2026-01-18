@@ -510,3 +510,6 @@ FROM public.ecr.aws/amazoncorretto/amazoncorretto:17
 4. AWS Documentation - Corretto: https://docs.aws.amazon.com/corretto/
 5. Amazon Corretto Crypto Provider: https://github.com/corretto/amazon-corretto-crypto-provider
 6. AWS Lambda Java Runtime: https://docs.aws.amazon.com/lambda/latest/dg/lambda-java.html
+7. [[site-reliability-engineering/build-tools/java/java-runtime/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)]]
+8. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/OpenJDK]]
+9. 

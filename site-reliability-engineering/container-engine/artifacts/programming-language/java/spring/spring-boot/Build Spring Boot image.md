@@ -266,7 +266,6 @@ ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 #### Mandrel
 - The image size recorded is 479 MB but the single executable file is only 105 MB.
 - ![[assets/Pasted image 20260108201852.png]]
-- ![[assets/Pasted image 20260108201832.png]]
 - A native build profile must be added to `pom.xml`
 ```Xml title='Native profile in pom.xml' hl=88-112,181-203
 <?xml version="1.0" encoding="UTF-8"?>
@@ -476,7 +475,7 @@ ENTRYPOINT ["java", "-jar", "/app/app.jar"]
 </project>
 ```
 
-```Dockerfile title='Containerfile to build native Spring Boot image based on Debian with GraalVM 25 on Red Hat 10' hl=11
+```Dockerfile title='Containerfile to build native Spring Boot image based on Debian with GraalVM 25 on Red Hat 10' hl=11,30
 FROM quay.io/quarkus/ubi-quarkus-mandrel-builder-image:jdk-25.0.1 AS builder
 
 WORKDIR /build

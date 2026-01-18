@@ -1,204 +1,204 @@
 {
   "recentFiles": [
     {
-      "basename": "Build Quarkus Image",
-      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/java/quarkus/Build Quarkus Image.md"
-    },
-    {
-      "basename": "Build Spring Boot image",
-      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/java/spring/spring-boot/Build Spring Boot image.md"
-    },
-    {
-      "basename": "Eclipse Temurin",
-      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Eclipse Temurin.md"
-    },
-    {
-      "basename": "FDMA",
-      "path": "computer-network/link-layer/mac/channel-partitioning/FDMA.md"
-    },
-    {
-      "basename": "MPLS",
-      "path": "computer-network/link-layer/link-virtualization/MPLS.md"
-    },
-    {
-      "basename": "Link layer overview",
-      "path": "computer-network/link-layer/Link layer overview.md"
-    },
-    {
-      "basename": "Network Interface Card (NIC)",
-      "path": "computer-network/link-layer/Network Interface Card (NIC).md"
-    },
-    {
-      "basename": "IEEE 802.11 Wireless LAN",
-      "path": "cybersecurity/wireless-network-security/IEEE 802.11 Wireless LAN.md"
-    },
-    {
-      "basename": "Wireless network security",
-      "path": "cybersecurity/wireless-network-security/Wireless network security.md"
-    },
-    {
-      "basename": "Server-side request forgery (SSRF)",
-      "path": "cybersecurity/web-security/Server-side request forgery (SSRF).md"
-    },
-    {
-      "basename": "JSON Web Token",
-      "path": "cybersecurity/web-security/JSON Web Token.md"
-    },
-    {
-      "basename": "Fundamental Theorem of Arithmetic",
-      "path": "discrete-math/number-theory/Fundamental Theorem of Arithmetic.md"
-    },
-    {
-      "basename": "Fermat little theorem",
-      "path": "discrete-math/number-theory/Fermat little theorem.md"
-    },
-    {
-      "basename": "Chinese Remainder Theorem",
-      "path": "discrete-math/number-theory/Chinese Remainder Theorem.md"
-    },
-    {
-      "basename": "Oracle JDK",
-      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Oracle JDK.md"
-    },
-    {
-      "basename": "OpenJDK",
-      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/OpenJDK.md"
-    },
-    {
-      "basename": "Amazon Corretto",
-      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Amazon Corretto.md"
-    },
-    {
-      "basename": "Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)",
-      "path": "site-reliability-engineering/build-tools/java/java-runtime/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM).md"
-    },
-    {
-      "basename": "GraalVM",
-      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/GraalVM.md"
-    },
-    {
-      "basename": "Lifecycle",
-      "path": "site-reliability-engineering/build-tools/java/build-tools/gradle/Lifecycle.md"
-    },
-    {
-      "basename": "Dependency Configurations",
-      "path": "site-reliability-engineering/build-tools/java/build-tools/gradle/Dependency Configurations.md"
-    },
-    {
-      "basename": "Spring Boot Configuration",
-      "path": "site-reliability-engineering/build-tools/java/build-tools/maven/spring/spring-boot/Spring Boot Configuration.md"
-    },
-    {
-      "basename": "Bundle and build React web image",
-      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/react/Bundle and build React web image.md"
-    },
-    {
-      "basename": "Build Express.js image",
-      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/express-js/Build Express.js image.md"
-    },
-    {
-      "basename": "Collector",
-      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collector.md"
-    },
-    {
-      "basename": "Collectors",
-      "path": "programming/java/fundamentals/functional-programming/stream/collector/Collectors.md"
-    },
-    {
-      "basename": "Dependency Injection",
-      "path": "programming/java/quarkus/Dependency Injection.md"
-    },
-    {
-      "basename": "ECMAScript Module",
-      "path": "programming/javascript/vanilla-javascript/module/ECMAScript Module.md"
-    },
-    {
-      "basename": "CommonJS",
-      "path": "programming/javascript/vanilla-javascript/module/CommonJS.md"
-    },
-    {
-      "basename": "Scope",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Scope.md"
-    },
-    {
-      "basename": "Polyfills and transpilers",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/Polyfills and transpilers.md"
-    },
-    {
-      "basename": "Promise",
-      "path": "programming/javascript/vanilla-javascript/fundamentals/promise/Promise.md"
-    },
-    {
-      "basename": "Webpack",
-      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/webpack/Webpack.md"
-    },
-    {
-      "basename": "Repository pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/data-source/Repository pattern.md"
-    },
-    {
-      "basename": "CLAUDE",
-      "path": "CLAUDE.md"
-    },
-    {
-      "basename": "Fluent Interface pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/functional-pattern/Fluent Interface pattern.md"
-    },
-    {
-      "basename": "Design patterns",
-      "path": "software-engineering/software-architecture/design/design-pattern/Design patterns.md"
+      "basename": "Web security overview",
+      "path": "cybersecurity/network-security/Web security overview.md"
     },
     {
       "basename": "GEMINI_CONTEXT",
       "path": "GEMINI_CONTEXT.md"
     },
     {
-      "basename": "Dependency injection pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Dependency injection pattern.md"
-    },
-    {
-      "basename": "Service Locator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/integration/Service Locator pattern.md"
-    },
-    {
-      "basename": "Facade pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Facade pattern.md"
-    },
-    {
-      "basename": "Data Transfer Object pattern (DTO)",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/distribution/Data Transfer Object pattern (DTO).md"
+      "basename": "CLAUDE",
+      "path": "CLAUDE.md"
     },
     {
       "basename": "Design pattern plan",
       "path": "Design pattern plan.md"
     },
     {
-      "basename": "Decorator pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Decorator pattern.md"
+      "basename": "Container commands",
+      "path": "site-reliability-engineering/container-engine/Container commands.md"
     },
     {
-      "basename": "Proxy pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Proxy pattern.md"
+      "basename": "Compose file",
+      "path": "site-reliability-engineering/container-engine/services/Compose file.md"
     },
     {
-      "basename": "Persistence",
-      "path": "programming/java/quarkus/Persistence.md"
+      "basename": "Docker permissions",
+      "path": "site-reliability-engineering/container-engine/docker/Docker permissions.md"
     },
     {
-      "basename": "Callback pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/enterprise-pattern/concurrency-control/Callback pattern.md"
+      "basename": "Group",
+      "path": "operating-system/unix/linux/system-administration/access-control/Group.md"
     },
     {
-      "basename": "Bridge pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/structural-pattern/Bridge pattern.md"
+      "basename": "User",
+      "path": "operating-system/unix/linux/system-administration/access-control/User.md"
     },
     {
-      "basename": "Prototype pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Prototype pattern.md"
+      "basename": "Docker architecture",
+      "path": "site-reliability-engineering/container-engine/docker/Docker architecture.md"
     },
     {
-      "basename": "Factory Method pattern",
-      "path": "software-engineering/software-architecture/design/design-pattern/classical-pattern/creational-pattern/Factory Method pattern.md"
+      "basename": "Container registry",
+      "path": "site-reliability-engineering/container-engine/Container registry.md"
+    },
+    {
+      "basename": "Email security scenario",
+      "path": "cybersecurity/network-security/application-layer/email-security/Email security scenario.md"
+    },
+    {
+      "basename": "Cross-Origin Resource Sharing (CORS)",
+      "path": "cybersecurity/network-security/application-layer/web-security/Cross-Origin Resource Sharing (CORS).md"
+    },
+    {
+      "basename": "Secure Shell (SSH)",
+      "path": "cybersecurity/network-security/application-layer/Secure Shell (SSH).md"
+    },
+    {
+      "basename": "Secure Socket Layer (SSL) - Transport Layer Security (TLS)",
+      "path": "cybersecurity/network-security/transport-layer/Secure Socket Layer (SSL) - Transport Layer Security (TLS).md"
+    },
+    {
+      "basename": "Build Express.js image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/javascript/express-js/Build Express.js image.md"
+    },
+    {
+      "basename": "Build Spring Boot image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/java/spring/spring-boot/Build Spring Boot image.md"
+    },
+    {
+      "basename": "Build Quarkus Image",
+      "path": "site-reliability-engineering/container-engine/artifacts/programming-language/java/quarkus/Build Quarkus Image.md"
+    },
+    {
+      "basename": "Red Hat OpenJDK",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Red Hat OpenJDK.md"
+    },
+    {
+      "basename": "Azul Zulu",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Azul Zulu.md"
+    },
+    {
+      "basename": "IBM Semeru",
+      "path": "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/IBM Semeru.md"
+    },
+    {
+      "basename": "Problem 771. Jewels and Stones",
+      "path": "algorithm/problems/leetcode/Problem 771. Jewels and Stones.md"
+    },
+    {
+      "basename": "Algorithm complexity",
+      "path": "algorithm/complexity/Algorithm complexity.md"
+    },
+    {
+      "basename": "Problem 416. Partition Equal Subset Sum",
+      "path": "algorithm/problems/leetcode/Problem 416. Partition Equal Subset Sum.md"
+    },
+    {
+      "basename": "Problem 707. 1-bit and 2-bit Characters",
+      "path": "algorithm/problems/leetcode/Problem 707. 1-bit and 2-bit Characters.md"
+    },
+    {
+      "basename": "Problem 62. Unique Paths",
+      "path": "algorithm/problems/leetcode/Problem 62. Unique Paths.md"
+    },
+    {
+      "basename": "0-1 Knapsack problem",
+      "path": "algorithm/algorithm/dynamic-programming/knapsack-problem/0-1 Knapsack problem.md"
+    },
+    {
+      "basename": "Array",
+      "path": "programming/go/fundamentals/composite-type/Array.md"
+    },
+    {
+      "basename": "Map",
+      "path": "programming/go/fundamentals/composite-type/Map.md"
+    },
+    {
+      "basename": "Problem 415. Add Strings",
+      "path": "algorithm/problems/leetcode/Problem 415. Add Strings.md"
+    },
+    {
+      "basename": "Recurrence relation",
+      "path": "algorithm/complexity/Recurrence relation.md"
+    },
+    {
+      "basename": "Parcel",
+      "path": "site-reliability-engineering/build-tools/javascript/web-bundler/parcel/Parcel.md"
+    },
+    {
+      "basename": "Software-Defined Networking (SDN)",
+      "path": "computer-network/network-layer/Software-Defined Networking (SDN).md"
+    },
+    {
+      "basename": "Network layer overview",
+      "path": "computer-network/network-layer/Network layer overview.md"
+    },
+    {
+      "basename": "Internet Protocol version 4 (IPv4)",
+      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
+    },
+    {
+      "basename": "Control flow",
+      "path": "programming/javascript/typescript/Control flow.md"
+    },
+    {
+      "basename": "Immutability",
+      "path": "programming/cpp/fundamentals/Immutability.md"
+    },
+    {
+      "basename": "Affine cipher",
+      "path": "cryptography/classical-cipher/Affine cipher.md"
+    },
+    {
+      "basename": "Angular",
+      "path": "programming/javascript/angular/modern-angular/fundamentals/Angular.md"
+    },
+    {
+      "basename": "Asynchronous programming in Angular",
+      "path": "programming/javascript/angular/modern-angular/reactive-programming/Asynchronous programming in Angular.md"
+    },
+    {
+      "basename": "Pipes in Angular template",
+      "path": "programming/javascript/angular/modern-angular/templates/Pipes in Angular template.md"
+    },
+    {
+      "basename": "Content projection in Angular",
+      "path": "programming/javascript/angular/modern-angular/templates/Content projection in Angular.md"
+    },
+    {
+      "basename": "Class and Style binding",
+      "path": "programming/javascript/angular/modern-angular/templates/Class and Style binding.md"
+    },
+    {
+      "basename": "Packet delay",
+      "path": "computer-network/Packet delay.md"
+    },
+    {
+      "basename": "TCP BBR",
+      "path": "computer-network/transport-layer/tcp/congestion-control/TCP BBR.md"
+    },
+    {
+      "basename": "Explicit Congestion Notification (ECN)",
+      "path": "computer-network/transport-layer/tcp/congestion-control/Explicit Congestion Notification (ECN).md"
+    },
+    {
+      "basename": "Data plane overview",
+      "path": "computer-network/network-layer/data-plane/subnet/Data plane overview.md"
+    },
+    {
+      "basename": "RSA",
+      "path": "cryptography/rsa/RSA.md"
+    },
+    {
+      "basename": "Diffie-Hellman key exchange.",
+      "path": "cryptography/rsa/Diffie-Hellman key exchange..md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/rsa/Elgamal cryptosystem.md"
     }
   ],
   "omittedPaths": [],

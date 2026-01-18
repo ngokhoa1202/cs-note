@@ -1,46 +1,92 @@
-#software-engineering #software-architecture #javascript #nodejs #vanilla-javascript 
-# CommonJS module
-- CommonJS modules are the <mark class="hltr-yellow">original</mark> way to package JavaScript source code for Node.js.
-- In Node.js, each file is treated as a separate module.
-```Javascript title='circle.js is separate module'
-const { PI } = Math; // variable PI is private to circle.js module
-
+#software-engineering #software-architecture #javascript #nodejs #vanilla-javascript
+# Overview
+- CommonJS is the <mark class="hltr-yellow">original module system</mark> for Node.js that enables modular JavaScript code organization.
+- Each file in Node.js is treated as a separate module with its own scope.
+- CommonJS modules load ==synchronously==, making them suitable for server-side applications but not for browser environments.
+# Exports and Imports
+## Exporting module members
+- Functions and objects are exported by adding properties to the `JavaScript exports` object.
+- Individual members can be exported by assigning them to `JavaScript exports.propertyName`.
+```JavaScript title='circle.js exports multiple functions'
+const { PI } = Math;
 exports.area = (r) => PI * r ** 2;
-
 exports.circumference = (r) => 2 * PI * r;
 ```
-
-```Javascript title='File main.js is using circle.js module'
+- The entire module can be replaced by assigning a new value to `JavaScript module.exports`.
+```JavaScript title='square.js exports a constructor function'
+module.exports = class Square {
+  constructor(width) {
+    this.width = width;
+  }
+  area() {
+    return this.width ** 2;
+  }
+};
+```
+- Variables declared in the module scope remain private unless explicitly exported.
+## Importing modules
+- Modules are imported using the `JavaScript require()` function, which returns the exported object.
+```JavaScript title='main.js imports and uses circle module'
 const circle = require('./circle.js');
 console.log(`The area of a circle of radius 4 is ${circle.area(4)}`);
 ```
-- The module `circle.js` has exported the functions `area()` and `circumference()`. Functions and objects are *added to the root of a module* by specifying additional properties on the special `{javascript} exports` object.
-- The local variables in each module are private to that module because the module is wrapped by [[#Module wrapper]].
-- The `module.exports` property can be assigned a new value (such as a function or object).
-```Javascript title='Change the module name via module.exports in Node.js'
+```JavaScript title='main.js imports and uses square module'
 const Square = require('./square.js');
 const mySquare = new Square(2);
 console.log(`The area of mySquare is ${mySquare.area()}`);
 ```
+- The `JavaScript require()` function caches modules after the first load, subsequent calls return the cached instance.
 # File format
-- Files with a `.cjs` extension.
-- Files with a `.js` extension when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"commonjs"`.
-- Files with a `.js` extension or without an extension, when the nearest parent `package.json` file doesn't contain a top-level field [`"type"` or there is no `package.json` in any parent folder.
-- Files with an extension that is not `.mjs`, `.cjs`, `.json`, `.node`, or `.js`
-	- when the nearest parent `package.json` file contains a top-level field `"type"` with a value of `"module"`, those files will be recognized as CommonJS modules only if they are being included via `require()`
-- If the exact filename is not found, then Node.js will attempt to load the required filename with the added extensions: `.js`, `.json`, and finally `.node`. When loading a file that has a different extension (e.g. `.cjs`), its full name must be passed to `require()`, including its file extension (e.g. `require('./file.cjs')`).
+## File extensions
+- Files with `.cjs` extension are always treated as CommonJS modules.
+- Files with `.js` extension are treated as CommonJS modules when:
+	- The nearest parent `package.json` contains `"type": "commonjs"`.
+	- No `package.json` exists in any parent folder.
+	- The nearest parent `package.json` does not contain a `"type"` field.
+- Files without extensions or with custom extensions (not `.mjs`, `.cjs`, `.json`, `.node`, `.js`) are treated as CommonJS when:
+	- They are loaded via `JavaScript require()`.
+	- The nearest parent `package.json` contains `"type": "module"`.
+## File resolution
+- Node.js resolves module paths by searching for exact filenames first.
+- If the exact filename is not found, Node.js attempts to append extensions in order: `.js`, `.json`, `.node`.
+- Custom extensions like `.cjs` must include the full filename in `JavaScript require()` calls.
+```JavaScript title='Requiring a file with custom extension'
+require('./file.cjs');
+```
 # Module wrapper
-- Before a module's code is executed, Node.js will wrap it with a function wrapper.
-```Javascript title='Module wrapper in Node.js'
+- Node.js wraps each module's code in a function wrapper before execution.
+```JavaScript title='Module wrapper function'
 (function(exports, require, module, __filename, __dirname) {
 // Module code actually lives in here
 });
 ```
-- Module wrapper keeps top-level variables (defined with `var`, `const`, or `let`) *scoped to the module* rather than the global object.
+- The wrapper provides module-scoped variables:
+	- `JavaScript exports`: Alias to `JavaScript module.exports` for convenience.
+	- `JavaScript require`: Function to import other modules.
+	- `JavaScript module`: Reference to the current module object.
+	- `JavaScript __filename`: Absolute path to the current module file.
+	- `JavaScript __dirname`: Absolute path to the directory containing the module.
+- Variables declared with `JavaScript var`, `JavaScript const`, or `JavaScript let` remain scoped to the module rather than polluting the global namespace.
 # Behavior
-- `CommonJS` modules are fully synchronous.
+- CommonJS modules execute ==synchronously== during the `JavaScript require()` call.
+- Module loading blocks execution until the module is fully loaded and executed.
+- Circular dependencies are supported through partial exports.
+```JavaScript title='Circular dependency example'
+// a.js
+exports.loaded = false;
+const b = require('./b.js');
+console.log('in a, b.loaded =', b.loaded);
+exports.loaded = true;
+// b.js
+exports.loaded = false;
+const a = require('./a.js');
+console.log('in b, a.loaded =', a.loaded);
+exports.loaded = true;
+```
+- The module cache prevents infinite loops by returning partially constructed exports during circular dependencies.
 ***
 # References
-1. https://nodejs.org/docs/latest-v22.x/api/modules.html for CommonJS in Node.js version 22.
-2. https://nodejs.org/docs/latest-v22.x/api/modules.html#the-module-wrapper for Module wrapper in Node.js.
+1. https://nodejs.org/docs/latest-v22.x/api/modules.html for CommonJS modules in Node.js version 22.
+2. https://nodejs.org/docs/latest-v22.x/api/modules.html#the-module-wrapper for module wrapper implementation.
 3. https://nodejs.org/api/packages.html#type for `type` property in `package.json`.
+4. https://nodejs.org/docs/latest-v22.x/api/modules.html#cycles for circular dependency handling.

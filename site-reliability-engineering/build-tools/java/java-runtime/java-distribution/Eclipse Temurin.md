@@ -297,3 +297,6 @@ export JAVA_HOME=/usr/lib/jvm/temurin-17-jdk-amd64
 3. GitHub - Adoptium Temurin Build: https://github.com/adoptium/temurin-build
 4. Eclipse Adoptium Working Group: https://www.eclipse.org/org/workinggroups/adoptium-charter.php
 5. AdoptOpenJDK Migration Guide: https://blog.adoptium.net/2021/08/adoptium-celebrates-first-release/
+6. [[site-reliability-engineering/build-tools/java/java-runtime/Java Development Kit (JDK), Java Runtime Environment (JRE) and Java Virtual Machine (JVM)]]
+7. [[site-reliability-engineering/build-tools/java/java-runtime/java-distribution/OpenJDK]]
+8. 
