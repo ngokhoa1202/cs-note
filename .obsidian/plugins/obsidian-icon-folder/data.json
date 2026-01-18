@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "LiRegex",
       "SiDocker",
       "SiRedhat",
       "LoAzul",
@@ -24,8 +25,7 @@
       "SiQuarkus",
       "SiReact",
       "LoGemini",
-      "TiLambda",
-      "TiMathFunction"
+      "TiLambda"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -873,5 +873,7 @@
   "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/IBM Semeru.md": "SiIbm",
   "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Azul Zulu.md": "LoAzul",
   "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Red Hat OpenJDK.md": "SiRedhat",
-  "site-reliability-engineering/container-engine/docker/Docker permissions.md": "SiDocker"
+  "site-reliability-engineering/container-engine/docker/Docker permissions.md": "SiDocker",
+  "operating-system/unix/linux/shell-and-scripting/regular-expression": "LiRegex",
+  "operating-system/unix/linux/shell-and-scripting/regular-expression/Regular expressions.md": "LiRegex"
 }

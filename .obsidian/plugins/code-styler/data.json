@@ -603,7 +603,7 @@
       "codeblock": {
         "lineNumbers": true,
         "unwrapLines": true,
-        "wrapLinesActive": false,
+        "wrapLinesActive": true,
         "curvature": 16
       },
       "gutter": {
@@ -652,7 +652,7 @@
         "gradientHighlights": false,
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": true,
-        "languageBorderWidth": 8,
+        "languageBorderWidth": 4,
         "iconSize": 32
       }
     },

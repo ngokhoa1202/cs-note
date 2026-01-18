@@ -1,4 +1,4 @@
-#python #regex #text-processing #parsing #automation #scripting
+#python #regular-expression #text-processing #parsing #automation #scripting
 # Regular Expressions (regex)
 - Regular expressions provide powerful <mark class="hltr-yellow">pattern matching and text manipulation</mark> capabilities.
 - Python's `re` module implements regex functionality.

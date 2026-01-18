@@ -8,13 +8,11 @@
 ```Shell title='xargs command syntax'
 command | xargs [options] [command [initial-arguments]]
 ```
-
 ## How It Works
 1. Reads items from standard input (separated by whitespace or newlines)
 2. Builds command lines with those items as arguments
 3. Executes the command with batched arguments
 4. Repeats until all input is processed
-
 ## Simple Example
 ```Shell title='Basic xargs usage'
 # Without xargs: echo each file separately

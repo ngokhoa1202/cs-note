@@ -1,6 +1,70 @@
 {
   "recentFiles": [
     {
+      "basename": "Disk partitioning",
+      "path": "operating-system/unix/linux/storage/Disk partitioning.md"
+    },
+    {
+      "basename": "Text processing",
+      "path": "programming/python/Text processing.md"
+    },
+    {
+      "basename": "Regular expressions",
+      "path": "operating-system/unix/linux/shell-and-scripting/regular-expression/Regular expressions.md"
+    },
+    {
+      "basename": "Concurrency control model",
+      "path": "operating-system/unix/linux/process-management/process-synchronization/concurrency-control/Concurrency control model.md"
+    },
+    {
+      "basename": "Path variable",
+      "path": "operating-system/unix/linux/shell-and-scripting/Path variable.md"
+    },
+    {
+      "basename": "Manual references",
+      "path": "operating-system/unix/linux/shell-and-scripting/Manual references.md"
+    },
+    {
+      "basename": "Public-key cryptosystem",
+      "path": "cryptography/asymetric-cipher/Public-key cryptosystem.md"
+    },
+    {
+      "basename": "Linear Congruential Generator - LCG",
+      "path": "cryptography/random/random-generator/Linear Congruential Generator - LCG.md"
+    },
+    {
+      "basename": "xargs command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/xargs command.md"
+    },
+    {
+      "basename": "vim command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/vim command.md"
+    },
+    {
+      "basename": "wget command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/wget command.md"
+    },
+    {
+      "basename": "grep command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/grep command.md"
+    },
+    {
+      "basename": "less command",
+      "path": "operating-system/unix/linux/shell-and-scripting/commands/less command.md"
+    },
+    {
+      "basename": "RSA",
+      "path": "cryptography/asymetric-cipher/rsa/RSA.md"
+    },
+    {
+      "basename": "Elgamal cryptosystem",
+      "path": "cryptography/asymetric-cipher/rsa/Elgamal cryptosystem.md"
+    },
+    {
+      "basename": "Diffie-Hellman key exchange.",
+      "path": "cryptography/asymetric-cipher/rsa/Diffie-Hellman key exchange..md"
+    },
+    {
       "basename": "Web security overview",
       "path": "cybersecurity/network-security/Web security overview.md"
     },
@@ -135,70 +199,6 @@
     {
       "basename": "Network layer overview",
       "path": "computer-network/network-layer/Network layer overview.md"
-    },
-    {
-      "basename": "Internet Protocol version 4 (IPv4)",
-      "path": "computer-network/network-layer/data-plane/ip/Internet Protocol version 4 (IPv4).md"
-    },
-    {
-      "basename": "Control flow",
-      "path": "programming/javascript/typescript/Control flow.md"
-    },
-    {
-      "basename": "Immutability",
-      "path": "programming/cpp/fundamentals/Immutability.md"
-    },
-    {
-      "basename": "Affine cipher",
-      "path": "cryptography/classical-cipher/Affine cipher.md"
-    },
-    {
-      "basename": "Angular",
-      "path": "programming/javascript/angular/modern-angular/fundamentals/Angular.md"
-    },
-    {
-      "basename": "Asynchronous programming in Angular",
-      "path": "programming/javascript/angular/modern-angular/reactive-programming/Asynchronous programming in Angular.md"
-    },
-    {
-      "basename": "Pipes in Angular template",
-      "path": "programming/javascript/angular/modern-angular/templates/Pipes in Angular template.md"
-    },
-    {
-      "basename": "Content projection in Angular",
-      "path": "programming/javascript/angular/modern-angular/templates/Content projection in Angular.md"
-    },
-    {
-      "basename": "Class and Style binding",
-      "path": "programming/javascript/angular/modern-angular/templates/Class and Style binding.md"
-    },
-    {
-      "basename": "Packet delay",
-      "path": "computer-network/Packet delay.md"
-    },
-    {
-      "basename": "TCP BBR",
-      "path": "computer-network/transport-layer/tcp/congestion-control/TCP BBR.md"
-    },
-    {
-      "basename": "Explicit Congestion Notification (ECN)",
-      "path": "computer-network/transport-layer/tcp/congestion-control/Explicit Congestion Notification (ECN).md"
-    },
-    {
-      "basename": "Data plane overview",
-      "path": "computer-network/network-layer/data-plane/subnet/Data plane overview.md"
-    },
-    {
-      "basename": "RSA",
-      "path": "cryptography/rsa/RSA.md"
-    },
-    {
-      "basename": "Diffie-Hellman key exchange.",
-      "path": "cryptography/rsa/Diffie-Hellman key exchange..md"
-    },
-    {
-      "basename": "Elgamal cryptosystem",
-      "path": "cryptography/rsa/Elgamal cryptosystem.md"
     }
   ],
   "omittedPaths": [],
