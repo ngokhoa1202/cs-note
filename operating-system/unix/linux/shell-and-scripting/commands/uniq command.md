@@ -27,15 +27,14 @@ graph TD
 uniq [OPTION]... [INPUT [OUTPUT]]
 ```
 
-**Common Options**:
-- `-c`, `--count`: Prefix lines by the number of occurrences.
-- `-d`, `--repeated`: Only print duplicate lines, one for each group.
-- `-u`, `--unique`: Only print lines that are not repeated.
-- `-i`, `--ignore-case`: Ignore differences in case when comparing.
-- `-f N`, `--skip-fields=N`: Avoid comparing the first N fields. A field is a string of non-space, non-tab characters separated by tabs and spaces.
-- `-s N`, `--skip-chars=N`: Avoid comparing the first N characters.
-- `-w N`, `--check-chars=N`: Compare no more than N characters in lines.
-
+- Common Options:
+    - `-c`, `--count`: Prefix lines by the number of occurrences.
+    - `-d`, `--repeated`: Only print duplicate lines, one for each group.
+    - `-u`, `--unique`: Only print lines that are not repeated.
+    - `-i`, `--ignore-case`: Ignore differences in case when comparing.
+    - `-f N`, `--skip-fields=N`: Avoid comparing the first N fields. A field is a string of non-space, non-tab characters separated by tabs and spaces.
+    - `-s N`, `--skip-chars=N`: Avoid comparing the first N characters.
+    - `-w N`, `--check-chars=N`: Compare no more than N characters in lines.
 ## Default Behavior
 - Without any options, `uniq` will read from a sorted input and remove duplicate adjacent lines, printing only one copy.
 
@@ -50,11 +49,9 @@ uniq fruits.txt
 # banana
 # cherry
 ```
-
 # Practical Use Cases
 ## Counting Occurrences (`-c`)
 - This is one of the most common uses of `uniq`. It counts how many times each line appears in the sorted input.
-
 ```Shell title="Counting sorted lines"
 # Count the occurrences of each fruit
 sort fruits.txt | uniq -c
@@ -65,7 +62,6 @@ sort fruits.txt | uniq -c
 ```
 ## Finding Most Frequent Lines
 - By combining `sort`, `uniq -c`, and another `sort`, you can find the most frequent entries in a file.
-
 ```Shell title="Find most used shells by users"
 # 1. Get user shells (field 7) from /etc/passwd
 # 2. Sort them alphabetically
@@ -75,7 +71,6 @@ cut -d: -f7 /etc/passwd | sort | uniq -c | sort -nr
 ```
 ## Showing Only Duplicates (`-d`)
 - This option is useful for identifying which values appear more than once.
-
 ```Shell title="List only lines that are duplicated"
 # List which fruits appear more than once
 sort fruits.txt | uniq -d
@@ -85,7 +80,6 @@ sort fruits.txt | uniq -d
 ```
 ## Showing Only Unique Lines (`-u`)
 - This prints only the lines that appear exactly once.
-
 ```Shell title="List only lines that are not duplicated"
 # List fruits that appear only one time
 sort fruits.txt | uniq -u
@@ -94,19 +88,15 @@ sort fruits.txt | uniq -u
 ```
 ## Ignoring Case (`-i`)
 - Use the `-i` flag to treat uppercase and lowercase letters as the same.
-
 ```Shell title="Case-insensitive uniq"
 printf "Apple\napple\nBanana\n" | sort | uniq -i
 # Output:
 # Apple
 # Banana
 ```
-
 # Common Pitfalls
-
 ## Forgetting to Sort
 - The most common error is using `uniq` on unsorted data. `uniq` only checks adjacent lines, so it will fail to unify duplicates that are not next to each other.
-
 ```Shell title="Incorrect: uniq on unsorted data"
 # Create an unsorted file
 printf "apple\ncherry\napple\n" > unsorted_fruits.txt
@@ -124,10 +114,7 @@ sort unsorted_fruits.txt | uniq
 # apple
 # cherry
 ```
-
 ***
 # References
 1. GNU `uniq` Manual: https://www.gnu.org/software/coreutils/manual/html_node/uniq-invocation.html
 2. POSIX `uniq` Specification.
-
-```

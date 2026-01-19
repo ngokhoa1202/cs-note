@@ -2,7 +2,6 @@
 # Basic Concepts
 ### Modal Editing
 - Vim operates in different <mark class="hltr-yellow">modes</mark>, each optimized for specific tasks. Understanding modes is fundamental to efficient Vim usage.
-
 ```mermaid
 graph LR
     A[Normal Mode] -->|i, a, o, I, A, O| B[Insert Mode]
@@ -158,9 +157,7 @@ Ctrl+r                        # Redo
 :earlier 5m                   # Go back 5 minutes in time
 :later 10s                    # Go forward 10 seconds in time
 ```
-
 ### Visual Mode Operations
-
 ```vim title="Visual mode selection"
 v                             # Character-wise visual mode
 V                             # Line-wise visual mode
@@ -234,12 +231,12 @@ das                           # Delete around sentence
 :'<,'>s/old/new/g            # Replace in visual selection
 :g/pattern/s/old/new/g       # Replace in lines matching pattern
 ```
-**Flags**:
+#### Flags
 - `g` - Global (all occurrences on line)
 - `c` - Confirm each substitution
 - `i` - Case-insensitive
 - `I` - Case-sensitive
-**Special Characters**:
+#### Special characters
 ```vim title="Regular expressions in search"
 .                             # Any single character
 *                             # Zero or more of previous
@@ -254,7 +251,7 @@ $                             # End of line
 \(pattern\)                   # Capture group
 \1, \2, ...                   # Backreference to capture group
 ```
-**Examples**:
+#### Examples
 ```vim title="Practical substitution examples"
 :%s/\s\+$//                   # Remove trailing whitespace
 :%s/^/# /                     # Comment all lines (add # at start)
@@ -307,7 +304,6 @@ Ctrl+w >/<                    # Increase/decrease window width
 ```
 ## Configuration and Customization
 ### Basic Settings
-
 - Vim configuration is stored in `~/.vimrc` (Unix/Linux) or `_vimrc` (Windows).
 
 ```vim title="Common .vimrc settings"
@@ -385,7 +381,6 @@ cnoremap w!! w !sudo tee % > /dev/null  " Save with sudo
 - `cmap` - Map for command mode
 - Use `noremap` variants (`nnoremap`, `inoremap`, etc.) to prevent recursive mapping.
 ### Plugin Management
-
 ```Shell title="Install vim-plug"
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
@@ -604,7 +599,6 @@ zR                            # Open all folds
 zM                            # Close all folds
 zd                            # Delete fold
 ```
-
 ### Quickfix and Location Lists
 - Quickfix lists store locations for compiler errors or search results.
 ```vim title="Quickfix commands"
@@ -641,7 +635,6 @@ zw                            # Mark word as misspelling
 :set regexpengine=1           # Use old regex engine (sometimes faster)
 ```
 ### Debugging
-
 ```vim title="Debug configuration"
 :verbose set option?          # Show where option was last set
 :scriptnames                  # List all sourced scripts

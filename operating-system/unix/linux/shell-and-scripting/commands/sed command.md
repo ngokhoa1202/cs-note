@@ -1,6 +1,6 @@
 #linux #shell #unix #ubuntu #operating-system #fedora #centos-stream #rhel 
 # Basic Concepts
-- `sed` (Stream EDitor) is a powerful text processing tool that performs text transformations on input streams (files or pipelines). It processes text line-by-line, applying specified editing commands without modifying the original file unless explicitly instructed.
+- `sed` (Stream EDitor) is a powerful text processing tool that performs <mark class="hltr-yellow">text transformations</mark> on input streams (files or pipelines). It processes text line-by-line, applying specified editing commands without modifying the original file unless explicitly instructed.
 ### Execution Model
 
 ```mermaid
@@ -36,7 +36,6 @@ sed [OPTIONS] -f script.sed file          # Commands from file
 ## Substitution
 ### Basic Substitution
 - The substitute command `s/pattern/replacement/flags` is the most common operation.
-
 ```Shell title="Substitution syntax"
 sed 's/old/new/' file                    # Replace first occurrence per line
 sed 's/old/new/g' file                   # Replace all occurrences (global)
@@ -46,13 +45,12 @@ sed -n 's/old/new/p' file                # Print only substituted lines
 sed 's/old/new/i' file                   # Case-insensitive replacement
 sed 's/old/new/w output.txt' file        # Write changed lines to file
 ```
-
-**Flags**:
-- `g` - Global (all occurrences on line)
-- `p` - Print substituted lines
-- `w file` - Write to file
-- `i` - Case-insensitive (GNU sed)
-- `1`, `2`, ... - Replace nth occurrence
+- **Flags**:
+    - `g` - Global (all occurrences on line)
+    - `p` - Print substituted lines
+    - `w file` - Write to file
+    - `i` - Case-insensitive (GNU sed), ignore case.
+    - `1`, `2`, ... - Replace nth occurrence
 ### Delimiters
 - Any character can be used as delimiter, useful when pattern contains slashes.
 ```Shell title="Alternative delimiters"
@@ -85,7 +83,6 @@ sed 's/\([0-9]\{4\}\)-\([0-9]\{2\}\)-\([0-9]\{2\}\)/\3\/\2\/\1/' file
 - `\L` - Convert to lowercase (GNU sed)
 - `\U` - Convert to uppercase (GNU sed)
 - `\n` - Newline
-
 ```Shell title="Using & for matched text"
 # Add quotes around matched pattern
 sed 's/error/"\0"/' file                 # Using \0 (same as &)
@@ -288,9 +285,7 @@ sed -i.orig 's/old/new/g' *.txt          # Edit multiple files with backup
 sed 's/old/new/g' file > file.tmp && mv file.tmp file
 ```
 # Practical Use Cases
-
 ## Configuration File Management
-
 ```Shell title="Update configuration values"
 # Change port number
 sed -i 's/^port=.*/port=8080/' config.ini
@@ -309,9 +304,7 @@ sed -i -e 's/^DEBUG=.*/DEBUG=false/' \
        -e 's/^LOG_LEVEL=.*/LOG_LEVEL=error/' \
        settings.conf
 ```
-
 ## Log Processing and Analysis
-
 ```Shell title="Filter and transform logs"
 # Extract error messages
 sed -n '/ERROR/p' application.log
@@ -403,9 +396,7 @@ sed -e 's/^\#+\s*//' -e 's/\*\*\(.*\)\*\*/\1/' -e 's/\*\(.*\)\*/\1/' file.md
 # Add line numbers
 sed = file.txt | sed 'N;s/\n/\t/'
 ```
-
 ## System Administration
-
 ```Shell title="System configuration tasks"
 # Add user to sudoers
 echo "username ALL=(ALL) NOPASSWD:ALL" | sudo sed -i '$a\' /etc/sudoers
@@ -459,7 +450,6 @@ done
 ```
 # Advanced Techniques
 ## Multiline Processing
-
 ```Shell title="Process multiple lines together"
 # Read next line into pattern space (N)
 sed 'N;s/\n/ /' file                      # Join consecutive lines

@@ -1,5 +1,5 @@
-#docker #linux #operating-system #access-control #unix-permissions #cybersecurity  #security #shell
-#continuous-integration
+#docker #linux #operating-system #access-control #cybersecurity  #security #shell
+#continuous-integration #continuous-delivery 
 # Docker Socket Permissions
 ## Docker Socket Location
 - Docker daemon communicates via ==Unix socket== at `/var/run/docker.sock`.
@@ -202,6 +202,7 @@ source ~/.bashrc
 ```Shell title='Check subuid mapping'
 cat /etc/subuid
 ```
+
 ```Text title='Example output'
 username:100000:65536
 ```
@@ -236,6 +237,7 @@ sudo sysctl -w net.ipv4.ip_unprivileged_port_start=80
 ```Shell title='Check cgroups version'
 stat -fc %T /sys/fs/cgroup/
 ```
+
 ```Text title='Output'
 cgroup2fs    # cgroups v2
 tmpfs        # cgroups v1

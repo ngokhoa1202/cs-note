@@ -3,7 +3,6 @@
 - RSA is the ==backbone of asymmetric cryptography==, invented in 1977 by Ron Rivest, Adi Shamir, and Leonard Adleman. It is a ==public-key cryptosystem== used for secure data transmission and digital signatures.
 
 ## Key Characteristics
-
 - **Algorithm Type**: Asymmetric block cipher
 - **Key Sizes**: 1024, 2048, 3072, 4096 bits (2048+ recommended)
 - **Security Basis**: Computational hardness of ==integer factorization==

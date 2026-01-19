@@ -6,6 +6,7 @@
     "emojiStyle": "twemoji",
     "iconColor": "#2c5282",
     "recentlyUsedIcons": [
+      "LiNetwork",
       "LiRegex",
       "SiDocker",
       "SiRedhat",
@@ -24,8 +25,7 @@
       "LiHammer",
       "SiQuarkus",
       "SiReact",
-      "LoGemini",
-      "TiLambda"
+      "LoGemini"
     ],
     "recentlyUsedIconsSize": 20,
     "rules": [],
@@ -875,5 +875,6 @@
   "site-reliability-engineering/build-tools/java/java-runtime/java-distribution/Red Hat OpenJDK.md": "SiRedhat",
   "site-reliability-engineering/container-engine/docker/Docker permissions.md": "SiDocker",
   "operating-system/unix/linux/shell-and-scripting/regular-expression": "LiRegex",
-  "operating-system/unix/linux/shell-and-scripting/regular-expression/Regular expressions.md": "LiRegex"
+  "operating-system/unix/linux/shell-and-scripting/regular-expression/Regular expressions.md": "LiRegex",
+  "computer-network/network-layer/data-plane/subnet": "LiNetwork"
 }

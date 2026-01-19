@@ -1,6 +1,6 @@
-#linux #shell #unix #ubuntu #operating-system #fedora #centos-stream #rhel
+#linux #shell #unix #ubuntu #operating-system #fedora #centos-stream #rhel #bash 
 # Basic Concepts
-- `cut` is a command-line utility that extracts sections (or "cuts" columns) from each line of a file or piped data. It's particularly useful for processing structured, column-based data like CSVs or log files.
+- `cut` is a command-line utility that <mark class="hltr-yellow">extracts sections</mark> (or "cuts" columns) from each line of a file or piped data. It's particularly useful for processing structured, column-based data like CSVs or log files.
 - It operates on a line-by-line basis and can select portions of a line based on bytes, characters, or fields delimited by a specific character.
 ### Execution Model
 
@@ -58,7 +58,6 @@ cut -c 3 /etc/passwd
 # Extract characters 1 to 5 and 10 to 15
 cut -c 1-5,10-15 /etc/passwd
 ```
-
 ## Field-based Selection (`-f`)
 - This is the most common use case. It extracts entire fields based on a delimiter. The default delimiter is a Tab character.
 ```Shell title="Cutting by field with default Tab delimiter"
@@ -69,10 +68,8 @@ cut -f 1 /etc/group
 # Get the group name and group ID (fields 1 and 3)
 cut -f 1,3 /etc/group
 ```
-
 ### Using a Custom Delimiter (`-d`)
 - The `-d` option is used to specify a different delimiter. This is essential for formats like CSV.
-
 ```Shell title="Cutting by field with custom delimiter"
 # Get usernames (field 1) from /etc/passwd using ':' as a delimiter
 cut -d ':' -f 1 /etc/passwd

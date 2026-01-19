@@ -618,7 +618,7 @@
         },
         "languageTag": {
           "display": "always",
-          "textFont": "Source Sans 3",
+          "textFont": "'Source Serif 4 Caption', 'Source Serif 4'",
           "textBold": true,
           "textItalic": false
         },
@@ -653,7 +653,7 @@
         "gradientHighlightsColourStop": "70%",
         "languageBorderColour": true,
         "languageBorderWidth": 4,
-        "iconSize": 32
+        "iconSize": 24
       }
     },
     "colours": {

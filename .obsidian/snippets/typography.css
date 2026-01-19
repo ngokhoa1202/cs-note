@@ -19,7 +19,7 @@ body {
 [class^="hltr-"],
 .cm-highlight,
 .has-list-bullet mark {
-  font-family: "Lora" !important;
+  font-family: "Source Serif 4 Caption", "Source Serif 4" !important;
   font-style: italic;
   font-weight: 600;
 }

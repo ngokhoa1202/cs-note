@@ -1,4 +1,4 @@
-#linux #unix #shell #regular-expression 
+#linux #unix #shell #regular-expression #perl #bash 
 # Basic Concepts
 - Regular expressions (regex) are patterns used to match character combinations in text. They provide a powerful and flexible way to search, match, and manipulate text data.
 - Regular expressions are fundamental to Unix text processing tools including `grep`, `sed`, `awk`, `vim`, and scripting languages.
